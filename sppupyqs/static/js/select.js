@@ -4,8 +4,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const mobileSearchToggle = document.querySelector('.mobile-search-toggle');
     const searchContainer = document.getElementById('searchContainer');
     const searchDropdown = document.getElementById('searchDropdown');
-    const breadcrumb = document.getElementById('breadcrumb');
-    const header = document.querySelector('header');
+    const backNavContainer = document.getElementById('backNavContainer');
+    const backButton = document.getElementById('backButton');
+    const backButtonText = document.getElementById('backButtonText');
+    const patternSelects = document.querySelectorAll('.pattern-select');
+
+    patternSelects.forEach((select) => {
+        select.addEventListener('change', function () {
+            if (this.value && this.value !== window.location.pathname) {
+                window.location.href = this.value;
+            }
+        });
+    });
 
     // Mobile search toggle
     if (mobileSearchToggle) {
@@ -111,12 +121,15 @@ document.addEventListener('DOMContentLoaded', function () {
             const item = entry.item;
             const row = document.createElement('div');
             row.classList.add('search-result-row');
+            const meta = item.sem_no
+                ? `${item.branch_name} &mdash; Sem ${item.sem_no}`
+                : `${item.branch_name}${item.year_label ? ' &mdash; ' + item.year_label : ''}`;
             row.innerHTML = `
                 <span class="result-subject">${item.subject_name}</span>
-                <span class="result-branch">${item.branch_name} &mdash; Sem ${item.sem_no}</span>
+                <span class="result-branch">${meta}</span>
             `;
             row.addEventListener('click', () => {
-                window.location.href = '/' + item.subject_link;
+                window.location.href = item.public_url || ('/' + item.subject_link);
             });
             row.addEventListener('mouseenter', () => {
                 activeIndex = idx;
@@ -183,64 +196,74 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelectorAll('.nav-level').forEach(el => el.classList.remove('active'));
     }
 
-    function updateBreadcrumb(path) {
-        breadcrumb.innerHTML = '';
-        if (path.length === 0) {
-            const span = document.createElement('span');
-            span.classList.add('breadcrumb-item', 'active');
-            span.textContent = 'Branches';
-            breadcrumb.appendChild(span);
+    function updateBackNavigation(path) {
+        if (!backNavContainer || !backButton || !backButtonText) return;
+        if (path.length < 2) {
+            backNavContainer.hidden = true;
             return;
         }
-
-        path.forEach((item, index) => {
-            const span = document.createElement('span');
-            span.classList.add('breadcrumb-item');
-            if (index === path.length - 1) {
-                span.classList.add('active');
-            } else {
-                span.classList.add('clickable');
-                span.onclick = item.onClick;
-            }
-            span.textContent = item.name;
-            breadcrumb.appendChild(span);
-
-            if (index < path.length - 1) {
-                const separator = document.createElement('span');
-                separator.classList.add('breadcrumb-separator');
-                separator.innerHTML = '&rsaquo;';
-                breadcrumb.appendChild(separator);
-            }
-        });
+        backNavContainer.hidden = false;
+        
+        const parent = path[path.length - 2];
+        backButtonText.textContent = `Back to ${parent.name}`;
+        backButton.onclick = () => showLevel(parent.target_id);
     }
 
-    window.showSemesters = function (branch) {
+    window.showLevel = function (levelId) {
         clearActive();
-        document.getElementById(`${branch.replaceAll(' ', '_')}-sems`).classList.add('active');
-        updateBreadcrumb([
-            { name: 'Branches', onClick: () => showBranches() },
-            { name: branch }
-        ]);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    window.showSubjects = function (branch, sem) {
-        clearActive();
-        document.getElementById(`${branch.replaceAll(' ', '_')}-${sem.replaceAll(' ', '_')}-subjects`).classList.add('active');
-        updateBreadcrumb([
-            { name: 'Branches', onClick: () => showBranches() },
-            { name: branch, onClick: () => showSemesters(branch) },
-            { name: sem }
-        ]);
+        const level = document.getElementById(levelId);
+        if (!level) return;
+        level.classList.add('active');
+        let path = [];
+        try {
+            path = JSON.parse(level.getAttribute('data-breadcrumbs') || '[]');
+        } catch (_error) {
+            path = [];
+        }
+        updateBackNavigation(path);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     window.showBranches = function () {
-        clearActive();
-        document.getElementById('branches').classList.add('active');
-        updateBreadcrumb([]);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        showLevel('root');
     };
 
-    updateBreadcrumb([]);
+    updateBackNavigation([]);
+
+    // Custom Dropdown Logic
+    function setupCustomDropdown(dropdownId, selectedId, optionsId) {
+        const dropdown = document.getElementById(dropdownId);
+        const selected = document.getElementById(selectedId);
+        const optionsContainer = document.getElementById(optionsId);
+        if (!dropdown || !selected || !optionsContainer) return;
+
+        selected.addEventListener('click', (e) => {
+            e.stopPropagation();
+            optionsContainer.classList.toggle('show');
+            selected.classList.toggle('open');
+        });
+
+        const options = optionsContainer.querySelectorAll('.dropdown-option');
+        options.forEach(opt => {
+            opt.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const val = opt.getAttribute('data-value');
+                if (val && val !== window.location.pathname) {
+                    window.location.href = val;
+                } else {
+                    optionsContainer.classList.remove('show');
+                    selected.classList.remove('open');
+                }
+            });
+        });
+    }
+
+    setupCustomDropdown('customPatternDropdown', 'dropdownSelected', 'dropdownOptions');
+    setupCustomDropdown('mobilePatternDropdown', 'mobileDropdownSelected', 'mobileDropdownOptions');
+
+    // Close dropdowns on outside click
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.dropdown-options.show').forEach(el => el.classList.remove('show'));
+        document.querySelectorAll('.dropdown-selected.open').forEach(el => el.classList.remove('open'));
+    });
 });

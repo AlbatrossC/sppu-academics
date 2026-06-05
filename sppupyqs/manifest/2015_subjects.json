@@ -1,0 +1,4191 @@
+{
+  "schemaVersion": 2,
+  "pattern": "2015_pattern",
+  "patternYear": "2015",
+  "generatedAt": "2026-06-05T14:26:14Z",
+  "providers": {
+    "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
+    "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
+  },
+  "subjects": {
+    "artificial_intelligence_and_robotics_ce": {
+      "subjectKey": "artificial_intelligence_and_robotics_ce",
+      "shortCode": "air",
+      "fullName": "Artificial Intelligence & Robotics",
+      "normalizedName": "artificial_intelligence_and_robotics",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1h-WkUVZUJ_koVzj-svQBJCzFRxOnDkkT",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/insem_aug_2018_ce_airc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1UCK0pbmxDhD5gPzucJD_RrMqMVbM01B_",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/endsem_nov_dec_2018_ce_airc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1DUWqJB8SZhUQrvAl_DDDqWCXQjkaBv88",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/endsem_may_jun_2019_ce_airc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1eZDtjIoiSafE5fU2dsp72PRPsh3xWAGT",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/endsem_nov_dec_2019_ce_airc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yhOoZ6y-N2KPXzz26C5Dyqo14_UsWVYb",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/insem_oct_2019_ce_airc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "1zbjWI6WGvSMgIpYvny8JGKugTXl4ZLXS",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/artificial_intelligence_and_robotics_ce/endsem_may_jun_2022_ce_airc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "cloud_computing_ele_IV_ce": {
+      "subjectKey": "cloud_computing_ele_IV_ce",
+      "shortCode": "cc_eIV",
+      "fullName": "Cloud Computing_Ele_IV",
+      "normalizedName": "cloud_computing_ele_IV",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1iNQJ99We8UQeYH3kIRelqEPIN6VNmpdn",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/insem_mar_2019_ce_ccc_eIV_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1KlnL-SA-MX91xzzmmJGGSsSqH4PWH9j6",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/endsem_may_jun_2019_ce_ccc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "15PQCcKGYHFdTCnENoguvLcz0xv6E8yZr",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/endsem_nov_dec_2019_ce_ccc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1oAz6jwI1zaoBKW0Ql9d7z_TLwoq7d7Bz",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/insem_mar_2020_ce_ccc_eIV_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1QS9OmvBVJatzBXeKqC6sQyv-ZeJX_aGe",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/endsem_may_jun_2022_ce_ccc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1e7AAoeO9LW6XEW6yajwGlxrysU5STZxA",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/endsem_may_jun_2023_ce_ccc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1i5FPoOL4F2xmFQMbaF9xm01U27jmPvey",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/cloud_computing_ele_IV_ce/endsem_nov_dec_2023_ce_ccc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "data_analytics_ce": {
+      "subjectKey": "data_analytics_ce",
+      "shortCode": "da",
+      "fullName": "Data Analytics",
+      "normalizedName": "data_analytics",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1zepkCKYlZbLAeuMPsKMin-Wf4WpiacW5",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/insem_aug_2018_ce_dac_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "19DxyhviWT_6DUTWcIRF6vT5it4eg_F7u",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/endsem_nov_dec_2018_ce_dac_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1YBkJktQyjjL73QR2AQADM-7GKfVL3FHZ",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/endsem_may_jun_2019_ce_dac_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1EiGsk-bYVx4xYvAHyjtxB0TL2Z1A4L0r",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/endsem_nov_dec_2019_ce_dac_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1XrADGRpQFeqs0QfAeyozGw1LRNAggWvR",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/insem_oct_2019_ce_dac_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yOfxk3V9gtTOALeCv4OM3QGRZQjD20dj",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_analytics_ce/endsem_may_jun_2022_ce_dac_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "data_mining_and_warehousing_ele_I_ce": {
+      "subjectKey": "data_mining_and_warehousing_ele_I_ce",
+      "shortCode": "dmw_eI",
+      "fullName": "Data Mining & Warehousing_Ele-I",
+      "normalizedName": "data_mining_and_warehousing_ele_I",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Z9ZTlXEF3MNot3qrNdddRd2dNQh7_Kzo",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/insem_aug_2018_ce_dmwc_eI_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1y2u6Gs7s3oP8AmCuztg2Ik3ic5IlOuSL",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/endsem_nov_dec_2018_ce_dmwc_eI_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CpCHqqX7PMzB9NaKKC41kUji8KMC99oi",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/endsem_may_jun_2019_ce_dmwc_eI_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1go7_trQ2bU660ejJ8-T_umS931q3OxWk",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/endsem_nov_dec_2019_ce_dmwc_eI_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1lAtxv8BIqldWYGqPDGJf-Ryc2QLADRe_",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/insem_oct_2019_ce_dmwc_eI_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "1NGbpRA1p4CZ2ubIp-4qmW52KbFf09xnU",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/data_mining_and_warehousing_ele_I_ce/endsem_may_jun_2022_ce_dmwc_eI_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "embedded_and_rto_system_ele_III_ce": {
+      "subjectKey": "embedded_and_rto_system_ele_III_ce",
+      "shortCode": "ers_eIII",
+      "fullName": "Embedded & RTO System_Ele_III",
+      "normalizedName": "embedded_and_rto_system_ele_III",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "11cyB-DBFj8Owb9-xRDZCRo4fUZ7qCm22",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/insem_mar_2019_ce_ersc_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "16emlJbx9x8caGiS0u3qR8EpBh_qdfMXg",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_may_jun_2019_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1MPb9VNkN66dTyXmkUVY45eTOymoHClQd",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_nov_dec_2019_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1CySvlyHVdcSTJZknarlUB263yBjSB6Fi",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/insem_mar_2020_ce_ersc_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1k_WWszrr7UG5IdJaPxAu6X57bodA_t9g",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_may_jun_2022_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "19mL_NRXSyeAA4Vn00GqudjwF1RvlRhIB",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_may_jun_2023_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "16ygXjlZBGbf7yXKqVpqW60iikRK5YDhM",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_nov_dec_2023_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1-qd78o2p1Gs_LGZ7QQssXdpzmwoctMK6",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_may_jun_2024_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "19uWG-_ARiZWnqledWP58DRsvegdc0Oe7",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/embedded_and_rto_system_ele_III_ce/endsem_may_jun_2025_ce_ersc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "high_performance_computing_ce": {
+      "subjectKey": "high_performance_computing_ce",
+      "shortCode": "hpc",
+      "fullName": "High Performance Computing",
+      "normalizedName": "high_performance_computing",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1UpXQGkbk6U448qdB8w3uE6hreuBpolnV",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/high_performance_computing_ce/insem_aug_2018_ce_hpcc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1xSGIAgS1_NJawvjkRtyEpTTGNavNmqC5",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/high_performance_computing_ce/endsem_nov_dec_2018_ce_hpcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1TpMrvcB-PzPXuZUK36oeG8A5J--8dA53",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/high_performance_computing_ce/endsem_may_jun_2019_ce_hpcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1s0HimoUQW5cgRafpwmZ_q9kk7bylPXGS",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/high_performance_computing_ce/endsem_nov_dec_2019_ce_hpcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1XxhzhmoOR82v8Kp7Y8cW3xjfVTdszVxe",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/high_performance_computing_ce/insem_oct_2019_ce_hpcc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "information_and_cyber_security_ce": {
+      "subjectKey": "information_and_cyber_security_ce",
+      "shortCode": "ics",
+      "fullName": "Information & Cyber Security",
+      "normalizedName": "information_and_cyber_security",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1fzBtXiJAuWCsp7nDBYz2wezwlB8IbaoS",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/insem_mar_2019_ce_icsc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "129Sn147ejmPzzMC_QiG1JG6KY_Cada7R",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_may_jun_2019_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "19IEJP-l8DFMq4cba3XOrlwwLo3jOuJYG",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_nov_dec_2019_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "14HY0sNl8iHHgM7NWcMA7SdfgCVSvKBSu",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/insem_mar_2020_ce_icsc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "15QO0rJ8Hte0y9zCPxyVetHiNo22ec2mB",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_may_jun_2022_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1W7qQSlqmIiDnlo7N6PlGTfyF-lmnMDWw",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_may_jun_2023_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tRmPEsOfLagffdHypp30avJotlSVddy6",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_nov_dec_2023_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1stk4VDgrYkhk5X_uZOLjDyQW8RUFj54R",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/information_and_cyber_security_ce/endsem_may_jun_2024_ce_icsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "machine_learning_ce": {
+      "subjectKey": "machine_learning_ce",
+      "shortCode": "ml",
+      "fullName": "Machine Learning",
+      "normalizedName": "machine_learning",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "15Ip5T3_2maBglvhVUF-b1dfzQeNpF76S",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/insem_mar_2019_ce_mlc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1J595FQ2D2J-t8g5Z6aHhh8TN0eFxrZE2",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/endsem_may_jun_2019_ce_mlc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1afiqgRMyhbLleSClak7OdYSOE3X_zjS7",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/insem_mar_2020_ce_mlc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1DU6XrJWoopZ62mCFXSgcGZBfRigSzfZ-",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/endsem_may_jun_2022_ce_mlc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1-wyins25NO7XYfkVUtklV0wQCH3kGnFw",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/endsem_may_jun_2023_ce_mlc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Kx86F8SYEcavVrY3aPEuc5WQQCCUw3Zs",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/machine_learning_ce/endsem_nov_dec_2023_ce_mlc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "soft_computing_and_opti_algorithms_ce": {
+      "subjectKey": "soft_computing_and_opti_algorithms_ce",
+      "shortCode": "scoa",
+      "fullName": "Soft Computing & Opti. Algorithms",
+      "normalizedName": "soft_computing_and_opti_algorithms",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1xpPOozL0MsRfnrY7_c7r-xmcSWjnKnTr",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/soft_computing_and_opti_algorithms_ce/insem_mar_2020_ce_scoac_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "software_testing_and_quality_assurance_ele_II_ce": {
+      "subjectKey": "software_testing_and_quality_assurance_ele_II_ce",
+      "shortCode": "stqa_eII",
+      "fullName": "Software Testing & Quality Assurance_Ele-II",
+      "normalizedName": "software_testing_and_quality_assurance_ele_II",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "19lXU9JH8uIbzTuddQoge9yOwqGCHDNlA",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/insem_aug_2018_ce_stqac_eII_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1PDaHU0yX6strX6AsW5ikHIIi0gY2AJXt",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/endsem_nov_dec_2018_ce_stqac_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1mVtyt_B2pIodMXb3zBXOWJX9McZS0ewI",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/endsem_may_jun_2019_ce_stqac_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1XdTj9BwxLIJGpZp-Qp3_wrAiSydp6qtn",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/endsem_nov_dec_2019_ce_stqac_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1zziqP5ayPNkdVj57DnWbwPBVfwhX0Mlz",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/insem_oct_2019_ce_stqac_eII_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "1OuAwyLvqnD7-eq0WrHqND4GpMFzEyUk-",
+          "canonicalPath": "papers/computer-engineering/be/2015_pattern/software_testing_and_quality_assurance_ele_II_ce/endsem_may_jun_2022_ce_stqac_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "advanced_data_structures_ce": {
+      "subjectKey": "advanced_data_structures_ce",
+      "shortCode": "ads",
+      "fullName": "Advanced Data Structures",
+      "normalizedName": "advanced_data_structures",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1myB9FvhmoKTQXv_FDMrw94NHfEjmHw9f",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_may_jun_2017_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1gQ0iEDExpPhRiuKS4gh3o-l-ya9GGIv9",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_nov_dec_2017_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "10qzcIMo3k6doIcjnFcAWk_EBveAbkvTd",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_may_jun_2018_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "15mqCZJ6QQfunWHY8dsw0epu29OT-Cl3R",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_nov_dec_2018_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1QZS1Xvsc_cvzresCwwbSvlTQT2LhrCvR",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_may_jun_2019_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1oVvE2vDbWXayWhw4VVBFt-ZM_94Cz3lA",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/advanced_data_structures_ce/other_nov_dec_2019_ce_adsc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "computer_graphics_ce": {
+      "subjectKey": "computer_graphics_ce",
+      "shortCode": "cg",
+      "fullName": "Computer Graphics",
+      "normalizedName": "computer_graphics",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Ttu594qO18PBYZA9RSSxfVdZdUuFPn7m",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_may_jun_2017_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1IvEkChEUdEHLvbkxEAGHM87YPwO2rDKM",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_nov_dec_2017_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1NiuRzs1GWl5Jfp8iUIZ2dHhgTpOPYhHd",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_may_jun_2018_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1FIvexwe5k40cEuuCi8t4b3jKz3qjR2xg",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_nov_dec_2018_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1TBPITGWGPa5b1mjXoZvCJm1RIx-LU0Vc",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_may_jun_2019_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1JYgtDtIMVyp8lieb62zrscoA6b_b6SJ8",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_graphics_ce/other_nov_dec_2019_ce_cgc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "computer_orga_and_architecture_ce": {
+      "subjectKey": "computer_orga_and_architecture_ce",
+      "shortCode": "coa",
+      "fullName": "Computer Orga. and Architecture",
+      "normalizedName": "computer_orga_and_architecture",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "17j1mOWzK-ZqvaeuBI5le8YX7MC2wMOF9",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_nov_dec_2016_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1cwWVwIIBvS9RpxILEvwZG2_xz2Cfvmeg",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_may_jun_2017_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1RtANI4lahZtJ3MC4Rph1w3EDPWyXZ1rp",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_nov_dec_2017_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1MAGrMZkc0AoeNnLgY_94se-T15rY21fz",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_nov_dec_2018_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1g0vFIBh5_hInF9xoB7bscwLxoCxz0xbD",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_may_jun_2019_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1BfhV5WjUeRzGHHf6FkjuDT6d8-SuFWH6",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/computer_orga_and_architecture_ce/other_nov_dec_2019_ce_coac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "data_structures_and_algorithms_ce": {
+      "subjectKey": "data_structures_and_algorithms_ce",
+      "shortCode": "dsa",
+      "fullName": "Data Structures & Algorithms",
+      "normalizedName": "data_structures_and_algorithms",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1VUkXQ6vd3NZRTas12RMAYzyRyeKYc4iz",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_nov_dec_2016_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1tpgsFOXz1WQ1CHu4PWVR2kE8qvGS-23C",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_may_jun_2017_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1XMsdENMQVCqOEkMwJMeCFlKURXKVwwgo",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_nov_dec_2017_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1ldoDxaVXMMe3_L_47S72VE6F-Zahu6eY",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_may_jun_2018_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1O6Iveye9R71B5zNdxNT0rzxGhyqeJfvn",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_nov_dec_2018_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CjvjJxAbT-tFdbFKnTGlW73I4i_1JK4n",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_may_jun_2019_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1rIelBmlgad8GX4tVqDGOkrMgygW2oebZ",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/data_structures_and_algorithms_ce/other_nov_dec_2019_ce_dsac_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "digital_electronics_and_logic_design_ce": {
+      "subjectKey": "digital_electronics_and_logic_design_ce",
+      "shortCode": "deld",
+      "fullName": "Digital Electronics & Logic Design",
+      "normalizedName": "digital_electronics_and_logic_design",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1bZhkhFN_DHbTW43neUPVVFPut0YxGIoV",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/digital_electronics_and_logic_design_ce/other_nov_dec_2016_ce_deldc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1p6wbSBU7tfoDpJlyAqPahMva28-S61oS",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/digital_electronics_and_logic_design_ce/other_may_jun_2017_ce_deldc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1xUdc8DrquhCpWIJ4QZfQ7tMuS1T3X_8w",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/digital_electronics_and_logic_design_ce/other_nov_dec_2017_ce_deldc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1WAVVxMThjDUnLVazvWgddH2UFfNsnQZx",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/digital_electronics_and_logic_design_ce/other_nov_dec_2018_ce_deldc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1yKt-z15x1uXi3Hv4N9MA9RpAP_7dgXOF",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/digital_electronics_and_logic_design_ce/other_may_jun_2019_ce_deldc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "discrete_mathematics_ce": {
+      "subjectKey": "discrete_mathematics_ce",
+      "shortCode": "dm",
+      "fullName": "Discrete Mathematics",
+      "normalizedName": "discrete_mathematics",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1ad4XLKLZLivwVNnBoFyidNSNvRvg5mfU",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_nov_dec_2016_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1kW0yKmkfIH-pH3q_KppVpwjulv1EfYYH",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_may_jun_2017_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1RMOwNAAQMxvEcpBBKMy4Ntxhae2VmEcm",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_nov_dec_2017_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1AI9wa14CaqnAe_dEoQLjYDmF4sBwoSJO",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_may_jun_2018_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1FyzuUX8iILa82k2XS55P5Isfv-TAcMd_",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_nov_dec_2018_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Djq9_nlRg38xgfO2ZvDRVT8EhOHvI6oO",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_may_jun_2019_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "14dlAdZ5vunAhyTalCQRvCjj-RY0HiwWm",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/discrete_mathematics_ce/other_nov_dec_2019_ce_dmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_maths_III_ce": {
+      "subjectKey": "engineering_maths_III_ce",
+      "shortCode": "emIII",
+      "fullName": "Engineering Maths III",
+      "normalizedName": "engineering_maths_III",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1FYLZ6odMZL_Estx_Bkw1qjB0ciaSvX-A",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_may_jun_2017_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1tl2zMonkyZUNh5bJwjhpAT77YdepvH9t",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_nov_dec_2017_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1lq1sU3Hm2tJ2fVuCYvW1Ip8FFBWUTb7z",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_may_jun_2018_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1pn5yf3ebVf9_hAFzCAAK2-uT0ViARuOd",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_nov_dec_2018_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "16P6_GzY3YRXdjwC5nNMxpa43RJTXXuQt",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_may_jun_2019_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1PdkiaA2w4WLOV6UaJb9j7LFMexFTtrYp",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_nov_dec_2019_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1YjGzcK7-_ZCdukA6-rosAyRO8WEDPqQf",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_may_jun_2022_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "10zJfAUp4lIQVbdT-4TOaLmV6aEhezvg4",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_nov_dec_2022_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ZHaPguuOMG4WiNdXsJLfUkejs8ddZfqA",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/engineering_maths_III_ce/other_may_jun_2023_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2023
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "microprocessor_and_interfacing_tech_ce": {
+      "subjectKey": "microprocessor_and_interfacing_tech_ce",
+      "shortCode": "mit",
+      "fullName": "Microprocessor & Interfacing Tech",
+      "normalizedName": "microprocessor_and_interfacing_tech",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1JCi8oGnQp4YdwsoCUGR9lmOWKGtkTNjt",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_and_interfacing_tech_ce/other_nov_dec_2018_ce_mitc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "microprocessor_ce": {
+      "subjectKey": "microprocessor_ce",
+      "shortCode": "m",
+      "fullName": "Microprocessor",
+      "normalizedName": "microprocessor",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1PbR0EvCL7-W-ZIUc7E92-tfTXj17IpKx",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_may_jun_2017_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "13ESZgikPsRai9MoURLqG-_HM5ZMdC-bF",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_nov_dec_2017_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1PcY2F3rxudnSQoADgIxbNKqGVbkjCtn5",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_may_jun_2018_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1TRaYSzjuP-ANI7OXLHt5XtJdiLkjZvZx",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_nov_dec_2018_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1AEpDXPtunPy3EGfyfqmO2ZPxDIkVh-OK",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_may_jun_2019_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "116x0GkdovWeHab6JhrbD5Op5A6A9H0Mf",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/microprocessor_ce/other_nov_dec_2019_ce_mc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "object_oriented_programming_ce": {
+      "subjectKey": "object_oriented_programming_ce",
+      "shortCode": "oop",
+      "fullName": "Object Oriented Programming",
+      "normalizedName": "object_oriented_programming",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1kqTzrayvKjIvHrpv_YfdPe1VUdacxTIt",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_nov_dec_2016_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1ykMl_n8sVIGcgONgF2qkjAEytIMdWIdB",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_may_jun_2017_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1fi6d3-eM7faGb2i4IbXHn6Gu9W1Uy263",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_nov_dec_2017_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1F0DF5fX7taaUKfxBpGih8gVm4k2p5QF-",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_may_jun_2018_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1NbjuWzzhNcutno7R3at-b4uewnTpirsU",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_nov_dec_2018_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "15Jbn0x-j2qZTT02OBZGe2Svl7d2wX8Xa",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_may_jun_2019_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "14-q6dojFylvdiQB3HdV0_gdMQww8Uldu",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/object_oriented_programming_ce/other_nov_dec_2019_ce_oopc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "principles_of_programming_languages_ce": {
+      "subjectKey": "principles_of_programming_languages_ce",
+      "shortCode": "ppl",
+      "fullName": "Principles of Programming Languages",
+      "normalizedName": "principles_of_programming_languages",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1-26G3quKnoLGdtLzGZgZJQtMeab7GNMc",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_may_jun_2017_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1dlho1_J7g3Js5QP8SSNCAj86GWWOamzy",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_nov_dec_2017_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1au_j0l04UgRoZhce7HOC0H-fA_3u6RVk",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_may_jun_2018_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1loIhScbKVTImLrB66keu-dhBOAuXp0OX",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_nov_dec_2018_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1HK4dh_8mZ3HW9g4xGZ7gSJ6kuGlN2Joe",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_may_jun_2019_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1_DnNpa_rU-Jane4VfUBa67wDEhgGU_iY",
+          "canonicalPath": "papers/computer-engineering/se/2015_pattern/principles_of_programming_languages_ce/other_nov_dec_2019_ce_pplc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "computer_network_ce": {
+      "subjectKey": "computer_network_ce",
+      "shortCode": "cn",
+      "fullName": "Computer Network",
+      "normalizedName": "computer_network",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Xu3rdLRuGAgs1ute9zz_AQnU5x52xmAX",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/insem_aug_2017_ce_cnc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1wZayhx5xmjiFc5VM5J0gJYMMzrv4Wl-1",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/endsem_nov_dec_2017_ce_cnc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1qjKxh-3l5nnogOt11yi2Agut5urqLIs-",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/insem_aug_2018_ce_cnc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1IDrq6GTVMf4J505jX2tYZEj9oWNRX7Zh",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/endsem_may_jun_2018_ce_cnc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1zDMDZXhWPGRWZwm-nYZUZWNUuKdy8wcl",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/endsem_nov_dec_2018_ce_cnc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1JNMthVkDFbglhxhCaKinaBBtAaJKdFbC",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/endsem_may_jun_2019_ce_cnc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "12wU3TQwBolUUqXKNbz6D8QmA5esxZ7mg",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/endsem_nov_dec_2019_ce_cnc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1SJ9tQjWOdAHGMFHImicdgSXHi8f_xlCY",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/computer_network_ce/insem_oct_2019_ce_cnc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "database_management_systems_ce": {
+      "subjectKey": "database_management_systems_ce",
+      "shortCode": "dms",
+      "fullName": "Database Management Systems",
+      "normalizedName": "database_management_systems",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1-WVH9iOs7D-mL2wRXaK45ng9KVWhu6ic",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/insem_aug_2017_ce_dmsc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "16LgR4MkQB3TtKJFYATTPjckcZ3f8sCF4",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/endsem_nov_dec_2017_ce_dmsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "17gdrvb2NKwZSYbjeogshRMcYsdEpwj2-",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/endsem_may_jun_2018_ce_dmsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1tNbBeoLUqAnmkUGnJnlOTpDt3V3TD1TR",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/endsem_nov_dec_2018_ce_dmsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1o9ws8GS9e5asoCy7mbUaiz5HvDyDle2G",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/endsem_may_jun_2019_ce_dmsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Bf3lQCHXzLBgXZSsqVo9KLoQSlmW6hrT",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/endsem_nov_dec_2019_ce_dmsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1DunfoEAbF4uJW4Eyyw4uMXmw93KGbZse",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/database_management_systems_ce/insem_oct_2019_ce_dmsc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "design_and_analysis_of_algorithms_ce": {
+      "subjectKey": "design_and_analysis_of_algorithms_ce",
+      "shortCode": "daa",
+      "fullName": "Design & Analysis of Algorithms",
+      "normalizedName": "design_and_analysis_of_algorithms",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1ct074NBSpvN6lIhRsXXFPM1-3gVO06SA",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/endsem_may_jun_2018_ce_daac_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "14mik1Pk2XAjzBTJPN2bRZq-2IpgDBSNi",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/insem_mar_2019_ce_daac_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1WLeZ5RN0LdDYKTZvTDQCjcu677q-5cGE",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/endsem_may_jun_2019_ce_daac_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ONkEOwpr6LxlAFStvmlV2qqUa3aPQUam",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/endsem_nov_dec_2019_ce_daac_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1N7JKOHeZB9ms4prPEyDpjAk9ws1nekoF",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/insem_mar_2020_ce_daac_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1sJ0p_ydLfrxF5U6v3-eFAjQ5u-xzeRaf",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ce/endsem_may_jun_2022_ce_daac_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "embedded_system_and_internet_of_things_ce": {
+      "subjectKey": "embedded_system_and_internet_of_things_ce",
+      "shortCode": "esit",
+      "fullName": "Embedded System & Internet of Things",
+      "normalizedName": "embedded_system_and_internet_of_things",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "18qZ7aYj8IO7op0HpyMxvjti-xJsJVQSC",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/insem_mar_2018_ce_esitc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Dtpm664Thzk8UnGQTSE7Lwy53cdFuqT9",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/endsem_may_jun_2018_ce_esitc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "12XulhewMnUFFYdBgduiQZfrXIJNKhZVt",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/endsem_nov_dec_2018_ce_esitc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1BIgEx5UBasfQj5H6lnGcqLct_AwkiYtK",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/endsem_may_jun_2019_ce_esitc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1DnsrL3UrhRhFre7_svT0mbYK4jvMr8-q",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/endsem_nov_dec_2019_ce_esitc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1g_4XW7TWoxvOk7kZGv5-pzyijNa0vWyL",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/insem_mar_2020_ce_esitc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1-J5tK85V3pDjb-Y0PV3cL9dzOFXZWmAh",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/embedded_system_and_internet_of_things_ce/endsem_may_jun_2022_ce_esitc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "information_systems_and_engg_economics_ce": {
+      "subjectKey": "information_systems_and_engg_economics_ce",
+      "shortCode": "isee",
+      "fullName": "Information Systems & Engg Economics",
+      "normalizedName": "information_systems_and_engg_economics",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1FpMAWLALuiJnnkCZ7VWiiaZR-kmjcjj6",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/insem_aug_2017_ce_iseec_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "11BhdWVLMqMDRp_-ZKiGRhIAuVrrnzXBi",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/endsem_nov_dec_2017_ce_iseec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1qGwSTQGjjA9WVVIj9gYJNgI3Ucist_-c",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/insem_aug_2018_ce_iseec_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1cyA6PfE9Ey2_lOwzijXTQI2-w73Jzg7H",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/endsem_may_jun_2018_ce_iseec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1_HwxJAfOpPvCiNavY_XdINvtybtDkF3j",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/endsem_nov_dec_2018_ce_iseec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1HEAXBvgZuZTF_yiDFXouZt6kN2h1KNiT",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/endsem_may_jun_2019_ce_iseec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1RV4UfYWqh1DNahDEtYCMA1h5B3WVqq60",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/endsem_nov_dec_2019_ce_iseec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1CeXO7BHXgyPjQRhuz7rhPBICiYQmqIQ2",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/information_systems_and_engg_economics_ce/insem_oct_2019_ce_iseec_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "software_engg_and_project_mgt_ce": {
+      "subjectKey": "software_engg_and_project_mgt_ce",
+      "shortCode": "sepm",
+      "fullName": "Software Engg & Project Mgt",
+      "normalizedName": "software_engg_and_project_mgt",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1x-E0pnekYWDsvFkzlkZ4gjQtne-TXZUJ",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/insem_aug_2017_ce_sepmc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Eb6TD5vFL4I0udHtcHtaFOT7gkXioDH1",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/endsem_nov_dec_2017_ce_sepmc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "11Y1KdPy8h5QxYf7LgTkLbxvqec0wQ6Iz",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/insem_aug_2018_ce_sepmc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Zi1g_DOhCXVv7P8edkDCUZMgqPUvucW3",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/endsem_may_jun_2018_ce_sepmc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Tl3v_uTet4thPlvcbwFkxqPZAhjRgQor",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/endsem_nov_dec_2018_ce_sepmc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1N0N65dp114uaDKoj70jEpAK2dMJw3wcy",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/endsem_may_jun_2019_ce_sepmc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "14rfiZSmCqIZaTz6MMGgO2Bgl2QB2cUY_",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/endsem_nov_dec_2019_ce_sepmc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1L35lsrxVJjgeB3-74rhJ6dS3CrtZEJbN",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_engg_and_project_mgt_ce/insem_oct_2019_ce_sepmc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "software_modeling_and_design_ce": {
+      "subjectKey": "software_modeling_and_design_ce",
+      "shortCode": "smd",
+      "fullName": "Software Modeling & Design",
+      "normalizedName": "software_modeling_and_design",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1xgvMbCbICSMBY9Q_V4Vf-BxF77bkok7t",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/insem_mar_2018_ce_smdc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1vmUhCNBnkN3XBB6-3eKf1tskZ4OEXd5T",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/endsem_may_jun_2018_ce_smdc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1hqC70ykTVc-TrMjqBw7pNPCzTZb_-fJJ",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/endsem_nov_dec_2018_ce_smdc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1h1nsCBErSHHBc-KtW3skdarWIl6cqmeJ",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/insem_mar_2019_ce_smdc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1pbpP5zNtKXAxFSe1MQYUhXfOTs9h81iy",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/endsem_nov_dec_2019_ce_smdc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1wkgFFKmQx_NzS5DSi5f_-dgN4z7u_-EU",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/insem_mar_2020_ce_smdc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1nN4ucEIXSRrv8w_5Tg-v7TdIFhlleQ-D",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/software_modeling_and_design_ce/endsem_may_jun_2022_ce_smdc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "systems_prog_and_operating_system_ce": {
+      "subjectKey": "systems_prog_and_operating_system_ce",
+      "shortCode": "spos",
+      "fullName": "Systems Prog & Operating System",
+      "normalizedName": "systems_prog_and_operating_system",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1ANUOtfipIj2e9mxvStBbFwFVRPz70IeC",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/insem_mar_2018_ce_sposc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1rxk-Sr9uzgYXFUKDMrJlNmxyUdXqIy-F",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/endsem_may_jun_2018_ce_sposc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1tlI1cyCivdq8BAXamNWPjKKE3qxBfY1p",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/endsem_nov_dec_2018_ce_sposc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1_rU_x-jn22edPCs5AgRrFm_OynpaNPUy",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/insem_mar_2019_ce_sposc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1mHS600MsI4bKNEJMHPUMZ1Dy5maL25fg",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/endsem_may_jun_2019_ce_sposc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1DX3AyRH-wZghF3tMo-0HlkWXNuaARMc9",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/endsem_nov_dec_2019_ce_sposc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Lt9jn_8AszFrJBDq_AFNuiDQHmCf6Lls",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/systems_prog_and_operating_system_ce/insem_mar_2020_ce_sposc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "theory_of_computation_ce": {
+      "subjectKey": "theory_of_computation_ce",
+      "shortCode": "tc",
+      "fullName": "Theory of Computation",
+      "normalizedName": "theory_of_computation",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1sPpCAqD-4w3iSwMnkaSnIKc7RzrWCZh7",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/insem_aug_2017_ce_tcc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1k_kSSMDGD3V9yeP7BQi5-4aXxWXO5MDz",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/endsem_nov_dec_2017_ce_tcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1e0uJXCYIwhHvBmpuW-vFyoXQdHo8pkn3",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/insem_aug_2018_ce_tcc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1YnI65eAhV8uPceagO-KeP9FsGZEY9-wZ",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/endsem_may_jun_2018_ce_tcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1myhNqIOPibO8xwh7PoqokwxIuwDTFgHP",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/endsem_nov_dec_2018_ce_tcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1JEPrNzOkDvvVnXeOom11PR9xYxVHxLtP",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/endsem_may_jun_2019_ce_tcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1p2q7GH36F8yPzsY6SX4ufTBpHOv0h22Q",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/endsem_nov_dec_2019_ce_tcc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FboL45tAoVOmZGY63Ny3hSscKJrphs_c",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/theory_of_computation_ce/insem_oct_2019_ce_tcc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "web_technology_ce": {
+      "subjectKey": "web_technology_ce",
+      "shortCode": "wt",
+      "fullName": "Web Technology",
+      "normalizedName": "web_technology",
+      "branchType": "standard",
+      "branchKey": "computer-engineering",
+      "branchCode": "ce",
+      "branchName": "Computer Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Fl2q_nta5T2S8hxiGHy_Y_J-NCjDnUYX",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/insem_mar_2018_ce_wtc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "16tUHCze-S1kdpudTdxxQPClFToHBBien",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/endsem_may_jun_2018_ce_wtc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "11kPWwFko56u5822TsmBCPEFWeaXbwSo7",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/endsem_nov_dec_2018_ce_wtc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1e3m9asedOjRt3Vk30xnAo8JMYxBIOAiP",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/insem_mar_2019_ce_wtc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TIAwi4SMm36XCuSpzdvWBUE8bst1-YZh",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/endsem_may_jun_2019_ce_wtc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1j46NOQfIqFVXM9_u-9CJbm0YevVY7sSS",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/endsem_nov_dec_2019_ce_wtc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "19E0G184T0ou1dboyGJjw5EgTHiCq9IXl",
+          "canonicalPath": "papers/computer-engineering/te/2015_pattern/web_technology_ce/insem_mar_2020_ce_wtc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "basic_civil_and_environmental_engg_fy": {
+      "subjectKey": "basic_civil_and_environmental_engg_fy",
+      "shortCode": "bcee",
+      "fullName": "Basic Civil & Environmental Engg",
+      "normalizedName": "basic_civil_and_environmental_engg",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Lbn5WN50la-okNI4VIX3OPlHvFQhfFLN",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_nov_dec_2016_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "16ZDd4peZA413ArbjkSu3dcYfZ_y2RIEa",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_may_jun_2017_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1NWOY9VZW0ltNhBCzXkXgwJGkE2a5LuAv",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_nov_dec_2017_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1UgWvR-hHPAqLYhkvWiduvhW4bXHj-hXS",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_nov_dec_2018_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1hkHHExiMNvvp9dLnQfDdAZ4kmGvTjJdQ",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_may_jun_2019_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1YQ7yHxaJVXHaYaURSsqeLGXMllWKq6pC",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_civil_and_environmental_engg_fy/other_nov_dec_2019_fy_bceef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "basic_electrical_engineering_fy": {
+      "subjectKey": "basic_electrical_engineering_fy",
+      "shortCode": "bee",
+      "fullName": "Basic Electrical Engineering",
+      "normalizedName": "basic_electrical_engineering",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1TTmnMNU5J0eaNm0VqMAu5nvcO8DH0lyG",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_nov_dec_2016_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "19TpbeubT1vJe9EDYfzZCEWo0jMScng5G",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_may_jun_2017_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1bj6MqIf4rgnzRcT0yfORukStE0Akx1RL",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_nov_dec_2017_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "17N1OCD5_jzfMae2VllLv1BcDgAV_ZpTy",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_may_jun_2018_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Re73MuPI-MJ83EoOU0YEPXo8Y79BijLu",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_nov_dec_2018_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1OUrmIfY7wKiWRU9FNBKwTDLVnof0eNBl",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_may_jun_2019_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ybKVYi4TjgndFetnNfU79K4wgC5cmNA-",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electrical_engineering_fy/other_nov_dec_2019_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "basic_electronics_engineering_fy": {
+      "subjectKey": "basic_electronics_engineering_fy",
+      "shortCode": "bee",
+      "fullName": "Basic Electronics Engineering",
+      "normalizedName": "basic_electronics_engineering",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1yIpznGslmZkcW7JcfJgXDvQN2B_i7eb6",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_nov_dec_2016_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "10eG1lU5YDn7JkUiaPhjhv9uBHhe9xGbu",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_may_jun_2017_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1i0ilMJcxoKkDtdUmVsWJ4mbndn6ZOkUW",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_may_jun_2018_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1-0Gg1qAc7MRLynxO74Yc65WPTybKKF24",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_nov_dec_2018_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "18ZrwHc18asY1P4fn-Zj_y3IEIgoSmrtD",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_may_jun_2019_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1DdUkGZ4WaOfS1XNE1nuFJfAuCyo80xol",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_electronics_engineering_fy/other_nov_dec_2019_fy_beef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "basic_mechanical_engineering_fy": {
+      "subjectKey": "basic_mechanical_engineering_fy",
+      "shortCode": "bme",
+      "fullName": "Basic Mechanical Engineering",
+      "normalizedName": "basic_mechanical_engineering",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1RBRzU49pPfJ7yfCYBULecnbl8qNLTdG_",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_nov_dec_2016_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1J-oC-Gqwz0azx0L-JYCJU0sh-EFInZ5k",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_may_jun_2017_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1PtKSSf-up3BhDPOHrY2XkQOcCaljsoRc",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_nov_dec_2017_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1MIT2bOPTv0gXFJrMdAmgnUy3FVkaDiYn",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_may_jun_2018_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1rNx3bB-Gajsnp_7D90bE7IJ2Vj1PDGaK",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_nov_dec_2018_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1cUHZY4Bgvo1COwBClD5-o6ZeEbIcLX1N",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_may_jun_2019_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Ky6rZXnaKp6ULjNiupEdw-e_UDBHjpbX",
+          "canonicalPath": "papers/first-year/2015_pattern/basic_mechanical_engineering_fy/other_nov_dec_2019_fy_bmef_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_chemistry_fy": {
+      "subjectKey": "engineering_chemistry_fy",
+      "shortCode": "ec",
+      "fullName": "Engineering Chemistry",
+      "normalizedName": "engineering_chemistry",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1xctgDMXs-toxl4l7cN46MQHpKsJWIW38",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_nov_dec_2016_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1_ftLvUW3XPfUYsC_XEEKa52zv4H_Gb7J",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_may_jun_2017_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "12xvchTR-zfUGEa-TNMRintudmK9Ae9XV",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_nov_dec_2017_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1GLWb0MONjcTdDHU94AcX40h0cPfVk8XZ",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_may_jun_2018_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "145G06cTRCCbc-w6Uvg_ynvJTemuo0dyx",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_nov_dec_2018_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1sW08q0gszkRVS-jozxJelGet-rLTCsfx",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_may_jun_2019_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "16MAidplVqP9lfS91FAhbc8F2xG_w8e3u",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_chemistry_fy/other_nov_dec_2019_fy_ecf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_graphics_I_fy": {
+      "subjectKey": "engineering_graphics_I_fy",
+      "shortCode": "egI",
+      "fullName": "Engineering Graphics – I",
+      "normalizedName": "engineering_graphics_I",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1uVZv_L23DtlIxb5T4nlubkRdki6LBx2A",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_nov_dec_2016_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1OmBZnifwgeTkIMtJ-jk0qaVMUgM7bAej",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_may_jun_2017_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "15Bh9TGx4d7uFPbfin1iULgoGq_A1kWC3",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_nov_dec_2017_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1aolSMzYSaImvwx_A6HNfHswNpX1_0F0S",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_nov_dec_2017_fy_egIf_2015p_v2.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1GlpkqTXYf9xlsh1tMDnCd9QK70itE7XU",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_nov_dec_2018_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1iXd9XedXqjH2J0pgeCQ215hZCtfZdnBl",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_may_jun_2019_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1SIHefShWfd4EWkUFvJOpoVfDXrMzXeIt",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_graphics_I_fy/other_nov_dec_2019_fy_egIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_mathematics_II_fy": {
+      "subjectKey": "engineering_mathematics_II_fy",
+      "shortCode": "emII",
+      "fullName": "Engineering Mathematics - II",
+      "normalizedName": "engineering_mathematics_II",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1YVtcDPoYfgf2aix11b7lSQep4bzhW2WA",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_nov_dec_2016_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1EJ7EIfQKQ5qqPCgrRC1LL5QK2ELwl5EU",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_may_jun_2017_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1QRwaKHopoA9FgDDp5bTuZDqWylm3r09G",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_nov_dec_2017_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1pYyyscx8Ec4jxs_jcPGgCKDc21n_M3DJ",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_may_jun_2018_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "13lwZJVaERmhX2sSAHUAm3vRP1Tpo7n2K",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_nov_dec_2018_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ELs6J6rgNRHBUhwFcrR2Mm0C5BFCWKCB",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_may_jun_2019_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1G7ikr1Lm1zVJ8ScvnFQdSK-iTXfRlj5T",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_II_fy/other_nov_dec_2019_fy_emIIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_mathematics_I_fy": {
+      "subjectKey": "engineering_mathematics_I_fy",
+      "shortCode": "emI",
+      "fullName": "Engineering Mathematics - I",
+      "normalizedName": "engineering_mathematics_I",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "14Q9FnA6FwZMDka__68Ye26AQWbUJx8DJ",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_nov_dec_2016_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1owiNKHQq4Aar1siLWBLYgod477BDEx8X",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_may_jun_2017_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1BnVULtKiNnfygx6onmOSH9G8gTVxiBmC",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_nov_dec_2017_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1g2BgwaNInbekq_4EAKi-pBOrm_TI_7wk",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_may_jun_2018_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1yhhEq1T-RqsE8ifxCr7eaP2wI-wWMDeT",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_nov_dec_2018_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1pinUNBGWWxAJIzC-4SYfJe0uL1u0GdgN",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_may_jun_2019_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "10rnvrP5ccGPXQrRQVwn5Pd9iP-qgYrgG",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mathematics_I_fy/other_nov_dec_2019_fy_emIf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_mechanics_fy": {
+      "subjectKey": "engineering_mechanics_fy",
+      "shortCode": "em",
+      "fullName": "Engineering Mechanics",
+      "normalizedName": "engineering_mechanics",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1V-rB3UK7LXwxamJmnnC4Klv33cTlLD33",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_nov_dec_2016_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "19HZ4zyRRDxZkTGltxaeY31mTv5ZCjAGp",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_may_jun_2017_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1cHrS3rZ2ESTNjAfXuO-iP2Qva-MCMy-c",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_nov_dec_2017_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1pIxo9uU7CFOZdCL7-b2MFtX1pljh6exy",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_may_jun_2018_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1vmrjnx14bplFtyRsU3n6cKMK7O3ZbvXa",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_nov_dec_2018_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1WhdIevFw2oKbXxzUDJkOpoUTECw2iuoa",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_mechanics_fy/other_nov_dec_2019_fy_emf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "engineering_physics_fy": {
+      "subjectKey": "engineering_physics_fy",
+      "shortCode": "ep",
+      "fullName": "Engineering Physics",
+      "normalizedName": "engineering_physics",
+      "branchType": "first_year",
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1_LJyQP2vK4kzfO6q4WQs7rTE6CCRn5Gg",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_nov_dec_2016_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1FryJf-lzwVz17bYj42zJr5m0zGyfwhSe",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_may_jun_2017_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "19fO2zuvzrLFb5bIYSEA4RIAA5-EusKrh",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_may_jun_2018_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1c_qMSlvLcY4u7zd7B4f9mrxZujYryuXq",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_nov_dec_2018_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1vMps63FDt9hYvYT5O6I7kbfMx4CQmKC6",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_may_jun_2019_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1wetP092Iwf9421hMab8DTY-VdJIPOyWF",
+          "canonicalPath": "papers/first-year/2015_pattern/engineering_physics_fy/other_nov_dec_2019_fy_epf_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "",
+      "yearName": "",
+      "yearFullName": "First Year"
+    },
+    "business_analytics_and_intelligence_ie": {
+      "subjectKey": "business_analytics_and_intelligence_ie",
+      "shortCode": "bai",
+      "fullName": "Business Analytics & Intelligence",
+      "normalizedName": "business_analytics_and_intelligence",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1MnFqXpPrw5Vp6Elc3z6u2PuU9cdKqzA_",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/business_analytics_and_intelligence_ie/insem_aug_2018_ie_baii_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "12lr7mYj4Q1d5SkRgCisWnUoEcdDQCPY-",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/business_analytics_and_intelligence_ie/endsem_nov_dec_2018_ie_baii_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1YnXVCsw2_g3Fw4ArHSt0e59vkOy7DuCp",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/business_analytics_and_intelligence_ie/endsem_may_jun_2019_ie_baii_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "15Mlgn9nOrfaCDKue2cLdsizC_Z6jWqvN",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/business_analytics_and_intelligence_ie/endsem_nov_dec_2019_ie_baii_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Bruq8IKUO150pcBRt2cOcGy0CBM7ANRP",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/business_analytics_and_intelligence_ie/insem_oct_2019_ie_baii_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "distributed_computing_system_ie": {
+      "subjectKey": "distributed_computing_system_ie",
+      "shortCode": "dcs",
+      "fullName": "Distributed Computing System",
+      "normalizedName": "distributed_computing_system",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1RQJL0lg5hAUIUbzu9mJgDI8F4bTccHEY",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/distributed_computing_system_ie/endsem_may_jun_2019_ie_dcsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1M-teQUFDhwh8RxEw3_oA5Ee5ZZu8eTy2",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/distributed_computing_system_ie/endsem_nov_dec_2019_ie_dcsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1diUQSA1ZlAzyHFcWlarM8LVYc2p9VIog",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/distributed_computing_system_ie/insem_mar_2020_ie_dcsi_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1IwfArg_hMDJaloGEq30DyYoeF7mJ3Pub",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/distributed_computing_system_ie/endsem_may_jun_2022_ie_dcsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "information_and_cyber_security_ie": {
+      "subjectKey": "information_and_cyber_security_ie",
+      "shortCode": "ics",
+      "fullName": "Information & Cyber Security",
+      "normalizedName": "information_and_cyber_security",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "19vPhnYBGNu79LTKKu_h7Lg1n7lXB2ENw",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_and_cyber_security_ie/insem_aug_2018_ie_icsi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1lbKDgQ6a4RBD_R7T9t5r5ii2DuCFvMi2",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_and_cyber_security_ie/endsem_nov_dec_2018_ie_icsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1WQLtTdt4WxPYnrmXoAgk10BKNz_jAUxf",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_and_cyber_security_ie/endsem_may_jun_2019_ie_icsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ftOKY4OUjyRpOE7ihVCln_YIK7cpjNo_",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_and_cyber_security_ie/endsem_nov_dec_2019_ie_icsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1NDJ2WTg7TqO3H4EJrhmMP-oBhYpYn1_g",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_and_cyber_security_ie/insem_oct_2019_ie_icsi_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "information_storage_and_retrieval_ele_III_ie": {
+      "subjectKey": "information_storage_and_retrieval_ele_III_ie",
+      "shortCode": "isr_eIII",
+      "fullName": "Information Storage & Retrieval_Ele_III",
+      "normalizedName": "information_storage_and_retrieval_ele_III",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "19aNjIeNTPlQ6tgosEZB48BdvB6GYzaK_",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_storage_and_retrieval_ele_III_ie/insem_mar_2019_ie_isri_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1LB0jznL1w9P4-0GIutdkyWEy5zzBufPb",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_storage_and_retrieval_ele_III_ie/endsem_may_jun_2019_ie_isri_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1M1BtiVCc_srVrpufYkKb0ynTV9kDOYqO",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_storage_and_retrieval_ele_III_ie/insem_mar_2020_ie_isri_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "183WNY9LoPs1EqKVztX4bpCzbUa8khPXw",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/information_storage_and_retrieval_ele_III_ie/endsem_may_jun_2022_ie_isri_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "machine_learning_and_application_ie": {
+      "subjectKey": "machine_learning_and_application_ie",
+      "shortCode": "mla",
+      "fullName": "Machine Learning & Application",
+      "normalizedName": "machine_learning_and_application",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "16Bu_CzQ37BqBkm1HDEPYVrHppM-Yg4mE",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/machine_learning_and_application_ie/insem_aug_2018_ie_mlai_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1LcyEFZP6RtPiw06xRyBNwXREyFuzMG9L",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/machine_learning_and_application_ie/endsem_nov_dec_2018_ie_mlai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1gEzsW0RJDP71qnQc1miFzesu4frLw36y",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/machine_learning_and_application_ie/endsem_may_jun_2019_ie_mlai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1JNLB7Znp5yN0SxgbmqREM3vkqRMOv3of",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/machine_learning_and_application_ie/endsem_nov_dec_2019_ie_mlai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Xw-KSCpLd5iLLjN3e4eHOEptMATJofXu",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/machine_learning_and_application_ie/insem_oct_2019_ie_mlai_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "social_media_analytics_ie": {
+      "subjectKey": "social_media_analytics_ie",
+      "shortCode": "sma",
+      "fullName": "Social Media Analytics",
+      "normalizedName": "social_media_analytics",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1cMSFsHeT2XwomRlRWZOnj4QCGHuwnpZb",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/social_media_analytics_ie/insem_mar_2019_ie_smai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1N2GrdGMvkGvSncE0bg3hj30T8DFjz_Ml",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/social_media_analytics_ie/endsem_may_jun_2019_ie_smai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1utJI2g75IDt5BWubpr50nGeFb32SMcwl",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/social_media_analytics_ie/insem_mar_2020_ie_smai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1pQycIHjiycw4TV3TROUCr3civyi_hC9F",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/social_media_analytics_ie/endsem_may_jun_2022_ie_smai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "software_design_and_modeling_ie": {
+      "subjectKey": "software_design_and_modeling_ie",
+      "shortCode": "sdm",
+      "fullName": "Software Design & Modeling",
+      "normalizedName": "software_design_and_modeling",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "15w9Txlu6koW8DJtyIIgtMkRpg1dv6s53",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_design_and_modeling_ie/insem_aug_2018_ie_sdmi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1qv6uSDsvI3YNp2yrVYsQYGch9Krf3p6b",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_design_and_modeling_ie/endsem_nov_dec_2018_ie_sdmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1tbT7B-y8KgpRYd03ieDiLkmhIBTupLQO",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_design_and_modeling_ie/endsem_may_jun_2019_ie_sdmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1X9B4e7nIRypWj4viHa2rHrSypUryWhsT",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_design_and_modeling_ie/endsem_nov_dec_2019_ie_sdmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1a0j6nij5Hm-LMsoHHmyw65XbszFsVOW4",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_design_and_modeling_ie/insem_oct_2019_ie_sdmi_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "software_testing_and_quality_assurance_ie": {
+      "subjectKey": "software_testing_and_quality_assurance_ie",
+      "shortCode": "stqa",
+      "fullName": "Software Testing & Quality Assurance",
+      "normalizedName": "software_testing_and_quality_assurance",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1RF0nglsNJmYDCteDgSYVutlKz8MTPu3m",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_testing_and_quality_assurance_ie/insem_aug_2018_ie_stqai_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ek5iBxhVzr8rKI23cX4ObhBkiEdf881w",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_testing_and_quality_assurance_ie/endsem_nov_dec_2018_ie_stqai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1bXyUXWtZmbnBqsZQg4mnvdZ11_WrUg-I",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_testing_and_quality_assurance_ie/endsem_nov_dec_2019_ie_stqai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1YttAg0O6WlMZv95dpmRoWJSg7jYCNXTD",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/software_testing_and_quality_assurance_ie/insem_oct_2019_ie_stqai_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "ubiquitous_computing_ie": {
+      "subjectKey": "ubiquitous_computing_ie",
+      "shortCode": "uc",
+      "fullName": "Ubiquitous Computing",
+      "normalizedName": "ubiquitous_computing",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1mUfEr98fm4SKzFVtRoEPZwFAkgTlRyLn",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/ubiquitous_computing_ie/insem_mar_2019_ie_uci_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "11c-xXDBcr7M4MX5k6-N84TRfPBJGGtdK",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/ubiquitous_computing_ie/endsem_may_jun_2019_ie_uci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yGxW6ZTLpRehyVA3AYddA0YW3LH7G7HB",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/ubiquitous_computing_ie/insem_mar_2020_ie_uci_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1NvRHa_hs-dX0WyvsFI9lqAN4pxXJbwxH",
+          "canonicalPath": "papers/it-engineering/be/2015_pattern/ubiquitous_computing_ie/endsem_may_jun_2022_ie_uci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "computer_graphics_ie": {
+      "subjectKey": "computer_graphics_ie",
+      "shortCode": "cg",
+      "fullName": "Computer Graphics",
+      "normalizedName": "computer_graphics",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1QJGyECuGCq7tqGX_96jRYnjJYsUNoz_E",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_may_jun_2017_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1PazZrSfaQC3cZpBqQIOJCGNsFgSjnDuE",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_nov_dec_2017_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1J2KNjtxByx42ADc7Og4pprFd3nnXpc4u",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_may_jun_2018_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "15gsMASCkwVkEES1q-pQNbeIY4Q-kS-AP",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_nov_dec_2018_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1NfSO6h4RApzR4DrRVZW55vAYTG8rMh3t",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_may_jun_2019_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1L5aDsnuaNHkf7wQ5zs0xiKU9mvsox7fk",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_graphics_ie/other_nov_dec_2019_ie_cgi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "computer_organization_and_architecture_ie": {
+      "subjectKey": "computer_organization_and_architecture_ie",
+      "shortCode": "coa",
+      "fullName": "Computer Organization & Architecture",
+      "normalizedName": "computer_organization_and_architecture",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1qUIOQomKflRxl7xejrFBRjCY7Bf-83qU",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_nov_dec_2016_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "12iPqTqc9l_J8PgJZWsb0EH-3zJp-lfBI",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_may_jun_2017_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1x5FXO4YPaEpE46sogAjuMDMu5-hhXI1F",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_nov_dec_2017_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "18cRJg18G0NRS0MvVuIxEg3PbdejdQZNw",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_may_jun_2018_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Lvccli_CwYPyD069oIQtBseFXLFr5jBK",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_nov_dec_2018_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "18mCMAvzsSd49zHw0t3nojPitAcdKs_ab",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_may_jun_2019_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1L8P3lfPNoAkHkU_KihQL95n03GBrmeYi",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/computer_organization_and_architecture_ie/other_nov_dec_2019_ie_coai_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "data_structures_and_files_ie": {
+      "subjectKey": "data_structures_and_files_ie",
+      "shortCode": "dsf",
+      "fullName": "Data Structures and Files",
+      "normalizedName": "data_structures_and_files",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1S5P77axcxhs3HhoYOffjHvsbttemp238",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_may_jun_2017_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1kWD5omlIngR1gc43L3kG6AoTF5bRUTeG",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_nov_dec_2017_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1W0BmKNd7Zm25Ej1oD0z5si0twwuZL8EP",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_may_jun_2018_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "11DqXjQnNO0GhVqQrl8FwX1B3I1L2xY_w",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_nov_dec_2018_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1UCqUrpNTdZuW7932yGHqv9hSqSS_p5aA",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_may_jun_2019_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FhOpLf9vdkE_oJ--RjVZn1eXsbZ9d3vO",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/data_structures_and_files_ie/other_nov_dec_2019_ie_dsfi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "digital_electronics_and_logic_design_ie": {
+      "subjectKey": "digital_electronics_and_logic_design_ie",
+      "shortCode": "deld",
+      "fullName": "Digital Electronics & Logic Design",
+      "normalizedName": "digital_electronics_and_logic_design",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "10bRkz2ZtzI9usEEOT8FsakbKo8OP-Rox",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_nov_dec_2016_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1gp4Yu_Y5-WO2bLEN27hcAtaHArL8xYKz",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_may_jun_2017_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1rcTT5FGNJfg6lF3_DdlSv-cVVaLNX-U4",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_may_jun_2018_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "14Ofa9NlRXjsU5cnPUdlUplW7XOUTmFeh",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_nov_dec_2018_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1hc1xNfYyVu0SJ9oJ2R5WZ683pUntLa7B",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_may_jun_2019_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "15Y4zs6lLCFEHjs5Q-StbTGz0ABv7sD9o",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/digital_electronics_and_logic_design_ie/other_nov_dec_2019_ie_deldi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "discrete_structures_ie": {
+      "subjectKey": "discrete_structures_ie",
+      "shortCode": "ds",
+      "fullName": "Discrete Structures",
+      "normalizedName": "discrete_structures",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1U1tEOEa76_-9sc_RfAiZ-Ih7CH5zIaRP",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_nov_dec_2016_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "14ZXVq27KwiCQC65OGts3nh65pAQWWrvS",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_may_jun_2017_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1F6BZMXki26o8QKW7R50QDeSd3Nq9EtK6",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_may_jun_2018_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1kZAR121zi_n7AW7BG8EJGK-xfNPaHix5",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_nov_dec_2018_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1odnovdBCG7PHGGP06XD2XQFN-Hfk_6o0",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_may_jun_2019_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "19ttyjqXq9zyEzpVCI2Mifz6v7A6ybIZX",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/discrete_structures_ie/other_nov_dec_2019_ie_dsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_math_III_ie": {
+      "subjectKey": "engineering_math_III_ie",
+      "shortCode": "emIII",
+      "fullName": "Engineering Math. III",
+      "normalizedName": "engineering_math_III",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1iwyJg8-YT4k_MEEViMa_pXfc5JjIETmU",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_may_jun_2017_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1nqd2gFHRPpfjyM0AAzHG9s5cm-u-Wvdv",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_nov_dec_2017_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1LL4D6Zwxrz0IKCzi_WPB9IW4ZThJL3Ou",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_may_jun_2018_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "15TSSRfdPpOsbaEmqVH71xXU3amroG1YI",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_may_jun_2019_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "16pQF0IOvTxwr2fXPfxv-tB_Ka2kPcce7",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_may_jun_2022_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1C5r2ZGh5Wpv7gsg8PNpu0QjlvSkrsVpw",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/engineering_math_III_ie/other_nov_dec_2022_ie_emIIIi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2022
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "foundations_of_comm_and_computer_network_ie": {
+      "subjectKey": "foundations_of_comm_and_computer_network_ie",
+      "shortCode": "fccn",
+      "fullName": "Foundations of Comm. & Computer Network",
+      "normalizedName": "foundations_of_comm_and_computer_network",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1QlDEy5A0pq4uOPv5PoNGVQoXH3-B8w0f",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_may_jun_2017_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Oqi5mb9R5da4apCYzr3mmSEq3TQ_PMeR",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_nov_dec_2017_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Br3urO8QY5UR5CKcENnyuiur4RYB7_t9",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_may_jun_2018_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1uqT9z_gPGKTrUjdUmibDvEhvtWw239Vs",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_nov_dec_2018_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1S4KcdYbSBSy4ko6HPf7zv1Lw6mKtkj82",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_may_jun_2019_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1fayDbuO9U3fQpbsf-yTt-LtKS3D2FATs",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/foundations_of_comm_and_computer_network_ie/other_nov_dec_2019_ie_fccni_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "fundamentals_of_data_structures_ie": {
+      "subjectKey": "fundamentals_of_data_structures_ie",
+      "shortCode": "fds",
+      "fullName": "Fundamentals of Data Structures",
+      "normalizedName": "fundamentals_of_data_structures",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1VrflDYbDD913qNEJLYaxC8wiTaipBdL6",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_nov_dec_2016_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1eEoP_m-5csNBjrLZAf8WiO8B4TW9wus1",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_may_jun_2017_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1A8IYKky5_ySAco0tzTYyBfSar-ob87jv",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_nov_dec_2017_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1drlwXUNvEEeBBFeArpOWFBFsZqyj6NIr",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_nov_dec_2018_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1X-WRnshHNS1gSdyQEieukrg-lEhpmY6b",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_may_jun_2019_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Xdij0mfmV0xDX8GhBKdwuOInUmJ-GN_0",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/fundamentals_of_data_structures_ie/other_nov_dec_2019_ie_fdsi_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "problem_solving_and_object_oriented_progra_concepts_ie": {
+      "subjectKey": "problem_solving_and_object_oriented_progra_concepts_ie",
+      "shortCode": "psoopc",
+      "fullName": "Problem Solving & Object Oriented Progra. Concepts",
+      "normalizedName": "problem_solving_and_object_oriented_progra_concepts",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1icTny6uK3yher9kbCzIudQYAa_w1uE6g",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_nov_dec_2016_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1FTpifS8fLJ8nj82yvALJdbkDWhzQFdhV",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_may_jun_2017_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1zPKss-q-LQTSzyawNH3dZV8bYem8PdWZ",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_nov_dec_2017_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1zNkWCmLG60QVQ8hh80-m9yzzHwBVxSRI",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_nov_dec_2018_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "188Qf9NPn7kMx-B_dMr8wE_1dqOcX1jNR",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_may_jun_2019_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1P98FbnVfCivys22IMjauRS9pwUyHt41G",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/problem_solving_and_object_oriented_progra_concepts_ie/other_nov_dec_2019_ie_psoopci_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "processor_architecture_and_interfacing_ie": {
+      "subjectKey": "processor_architecture_and_interfacing_ie",
+      "shortCode": "pai",
+      "fullName": "Processor Architecture & Interfacing",
+      "normalizedName": "processor_architecture_and_interfacing",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1c4wnf87l38gyAVIcKwIp-IdYZvwLjiIt",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_may_jun_2017_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1uPQf3jfrcpf5CzC4xH29S4u3ZN-Ytawz",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_nov_dec_2017_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1A4eHEgGhYZI-TIqNieKxh25GgHEVGkZA",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_may_jun_2018_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Jts_rAaFv6iH14-h_YT3ji5uEPCIr0v-",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_nov_dec_2018_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1F7_03ycPwrQ5Q4ZW6lyk-8nOLXqu7x4F",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_may_jun_2019_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ZR6yRFS1pkK3kPIY7csXm9_T4yzoSJZf",
+          "canonicalPath": "papers/it-engineering/se/2015_pattern/processor_architecture_and_interfacing_ie/other_nov_dec_2019_ie_paii_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "cloud_computing_ie": {
+      "subjectKey": "cloud_computing_ie",
+      "shortCode": "cc",
+      "fullName": "Cloud Computing",
+      "normalizedName": "cloud_computing",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "17yyaiQ8NZnglc2D4DOR3FWf0ptGrF5z4",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/insem_mar_2018_ie_cci_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1RO2rUHuO7dytqJsDRFDP2FyfYP6hW44j",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/endsem_may_jun_2018_ie_cci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1VHfeXAEY91qqdwtLnXogwVasVxF5ewiQ",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/endsem_nov_dec_2018_ie_cci_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1tbiKGQoRAnzO-w61buJdK6AOFIspluWP",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/insem_mar_2019_ie_cci_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1S0IAtDc2drbOALSTopY-KsKqIYatVNW3",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/endsem_may_jun_2019_ie_cci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TqXK4DPySNw0hwQaE92WkRgFZICAlf_s",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/endsem_nov_dec_2019_ie_cci_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1PrgkwkVdH1Yw-dRQhT-dnRgedz8V3PuG",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/cloud_computing_ie/insem_mar_2020_ie_cci_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "computer_network_technology_ie": {
+      "subjectKey": "computer_network_technology_ie",
+      "shortCode": "cnt",
+      "fullName": "Computer Network Technology",
+      "normalizedName": "computer_network_technology",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1NRubbJmsDuzssa_j2STx0BjuHXcbd3UM",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/endsem_may_jun_2018_ie_cnti_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1L5bzg0SXAPE99HO-0tYSPVnag8WQ9xQN",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/endsem_nov_dec_2018_ie_cnti_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1XjYf1Jq3Amj8Oud5rH9Xm28lrRWDb2tj",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/insem_mar_2019_ie_cnti_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "10zlBPgYbHQVnZQtphGOcLV9wMnrauOyJ",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/endsem_may_jun_2019_ie_cnti_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ZX_AC4xjREN6EcIqsSn4C2r-Fb2eEzF4",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/endsem_nov_dec_2019_ie_cnti_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1l5tDz51HGE_hiR8xO6SaVmi-9UqeTNpJ",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/computer_network_technology_ie/insem_mar_2020_ie_cnti_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "data_science_and_big_data_analytics_ie": {
+      "subjectKey": "data_science_and_big_data_analytics_ie",
+      "shortCode": "dsbda",
+      "fullName": "Data Science & Big Data Analytics",
+      "normalizedName": "data_science_and_big_data_analytics",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1tDKaBSKmWLlJHAM84aqaI8Je-CjXatdD",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/insem_mar_2018_ie_dsbdai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "13ULCMgr3-5YlLUN5LoUnKheVMOBmaNk2",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/endsem_may_jun_2018_ie_dsbdai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CVkG30xBBa2T4Ni7ODaFf3lCQzlO_ZGG",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/endsem_nov_dec_2018_ie_dsbdai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1V_a-v35ml7waWef9SqpG_TzVIajFMvTx",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/insem_mar_2019_ie_dsbdai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1zvQLQ6Z5LWpYtbdNeL6qc-e_vUE9-v_Y",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/endsem_nov_dec_2019_ie_dsbdai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1M4-gHPlBmd-cE_HQqm6RaAXkN4P_Czzc",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/data_science_and_big_data_analytics_ie/insem_mar_2020_ie_dsbdai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "database_mgt_systems_ie": {
+      "subjectKey": "database_mgt_systems_ie",
+      "shortCode": "dms",
+      "fullName": "Database Mgt Systems",
+      "normalizedName": "database_mgt_systems",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1nM7oS__eda4ZoH8RXuOIUUaw_hiiO_Pr",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/insem_aug_2017_ie_dmsi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1ZRSn-mfDwTa4V8EoyoiateuV_75nNB2t",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/endsem_nov_dec_2017_ie_dmsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1_NuZCCcVrql5KgPWY1NZSzlIbXbX27ZH",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/endsem_may_jun_2018_ie_dmsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1gNEWxeWQklqdpMuqEy4YNGximSR29HoH",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/endsem_nov_dec_2018_ie_dmsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "11jLRFjrJsgVUFoidTJ7gvuUDitnIh_90",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/endsem_may_jun_2019_ie_dmsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FoWeb7gQYLvSyZvfc8mHaxGga26N7BbG",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/endsem_nov_dec_2019_ie_dmsi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yVHTpgWMH9nxlMZR0b6i3or1qW-P0PRx",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/database_mgt_systems_ie/insem_oct_2019_ie_dmsi_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "design_and_analysis_of_algorithms_ie": {
+      "subjectKey": "design_and_analysis_of_algorithms_ie",
+      "shortCode": "daa",
+      "fullName": "Design & Analysis of Algorithms",
+      "normalizedName": "design_and_analysis_of_algorithms",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1INkZ5CDZCl4ujNvAIPX1WKv4UMFSMxd8",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/insem_mar_2018_ie_daai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1nJz28Sme4LzePveUhPrIXDIg7S463JHC",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/endsem_may_jun_2018_ie_daai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1OKMMLAiJXA266SipmQWtQvFltH9TeeQT",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/endsem_nov_dec_2018_ie_daai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1wCJVpmpryQUy_1ZZF5yGRvzy4w92biLC",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/insem_mar_2019_ie_daai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "16Xs0koQTd39nWPP_tVwYXCptS_1QmfaJ",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/endsem_may_jun_2019_ie_daai_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FetFA5n02x2myPVsJ_iTj24eoMbtYy-S",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/endsem_nov_dec_2019_ie_daai_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "10L5mplQK6SL_NpotOZyWbbzvCnu8gCMk",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/design_and_analysis_of_algorithms_ie/insem_mar_2020_ie_daai_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "human_computer_interaction_ie": {
+      "subjectKey": "human_computer_interaction_ie",
+      "shortCode": "hci",
+      "fullName": "Human Computer Interaction",
+      "normalizedName": "human_computer_interaction",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1xqXgmnhRzaX4vEYogBtbHGeMWYeRAKM8",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/endsem_nov_dec_2017_ie_hcii_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1IwJEyTW0_YzFO9L76G2ZBk0qmCq9IHhl",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/insem_aug_2018_ie_hcii_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1kwSPf6ZZa8x7VIXBJhucSxF2voAYeQe0",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/endsem_may_jun_2018_ie_hcii_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1METcqy2ets5RtNz-W_-UVvmiAbn1rGYM",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/endsem_nov_dec_2018_ie_hcii_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1nHiOOgBjZ3uKBD6JfXyHVZXU0rNH625S",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/endsem_may_jun_2019_ie_hcii_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TYTAed28vlLo9_BoQhRT8WTULuuT9gB4",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/endsem_nov_dec_2019_ie_hcii_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1DpPThMjDaR9XPLsDkF99QmjRs8aUH9Zd",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/human_computer_interaction_ie/insem_oct_2019_ie_hcii_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "operating_system_ie": {
+      "subjectKey": "operating_system_ie",
+      "shortCode": "os",
+      "fullName": "Operating System",
+      "normalizedName": "operating_system",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1TiRa0bSURtM6v4gzNqAcVDbFEMn5jNF-",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/insem_aug_2017_ie_osi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1gPd0wBN0EhFfBNn3BMiEOM2BEprj-Nr7",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/endsem_nov_dec_2017_ie_osi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1nVYCNHSA-LU0Sq2HjcLa6erZJaPAFaAf",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/insem_aug_2018_ie_osi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1umCE03H6SRmgBYPXvz4rjVbUiMepx6UQ",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/endsem_may_jun_2018_ie_osi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1d35UqK8axCagSNLo0kNFcdoN_UvE1wG7",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/endsem_nov_dec_2018_ie_osi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1a57VNhz0yOITr3sHF3BHcqHTxJwqcxBr",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/endsem_may_jun_2019_ie_osi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1LwuJyyTpQospaMw_8qmA2td2F2eSyZfN",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/endsem_nov_dec_2019_ie_osi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1fhcfMRJ8aJHoj4wXsQfrmw_OP_F-CS8Z",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/operating_system_ie/insem_oct_2019_ie_osi_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "software_engg_and_project_mgt_ie": {
+      "subjectKey": "software_engg_and_project_mgt_ie",
+      "shortCode": "sepm",
+      "fullName": "Software Engg & Project Mgt",
+      "normalizedName": "software_engg_and_project_mgt",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "15cbQQnMKDaHxtTlqccCrTDmcOHFV547h",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/insem_aug_2017_ie_sepmi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Lw_o_HVS6FnpYnIIo2XO6823bM6gH4wh",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/endsem_nov_dec_2017_ie_sepmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "10qc5OxpR2UzVxQgkW-rWzQktUtAO9sqb",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/insem_aug_2018_ie_sepmi_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1FxeP1JVqC5oBxoh0qNDZTL8mMGEJT2JD",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/endsem_may_jun_2018_ie_sepmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1V1rKUpVJB46qt71Um_Y7hvNfzoxcPWHF",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/endsem_nov_dec_2018_ie_sepmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1cRqXar81up7NQNdPzTsd0W2mu5T9NQyN",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/endsem_may_jun_2019_ie_sepmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Wo2UhESTI0MKphP8tNpO3pwTREHw8usS",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/endsem_nov_dec_2019_ie_sepmi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TRWxifAjHtHHmpb-5ZLnOvx0Kj2OuyJv",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/software_engg_and_project_mgt_ie/insem_oct_2019_ie_sepmi_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "systems_programming_ie": {
+      "subjectKey": "systems_programming_ie",
+      "shortCode": "sp",
+      "fullName": "Systems Programming",
+      "normalizedName": "systems_programming",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Wq1QRgJpF2xuutRCCNzs5h7qbQKu6o5e",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/insem_mar_2018_ie_spi_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1JiREaKsHijl_QhFPkxPamy35onJAc33T",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/endsem_may_jun_2018_ie_spi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "17JJlfEqnT5FCjzBZBci7ArlcxYltESjH",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/endsem_nov_dec_2018_ie_spi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1kaQ-arkrGrZZlUEqlRqLu9eo2jDmFgqx",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/insem_mar_2019_ie_spi_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1d2KeF6gHVIzmI59bFzwz1wBsAkYXu4tD",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/endsem_may_jun_2019_ie_spi_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1EHIIveWp1tuCTNuhQ4spa6frIyUCdV8v",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/endsem_nov_dec_2019_ie_spi_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1a-xOP5cHuPNvzBLL4aYfSgtXWr3ozx-u",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/systems_programming_ie/insem_mar_2020_ie_spi_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "theory_of_computation_ie": {
+      "subjectKey": "theory_of_computation_ie",
+      "shortCode": "tc",
+      "fullName": "Theory of Computation",
+      "normalizedName": "theory_of_computation",
+      "branchType": "standard",
+      "branchKey": "it-engineering",
+      "branchCode": "ie",
+      "branchName": "IT Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1rZTVap9QlNVbN3rIV9yi_f6xqVvWHrm1",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/insem_aug_2017_ie_tci_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1clhX2urXhMHOnKPmScORMS9falrSwfTM",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/endsem_nov_dec_2017_ie_tci_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1SggSirAmanCwRmsU7CczTepO_ZoaFa8q",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/insem_aug_2018_ie_tci_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1c7wyvUTsFAMm2IoTV-YpIk87altZzFUg",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/endsem_may_jun_2018_ie_tci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1N6A_RLFSJwM7bASm-6350pjgqayy1bE-",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/endsem_nov_dec_2018_ie_tci_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1QiMp3O7Oud5ZCUeINjvdyasLeL7jTKlo",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/endsem_may_jun_2019_ie_tci_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "18F0HykHpbft306dPB7pmxdJkFsH78qa6",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/endsem_nov_dec_2019_ie_tci_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "10AwHStHBbEFBFlHJRmhd8HGBMQCjYb8n",
+          "canonicalPath": "papers/it-engineering/te/2015_pattern/theory_of_computation_ie/insem_oct_2019_ie_tci_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    }
+  }
+}

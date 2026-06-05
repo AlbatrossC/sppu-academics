@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "family": "honors",
+  "generatedAt": "2026-06-05T14:26:14Z",
+  "hierarchy": {
+    "honorsCourse": {
+      "branchKey": "honors-course",
+      "branchCode": "hc",
+      "branchName": "Honors Course",
+      "years": [
+        {
+          "yearKey": "be",
+          "yearName": "BE",
+          "yearFullName": "Fourth Year",
+          "subjects": [
+            {
+              "subjectKey": "app_dev_using_augmented_reality_and_virtual_reality_hc",
+              "shortCode": "aduarvr",
+              "fullName": "App. Dev.Using Augmented Reality & Virtual Reality",
+              "normalizedName": "app_dev_using_augmented_reality_and_virtual_reality"
+            },
+            {
+              "subjectKey": "arti_intelli_for_big_data_ananlytics_hc",
+              "shortCode": "aibda",
+              "fullName": "Arti. Intelli. for Big Data Ananlytics",
+              "normalizedName": "arti_intelli_for_big_data_ananlytics"
+            },
+            {
+              "subjectKey": "artificial_inteligence_in_robotics_hc",
+              "shortCode": "air",
+              "fullName": "Artificial Inteligence in Robotics",
+              "normalizedName": "artificial_inteligence_in_robotics"
+            },
+            {
+              "subjectKey": "artificial_intelligence_and_machine_learning_hc",
+              "shortCode": "aiml",
+              "fullName": "Artificial Intelligence & Machine Learning",
+              "normalizedName": "artificial_intelligence_and_machine_learning"
+            },
+            {
+              "subjectKey": "block_chain_technology_hc",
+              "shortCode": "bct",
+              "fullName": "Block Chain Technology",
+              "normalizedName": "block_chain_technology"
+            },
+            {
+              "subjectKey": "e_vehical_standards_charging_and_safety_hc",
+              "shortCode": "evscs",
+              "fullName": "E-Vehical Standards, Charging & Safety",
+              "normalizedName": "e_vehical_standards_charging_and_safety"
+            },
+            {
+              "subjectKey": "industrial_robotics_and_automation_hc",
+              "shortCode": "ira",
+              "fullName": "Industrial Robotics & Automation",
+              "normalizedName": "industrial_robotics_and_automation"
+            },
+            {
+              "subjectKey": "information_systems_management_hc",
+              "shortCode": "ism",
+              "fullName": "Information Systems Management",
+              "normalizedName": "information_systems_management"
+            },
+            {
+              "subjectKey": "internet_of_thinghs_security_hc",
+              "shortCode": "its",
+              "fullName": "Internet of Thinghs Security",
+              "normalizedName": "internet_of_thinghs_security"
+            },
+            {
+              "subjectKey": "internet_of_things_and_embedded_security_hc",
+              "shortCode": "ites",
+              "fullName": "Internet of Things & Embedded Security",
+              "normalizedName": "internet_of_things_and_embedded_security"
+            },
+            {
+              "subjectKey": "machine_learning_hc",
+              "shortCode": "ml",
+              "fullName": "Machine Learning",
+              "normalizedName": "machine_learning"
+            },
+            {
+              "subjectKey": "machine_learning_and_data_science_hc",
+              "shortCode": "mlds",
+              "fullName": "Machine Learning & Data Science",
+              "normalizedName": "machine_learning_and_data_science"
+            },
+            {
+              "subjectKey": "machine_learning_for_iot_hc",
+              "shortCode": "mli",
+              "fullName": "Machine Learning for IOT",
+              "normalizedName": "machine_learning_for_iot"
+            },
+            {
+              "subjectKey": "modelling_and_simulation_of_ehv_hc",
+              "shortCode": "mse",
+              "fullName": "Modelling & Simulation of EHV",
+              "normalizedName": "modelling_and_simulation_of_ehv"
+            },
+            {
+              "subjectKey": "soft_computing_and_deep_learning_hc",
+              "shortCode": "scdl",
+              "fullName": "Soft Computing and Deep Learning",
+              "normalizedName": "soft_computing_and_deep_learning"
+            },
+            {
+              "subjectKey": "virtual_reality_for_game_development_hc",
+              "shortCode": "vrgd",
+              "fullName": "Virtual Reality for Game Development",
+              "normalizedName": "virtual_reality_for_game_development"
+            }
+          ]
+        },
+        {
+          "yearKey": "te",
+          "yearName": "TE",
+          "yearFullName": "Third Year",
+          "subjects": [
+            {
+              "subjectKey": "artificial_intelligence_hc",
+              "shortCode": "ai",
+              "fullName": "Artificial Intelligence",
+              "normalizedName": "artificial_intelligence"
+            },
+            {
+              "subjectKey": "artificial_intelligence_and_machine_hc",
+              "shortCode": "aim",
+              "fullName": "Artificial Intelligence & Machine",
+              "normalizedName": "artificial_intelligence_and_machine"
+            },
+            {
+              "subjectKey": "augmented_reality_hc",
+              "shortCode": "ar",
+              "fullName": "Augmented Reality",
+              "normalizedName": "augmented_reality"
+            },
+            {
+              "subjectKey": "computational_statistics_hc",
+              "shortCode": "cs",
+              "fullName": "Computational Statistics",
+              "normalizedName": "computational_statistics"
+            },
+            {
+              "subjectKey": "data_science_and_visualization_hc",
+              "shortCode": "dsv",
+              "fullName": "Data Science And Visualization",
+              "normalizedName": "data_science_and_visualization"
+            },
+            {
+              "subjectKey": "decentralize_and_blockchain_technologies_hc",
+              "shortCode": "dbt",
+              "fullName": "Decentralize & Blockchain technologies",
+              "normalizedName": "decentralize_and_blockchain_technologies"
+            },
+            {
+              "subjectKey": "e_vehicle_technology_hc",
+              "shortCode": "evt",
+              "fullName": "e - Vehicle Technology",
+              "normalizedName": "e_vehicle_technology"
+            },
+            {
+              "subjectKey": "e_vehicle_system_design_hc",
+              "shortCode": "evsd",
+              "fullName": "e-Vehicle System Design",
+              "normalizedName": "e_vehicle_system_design"
+            },
+            {
+              "subjectKey": "embedded_systems_and_internet_of_things_hc",
+              "shortCode": "esit",
+              "fullName": "Embedded Systems & Internet of Things",
+              "normalizedName": "embedded_systems_and_internet_of_things"
+            },
+            {
+              "subjectKey": "energy_efficiency_in_thermal_utilities_hc",
+              "shortCode": "eetu",
+              "fullName": "Energy Efficiency in Thermal Utilities",
+              "normalizedName": "energy_efficiency_in_thermal_utilities"
+            },
+            {
+              "subjectKey": "enterprise_architecture_and_components_hc",
+              "shortCode": "eac",
+              "fullName": "Enterprise Architecture & Components",
+              "normalizedName": "enterprise_architecture_and_components"
+            },
+            {
+              "subjectKey": "foundations_of_systems_aand_systems_engg_hc",
+              "shortCode": "fsase",
+              "fullName": "Foundations Of Systems Aand Systems Engg",
+              "normalizedName": "foundations_of_systems_aand_systems_engg"
+            },
+            {
+              "subjectKey": "information_and_cyber_security_hc",
+              "shortCode": "ics",
+              "fullName": "Information & Cyber Security",
+              "normalizedName": "information_and_cyber_security"
+            },
+            {
+              "subjectKey": "int_of_thin_architectures_protocols_and_sys_prog_hc",
+              "shortCode": "itapsp",
+              "fullName": "Int. of Thin. Architectures, Protocols & Sys. Prog",
+              "normalizedName": "int_of_thin_architectures_protocols_and_sys_prog"
+            },
+            {
+              "subjectKey": "internet_of_things_hc",
+              "shortCode": "it",
+              "fullName": "Internet of Things",
+              "normalizedName": "internet_of_things"
+            },
+            {
+              "subjectKey": "principles_of_robotics_hc",
+              "shortCode": "pr",
+              "fullName": "Principles of Robotics",
+              "normalizedName": "principles_of_robotics"
+            },
+            {
+              "subjectKey": "robot_programming_and_simulation_hc",
+              "shortCode": "rps",
+              "fullName": "Robot Programming & Simulation",
+              "normalizedName": "robot_programming_and_simulation"
+            },
+            {
+              "subjectKey": "statistics_and_machine_learning_hc",
+              "shortCode": "sml",
+              "fullName": "Statistics & Machine Learning",
+              "normalizedName": "statistics_and_machine_learning"
+            },
+            {
+              "subjectKey": "sustainable_architecture_and_landscape_design_hc",
+              "shortCode": "sald",
+              "fullName": "Sustainable Architecture & Landscape Design",
+              "normalizedName": "sustainable_architecture_and_landscape_design"
+            },
+            {
+              "subjectKey": "virtual_reality_hc",
+              "shortCode": "vr",
+              "fullName": "Virtual Reality",
+              "normalizedName": "virtual_reality"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -7,7 +7,7 @@
       "config": {
         "runtime": "python3.9",
         "includeFiles": [
-          "question-papers/**",
+          "manifest/**",
           "templates/**",
           "static/**",
           "images/**",

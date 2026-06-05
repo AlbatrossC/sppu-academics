@@ -9,16 +9,22 @@ SITE_URL = os.getenv(
     "https://sppupyqs.vercel.app",
 ).strip().rstrip("/")
 CODES_SITE_URL = os.getenv("SPPUCODES_SITE_URL", "https://sppucodes.vercel.app").strip().rstrip("/")
-QUESTION_PAPERS_DIR = os.path.join(BASE_DIR, "question-papers")
+MANIFEST_DIR = os.path.join(BASE_DIR, "manifest")
 
-PDF_SOURCE = os.getenv("PDF_SOURCE", "r2").strip().lower()
-_VALID_PDF_SOURCES = {"r2", "supabase"}
+PDF_SOURCE = os.getenv("PDF_SOURCE") or os.getenv("pdf_source") or "r2"
+PDF_SOURCE = PDF_SOURCE.strip().lower()
+_VALID_PDF_SOURCES = {"r2", "cloudinary"}
 if PDF_SOURCE not in _VALID_PDF_SOURCES:
     PDF_SOURCE = "r2"
 
-QP_PDF_DIR = os.path.join(QUESTION_PAPERS_DIR, f"question-papers-{PDF_SOURCE}")
-QP_SEO_DIR = os.path.join(QUESTION_PAPERS_DIR, "pyqs-seo")
-QP_METADATA_DIR = os.path.join(BASE_DIR, "pyqs-metadata")
+R2_BASE_URL = (os.getenv("R2_BASE_URL") or os.getenv("r2_base_url") or "").strip().rstrip("/")
+CLOUDINARY_RAW_BASE_URL = (
+    os.getenv("CLOUDINARY_RAW_BASE_URL")
+    or os.getenv("CLOUDINARY_BASE_URL")
+    or os.getenv("cloudinary_raw_base_url")
+    or os.getenv("cloudinary_base_url")
+    or ""
+).strip().rstrip("/")
 
 CF_WORKER_DB_URL = os.getenv("CF_WORKER_DB_URL", "").strip().rstrip("/")
 DB_API_KEY = os.getenv("DB_API_KEY", "").strip()
@@ -35,7 +41,7 @@ PDF_PROXY_ALLOWED_HOSTS = {
     host.strip().lower()
     for host in os.getenv(
         "PDF_PROXY_ALLOWED_HOSTS",
-        "sppucodes.albatrossc.workers.dev,zauiiivigqoifsvtqhnt.supabase.co",
+        "sppucodes.albatrossc.workers.dev,sppu-pyqs.albatrossc.workers.dev,res.cloudinary.com",
     ).split(",")
     if host.strip()
 }

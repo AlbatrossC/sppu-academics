@@ -1,13 +1,12 @@
-import glob
-import json
 import os
 from datetime import datetime
 
 from flask import Blueprint, abort, make_response, render_template, request, redirect, flash, url_for, send_from_directory, jsonify
 
-from ..config import BASE_DIR, CODES_SITE_URL, QP_PDF_DIR, SITE_URL
+from ..config import BASE_DIR, CODES_SITE_URL, SITE_URL
 from ..db import save_contact
 from ..notifications import send_discord_notification_async
+from ..utils import load_question_papers, load_sitemap_entries
 
 main_bp = Blueprint("main", __name__)
 
@@ -24,26 +23,6 @@ def _notification_request_context():
         "source_url": request.url,
         "user_agent": request.headers.get("User-Agent", "Unknown")
     }
-
-
-def _extract_subject_slugs():
-    slugs = set()
-    if not os.path.exists(QP_PDF_DIR):
-        return slugs
-    for file_path in glob.glob(os.path.join(QP_PDF_DIR, "*.json")):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            continue
-        if not isinstance(data, dict):
-            continue
-        for key, value in data.items():
-            if key.startswith("sem-") and isinstance(value, dict):
-                for subject_slug, subject_data in value.items():
-                    if isinstance(subject_data, dict) and subject_data.get("subject_name"):
-                        slugs.add(subject_slug)
-    return sorted(slugs)
 
 
 @main_bp.route("/contact", methods=["GET", "POST"])
@@ -93,15 +72,18 @@ def sitemap():
     today = datetime.utcnow().strftime("%Y-%m-%d")
     urls = [
         {"loc": f"{SITE_URL}/", "priority": "1.0", "changefreq": "weekly"},
+        {"loc": f"{SITE_URL}/2019", "priority": "0.95", "changefreq": "weekly"},
+        {"loc": f"{SITE_URL}/2015", "priority": "0.8", "changefreq": "weekly"},
+        {"loc": f"{SITE_URL}/2012", "priority": "0.8", "changefreq": "weekly"},
         {"loc": f"{SITE_URL}/sitemap", "priority": "0.6", "changefreq": "weekly"},
         {"loc": f"{SITE_URL}/contact", "priority": "0.7", "changefreq": "monthly"},
         {"loc": f"{SITE_URL}/privacy", "priority": "0.5", "changefreq": "monthly"},
         {"loc": f"{SITE_URL}/terms", "priority": "0.5", "changefreq": "monthly"},
     ]
 
-    for slug in _extract_subject_slugs():
+    for entry in load_sitemap_entries():
         urls.append({
-            "loc": f"{SITE_URL}/{slug}",
+            "loc": f"{SITE_URL}{entry['public_url']}",
             "priority": "0.85",
             "changefreq": "weekly"
         })
@@ -126,39 +108,21 @@ def sitemap():
 
 def _load_sitemap_data():
     branches = {}
-    if not os.path.exists(QP_PDF_DIR):
-        return branches
 
-    for file_path in glob.glob(os.path.join(QP_PDF_DIR, "*.json")):
-        branch_code = os.path.splitext(os.path.basename(file_path))[0].upper()
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            continue
-        if not isinstance(data, dict):
-            continue
-
-        branch_name = data.get("branch_name", branch_code)
-        if branch_name not in branches:
-            branches[branch_name] = []
-
-        for key, value in data.items():
-            if key.startswith("sem-") and isinstance(value, dict):
-                try:
-                    sem_no = int(key.split("-")[-1])
-                except ValueError:
-                    continue
-                for subject_slug, subject_data in value.items():
-                    if isinstance(subject_data, dict) and subject_data.get("subject_name"):
-                        branches[branch_name].append({
-                            "slug": subject_slug,
-                            "name": subject_data["subject_name"],
-                            "sem": sem_no,
-                        })
+    for entry in load_question_papers()["question_papers_list"]:
+        pattern = entry.get("pattern_year") or "honors"
+        branch_name = entry.get("branch_name") or "SPPU"
+        group_name = f"{pattern} - {branch_name}" if pattern != "honors" else branch_name
+        branches.setdefault(group_name, [])
+        branches[group_name].append({
+            "url": entry["public_url"],
+            "name": entry["subject_name"],
+            "sem": entry.get("sem_no"),
+            "year_label": entry.get("year_label") or "",
+        })
 
     for subject_list in branches.values():
-        subject_list.sort(key=lambda s: (s["sem"], s["name"]))
+        subject_list.sort(key=lambda s: (s["sem"] or 0, s["year_label"], s["name"]))
 
     return branches
 

@@ -3,7 +3,7 @@
 
 <head>
     <!-- Preload critical assets -->
-    <link rel="preload" href="/static/css/select.css?v=2.3" as="style">
+    <link rel="preload" href="/static/css/select.css?v=3.0" as="style">
     <link rel="preload" href="/images/logo.png" as="image">
 
     <meta name="google-site-verification" content="s0ezZ-kg4bjZR6Jbt_-6H1Im5EDs61Rg5yWJr6BHXFY" />
@@ -36,8 +36,8 @@
     <meta name="language" content="English">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/select.css', v='2.3') }}" media="all">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css', v='2.6') }}" media="all">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/select.css', v='3.0') }}" media="all">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css', v='2.8') }}" media="all">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css', v='1.0') }}" media="all">
 
     <link href="/images/logo.png" rel="icon" fetchpriority="high" type="image/png">
@@ -98,6 +98,37 @@
                     <h1>SPPU PYQs</h1>
                 </a>
 
+                <div class="search-container" id="searchContainer">
+                    <div class="search-wrapper">
+                        <input type="text" id="paper-search" placeholder="Search subjects..."
+                            aria-label="Search Question Papers" autocomplete="off">
+                        <div class="search-dropdown" id="searchDropdown"></div>
+                    </div>
+                </div>
+
+                <nav class="header__actions" aria-label="Main navigation">
+                    <div class="pattern-select-wrap">
+                        <span class="pattern-label">Select Pattern:</span>
+                        <div class="custom-dropdown" id="customPatternDropdown">
+                            <div class="dropdown-selected" id="dropdownSelected">
+                                {{ navigation.pattern_year }} Pattern
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </div>
+                            <div class="dropdown-options" id="dropdownOptions">
+                                {% for pattern_year in navigation.available_patterns %}
+                                <div class="dropdown-option{% if pattern_year == navigation.pattern_year %} active{% endif %}" data-value="/{{ pattern_year }}">
+                                    {{ pattern_year }} Pattern
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://sppucodes.vercel.app/" class="sppucodes-button">
+                        <img src="/static/images/sppucodes-logo.png" alt="Logo" width="24" height="24">
+                        <span>Sppucodes</span>
+                    </a>
+                </nav>
+
                 <div class="header__mobile-actions">
                     <button class="mobile-search-toggle" aria-label="Show Search" tabindex="0">
                         <span class="search-icon-svg">
@@ -112,28 +143,27 @@
                         <span class="menu-icon"></span>
                     </button>
                 </div>
-
-                <div class="search-container" id="searchContainer">
-                    <div class="search-wrapper">
-                        <input type="text" id="paper-search" placeholder="Search subjects..."
-                            aria-label="Search Question Papers" autocomplete="off">
-                        <div class="search-dropdown" id="searchDropdown"></div>
-                    </div>
-                </div>
-
-                <nav class="header__actions" aria-label="Main navigation">
-                    <a href="https://sppucodes.vercel.app/" class="sppucodes-button">
-                    <img src="/images/logo.png" alt="Logo" width="24" height="24">
-                        <span>Sppucodes</span>
-                    </a>
-                </nav>
             </div>
 
             <!-- Mobile Menu -->
-            <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+                <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
                 <button class="mobile-menu__close" id="closeMenuBtn" aria-label="Close Menu">&times;</button>
+                <label class="mobile-menu-label">Select Pattern:</label>
+                <div class="custom-dropdown mobile-dropdown" id="mobilePatternDropdown">
+                    <div class="dropdown-selected" id="mobileDropdownSelected">
+                        {{ navigation.pattern_year }} Pattern
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="dropdown-options" id="mobileDropdownOptions">
+                        {% for pattern_year in navigation.available_patterns %}
+                        <div class="dropdown-option{% if pattern_year == navigation.pattern_year %} active{% endif %}" data-value="/{{ pattern_year }}">
+                            {{ pattern_year }} Pattern
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
                 <a href="https://sppucodes.vercel.app/" class="sppucodes-button">
-                    <img src="/images/logo.png" alt="Logo" width="24" height="24">
+                    <img src="/static/images/sppucodes-logo.png" alt="Logo" width="24" height="24">
                     <span>Sppucodes</span>
                 </a>
                 <a href="/contact" class="contact-button">Contact</a>
@@ -151,22 +181,27 @@
         </header>
 
         <main>
-            <!-- Breadcrumb Navigation -->
-            <div class="breadcrumb-container">
-                <div class="breadcrumb" id="breadcrumb">
-                    <span class="breadcrumb-item active">Branches</span>
-                </div>
+            <!-- Back Navigation -->
+            <div class="back-nav-container" hidden id="backNavContainer">
+                <button class="back-button" id="backButton" aria-label="Go Back">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    <span id="backButtonText">Back</span>
+                </button>
             </div>
 
             <!-- Branch Selection -->
-            <section aria-labelledby="branches-heading" id="branches" class="nav-level active">
-                <h2 id="branches-heading" class="semester-heading">Select Your Branch</h2>
+            <section aria-labelledby="branches-heading" id="root" class="nav-level active" data-breadcrumbs='[]'>
+                <h2 id="branches-heading" class="semester-heading">{{ navigation.root_heading }}</h2>
                 <div class="group">
                     <ul class="branch-list">
-                        {% for branch in organized_data.keys() %}
+                        {% for item in navigation.nav_items %}
                         <li>
-                            <a href="#" onclick="showSemesters('{{ branch }}'); return false;" title="{{ branch }}">
-                                <span class="branch-name">{{ branch }}</span>
+                            <a href="#" onclick="showLevel('{{ item.target_id }}'); return false;" title="{{ item.name }}">
+                                <span class="branch-code">{{ item.code }}</span>
+                                <span class="branch-name">{{ item.name }}</span>
                             </a>
                         </li>
                         {% endfor %}
@@ -174,43 +209,36 @@
                 </div>
             </section>
 
-            <!-- Semester & Subject Navigation -->
-            {% for branch, semesters in organized_data.items() %}
-            <section aria-labelledby="{{ branch | replace(' ', '_') }}-sems-heading" id="{{ branch | replace(' ', '_') }}-sems" class="nav-level">
-                <h2 id="{{ branch | replace(' ', '_') }}-sems-heading" class="semester-heading">{{ branch }} &mdash; Select Semester</h2>
+            {% for level in navigation.levels %}
+            <section aria-labelledby="{{ level.id }}-heading" id="{{ level.id }}" class="nav-level" data-breadcrumbs='{{ level.breadcrumbs | tojson }}'>
+                <h2 id="{{ level.id }}-heading" class="semester-heading">{{ level.heading }}</h2>
                 <div class="group">
-                    <ul class="semester-list">
-                        {% for sem in semesters.keys() %}
+                    {% for group in level.groups %}
+                    {% if group.heading %}
+                    <h3 class="subject-group-heading">{{ group.heading }}</h3>
+                    {% endif %}
+                    <ul class="{% if group['items'] and group['items'][0].type == 'subject' %}subject-list{% else %}semester-list{% endif %}">
+                        {% for item in group['items'] %}
                         <li>
-                            <a href="#" onclick="showSubjects('{{ branch }}', '{{ sem }}'); return false;" title="{{ sem }}">
-                                <span class="sem-full">{{ sem }}</span>
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </section>
-
-            {% for sem, subjects in semesters.items() %}
-            <section aria-labelledby="{{ branch | replace(' ', '_') }}-{{ sem | replace(' ', '_') }}-subjects-heading" id="{{ branch | replace(' ', '_') }}-{{ sem | replace(' ', '_') }}-subjects" class="nav-level" loading="lazy">
-                <h2 id="{{ branch | replace(' ', '_') }}-{{ sem | replace(' ', '_') }}-subjects-heading" class="semester-heading">{{ branch }} &mdash; {{ sem }}</h2>
-                <div class="group">
-                    <ul class="subject-list">
-                        {% for subject in subjects %}
-                        {% set words = subject.subject_name.split() %}
-                        {% set abbr = words | map('first') | join('') | upper %}
-                        <li>
+                            {% if item.type == "subject" %}
                             <h3>
-                                <a href="/{{ subject.subject_link }}" title="{{ subject.subject_name }} Question Papers">
-                                    <span class="full-name">{{ subject.subject_name }}</span>
+                                <a href="{{ item.url }}" title="{{ item.name }} Question Papers">
+                                    {% if item.code %}<span class="subject-code">{{ item.code }}</span>{% endif %}
+                                    <span class="full-name">{{ item.name }}</span>
                                 </a>
                             </h3>
+                            {% else %}
+                            <a href="#" onclick="showLevel('{{ item.target_id }}'); return false;" title="{{ item.name }}">
+                                <span class="year-code">{{ item.code }}</span>
+                                <span class="sem-full">{{ item.name }}</span>
+                            </a>
+                            {% endif %}
                         </li>
                         {% endfor %}
                     </ul>
+                    {% endfor %}
                 </div>
             </section>
-            {% endfor %}
             {% endfor %}
         </main>
     </div>
@@ -229,7 +257,7 @@
         </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/select.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/select.js', v='3.0') }}"></script>
     <script src="{{ url_for('static', filename='js/mobile-menu.js') }}"></script>
 </body>
 </html>

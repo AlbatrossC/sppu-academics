@@ -34,9 +34,12 @@
             <h2>{{ branch_name }}</h2>
             <div class="grid">
                 {% for subject in branch_subjects %}
-                <a class="card" href="/{{ subject.slug }}">
+                <a class="card" href="{{ subject.url }}">
                     <strong>{{ subject.name }}</strong>
-                    <span>Semester {{ subject.sem }} &bull; /{{ subject.slug }}</span>
+                    <span>
+                        {% if subject.sem %}Semester {{ subject.sem }}{% else %}{{ subject.year_label or "Question Papers" }}{% endif %}
+                        &bull; {{ subject.url }}
+                    </span>
                 </a>
                 {% endfor %}
             </div>
