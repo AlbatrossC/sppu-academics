@@ -23,7 +23,7 @@ def create_app():
         file_path = os.path.join(static_dir, filename)
         if not os.path.exists(file_path):
             abort(404)
-        return send_from_directory(static_dir, filename)
+        return send_from_directory(static_dir, filename, max_age=_static_max_age(filename))
 
     @app.before_request
     def maintenance():
@@ -35,8 +35,12 @@ def create_app():
 
     @app.after_request
     def add_asset_cache_headers(response):
-        if request.path.startswith("/static/fonts/"):
+        if request.path == "/static/search.1.json":
+            response.headers["Cache-Control"] = "public, max-age=300, stale-while-revalidate=86400"
+        elif request.path.startswith(("/static/fonts/", "/static/pdfjs/", "/static/images/")):
             response.headers["Cache-Control"] = "public, max-age=31536000, immutable"
+        elif request.path.startswith(("/static/css/", "/static/js/")):
+            response.headers["Cache-Control"] = "public, max-age=86400, stale-while-revalidate=604800"
         return response
 
     @app.errorhandler(404)
@@ -68,3 +72,13 @@ def create_app():
     app.register_blueprint(question_papers_bp)
 
     return app
+
+
+def _static_max_age(filename):
+    if filename == "search.1.json":
+        return 300
+    if filename.startswith(("fonts/", "pdfjs/", "images/")):
+        return 31536000
+    if filename.startswith(("css/", "js/")):
+        return 86400
+    return None

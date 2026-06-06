@@ -1,0 +1,16 @@
+# Display-only corrections layered over generated manifests.
+# Keep keys equal to the generated manifest subjectKey or branchKey.
+
+branch_overrides:
+  it-engineering:
+    branchCode: IT
+
+subject_overrides:
+  quantum_artificial_intelligence_aids:
+    fullName: Quantum Artificial Intelligence - Elective III
+  industrial_internmet_of_things_aids:
+    fullName: Industrial Internet of Things - Elective III
+
+display:
+  normalizeElectiveCodes: true
+  normalizeElectiveNames: true

@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from functools import lru_cache
 from urllib.parse import urlparse
 
@@ -8,6 +9,7 @@ from .config import CLOUDINARY_RAW_BASE_URL, MANIFEST_DIR, PDF_SOURCE, R2_BASE_U
 DEFAULT_PATTERN_YEAR = "2019"
 HONORS_KEY = "honors"
 REDIRECT_PATTERN_ORDER = ("2019", "2015", "2012", HONORS_KEY)
+EXCEPTIONS_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "static", "exceptions.yml"))
 
 
 def _safe_load_json(file_path):
@@ -16,6 +18,59 @@ def _safe_load_json(file_path):
             return json.load(file_obj)
     except Exception:
         return None
+
+
+def _parse_scalar(value):
+    value = value.strip()
+    if value.lower() in {"true", "false"}:
+        return value.lower() == "true"
+    if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+        return value[1:-1]
+    return value
+
+
+def _minimal_yaml_load(file_path):
+    data = {}
+    stack = [(-1, data)]
+    with open(file_path, "r", encoding="utf-8") as file_obj:
+        for raw_line in file_obj:
+            line = raw_line.split("#", 1)[0].rstrip()
+            if not line.strip():
+                continue
+            indent = len(line) - len(line.lstrip(" "))
+            key, separator, value = line.strip().partition(":")
+            if not separator:
+                continue
+            while stack and indent <= stack[-1][0]:
+                stack.pop()
+            parent = stack[-1][1]
+            if value.strip():
+                parent[key] = _parse_scalar(value)
+                continue
+            child = {}
+            parent[key] = child
+            stack.append((indent, child))
+    return data
+
+
+def _safe_load_yaml(file_path):
+    if not os.path.exists(file_path):
+        return {}
+    try:
+        import yaml  # type: ignore
+
+        with open(file_path, "r", encoding="utf-8") as file_obj:
+            return yaml.safe_load(file_obj) or {}
+    except ImportError:
+        return _minimal_yaml_load(file_path)
+    except Exception:
+        return {}
+
+
+@lru_cache(maxsize=1)
+def _load_exceptions():
+    data = _safe_load_yaml(EXCEPTIONS_FILE)
+    return data if isinstance(data, dict) else {}
 
 
 def _manifest_path(name):
@@ -38,7 +93,82 @@ def _title_case_identifier(value):
 
 
 def _abbreviation(name):
-    return "".join(word[0] for word in str(name or "").split() if word).lower()
+    return "".join(word[0] for word in str(name or "").split() if word and word[0].isalnum()).lower()
+
+
+def _collapse_spaces(value):
+    return re.sub(r"\s+", " ", str(value or "").replace("_", " ")).strip()
+
+
+def _display_settings():
+    settings = _load_exceptions().get("display") or {}
+    return settings if isinstance(settings, dict) else {}
+
+
+def _subject_overrides(subject_key):
+    overrides = _load_exceptions().get("subject_overrides") or {}
+    value = overrides.get(subject_key) if isinstance(overrides, dict) else None
+    return value if isinstance(value, dict) else {}
+
+
+def _branch_overrides(branch_key):
+    overrides = _load_exceptions().get("branch_overrides") or {}
+    value = overrides.get(branch_key) if isinstance(overrides, dict) else None
+    return value if isinstance(value, dict) else {}
+
+
+def _normalize_elective_code(value):
+    text = str(value or "").strip()
+    spaced = re.fullmatch(r"([A-Za-z0-9]+)\s+Elec\s+([IVX]+)", text, re.IGNORECASE)
+    if spaced:
+        return f"{spaced.group(1).upper()} Elec {spaced.group(2).upper()}"
+    match = re.fullmatch(r"([A-Za-z0-9]+)[_\-\s]*e([IVX]+)", text, re.IGNORECASE)
+    if not match:
+        return text.upper()
+    return f"{match.group(1).upper()} Elec {match.group(2).upper()}"
+
+
+def _normalize_elective_name(value):
+    text = _collapse_spaces(value)
+    text = re.sub(r"\s*-\s*", " - ", text)
+    text = re.sub(r"(?:\s+-\s+|\s+)Ele\.?\s*-\s*([IVX]+)\b", r" - Elective \1", text, flags=re.IGNORECASE)
+    text = re.sub(r"(?:\s+-\s+|\s+)Ele\.?\s+([IVX]+)\b", r" - Elective \1", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bEle\.?\s*-\s*([IVX]+)\b", r"Elective \1", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bEle\.?\s+([IVX]+)\b", r"Elective \1", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bElective\s+([ivx]+)\b", lambda m: f"Elective {m.group(1).upper()}", text)
+    return _collapse_spaces(text)
+
+
+def _is_elective(subject):
+    haystack = " ".join(
+        str(subject.get(key) or "")
+        for key in ("shortCode", "fullName", "normalizedName", "subjectKey")
+    )
+    return bool(re.search(r"(^|[_\-\s])e(?:le\.?|lec|lective)?[_\-\s]*[IVX]+\b", haystack, re.IGNORECASE))
+
+
+def _subject_sort_key(subject):
+    return (
+        1 if _is_elective(subject) else 0,
+        _collapse_spaces(subject.get("fullName") or subject.get("subjectKey")).casefold(),
+    )
+
+
+def _apply_branch_exceptions(branch):
+    branch = dict(branch or {})
+    branch.update(_branch_overrides(branch.get("branchKey")))
+    return branch
+
+
+def _apply_subject_exceptions(subject):
+    subject = dict(subject or {})
+    subject.update(_subject_overrides(subject.get("subjectKey")))
+    settings = _display_settings()
+    if settings.get("normalizeElectiveNames", True):
+        subject["fullName"] = _normalize_elective_name(subject.get("fullName") or subject.get("subjectKey"))
+    if settings.get("normalizeElectiveCodes", True):
+        subject["shortCode"] = _normalize_elective_code(subject.get("shortCode", ""))
+    return subject
 
 
 def _provider_base(subjects_manifest):
@@ -81,6 +211,7 @@ def _seo_for_subject(subject, route_path):
 
 
 def _normalize_subject(pattern_key, subject_key, subject, subjects_manifest):
+    subject = _apply_subject_exceptions(subject)
     route_prefix = HONORS_KEY if pattern_key == HONORS_KEY else str(pattern_key)
     route_path = f"/{route_prefix}/{subject_key}"
     base_url = _provider_base(subjects_manifest)
@@ -107,8 +238,9 @@ def _normalize_subject(pattern_key, subject_key, subject, subjects_manifest):
         })
 
     subject_name = subject.get("fullName") or _title_case_identifier(subject_key)
-    branch_name = subject.get("branchName") or _title_case_identifier(subject.get("branchKey"))
-    branch_code = subject.get("branchCode") or ""
+    branch_overrides = _branch_overrides(subject.get("branchKey"))
+    branch_name = branch_overrides.get("branchName") or subject.get("branchName") or _title_case_identifier(subject.get("branchKey"))
+    branch_code = branch_overrides.get("branchCode") or subject.get("branchCode") or ""
     year_name = subject.get("yearName") or ""
     semester_no = subject.get("semesterNo")
     subject_obj = {
@@ -149,12 +281,14 @@ def _load_subject_manifest(pattern_key):
 
 
 def _subject_card(pattern_key, subject):
+    subject = _apply_subject_exceptions(subject)
     subject_key = subject.get("subjectKey")
     route_prefix = HONORS_KEY if pattern_key == HONORS_KEY else str(pattern_key)
+    code = str(subject.get("shortCode") or "")
     return {
         "type": "subject",
         "id": subject_key,
-        "code": str(subject.get("shortCode") or "").upper(),
+        "code": _normalize_elective_code(code) if _is_elective(subject) else code.upper(),
         "name": subject.get("fullName") or _title_case_identifier(subject_key),
         "url": f"/{route_prefix}/{subject_key}",
         "semester_no": subject.get("semesterNo"),
@@ -173,6 +307,7 @@ def _nav_card(level_id, code, name, target_id):
 
 def _add_subject_level(levels, pattern_key, level_id, heading, subjects, semester_included, breadcrumbs):
     grouped = []
+    subjects = sorted((_apply_subject_exceptions(subject) for subject in subjects), key=_subject_sort_key)
     if semester_included:
         by_semester = {}
         for subject in subjects:
@@ -198,7 +333,8 @@ def _build_pattern_navigation(pattern_year, include_honors=False):
     nav_items = []
     levels = []
 
-    for branch in (hierarchy.get("standard") or {}).get("branches") or []:
+    for raw_branch in (hierarchy.get("standard") or {}).get("branches") or []:
+        branch = _apply_branch_exceptions(raw_branch)
         branch_id = f"{pattern_year}-branch-{branch.get('branchKey')}"
         year_items = []
         years_list = branch.get("years") or []

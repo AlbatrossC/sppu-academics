@@ -59,7 +59,7 @@ def get_image(filename):
     images_dir = os.path.join(BASE_DIR, "static", "images")
     if not os.path.exists(os.path.join(images_dir, filename)):
         abort(404)
-    return send_from_directory(images_dir, filename)
+    return send_from_directory(images_dir, filename, max_age=31536000)
 
 
 @main_bp.route("/robots.txt")
