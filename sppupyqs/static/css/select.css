@@ -37,7 +37,7 @@ body {
     width: 100%;
     max-width: 1360px;
     margin: 0 auto;
-    padding: 34px 28px 48px;
+    padding: 20px 24px 48px;
     position: relative;
 }
 
@@ -590,8 +590,8 @@ header {
 
 /* BACK NAVIGATION */
 .back-nav-container {
-    margin: 1.5rem 0 -0.5rem 0;
-    padding: 0 12px;
+    margin: 0 0 1.25rem 0;
+    padding: 0;
 }
 .back-button {
     display: inline-flex;
@@ -600,18 +600,20 @@ header {
     background: transparent;
     color: var(--text-secondary);
     border: none;
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
     padding: 6px 12px 6px 0;
-    transition: color 0.2s ease, transform 0.2s ease;
+    transition: color 0.2s ease;
 }
 .back-button:hover {
-    color: var(--accent-primary);
-    transform: translateX(-4px);
+    color: var(--text-primary);
 }
 .back-button svg {
     transition: transform 0.2s ease;
+}
+.back-button:hover svg {
+    transform: translateX(-4px);
 }
 
 /* SECTION TITLE */
@@ -753,13 +755,14 @@ header {
 }
 
 .semester-heading {
-    font-size: 1.4rem;
-    margin: 2rem 0 1.2rem 0;
-    color: #e0e0e0;
-    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 0 1.25rem 0;
+    color: var(--text-primary);
+    font-weight: 700;
     text-align: left;
     border-left: 4px solid var(--accent-primary);
     padding-left: 12px;
+    letter-spacing: -0.01em;
 }
 
 .branch-list,
@@ -767,9 +770,9 @@ header {
 .subject-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    gap: 1.25rem;
     padding: 0;
-    margin: 1.5rem 0;
+    margin: 0 0 2rem 0;
     list-style: none;
 }
 
@@ -849,13 +852,19 @@ header {
 }
 
 .subject-group-heading {
-    font-size: 1.4rem;
-    margin: 2rem 0 1.2rem 0;
-    color: #e0e0e0;
-    font-weight: 500;
+    font-size: 1.15rem;
+    margin: 1.75rem 0 1rem 0;
+    color: var(--text-secondary);
+    font-weight: 600;
     text-align: left;
-    border-left: 4px solid var(--accent-primary);
-    padding-left: 12px;
+    border-left: 3px solid rgba(255, 255, 255, 0.2);
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.semester-heading + .group > .subject-group-heading:first-child {
+    margin-top: 0.5rem;
 }
 
 /* Hover Effects */
@@ -1032,7 +1041,25 @@ header {
     .semester-list,
     .subject-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 1.2rem;
+        gap: 1rem;
+        margin: 0 0 1.5rem 0;
+    }
+    
+    .semester-heading {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+        padding-left: 10px;
+    }
+    
+    .subject-group-heading {
+        font-size: 1.05rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+        padding-left: 8px;
+    }
+    
+    .back-nav-container {
+        margin-bottom: 1rem;
     }
     
     .card {
@@ -1053,7 +1080,7 @@ header {
     }
     
     .content {
-        padding: 24px 16px 40px;
+        padding: 16px 16px 36px;
     }
 }
 
@@ -1130,7 +1157,8 @@ header {
     .branch-list,
     .semester-list {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.75rem;
+        margin: 0 0 1.25rem 0;
     }
     
     .subject-list a,
@@ -1152,8 +1180,24 @@ header {
     }
     
     .semester-heading {
-        font-size: 1.2rem;
-        margin-bottom: 16px;
+        font-size: 1.15rem;
+        margin-bottom: 0.75rem;
+        padding-left: 8px;
+    }
+    
+    .subject-group-heading {
+        font-size: 0.95rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+        padding-left: 6px;
+    }
+    
+    .back-nav-container {
+        margin-bottom: 0.75rem;
+    }
+    
+    .content {
+        padding: 12px 12px 30px;
     }
     
     .mobile-menu {
@@ -1172,7 +1216,6 @@ header {
 
 /* Tablet Landscape */
 @media (min-width: 900px) and (max-width: 1024px) {
-    .cards-grid {
         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     }
     
