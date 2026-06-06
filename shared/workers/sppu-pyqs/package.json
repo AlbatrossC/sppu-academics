@@ -1,0 +1,19 @@
+{
+  "name": "sppu-pyqs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker that serves SPPU PYQ PDF files from an R2 bucket with aggressive caching",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "dev:remote": "wrangler dev --remote",
+    "typecheck": "tsc --noEmit",
+    "r2:create": "wrangler r2 bucket create sppu-pyqs",
+    "r2:list": "wrangler r2 object list sppu-pyqs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241201.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^3.91.0"
+  }
+}
