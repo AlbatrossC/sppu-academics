@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-05T14:26:14Z",
+  "generatedAt": "2026-06-06T21:02:19Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -559,6 +559,283 @@
                   "shortCode": "wt",
                   "fullName": "Web Technology",
                   "normalizedName": "web_technology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "e-and-tc-engineering",
+          "branchCode": "ete",
+          "branchName": "E & TC Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "android_development_ele_V_ete",
+                  "shortCode": "ad_eV",
+                  "fullName": "Android Development_Ele V",
+                  "normalizedName": "android_development_ele_V"
+                },
+                {
+                  "subjectKey": "cloud_computing_ete",
+                  "shortCode": "cc",
+                  "fullName": "Cloud Computing",
+                  "normalizedName": "cloud_computing"
+                },
+                {
+                  "subjectKey": "deep_learning_ele_IV_ete",
+                  "shortCode": "dl_eIV",
+                  "fullName": "Deep Learning - Ele IV",
+                  "normalizedName": "deep_learning_ele_IV"
+                },
+                {
+                  "subjectKey": "digital_marketing_ele_VI_ete",
+                  "shortCode": "dm_eVI",
+                  "fullName": "Digital Marketing - Ele VI",
+                  "normalizedName": "digital_marketing_ele_VI"
+                },
+                {
+                  "subjectKey": "electronic_product_development_ele_IV_ete",
+                  "shortCode": "epd_eIV",
+                  "fullName": "Electronic Product Development - Ele IV",
+                  "normalizedName": "electronic_product_development_ele_IV"
+                },
+                {
+                  "subjectKey": "embedded_system_design_ele_V_ete",
+                  "shortCode": "esd_eV",
+                  "fullName": "Embedded System Design_Ele V",
+                  "normalizedName": "embedded_system_design_ele_V"
+                },
+                {
+                  "subjectKey": "fiber_optic_communication_ete",
+                  "shortCode": "foc",
+                  "fullName": "Fiber Optic Communication",
+                  "normalizedName": "fiber_optic_communication"
+                },
+                {
+                  "subjectKey": "industrial_robotics_and_automation_ete",
+                  "shortCode": "ira",
+                  "fullName": "Industrial Robotics & Automation",
+                  "normalizedName": "industrial_robotics_and_automation"
+                },
+                {
+                  "subjectKey": "java_script_ele_III_ete",
+                  "shortCode": "js_eIII",
+                  "fullName": "Java Script - Ele III",
+                  "normalizedName": "java_script_ele_III"
+                },
+                {
+                  "subjectKey": "mobile_computing_ele_V_ete",
+                  "shortCode": "mc_eV",
+                  "fullName": "Mobile Computing - Ele V",
+                  "normalizedName": "mobile_computing_ele_V"
+                },
+                {
+                  "subjectKey": "modernized_iot_ele_III_ete",
+                  "shortCode": "mi_eIII",
+                  "fullName": "Modernized IOT - Ele III",
+                  "normalizedName": "modernized_iot_ele_III"
+                },
+                {
+                  "subjectKey": "nano_electronics_ele_VI_ete",
+                  "shortCode": "ne_eVI",
+                  "fullName": "Nano Electronics - Ele VI",
+                  "normalizedName": "nano_electronics_ele_VI"
+                },
+                {
+                  "subjectKey": "radiation_and_microwave_theory_ete",
+                  "shortCode": "rmt",
+                  "fullName": "Radiation & Microwave Theory",
+                  "normalizedName": "radiation_and_microwave_theory"
+                },
+                {
+                  "subjectKey": "smart_contract_and_crypto_currency_ete",
+                  "shortCode": "sccc",
+                  "fullName": "Smart Contract & Crypto Currency",
+                  "normalizedName": "smart_contract_and_crypto_currency"
+                },
+                {
+                  "subjectKey": "vlsi_design_and_technology_ete",
+                  "shortCode": "vdt",
+                  "fullName": "VLSI Design & Technology",
+                  "normalizedName": "vlsi_design_and_technology"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "control_system_ete",
+                  "shortCode": "cs",
+                  "fullName": "Control System",
+                  "normalizedName": "control_system"
+                },
+                {
+                  "subjectKey": "data_structures_ete",
+                  "shortCode": "ds",
+                  "fullName": "Data Structures",
+                  "normalizedName": "data_structures"
+                },
+                {
+                  "subjectKey": "data_structures_and_algorithms_ete",
+                  "shortCode": "dsa",
+                  "fullName": "Data Structures & Algorithms",
+                  "normalizedName": "data_structures_and_algorithms"
+                },
+                {
+                  "subjectKey": "digital_circuits_ete",
+                  "shortCode": "dc",
+                  "fullName": "Digital Circuits",
+                  "normalizedName": "digital_circuits"
+                },
+                {
+                  "subjectKey": "electrical_circuits_ete",
+                  "shortCode": "ec",
+                  "fullName": "Electrical Circuits",
+                  "normalizedName": "electrical_circuits"
+                },
+                {
+                  "subjectKey": "electronic_circuits_ete",
+                  "shortCode": "ec",
+                  "fullName": "Electronic Circuits",
+                  "normalizedName": "electronic_circuits"
+                },
+                {
+                  "subjectKey": "engineering_mathematics_III_ete",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Mathematics - III",
+                  "normalizedName": "engineering_mathematics_III"
+                },
+                {
+                  "subjectKey": "object_oriented_programming_ete",
+                  "shortCode": "oop",
+                  "fullName": "Object Oriented Programming",
+                  "normalizedName": "object_oriented_programming"
+                },
+                {
+                  "subjectKey": "principles_of_communication_systems_ete",
+                  "shortCode": "pcs",
+                  "fullName": "Principles of Communication Systems",
+                  "normalizedName": "principles_of_communication_systems"
+                },
+                {
+                  "subjectKey": "signals_and_systems_ete",
+                  "shortCode": "ss",
+                  "fullName": "Signals & Systems",
+                  "normalizedName": "signals_and_systems"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_java_programming_ele_II_ete",
+                  "shortCode": "ajp_eII",
+                  "fullName": "Advanced Java Programming_Ele-II",
+                  "normalizedName": "advanced_java_programming_ele_II"
+                },
+                {
+                  "subjectKey": "blockchain_technology_ete",
+                  "shortCode": "bt",
+                  "fullName": "Blockchain Technology",
+                  "normalizedName": "blockchain_technology"
+                },
+                {
+                  "subjectKey": "cellular_networks_ete",
+                  "shortCode": "cn",
+                  "fullName": "Cellular Networks",
+                  "normalizedName": "cellular_networks"
+                },
+                {
+                  "subjectKey": "computer_networks_ele_I_ete",
+                  "shortCode": "cn_eI",
+                  "fullName": "Computer Networks_Ele-I",
+                  "normalizedName": "computer_networks_ele_I"
+                },
+                {
+                  "subjectKey": "database_management_ete",
+                  "shortCode": "dm",
+                  "fullName": "Database Management",
+                  "normalizedName": "database_management"
+                },
+                {
+                  "subjectKey": "decentralize_blockchain_technologies_ete",
+                  "shortCode": "dbt",
+                  "fullName": "Decentralize Blockchain Technologies",
+                  "normalizedName": "decentralize_blockchain_technologies"
+                },
+                {
+                  "subjectKey": "digital_communication_ete",
+                  "shortCode": "dc",
+                  "fullName": "Digital Communication",
+                  "normalizedName": "digital_communication"
+                },
+                {
+                  "subjectKey": "digital_image_processing_ele_II_ete",
+                  "shortCode": "dip_eII",
+                  "fullName": "Digital Image Processing_Ele-II",
+                  "normalizedName": "digital_image_processing_ele_II"
+                },
+                {
+                  "subjectKey": "digital_signal_processing_ele_I_ete",
+                  "shortCode": "dsp_eI",
+                  "fullName": "Digital Signal Processing - Ele-I",
+                  "normalizedName": "digital_signal_processing_ele_I"
+                },
+                {
+                  "subjectKey": "electromagnetic_field_theory_ete",
+                  "shortCode": "eft",
+                  "fullName": "Electromagnetic Field Theory",
+                  "normalizedName": "electromagnetic_field_theory"
+                },
+                {
+                  "subjectKey": "embedded_processors_ele_II_ete",
+                  "shortCode": "ep_eII",
+                  "fullName": "Embedded Processors_Ele-II",
+                  "normalizedName": "embedded_processors_ele_II"
+                },
+                {
+                  "subjectKey": "fundamentals_of_java_programming_ele_I_ete",
+                  "shortCode": "fjp_eI",
+                  "fullName": "Fundamentals of Java Programming - Ele I",
+                  "normalizedName": "fundamentals_of_java_programming_ele_I"
+                },
+                {
+                  "subjectKey": "microcontrollers_ete",
+                  "shortCode": "m",
+                  "fullName": "Microcontrollers",
+                  "normalizedName": "microcontrollers"
+                },
+                {
+                  "subjectKey": "network_security_ele_II_ete",
+                  "shortCode": "ns_eII",
+                  "fullName": "Network Security_Ele-II",
+                  "normalizedName": "network_security_ele_II"
+                },
+                {
+                  "subjectKey": "power_devices_and_circuits_ete",
+                  "shortCode": "pdc",
+                  "fullName": "Power Devices & Circuits",
+                  "normalizedName": "power_devices_and_circuits"
+                },
+                {
+                  "subjectKey": "project_management_ete",
+                  "shortCode": "pm",
+                  "fullName": "Project Management",
+                  "normalizedName": "project_management"
                 }
               ]
             }

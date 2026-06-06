@@ -2,6 +2,8 @@
 # Keep keys equal to the generated manifest subjectKey or branchKey.
 
 branch_overrides:
+  e-and-tc-engineering:
+    branchCode: ENTC
   it-engineering:
     branchCode: IT
 

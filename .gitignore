@@ -25,3 +25,41 @@ npm-debug.log*
 
 # Coverage
 coverage/
+
+.env
+
+# Python caches / environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / local toolchains
+node_modules/
+.tools/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local credentials and runtime config
+.env.*
+!.env.example
+.wrangler/
+.wrangler-config/
+config.local.json
+
+*.log
+*.part
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

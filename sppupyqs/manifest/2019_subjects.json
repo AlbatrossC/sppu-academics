@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-05T14:26:14Z",
+  "generatedAt": "2026-06-06T21:02:19Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -5629,6 +5629,3119 @@
           "exam": "insem",
           "month": "mar",
           "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "android_development_ele_V_ete": {
+      "subjectKey": "android_development_ele_V_ete",
+      "shortCode": "ad_eV",
+      "fullName": "Android Development_Ele V",
+      "normalizedName": "android_development_ele_V",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1ERkk6Tp2yM5ZCHHigS4Qc4JURNPtlmPM",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/insem_mar_2024_ete_ade_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1iKaVOAGGxhkf71R0e34JTKsWM0YxJ3Kt",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/endsem_may_jun_2024_ete_ade_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "cloud_computing_ete": {
+      "subjectKey": "cloud_computing_ete",
+      "shortCode": "cc",
+      "fullName": "Cloud Computing",
+      "normalizedName": "cloud_computing",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1D6NBBhnW5HLbAER-APGTS7vme8mG891u",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2022_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1B3Ljwi3stW5NDZSL5Cdh7U6UXsJfTV4g",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_oct_2022_ete_cce_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1PaZpuYHQ1AfP6JfIEfGZ2Kls8mCFDmQb",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2023_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1xPeZY3S5rmoBeaBv7PiigzzwuTT_5eaZ",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2023_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1SPcg_NOlNf2q3SOh5uJXHYMJPWNM4-VF",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2023_ete_cce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1lw_3EyZIsVeP-I3Ecc8aCt2BYY88n3Nl",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2024_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Vtfi25imz5GB5nRtvHD78rrmetxpdP7z",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2024_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1rwLOfl9c6E0V8la94r11ouRLRneNULwi",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2024_ete_cce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "16rksTBe8YeVjcYx7T-xCKtKcvB0XHU_l",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_aug_2025_ete_cce_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1VRUvyHmyixSLr2bY28PUoxGCipdTExS8",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2025_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "14zAEbzG1rAeaE2s5c4cz4iE62zcoGLQ_",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2025_ete_cce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "deep_learning_ele_IV_ete": {
+      "subjectKey": "deep_learning_ele_IV_ete",
+      "shortCode": "dl_eIV",
+      "fullName": "Deep Learning - Ele IV",
+      "normalizedName": "deep_learning_ele_IV",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "172A0gnGzAfi0IcoLFBILRL0tKTLBQK8E",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_nov_dec_2023_ete_dle_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1JA9JmpgOFCHkijMXsLnGOGcWnB0etzx3",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/insem_sep_2023_ete_dle_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1EFejoP-maukk8bTiYfJ3TqiEjvFlMP2N",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_may_jun_2024_ete_dle_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "digital_marketing_ele_VI_ete": {
+      "subjectKey": "digital_marketing_ele_VI_ete",
+      "shortCode": "dm_eVI",
+      "fullName": "Digital Marketing - Ele VI",
+      "normalizedName": "digital_marketing_ele_VI",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "150QS0aC2yXWRj-zAqcvGjmmI0jgcbJo8",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_feb_2023_ete_dme_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1vSbbss2rCcofmJQrv_Ova55H6DxyygqM",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2023_ete_dme_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ssin4mRyuurXd2C4sRiIHTxKkX4-7CVH",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2023_ete_dme_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1uyh2x5HTRr7tfsWAD7ikW3VtyksVTGiT",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2024_ete_dme_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1_hBbJBzdXYfIHi5JFsCkWB6xPtsetDq0",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2024_ete_dme_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "17kb_jrmeu6v63MbMpydmwotuGE733WLd",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2024_ete_dme_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1-FCv9A758TSjkDhiF5ke8bInLeN7tUOa",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2025_ete_dme_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "14loYtcNmBdV9JkEVqfSI-7ceMhKEARWy",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2025_ete_dme_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "electronic_product_development_ele_IV_ete": {
+      "subjectKey": "electronic_product_development_ele_IV_ete",
+      "shortCode": "epd_eIV",
+      "fullName": "Electronic Product Development - Ele IV",
+      "normalizedName": "electronic_product_development_ele_IV",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1j_WTkbFrG3Ya2Kj39vBskRMwxp4aqkYA",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2022_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1BUwr0c-A7WD_bFvFeuT3scRn_86HW96x",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_oct_2022_ete_epde_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "10afna9xaZwy4EbUt6rNHCmd-WBuesz7w",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2023_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1J6zKyQ3GkjRs0Y8SSQwJ5I3_VN7R6YAr",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2023_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "13449xqoQZF3JX5893rn7qLRv920UC8IY",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2023_ete_epde_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ijhpMNOB2HOqQQwWIBqXxlxzuY2xYR5S",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2024_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1GnjkzxtgqfsFPyjkA1-VFN8YBotLe1LH",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2024_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1TIXTYZZB92IkSPs_dJrXCXwsijZ9-uqu",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2024_ete_epde_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "14T6iB70DSr6XK8s6NfzAhjwv1V1B_AsG",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_aug_2025_ete_epde_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1GrcSRKioo6n3lKZA5sRqrlrlr6AszUVR",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2025_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1n5wCSMkXtWi2QR8uJHynSv5xCQXDw68P",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2025_ete_epde_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "embedded_system_design_ele_V_ete": {
+      "subjectKey": "embedded_system_design_ele_V_ete",
+      "shortCode": "esd_eV",
+      "fullName": "Embedded System Design_Ele V",
+      "normalizedName": "embedded_system_design_ele_V",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1DBrWIa1my_Mc8tvuqNMJvg948mWf2t2O",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/embedded_system_design_ele_V_ete/endsem_may_jun_2025_ete_esde_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "fiber_optic_communication_ete": {
+      "subjectKey": "fiber_optic_communication_ete",
+      "shortCode": "foc",
+      "fullName": "Fiber Optic Communication",
+      "normalizedName": "fiber_optic_communication",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Evu13sbGXmKD-zJMxnHolg5NHZ5mf3H3",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_feb_2023_ete_foce_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1qbaxBN_c_aG90V6j_8QaqHPwhfqSz7-3",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2023_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1cgpDVayJo-0H3EIlZ0pBt9aGR4voZ37u",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2023_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1pHcWT1ftSbZYnedDYuF7NW3Z4xcRnxjI",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2024_ete_foce_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1f0neD1t1AH5iw5-WZeFqluZzrfpNv9EO",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2024_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1fLwQYn3xqmUP33IX-KfZS_VRrq11FY1I",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2024_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1NBAn6egQtC6ax_FEr7NqcS4Jjcz-59Un",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2025_ete_foce_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1DMSI8NaQLhfkT1Vt3PkEZ7d-hvVMyPm0",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2025_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "14_qPLqt8ijkmlD4CZmoWeTSoXQfoY0Q_",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2025_ete_foce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "industrial_robotics_and_automation_ete": {
+      "subjectKey": "industrial_robotics_and_automation_ete",
+      "shortCode": "ira",
+      "fullName": "Industrial Robotics & Automation",
+      "normalizedName": "industrial_robotics_and_automation",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1TGN5hYTytWti3Eg09u7Bw3EZomz2ohSx",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2023_ete_irae_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1vG9nD-ExVYER9SxqygF1HiswJ0iOvAzx",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/insem_sep_2023_ete_irae_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1JtrV-YRk3gqi9hkBkvLZ_Vu8WWLPFQfi",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_nov_dec_2024_ete_irae_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1v0lepk1lUoZALZwg9ATexgGyq6yrHb-d",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2025_ete_irae_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "java_script_ele_III_ete": {
+      "subjectKey": "java_script_ele_III_ete",
+      "shortCode": "js_eIII",
+      "fullName": "Java Script - Ele III",
+      "normalizedName": "java_script_ele_III",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18-k4qUGZUThF2zZVOew5_YsilgBRjiwx",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2022_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1rZG47y7iaBCqqyl0X5autmALbEFafSPS",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_oct_2022_ete_jse_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1iNlxJ7bMfTZx1SZvjMJxIuJdAvEq_s_h",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2023_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "19SOVS31FsVW3t4AL9oRHmLA9hKcxGSLH",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2023_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "12Ne6uLGgvo-9W0aZ2nwUJaeC3civofaR",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2023_ete_jse_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "13u5ITCd9ZpRZPijlP41MET9t8n79yceg",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2024_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1b_ZwWQ6BFYb_EkBfVoMtqOn75lwFnhtO",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2024_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1b36Psy9fPJj5uAIKEtXrlEoU8xcg9_em",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2024_ete_jse_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1v-vMMbFNUgAf_TqhcJQXha1unmEoOT2d",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_aug_2025_ete_jse_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "10mru4jKjmgruD3PgjLoWegHfwVH7G7ZJ",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2025_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Fk--bPLITuk1-75psOxRSWMW69DfELUb",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2025_ete_jse_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "mobile_computing_ele_V_ete": {
+      "subjectKey": "mobile_computing_ele_V_ete",
+      "shortCode": "mc_eV",
+      "fullName": "Mobile Computing - Ele V",
+      "normalizedName": "mobile_computing_ele_V",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1pww3zjo3-1hC7UE0AAMYGMVmI16-JR-6",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_feb_2023_ete_mce_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Hg-mSwrDTiVaBc4xmw8sgkXmLg56EFcB",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2023_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1VhS4Eoz6MrXqHNxviYuB514mF7M_GZ2F",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2023_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Hq7AJbXm9QE0VI-BcW46K-vSZyFPxYUX",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2024_ete_mce_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1wBo2w1Oab89Hi6fEZ_mgskUAyWAAHobG",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2024_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mnIDCVhlng5ErmEwIT30ins79O50wcr7",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2024_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1L0r-LEWo_hz3vs5F9wjqHgekJuT8sGO5",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2025_ete_mce_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1AfnlGp5njtPOGdz8k1bgroVE6iM8znUp",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2025_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1swz1X7DHgwNLPNDGnRQeogqN799Dttku",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2025_ete_mce_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "modernized_iot_ele_III_ete": {
+      "subjectKey": "modernized_iot_ele_III_ete",
+      "shortCode": "mi_eIII",
+      "fullName": "Modernized IOT - Ele III",
+      "normalizedName": "modernized_iot_ele_III",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1wljotE_8FOC5z2lIKbO4ydlcfFA3zhh0",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2023_ete_mie_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1z76iKxRdYMXFE_9r93_Kyx-f7o57sUog",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2023_ete_mie_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1W_O5wfRiGc-NUWt0R5MRF15IRuu4Xvn5",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2024_ete_mie_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1gTgROwPPLgP5J9f5_17wf_sh_dLS1tq5",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2024_ete_mie_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1lDa1UNGBLvLMnaPWgyzrngP8WErqIXp7",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2024_ete_mie_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "13Ipc7yNEwkekgRtzh7XROToim8wXQCXu",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_aug_2025_ete_mie_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1rcMFzniNAnZ8n4wczaB0iklRrgc00KSG",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2025_ete_mie_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1EXVfuW-W6Y289KLEC7tnb-gzBCyu-Myw",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2025_ete_mie_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "nano_electronics_ele_VI_ete": {
+      "subjectKey": "nano_electronics_ele_VI_ete",
+      "shortCode": "ne_eVI",
+      "fullName": "Nano Electronics - Ele VI",
+      "normalizedName": "nano_electronics_ele_VI",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1KndvX5qJkRoyZWe71zRGdc7bgIXbQWee",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_feb_2023_ete_nee_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1nYoRFE68GZcuEeKrnI1ca_VmSUKODAG1",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2023_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1pOvLO20XTWRB13pfIfxFcOVxktAy0TMk",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2023_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1nTYxiMkR0NAeGjX0c-1IuIGHxLbrtCuc",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2024_ete_nee_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1OzqIuTL4r4f7zC_mP86JPZArc2eYmgXF",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2024_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1NM3YPoKg9te40MwLfl-oxA_NZK-HHL-C",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2024_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1642L9_yMVVyP4Oe6GqFQgl3btmIemkJC",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2025_ete_nee_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1RkH8EC0N7voG2I23J9G1rx3aaCaaNqE6",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2025_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "16It9v8GwkHHAo8RVqF3yp47EhLlYkcsY",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2025_ete_nee_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "radiation_and_microwave_theory_ete": {
+      "subjectKey": "radiation_and_microwave_theory_ete",
+      "shortCode": "rmt",
+      "fullName": "Radiation & Microwave Theory",
+      "normalizedName": "radiation_and_microwave_theory",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1q71PQQpyTCp7bUs2dC44vlM42av51HRa",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2022_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1gtJCqHXM-UryMxidwnFptcpdHHUoUaML",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_oct_2022_ete_rmte_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1GGnsn0QwLHSs6nJh7mQNv5iVFAFffSAc",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2023_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1f7a3mobL7HPJutEmkZrfY4O6Z6_x-PC1",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2023_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1vsb9J70-haQWKjURL0rQXLV0ldTQ_6s8",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2023_ete_rmte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1yN44Gw_-3mMWiXJ4Rd-AkWS7yqJig5U8",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2024_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1hcvDGgB4_w49mhLCxvHZG98-i_CPhOUV",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2024_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "18AkbGb2qaYLf6yHp_qLYFRI49y58CvdA",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2024_ete_rmte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1hKrkR5m36nU2fZw9GtRsmqD9hTQEkxjA",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_aug_2025_ete_rmte_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1CVvb7QlJTtsXxQMj22gxVdSFZ7WEp8Rw",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2025_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Q6iwJc6WJ5iE93Lfe3C2BvixMjYfLWT4",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2025_ete_rmte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "smart_contract_and_crypto_currency_ete": {
+      "subjectKey": "smart_contract_and_crypto_currency_ete",
+      "shortCode": "sccc",
+      "fullName": "Smart Contract & Crypto Currency",
+      "normalizedName": "smart_contract_and_crypto_currency",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1uY_4_sXDZK_SiBW7NmsKxvjHIFCRiOpb",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/smart_contract_and_crypto_currency_ete/insem_sep_2023_ete_sccce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "vlsi_design_and_technology_ete": {
+      "subjectKey": "vlsi_design_and_technology_ete",
+      "shortCode": "vdt",
+      "fullName": "VLSI Design & Technology",
+      "normalizedName": "vlsi_design_and_technology",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1yuZBdplW7a_GgB39KdILKLhldm47DaoR",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2022_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1CLlXz_WgaBZxC-yJ8wjXqOB6_9NCABeW",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_oct_2022_ete_vdte_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1z1sSYtFW0NvBRMtYlU-Uo7HVqwEBIXGT",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2023_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "18FAcC887sVf-1XZkZrJ24ebLDLu0HvOa",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2023_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1D15ZaLhzuP3fFqr_vj3Re8_2Xxc9eCHq",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2023_ete_vdte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1F3lLf3y6tltm9kzfbAafTpQW0arJQ3Zp",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2024_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1xogoHKtpx9kpxtOpobr5QwfUux2BFFBz",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2024_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1v2OymoOYX0bOpCjqN8PGO2o33gLrCNrC",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2024_ete_vdte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ifHEs5BlWK2yc0pqzFfVhn8COHOaVrae",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_aug_2025_ete_vdte_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1kCtYK4dgon984ELtkI6x0Gx0remDLWRa",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2025_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1dW93nXF04jqnPY3hDUQUzWqzQ4tCGCfL",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2025_ete_vdte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "control_system_ete": {
+      "subjectKey": "control_system_ete",
+      "shortCode": "cs",
+      "fullName": "Control System",
+      "normalizedName": "control_system",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1yH4D68EwgJt4AceAyzu9b3zVdSGSZOe5",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2022_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ewwmLSUnre0VRshOHPtY8zRE_Cte7JbB",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2022_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1hlcQwJOQebKJ683yPqXzl2ou8ULpu6Gb",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_feb_2023_ete_cse_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1aX5izpAH6HeMiZRJ4VaDwktKZ7Iy_Wta",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2023_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1w0HZs8_90HjX1XZs8bciIEJ1HtDztplS",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2023_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tHXY5X8DeAQ0KHBOxbLfi9yxomQ4z8DK",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2024_ete_cse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1oooJLMZbzZzY-28fQHlFXkba8mlzG7PV",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2024_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1I33vs4VE1VTAUjGTtcWOf5FpXmJ5toUc",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2024_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1OZNur2oMS6KEOTmhoWTGOvGxn99JzObw",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2025_ete_cse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1u7K82__ZVPM18Ck6Zj3BQAliv-Z2DfYq",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2025_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1M-H5E3bCUJiwPHFcvCpQRTk_88I64LyE",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2025_ete_cse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Xxw66Mr5Pg5YkPdE7Ns43LmnBI-td2l8",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2026_ete_cse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "data_structures_and_algorithms_ete": {
+      "subjectKey": "data_structures_and_algorithms_ete",
+      "shortCode": "dsa",
+      "fullName": "Data Structures & Algorithms",
+      "normalizedName": "data_structures_and_algorithms",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1efFVQHnk8VR5CdBZMjsSomEf4UDQxkVG",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/endsem_may_jun_2024_ete_dsae_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1I5tcTeTswsHj7YPrZpMnVzOjyJvG2t2S",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/insem_sep_2024_ete_dsae_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "data_structures_ete": {
+      "subjectKey": "data_structures_ete",
+      "shortCode": "ds",
+      "fullName": "Data Structures",
+      "normalizedName": "data_structures",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1-FiNx7G3OzGbPUcdA60TYFPqiU2aZ5PN",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2022_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1uktps9lcI49kFDfYPUtTF6eAGEe-T4b_",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2022_ete_dse_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1jR2hrqajqzhwfkvetZxjR-GhyPDXNgJe",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2023_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1q-mQmLqhmgdIfyfwsgbevyWFsPQAGUc9",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2023_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1QrVSv-CNFwg61yWuaGIQA6sdSbVnnG0U",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2023_ete_dse_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1b-BrEZ24jqXIuGM_JgkdW5XKHuMPH94S",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2024_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "15m59VeidclhxoKJaVssOaLRopFf9XdOw",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_sep_2024_ete_dse_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Ti72QJcTCVKmzJZf4iCWZktaFN80gLTR",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2025_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1n-mwvAQIOBjAME1nJUuLmUkjjTd1pQ8b",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2025_ete_dse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1B7D9EhFlroT-4A4EPUfQ2AP9DLjgr0Uc",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2025_ete_dse_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "digital_circuits_ete": {
+      "subjectKey": "digital_circuits_ete",
+      "shortCode": "dc",
+      "fullName": "Digital Circuits",
+      "normalizedName": "digital_circuits",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1ewv2qyJ4WY7dHZZsuvnserFnniUtM-AQ",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1cKCmeukvC_dvkqynMbYYMyArnWl1NxUP",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2022_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1C44-HiemrgepExCsXdOaKSSkIejfSi9h",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2023_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1UGXxE3x7Nnqm-BvfNhGPV8kZIc8dubOg",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1OwvYnU31i95-PMFWX6Nrfe0DAkNzt4At",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2023_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1CG8ie5UUDZvN5zvhPsYTR4pEt5GZkauo",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2024_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mD0-NHzITUXs0rsCjQkkgOR2JFOFY0MN",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1VvyyM2_2-85m_79_JfsOo7p-yLx-gr8n",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_sep_2024_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1pZhzO2yBQAkpgsgArBA7bbkWGeAsmoGs",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2025_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1mYSp1o9NLqcu0W1lI35n2MgvxfxW-CnB",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "128HPK0QrkmBiBmP0PM9v1sn3ydTDROuh",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2025_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "electrical_circuits_ete": {
+      "subjectKey": "electrical_circuits_ete",
+      "shortCode": "ec",
+      "fullName": "Electrical Circuits",
+      "normalizedName": "electrical_circuits",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "11sZRAjaFBhXnvbu6iHC74bY1z9CrD6Ev",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1DYH3SGixelok5N4Sq7-APAo3Y4nuDFlr",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1MKfWXZAhTRd2IkwFnLZz1jCQKDPBAv8O",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1XCVqTyKBZu83Jelwl1YC3h4QSt9yhOLa",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1_jhW3FDjuFLP9Bj5iQ26BxQA4hMGerRl",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1OIoRB-QKZFI4Uk8jCeKGukFoxa8ZPnHy",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1KtN6XlEhYitCkH4hTOp4XfR115jHxTUa",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1SQYfvJsgBh6YVM0TBLOhWbYkw7hFqcvP",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1c7wBPTpVx4pQXKTtM1Faf12O0e4fwN8z",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1_ZylilRXoCiTm-sO-Gu4-FMcmP-j8_5t",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2025_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "electronic_circuits_ete": {
+      "subjectKey": "electronic_circuits_ete",
+      "shortCode": "ec",
+      "fullName": "Electronic Circuits",
+      "normalizedName": "electronic_circuits",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "17S0ibJSaSvPkd1NT-l2N8H6cFJ7J4EAp",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2022_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1V4mEUoPA1bNel3roRYuEnRbAhzdKQOuj",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "14A1XimUzdfCnByifepedBLQDtvkd0YJB",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1oVetMzR-t-W9GK8ij58Dbr2yYZcZHqM0",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "13E5MSLII66qepl5SzNxUGIYiPq_MVTVa",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "17npPV9zMlf1CMDeo65GTS9ZWm5-y4-ZJ",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1aRA55O7iBz2-9D060s3ttbpmKmxCkNGc",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1fFjRenxbnFE0kh_9S5bLnL7LMhe06cMp",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1bFbQMS4knKz_-IYnPIRMCNgkFr9L_l3U",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_sep_2024_ete_ece_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1BK0p2ykVeOZDyTsICVrJEdGp3TenuCbN",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "10ojFIZOyqJgDc7gdXT2LQQ6CYfvsMpzQ",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_mathematics_III_ete": {
+      "subjectKey": "engineering_mathematics_III_ete",
+      "shortCode": "emIII",
+      "fullName": "Engineering Mathematics - III",
+      "normalizedName": "engineering_mathematics_III",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "12ffZhCLD40pEE7AMg8Nzt5prczmTcBSM",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2022_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ECeiG4eHvxUm_7_18hHvIitk3yc27Rf9",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2022_ete_emIIIe_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1u2y1s_k5Qi1w025P7JnM9jYqsHUpg8Ng",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2023_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1AWAcQbhh8qhrmWz1P4FR3Bk04hGogI_1",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2023_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1g4TT_JFs1scowaiWmIsQ6xA3-m3dsPlm",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2023_ete_emIIIe_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1XNyCbGopJH5PRt3D4caivSykodEvhCHr",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2024_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "12kQpD_lRlmpK24F1PiV5okz5heaR2ssB",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2024_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1XGzdGj2dZLABzvcLkgRO4Uhp2FBHq4F3",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_sep_2024_ete_emIIIe_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "10Za91pXZiT_A7nPi-ZdXDG1GBTihv5iE",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2025_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1nduEaViTffcBYMBmoR87HxiUQqGrJw2T",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2025_ete_emIIIe_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1B-JA-fw-6jGiK7EIRY_X75DVdTJvE-Eq",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2025_ete_emIIIe_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "object_oriented_programming_ete": {
+      "subjectKey": "object_oriented_programming_ete",
+      "shortCode": "oop",
+      "fullName": "Object Oriented Programming",
+      "normalizedName": "object_oriented_programming",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1JVqYLM8nyVcKvK-UvZfZXKSgUK8Bl4tr",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2022_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1MofUWZ4mChtDdIutW42SXZBOGnUlrf8d",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2022_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1EIkD2GKxrvcD55hV9ucvB5r8PaJbRrFh",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_feb_2023_ete_oope_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1s5yl3c1nu4SEUPCoYrFwRVQEeLf92AhC",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2023_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1p8I4Rkvqvo7pSj9gdWzYXylb9AClhDmK",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2023_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1P57akTWrqTF0vqpY1YDkohqXGJE6-A7f",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2024_ete_oope_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1hzEl2i79b_v0YyGm9LE8Tk7WAvK7G0pK",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2024_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1EFrhdk2G2BKz06cd04D8n6DgM_M6dvR5",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2024_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1DwDaRIr5aAof8dxKvj9WFjCtCjRvxDk4",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2025_ete_oope_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1otMbo5KSiRiRtm98yQ7YkvtJOrVXwbjS",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2025_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1GB6bKacgVzzJIGNvMZbUg_KkgBMH0dRk",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2025_ete_oope_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "12QCVzdlaZfWmPGAX0NpGMsgPOCbj3kb3",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2026_ete_oope_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "principles_of_communication_systems_ete": {
+      "subjectKey": "principles_of_communication_systems_ete",
+      "shortCode": "pcs",
+      "fullName": "Principles of Communication Systems",
+      "normalizedName": "principles_of_communication_systems",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1qFqivIdSQwXqtmBL-RfhtpUTqktQTr1F",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2022_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1JzpqBslfD3J7MxXb1eSrbC1I4oqpSsGR",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2022_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1NSstxcsju53uP8MAHMEzODSQ8OPsnBnf",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_feb_2023_ete_pcse_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1wJRC5gd04ynEEd5uWOCkohW2xuuvdo7Z",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2023_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1sjooTxTh05oBNpsS8DFoPnnFrPeyoVV1",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2023_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "17xd2s6691X1pScVPvwDWmDy1RwOMLpSI",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2024_ete_pcse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1J0kWx1sCJ4YuPhadtjwWYomR8qdY9DkJ",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2024_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1cTCe2vuYJBvQlC5-D_nzsq0kvzyVQVJm",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2024_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1SPEktlnkjBQBb3skRnDOE0T_erz4SJOe",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2025_ete_pcse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1_fmkWzoyvCeJ-yFyiQZru7ABWfXsLBee",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2025_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1v2QgeXz7rl_XbwGlqaMHQGxT8qRVc_CS",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2025_ete_pcse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1XaE2B2g1JelaTi156dJXpTNtQhtYkcoa",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2026_ete_pcse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "signals_and_systems_ete": {
+      "subjectKey": "signals_and_systems_ete",
+      "shortCode": "ss",
+      "fullName": "Signals & Systems",
+      "normalizedName": "signals_and_systems",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1qRni1gaQ6-gm1Xb-mU2qE9sV4N804dsl",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2022_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1_VV7Wsp1u5tL20MXxKCNewmGkWC8EilF",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2022_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1UgXWXDFm5ADM1iRw5XOXsIYMEp6MwDxA",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_feb_2023_ete_sse_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1cB8DNnYIzWYn_wcrMkMbi4cis2TzFj5g",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2023_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1UjCQ5iIwdOqvT49FcWB5JVWh95Y4DbJ3",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2023_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "10bFMunl3DB457luLfkO04PYiLm35cFo0",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2024_ete_sse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1_6HCMWdySAmXVE1nr4YrpMq4LT7NlIsK",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2024_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1oJvzm0s9zUQhthC_1GtQRt3slcULqy-4",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2024_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1sr4nVj3LEHjaZR81mrOX7I-hhNeF-8c-",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2025_ete_sse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1qHIfbWrOOePs3zoI1_3Dtwr2_WQM9EnR",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2025_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "19rMWN-E0dS1DdHVlG6XNFAtWQ3KGTJhQ",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2025_ete_sse_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1S73ZCuvlOJKZZnwQwHPy3X335RM1alw-",
+          "canonicalPath": "papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2026_ete_sse_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "advanced_java_programming_ele_II_ete": {
+      "subjectKey": "advanced_java_programming_ele_II_ete",
+      "shortCode": "ajp_eII",
+      "fullName": "Advanced Java Programming_Ele-II",
+      "normalizedName": "advanced_java_programming_ele_II",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1JI12a6Q-XlpZEf5s46Xa0Wq2db3HYgHx",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_feb_2023_ete_ajpe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1r8u6HqJnbxx-pDbBaH9OHzY4fY5tgYzz",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2023_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "130aPu68O68HLLPvPaHWzyfilT5hbQXKj",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2023_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1rG9lt3nOOS4u0Avwft3McGBKaMkFI0Pf",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2024_ete_ajpe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "15biHziYDpQ283ph8eTdfWwDbv5_jPlEI",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2024_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1vhXipjAylkTCbUm-9cliOxH3GXNoJaaD",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2024_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1BDqKwZl-jtbyRsS1P8BqnmBnDkgq4Cwm",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2025_ete_ajpe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1heydsWhUbNMG-yV-yi7IROqs7MUsAEZh",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2025_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1faJxX9UL6JuCt8ICKZr7vf3Fan1XRVfn",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2025_ete_ajpe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1D2MUYXUSkGGaJynTlYmvIicJ-cz_BOuE",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2026_ete_ajpe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "blockchain_technology_ete": {
+      "subjectKey": "blockchain_technology_ete",
+      "shortCode": "bt",
+      "fullName": "Blockchain Technology",
+      "normalizedName": "blockchain_technology",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "12RyDCXPWhrVBTwLwMM2hUFtwuNAZceT9",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/endsem_nov_dec_2022_ete_bte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1RJgjDS7zzNUdqkhZuTKubTzbOY11WF2O",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/insem_oct_2022_ete_bte_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "cellular_networks_ete": {
+      "subjectKey": "cellular_networks_ete",
+      "shortCode": "cn",
+      "fullName": "Cellular Networks",
+      "normalizedName": "cellular_networks",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1G3Qm00gM-BjEI-6D0kkksy_rCK46eq69",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2022_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1crsR1x6R-Gvka4ZANiWXBGsJeANFYPMP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2022_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tvZOJvREcu2i7eooAZTuqErpDCHnPcm3",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_feb_2023_ete_cne_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1of6AycN1MdnfxRYP3a_xOwF1dp_sTRyn",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2023_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1P4Vg12SHo7FDzXGwRsH5GN0-guXqyGFj",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2023_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1aPKcP8EGZC8ioFhy31eHfWqpmog-mFv8",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2024_ete_cne_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1H54gb37L3Nlj2jcyuNXX0GRW-iBSX6SQ",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2024_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1k_ImUTR2jj2o9gJwcTnkgzvmwdsz3rnP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2024_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1YOh14ZNFgbbqNqnbu5Pqocn3aoeYZEKE",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2025_ete_cne_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1fZfgLRS4hfhA7ZBSypyJseusKxkp7xKC",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2025_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1suHC8eqLuqJk4ZSKEAkV9LWXsJrE_gSW",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2025_ete_cne_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1qwz4QNDshodDaNtky8Z9gy5i5GcgVVb8",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2026_ete_cne_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "computer_networks_ele_I_ete": {
+      "subjectKey": "computer_networks_ele_I_ete",
+      "shortCode": "cn_eI",
+      "fullName": "Computer Networks_Ele-I",
+      "normalizedName": "computer_networks_ele_I",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1DbOiZsI3cK8MDHicbTN3OUJqiVO6CxQM",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2022_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1QC3UE0x6gA58SAFIZnUyfHk2roDtc6Hc",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2022_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ukdSot2APP1p6dfCshLRXRebwh1srl3F",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2023_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ApIveWqtbUN4Xxn6kLOBUOzp6mzlE184",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2023_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Shnf1BX_haNGNAiMJJQOs6V1iZ-zb60v",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2023_ete_cne_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jRvugF4ecvfB3EAJVverImp112FNnNTN",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2024_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "12tXspmdvC7-H9LB49-O6AFf17rLHoXRM",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2024_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "19POwaAulFBAow6j7JBMUVHoNi8CEY_ud",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2024_ete_cne_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1LSrVLeGObmBcmFTVlONo_YKvaEVyaOpF",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_aug_2025_ete_cne_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1bS_7pBaIzKLPGbcngQLud7jw_2k3LHrG",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2025_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Vd8BMCNfhpvEfxiUJopkVCG6T_fZfdxr",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2025_ete_cne_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "database_management_ete": {
+      "subjectKey": "database_management_ete",
+      "shortCode": "dm",
+      "fullName": "Database Management",
+      "normalizedName": "database_management",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1q-IqvWuy9vHIQlljShN_SWtTHgFfbOi8",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2022_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1RiMorHastlDOF580tSvBmvXjpq0wLkFw",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_oct_2022_ete_dme_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "11KowQyWaR5n3R9OEYZTOzQuYCiEFC37r",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2023_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jxQ0ebvZQm26Hf5oMJpX9TMXwikovxvj",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2023_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1aRkmOtvy4FEeJTEgzHjXHO8EBQg0RYXR",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2023_ete_dme_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1MYNBabXAPxgyLxMZcf2Nu1sjH73rIg0v",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2024_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1kIi9TDzsOgVeOMBeXxt72v-ufjZX9Msz",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2024_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "18Tb1bivLha65k1nZ2v_5XBVwou2AWfiQ",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2024_ete_dme_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "13khpvQnk1ptQ8qgizMkg7QIgcAAYXkzK",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_aug_2025_ete_dme_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "19Nosu2RwQWZHn4A4UPCELRdLdytoNX-T",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2025_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1KR3NMZyhHMM2k7IHMoEs0J29JV8cgeCe",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2025_ete_dme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "decentralize_blockchain_technologies_ete": {
+      "subjectKey": "decentralize_blockchain_technologies_ete",
+      "shortCode": "dbt",
+      "fullName": "Decentralize Blockchain Technologies",
+      "normalizedName": "decentralize_blockchain_technologies",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1l5g81kdZ8XCKlPf7rdKIz34xyqwmwde6",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/decentralize_blockchain_technologies_ete/insem_feb_2023_ete_dbte_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "digital_communication_ete": {
+      "subjectKey": "digital_communication_ete",
+      "shortCode": "dc",
+      "fullName": "Digital Communication",
+      "normalizedName": "digital_communication",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1pL49arw1A1H6k0eRlpIRZST-HnMlZ5C_",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2022_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1w5r3F0fYnkmt664ZNCaWSQesxI-FYsu4",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1s-92GuiDRDZ1bFBOGNbsj2QlJbxlFD1J",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_oct_2022_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "186UxQI19GCPaEgvm1SXAaWdTUHchkiHS",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2023_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1r91xpy2Qoqhc7MY1qLPTP3ewIbQMthk0",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1TiuoiDH4p1n9uKe-B_at0Vps7RVskU1Y",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2023_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1XpOrxg3Owak-28vS1toCCa53ArOqdMhu",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2024_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1QQ_Z8_NYllLvGD4b8pzqItX7w-9I4F0W",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1BGdf6HdeLZNrSxKSvXZB5lydlJGGBHUe",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2024_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1TCp7jESDA-N8C4s0mkOUCIP15kCuoQkw",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_aug_2025_ete_dce_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "18P1VzfxfOhrO6xGEvSUOaogCwqSCHEGs",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2025_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ObHqmB1lwmkeEh2gMcCIE9ayLEGmR336",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "digital_image_processing_ele_II_ete": {
+      "subjectKey": "digital_image_processing_ele_II_ete",
+      "shortCode": "dip_eII",
+      "fullName": "Digital Image Processing_Ele-II",
+      "normalizedName": "digital_image_processing_ele_II",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1WU8D01q6D5dd90_qst_mmIRaYtRCh2uK",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_feb_2023_ete_dipe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1NZt3NA9ba4xkvkGxUawS9R45nfvI9Wgg",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2023_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Ob2lu12QpbiKqbe46s4KVmSRgH7HmVQX",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2023_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1oNqJWEndcfu6b4nk6Bi7YU0a31QrtSSj",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2024_ete_dipe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ZqTtoCcwdOLTuAD7KYQV2qoTRCreH8_R",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2024_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1oIOOlHkFR7467zOqjk1f_A906H2vGpXF",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2024_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1lTVOt1Lr3t_1Q4Le0Bys2VBATJKmhiW5",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2025_ete_dipe_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Stc2o7KOM_IAKKXRYemGriJPibzQE1_x",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2025_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1XbxBM85KuyG5lsrKBwoo1J8buuuny11B",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2025_ete_dipe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "digital_signal_processing_ele_I_ete": {
+      "subjectKey": "digital_signal_processing_ele_I_ete",
+      "shortCode": "dsp_eI",
+      "fullName": "Digital Signal Processing - Ele-I",
+      "normalizedName": "digital_signal_processing_ele_I",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1-D08f_8nIeLnYGTnlFc1_mEKQFmC-w6V",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2022_ete_dspe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1dUaSUz23LUSoQQ-f7i0oKQsOfkOo8Mxm",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_nov_dec_2022_ete_dspe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1I2bUWPfqTxHvb0str2EZ2Nbjz1RgEbsb",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2023_ete_dspe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "electromagnetic_field_theory_ete": {
+      "subjectKey": "electromagnetic_field_theory_ete",
+      "shortCode": "eft",
+      "fullName": "Electromagnetic Field Theory",
+      "normalizedName": "electromagnetic_field_theory",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1f9-69ziOfjQ-ttO2ss_Mj9jVi5vRzjSw",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2022_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1dlM9O_PPX-GogePqE1D5LiaLBebH-5lP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2022_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1F2ktddOHgB6gBvK4P77NT4IDJ7Jk_9jd",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_oct_2022_ete_efte_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1MVdTIvknWCgA4SYyT_dtHt1p7HyGy-DL",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2023_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "11xMAsDusA4FHRswHsNxmUcggxvllps2A",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2023_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "12j1KMFYx_9Bkq_nsskrIq4R3yPLCo5yQ",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2023_ete_efte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1O19oQEpwtO6nAsvh0eULkk4acoWKLTEY",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2024_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1YXCdNng0HLenGxSFPi0YItwso7MY26if",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2024_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1y7LuPhpLE6IKOWuN1s4V4us8m1llOGww",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2024_ete_efte_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ZF5FZVT6-S_sKbsWKFArp78UD_pLHs1c",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_aug_2025_ete_efte_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "19VHt0EhlAS4fFKAGT4-yMZIcYkLYIwhi",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2025_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "18QUC0gSw-6UyzNNAsSrWENTfcAHpY3dr",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2025_ete_efte_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "embedded_processors_ele_II_ete": {
+      "subjectKey": "embedded_processors_ele_II_ete",
+      "shortCode": "ep_eII",
+      "fullName": "Embedded Processors_Ele-II",
+      "normalizedName": "embedded_processors_ele_II",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1HduC5XZYO6rqAK3jXHuUtGVpau-zzFcw",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2022_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "17Awm-C9dj2FA5mJTVFbYIg_SNa-otHRd",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2022_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ezjpfw3Hyv0RvfuMx8sE7LdQtlDDeEQi",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2023_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1CrnwNq6OgbDO1kaYyrrxU_c3kex_wi6y",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2023_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "17db_2PIDxzA_J257JcyOi3uxwKDpGL2o",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2024_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Tg8WnmBp26YyA1T1QSPeA2ok-byolM2Y",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2024_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1R6uuk_-4z3NsdLf31EjiGcTP0IO1UKUC",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2025_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Zc_jk1ZoeD1RioiVJOFVsDlJJcq8J8ca",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2025_ete_epe_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "fundamentals_of_java_programming_ele_I_ete": {
+      "subjectKey": "fundamentals_of_java_programming_ele_I_ete",
+      "shortCode": "fjp_eI",
+      "fullName": "Fundamentals of Java Programming - Ele I",
+      "normalizedName": "fundamentals_of_java_programming_ele_I",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18Y4mHzbJKbsiMYoHnlmQfPYRDMK1yRQ3",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2022_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "13NOhtvG3DuwJuuOV44r7xcyJ3B3sp3HL",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_oct_2022_ete_fjpe_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "18iwQpxozw5rpXB2Pt3KR4vOTIS5mlVcM",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2023_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "17NHwZH8Sl4cC7yEuHLNdPa86ZeXFpIEi",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2023_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1BSDMnFYfsjf2FOoi73oWrC993m-8U6CN",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2023_ete_fjpe_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1OL87LXxMlID66klymbh6ugs_GuRad_cV",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2024_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Rr0SsnoKh6AWEohD1wV-ia-ZoBRT7sEt",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2024_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1-mE8mNf7sk4EIUQNo_2fowTCWo2oq4dV",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2024_ete_fjpe_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "16Zd2Tegs24d9COjTdpX49lw1e9W9EWIR",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_aug_2025_ete_fjpe_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1I1u9BYg9Uuwdm1daP8ajefWxMBa6P3ZX",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2025_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "15XqIQPfeFsyCC7MXUib6c4CFgyZYaijV",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2025_ete_fjpe_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "microcontrollers_ete": {
+      "subjectKey": "microcontrollers_ete",
+      "shortCode": "m",
+      "fullName": "Microcontrollers",
+      "normalizedName": "microcontrollers",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1TRV0S12IpFSdgsJbURsWUlyvT7fzE_sd",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2022_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "177k4haVek_Sw4h6EwKkENAX5V6S2LBFe",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_oct_2022_ete_me_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1fg7nrz6K9_dn11Nj2ZkSfq2fY_IAibuD",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2023_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Wgh_JU9_WM3Emoc9FLAa4mZqTXtkaJsO",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2023_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1XwIv6eJH_gGoiijf670ymqLxjxJVnvsA",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2023_ete_me_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ZStBi1mRWKwjOIYrPbhxm8Emmq0UQaeP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2024_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1VKW9ZTTvqNWD167lINxzjqE-eC8J80Xl",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2024_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "16aUl7ORHgPhZ2wPSpEmTeWb2ICFb6gXQ",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2024_ete_me_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1tPHD9hih4QJ3HPBAW0IRCpUiaElecjvk",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_aug_2025_ete_me_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1YAz8iMTh_hn7wjYyehD6QPvwAabrmT-9",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2025_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "102jFNxjv_OBxXBYJBNW1B5b3pjzZyUyP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2025_ete_me_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "network_security_ele_II_ete": {
+      "subjectKey": "network_security_ele_II_ete",
+      "shortCode": "ns_eII",
+      "fullName": "Network Security_Ele-II",
+      "normalizedName": "network_security_ele_II",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1bE9d3uwHys-JnQdUVCkMPdvAdXU55I5c",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2022_ete_nse_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1YpiW_NzZB5pBT9DOCEo2QdgfHuKaDC8F",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/insem_mar_2025_ete_nse_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1H_mM2K8Q0hbUqjpTTYabIbTAOn_sGihw",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2025_ete_nse_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1uqCtaKz7j-r8jF_Qsb0K9kY0B4Y82-x2",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_nov_dec_2025_ete_nse_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "power_devices_and_circuits_ete": {
+      "subjectKey": "power_devices_and_circuits_ete",
+      "shortCode": "pdc",
+      "fullName": "Power Devices & Circuits",
+      "normalizedName": "power_devices_and_circuits",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "12cJ_3oBqlgtq0DzahsZ-9dbierKh4vKW",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2022_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1xqzQS3EsDoMTtGuogT4yYcnkkbDA4acb",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2022_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1sPzwpavV2APiREqvZw_buL6Zf5-HrLsz",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_feb_2023_ete_pdce_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Hyx-5GFwU4oMRJYpIGZJAVkNsmioun0J",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2023_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Isl66DG5JJsPVvw3IN_C6XRcXtNu0e2L",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2023_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1DMq-DBTKs4RWGwEQi4mYqcWBGLzGRMl5",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2024_ete_pdce_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1yjFAI9bp-fiCGrMJIh3ccDxbSe49XD2F",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2024_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mgUK4z3Z0OnlNMI2EdYGvTM45JACAkyQ",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2024_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1K0Xw4tGTICwQilfc_WXYqUfa8phq600M",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2025_ete_pdce_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1709v8OyM11YAs7a_TgMQnJ2-5OcGYrlb",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2025_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1NpX5rVyRsB42Pe0ZTBq5_di3Ek-9VJQ8",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2025_ete_pdce_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "project_management_ete": {
+      "subjectKey": "project_management_ete",
+      "shortCode": "pm",
+      "fullName": "Project Management",
+      "normalizedName": "project_management",
+      "branchType": "standard",
+      "branchKey": "e-and-tc-engineering",
+      "branchCode": "ete",
+      "branchName": "E & TC Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Ehug1M7Y8fsqCdPtJVRPC_QQdgld_-xs",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2022_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1heSZ1NHp-ClsFisSrFsjC-c5j3UW1dyx",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2022_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1JfOZKYypsJ3ro7VOW_JParHJEo4oWt8Z",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_feb_2023_ete_pme_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "19KghtOhXesXewTNYth_UqyGsRqq8rGYP",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2023_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ejEBKc7Xlf0yq1t7rey1ySLdYm_DgEqx",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2023_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1aqm33gTnqPJPv59JEXU3igJStWl-few9",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2024_ete_pme_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1VCQvWyH65GtKnWJgZOjVyO2Z9AKHRWrU",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2024_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1QrLPI8jATnAzPSoCR8Nr0hkXbKrcD9J-",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2024_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1WSolYJCPT0OxqT3GFOER3P1kfDIY4Eqo",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2025_ete_pme_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1VfkkPVDaTptDe2Kn00s-ccIFKcaH54Pf",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2025_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "16iasDznwHIlIpCOJ7mVt7Dve0rTEJyoK",
+          "canonicalPath": "papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2025_ete_pme_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
         }
       ],
       "yearKey": "te",
