@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 2,
+  "pattern": "2015_pattern",
+  "patternYear": "2015",
+  "generatedAt": "2026-06-05T14:26:14Z",
+  "hierarchy": {
+    "standard": {
+      "branches": [
+        {
+          "branchKey": "computer-engineering",
+          "branchCode": "ce",
+          "branchName": "Computer Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "artificial_intelligence_and_robotics_ce",
+                  "shortCode": "air",
+                  "fullName": "Artificial Intelligence & Robotics",
+                  "normalizedName": "artificial_intelligence_and_robotics"
+                },
+                {
+                  "subjectKey": "cloud_computing_ele_IV_ce",
+                  "shortCode": "cc_eIV",
+                  "fullName": "Cloud Computing_Ele_IV",
+                  "normalizedName": "cloud_computing_ele_IV"
+                },
+                {
+                  "subjectKey": "data_analytics_ce",
+                  "shortCode": "da",
+                  "fullName": "Data Analytics",
+                  "normalizedName": "data_analytics"
+                },
+                {
+                  "subjectKey": "data_mining_and_warehousing_ele_I_ce",
+                  "shortCode": "dmw_eI",
+                  "fullName": "Data Mining & Warehousing_Ele-I",
+                  "normalizedName": "data_mining_and_warehousing_ele_I"
+                },
+                {
+                  "subjectKey": "embedded_and_rto_system_ele_III_ce",
+                  "shortCode": "ers_eIII",
+                  "fullName": "Embedded & RTO System_Ele_III",
+                  "normalizedName": "embedded_and_rto_system_ele_III"
+                },
+                {
+                  "subjectKey": "high_performance_computing_ce",
+                  "shortCode": "hpc",
+                  "fullName": "High Performance Computing",
+                  "normalizedName": "high_performance_computing"
+                },
+                {
+                  "subjectKey": "information_and_cyber_security_ce",
+                  "shortCode": "ics",
+                  "fullName": "Information & Cyber Security",
+                  "normalizedName": "information_and_cyber_security"
+                },
+                {
+                  "subjectKey": "machine_learning_ce",
+                  "shortCode": "ml",
+                  "fullName": "Machine Learning",
+                  "normalizedName": "machine_learning"
+                },
+                {
+                  "subjectKey": "soft_computing_and_opti_algorithms_ce",
+                  "shortCode": "scoa",
+                  "fullName": "Soft Computing & Opti. Algorithms",
+                  "normalizedName": "soft_computing_and_opti_algorithms"
+                },
+                {
+                  "subjectKey": "software_testing_and_quality_assurance_ele_II_ce",
+                  "shortCode": "stqa_eII",
+                  "fullName": "Software Testing & Quality Assurance_Ele-II",
+                  "normalizedName": "software_testing_and_quality_assurance_ele_II"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_data_structures_ce",
+                  "shortCode": "ads",
+                  "fullName": "Advanced Data Structures",
+                  "normalizedName": "advanced_data_structures"
+                },
+                {
+                  "subjectKey": "computer_graphics_ce",
+                  "shortCode": "cg",
+                  "fullName": "Computer Graphics",
+                  "normalizedName": "computer_graphics"
+                },
+                {
+                  "subjectKey": "computer_orga_and_architecture_ce",
+                  "shortCode": "coa",
+                  "fullName": "Computer Orga. and Architecture",
+                  "normalizedName": "computer_orga_and_architecture"
+                },
+                {
+                  "subjectKey": "data_structures_and_algorithms_ce",
+                  "shortCode": "dsa",
+                  "fullName": "Data Structures & Algorithms",
+                  "normalizedName": "data_structures_and_algorithms"
+                },
+                {
+                  "subjectKey": "digital_electronics_and_logic_design_ce",
+                  "shortCode": "deld",
+                  "fullName": "Digital Electronics & Logic Design",
+                  "normalizedName": "digital_electronics_and_logic_design"
+                },
+                {
+                  "subjectKey": "discrete_mathematics_ce",
+                  "shortCode": "dm",
+                  "fullName": "Discrete Mathematics",
+                  "normalizedName": "discrete_mathematics"
+                },
+                {
+                  "subjectKey": "engineering_maths_III_ce",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Maths III",
+                  "normalizedName": "engineering_maths_III"
+                },
+                {
+                  "subjectKey": "microprocessor_ce",
+                  "shortCode": "m",
+                  "fullName": "Microprocessor",
+                  "normalizedName": "microprocessor"
+                },
+                {
+                  "subjectKey": "microprocessor_and_interfacing_tech_ce",
+                  "shortCode": "mit",
+                  "fullName": "Microprocessor & Interfacing Tech",
+                  "normalizedName": "microprocessor_and_interfacing_tech"
+                },
+                {
+                  "subjectKey": "object_oriented_programming_ce",
+                  "shortCode": "oop",
+                  "fullName": "Object Oriented Programming",
+                  "normalizedName": "object_oriented_programming"
+                },
+                {
+                  "subjectKey": "principles_of_programming_languages_ce",
+                  "shortCode": "ppl",
+                  "fullName": "Principles of Programming Languages",
+                  "normalizedName": "principles_of_programming_languages"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "computer_network_ce",
+                  "shortCode": "cn",
+                  "fullName": "Computer Network",
+                  "normalizedName": "computer_network"
+                },
+                {
+                  "subjectKey": "database_management_systems_ce",
+                  "shortCode": "dms",
+                  "fullName": "Database Management Systems",
+                  "normalizedName": "database_management_systems"
+                },
+                {
+                  "subjectKey": "design_and_analysis_of_algorithms_ce",
+                  "shortCode": "daa",
+                  "fullName": "Design & Analysis of Algorithms",
+                  "normalizedName": "design_and_analysis_of_algorithms"
+                },
+                {
+                  "subjectKey": "embedded_system_and_internet_of_things_ce",
+                  "shortCode": "esit",
+                  "fullName": "Embedded System & Internet of Things",
+                  "normalizedName": "embedded_system_and_internet_of_things"
+                },
+                {
+                  "subjectKey": "information_systems_and_engg_economics_ce",
+                  "shortCode": "isee",
+                  "fullName": "Information Systems & Engg Economics",
+                  "normalizedName": "information_systems_and_engg_economics"
+                },
+                {
+                  "subjectKey": "software_engg_and_project_mgt_ce",
+                  "shortCode": "sepm",
+                  "fullName": "Software Engg & Project Mgt",
+                  "normalizedName": "software_engg_and_project_mgt"
+                },
+                {
+                  "subjectKey": "software_modeling_and_design_ce",
+                  "shortCode": "smd",
+                  "fullName": "Software Modeling & Design",
+                  "normalizedName": "software_modeling_and_design"
+                },
+                {
+                  "subjectKey": "systems_prog_and_operating_system_ce",
+                  "shortCode": "spos",
+                  "fullName": "Systems Prog & Operating System",
+                  "normalizedName": "systems_prog_and_operating_system"
+                },
+                {
+                  "subjectKey": "theory_of_computation_ce",
+                  "shortCode": "tc",
+                  "fullName": "Theory of Computation",
+                  "normalizedName": "theory_of_computation"
+                },
+                {
+                  "subjectKey": "web_technology_ce",
+                  "shortCode": "wt",
+                  "fullName": "Web Technology",
+                  "normalizedName": "web_technology"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "it-engineering",
+          "branchCode": "ie",
+          "branchName": "IT Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "business_analytics_and_intelligence_ie",
+                  "shortCode": "bai",
+                  "fullName": "Business Analytics & Intelligence",
+                  "normalizedName": "business_analytics_and_intelligence"
+                },
+                {
+                  "subjectKey": "distributed_computing_system_ie",
+                  "shortCode": "dcs",
+                  "fullName": "Distributed Computing System",
+                  "normalizedName": "distributed_computing_system"
+                },
+                {
+                  "subjectKey": "information_and_cyber_security_ie",
+                  "shortCode": "ics",
+                  "fullName": "Information & Cyber Security",
+                  "normalizedName": "information_and_cyber_security"
+                },
+                {
+                  "subjectKey": "information_storage_and_retrieval_ele_III_ie",
+                  "shortCode": "isr_eIII",
+                  "fullName": "Information Storage & Retrieval_Ele_III",
+                  "normalizedName": "information_storage_and_retrieval_ele_III"
+                },
+                {
+                  "subjectKey": "machine_learning_and_application_ie",
+                  "shortCode": "mla",
+                  "fullName": "Machine Learning & Application",
+                  "normalizedName": "machine_learning_and_application"
+                },
+                {
+                  "subjectKey": "social_media_analytics_ie",
+                  "shortCode": "sma",
+                  "fullName": "Social Media Analytics",
+                  "normalizedName": "social_media_analytics"
+                },
+                {
+                  "subjectKey": "software_design_and_modeling_ie",
+                  "shortCode": "sdm",
+                  "fullName": "Software Design & Modeling",
+                  "normalizedName": "software_design_and_modeling"
+                },
+                {
+                  "subjectKey": "software_testing_and_quality_assurance_ie",
+                  "shortCode": "stqa",
+                  "fullName": "Software Testing & Quality Assurance",
+                  "normalizedName": "software_testing_and_quality_assurance"
+                },
+                {
+                  "subjectKey": "ubiquitous_computing_ie",
+                  "shortCode": "uc",
+                  "fullName": "Ubiquitous Computing",
+                  "normalizedName": "ubiquitous_computing"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "computer_graphics_ie",
+                  "shortCode": "cg",
+                  "fullName": "Computer Graphics",
+                  "normalizedName": "computer_graphics"
+                },
+                {
+                  "subjectKey": "computer_organization_and_architecture_ie",
+                  "shortCode": "coa",
+                  "fullName": "Computer Organization & Architecture",
+                  "normalizedName": "computer_organization_and_architecture"
+                },
+                {
+                  "subjectKey": "data_structures_and_files_ie",
+                  "shortCode": "dsf",
+                  "fullName": "Data Structures and Files",
+                  "normalizedName": "data_structures_and_files"
+                },
+                {
+                  "subjectKey": "digital_electronics_and_logic_design_ie",
+                  "shortCode": "deld",
+                  "fullName": "Digital Electronics & Logic Design",
+                  "normalizedName": "digital_electronics_and_logic_design"
+                },
+                {
+                  "subjectKey": "discrete_structures_ie",
+                  "shortCode": "ds",
+                  "fullName": "Discrete Structures",
+                  "normalizedName": "discrete_structures"
+                },
+                {
+                  "subjectKey": "engineering_math_III_ie",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Math. III",
+                  "normalizedName": "engineering_math_III"
+                },
+                {
+                  "subjectKey": "foundations_of_comm_and_computer_network_ie",
+                  "shortCode": "fccn",
+                  "fullName": "Foundations of Comm. & Computer Network",
+                  "normalizedName": "foundations_of_comm_and_computer_network"
+                },
+                {
+                  "subjectKey": "fundamentals_of_data_structures_ie",
+                  "shortCode": "fds",
+                  "fullName": "Fundamentals of Data Structures",
+                  "normalizedName": "fundamentals_of_data_structures"
+                },
+                {
+                  "subjectKey": "problem_solving_and_object_oriented_progra_concepts_ie",
+                  "shortCode": "psoopc",
+                  "fullName": "Problem Solving & Object Oriented Progra. Concepts",
+                  "normalizedName": "problem_solving_and_object_oriented_progra_concepts"
+                },
+                {
+                  "subjectKey": "processor_architecture_and_interfacing_ie",
+                  "shortCode": "pai",
+                  "fullName": "Processor Architecture & Interfacing",
+                  "normalizedName": "processor_architecture_and_interfacing"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "cloud_computing_ie",
+                  "shortCode": "cc",
+                  "fullName": "Cloud Computing",
+                  "normalizedName": "cloud_computing"
+                },
+                {
+                  "subjectKey": "computer_network_technology_ie",
+                  "shortCode": "cnt",
+                  "fullName": "Computer Network Technology",
+                  "normalizedName": "computer_network_technology"
+                },
+                {
+                  "subjectKey": "data_science_and_big_data_analytics_ie",
+                  "shortCode": "dsbda",
+                  "fullName": "Data Science & Big Data Analytics",
+                  "normalizedName": "data_science_and_big_data_analytics"
+                },
+                {
+                  "subjectKey": "database_mgt_systems_ie",
+                  "shortCode": "dms",
+                  "fullName": "Database Mgt Systems",
+                  "normalizedName": "database_mgt_systems"
+                },
+                {
+                  "subjectKey": "design_and_analysis_of_algorithms_ie",
+                  "shortCode": "daa",
+                  "fullName": "Design & Analysis of Algorithms",
+                  "normalizedName": "design_and_analysis_of_algorithms"
+                },
+                {
+                  "subjectKey": "human_computer_interaction_ie",
+                  "shortCode": "hci",
+                  "fullName": "Human Computer Interaction",
+                  "normalizedName": "human_computer_interaction"
+                },
+                {
+                  "subjectKey": "operating_system_ie",
+                  "shortCode": "os",
+                  "fullName": "Operating System",
+                  "normalizedName": "operating_system"
+                },
+                {
+                  "subjectKey": "software_engg_and_project_mgt_ie",
+                  "shortCode": "sepm",
+                  "fullName": "Software Engg & Project Mgt",
+                  "normalizedName": "software_engg_and_project_mgt"
+                },
+                {
+                  "subjectKey": "systems_programming_ie",
+                  "shortCode": "sp",
+                  "fullName": "Systems Programming",
+                  "normalizedName": "systems_programming"
+                },
+                {
+                  "subjectKey": "theory_of_computation_ie",
+                  "shortCode": "tc",
+                  "fullName": "Theory of Computation",
+                  "normalizedName": "theory_of_computation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "firstYear": {
+      "branchKey": "first-year",
+      "branchCode": "fy",
+      "branchName": "First Year",
+      "semesterIncluded": false,
+      "subjects": [
+        {
+          "subjectKey": "basic_civil_and_environmental_engg_fy",
+          "shortCode": "bcee",
+          "fullName": "Basic Civil & Environmental Engg",
+          "normalizedName": "basic_civil_and_environmental_engg"
+        },
+        {
+          "subjectKey": "basic_electrical_engineering_fy",
+          "shortCode": "bee",
+          "fullName": "Basic Electrical Engineering",
+          "normalizedName": "basic_electrical_engineering"
+        },
+        {
+          "subjectKey": "basic_electronics_engineering_fy",
+          "shortCode": "bee",
+          "fullName": "Basic Electronics Engineering",
+          "normalizedName": "basic_electronics_engineering"
+        },
+        {
+          "subjectKey": "basic_mechanical_engineering_fy",
+          "shortCode": "bme",
+          "fullName": "Basic Mechanical Engineering",
+          "normalizedName": "basic_mechanical_engineering"
+        },
+        {
+          "subjectKey": "engineering_chemistry_fy",
+          "shortCode": "ec",
+          "fullName": "Engineering Chemistry",
+          "normalizedName": "engineering_chemistry"
+        },
+        {
+          "subjectKey": "engineering_graphics_I_fy",
+          "shortCode": "egI",
+          "fullName": "Engineering Graphics – I",
+          "normalizedName": "engineering_graphics_I"
+        },
+        {
+          "subjectKey": "engineering_mathematics_I_fy",
+          "shortCode": "emI",
+          "fullName": "Engineering Mathematics - I",
+          "normalizedName": "engineering_mathematics_I"
+        },
+        {
+          "subjectKey": "engineering_mathematics_II_fy",
+          "shortCode": "emII",
+          "fullName": "Engineering Mathematics - II",
+          "normalizedName": "engineering_mathematics_II"
+        },
+        {
+          "subjectKey": "engineering_mechanics_fy",
+          "shortCode": "em",
+          "fullName": "Engineering Mechanics",
+          "normalizedName": "engineering_mechanics"
+        },
+        {
+          "subjectKey": "engineering_physics_fy",
+          "shortCode": "ep",
+          "fullName": "Engineering Physics",
+          "normalizedName": "engineering_physics"
+        }
+      ]
+    },
+    "mba": {
+      "branchKey": "m-b-a",
+      "branchCode": "mba",
+      "branchName": "M.B.A",
+      "semesters": []
+    }
+  }
+}

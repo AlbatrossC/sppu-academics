@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-06-04T10:35:23Z",
+  "root": {
+    "folder_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM"
+  },
+  "branch": "Honors Course",
+  "folders": {
+    "Honors Course": {
+      "folder_id": "19IysGsQp0bwFYSETTFDxP-nWipjxrCJa",
+      "parent_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM",
+      "path": "Honors Course"
+    },
+    "Honors Course/BE": {
+      "folder_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "parent_id": "19IysGsQp0bwFYSETTFDxP-nWipjxrCJa",
+      "path": "Honors Course/BE"
+    },
+    "Honors Course/BE/App. Dev.Using Augmented Reality & Virtual Reality": {
+      "folder_id": "1ggo8W9ZyQqXQvAP3uV2phs6uehSq_JD_",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/App. Dev.Using Augmented Reality & Virtual Reality"
+    },
+    "Honors Course/BE/Arti. Intelli. for Big Data Ananlytics": {
+      "folder_id": "1dofJ_u44XCSICk3DSC3irCVHndtsbBqp",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Arti. Intelli. for Big Data Ananlytics"
+    },
+    "Honors Course/BE/Artificial Inteligence in Robotics": {
+      "folder_id": "1uN6PNO7TKv9IfhjeUqv3eZcO6RtUMget",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Artificial Inteligence in Robotics"
+    },
+    "Honors Course/BE/Artificial Intelligence & Machine Learning": {
+      "folder_id": "1LrHIdb72upAMt_gDh44xQnSZhFbZg10u",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Artificial Intelligence & Machine Learning"
+    },
+    "Honors Course/BE/Block Chain Technology": {
+      "folder_id": "1UpC2feMNkPE9SjFoq60PRS1CCes-LSdm",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Block Chain Technology"
+    },
+    "Honors Course/BE/E-Vehical Standards, Charging & Safety": {
+      "folder_id": "1TJ7NS98rjUEDQN776JuitApsQOgriwDi",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/E-Vehical Standards, Charging & Safety"
+    },
+    "Honors Course/BE/Industrial Robotics & Automation": {
+      "folder_id": "1cB9AaIR6cvZa0xJHt6wDL76BVxmz7M6N",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Industrial Robotics & Automation"
+    },
+    "Honors Course/BE/Information Systems Management": {
+      "folder_id": "1Nz2tavKL7XH_fE_RgO8fksdhMll6gexI",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Information Systems Management"
+    },
+    "Honors Course/BE/Internet of Thinghs Security": {
+      "folder_id": "1KgeTj4T83dgxOCVfcwmhcHk2n1F057s8",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Internet of Thinghs Security"
+    },
+    "Honors Course/BE/Internet of Things & Embedded Security": {
+      "folder_id": "1UIOaVe5RlgXgS4-zexiI9ZvxBhxhGaRr",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Internet of Things & Embedded Security"
+    },
+    "Honors Course/BE/Machine Learning": {
+      "folder_id": "1w4ZJoTEng0tvVFHd1jvldQ2YQVJyPUds",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Machine Learning"
+    },
+    "Honors Course/BE/Machine Learning & Data Science": {
+      "folder_id": "10XN1A6tp3Z37Eo7reFUqzV3eCGSBV_6L",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Machine Learning & Data Science"
+    },
+    "Honors Course/BE/Machine Learning for IOT": {
+      "folder_id": "1NUo84CqcZ66jZd7vF-9PVpXgtqhyuBTK",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Machine Learning for IOT"
+    },
+    "Honors Course/BE/Modelling & Simulation of EHV": {
+      "folder_id": "1Mt6el4zrOqEVKFOmT189EUjm_obLtHeP",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Modelling & Simulation of EHV"
+    },
+    "Honors Course/BE/Soft Computing and Deep Learning": {
+      "folder_id": "16a5yUWG-qpgLgiNsbPwgsou3ENCwGI97",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Soft Computing and Deep Learning"
+    },
+    "Honors Course/BE/Virtual Reality for Game Development": {
+      "folder_id": "1KgKcubag39CQaoDTuSBqLskhYfM5IGzD",
+      "parent_id": "1q7H6dsAeap_Wa0NR8Ty5Zt-XHoi4lJ4I",
+      "path": "Honors Course/BE/Virtual Reality for Game Development"
+    },
+    "Honors Course/TE": {
+      "folder_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "parent_id": "19IysGsQp0bwFYSETTFDxP-nWipjxrCJa",
+      "path": "Honors Course/TE"
+    },
+    "Honors Course/TE/Artificial Intelligence": {
+      "folder_id": "1gKojrvNUdvQUkyWPqEDZudC83tWitgwt",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Artificial Intelligence"
+    },
+    "Honors Course/TE/Artificial Intelligence & Machine": {
+      "folder_id": "1rJISLeGrcCx77Y3aviGiRA0LiQZBAECP",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Artificial Intelligence & Machine"
+    },
+    "Honors Course/TE/Augmented Reality": {
+      "folder_id": "1T92i7lZPJR18k-6o40S1h7L7FlgbN2Wo",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Augmented Reality"
+    },
+    "Honors Course/TE/Computational Statistics": {
+      "folder_id": "1K8saHjoDPLYqCxHaQeR_ASd7TWsDAYXo",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Computational Statistics"
+    },
+    "Honors Course/TE/Data Science And Visualization": {
+      "folder_id": "1TasT2uMzMCjJ35D3V_xwvrQ2OjFNnnnd",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Data Science And Visualization"
+    },
+    "Honors Course/TE/Decentralize & Blockchain technologies": {
+      "folder_id": "1yq6JCa5farU575W3qX38248tovnBw_oR",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Decentralize & Blockchain technologies"
+    },
+    "Honors Course/TE/Embedded Systems & Internet of Things": {
+      "folder_id": "1vnE35MgiCj-AtxUfgmQtzATDhKwtV-Mq",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Embedded Systems & Internet of Things"
+    },
+    "Honors Course/TE/Energy Efficiency in Thermal Utilities": {
+      "folder_id": "1w817anWhz5cfhOnIuSJPDWO7AR6p3Sj-",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Energy Efficiency in Thermal Utilities"
+    },
+    "Honors Course/TE/Enterprise Architecture & Components": {
+      "folder_id": "1ol47sdgF2O_awV0j-b1zvdMqSFVrMYlE",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Enterprise Architecture & Components"
+    },
+    "Honors Course/TE/Foundations Of Systems Aand Systems Engg": {
+      "folder_id": "17-O3mEjX3hfGDDSkJl9m3IZSYO0lgU01",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Foundations Of Systems Aand Systems Engg"
+    },
+    "Honors Course/TE/Information & Cyber Security": {
+      "folder_id": "1FWH6iG94InX1TsmxuUDJTydkQgrUyGED",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Information & Cyber Security"
+    },
+    "Honors Course/TE/Int. of Thin. Architectures, Protocols & Sys. Prog": {
+      "folder_id": "1WoqzBU4oqw9vvpOTGnCmzIrk25_0Nm5q",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Int. of Thin. Architectures, Protocols & Sys. Prog"
+    },
+    "Honors Course/TE/Internet of Things": {
+      "folder_id": "1UTYuKd4p6SiO1TKuZaE_ze_gyGLALtOb",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Internet of Things"
+    },
+    "Honors Course/TE/Principles of Robotics": {
+      "folder_id": "1d-CEiQqXpnFjLoKQ_vMmxgsHzqOULNL-",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Principles of Robotics"
+    },
+    "Honors Course/TE/Robot Programming & Simulation": {
+      "folder_id": "1TvirMuxp5kQ8mb0OoyvId5eOuWgOsw6R",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Robot Programming & Simulation"
+    },
+    "Honors Course/TE/Statistics & Machine Learning": {
+      "folder_id": "1y4rRsW7552Gie3kP7VFQl8j6Oh3PUPhA",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Statistics & Machine Learning"
+    },
+    "Honors Course/TE/Sustainable Architecture & Landscape Design": {
+      "folder_id": "1hQMvsEW49sOIsOpKMHSi-DsAXqfYReVJ",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Sustainable Architecture & Landscape Design"
+    },
+    "Honors Course/TE/Virtual Reality": {
+      "folder_id": "1RYzsg-iHYFmiYpvsW6quJ3xDhfAmxoe-",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/Virtual Reality"
+    },
+    "Honors Course/TE/e-Vehicle System Design": {
+      "folder_id": "1qdiT7qbedHLhJjtvP3Ksysw7SK4ihj3D",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/e-Vehicle System Design"
+    },
+    "Honors Course/TE/e-Vehicle Technology": {
+      "folder_id": "1UVNBXzB9C_D-FuAu4pVRmI6tNT-2tsIF",
+      "parent_id": "1HyZinLcQwIiSm6bLZAemGRnLHhi89s12",
+      "path": "Honors Course/TE/e-Vehicle Technology"
+    }
+  }
+}

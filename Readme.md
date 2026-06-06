@@ -1,367 +1,444 @@
-# `question-papers`
+# SPPU PYQ Sync Toolkit
 
-> This branch is the central registry for SPPU question paper PDFs and their delivery manifests.
-> It is maintained separately from the main application code.
+This repository contains review-first Python tools for mapping a public Google Drive question-paper archive, downloading PDFs into a temporary `incoming/` mirror, normalizing folders, and moving cleanly renamed PDFs into `papers/`.
 
-All PDF files tracked here are available for direct download via GitHub. Since GitHub applies IP-based rate limiting on file downloads, it acts as a resilient fallback delivery layer alongside the primary CDN. The web application itself delivers PDFs through **Supabase Storage** or **Cloudflare R2** — the JSON manifests in this branch are what the app reads to resolve PDF links per subject.
+The tools are designed for humans and coding agents such as Codex, Gemini, or Claude. The main rule is: review first, apply second.
 
----
+> **For AI agents:** Read [AGENTIC.md](AGENTIC.md) for complete agent instructions, use-case workflows, and CLI command reference.
+## Setup
 
-## Table of Contents
+Install dependencies:
 
-- [Source](#source)
-- [Workflow](#workflow)
-- [Folder Structure](#folder-structure)
-- [JSON Structure](#json-structure)
-- [Upload Scripts](#upload-scripts)
-- [CDN Delivery](#cdn-delivery)
-- [Cloudflare Worker](#cloudflare-worker)
-- [Self Hosting](#self-hosting)
-
----
-
-## Source
-
-Question papers are sourced from **[Google Drive](https://drive.google.com/drive/folders/0Bz9C0ysJZ7PnMGZKeWcybUpXWGM)** maintained by Zeal Education.
-
-**Source:** Zeal Education — `unipunepaper@zealeducation.com`
-
-> Only **2019 Pattern (PAT 2019)** papers are included in this repository.
-
----
-
-## Workflow
-
-```
-Download from Drive  →  Organise  →  Rename Folders  →  Rename Files  →  Verify  →  Upload  →  Merge
+```bash
+python3 -m pip install -r requirements.txt
 ```
 
-### 1 · Download from Google Drive
+Copy the safe templates before filling local values:
 
-Files are manually downloaded from the Google Drive. The drive organises files as:
-
-```
-Branch/
-└── Year/
-    └── Pattern/        ← only 2019 pattern is considered
-        └── Subject/
+```bash
+cp .env.example .env
+cp config.example.json config.json
 ```
 
-After downloading, files are manually reorganised into the local working structure by cross-referencing the official SPPU syllabus:
+Create `.env` with the keys you need:
 
-```
-branch/
-└── sem-n/
-    └── subject-name/
-        └── raw-file.pdf
-```
-
----
-
-### 2 · Rename Subject Folders — `rename-folders.py`
-
-Normalises subject folder names, then appends the branch suffix so every subject folder is uniquely identifiable across branches.
-
-| Action | Example |
-|---|---|
-| Strips special characters | `Engineering Mathematics-I!` → `engineering-mathematics-i` |
-| Spaces to hyphens | `basic electrical` → `basic-electrical` |
-| Appends branch suffix to subjects folder | `engineering-mathematics-i` → `engineering-mathematics-i-fy` |
-| Skips already correct | `basic-electrical-fy` → untouched |
-| Skips name conflicts | logs warning, no overwrite |
-
----
-
-### 3 · Rename PDF Files — `rename.py`
-
-Renames each PDF using metadata extracted from the filename and the PDF text content. The output format is:
-
-```
-{exam_type}-{exam_month}-{exam_year}-pat{pattern_year}-{scheme}.pdf
+```env
+GOOGLE_API_KEY=your_google_api_key
+GROQ_API_KEY=your_groq_key
+GROQ_API_KEY_2=optional_second_groq_key
+GROQ_API_KEY_3=optional_third_groq_key
 ```
 
-**Examples:**
-```
-endsem-may-jun-2023-pat2019-emif.pdf
-insem-oct-2022-pat2019-beef.pdf
-other-nov-dec-2021-pat2019-cga.pdf
-```
+PDF metadata uses PyMuPDF header text first, PaddleOCR GPU second, and Groq only as a fallback. `GROQ_API_KEYS=key1,key2,key3` is also supported for optional Groq fallback keys.
 
-**How each field is detected:**
-
-| Field | Source | Logic |
-|---|---|---|
-| `exam_type` | PDF text | `insem` if max marks = 30, `endsem` if 50 or 70 |
-| `exam_month` | Filename | Extracted from prefix before the year |
-| `exam_year` | Filename → PDF text | 4-digit year, falls back to PDF scan |
-| `pattern_year` | PDF text | Matches `YYYY pattern` or `YYYY credit pattern` |
-| `scheme` | Subject folder name | Initials with Roman numerals preserved |
-
-Files that already match the final format are skipped. Files where any field cannot be determined are logged to `rename_update.txt` for manual review.
-
----
-
-### 4 · Manual Verification
-
-After renaming, all filenames are manually checked against the expected pattern before upload.
-
----
-
-### 5 · Upload
-
-Upload scripts push PDFs to the configured storage provider and generate or update the JSON manifest files. See [Upload Scripts](#upload-scripts).
-
----
-
-### 6 · Merge to Main Branch
-
-Once the upload is complete, the generated JSON manifests from `question-papers/r2/` or `question-papers/supabase/` are moved to the main branch for the web application to consume.
-
----
-
-## Folder Structure
-
-```
-sppu-codes/
-│
-├── aids/                            ← Raw PDFs · AI & Data Science
-│   └── sem-3/
-│       └── computer-graphics-aids/
-│           └── endsem-nov-dec-2023-pat2019-cga.pdf
-│
-├── cse/                             ← Raw PDFs · Computer Science
-│   └── sem-3/
-│       └── subject-name-cse/
-│           └── ...pdf
-│
-├── fy/                              ← Raw PDFs · First Year Engineering
-│   └── sem-1/
-│       └── subject-name-fy/
-│           └── ...pdf
-│
-├── it/                              ← Raw PDFs · Information Technology
-│   └── sem-3/
-│       └── subject-name-it/
-│           └── ...pdf
-│
-├── question-papers/
-│   │
-│   ├── supabase/                    ← JSON manifests · Supabase public URLs
-│   │   ├── aids.json
-│   │   ├── cse.json
-│   │   ├── fy.json
-│   │   └── it.json
-│   │
-│   ├── r2/                          ← JSON manifests · Cloudflare Worker URLs
-│   │   ├── aids.json
-│   │   ├── cse.json
-│   │   ├── fy.json
-│   │   └── it.json
-│   │
-│   └── seo/                         ← SEO metadata · separate from PDF data
-│       ├── aids.json
-│       ├── cse.json
-│       ├── fy.json
-│       └── it.json
-│
-├── workers/
-│   └── sppucodes/
-│       ├── src/
-│       │   └── index.js             ← Cloudflare Worker · R2 PDF delivery
-│       └── wrangler.jsonc
-│
-├── rename-folders.py
-├── rename.py
-├── upload-supabase.py
-├── upload-r2.py
-├── list.py
-├── remove.py
-└── .env
-```
-
----
-
-## JSON Structure
-
-### Delivery Manifests — `question-papers/supabase/{branch}.json` · `question-papers/r2/{branch}.json`
-
-Both files share the exact same structure. The only difference is the base URL in `pdf_links` — Supabase manifests point to Supabase public storage URLs, R2 manifests point to the Cloudflare Worker URL.
+Set the public Drive root folder ID in `config.json`:
 
 ```json
 {
-    "branch_name": "First Year Engineering",
-    "branch_code": "F.E",
-    "sem-1": {
-        "basic-electrical-engineering-fy": {
-            "subject_name": "Basic Electrical Engineering",
-            "pdf_links": [
-                "https://sppucodes.albatrossc.workers.dev/fy/sem-1/basic-electrical-engineering-fy/endsem-may-jun-2023-pat2019-beef.pdf",
-                "https://sppucodes.albatrossc.workers.dev/fy/sem-1/basic-electrical-engineering-fy/insem-oct-2022-pat2019-beef.pdf"
-            ]
-        }
-    }
+  "root_folder_id": "your-public-root-folder-id"
 }
 ```
 
----
+## Production Quickstart
 
-### SEO Manifest — `question-papers/seo/{branch}.json`
-
-Stored separately from delivery data to keep the main manifests lean. Consumed by the web app to populate `<title>` and `<meta>` tags on each subject page.
-
-```json
-{
-    "branch_name": "Artificial Intelligence and Data Science",
-    "branch_code": "AI & DS",
-    "sems": {
-        "sem-3": {
-            "computer-graphics-aids": {
-                "subject_name": "Computer Graphics",
-                "seo_data": {
-                    "title": "SPPU Computer Graphics | AI & DS Question Papers | Sppu Codes",
-                    "description": "Computer Graphics in the AI & DS branch at SPPU...",
-                    "keywords": "computer graphics question papers sppu, sppu aids graphics insem, ..."
-                }
-            }
-        }
-    }
-}
-```
-
-`seo_data` always contains three fields: `title`, `description`, and `keywords`.
-
----
-
-## Upload Scripts
-
-### `upload-supabase.py`
-
-Uploads PDFs to Supabase Storage via the S3-compatible API using `boto3`.
-
-- Prompts for branch names to process (`fy`, `aids`, `cse`, `it`)
-- Walks the `{branch}/sem-n/subject/` folder structure
-- Skips files already tracked in the JSON — **incremental, no re-uploads**
-- Constructs a full Supabase public URL per uploaded file
-- Writes or updates `question-papers/supabase/{branch}.json`
-- Cache header: `public, max-age=31536000`
-
----
-
-### `upload-r2.py`
-
-Uploads PDFs to Cloudflare R2 via the S3-compatible API using `boto3`. Behaviour is identical to the Supabase script with these differences:
-
-- Uses R2 credentials with endpoint `https://{account_id}.r2.cloudflarestorage.com`
-- Constructs delivery URLs using `CF_WORKER_URL` — the R2 bucket is **private** and never directly exposed
-- Writes or updates `question-papers/r2/{branch}.json`
-- Cache header: `public, max-age=31536000, s-maxage=31536000, immutable`
-
-**Why these cache directives:**
-
-| Directive | Scope | Effect |
-|---|---|---|
-| `max-age=31536000` | Browser | Cache locally for 1 year |
-| `s-maxage=31536000` | CDN edge | Cache at Cloudflare edge nodes for 1 year |
-| `immutable` | Browser | Never revalidate — question papers never change once uploaded |
-
----
-
-## CDN Delivery
-
-### Supabase — Legacy
-
-PDFs were originally served directly from Supabase Storage public URLs. This worked reliably until early 2026, when the platform became inaccessible across India.
-
-> **As of 1 March 2026**, Supabase is blocked on most Indian networks following a government blocking order.
-> Source: [India disrupts access to popular developer platform Supabase with blocking order — TechCrunch, Feb 27 2026](https://techcrunch.com/2026/02/27/india-disrupts-access-to-popular-developer-platform-supabase-with-blocking-order/)
-
-Since SPPU Codes serves students primarily in India, Supabase delivery became non-functional for the majority of users overnight. A full transition to Cloudflare R2 was made as a result. The Supabase upload script and manifests are retained for reference and as a fallback for non-Indian traffic.
-
----
-
-### Cloudflare R2 — Current
-
-PDFs are stored in a **private** R2 bucket (`sppucodes-files`). The bucket has no public URL — all delivery is routed through a Cloudflare Worker which authenticates with R2 internally.
-
----
-
-## Cloudflare Worker
-
-**Location:** `workers/sppucodes/src/index.js`
-**Deployed at:** `https://sppucodes.albatrossc.workers.dev`
-
-### Request Flow
-
-```
-1st request  →  Cloudflare Worker  →  R2 bucket  →  response sent + stored at edge
-2nd request  →  Cloudflare Edge Cache  →  response returned instantly
-               (Worker and R2 are never contacted again)
-```
-
-### What the Worker Does
-
-1. Extracts the R2 object key from the request URL path (strips the leading `/`)
-2. Checks `caches.default` — if a cached response exists, returns it immediately
-3. On a cache miss, fetches the object from the private R2 bucket
-4. Streams the PDF back to the user with full cache headers and `Content-Disposition: inline`
-5. Calls `ctx.waitUntil(cache.put(...))` to store the response at the Cloudflare edge **asynchronously** — the user's response is not delayed
-
-The `X-Cache: MISS` header is present on the first response to any given file. From the second request onward, the Worker is bypassed entirely — requests are served straight from the nearest Cloudflare data center.
-
-### Recommended Cloudflare Dashboard Rule
-
-To ensure Cloudflare respects aggressive caching for Worker responses, create a Cache Rule in the dashboard:
-
-```
-URL match  : cdn.sppucodes.in/*
-Cache level: Cache Everything
-Edge TTL   : 1 year
-```
-
-Without this rule Cloudflare may not cache Worker-originated responses at the edge regardless of the headers sent.
-
----
-
-## Self Hosting
-
-To run this pipeline yourself, clone the repository and follow the steps below.
-
-### Install Dependencies
+For agents or careful manual runs, use the individual review/apply commands in this order:
 
 ```bash
-pip install boto3 python-dotenv pymupdf
+python3 tools/validate_mappings.py
+python3 tools/sync.py --folders
+python3 tools/sync.py --folders --apply
+python3 tools/sync.py --files
+python3 tools/sync.py --files --apply --rclone --workers 8
+python3 tools/rename_folders.py --create
+python3 tools/rename_folders.py --dry-run
+python3 tools/rename_folders.py
+python3 tools/rename_files.py --ocr-workers 1
+python3 tools/rename_files.py --apply
+python3 tools/verify.py
+python3 tools/move.py
+python3 tools/status.py --print
 ```
 
-### `.env` Reference
+Use `--gdown` only when the official Drive download path is blocked or rate-limited. Use `--download-delay` when Google throttles requests.
 
-| Variable | Used In | Description |
-|---|---|---|
-| `SUPABASE_S3_ENDPOINT` | `upload-supabase.py` | Supabase S3-compatible endpoint URL |
-| `SUPABASE_S3_BUCKET` | `upload-supabase.py` | Supabase storage bucket name |
-| `SUPABASE_S3_ACCESS_KEY` | `upload-supabase.py` | Supabase S3 access key |
-| `SUPABASE_S3_SECRET_KEY` | `upload-supabase.py` | Supabase S3 secret key |
-| `SUPABASE_PROJECT_ID` | `upload-supabase.py` | Project ID — used to construct public URLs |
-| `CF_ACCOUNT_ID` | `upload-r2.py` | Cloudflare account ID |
-| `CF_R2_BUCKET` | `upload-r2.py` | R2 bucket name |
-| `CF_R2_ACCESS_KEY` | `upload-r2.py` | R2 API token — Access Key ID |
-| `CF_R2_SECRET_KEY` | `upload-r2.py` | R2 API token — Secret Access Key |
-| `CF_WORKER_URL` | `upload-r2.py` | Base URL of the deployed Cloudflare Worker |
-
-### Run Order
+For a local summary at any point:
 
 ```bash
-# 1. Normalise subject folder names
-python rename-folders.py
-
-# 2. Rename PDF files using extracted metadata
-python rename.py
-
-# 3. Upload PDFs and generate JSON manifests
-python upload-r2.py
-
-# 4. Move generated JSONs from question-papers/r2/ to the main branch
+python3 tools/status.py
 ```
 
----
+This writes:
 
-<sub>Maintained as part of the [SPPU Codes](https://sppucodes.vercel.app) project.</sub>
+```text
+docs/status.md
+```
+
+For a one-command wrapper around the same tools:
+
+```bash
+python3 tools/pipeline.py --review --scope "Artificial Intelligence and Data Science/BE/2019 Pattern"
+python3 tools/pipeline.py --apply-reviewed --gdown --download-delay 5
+python3 tools/pipeline.py --apply-reviewed --rclone --workers 8
+python3 tools/pipeline.py --apply-renames
+```
+
+To run review and apply stages together:
+
+```bash
+python3 tools/pipeline.py --full --apply --scope "Artificial Intelligence and Data Science/BE/2019 Pattern"
+```
+
+`pipeline.py` only orchestrates existing tools. It does not replace their changelog review/apply behavior.
+
+Important wrapper semantics:
+
+- `--scope` affects review commands only.
+- `--apply-reviewed` applies all pending folder/file changelog entries, not just the passed scope.
+- `--apply-renames --incoming-path PATH` scopes rename apply and move to that incoming subtree, while `verify.py` remains global.
+
+## Documentation
+
+- [Architecture overview](docs/overview.md)
+- [Disaster recovery](docs/disaster_recovery.md)
+- [Upload pipeline](docs/upload_pipeline.md)
+- [Legacy tracking migration](docs/migrate_tracking.md)
+
+## Tool Guide
+
+| Tool | Purpose |
+| --- | --- |
+| `tools/validate_mappings.py` | Non-network sanity check for mapping JSON/YAML |
+| `tools/map.py` | Full Drive mapping rebuild/refresh |
+| `tools/sync.py` | Review/apply folder and file Drive changes |
+| `tools/rename_folders.py` | Build folder registry and normalize `incoming/` folders |
+| `tools/rename_files.py` | Review/apply normalized PDF filenames |
+| `tools/verify.py` | Verify SQLite rows and renamed files |
+| `tools/move.py` | Move verified PDFs into `papers/` |
+| `tools/status.py` | Write/print workflow status |
+| `tools/upload_pipeline.py` | Publish `papers/` to R2/Cloudinary and generate manifests |
+| `tools/migrate_tracking.py` | Legacy migration from `mapping/local/` |
+| `tools/download_drive.py` | Legacy sync-plan downloader |
+
+### `tools/status.py`
+
+Write a human-readable status report:
+
+```bash
+python3 tools/status.py
+python3 tools/status.py --print
+```
+
+The report includes:
+
+```text
+SQLite stage counts
+incoming PDF count
+papers PDF count
+needs_review PDF count
+needs-review reasons
+retry counts
+filesystem drift
+next suggested command
+```
+
+Output:
+
+```text
+docs/status.md
+```
+
+### `tools/pipeline.py`
+
+Run the common workflow through one command while keeping the review/apply split.
+
+Review Drive folder and file changes:
+
+```bash
+python3 tools/pipeline.py --review
+python3 tools/pipeline.py --review --scope "Artificial Intelligence and Data Science/TE/2019 Pattern"
+```
+
+Apply reviewed folder/file changes, normalize `incoming/`, and generate rename review:
+
+```bash
+python3 tools/pipeline.py --apply-reviewed
+python3 tools/pipeline.py --apply-reviewed --gdown --download-delay 5
+python3 tools/pipeline.py --apply-reviewed --rclone --workers 8
+```
+
+Apply reviewed file renames, then verify and move:
+
+```bash
+python3 tools/pipeline.py --apply-renames
+```
+
+Run review and apply together:
+
+```bash
+python3 tools/pipeline.py --full --apply
+python3 tools/pipeline.py --full --apply --scope "Artificial Intelligence and Data Science/BE/2019 Pattern"
+```
+
+Scoped rename stages can use normalized incoming paths:
+
+```bash
+python3 tools/pipeline.py --apply-renames --incoming-path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+```
+
+Preview commands without executing:
+
+```bash
+python3 tools/pipeline.py --full --apply --dry-run
+```
+
+### `tools/sync.py`
+
+Review and apply Drive folder/file changes.
+
+Folder mapping review:
+
+```bash
+python3 tools/sync.py --folders
+python3 tools/sync.py --folders "Artificial Intelligence and Data Science/BE"
+python3 tools/sync.py --folders --apply
+python3 tools/sync.py --folders --discard
+```
+
+File download review:
+
+```bash
+python3 tools/sync.py --files
+python3 tools/sync.py --files "Artificial Intelligence and Data Science/BE/2019 Pattern"
+python3 tools/sync.py --files --apply
+python3 tools/sync.py --files --apply --gdown --download-delay 5
+python3 tools/sync.py --files --apply --rclone --workers 8
+python3 tools/sync.py --files --apply --max-downloads 100 --workers 1
+python3 tools/sync.py --files --discard
+```
+
+Review writes:
+
+```text
+changelog/folder.md
+changelog/files.md
+```
+
+Apply commands read those changelog files and do not re-scan Drive.
+
+### `tools/rename_folders.py`
+
+Create folder-name/code registry and normalize `incoming/` directories.
+
+```bash
+python3 tools/rename_folders.py --create
+python3 tools/rename_folders.py --dry-run
+python3 tools/rename_folders.py
+```
+
+Scoped run:
+
+```bash
+python3 tools/rename_folders.py --path "incoming/Artificial Intelligence and Data Science" --dry-run
+python3 tools/rename_folders.py --path "incoming/Artificial Intelligence and Data Science"
+```
+
+This uses and updates:
+
+```text
+mapping/folder_names.yml
+```
+
+Only folder names change. PDF filenames are not changed by this tool.
+
+### `tools/rename_files.py`
+
+Review and apply normalized PDF filenames.
+
+Review:
+
+```bash
+python3 tools/rename_files.py
+```
+
+If `changelog/rename.json` exists, the normal review command skips completed rows and retries only `retry_pending` model failures. Use `--fresh` to rebuild everything:
+
+```bash
+python3 tools/rename_files.py --fresh
+```
+
+Apply. This renames files in the working folder and updates SQLite one file at a time:
+
+```bash
+python3 tools/rename_files.py --apply
+```
+
+Scoped review/apply:
+
+```bash
+python3 tools/rename_files.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+python3 tools/rename_files.py --apply --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+```
+
+Finish renamed files:
+
+```bash
+python3 tools/verify.py
+python3 tools/move.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+```
+
+PyMuPDF header text is used first. When text is weak, watermark-only, or missing usable marks, PaddleOCR GPU tries page 1 crops at 45%, 65%, and then the full first page. Groq is used last only for:
+
+```text
+marks
+month_code
+year
+```
+
+Branch code, subject code, and pattern code are derived locally from the normalized path and `mapping/folder_names.yml`.
+
+Successful rename apply writes:
+
+```text
+incoming/<same relative path>/<normalized filename>.pdf
+```
+
+Then `verify.py` promotes valid rows to `VERIFIED`, and `move.py` moves them to:
+
+```text
+papers/<same relative path>/<normalized filename>.pdf
+```
+
+Unsafe files move to:
+
+```text
+needs_review/<same incoming-relative path>/<original filename>
+```
+
+### `tools/map.py`
+
+Build or refresh Drive folder mappings.
+
+```bash
+python3 tools/map.py build
+python3 tools/map.py refresh
+python3 tools/map.py refresh --branch "Mechanical Engineering"
+```
+
+Use this when the main mapping files need a larger rebuild. For normal incremental folder checks, prefer `tools/sync.py --folders`.
+
+### `tools/upload_pipeline.py`
+
+Upload reads from `papers/` only:
+
+```bash
+python3 tools/upload_pipeline.py preflight
+python3 tools/upload_pipeline.py scan
+python3 tools/upload_pipeline.py sync --workers 4
+python3 tools/upload_pipeline.py manifest
+python3 tools/upload_pipeline.py summary
+```
+
+See [docs/upload_pipeline.md](docs/upload_pipeline.md) for `--limit`, `--state FAILED`, `--target`, and `bulk-delete --dry-run`.
+
+### `tools/migrate_tracking.py`
+
+Legacy migration from `mapping/local/`:
+
+```bash
+python3 tools/migrate_tracking.py --print
+```
+
+`mapping/local/` may not exist on fresh installs. Prefer `python3 tools/sync.py --files` and reviewed download apply for modern recovery.
+
+### `tools/download_drive.py`
+
+Legacy downloader for `sync_plan/sync_plan.json`.
+
+```bash
+python3 tools/download_drive.py
+```
+
+Most current work should use `python3 tools/sync.py --files --apply` instead.
+
+## Data Files
+
+Mapping files:
+
+```text
+mapping/sync_mapping.json
+mapping/first_year_mapping.json
+mapping/mba.json
+mapping/honors_course_mapping.json
+mapping/folder_names.yml
+mapping/local/     legacy runtime metadata; may not exist on fresh installs
+```
+
+Changelog/review files:
+
+```text
+changelog/folder.md
+changelog/files.md
+changelog/rename.md
+changelog/rename.json
+changelog/sync.md
+```
+
+Working/output folders:
+
+```text
+incoming/       temporary raw Drive mirror
+papers/         final normalized PDFs
+needs_review/   files that could not be safely renamed
+sync_plan/      legacy sync plan output
+manifest/       legacy download manifests
+```
+
+## Folder Families
+
+Standard branches:
+
+```text
+Branch / Year / Pattern / Subject
+```
+
+First Year:
+
+```text
+First Year / Pattern / Subject
+```
+
+MBA:
+
+```text
+M.B.A / Semester / Pattern / Subject
+```
+
+Honors Course:
+
+```text
+Honors Course / Year / Subject
+```
+
+The sync and rename tools understand all four families.
+
+## Agent Notes
+
+Do not apply before review unless the user explicitly asks and the matching changelog exists.
+
+Do not delete marker comments in folder/file changelogs. Rename review is human-readable in `changelog/rename.md`, while `tools/rename_files.py --apply` reads `changelog/rename.json`.
+
+Do not hand-edit Drive IDs unless the user explicitly asks. Prefer `tools/sync.py --folders` for incremental mapping changes.
+
+Do not assume `tools/pipeline.py --apply-reviewed --scope ...` scopes apply. It applies all pending folder/file changelog entries.
+
+Do not overwrite files in `papers/`. `tools/rename_files.py` moves collisions to `needs_review/`.
+
+Use scoped commands during testing to avoid large API runs:
+
+```bash
+python3 tools/sync.py --files "Artificial Intelligence and Data Science/BE/2019 Pattern"
+python3 tools/rename_folders.py --path "incoming/Artificial Intelligence and Data Science" --dry-run
+python3 tools/rename_files.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+```
+
+When Groq rate-limits, wait briefly and rerun `python3 tools/rename_files.py`; rate-limited rows stay `retry_pending` and are not moved to `needs_review/`.

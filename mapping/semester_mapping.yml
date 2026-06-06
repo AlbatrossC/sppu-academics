@@ -1,0 +1,44 @@
+first_year: {}
+schema_version: 1
+standard:
+  artificial-intelligence-and-data-science:
+    be:
+      2019_pattern:
+        big_data_analytics_ele_V_aids: 8
+        business_intelligence_ele_VI_aids: 8
+        computational_intelligence_aids: 8
+        data_modeling_and_visualization_aids: 7
+        deep_learning_ele_V_aids: 8
+        distributed_computing_aids: 8
+        industrial_internmet_of_things_aids: 7
+        information_retrival_aids: 7
+        machine_learning_aids: 7
+        quantum_artificial_intelligence_aids: 7
+        reinforcement_learning_ele_VI_aids: 8
+        ui_ux_design_aids: 7
+    se:
+      2019_pattern:
+        computer_graphics_aids: 3
+        data_structures_and_algorithms_aids: 4
+        discrete_mathematics_aids: 3
+        fundamentals_of_data_structures_aids: 3
+        internet_of_things_aids: 4
+        management_information_system_aids: 4
+        object_oriented_programming_aids: 3
+        operating_systems_aids: 3
+        software_engineering_aids: 4
+        statistics_aids: 4
+    te:
+      2019_pattern:
+        artificial_intelligence_aids: 5
+        artificial_nueral_network_aids: 6
+        cloud_computing_aids: 6
+        computer_networks_aids: 5
+        cyber_security_aids: 6
+        data_science_aids: 6
+        database_management_system_aids: 5
+        human_computer_interface_ele_I_aids: 5
+        natural_language_processing_ele_II_aids: 6
+        pattern_recognition_ele_I_aids: 5
+        software_modeling_and_architectures_aids: 6
+        web_technology_aids: 5

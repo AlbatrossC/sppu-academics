@@ -1,0 +1,6 @@
+{
+  "root_folder_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM",
+  "request_timeout": 30,
+  "max_retries": 5,
+  "backoff_factor": 1.5
+}

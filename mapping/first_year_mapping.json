@@ -1,0 +1,185 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-06-04T10:35:23Z",
+  "root": {
+    "folder_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM"
+  },
+  "branch": "First Year",
+  "folder_id": "1JuB4oDWsWC2f9tbhFGiAjPF1ae_Ul3kV",
+  "parent_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM",
+  "path": "First Year",
+  "patterns": {
+    "2012 Pattern": {
+      "folder_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+      "parent_id": "1JuB4oDWsWC2f9tbhFGiAjPF1ae_Ul3kV",
+      "path": "First Year/2012 Pattern",
+      "subjects": {
+        "Basic Civil and Environmental Engineering": {
+          "folder_id": "1cSfqysAMwDXXM66jsj_LXv73aVb_EWXR",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Basic Civil and Environmental Engineering"
+        },
+        "Basic Electrical Engineering": {
+          "folder_id": "1o0Di371b8eKSSX8GOJuaq_hA2wprSNsJ",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Basic Electrical Engineering"
+        },
+        "Basic Electronics Engineering": {
+          "folder_id": "1Hx4kNADyg2cW7tpPunHatoFLUY3Yi46S",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Basic Electronics Engineering"
+        },
+        "Basic Mechanical Engineering": {
+          "folder_id": "15c9nmfBgBuZN0-ILPgrJbhQjsrpFZh-3",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Basic Mechanical Engineering"
+        },
+        "Engineering Chemistry": {
+          "folder_id": "1RfulwWthb7vP1_nzLimu1OcKeY2TJ5EO",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Chemistry"
+        },
+        "Engineering Graphics – I": {
+          "folder_id": "10MjZI2AQ7Zml6dGtObj6gCq-wei1n7bc",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Graphics – I"
+        },
+        "Engineering Mathematics-I": {
+          "folder_id": "1Y7Tf4G3CxHCZqj0_1ZUjONas9zYIt8Hw",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Mathematics-I"
+        },
+        "Engineering Mathematics-II": {
+          "folder_id": "1N-MPcmjRv9nv7nrxbYaU5Pm-rAgcK06S",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Mathematics-II"
+        },
+        "Engineering Mechanics": {
+          "folder_id": "1d3Vb4KgiMDTQ2IlHkVI1ijR0qEnGnb1j",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Mechanics"
+        },
+        "Engineering Physics": {
+          "folder_id": "1C4klLwAaFKNzkz3wVAunUoyY2AEOWXlR",
+          "parent_id": "1zfu0sD8l6EzZX4tk6Y2aPPIn2ACS-ElY",
+          "path": "First Year/2012 Pattern/Engineering Physics"
+        }
+      }
+    },
+    "2015 Pattern": {
+      "folder_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+      "parent_id": "1JuB4oDWsWC2f9tbhFGiAjPF1ae_Ul3kV",
+      "path": "First Year/2015 Pattern",
+      "subjects": {
+        "Basic Civil & Environmental Engg": {
+          "folder_id": "1K5aZQV3U4Uj2pP67Pc9ewj8E-Ow4vwJ7",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Basic Civil & Environmental Engg"
+        },
+        "Basic Electrical Engineering": {
+          "folder_id": "1K2qYuuq4ZbkQ-enX-aR6CnxgFBf8GMse",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Basic Electrical Engineering"
+        },
+        "Basic Electronics Engineering": {
+          "folder_id": "1dFz3JK7i-xfxibi9KyYy6dQh6mUSC0af",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Basic Electronics Engineering"
+        },
+        "Basic Mechanical Engineering": {
+          "folder_id": "1nfclZMEDpnCE_oxmTPl1pn4m4bibD_YA",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Basic Mechanical Engineering"
+        },
+        "Engineering Chemistry": {
+          "folder_id": "1exUVHugYYudEv_b9oi0duucx7qNZ1wly",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Chemistry"
+        },
+        "Engineering Graphics – I": {
+          "folder_id": "1uiAp_9HSMBJY_IoKNVMxpnuCi0_DTO3v",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Graphics – I"
+        },
+        "Engineering Mathematics-I": {
+          "folder_id": "1XE8VlgVIJkIA4xt2I6HjTrQEebNzdC7D",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Mathematics-I"
+        },
+        "Engineering Mathematics-II": {
+          "folder_id": "1nHxWsB-p4M209flf0nSOO7GtjIqxzTn9",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Mathematics-II"
+        },
+        "Engineering Mechanics": {
+          "folder_id": "1ZQiDuoyXfdrxBqkbZwGoFZ2D8iraN9Pq",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Mechanics"
+        },
+        "Engineering Physics": {
+          "folder_id": "11PVbdbMoquXfcJMA8Xk-7hfRIM7ngbMJ",
+          "parent_id": "1CWTqIU0qrClLbMZ1m_W05CouQ0vei5hw",
+          "path": "First Year/2015 Pattern/Engineering Physics"
+        }
+      }
+    },
+    "2019 Pattern": {
+      "folder_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+      "parent_id": "1JuB4oDWsWC2f9tbhFGiAjPF1ae_Ul3kV",
+      "path": "First Year/2019 Pattern",
+      "subjects": {
+        "Basic Electical Engineering": {
+          "folder_id": "1Fm81-egvgwrzU4sO1CBUuCdUCNv8w8_w",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Basic Electical Engineering"
+        },
+        "Basic Electronics Engineering": {
+          "folder_id": "1BC3bVFyKaxoRHlBhEEFYBFG2tkNR72-p",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Basic Electronics Engineering"
+        },
+        "Engineering Chemistry": {
+          "folder_id": "1nRlB2mYeVCu_NkEF8gMHcGGoz2qLDEa6",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Chemistry"
+        },
+        "Engineering Graphics": {
+          "folder_id": "1SzdVyKYQooQoXb7kxlMW4RaWbiKNIwCd",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Graphics"
+        },
+        "Engineering Mathematics - I": {
+          "folder_id": "10Nen-ozS05WK07meXmCHA5sonSFSP7uW",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Mathematics - I"
+        },
+        "Engineering Mathematics - II": {
+          "folder_id": "1CCF4KIOPtC_MUYgLl7HV25CI3PZIsbvs",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Mathematics - II"
+        },
+        "Engineering Mechanics": {
+          "folder_id": "1EN2_KO0PGF9ICa9AoX-x1KTAOAXHT4pw",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Mechanics"
+        },
+        "Engineering Physics": {
+          "folder_id": "1AoD-Ro9sVfA9532I8MFzvAGi1_KH7f6t",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Engineering Physics"
+        },
+        "Programming & Problem Solving": {
+          "folder_id": "1BU0BEEOEx9zNz-mZd3q5eGGaHXgr5d0R",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Programming & Problem Solving"
+        },
+        "Systems in Mechanical Engineering": {
+          "folder_id": "1FCvj3x4TenOfdP7QH9oZWso77jUkOznj",
+          "parent_id": "1Knrv54TyDGTaYxjlMotdQpTWL1S3vJeG",
+          "path": "First Year/2019 Pattern/Systems in Mechanical Engineering"
+        }
+      }
+    }
+  },
+  "exceptions": {}
+}

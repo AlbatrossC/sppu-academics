@@ -1,0 +1,1119 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-06-04T10:35:23Z",
+  "root": {
+    "folder_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM"
+  },
+  "branch": "M.B.A",
+  "folder_id": "1fEnebqRkm4b08kW4hX4cK2PIQNtYnCDy",
+  "parent_id": "0Bz9C0ysJZ7PnMGZKeWcybUpXWGM",
+  "path": "M.B.A",
+  "semesters": {
+    "SEM - I": {
+      "folder_id": "1V9gtHYaKNZbsqhNCNZgMmjL4vQHsCu6L",
+      "parent_id": "1fEnebqRkm4b08kW4hX4cK2PIQNtYnCDy",
+      "path": "M.B.A/SEM - I",
+      "patterns": {
+        "2013 Pattern": {
+          "folder_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+          "parent_id": "1V9gtHYaKNZbsqhNCNZgMmjL4vQHsCu6L",
+          "path": "M.B.A/SEM - I/2013 Pattern",
+          "subjects": {
+            "Accounting for Business Decisions": {
+              "folder_id": "1LlBDtATe-Ny1GPFDyXK4A3bOYvNm9sxJ",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Accounting for Business Decisions"
+            },
+            "Basics of Marketing": {
+              "folder_id": "1dk8jUjDJEAY5gVGYAWeZjbS8CJUAtZUy",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Basics of Marketing"
+            },
+            "Business Research Methods": {
+              "folder_id": "1ulbXw4bqWaaAnemfZn5-3Xdo8lQfwU59",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Business Research Methods"
+            },
+            "Economics Analysis for Business Decisions": {
+              "folder_id": "1BjHu3AIP0ZS_11RgEx07WjL0BhgqeGj-",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Economics Analysis for Business Decisions"
+            },
+            "Legal Aspects of Business": {
+              "folder_id": "1YeeusFx17ojeVLCjsTXWEuz-HJVWU-Xb",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Legal Aspects of Business"
+            },
+            "Organizitional Behaviour": {
+              "folder_id": "1Tm3dQjnHB6ixWWGA57azgZRmm6tL4XUe",
+              "parent_id": "15rrnIoqQOoy5Br-y904X9bBG871VIsKc",
+              "path": "M.B.A/SEM - I/2013 Pattern/Organizitional Behaviour"
+            }
+          }
+        },
+        "2016 Pattern": {
+          "folder_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+          "parent_id": "1V9gtHYaKNZbsqhNCNZgMmjL4vQHsCu6L",
+          "path": "M.B.A/SEM - I/2016 Pattern",
+          "subjects": {
+            "Accounting for Business Decisions": {
+              "folder_id": "1BwQYiSiT-tOm_zJZZ0aNrRyJ8XBCwuia",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Accounting for Business Decisions"
+            },
+            "Basics of Marketing": {
+              "folder_id": "14JDnCWNf1cLn_VqN0DjJLIWlsIBmW_TV",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Basics of Marketing"
+            },
+            "Business Research Methods": {
+              "folder_id": "1fYDvHIT4vmM26ctP895u3rENIFajusRC",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Business Research Methods"
+            },
+            "Economics Analysis for Business Decisions": {
+              "folder_id": "1DEEoxDatxPr-tU7A_QvXcGZh5bAAb4FN",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Economics Analysis for Business Decisions"
+            },
+            "Legal Aspects of Business": {
+              "folder_id": "1BCRZAIKIklcJMAkzhgQnkup-blLvBWbo",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Legal Aspects of Business"
+            },
+            "Organizitional Behaviour": {
+              "folder_id": "1rXPAf4XDyunE0XhK-W2BYFAuRx3Myfrx",
+              "parent_id": "1FQmsJaP2NOIkIXG1A5PggbtVHJ6VU7kl",
+              "path": "M.B.A/SEM - I/2016 Pattern/Organizitional Behaviour"
+            }
+          }
+        },
+        "2019 Pattern": {
+          "folder_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+          "parent_id": "1V9gtHYaKNZbsqhNCNZgMmjL4vQHsCu6L",
+          "path": "M.B.A/SEM - I/2019 Pattern",
+          "subjects": {
+            "Basics of Marketing": {
+              "folder_id": "1k0D-hU0AgK1Q2Fx8PFbEiZFWgNXUhM27",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Basics of Marketing"
+            },
+            "Business Research Methods": {
+              "folder_id": "1UFLBfaErOA7B6_0Le8n2jIhUc5IxS6t1",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Business Research Methods"
+            },
+            "Digital Business": {
+              "folder_id": "1RPhxNq_8DG4DpQoLm2SFtIMwO2l6XY_G",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Digital Business"
+            },
+            "Economic Ana. for Busi. Decisions": {
+              "folder_id": "1_hnQ0Dug8kPRA8KlxF3IP806M2NuUTdw",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Economic Ana. for Busi. Decisions"
+            },
+            "Entrepreneurship Development": {
+              "folder_id": "1EJRDRkgNh56hfGT98YZEPAdmzFy1zMUY",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Entrepreneurship Development"
+            },
+            "Legal Aspect of Business": {
+              "folder_id": "11CT_mrcB4EWsh7z4Hf82F2oX3P2DdAzq",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Legal Aspect of Business"
+            },
+            "Management Fundamentals": {
+              "folder_id": "1rta23_Lz8SufemP0X_XdPM7Egim1Vgsn",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Management Fundamentals"
+            },
+            "Managerial Accounting": {
+              "folder_id": "1xWnI2cTD4mfheTpLHExHtM9Z6jTFtaci",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Managerial Accounting"
+            },
+            "Organizational Behaviour": {
+              "folder_id": "1loEazNQMB5pLNeXjy-SOHsj5fptgRhkn",
+              "parent_id": "1taXGerPvwFGeW8IO3c2E6PuSw-0RqXE9",
+              "path": "M.B.A/SEM - I/2019 Pattern/Organizational Behaviour"
+            }
+          }
+        }
+      }
+    },
+    "SEM - II": {
+      "folder_id": "1LCDZqP3oKo8KaQ5TarHlDmvm659S2XzV",
+      "parent_id": "1fEnebqRkm4b08kW4hX4cK2PIQNtYnCDy",
+      "path": "M.B.A/SEM - II",
+      "patterns": {
+        "2013 Pattern": {
+          "folder_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+          "parent_id": "1LCDZqP3oKo8KaQ5TarHlDmvm659S2XzV",
+          "path": "M.B.A/SEM - II/2013 Pattern",
+          "subjects": {
+            "Business Research Methods": {
+              "folder_id": "1PDrGA5wuBxqW87iYID6krHRZ08GnCdY6",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Business Research Methods"
+            },
+            "Decision Science": {
+              "folder_id": "1h5tONfmHt6AY0cbxbg5j-KYdhPXg6wY8",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Decision Science"
+            },
+            "Financial Management": {
+              "folder_id": "1LuQNQ-daPbiMDRIv11Hs7j4c3AoykmFD",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Financial Management"
+            },
+            "Human Resource Management": {
+              "folder_id": "1dUoQRWUUE_xXOSOVlI_zwgm4d3eeydy8",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Human Resource Management"
+            },
+            "Management Information Systems": {
+              "folder_id": "1JyrU1qm-CaniVBI7XS-xTP70tQ8aSMVp",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Management Information Systems"
+            },
+            "Marketing Management": {
+              "folder_id": "1p1mkLah28u2t77q74utMlb75ewGzqpa_",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Marketing Management"
+            },
+            "Operations and supply Chain Mgt": {
+              "folder_id": "11iBAzRWkUcQDqZ9KanuB4UKfNnISHpcC",
+              "parent_id": "1py32jxeTGMp5rEuIUxfmpt7vnRRtN5nq",
+              "path": "M.B.A/SEM - II/2013 Pattern/Operations and supply Chain Mgt"
+            }
+          }
+        },
+        "2016 Pattern": {
+          "folder_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+          "parent_id": "1LCDZqP3oKo8KaQ5TarHlDmvm659S2XzV",
+          "path": "M.B.A/SEM - II/2016 Pattern",
+          "subjects": {
+            "Decision Science": {
+              "folder_id": "1VRm1yZOfNxJEeiMGyUPWvcrWKeAsDVFA",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Decision Science"
+            },
+            "Financial Management": {
+              "folder_id": "1QKjTim1hkHaWQ41ga22bnkTualfLEUjh",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Financial Management"
+            },
+            "Human Resourse Management": {
+              "folder_id": "1uUM6HGp1PbDptvqg8IPMMICAplZJTBHa",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Human Resourse Management"
+            },
+            "Management Information System": {
+              "folder_id": "1DZKyJPImh_rfdlMAS1lLimhTT_5CJz5a",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Management Information System"
+            },
+            "Marketing Management": {
+              "folder_id": "1551DcmF_I5pP4ze6xhhTzRWdsTQ7AVMX",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Marketing Management"
+            },
+            "Operations and Supply Chain Mgt": {
+              "folder_id": "1bD48PPp93tJ5KWFfAmAhkM7xi_ANUn6S",
+              "parent_id": "1SVwMOJZmh2CYV36_TQ2lXW1-PZUdEhpl",
+              "path": "M.B.A/SEM - II/2016 Pattern/Operations and Supply Chain Mgt"
+            }
+          }
+        },
+        "2019 Pattern": {
+          "folder_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+          "parent_id": "1LCDZqP3oKo8KaQ5TarHlDmvm659S2XzV",
+          "path": "M.B.A/SEM - II/2019 Pattern",
+          "subjects": {
+            "Basic Business Analytics Using R": {
+              "folder_id": "1uZ4LW3nqQTe0uNy6DvjYCDxOqgWE2KI3",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Basic Business Analytics Using R"
+            },
+            "Business, Government & Society": {
+              "folder_id": "1s0nEdjtEtuGenqyNZyKPnzc6CorG9-NK",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Business, Government & Society"
+            },
+            "Competency Based Human Res. Mgt": {
+              "folder_id": "1IGJjUhiPAq9eCyxdG_Q1sdZBqtE9-Jgc",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Competency Based Human Res. Mgt"
+            },
+            "Consumer Behaviour": {
+              "folder_id": "1DxA7QOAguGYjX_tDZ5P5FWHb4NlLDG_t",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Consumer Behaviour"
+            },
+            "Contemporary Frameworks in Mgt": {
+              "folder_id": "1Hu8P_pkzd4cepekawOXRBswFIZUFv4Bm",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Contemporary Frameworks in Mgt"
+            },
+            "Data Mining": {
+              "folder_id": "1E0pf47YcHOo2xLVhKDsActGSPdY30_WQ",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Data Mining"
+            },
+            "Employee Relations & Labour Legislations": {
+              "folder_id": "1-Q8GgZkfBax-R9vB9e465urc5b_9dPxi",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Employee Relations & Labour Legislations"
+            },
+            "Financial Management": {
+              "folder_id": "1NSjGsq4xDHVpayXCrem1UhHS4nRos6lX",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Financial Management"
+            },
+            "Financial Markets & Banking Operations": {
+              "folder_id": "1XWQDCm9mg0uivDuKyl0c_knfOhtC2-Rg",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Financial Markets & Banking Operations"
+            },
+            "Geopolitics & World Economic Systems": {
+              "folder_id": "1CAgPUgAWDg11s-nXmJMo13ayW85V-3pz",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Geopolitics & World Economic Systems"
+            },
+            "Human Resource Management": {
+              "folder_id": "1c1O_kB3hazdKuB1PlDME_3v-Q7tOg0fM",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Human Resource Management"
+            },
+            "Marketing Management": {
+              "folder_id": "1O75O102DtQ-pmruflUzNcZ9wdiEOZE15",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Marketing Management"
+            },
+            "Marketing Research": {
+              "folder_id": "1o30cOaoPTw5OCG999c-dJus1nxETl9dh",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Marketing Research"
+            },
+            "Operations & Supply Chain Mgt": {
+              "folder_id": "1mo15BGAXjvDhnlZYyzfcyTmrE1Y9hG-L",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Operations & Supply Chain Mgt"
+            },
+            "Personal Financial Planning": {
+              "folder_id": "1UMmtGpZAqL4qUnaq7rfTXcSt8DgZdxZg",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Personal Financial Planning"
+            },
+            "Qualitative Research Methods": {
+              "folder_id": "1O34H68M1Olu2syndjusGsBbEhCBlib5J",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Qualitative Research Methods"
+            },
+            "Services Operation Mgt-I": {
+              "folder_id": "1ewb_yDKYwORWSneod4yGXiNdKvVXAxrG",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Services Operation Mgt-I"
+            },
+            "Startup & New Venture Mgt": {
+              "folder_id": "1Nb32w45a4JMkd2HlaeOmYxzUcy579Xh5",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Startup & New Venture Mgt"
+            },
+            "Supply Chain Management": {
+              "folder_id": "1t5fFY3oZ20kEhVXiApZIxmDCo-M5r4uZ",
+              "parent_id": "1hpJvFXhOzVx2ci2FgQS4SUX43UVAHdwn",
+              "path": "M.B.A/SEM - II/2019 Pattern/Supply Chain Management"
+            }
+          }
+        }
+      }
+    },
+    "SEM - III": {
+      "folder_id": "18bF-TfaP6PH_NkQzCx5dGeNmABDw0jAa",
+      "parent_id": "1fEnebqRkm4b08kW4hX4cK2PIQNtYnCDy",
+      "path": "M.B.A/SEM - III",
+      "patterns": {
+        "2013 Pattern": {
+          "folder_id": "1U2UsB8qFUNzB0behgCw0kiOoVKoKemib",
+          "parent_id": "18bF-TfaP6PH_NkQzCx5dGeNmABDw0jAa",
+          "path": "M.B.A/SEM - III/2013 Pattern",
+          "subjects": {
+            "Enterprise Performance Management": {
+              "folder_id": "1olCFX-gPehM5bMOHIgGoHauAwtyV69Zb",
+              "parent_id": "1U2UsB8qFUNzB0behgCw0kiOoVKoKemib",
+              "path": "M.B.A/SEM - III/2013 Pattern/Enterprise Performance Management"
+            },
+            "Essentials of Fam. Bus. Mgt. I": {
+              "folder_id": "1rKx_3JvUB7GHXxlmXEzNtoYTq1InEUit",
+              "parent_id": "1rf-DBi9ARwBEOg4047kfJI8iext4KxUZ",
+              "path": "M.B.A/SEM - III/2013 Pattern/Essentials of Fam. Bus. Mgt. I",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Family Business Mgt. Spl/Essentials of Fam. Bus. Mgt. I",
+              "source_group": "Family Business Mgt. Spl"
+            },
+            "Managing Innovation-I": {
+              "folder_id": "1wlQA7T2cmc40SQjeAo0P9Yk2Au1gWDxW",
+              "parent_id": "1rf-DBi9ARwBEOg4047kfJI8iext4KxUZ",
+              "path": "M.B.A/SEM - III/2013 Pattern/Managing Innovation-I",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Family Business Mgt. Spl/Managing Innovation-I",
+              "source_group": "Family Business Mgt. Spl"
+            },
+            "Financial Regulatory Frame Work": {
+              "folder_id": "1eBT5gACsqZupkCSQ6y3OIIaiVVq76QSE",
+              "parent_id": "1ze7mghz4ayxxPfXXRYwElFPJV3cuECXh",
+              "path": "M.B.A/SEM - III/2013 Pattern/Financial Regulatory Frame Work",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Finance Specialization/Financial Regulatory Frame Work",
+              "source_group": "Finance Specialization"
+            },
+            "Merchant Banking & Finan. Ser": {
+              "folder_id": "19hs2XBymxGWqeCDYQRnyejJIqNf1lM7H",
+              "parent_id": "1ze7mghz4ayxxPfXXRYwElFPJV3cuECXh",
+              "path": "M.B.A/SEM - III/2013 Pattern/Merchant Banking & Finan. Ser",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Finance Specialization/Merchant Banking & Finan. Ser",
+              "source_group": "Finance Specialization"
+            },
+            "Labour Laws": {
+              "folder_id": "11EE23PHvQfY93djrYUDl5HVau7Em0zyx",
+              "parent_id": "1c3eVO0e_tZWLJiLN4S30cJ6GdtyweP4z",
+              "path": "M.B.A/SEM - III/2013 Pattern/Labour Laws",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Human Resource Specialization/Labour Laws",
+              "source_group": "Human Resource Specialization"
+            },
+            "Performance Management": {
+              "folder_id": "1vZIA8KqjsMxEMzIB4I9oE8DgQcNdhvZ-",
+              "parent_id": "1c3eVO0e_tZWLJiLN4S30cJ6GdtyweP4z",
+              "path": "M.B.A/SEM - III/2013 Pattern/Performance Management",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Human Resource Specialization/Performance Management",
+              "source_group": "Human Resource Specialization"
+            },
+            "E-Business": {
+              "folder_id": "1vcdE8C9C1AhrGQAjMVic0mBVKlGzAtvo",
+              "parent_id": "1HqSF2f70doUBXGmVLoQSfUo_IBc6L6eQ",
+              "path": "M.B.A/SEM - III/2013 Pattern/E-Business",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Information Technology Mgt. Spl/E-Business",
+              "source_group": "Information Technology Mgt. Spl"
+            },
+            "IT Management": {
+              "folder_id": "1eyU3poaNB4AIdhS3DoVOWqy22GclDZLj",
+              "parent_id": "1HqSF2f70doUBXGmVLoQSfUo_IBc6L6eQ",
+              "path": "M.B.A/SEM - III/2013 Pattern/IT Management",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Information Technology Mgt. Spl/IT Management",
+              "source_group": "Information Technology Mgt. Spl"
+            },
+            "E Business": {
+              "folder_id": "1NhfM1O7ip67-FPx5x-LusR7frDTHhs9c",
+              "parent_id": "1M2UaBee9FA_DjP6WSWB9rFxDT0O95woN",
+              "path": "M.B.A/SEM - III/2013 Pattern/E Business",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Inter. Technology Mgt Spl/E Business",
+              "source_group": "Inter. Technology Mgt Spl"
+            },
+            "Information Tachnology Mgt": {
+              "folder_id": "1AA40n5YgwUfuGIxQGyXKN_wgisMi45ez",
+              "parent_id": "1M2UaBee9FA_DjP6WSWB9rFxDT0O95woN",
+              "path": "M.B.A/SEM - III/2013 Pattern/Information Tachnology Mgt",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Inter. Technology Mgt Spl/Information Tachnology Mgt",
+              "source_group": "Inter. Technology Mgt Spl"
+            },
+            "Export Docu. & Procedure": {
+              "folder_id": "1Q-LQI_jO2XTqScBNi--f7cC6uAkU9liR",
+              "parent_id": "1s09MMSPM4gc7OqErDvTLPhhantbZGLPH",
+              "path": "M.B.A/SEM - III/2013 Pattern/Export Docu. & Procedure",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/International Busi. Spl/Export Docu. & Procedure",
+              "source_group": "International Busi. Spl"
+            },
+            "Inter. Business Eco": {
+              "folder_id": "1yBklnjdg-Fw6k5pcGsROE5KipDjr4Jv5",
+              "parent_id": "1s09MMSPM4gc7OqErDvTLPhhantbZGLPH",
+              "path": "M.B.A/SEM - III/2013 Pattern/Inter. Business Eco",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/International Busi. Spl/Inter. Business Eco",
+              "source_group": "International Busi. Spl"
+            },
+            "Consumer Behavior": {
+              "folder_id": "1rCdDn7NjN6QRR2GkO3m54ICK50Ej6PS1",
+              "parent_id": "1ogsk4KJnzvz1Xv1l68h50ADThpWG7-gC",
+              "path": "M.B.A/SEM - III/2013 Pattern/Consumer Behavior",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Marketing Mgt. Specialization/Consumer Behavior",
+              "source_group": "Marketing Mgt. Specialization"
+            },
+            "Conte. Marketing Research": {
+              "folder_id": "1o_zr_f-UYsqMbUgSCpr5ZQF8c5-SRyOU",
+              "parent_id": "1ogsk4KJnzvz1Xv1l68h50ADThpWG7-gC",
+              "path": "M.B.A/SEM - III/2013 Pattern/Conte. Marketing Research",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Marketing Mgt. Specialization/Conte. Marketing Research",
+              "source_group": "Marketing Mgt. Specialization"
+            },
+            "Inventory Management": {
+              "folder_id": "1iL-GqIm2ZeOwufSXCPCo3yKgijQbgHRG",
+              "parent_id": "1XWovY2UhyimcydFGbcVTYxli23MTnMqp",
+              "path": "M.B.A/SEM - III/2013 Pattern/Inventory Management",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Operations Mgt.Specialization/Inventory Management",
+              "source_group": "Operations Mgt.Specialization"
+            },
+            "Planning & Control of Op": {
+              "folder_id": "1fncxoR6DhJiJmAn5fagV5u_BOGd5_hCC",
+              "parent_id": "1XWovY2UhyimcydFGbcVTYxli23MTnMqp",
+              "path": "M.B.A/SEM - III/2013 Pattern/Planning & Control of Op",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Operations Mgt.Specialization/Planning & Control of Op",
+              "source_group": "Operations Mgt.Specialization"
+            },
+            "Agri. & Indian Eco": {
+              "folder_id": "1UVqZQvTU46iDPib6sOe-hxG5NEj_q166",
+              "parent_id": "1_J9HaEY2ijxU5P907Gkt7p7K4LMnwdV9",
+              "path": "M.B.A/SEM - III/2013 Pattern/Agri. & Indian Eco",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Rural and Agri Business Mgt. Spl/Agri. & Indian Eco",
+              "source_group": "Rural and Agri Business Mgt. Spl"
+            },
+            "Rural Marketing - I": {
+              "folder_id": "10IKlFr5VvHQPsKrY0dRlFPpSSSYmB9sX",
+              "parent_id": "1_J9HaEY2ijxU5P907Gkt7p7K4LMnwdV9",
+              "path": "M.B.A/SEM - III/2013 Pattern/Rural Marketing - I",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Rural and Agri Business Mgt. Spl/Rural Marketing - I",
+              "source_group": "Rural and Agri Business Mgt. Spl"
+            },
+            "Start Up and New Venture Management": {
+              "folder_id": "1FSlxUXJLh4m8jdLrDQBV8NZsg60HIMgB",
+              "parent_id": "1U2UsB8qFUNzB0behgCw0kiOoVKoKemib",
+              "path": "M.B.A/SEM - III/2013 Pattern/Start Up and New Venture Management"
+            },
+            "Strategic Management": {
+              "folder_id": "1eEbq5KBFwh8fikv0_aMVsmZK7mog0sHu",
+              "parent_id": "1U2UsB8qFUNzB0behgCw0kiOoVKoKemib",
+              "path": "M.B.A/SEM - III/2013 Pattern/Strategic Management"
+            },
+            "Essentials of Supply Chain Mgt": {
+              "folder_id": "1WkNrVQDVQzwRl5CPsQdPdYzsnIZYqsm-",
+              "parent_id": "1PFu2cN0edsUtR2RN5pHL5oeLOf5hvPSe",
+              "path": "M.B.A/SEM - III/2013 Pattern/Essentials of Supply Chain Mgt",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Supply Chain Mgt. Spl/Essentials of Supply Chain Mgt",
+              "source_group": "Supply Chain Mgt. Spl"
+            },
+            "Logistics Management": {
+              "folder_id": "1cW4b6NzgDjFYZ-RSuOucWzYHrdaB5zwF",
+              "parent_id": "1PFu2cN0edsUtR2RN5pHL5oeLOf5hvPSe",
+              "path": "M.B.A/SEM - III/2013 Pattern/Logistics Management",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Supply Chain Mgt. Spl/Logistics Management",
+              "source_group": "Supply Chain Mgt. Spl"
+            },
+            "Fund. of Tech. Mgt": {
+              "folder_id": "15Cvpo933YBky4LQyUTC9Ev3gVskbAxFl",
+              "parent_id": "1kwkF44I_d8_EdFPX7yEpahLChkF9jibs",
+              "path": "M.B.A/SEM - III/2013 Pattern/Fund. of Tech. Mgt",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Technology Management Specialization/Fund. of Tech. Mgt",
+              "source_group": "Technology Management Specialization"
+            },
+            "Managing Innovations - I": {
+              "folder_id": "1qu-6Ohmf57p9Y9PkBbQ-5hjcMYlOZaG4",
+              "parent_id": "1kwkF44I_d8_EdFPX7yEpahLChkF9jibs",
+              "path": "M.B.A/SEM - III/2013 Pattern/Managing Innovations - I",
+              "drive_path": "M.B.A/SEM - III/2013 Pattern/Technology Management Specialization/Managing Innovations - I",
+              "source_group": "Technology Management Specialization"
+            }
+          }
+        },
+        "2016 Pattern": {
+          "folder_id": "1_ETbYwQrnCWgcc-ZzQbvoooAZcSPD3iw",
+          "parent_id": "18bF-TfaP6PH_NkQzCx5dGeNmABDw0jAa",
+          "path": "M.B.A/SEM - III/2016 Pattern",
+          "subjects": {
+            "Banking Concepts & Operations": {
+              "folder_id": "1u_Z2PPVhXlGVUsQ4kJaoRyyvMkIf6eju",
+              "parent_id": "1UGHWzBK8ZaGBgPqBygmRnhu2gs4muWSe",
+              "path": "M.B.A/SEM - III/2016 Pattern/Banking Concepts & Operations",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Banking & Insurance Mgt Spl/Banking Concepts & Operations",
+              "source_group": "Banking & Insurance Mgt Spl"
+            },
+            "Principles & Practices of Insurance": {
+              "folder_id": "10cand1RV34AqWMymHvN5H7wFwYMOo0zY",
+              "parent_id": "1UGHWzBK8ZaGBgPqBygmRnhu2gs4muWSe",
+              "path": "M.B.A/SEM - III/2016 Pattern/Principles & Practices of Insurance",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Banking & Insurance Mgt Spl/Principles & Practices of Insurance",
+              "source_group": "Banking & Insurance Mgt Spl"
+            },
+            "Enterprise Performance Mgt": {
+              "folder_id": "1GKTtMBTMV8_p3oG1qAwgSwElCv_Dc_Hi",
+              "parent_id": "1_ETbYwQrnCWgcc-ZzQbvoooAZcSPD3iw",
+              "path": "M.B.A/SEM - III/2016 Pattern/Enterprise Performance Mgt"
+            },
+            "Direct Taxation": {
+              "folder_id": "1TJakJgRBsnuNMeCHU2vu_7Tna-Jy65YX",
+              "parent_id": "1CGVy57Z2XuECYAXs_UKupegepS_x4eQX",
+              "path": "M.B.A/SEM - III/2016 Pattern/Direct Taxation",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Financial Spl/Direct Taxation",
+              "source_group": "Financial Spl"
+            },
+            "Financial Systems of India, Market & Services": {
+              "folder_id": "1FOcB2sejxktbsSXfQIdpsFruoH2BUt9A",
+              "parent_id": "1CGVy57Z2XuECYAXs_UKupegepS_x4eQX",
+              "path": "M.B.A/SEM - III/2016 Pattern/Financial Systems of India, Market & Services",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Financial Spl/Financial Systems of India, Market & Services",
+              "source_group": "Financial Spl"
+            },
+            "Human Res. Acc. & Compensation Mgt": {
+              "folder_id": "1aOMWHRkeozdSNs-nmRNJLV0-oUIAoVgV",
+              "parent_id": "11UbIFECe1ANngxEAzpAq_aW2GxWx-H8L",
+              "path": "M.B.A/SEM - III/2016 Pattern/Human Res. Acc. & Compensation Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/HR Spl/Human Res. Acc. & Compensation Mgt",
+              "source_group": "HR Spl"
+            },
+            "Labour & Social Security Laws": {
+              "folder_id": "1XQruv1ajcJWJRziefsG2ryvKdLYaEob-",
+              "parent_id": "11UbIFECe1ANngxEAzpAq_aW2GxWx-H8L",
+              "path": "M.B.A/SEM - III/2016 Pattern/Labour & Social Security Laws",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/HR Spl/Labour & Social Security Laws",
+              "source_group": "HR Spl"
+            },
+            "Infor Tech in Health Care it": {
+              "folder_id": "1CK0NawuLctX6cyu0M5tWnzSctAuwdBsg",
+              "parent_id": "18NejfdL1xOVi2lD5vVwMpD2Vz7CbeR12",
+              "path": "M.B.A/SEM - III/2016 Pattern/Infor Tech in Health Care it",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Healthcare Management Spl/Infor Tech in Health Care it",
+              "source_group": "Healthcare Management Spl"
+            },
+            "E-Business & Business Intelligence": {
+              "folder_id": "1Zsl1w8Y8HGnRVLBDKKCu-I48yIVtxRw6",
+              "parent_id": "1_6PjBYHF5xJ-drpTz8Rub3-wziFXfhSW",
+              "path": "M.B.A/SEM - III/2016 Pattern/E-Business & Business Intelligence",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/IT Spl/E-Business & Business Intelligence",
+              "source_group": "IT Spl"
+            },
+            "IT Mgt & Cyber Law": {
+              "folder_id": "1wEgOtVu7yhUrSPQSvc2k9jJLIDGotcv5",
+              "parent_id": "1_6PjBYHF5xJ-drpTz8Rub3-wziFXfhSW",
+              "path": "M.B.A/SEM - III/2016 Pattern/IT Mgt & Cyber Law",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/IT Spl/IT Mgt & Cyber Law",
+              "source_group": "IT Spl"
+            },
+            "Export Doc & Procedures": {
+              "folder_id": "1fnb6fZ3z9TPuirgdX9DKze-lMzQJ1pm4",
+              "parent_id": "1nEzfPdfeFEm_3DRxFm7wAK16IxA9Bg9j",
+              "path": "M.B.A/SEM - III/2016 Pattern/Export Doc & Procedures",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/International Business Spl/Export Doc & Procedures",
+              "source_group": "International Business Spl"
+            },
+            "International Business Economics": {
+              "folder_id": "1l5yt8H9HJxKmly3n1KB7ZFB8SelmXZ0b",
+              "parent_id": "1nEzfPdfeFEm_3DRxFm7wAK16IxA9Bg9j",
+              "path": "M.B.A/SEM - III/2016 Pattern/International Business Economics",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/International Business Spl/International Business Economics",
+              "source_group": "International Business Spl"
+            },
+            "Consumer Behaviour": {
+              "folder_id": "1y0oiXO9i-5TtRd__GvmbPmNSpNL17NgM",
+              "parent_id": "11Evsrv0jMCjysUH4pYee2akLzQQsjL0e",
+              "path": "M.B.A/SEM - III/2016 Pattern/Consumer Behaviour",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Marketing Spl/Consumer Behaviour",
+              "source_group": "Marketing Spl"
+            },
+            "Contemporary Marketing Research": {
+              "folder_id": "1J0wDHNd7MXq78dbKtK9mzZN2iGN3fLaX",
+              "parent_id": "11Evsrv0jMCjysUH4pYee2akLzQQsjL0e",
+              "path": "M.B.A/SEM - III/2016 Pattern/Contemporary Marketing Research",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Marketing Spl/Contemporary Marketing Research",
+              "source_group": "Marketing Spl"
+            },
+            "Inventory Mgt": {
+              "folder_id": "1-OPtees2snT7h2nlOwETa1NqVl6Vx1hK",
+              "parent_id": "1hOgrkV-GM59fsWwj_PH96ABvyQpTobnY",
+              "path": "M.B.A/SEM - III/2016 Pattern/Inventory Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Operations Mgt Spl/Inventory Mgt",
+              "source_group": "Operations Mgt Spl"
+            },
+            "Planning & Control of Operations": {
+              "folder_id": "1NPjGXt30LT4r6nbTqLC9HhLTG2VGp8eo",
+              "parent_id": "1hOgrkV-GM59fsWwj_PH96ABvyQpTobnY",
+              "path": "M.B.A/SEM - III/2016 Pattern/Planning & Control of Operations",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Operations Mgt Spl/Planning & Control of Operations",
+              "source_group": "Operations Mgt Spl"
+            },
+            "Startup & New Venture Mgt": {
+              "folder_id": "1qU0m4CQJpjSL-BMqCAGeoUI17U1YPi8X",
+              "parent_id": "1_ETbYwQrnCWgcc-ZzQbvoooAZcSPD3iw",
+              "path": "M.B.A/SEM - III/2016 Pattern/Startup & New Venture Mgt"
+            },
+            "Strategic Mgt": {
+              "folder_id": "1ofqyFL00ieHAJPgcQR6zBdD1n5KMSIL5",
+              "parent_id": "1_ETbYwQrnCWgcc-ZzQbvoooAZcSPD3iw",
+              "path": "M.B.A/SEM - III/2016 Pattern/Strategic Mgt"
+            },
+            "Essentials of Supply Chain Mgt": {
+              "folder_id": "1rmVkfsHklaf7-mUJ3WBFCuD0B8P9gzmZ",
+              "parent_id": "1JtO3dJGRoGVHBMtDPg5Az07U8JQN6j3P",
+              "path": "M.B.A/SEM - III/2016 Pattern/Essentials of Supply Chain Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Supply Chain Mgt Spl/Essentials of Supply Chain Mgt",
+              "source_group": "Supply Chain Mgt Spl"
+            },
+            "Logistics Mgt": {
+              "folder_id": "10xbGstQBhMBSaKQvT1H8wWhZYyZDHeSh",
+              "parent_id": "1JtO3dJGRoGVHBMtDPg5Az07U8JQN6j3P",
+              "path": "M.B.A/SEM - III/2016 Pattern/Logistics Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Supply Chain Mgt Spl/Logistics Mgt",
+              "source_group": "Supply Chain Mgt Spl"
+            },
+            "Fundamental of Hospitality Mgt": {
+              "folder_id": "16dBbnbpcMGkN_C3aeNd1kjtA21ZRkM7B",
+              "parent_id": "1Lyxl-EAGeq22EO6pA6bxWh5Ze6q7csBg",
+              "path": "M.B.A/SEM - III/2016 Pattern/Fundamental of Hospitality Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Tourism and Hospitality Mgt Spl/Fundamental of Hospitality Mgt",
+              "source_group": "Tourism and Hospitality Mgt Spl"
+            },
+            "Tourism & Traval Mgt": {
+              "folder_id": "1k3F-GfeusJA83OmtfX7aH0lfqAiKsv34",
+              "parent_id": "1Lyxl-EAGeq22EO6pA6bxWh5Ze6q7csBg",
+              "path": "M.B.A/SEM - III/2016 Pattern/Tourism & Traval Mgt",
+              "drive_path": "M.B.A/SEM - III/2016 Pattern/Tourism and Hospitality Mgt Spl/Tourism & Traval Mgt",
+              "source_group": "Tourism and Hospitality Mgt Spl"
+            }
+          }
+        },
+        "2019 Pattern": {
+          "folder_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+          "parent_id": "18bF-TfaP6PH_NkQzCx5dGeNmABDw0jAa",
+          "path": "M.B.A/SEM - III/2019 Pattern",
+          "subjects": {
+            "Advanced Financial Mgt": {
+              "folder_id": "1HlvROfoBZ0e5rF2n--BHhdMYCrMv_6Ne",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Advanced Financial Mgt"
+            },
+            "Advanced Statistical Method Using R": {
+              "folder_id": "1sM4NzjFgFsJs21ApIfy6UsRswDMXEF7W",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Advanced Statistical Method Using R"
+            },
+            "Corporate Governance": {
+              "folder_id": "1e_5dEh7n_xQ38IBAmUgrEzbswKe_p46z",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Corporate Governance"
+            },
+            "Decision Science": {
+              "folder_id": "1ad2dqK__G_XasTYsPP8-i_huf-fiMBiq",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Decision Science"
+            },
+            "HR Operations": {
+              "folder_id": "1hA-Uh8V9aZ5xUCgCffNjeMAKF5zyNw7t",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/HR Operations"
+            },
+            "International Business Environment": {
+              "folder_id": "1vC6pRSS4mIg2Q2_0tthVuXJsN45nM0Og",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/International Business Environment"
+            },
+            "International Finance": {
+              "folder_id": "1GwAHog3aIcUzjDE8P4FHXh_X9-1ryP24",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/International Finance"
+            },
+            "Knowledge Management": {
+              "folder_id": "1EKLzHU90UuowV82BJRT1OD03FGChswYF",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Knowledge Management"
+            },
+            "Machine Ler. & Cognitive Int. Using Python": {
+              "folder_id": "1bhnCDZuVu0o10SBFTQBXbUmUmcgWUXBM",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Machine Ler. & Cognitive Int. Using Python"
+            },
+            "Project Management": {
+              "folder_id": "1HiLgg9QhfJK0ooh3-UuILrE5MyMFfqJX",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Project Management"
+            },
+            "Sales & Distribution Mgt": {
+              "folder_id": "1JhRhl7qbYUHpZ4Q3LJ4z6TD6qr-GMdqo",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Sales & Distribution Mgt"
+            },
+            "Services Marketing": {
+              "folder_id": "1iLxwYAtAJNRFxEzAjDZlGt-Zw1z8I2N5",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Services Marketing"
+            },
+            "Strategic Human Resource Management": {
+              "folder_id": "1URk9YK6BFyJG76gjC1pBROTUiO4-XDar",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Strategic Human Resource Management"
+            },
+            "Strategic Management": {
+              "folder_id": "1_q10lJ_ZWl3y6337a224DxpT3kWoEE2r",
+              "parent_id": "1vawr1Idz_m9ePK68DaiXvxOLUy7WBNhp",
+              "path": "M.B.A/SEM - III/2019 Pattern/Strategic Management"
+            }
+          }
+        }
+      }
+    },
+    "SEM - IV": {
+      "folder_id": "1Sh13i3PCIjvWYRDmDkRRt1ekNdMi6GLR",
+      "parent_id": "1fEnebqRkm4b08kW4hX4cK2PIQNtYnCDy",
+      "path": "M.B.A/SEM - IV",
+      "patterns": {
+        "2013 Pattern": {
+          "folder_id": "1Roubj_EyfDISfEjo2cYpLq7U8u-OegXj",
+          "parent_id": "1Sh13i3PCIjvWYRDmDkRRt1ekNdMi6GLR",
+          "path": "M.B.A/SEM - IV/2013 Pattern",
+          "subjects": {
+            "Managing Innovation - II": {
+              "folder_id": "10EDqTs0WenP-5GiDEPIbu-W7YlT_1j0g",
+              "parent_id": "1RrlO9qw_TIAIuO0E_mX8CJWByrscV9lQ",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Managing Innovation - II",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Family Business Mgt. Spl/Managing Innovation - II",
+              "source_group": "Family Business Mgt. Spl"
+            },
+            "Corporate Finance": {
+              "folder_id": "1zRLEXMGU5tpk8VAdoXmG2pe1Lc2y627G",
+              "parent_id": "1zU0Q2RDnNOGeAC8QLNg5WJ7eFzaO2j6O",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Corporate Finance",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Finance Spl/Corporate Finance",
+              "source_group": "Finance Spl"
+            },
+            "International Finance": {
+              "folder_id": "1AbNxmnBwmh7VpATpEXPxC1cR9krHhiEH",
+              "parent_id": "1zU0Q2RDnNOGeAC8QLNg5WJ7eFzaO2j6O",
+              "path": "M.B.A/SEM - IV/2013 Pattern/International Finance",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Finance Spl/International Finance",
+              "source_group": "Finance Spl"
+            },
+            "Industrial Relations": {
+              "folder_id": "1w84BI3lScyKg8aZCUWApeseTQO-edou5",
+              "parent_id": "11jn_9pQJHkKTYoBohYBMGIA8E7JjogxU",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Industrial Relations",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Human Resource Management Spl/Industrial Relations",
+              "source_group": "Human Resource Management Spl"
+            },
+            "Strategic Human Resource Mgt": {
+              "folder_id": "1Tr5Ksvx7UvnJDwFvjdFtR2gy-U7NnU1L",
+              "parent_id": "11jn_9pQJHkKTYoBohYBMGIA8E7JjogxU",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Strategic Human Resource Mgt",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Human Resource Management Spl/Strategic Human Resource Mgt",
+              "source_group": "Human Resource Management Spl"
+            },
+            "Enterprise Reso. Plan": {
+              "folder_id": "1xB34CHYpP-dzKObSgyBntzKKRsse-rx9",
+              "parent_id": "1HuNV9GcO0pa-6ks8UTq2RYmcAx0mzl3e",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Enterprise Reso. Plan",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/IT Spl/Enterprise Reso. Plan",
+              "source_group": "IT Spl"
+            },
+            "Software Project Management": {
+              "folder_id": "1KxLAF4z-w3RJGjAnR5XuXr5278R8b-LI",
+              "parent_id": "1HuNV9GcO0pa-6ks8UTq2RYmcAx0mzl3e",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Software Project Management",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/IT Spl/Software Project Management",
+              "source_group": "IT Spl"
+            },
+            "Indian Economy & Trade Dependencies": {
+              "folder_id": "100VR4QABMdUsL3kR6wLTYPACTJOSPyqw",
+              "parent_id": "1t41SQ6HGZ3WulLhMmI4SNyYRdS16FxKO",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Indian Economy & Trade Dependencies",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Int. Business Mgt. Spl/Indian Economy & Trade Dependencies",
+              "source_group": "Int. Business Mgt. Spl"
+            },
+            "International Business Environment": {
+              "folder_id": "178Nv6iXaWaRHcQPuUAF3nHf7X1536UpC",
+              "parent_id": "1t41SQ6HGZ3WulLhMmI4SNyYRdS16FxKO",
+              "path": "M.B.A/SEM - IV/2013 Pattern/International Business Environment",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Int. Business Mgt. Spl/International Business Environment",
+              "source_group": "Int. Business Mgt. Spl"
+            },
+            "Managing Innovation - II Spl": {
+              "folder_id": "1YYRqBxTiOEf7b_OoGZrHW8eo3wuy4eMd",
+              "parent_id": "1Roubj_EyfDISfEjo2cYpLq7U8u-OegXj",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Managing Innovation - II Spl"
+            },
+            "Managing for Sustainability": {
+              "folder_id": "1gWIP2jTJZryachhjuQgkX-cbvBbR6Qhb",
+              "parent_id": "1Roubj_EyfDISfEjo2cYpLq7U8u-OegXj",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Managing for Sustainability"
+            },
+            "Sales & Distri. Mgt": {
+              "folder_id": "17SYUz_zLiYf7UWr1DMxObPmZekTzWd2k",
+              "parent_id": "1u2gDt63CaekvSHNfmroK46e6GekovZhQ",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Sales & Distri. Mgt",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Marketing Mgt. Spl/Sales & Distri. Mgt",
+              "source_group": "Marketing Mgt. Spl"
+            },
+            "Services Marketing": {
+              "folder_id": "1bDrNaE89Nkyf_Wwl-FQCZur1seI7qWe_",
+              "parent_id": "1u2gDt63CaekvSHNfmroK46e6GekovZhQ",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Services Marketing",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Marketing Mgt. Spl/Services Marketing",
+              "source_group": "Marketing Mgt. Spl"
+            },
+            "Operations Strategy": {
+              "folder_id": "1ibqHHzK2Pl_jJQyEWrZHuSUHJgkL1_8A",
+              "parent_id": "1z-oLweZZ4om2mXhr7_kVQwAicfoWO3ay",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Operations Strategy",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Operation Mgt.Spl/Operations Strategy",
+              "source_group": "Operation Mgt.Spl"
+            },
+            "Total Quality Mgt": {
+              "folder_id": "1EzeA2UGVyzApXPMUvBwlPNTT9ojcvYT0",
+              "parent_id": "1z-oLweZZ4om2mXhr7_kVQwAicfoWO3ay",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Total Quality Mgt",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Operation Mgt.Spl/Total Quality Mgt",
+              "source_group": "Operation Mgt.Spl"
+            },
+            "Rural Credit & Finance": {
+              "folder_id": "1QENO1iZjUY-vRkTnotXi409gCpQ65Eoa",
+              "parent_id": "15O-k5C4FbNSJ-Iw3Ya_ky1A0HGHZkyQD",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Rural Credit & Finance",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Rural & Agribusiness Management Spl/Rural Credit & Finance",
+              "source_group": "Rural & Agribusiness Management Spl"
+            },
+            "Rural Marketing - II": {
+              "folder_id": "1R9byZGVcth1iYuP6do63JowcO3IA0yZv",
+              "parent_id": "15O-k5C4FbNSJ-Iw3Ya_ky1A0HGHZkyQD",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Rural Marketing - II",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Rural & Agribusiness Management Spl/Rural Marketing - II",
+              "source_group": "Rural & Agribusiness Management Spl"
+            },
+            "Strategic Supply Chain Management": {
+              "folder_id": "1HbjidLpqshyLcJZ7Gx052Gbc76FYK3On",
+              "parent_id": "1Roubj_EyfDISfEjo2cYpLq7U8u-OegXj",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Strategic Supply Chain Management"
+            },
+            "Knowledge Mgt. In Supply Chains": {
+              "folder_id": "1hGNEn6He49bNbMLXNT7WFWesHTqKETvd",
+              "parent_id": "10FvWnu2ZtmaOAcC0nzE-jIA5pqWxEzXh",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Knowledge Mgt. In Supply Chains",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Supply Chains Mgt. Spl/Knowledge Mgt. In Supply Chains",
+              "source_group": "Supply Chains Mgt. Spl"
+            },
+            "Managing Innovation - II (Technology Management Spl)": {
+              "folder_id": "1TqT64SwGN_PYFMt8J67xS0iNYv2o-qWK",
+              "parent_id": "1DADw4X7Haxg-h7aF0m00SfYU3iN5rfPj",
+              "path": "M.B.A/SEM - IV/2013 Pattern/Managing Innovation - II (Technology Management Spl)",
+              "drive_path": "M.B.A/SEM - IV/2013 Pattern/Technology Management Spl/Managing Innovation - II",
+              "source_group": "Technology Management Spl"
+            }
+          }
+        },
+        "2016 Pattern": {
+          "folder_id": "1bcZWcA4HHaVgLHd7WAU_gS0vmnNvT_qS",
+          "parent_id": "1Sh13i3PCIjvWYRDmDkRRt1ekNdMi6GLR",
+          "path": "M.B.A/SEM - IV/2016 Pattern",
+          "subjects": {
+            "Banking Regul. & Legal Asp": {
+              "folder_id": "1CFVTazFq2fzhQk8QTvPyFlvVySsX7bC8",
+              "parent_id": "1SiHPZv3Fsa-gIMAZBTWU05d8e4Sfv3Oz",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Banking Regul. & Legal Asp",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Banking & Insurance Mgt Spl/Banking Regul. & Legal Asp",
+              "source_group": "Banking & Insurance Mgt Spl"
+            },
+            "Trends in Insurance Mgt": {
+              "folder_id": "1BkwNkfaKBdjXhRmnhFA6f2Pzc34j2P5M",
+              "parent_id": "1SiHPZv3Fsa-gIMAZBTWU05d8e4Sfv3Oz",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Trends in Insurance Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Banking & Insurance Mgt Spl/Trends in Insurance Mgt",
+              "source_group": "Banking & Insurance Mgt Spl"
+            },
+            "Indirect Taxation": {
+              "folder_id": "1K_vWjoevE6nU1RbPMngj3VOC42VwuCmf",
+              "parent_id": "1vJjOblAwaHTsYTt47TnrW9IE15VBQe0x",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Indirect Taxation",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Finance Spl/Indirect Taxation",
+              "source_group": "Finance Spl"
+            },
+            "International Finance": {
+              "folder_id": "1iM2rfbclVGqbQtxl8Kldc5XABSX2Cx_M",
+              "parent_id": "1vJjOblAwaHTsYTt47TnrW9IE15VBQe0x",
+              "path": "M.B.A/SEM - IV/2016 Pattern/International Finance",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Finance Spl/International Finance",
+              "source_group": "Finance Spl"
+            },
+            "Intro. to Medical Healthcare term": {
+              "folder_id": "135xsBDJzgpowZ8iBPehDMGCiRb-KO4U3",
+              "parent_id": "1WqrjGmKMgdTiGXG1GMfgBkEEVZZT1chY",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Intro. to Medical Healthcare term",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Healthcare Mgt Spl/Intro. to Medical Healthcare term",
+              "source_group": "Healthcare Mgt Spl"
+            },
+            "Strategic Planning & Healthcare Mgt": {
+              "folder_id": "1NU2VYzk8lspBELjqVFKfOQkgyCO3eGzd",
+              "parent_id": "1WqrjGmKMgdTiGXG1GMfgBkEEVZZT1chY",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Strategic Planning & Healthcare Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Healthcare Mgt Spl/Strategic Planning & Healthcare Mgt",
+              "source_group": "Healthcare Mgt Spl"
+            },
+            "Employment Relations": {
+              "folder_id": "1XGG4KL6B_-bZSJn_PpoF1o11e2rry2LJ",
+              "parent_id": "1LEpves_s5Yxf07yOZyDZUJkhphx2KAAI",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Employment Relations",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Human Resource Mgt Spl/Employment Relations",
+              "source_group": "Human Resource Mgt Spl"
+            },
+            "Strategic Human Resource Mgt": {
+              "folder_id": "1qByemHoc-casv_CFOR-MQF3iFB7QbknH",
+              "parent_id": "1LEpves_s5Yxf07yOZyDZUJkhphx2KAAI",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Strategic Human Resource Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Human Resource Mgt Spl/Strategic Human Resource Mgt",
+              "source_group": "Human Resource Mgt Spl"
+            },
+            "Enterprise Reso. Plan": {
+              "folder_id": "1MShmR3RlTQaiCN9BuP1oHcCcvza1BFzi",
+              "parent_id": "1P8-WQIyKg9m_Ni2-KTLCZr_1IPexiR4c",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Enterprise Reso. Plan",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/IT Spl/Enterprise Reso. Plan",
+              "source_group": "IT Spl"
+            },
+            "Software Project Management": {
+              "folder_id": "1Xr3VjKOf9kpIggqTQafP4T6dSoKS7i8g",
+              "parent_id": "1P8-WQIyKg9m_Ni2-KTLCZr_1IPexiR4c",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Software Project Management",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/IT Spl/Software Project Management",
+              "source_group": "IT Spl"
+            },
+            "Indian Eco. & Trade Dependencies": {
+              "folder_id": "1q0iYpuBAXtD9na4jWlNUQlMTJk9uGuqV",
+              "parent_id": "1d6ifmG4JMLrPCaxWN2BCfcIEjFtKmUp_",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Indian Eco. & Trade Dependencies",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/International Business Mgt/Indian Eco. & Trade Dependencies",
+              "source_group": "International Business Mgt"
+            },
+            "Inter. Business Environment": {
+              "folder_id": "1HdPYmJFiAiFePolQWEAF7PY5j4kNtwUe",
+              "parent_id": "1d6ifmG4JMLrPCaxWN2BCfcIEjFtKmUp_",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Inter. Business Environment",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/International Business Mgt/Inter. Business Environment",
+              "source_group": "International Business Mgt"
+            },
+            "Managing for Sustainability": {
+              "folder_id": "1gqmi-wkDz-K7pC19UClUt-HK4bu7nYkH",
+              "parent_id": "1bcZWcA4HHaVgLHd7WAU_gS0vmnNvT_qS",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Managing for Sustainability"
+            },
+            "Sales & Distribution Mgt": {
+              "folder_id": "1TNKiok-k7vF__JPN0cjrdtlGDsVAHfTW",
+              "parent_id": "1TW1witW9uGUCC3uKUUMzesKxsKoNboSR",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Sales & Distribution Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Marketing Spl/Sales & Distribution Mgt",
+              "source_group": "Marketing Spl"
+            },
+            "Services Marketing": {
+              "folder_id": "1Kh09W9K6WEmQsyrs9p80wcO5C2R5qrbF",
+              "parent_id": "1TW1witW9uGUCC3uKUUMzesKxsKoNboSR",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Services Marketing",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Marketing Spl/Services Marketing",
+              "source_group": "Marketing Spl"
+            },
+            "Operations Straterg & Research": {
+              "folder_id": "16MvPxzc4LJh5uNgOe6BPdLW362WDMhvE",
+              "parent_id": "1EMCno33-IKZqc8P6E0zQgkY1EJUbHKLy",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Operations Straterg & Research",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Operation Spl/Operations Straterg & Research",
+              "source_group": "Operation Spl"
+            },
+            "Total Quality Mgt": {
+              "folder_id": "1QQK_clX-YCkP3NFTEPYpC6z5Nx4aAp0j",
+              "parent_id": "1EMCno33-IKZqc8P6E0zQgkY1EJUbHKLy",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Total Quality Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Operation Spl/Total Quality Mgt",
+              "source_group": "Operation Spl"
+            },
+            "Knowledge Mgt. In Supply Chains": {
+              "folder_id": "1yTMffsx9jLgoalksZnEqJAOTwWJS12Nu",
+              "parent_id": "1vJ_hUV-U0LBpR0lbh6aYbI2N6RyhNPSX",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Knowledge Mgt. In Supply Chains",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Supply Chains Mgt. Spl/Knowledge Mgt. In Supply Chains",
+              "source_group": "Supply Chains Mgt. Spl"
+            },
+            "Strategic Supply Chain Mgt": {
+              "folder_id": "1izBJXlfifQWGFeifwkCNF30QVW__wDVc",
+              "parent_id": "1vJ_hUV-U0LBpR0lbh6aYbI2N6RyhNPSX",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Strategic Supply Chain Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Supply Chains Mgt. Spl/Strategic Supply Chain Mgt",
+              "source_group": "Supply Chains Mgt. Spl"
+            },
+            "Strategic Hospitality Mgt": {
+              "folder_id": "1y1gF5x6FZevW_hLibOaC6gnV6ctbeU_V",
+              "parent_id": "1oYvb97V5-lhM1Vg4eRY6pMQ3f-kfT9HT",
+              "path": "M.B.A/SEM - IV/2016 Pattern/Strategic Hospitality Mgt",
+              "drive_path": "M.B.A/SEM - IV/2016 Pattern/Tourism Hospitality Mgt Spl/Strategic Hospitality Mgt",
+              "source_group": "Tourism Hospitality Mgt Spl"
+            }
+          }
+        },
+        "2019 Pattern": {
+          "folder_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+          "parent_id": "1Sh13i3PCIjvWYRDmDkRRt1ekNdMi6GLR",
+          "path": "M.B.A/SEM - IV/2019 Pattern",
+          "subjects": {
+            "Artificial Intelligence in Business App": {
+              "folder_id": "17_sgrLj_7Z8jLkCkqf26_UGE-76gg2mu",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Artificial Intelligence in Business App"
+            },
+            "Corporate Social Responsbility & Sustanability": {
+              "folder_id": "1qUxwBg2XVpTKQJo1LREs8dJcQUd6Zo4m",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Corporate Social Responsbility & Sustanability"
+            },
+            "Current Trends & Cases in Finance": {
+              "folder_id": "1S-95XiXIOUO58I3q7n0c8is4AGvtZMdl",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Current Trends & Cases in Finance"
+            },
+            "Current Trends & Cases in HRM": {
+              "folder_id": "10hJj_Gnpn3OcaA1Nu3pScY5xv9vkK90i",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Current Trends & Cases in HRM"
+            },
+            "E-Supply Chains & Logistics": {
+              "folder_id": "1MxRwsxGnwPKGAkdzcy4U3dpZ6fWs-YMD",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/E-Supply Chains & Logistics"
+            },
+            "Economics of Network Industries": {
+              "folder_id": "1WubGAWCRLWpIplw4cItjGPglKIqCTS2v",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Economics of Network Industries"
+            },
+            "Enterprise Performance Management": {
+              "folder_id": "1vnuhO6H8lPV7ANzbDz_BYLjkjPR5xrpG",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Enterprise Performance Management"
+            },
+            "Financial Laws": {
+              "folder_id": "1wL-jPPsPOZ6bVUMlQ7IvInRhsgAzVay3",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Financial Laws"
+            },
+            "Global Strategic Management": {
+              "folder_id": "1aYzUa2IHogf0gmOtw7ElOYU55qMyLA9C",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Global Strategic Management"
+            },
+            "Industry 4.0": {
+              "folder_id": "19eH8BxfsWr4i29yDy2oCaWbHi6H1blng",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Industry 4.0"
+            },
+            "Inidan Ethos & Business Ethics": {
+              "folder_id": "16ATJ8bSH-kSiiiIvPtoO9InDy7aCoX8R",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Inidan Ethos & Business Ethics"
+            },
+            "Markering 4.0": {
+              "folder_id": "1k501Z6RdKAokghy73Xnqzvin3AMUSME8",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Markering 4.0"
+            },
+            "Marketing Strategy": {
+              "folder_id": "1xwhWH_XdPN9twM_XjgOv4aR_ui8ZWiti",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Marketing Strategy"
+            },
+            "Organizational Diagnosis & Devlopment": {
+              "folder_id": "1pFmTkADJ935vLCS6LirE70K6xlTK6tpN",
+              "parent_id": "11Mv_cF4kq5i1DKsDV5hDg15niBPKqvcU",
+              "path": "M.B.A/SEM - IV/2019 Pattern/Organizational Diagnosis & Devlopment"
+            }
+          }
+        }
+      }
+    }
+  }
+}
