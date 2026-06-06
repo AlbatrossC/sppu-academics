@@ -40,6 +40,59 @@ except ImportError:
     class Style(list):  # type: ignore[no-redef]
         pass
 
+    def _choice_label(choice: Any) -> str:
+        line = getattr(choice, "line", None)
+        if line is not None:
+            return str(line)
+        return choice.name if isinstance(choice, Choice) else str(choice)
+
+    def _is_separator(choice: Any) -> bool:
+        return isinstance(choice, Separator) or getattr(choice, "line", None) is not None
+
+    def _fallback_select_with_arrows(message: str, choices: list[Any]) -> str | None:
+        actionable = [choice for choice in choices if not _is_separator(choice)]
+        if not actionable:
+            return None
+
+        if os.name != "nt" or not sys.stdin.isatty():
+            print(message)
+            for index, choice in enumerate(actionable, start=1):
+                print(f"  {index}. {_choice_label(choice)}")
+            answer = input("> ").strip()
+            if not answer:
+                return None
+            try:
+                selected = actionable[int(answer) - 1]
+            except (ValueError, IndexError):
+                return None
+            return selected.value if isinstance(selected, Choice) else str(selected)
+
+        import msvcrt
+
+        selected_index = 0
+        while True:
+            os.system("cls")
+            print(message)
+            print("  Use Up/Down arrows, Enter to choose, Esc to go back.")
+            print()
+            for index, choice in enumerate(actionable):
+                pointer = ">" if index == selected_index else " "
+                print(f"  {pointer} {_choice_label(choice)}")
+
+            key = msvcrt.getch()
+            if key in {b"\x00", b"\xe0"}:
+                key = msvcrt.getch()
+                if key == b"H":
+                    selected_index = (selected_index - 1) % len(actionable)
+                elif key == b"P":
+                    selected_index = (selected_index + 1) % len(actionable)
+                continue
+            if key == b"\r":
+                selected = actionable[selected_index]
+                return selected.value if isinstance(selected, Choice) else str(selected)
+            if key in {b"\x1b", b"\x03"}:
+                return None
+
     class _Prompt:
         def __init__(self, message: str, choices: list[Any] | None = None, default: bool = True) -> None:
             self.message = message
@@ -53,19 +106,7 @@ except ImportError:
                 if not answer:
                     return self.default
                 return answer in {"y", "yes"}
-            actionable = [choice for choice in self.choices if not isinstance(choice, Separator)]
-            print(self.message)
-            for index, choice in enumerate(actionable, start=1):
-                label = choice.name if isinstance(choice, Choice) else str(choice)
-                print(f"  {index}. {label}")
-            answer = input("> ").strip()
-            if not answer:
-                return None
-            try:
-                selected = actionable[int(answer) - 1]
-            except (ValueError, IndexError):
-                return None
-            return selected.value if isinstance(selected, Choice) else str(selected)
+            return _fallback_select_with_arrows(self.message, self.choices)
 
     class _QuestionaryFallback:
         @staticmethod
@@ -125,6 +166,8 @@ RED = "\033[31m"
 MAGENTA = "\033[35m"
 GRAY = "\033[90m"
 WHITE = "\033[37m"
+NATIVE_WINDOWS_TUI = os.name == "nt" and os.environ.get("SPPU_TUI_NATIVE", "1") != "0"
+CLEAR_SCREENS = os.environ.get("SPPU_TUI_CLEAR", "0") == "1"
 
 
 @dataclass(frozen=True)
@@ -144,6 +187,8 @@ def color(text: str, style: str) -> str:
 
 
 def clear() -> None:
+    if not CLEAR_SCREENS:
+        return
     os.system("cls" if os.name == "nt" else "clear")
 
 
@@ -157,6 +202,102 @@ def terminal_width() -> int:
 
 def hr(char: str = "-") -> str:
     return char * (terminal_width() - 4)
+
+
+def visible_len(text: str) -> int:
+    """Length of text as it appears on screen, ignoring ANSI escape codes."""
+    return len(re.sub(r'\x1b\[[0-9;]*m', '', text))
+
+
+def choice_label(choice: Any) -> str:
+    line = getattr(choice, "line", None)
+    if line is not None:
+        return str(line)
+    for attr in ("name", "title"):
+        value = getattr(choice, attr, None)
+        if value is not None:
+            return str(value)
+    return str(choice)
+
+
+def choice_value(choice: Any) -> str:
+    value = getattr(choice, "value", None)
+    if value is None:
+        value = choice_label(choice)
+    return str(value)
+
+
+def is_separator(choice: Any) -> bool:
+    return isinstance(choice, Separator) or getattr(choice, "line", None) is not None
+
+
+def native_select(message: str, choices: list[Any]) -> str | None:
+    actionable = [index for index, choice in enumerate(choices) if not is_separator(choice)]
+    if not actionable:
+        return None
+    if os.name != "nt" or not sys.stdin.isatty():
+        print(message)
+        visible = [choices[index] for index in actionable]
+        for index, choice in enumerate(visible, start=1):
+            print(f"  {index}. {choice_label(choice)}")
+        answer = input("> ").strip()
+        if not answer:
+            return None
+        try:
+            return choice_value(visible[int(answer) - 1])
+        except (ValueError, IndexError):
+            return None
+
+    import msvcrt
+
+    selected_position = 0
+    rendered_lines = 0
+
+    def render() -> None:
+        nonlocal rendered_lines
+        if rendered_lines:
+            print(f"\x1b[{rendered_lines}F", end="")
+        lines = [
+            color(message, BOLD + WHITE),
+            color("  Up/Down to move, Enter to choose, Esc to go back", GRAY),
+            "",
+        ]
+        selected_choice_index = actionable[selected_position]
+        for index, choice in enumerate(choices):
+            if is_separator(choice):
+                lines.append(color(f"  {choice_label(choice)}", GRAY))
+                continue
+            pointer = color(">", BOLD + YELLOW) if index == selected_choice_index else " "
+            label_style = BOLD + CYAN if index == selected_choice_index else WHITE
+            lines.append(f"  {pointer} {color(choice_label(choice), label_style)}")
+        for line in lines:
+            print("\r\x1b[2K" + line)
+        rendered_lines = len(lines)
+        sys.stdout.flush()
+
+    print("\x1b[?25l", end="")
+    try:
+        render()
+        while True:
+            key = msvcrt.getch()
+            if key in {b"\x00", b"\xe0"}:
+                key = msvcrt.getch()
+                if key == b"H":
+                    selected_position = (selected_position - 1) % len(actionable)
+                    render()
+                elif key == b"P":
+                    selected_position = (selected_position + 1) % len(actionable)
+                    render()
+                continue
+            if key == b"\r":
+                selected = choices[actionable[selected_position]]
+                print()
+                return choice_value(selected)
+            if key in {b"\x1b", b"\x03"}:
+                print()
+                return None
+    finally:
+        print("\x1b[?25h", end="")
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -299,8 +440,8 @@ def clipped(value: str, limit: int) -> str:
 def two_column(left: str, right: str, gap: int = 4) -> str:
     width = terminal_width() - 4
     left_width = max(34, width // 2 - gap)
-    right_width = width - left_width - gap
-    return f"  {clipped(left, left_width):<{left_width}}{' ' * gap}{clipped(right, right_width)}"
+    pad = max(0, left_width - visible_len(left))
+    return f"  {left}{' ' * pad}{' ' * gap}{right}"
 
 
 def banner() -> None:
@@ -347,13 +488,16 @@ def select(message: str, choices: list[Any], show_back: bool = True) -> str | No
     if show_back:
         items.extend([Separator("-" * 44), Choice(BACK, value=BACK)])
     try:
-        answer = questionary.select(
-            message,
-            choices=items,
-            style=THEME,
-            instruction="arrows to move, enter to choose",
-            qmark=">",
-        ).ask()
+        if NATIVE_WINDOWS_TUI:
+            answer = native_select(message, items)
+        else:
+            answer = questionary.select(
+                message,
+                choices=items,
+                style=THEME,
+                instruction="arrows to move, enter to choose",
+                qmark=">",
+            ).ask()
     except KeyboardInterrupt:
         return None
     if answer in {None, BACK}:
@@ -372,16 +516,23 @@ def py(*args: str) -> list[str]:
     return [PYTHON, *args]
 
 
+def venv_executable() -> str:
+    """Return the venv Python if it exists, else the current interpreter."""
+    for candidate in (
+        ROOT / ".venv" / "Scripts" / "python.exe",   # Windows
+        ROOT / ".venv" / "bin" / "python",            # Linux / macOS
+    ):
+        if candidate.exists():
+            return str(candidate)
+    return PYTHON
+
+
 def upload_py(*args: str) -> list[str]:
-    venv_python = ROOT / ".venv" / "bin" / "python"
-    executable = str(venv_python) if venv_python.exists() else PYTHON
-    return [executable, "tools/upload_pipeline.py", *args]
+    return [venv_executable(), "tools/upload_pipeline.py", *args]
 
 
 def semester_py(*args: str) -> list[str]:
-    venv_python = ROOT / ".venv" / "bin" / "python"
-    executable = str(venv_python) if venv_python.exists() else PYTHON
-    return [executable, "tools/semester_mapping.py", *args]
+    return [venv_executable(), "tools/semester_mapping.py", *args]
 
 
 def shell_command(command: list[str]) -> str:
@@ -396,6 +547,53 @@ def wrap_text(text: str, indent: str = "       ", width: int | None = None) -> l
     return textwrap.wrap(text, width=max(32, width), initial_indent=indent, subsequent_indent=indent)
 
 
+def compact_path(value: str, limit: int) -> str:
+    value = re.sub(r"\s+", " ", value).strip()
+    if len(value) <= limit:
+        return value
+    path = value.replace("\\", "/")
+    parts = path.split("/")
+    if len(parts) >= 3:
+        filename = parts[-1]
+        parent = parts[-2]
+        prefix = parts[0]
+        candidate = f"{prefix}/.../{parent}/{filename}"
+        if len(candidate) <= limit:
+            return candidate
+    keep_left = max(10, limit // 3)
+    keep_right = max(12, limit - keep_left - 5)
+    return f"{value[:keep_left].rstrip()} ... {value[-keep_right:].lstrip()}"
+
+
+def compact_value(key: str, value: str, limit: int) -> str:
+    key_lower = key.lower()
+    if key_lower in {"file", "from", "to", "target", "path", "scope", "command", "prefix"} or "/" in value or "\\" in value:
+        return compact_path(value, limit)
+    value = re.sub(r"\s+", " ", value).strip()
+    return clipped(value, limit)
+
+
+def format_inline_rows(rows: tuple[tuple[str, str], ...], width: int) -> str:
+    if not rows:
+        return ""
+    parts: list[str] = []
+    remaining = max(24, width)
+    for key, value in rows:
+        key_text = key.strip()
+        budget = max(12, min(remaining - len(key_text) - 4, 52))
+        if key_text in {"from", "to"}:
+            budget = max(18, min(remaining - len(key_text) - 4, 38))
+        if key_text == "detail":
+            budget = max(18, min(remaining - len(key_text) - 4, 46))
+        rendered = compact_value(key_text, str(value), budget)
+        piece = f"{color(key_text + '=', GRAY)}{rendered}"
+        parts.append(piece)
+        remaining -= len(key_text) + len(rendered) + 5
+        if remaining < 20:
+            break
+    return " ".join(parts)
+
+
 def print_event(event: OutputEvent) -> None:
     if event.kind == "skip":
         return
@@ -407,6 +605,8 @@ def print_event(event: OutputEvent) -> None:
         "stat": BLUE,
         "rename": MAGENTA,
         "plain": GRAY,
+        "path": CYAN,
+        "pull": GREEN,
     }
     labels = {
         "ok": "DONE",
@@ -416,29 +616,37 @@ def print_event(event: OutputEvent) -> None:
         "stat": "STAT",
         "rename": "NAME",
         "plain": "LOG ",
+        "path": "PATH",
+        "pull": "PULL",
     }
     style = styles.get(event.kind, GRAY)
     label = labels.get(event.kind, "LOG ")
-    if event.one_line:
-        suffix = ""
-        if event.rows:
-            suffix = " " + " ".join(f"{color(key + '=', GRAY)}{value}" for key, value in event.rows)
-        if event.detail:
-            suffix = f"{suffix} {event.detail}".rstrip()
-        print(f"  {color(label, BOLD + style)}  {event.title}{suffix}")
+    prefix = f"  {color(label, BOLD + style)}  "
+    width = terminal_width() - len(label) - 6
+    if event.kind == "pull":
+        print(f"{prefix}{event.title}")
+        for key, value in event.rows:
+            print(f"       {color(key + '=', GRAY)}{value}")
         return
-    print(f"  {color(label, BOLD + style)}  {event.title}")
-    for key, value in event.rows:
-        key_text = color(f"{key:<10}", GRAY)
-        lines = wrap_text(value, indent=f"       {key_text} ", width=terminal_width() - 22)
-        for index, line in enumerate(lines):
-            if index == 0:
-                print(line)
-            else:
-                print("       " + " " * 11 + line.strip())
+    if event.kind == "path":
+        key = event.rows[0][0] if event.rows else "path"
+        value = event.rows[0][1] if event.rows else event.title
+        title = "" if event.title == "rename field" else f"{event.title} "
+        print(f"{prefix}{title}{color(key + '=', GRAY)}{value}")
+        return
+    if event.rows or event.one_line:
+        title = clipped(event.title, max(18, width // 3))
+        rows = format_inline_rows(event.rows, max(24, width - len(title) - 3))
+        detail = compact_value("detail", event.detail, max(24, width - len(title) - len(re.sub(r'\x1b\[[0-9;]*m', '', rows)) - 4)) if event.detail else ""
+        suffix = " ".join(part for part in (rows, detail) if part)
+        line = f"{prefix}{title}"
+        if suffix:
+            line = f"{line} {suffix}"
+        print(line)
+        return
+    print(f"{prefix}{compact_value('detail', event.title, width)}")
     if event.detail:
-        for line in wrap_text(event.detail):
-            print(line)
+        print(f"       {color('detail=', GRAY)}{compact_value('detail', event.detail, terminal_width() - 18)}")
 
 
 LOG_PREFIX_RE = re.compile(r"^(?:\d{4}-\d{2}-\d{2}\s+)?\d{2}:\d{2}(?::\d{2})?\s+(?:INFO|WARNING|ERROR|DEBUG)\s+[^:]+:\s+")
@@ -475,9 +683,15 @@ def parse_output_event(raw_line: str) -> OutputEvent:
     match = re.match(r"^-\s+(PENDING|MODIFIED|RENAMED|FAILED|NEEDS_TRACKING_ID):\s+(.+?)\s+r2=(.+?)\s+cloudinary=(.+)$", line)
     if match:
         state, file_path, r2_status, cloudinary_status = match.groups()
-        kind = "warn" if state in {"FAILED", "NEEDS_TRACKING_ID"} else "work"
+        if state in {"FAILED", "NEEDS_TRACKING_ID"}:
+            return OutputEvent(
+                "pull",
+                f"{state} upload candidate",
+                rows=(("file", file_path), ("r2", r2_status), ("cloudinary", cloudinary_status)),
+                raw=line,
+            )
         return OutputEvent(
-            kind,
+            "work",
             f"{state.lower()} upload candidate",
             rows=(("file", file_path), ("r2", r2_status), ("cloud", cloudinary_status)),
             raw=line,
@@ -492,25 +706,55 @@ def parse_output_event(raw_line: str) -> OutputEvent:
     if line.startswith(("python tools/", "python3 tools/")):
         return OutputEvent("work", "Next suggested command", rows=(("command", line),), raw=line)
 
+    match = re.match(r"^(from|to|file|reason)\s+(.+)$", line)
+    if match:
+        key, value = match.groups()
+        kind = "path" if key in {"from", "to", "file"} else "warn"
+        return OutputEvent(kind, "rename field", rows=((key, value),), raw=line)
+
+    match = re.match(r"^(marks|date|source)\s+(.+)$", line)
+    if match:
+        key, value = match.groups()
+        return OutputEvent("stat", "rename metadata", rows=((key, value),), raw=line, one_line=True)
+
+    match = re.match(r"Groq retry (\d+)/(\d+): (.+)$", line)
+    if match:
+        current, total, path = match.groups()
+        return OutputEvent("path", f"Groq retry {current}/{total}", rows=(("file", path),), raw=line)
+
+    match = re.match(r"Scanning (\d+) papers (.+)$", line)
+    if match:
+        total, detail = match.groups()
+        return OutputEvent("work", f"Scanning {total} papers", rows=(("detail", detail),), raw=line, one_line=True)
+
+    match = re.match(r"Scan progress: (\d+)/(\d+) papers$", line)
+    if match:
+        current, total = match.groups()
+        return OutputEvent("work", f"Scan progress {current}/{total}", rows=(("scanned", current), ("total", total)), raw=line, one_line=True)
+
+    match = re.match(r"Scan complete: (\d+) papers processed$", line)
+    if match:
+        return OutputEvent("ok", f"Scan complete: {match.group(1)} papers processed", raw=line)
+
     match = re.match(r"Downloading file (\d+)/(\d+) with ([^:]+): (.*?) -> (.+)$", line)
     if match:
         current, total, method, source, target = match.groups()
         return OutputEvent(
-            "work",
-            f"Downloading {current} of {total} with {method.strip()}",
-            rows=(("file", Path(source).name), ("target", target)),
+            "pull",
+            f"Pull PDF {current}/{total} via {method.strip()}",
+            rows=(("from", source), ("to", target)),
             raw=line,
         )
 
     match = re.match(r"Downloaded file (\d+)/(\d+); remaining (\d+)", line)
     if match:
         current, total, remaining = match.groups()
-        return OutputEvent("ok", f"Downloaded {current} of {total}", rows=(("remaining", remaining),), raw=line)
+        return OutputEvent("ok", f"Pull PDF done {current}/{total}", rows=(("remaining", remaining),), raw=line)
 
     match = re.match(r"Downloaded (\d+) files; (\d+) pending remain", line)
     if match:
         downloaded, remaining = match.groups()
-        return OutputEvent("ok", "Download batch finished", rows=(("downloaded", downloaded), ("pending", remaining)), raw=line)
+        return OutputEvent("ok", "Pull PDF batch finished", rows=(("downloaded", downloaded), ("pending", remaining)), raw=line)
 
     match = re.match(r"Upload batch: (\d+) PDF\(s\), workers=(\d+)$", line)
     if match:
@@ -600,13 +844,18 @@ def parse_output_event(raw_line: str) -> OutputEvent:
     match = re.match(r"Reviewed PDF (\d+)/(\d+): (.+)$", line)
     if match:
         current, total, path = match.groups()
-        return OutputEvent("work", f"Reviewed PDF {current} of {total}", rows=(("file", path),), raw=line)
+        return OutputEvent("path", f"Reviewed {current}/{total}", rows=(("file", path),), raw=line)
+
+    match = re.match(r"WORK\s+(\d+)/(\d+)\s+\|\s+(.+)$", line)
+    if match:
+        current, total, path = match.groups()
+        return OutputEvent("path", f"Reviewing {current}/{total}", rows=(("file", path),), raw=line)
 
     match = re.match(r"\s*(TEXT|PADDLEOCR|GROQ|SKIP|RETRY|REVIEW)\s+([^|]+)\|\s+(.+)$", line)
     if match:
         source, status, rest = match.groups()
         pieces = [piece.strip() for piece in rest.split("|")]
-        rows: list[tuple[str, str]] = [("source", source), ("status", status.strip())]
+        rows: list[tuple[str, str]] = []
         if pieces:
             if " -> " in pieces[0]:
                 left, right = pieces[0].split(" -> ", 1)
@@ -620,7 +869,7 @@ def parse_output_event(raw_line: str) -> OutputEvent:
             elif piece:
                 rows.append(("detail", piece))
         kind = "rename" if source in {"TEXT", "PADDLEOCR", "GROQ"} else "warn"
-        return OutputEvent(kind, "Rename review result", rows=tuple(rows), raw=line)
+        return OutputEvent(kind, f"{source} {status.strip()}", rows=tuple(rows), raw=line, one_line=True)
 
     match = re.match(r"Scanning folder:\s+(.+?)(?:\s+\([A-Za-z0-9_-]+\))?$", line)
     if match:
@@ -698,7 +947,7 @@ def run_cmd(command: list[str], label: str, *, allow_failure: bool = False) -> i
         except queue.Empty:
             now = time.monotonic()
             if now - last_activity > 10:
-                note(f"Still running after {int(now - started)} seconds.", "info")
+                note(f"{label} — waiting on subprocess ({int(now - started)}s elapsed)", "info")
                 last_activity = now
             continue
         if raw is None:
@@ -957,7 +1206,7 @@ def download_and_prepare(scope: str = "") -> None:
         ]
     )
     if confirm("  Review PDF filenames now?", default=True):
-        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1"), f"Review PDF names under {incoming_scope}")
+        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1", "--ocr-device", "gpu:0"), f"Review PDF names under {incoming_scope}")
     pause()
 
 
@@ -996,7 +1245,7 @@ def continue_workflow() -> None:
             run_cmd(py("tools/rename_folders.py", "--path", raw_incoming_scope), f"Normalize folders under {raw_incoming_scope}")
         pause()
     elif action == "rename_review":
-        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1"), f"Review PDF names under {incoming_scope}")
+        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1", "--ocr-device", "gpu:0"), f"Review PDF names under {incoming_scope}")
         pause()
     elif action == "rename_apply":
         run_cmd(py("tools/rename_files.py", "--apply", "--path", incoming_scope), f"Apply PDF names under {incoming_scope}")
@@ -1311,7 +1560,7 @@ def simple_rename_folders() -> None:
 
 
 def simple_rename_files() -> None:
-    run_cmd(py("tools/rename_files.py", "--path", "incoming", "--ocr-workers", "1"), "Review and plan PDF filename changes")
+    run_cmd(py("tools/rename_files.py", "--path", "incoming", "--ocr-workers", "1", "--ocr-device", "gpu:0"), "Review and plan PDF filename changes")
     counts = rename_review_counts()
     note(
         f"Rename review: {counts['ready']} ready; {counts['needs_review']} need review; {counts['retry_later']} retry later.",
@@ -1324,7 +1573,8 @@ def post_rename_actions() -> None:
         counts = rename_review_counts()
         choices: list[Any] = []
         if counts["needs_review"] > 0:
-            choices.append(Choice(f"Try Groq on needs-review files ({counts['needs_review']})", value="groq"))
+            choices.append(Choice(f"Try Groq only on needs-review files ({counts['needs_review']})", value="groq"))
+            choices.append(Choice(f"Try again: Text -> PaddleOCR -> Groq ({counts['needs_review']})", value="full_retry"))
         if counts["ready"] > 0 or counts["needs_review"] > 0 or counts["retry_later"] > 0:
             choices.append(Choice(f"Apply rename changes ({counts['ready']} ready, {counts['needs_review']} review)", value="apply"))
             choices.append(Choice("Discard review and restore needs_review", value="rollback"))
@@ -1339,7 +1589,9 @@ def post_rename_actions() -> None:
         if action in {None, "stop"}:
             return
         if action == "groq":
-            run_cmd(py("tools/rename_files.py", "--retry-needs-review", "--path", "incoming", "--ocr-workers", "1"), "Try Groq on needs-review files", allow_failure=True)
+            run_cmd(py("tools/rename_files.py", "--retry-needs-review", "--path", "incoming"), "Try Groq only on needs-review files", allow_failure=True)
+        elif action == "full_retry":
+            run_cmd(py("tools/rename_files.py", "--retry-full-review", "--path", "incoming", "--ocr-workers", "1", "--ocr-device", "gpu:0"), "Try full rename pipeline again", allow_failure=True)
         elif action == "apply":
             run_cmd(py("tools/rename_files.py", "--apply", "--path", "incoming"), "Apply rename changes")
         elif action == "rollback":
@@ -1393,7 +1645,10 @@ def simple_upload_workflow() -> None:
     elif action == "manifest":
         run_cmd(upload_py("manifest"), "Generate frontend JSON with semester mapping")
     elif action in {"upload", "all"}:
-        run_cmd(upload_py("summary", "--sample", "5"), "Current upload progress")
+        if run_cmd(upload_py("preflight"), "Upload preflight") != 0:
+            note("Upload did not start. Fix the preflight error and try again.", "warn")
+            pause()
+            return
         if not confirm("  Continue upload? Already uploaded PDFs will be skipped.", default=True):
             pause()
             return
@@ -1460,20 +1715,33 @@ def choose_upload_limit() -> str | None:
 
 def toolbox_workflow() -> None:
     banner()
-    section("Toolbox", "Less common commands, kept away from the main path.")
+    values = dashboard_values()
+    rename_counts = rename_review_counts()
+    section("Toolbox", "Diagnostics, retries, dry runs, and direct maintenance commands.")
     action = select(
         "  Tool",
         [
-            Choice("Download pending with advanced methods", value="downloads"),
-            Choice("Rename changelog: apply, retry, or discard", value="rename"),
-            Choice("Verify / move dry runs", value="verify"),
-            Choice("SQLite tracking maintenance", value="tracking"),
-            Choice("Run tools/pipeline.py", value="pipeline"),
+            Choice("Status snapshot", value="status"),
+            Choice("Python/OCR environment check", value="env"),
+            Separator("Work queues"),
+            Choice(f"Downloads ({values['file_pending']} pending)", value="downloads"),
+            Choice(f"Rename review ({rename_counts['ready']} ready, {rename_counts['needs_review']} review, {rename_counts['retry_later']} retry)", value="rename"),
+            Choice("Verify / move", value="verify"),
+            Separator("Maintenance"),
+            Choice("SQLite tracking", value="tracking"),
+            Choice("Semester mapping tools", value="semester"),
+            Choice("Publishing tools", value="publishing"),
+            Choice("Pipeline runner", value="pipeline"),
         ],
     )
     if action is None:
         return
-    if action == "downloads":
+    if action == "status":
+        run_cmd(py("tools/status.py", "--print"), "Status snapshot")
+        pause()
+    elif action == "env":
+        environment_check_workflow()
+    elif action == "downloads":
         command = choose_download_command(simple=False)
         if command:
             run_cmd(command, "Apply pending downloads", allow_failure=True)
@@ -1484,17 +1752,39 @@ def toolbox_workflow() -> None:
         verify_toolbox()
     elif action == "tracking":
         tracking_toolbox()
+    elif action == "semester":
+        semester_mapping_workflow()
+    elif action == "publishing":
+        publishing_workflow()
     elif action == "pipeline":
         pipeline_toolbox()
 
 
+def environment_check_workflow() -> None:
+    code = (
+        "import sys; "
+        "print('python=' + sys.executable); "
+        "import fitz; print('pymupdf=ok'); "
+        "import paddle; print('paddle=' + paddle.__version__); "
+        "print('cuda_compiled=' + str(paddle.device.is_compiled_with_cuda())); "
+        "import paddleocr; print('paddleocr=' + paddleocr.__version__)"
+    )
+    run_cmd(py("-c", code), "Python/OCR environment check", allow_failure=True)
+    pause()
+
+
 def rename_toolbox() -> None:
+    counts = rename_review_counts()
     action = select(
         "  Rename tool",
         [
-            Choice("Review PDFs", value="review"),
-            Choice("Apply rename changelog", value="apply"),
+            Choice("Review PDFs with GPU OCR then CPU fallback", value="review"),
+            Choice("Fresh review: rebuild changelog for selected scope", value="fresh"),
+            Choice(f"Try Groq only on needs-review ({counts['needs_review']} review)", value="retry"),
+            Choice(f"Try full pipeline again ({counts['needs_review']} review)", value="retry_full"),
+            Choice(f"Apply rename changelog ({counts['ready']} ready)", value="apply"),
             Choice("Apply, verify, and move", value="apply_all"),
+            Choice("Rollback needs_review back to incoming", value="rollback"),
             Choice("Discard rename changelog", value="discard"),
         ],
     )
@@ -1510,7 +1800,13 @@ def rename_toolbox() -> None:
         return
     incoming_scope = scope_to_incoming(scope)
     if action == "review":
-        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1"), f"Review PDF names under {incoming_scope}")
+        run_cmd(py("tools/rename_files.py", "--path", incoming_scope, "--ocr-workers", "1", "--ocr-device", "gpu:0"), f"Review PDF names under {incoming_scope}")
+    elif action == "fresh":
+        run_cmd(py("tools/rename_files.py", "--fresh", "--path", incoming_scope, "--ocr-workers", "1", "--ocr-device", "gpu:0"), f"Fresh PDF rename review under {incoming_scope}")
+    elif action == "retry":
+        run_cmd(py("tools/rename_files.py", "--retry-needs-review", "--path", incoming_scope), f"Groq-only retry under {incoming_scope}", allow_failure=True)
+    elif action == "retry_full":
+        run_cmd(py("tools/rename_files.py", "--retry-full-review", "--path", incoming_scope, "--ocr-workers", "1", "--ocr-device", "gpu:0"), f"Full pipeline retry under {incoming_scope}", allow_failure=True)
     elif action == "apply":
         run_cmd(py("tools/rename_files.py", "--apply", "--path", incoming_scope), f"Apply PDF names under {incoming_scope}")
     elif action == "apply_all":
@@ -1521,6 +1817,9 @@ def rename_toolbox() -> None:
                 (py("tools/move.py", "--path", incoming_scope), "Move VERIFIED files"),
             ]
         )
+    elif action == "rollback":
+        if confirm("  Restore NEEDS_REVIEW rows/files to incoming for this scope?", default=False):
+            run_cmd(py("tools/rename_files.py", "--rollback-needs-review", "--path", incoming_scope), f"Rollback needs_review under {incoming_scope}")
     pause()
 
 

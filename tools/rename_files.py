@@ -33,6 +33,8 @@ DEFAULT_OCR_RELAXED_CONFIDENCE = 0.55
 DEFAULT_OCR_CROP_RATIO = 0.45
 DEFAULT_OCR_CROP_RATIOS = (0.45, 0.65, 1.0)
 DEFAULT_OCR_WORKERS = 1
+DEFAULT_OCR_DEVICE = os.environ.get("PADDLEOCR_DEVICE", "gpu:0")
+CPU_OCR_DEVICE = "cpu"
 MONTH_ALIASES = {
     "jan": "jan",
     "january": "jan",
@@ -64,6 +66,10 @@ FILENAME_RE = re.compile(r"^(insem|endsem|other)_[a-z]{3}(?:_[a-z]{3})?_\d{4}_[A
 ANSI_RESET = "\033[0m"
 ANSI_YELLOW = "\033[33m"
 ANSI_BLUE = "\033[34m"
+ANSI_GREEN = "\033[32m"
+ANSI_RED = "\033[31m"
+ANSI_MAGENTA = "\033[35m"
+ANSI_CYAN = "\033[36m"
 ANSI_DIM = "\033[2m"
 
 
@@ -251,23 +257,86 @@ class PaddleOCRRunner:
         self,
         confidence_threshold: float = DEFAULT_OCR_CONFIDENCE,
         crop_ratios: tuple[float, ...] = DEFAULT_OCR_CROP_RATIOS,
+        device: str = DEFAULT_OCR_DEVICE,
     ) -> None:
         self.confidence_threshold = confidence_threshold
         self.crop_ratios = crop_ratios
+        self.device = device.strip().lower()
+        self.active_device = ""
         self._ocr: Any | None = None
+
+    def _device_attempts(self) -> list[str]:
+        devices = [self.device or DEFAULT_OCR_DEVICE]
+        if devices[0] != CPU_OCR_DEVICE:
+            devices.append(CPU_OCR_DEVICE)
+        return list(dict.fromkeys(devices))
+
+    def _init_for_device(self, device: str) -> Any:
+        from paddleocr import PaddleOCR  # type: ignore[import-not-found]
+
+        try:
+            import paddle  # type: ignore[import-not-found]
+
+            paddle.set_device(device)
+        except Exception as exc:
+            if device != CPU_OCR_DEVICE:
+                raise RenameError(f"PaddlePaddle could not switch to OCR device {device}: {exc}") from exc
+
+        wants_gpu = device.startswith("gpu")
+        attempts: list[dict[str, Any]] = [
+            {"use_angle_cls": False, "lang": "en", "show_log": False, "device": device},
+            {"use_angle_cls": False, "lang": "en", "show_log": False, "use_gpu": wants_gpu},
+            {"lang": "en", "device": device},
+            {"lang": "en", "use_gpu": wants_gpu},
+        ]
+        if device == CPU_OCR_DEVICE:
+            attempts.append({"lang": "en"})
+
+        errors: list[str] = []
+        for kwargs in attempts:
+            try:
+                ocr = PaddleOCR(**kwargs)
+                if device != CPU_OCR_DEVICE:
+                    try:
+                        import paddle  # type: ignore[import-not-found]
+
+                        if not str(paddle.get_device()).lower().startswith("gpu"):
+                            raise RenameError(f"PaddlePaddle stayed on {paddle.get_device()} after GPU initialization.")
+                    except RenameError:
+                        raise
+                    except Exception:
+                        pass
+                return ocr
+            except TypeError as exc:
+                errors.append(f"{kwargs}: {exc}")
+                continue
+            except Exception as exc:
+                errors.append(f"{kwargs}: {exc}")
+                if device != CPU_OCR_DEVICE:
+                    continue
+                break
+        raise RenameError(f"PaddleOCR initialization failed on {device}: " + " | ".join(errors[-3:]))
 
     def _instance(self) -> Any:
         if self._ocr is not None:
             return self._ocr
         try:
-            from paddleocr import PaddleOCR  # type: ignore[import-not-found]
+            import paddleocr  # noqa: F401  # type: ignore[import-not-found]
         except ImportError as exc:
             raise RenameError("PaddleOCR is not installed. Install it in the GPU environment before running review.") from exc
-        try:
-            self._ocr = PaddleOCR(use_angle_cls=False, lang="en", show_log=False)
-        except Exception:
-            self._ocr = PaddleOCR(lang="en")
-        return self._ocr
+
+        errors: list[str] = []
+        for device in self._device_attempts():
+            try:
+                self._ocr = self._init_for_device(device)
+                self.active_device = device
+                if device != self.device:
+                    print(f"PaddleOCR fell back from {self.device} to {device}.")
+                return self._ocr
+            except Exception as exc:
+                errors.append(str(exc))
+                continue
+        raise RenameError("PaddleOCR initialization failed on GPU and CPU: " + " | ".join(errors[-3:]))
 
     def extract_lines(self, pdf_path: Path, crop_ratio: float) -> list[tuple[str, float | None]]:
         image_path = render_first_page_header_image(pdf_path, crop_ratio)
@@ -635,18 +704,24 @@ def terminal_color(text: str, color: str) -> str:
 def metadata_source_label(entry: dict[str, Any]) -> str:
     source = str(entry.get("metadata_source") or entry.get("action") or "unknown")
     if source == "text":
-        return terminal_color("TEXT", ANSI_DIM)
+        return terminal_color("TEXT", ANSI_BLUE)
     if source == "paddleocr":
         return terminal_color("PADDLEOCR", ANSI_YELLOW)
     if source == "groq":
-        return terminal_color("GROQ", ANSI_BLUE)
+        return terminal_color("GROQ", ANSI_MAGENTA)
     if source == "already_normalized":
         return terminal_color("SKIP", ANSI_DIM)
     if source == "retry":
-        return "RETRY"
+        return terminal_color("RETRY", ANSI_YELLOW)
     if source == "review":
-        return "REVIEW"
+        return terminal_color("REVIEW", ANSI_RED)
     return source.upper()
+
+
+def log_field(label: str, value: Any, color_code: str = ANSI_CYAN) -> None:
+    label_text = terminal_color(f"{label:<8}", ANSI_DIM)
+    value_text = terminal_color(str(value or ""), color_code)
+    print(f"    {label_text} {value_text}")
 
 
 def print_review_result(entry: dict[str, Any]) -> None:
@@ -654,19 +729,26 @@ def print_review_result(entry: dict[str, Any]) -> None:
     source = entry.get("source", "")
     if entry.get("action") == "rename":
         target = entry.get("target") or entry.get("filename") or ""
-        print(
-            f"  {label} {entry.get('status', '')} | {source} -> {target} | "
-            f"marks={entry.get('marks', '')} | {entry.get('month_code', '')}_{entry.get('year', '')} | "
-            f"source={entry.get('metadata_source', '')}"
-        )
+        print(f"  {label} {terminal_color(str(entry.get('status', '')), ANSI_GREEN)}")
+        log_field("from", source, ANSI_CYAN)
+        log_field("to", target, ANSI_GREEN)
+        log_field("marks", entry.get("marks", ""), ANSI_YELLOW)
+        log_field("date", f"{entry.get('month_code', '')}_{entry.get('year', '')}", ANSI_YELLOW)
+        log_field("source", entry.get("metadata_source", ""), ANSI_MAGENTA)
         return
     if entry.get("status") == "retry_pending":
-        print(f"  {label} later  | {source} | {entry.get('reason', '')}")
+        print(f"  {label} {terminal_color('later', ANSI_YELLOW)}")
+        log_field("file", source, ANSI_CYAN)
+        log_field("reason", entry.get("reason", ""), ANSI_YELLOW)
         return
     if entry.get("action") == "review":
-        print(f"  {label} planned | {source} -> {entry.get('needs_review_target', '')} | {entry.get('reason', '')}")
+        print(f"  {label} {terminal_color('planned', ANSI_YELLOW)}")
+        log_field("from", source, ANSI_CYAN)
+        log_field("to", entry.get("needs_review_target", ""), ANSI_YELLOW)
+        log_field("reason", entry.get("reason", ""), ANSI_RED)
         return
-    print(f"  {label}        | {source}")
+    print(f"  {label}")
+    log_field("file", source, ANSI_CYAN)
 
 
 def should_stop_after_retry(entry: dict[str, Any]) -> bool:
@@ -853,6 +935,50 @@ def make_review_entry(
         return review_entry(base, rel, str(exc))
 
 
+def make_groq_only_review_entry(
+    pdf_path: Path,
+    lookup: dict[str, dict[str, str]],
+    clients: list[Any],
+    preferred_client_index: int = 0,
+) -> dict[str, Any]:
+    root_name, rel = workflow_relative(pdf_path)
+    source = f"{root_name}/{rel.as_posix()}"
+    tracked = tracking.find_by_current_path(source)
+    base = {
+        "status": "pending",
+        "source": source,
+        "original_filename": pdf_path.name,
+        "file_id": tracked.get("file_id", "") if tracked else "",
+    }
+    try:
+        context = derive_context(pdf_path, lookup)
+        filename_month = normalize_month_code(pdf_path.name)
+        filename_year = normalize_year(pdf_path.name)
+        try:
+            context_text = extract_first_page_header_text(pdf_path)
+        except Exception as exc:
+            context_text = (
+                f"Local header text extraction failed: {exc}. "
+                f"Use the PDF filename and path as fallback context. Filename: {pdf_path.name}"
+            )
+
+        try:
+            groq_data = ask_groq_with_fallback(clients, preferred_client_index, pdf_path, rel.as_posix(), context_text)
+        except RetryLaterError as exc:
+            return retry_entry(base, str(exc))
+        if not provider_result_is_usable(groq_data, pdf_path.name):
+            missing = []
+            if not filename_month or not filename_year:
+                missing.append("filename date incomplete")
+            missing.append(f"Groq did not extract usable metadata: {groq_data.get('reason', '')}")
+            return review_entry(base, rel, "; ".join(missing))
+        return rename_entry_from_metadata(base, root_name, context, pdf_path, groq_data)
+    except RetryLaterError as exc:
+        return retry_entry(base, str(exc))
+    except Exception as exc:
+        return review_entry(base, rel, str(exc))
+
+
 def send_entry_to_review(entry: dict[str, Any], reason: str) -> None:
     source = resolve_repo_path(entry["source"])
     try:
@@ -917,17 +1043,39 @@ def run_groq_review(
     lookup: dict[str, dict[str, str]],
     clients: list[Any],
     workers: int | None = None,
+    ocr_device: str = DEFAULT_OCR_DEVICE,
 ) -> tuple[list[dict[str, Any]], int]:
     total = len(pdfs)
     entries: list[dict[str, Any]] = []
-    ocr_runner = PaddleOCRRunner()
+    ocr_runner = PaddleOCRRunner(device=ocr_device)
     print(f"Using {len(clients)} Groq key(s); review checkpoints sequentially.")
+    print(f"PaddleOCR device: {ocr_device} first, cpu fallback")
     if workers not in {None, DEFAULT_OCR_WORKERS}:
         print(f"--workers is accepted as an alias; OCR runs with {DEFAULT_OCR_WORKERS} worker for GPU memory safety.")
     for index, pdf_path in enumerate(pdfs):
         entry = make_review_entry(pdf_path, lookup, clients, index % max(1, len(clients)), ocr_runner)
         entries.append(entry)
         print(f"Reviewed PDF {index + 1}/{total}: {display_path(pdf_path)}")
+    return entries, DEFAULT_OCR_WORKERS
+
+
+def run_groq_only_review(
+    pdfs: list[Path],
+    lookup: dict[str, dict[str, str]],
+    clients: list[Any],
+    workers: int | None = None,
+) -> tuple[list[dict[str, Any]], int]:
+    total = len(pdfs)
+    entries: list[dict[str, Any]] = []
+    print(f"Using {len(clients)} Groq key(s); Groq-only retry checkpoints sequentially.")
+    print("Pipeline: Groq only. PyMuPDF/PaddleOCR model loading is skipped.")
+    if workers not in {None, DEFAULT_OCR_WORKERS}:
+        print(f"--workers is accepted as an alias; Groq retry still checkpoints one PDF at a time.")
+    for index, pdf_path in enumerate(pdfs):
+        print(f"Groq retry {index + 1}/{total}: {display_path(pdf_path)}")
+        entry = make_groq_only_review_entry(pdf_path, lookup, clients, index % max(1, len(clients)))
+        entries.append(entry)
+        print_review_result(entry)
     return entries, DEFAULT_OCR_WORKERS
 
 
@@ -962,10 +1110,21 @@ def source_for_pdf(path: Path) -> str:
     return f"{root_name}/{rel.as_posix()}"
 
 
+def entry_should_reprocess_after_dependency_install(entry: dict[str, Any]) -> bool:
+    reason = str(entry.get("reason") or "")
+    stale_dependency_errors = (
+        "PyMuPDF is not installed",
+        "PaddleOCR is not installed",
+    )
+    return any(error in reason for error in stale_dependency_errors)
+
+
 def entry_is_completed_for_review(entry: dict[str, Any]) -> bool:
     status = str(entry.get("status") or "")
     action = str(entry.get("action") or "")
     if status == "retry_pending" or action == "retry":
+        return False
+    if entry_should_reprocess_after_dependency_install(entry):
         return False
     return status in {"pending", "applied", "skipped", "review_moved", "missing"} or action in {"rename", "review", "skip"}
 
@@ -1047,7 +1206,7 @@ def configured_groq_key_count() -> int | str:
         return ""
 
 
-def review_pdfs(scope: Path, ocr_workers: int | None = None, fresh: bool = False) -> dict[str, Any]:
+def review_pdfs(scope: Path, ocr_workers: int | None = None, fresh: bool = False, ocr_device: str = DEFAULT_OCR_DEVICE) -> dict[str, Any]:
     if not scope.exists():
         raise RenameError(f"Path does not exist: {scope}")
     if scope.is_file() and scope.suffix.lower() != ".pdf":
@@ -1086,10 +1245,11 @@ def review_pdfs(scope: Path, ocr_workers: int | None = None, fresh: bool = False
         "schema_version": 1,
         "generated_at": utc_now_iso(),
         "scope": display_path(scope),
-        "metadata_pipeline": "pymupdf_text,paddleocr,groq",
+        "metadata_pipeline": "pymupdf_text,paddleocr_gpu_then_cpu,groq",
         "paddleocr_crop_ratios": list(DEFAULT_OCR_CROP_RATIOS),
         "paddleocr_confidence": DEFAULT_OCR_CONFIDENCE,
         "paddleocr_relaxed_confidence": DEFAULT_OCR_RELAXED_CONFIDENCE,
+        "paddleocr_device": f"{ocr_device} first, cpu fallback",
         "groq_keys": configured_groq_key_count(),
         "workers": worker_count,
         "total_pdfs": len(pdfs),
@@ -1108,12 +1268,13 @@ def review_pdfs(scope: Path, ocr_workers: int | None = None, fresh: bool = False
     print(f"Reopened for apply: {len(reopened_for_apply)}")
     print(f"Retry pending: {len(retry_pending)}")
     print(f"Remaining to process: {len(to_process)}")
-    print("Pipeline: PyMuPDF header text -> PaddleOCR first-page crops -> Groq fallback.")
+    print("Pipeline: PyMuPDF header text -> PaddleOCR GPU first-page crops -> CPU OCR fallback -> Groq fallback.")
+    print(f"PaddleOCR device: {ocr_device} first, cpu fallback")
     if worker_count != DEFAULT_OCR_WORKERS:
         print(f"OCR worker count requested as {worker_count}; review still checkpoints one PDF at a time.")
 
     clients: list[Any] | None = None
-    ocr_runner = PaddleOCRRunner()
+    ocr_runner = PaddleOCRRunner(device=ocr_device)
     for index, pdf_path in enumerate(to_process, start=1):
         print(f"WORK {index}/{len(to_process)} | {display_path(pdf_path)}")
         entry = make_review_entry(pdf_path, lookup, clients, 0, ocr_runner)
@@ -1130,7 +1291,7 @@ def review_pdfs(scope: Path, ocr_workers: int | None = None, fresh: bool = False
     return payload
 
 
-def retry_needs_review(scope: Path, workers: int | None = None) -> dict[str, Any] | None:
+def retry_needs_review(scope: Path, workers: int | None = None, ocr_device: str = DEFAULT_OCR_DEVICE) -> dict[str, Any] | None:
     if not CHANGELOG_PATH.exists():
         return None
     payload = read_changelog()
@@ -1149,7 +1310,7 @@ def retry_needs_review(scope: Path, workers: int | None = None) -> dict[str, Any
     lookup = build_code_lookup()
     clients = groq_clients()
     pdfs = [resolve_repo_path(entries[index]["source"]) for index in retry_indexes]
-    retry_entries, worker_count = run_groq_review(pdfs, lookup, clients, workers)
+    retry_entries, worker_count = run_groq_only_review(pdfs, lookup, clients, workers)
     for index, replacement in zip(retry_indexes, retry_entries):
         entries[index] = replacement
     mark_duplicate_or_existing_targets(entries)
@@ -1157,9 +1318,46 @@ def retry_needs_review(scope: Path, workers: int | None = None) -> dict[str, Any
     payload["scope"] = display_path(scope)
     payload["groq_keys"] = len(clients)
     payload["workers"] = worker_count
+    payload["metadata_pipeline"] = "groq_only"
+    payload["paddleocr_device"] = "skipped"
     payload["entries"] = entries
     write_changelog(payload)
-    print(f"Retried {len(retry_indexes)} needs-review file(s) from existing changelog.")
+    print(f"Groq-only retried {len(retry_indexes)} needs-review file(s) from existing changelog.")
+    return payload
+
+
+def retry_needs_review_full(scope: Path, workers: int | None = None, ocr_device: str = DEFAULT_OCR_DEVICE) -> dict[str, Any] | None:
+    if not CHANGELOG_PATH.exists():
+        return None
+    payload = read_changelog()
+    entries = payload.get("entries") or []
+    retry_indexes = [
+        index
+        for index, entry in enumerate(entries)
+        if entry.get("status") == "pending"
+        and entry.get("action") != "rename"
+        and entry_in_apply_scope(entry, scope)
+        and resolve_repo_path(entry.get("source", "")).exists()
+    ]
+    if not retry_indexes:
+        return None
+
+    lookup = build_code_lookup()
+    clients = groq_clients()
+    pdfs = [resolve_repo_path(entries[index]["source"]) for index in retry_indexes]
+    retry_entries, worker_count = run_groq_review(pdfs, lookup, clients, workers, ocr_device)
+    for index, replacement in zip(retry_indexes, retry_entries):
+        entries[index] = replacement
+    mark_duplicate_or_existing_targets(entries)
+    payload["generated_at"] = utc_now_iso()
+    payload["scope"] = display_path(scope)
+    payload["groq_keys"] = len(clients)
+    payload["workers"] = worker_count
+    payload["metadata_pipeline"] = "pymupdf_text,paddleocr_gpu_then_cpu,groq"
+    payload["paddleocr_device"] = f"{ocr_device} first, cpu fallback"
+    payload["entries"] = entries
+    write_changelog(payload)
+    print(f"Full pipeline retried {len(retry_indexes)} needs-review file(s) from existing changelog.")
     return payload
 
 
@@ -1315,6 +1513,8 @@ def render_changelog(payload: dict[str, Any]) -> str:
     crop_ratios = payload.get("paddleocr_crop_ratios") or payload.get("paddleocr_crop_ratio")
     if crop_ratios is not None and crop_ratios != "":
         lines.append(f"- PaddleOCR crop ratios: `{crop_ratios}`")
+    if payload.get("paddleocr_device") not in {None, ""}:
+        lines.append(f"- PaddleOCR device: `{payload.get('paddleocr_device')}`")
     if payload.get("paddleocr_confidence") not in {None, ""}:
         lines.append(f"- PaddleOCR confidence threshold: `{payload.get('paddleocr_confidence')}`")
     if payload.get("paddleocr_relaxed_confidence") not in {None, ""}:
@@ -1607,6 +1807,9 @@ def parse_args() -> argparse.Namespace:
   python3 tools/rename_files.py --ocr-workers 1
       OCR worker count for GPU memory safety. Defaults to 1 on 4 GB VRAM.
 
+  python3 tools/rename_files.py --ocr-device gpu:0
+      Run PaddleOCR on the first Windows CUDA GPU. Use --ocr-device cpu only as a fallback.
+
   python3 tools/rename_files.py --apply
       Move reviewed files into papers/ or needs_review/. Does not call PyMuPDF, PaddleOCR, or Groq.
 
@@ -1619,8 +1822,15 @@ def parse_args() -> argparse.Namespace:
   python3 tools/rename_files.py --rollback-needs-review
       Delete stale rename changelogs and restore NEEDS_REVIEW rows/files to incoming/.
 
+  python3 tools/rename_files.py --retry-needs-review
+      Retry needs-review entries with Groq only. Does not initialize PaddleOCR.
+
+  python3 tools/rename_files.py --retry-full-review
+      Retry needs-review entries with PyMuPDF text, PaddleOCR GPU/CPU fallback, then Groq.
+
 Environment:
-  PaddleOCR GPU is used only on page 1 crops: 45%, 65%, then full first page.
+  PaddleOCR defaults to device gpu:0 and is used only on page 1 crops: 45%, 65%, then full first page.
+  PADDLEOCR_DEVICE can override the default OCR device, for example gpu:0 or cpu.
   GROQ_API_KEY is optional unless PyMuPDF/PaddleOCR cannot extract usable metadata.
   GROQ_API_KEY_2 or GROQ_API_KEYS=key1,key2 can be used for fallback.
   GROQ_MODEL is optional; default is llama-3.3-70b-versatile.
@@ -1631,18 +1841,20 @@ Environment:
     parser.add_argument("--rollback-needs-review", action="store_true", help="Move needs_review/ PDFs back to incoming/, reset NEEDS_REVIEW rows, and discard rename changelog.")
     parser.add_argument("--path", default=str(INCOMING_DIR), help="Incoming directory or PDF path to review/apply. Defaults to incoming/.")
     parser.add_argument("--ocr-workers", type=int, default=None, help="OCR worker count. Defaults to 1 for 4 GB GPU VRAM.")
+    parser.add_argument("--ocr-device", default=DEFAULT_OCR_DEVICE, help="PaddleOCR device. Defaults to PADDLEOCR_DEVICE or gpu:0. Use cpu to disable GPU.")
     parser.add_argument("--workers", type=int, default=None, help="Compatibility alias for --ocr-workers.")
     parser.add_argument("--fresh", action="store_true", help="Ignore existing changelog/rename.md and rebuild review for the selected scope.")
-    parser.add_argument("--retry-needs-review", action="store_true", help="Retry pending needs-review entries in the rename changelog with Groq.")
+    parser.add_argument("--retry-needs-review", action="store_true", help="Retry pending needs-review entries with Groq only. Does not initialize PaddleOCR.")
+    parser.add_argument("--retry-full-review", action="store_true", help="Retry pending needs-review entries with PyMuPDF text, PaddleOCR, then Groq.")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
     try:
-        selected_actions = sum(bool(value) for value in (args.apply, args.discard, args.retry_needs_review, args.rollback_needs_review))
+        selected_actions = sum(bool(value) for value in (args.apply, args.discard, args.retry_needs_review, args.retry_full_review, args.rollback_needs_review))
         if selected_actions > 1:
-            raise RenameError("Use only one of --apply, --discard, --rollback-needs-review, or --retry-needs-review.")
+            raise RenameError("Use only one of --apply, --discard, --rollback-needs-review, --retry-needs-review, or --retry-full-review.")
         if args.discard:
             removed = discard_changelog()
             if removed:
@@ -1662,7 +1874,7 @@ def main() -> int:
             )
             return 0
         if args.retry_needs_review:
-            payload = retry_needs_review(scope, args.ocr_workers if args.ocr_workers is not None else args.workers)
+            payload = retry_needs_review(scope, args.ocr_workers if args.ocr_workers is not None else args.workers, args.ocr_device)
             if payload is None:
                 print("No pending needs-review entries to retry.")
             else:
@@ -1671,12 +1883,22 @@ def main() -> int:
                 rename_count = sum(1 for entry in entries if entry.get("action") == "rename" and entry.get("status") == "pending")
                 print(f"Groq retry complete; {rename_count} ready to rename; {review_count} still need review.")
             return 0
+        if args.retry_full_review:
+            payload = retry_needs_review_full(scope, args.ocr_workers if args.ocr_workers is not None else args.workers, args.ocr_device)
+            if payload is None:
+                print("No pending needs-review entries to retry.")
+            else:
+                entries = payload.get("entries") or []
+                review_count = sum(1 for entry in entries if entry.get("action") == "review" and entry.get("status") == "pending")
+                rename_count = sum(1 for entry in entries if entry.get("action") == "rename" and entry.get("status") == "pending")
+                print(f"Full retry complete; {rename_count} ready to rename; {review_count} still need review.")
+            return 0
         if args.apply:
             result = apply_review(scope)
             print(f"Renamed {result['moved']} files in working folders; {result['reviewed']} files to needs_review; skipped {result['skipped']}.")
         else:
             ocr_workers = args.ocr_workers if args.ocr_workers is not None else args.workers
-            payload = review_pdfs(scope, ocr_workers=ocr_workers, fresh=args.fresh)
+            payload = review_pdfs(scope, ocr_workers=ocr_workers, fresh=args.fresh, ocr_device=args.ocr_device)
             entries = payload.get("entries") or []
             review_count = sum(1 for entry in entries if entry.get("action") == "review" and entry.get("status") == "pending")
             retry_count = sum(1 for entry in entries if entry.get("status") == "retry_pending")

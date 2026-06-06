@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.util
 import json
 import os
 import re
@@ -425,7 +426,7 @@ def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], n
             state = str(existing["state"])
         else:
             state = "PENDING"
-        if state == "UPLOADED":
+        if state in {"UPLOADED", "FAILED"}:
             r2_status = str(existing["r2_status"])
             cloudinary_status = str(existing["cloudinary_status"])
         connection.execute(
@@ -503,16 +504,22 @@ def scan_papers() -> Counter[str]:
     counts: Counter[str] = Counter()
     seen_ids: set[int] = set()
 
+    all_pdfs = sorted(PAPERS_DIR.rglob("*.pdf"))
+    total = len(all_pdfs)
+    print(f"Scanning {total} papers (hashing + DB upsert)...", flush=True)
+
     with connect_upload_db() as connection:
         by_pdf_id, by_path = existing_rows(connection)
-        for path in sorted(PAPERS_DIR.rglob("*.pdf")):
+        for index, path in enumerate(all_pdfs, start=1):
+            if index == 1 or index % 100 == 0 or index == total:
+                print(f"Scan progress: {index}/{total} papers", flush=True)
             record = record_for_pdf(path, names, tracking_lookup)
             if not record:
                 counts["SKIPPED"] += 1
                 continue
             state = upsert_scan_record(connection, record, now, by_pdf_id, by_path)
             counts[state] += 1
-        current_paths = {project_relative(path) for path in PAPERS_DIR.rglob("*.pdf")}
+        current_paths = {project_relative(p) for p in all_pdfs}
         for row in connection.execute("SELECT id, local_path, state FROM uploaded_pdfs WHERE state != 'REMOVED'").fetchall():
             if row["local_path"] not in current_paths:
                 connection.execute(
@@ -522,6 +529,7 @@ def scan_papers() -> Counter[str]:
                 counts["REMOVED"] += 1
                 seen_ids.add(int(row["id"]))
         connection.commit()
+    print(f"Scan complete: {total} papers processed", flush=True)
     return counts
 
 
@@ -597,6 +605,26 @@ def r2_client() -> tuple[Any, str]:
 
 
 def validate_upload_environment() -> None:
+    missing_packages = [
+        package
+        for package, module in (
+            ("boto3", "boto3"),
+            ("cloudinary", "cloudinary"),
+            ("requests", "requests"),
+        )
+        if importlib.util.find_spec(module) is None
+    ]
+    if missing_packages:
+        install_command = (
+            f'"{sys.executable}" -m pip install '
+            + " ".join(missing_packages)
+        )
+        raise RuntimeError(
+            "Missing upload packages: "
+            f"{', '.join(missing_packages)}. Install them in this Python environment with: "
+            f"{install_command}"
+        )
+
     missing: list[str] = []
     if not (os.environ.get("R2_ACCESS_KEY_ID") or os.environ.get("AWS_ACCESS_KEY_ID")):
         missing.append("R2_ACCESS_KEY_ID")

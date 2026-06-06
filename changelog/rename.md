@@ -5,11 +5,11 @@ Review the planned moves below, then run `python3 tools/rename_files.py --apply`
 
 Machine-readable state is stored separately in `changelog/rename.json`.
 
-- Generated at: `2026-06-05T13:31:49Z`
+- Generated at: `2026-06-06T19:00:32Z`
 - Scope: `incoming`
-- Pending entries: `0`
-- Planned renames: `1755`
-- Needs review: `2`
+- Pending entries: `1`
+- Planned renames: `2687`
+- Needs review: `4`
 - Retry later: `0`
 - Total PDFs: `1`
 - Already normalized: `0`
@@ -17,8 +17,9 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Reopened for apply: `0`
 - Retry pending: `0`
 - Remaining: `0`
-- Metadata pipeline: `pymupdf_text,paddleocr,groq`
+- Metadata pipeline: `pymupdf_text,paddleocr_gpu_then_cpu,groq`
 - PaddleOCR crop ratios: `[0.45, 0.65, 1.0]`
+- PaddleOCR device: `gpu:0 first, cpu fallback`
 - PaddleOCR confidence threshold: `0.85`
 - PaddleOCR relaxed direct-phrase threshold: `0.55`
 - Groq keys: `3`
@@ -28,25 +29,25 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 
 ### Exam Types
 
-- `insem`: `824`
-- `endsem`: `1515`
-- `other`: `450`
-- `needs_review`: `2`
+- `insem`: `1085`
+- `endsem`: `2028`
+- `other`: `608`
+- `needs_review`: `4`
 
 ### Marks
 
-- `30`: `512`
-- `50`: `303`
+- `30`: `773`
+- `50`: `461`
 - `60`: `2`
-- `70`: `938`
+- `70`: `1451`
 
 ### Metadata Sources
 
 - `already_normalized`: `1034`
-- `groq`: `9`
-- `paddleocr`: `624`
-- `review`: `2`
-- `text`: `1122`
+- `groq`: `16`
+- `paddleocr`: `932`
+- `review`: `4`
+- `text`: `1739`
 
 ### Already Normalized
 
@@ -75,6 +76,28 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Source: `review`
 - Working target: `needs_review/honors-course/te/embedded_systems_and_internet_of_things_hc/May_Jun_2025.pdf`
 - Reason: Source file no longer exists: needs_review/honors-course/te/embedded_systems_and_internet_of_things_hc/May_Jun_2025.pdf
+
+### 3. Needs Review - 4959-1099  NW7JKUSG.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099%20%20NW7JKUSG.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099  NW7JKUSG.pdf`
+- Initial filename: `4959-1099  NW7JKUSG.pdf`
+- Changed filename: `4959-1099  NW7JKUSG.pdf`
+- Type: `needs_review`
+- Source: `review`
+- Working target: `needs_review/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099  NW7JKUSG.pdf`
+- Reason: filename date incomplete; PaddleOCR did not find direct marks near a marks phrase in first-page crops: 45%, 65%, 100%; Groq did not extract usable metadata: marks extracted from first page header, year extracted from filename/paper pattern, month_code not found in filename
+
+### 4. Needs Review - 4959-1099  NW7JKUSG.pdf
+
+- PDF: [Open PDF](../needs_review/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099%20%20NW7JKUSG.pdf)
+- Incoming path: `needs_review/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099  NW7JKUSG.pdf`
+- Initial filename: `4959-1099  NW7JKUSG.pdf`
+- Changed filename: `4959-1099  NW7JKUSG.pdf`
+- Type: `needs_review`
+- Source: `review`
+- Working target: `needs_review/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/4959-1099  NW7JKUSG.pdf`
+- Reason: filename date incomplete; PaddleOCR did not find direct marks near a marks phrase in first-page crops: 45%, 65%, 100%; Groq did not extract usable metadata: marks extracted from first page header, year extracted from filename, but month_code not found in filename
 
 ## Planned Renames
 
@@ -24646,4 +24669,13052 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Source: `text`
 - Working target: `incoming/it-engineering/te/2019_pattern/web_application_development_ie/endsem_nov_dec_2025_ie_wadi_2019p.pdf`
 - Expected papers path: `papers/it-engineering/te/2019_pattern/web_application_development_ie/endsem_nov_dec_2025_ie_wadi_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1756. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_aaee_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/insem_apr_2017_ete_aaee_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/insem_apr_2017_ete_aaee_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1757. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_aaee_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/endsem_may_jun_2016_ete_aaee_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/endsem_may_jun_2016_ete_aaee_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1758. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_aaee_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/endsem_nov_dec_2016_ete_aaee_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/advanced_automotive_electronics_ele_I_ete/endsem_nov_dec_2016_ete_aaee_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1759. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_aie_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/endsem_may_jun_2016_ete_aie_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/endsem_may_jun_2016_ete_aie_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1760. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_aie_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/endsem_nov_dec_2016_ete_aie_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/endsem_nov_dec_2016_ete_aie_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1761. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_aie_eII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/insem_oct_2016_ete_aie_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/artificial_intelligence_ele_II_ete/insem_oct_2016_ete_aie_eII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1762. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_avee_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_apr_2017_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_apr_2017_ete_avee_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1763. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_avee_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_feb_2016_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_feb_2016_ete_avee_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1764. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_avee_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_mar_2018_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_mar_2018_ete_avee_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1765. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_avee_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_mar_2019_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/insem_mar_2019_ete_avee_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1766. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2016_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2016_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1767. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2017_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2017_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1768. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2018_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2018_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1769. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2019_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_may_jun_2019_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1770. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_nov_dec_2016_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_nov_dec_2016_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1771. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_avee_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_nov_dec_2017_ete_avee_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/audio_vedio_engineering_elective_III_ete/endsem_nov_dec_2017_ete_avee_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1772. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_bspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/insem_apr_2017_ete_bspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/insem_apr_2017_ete_bspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1773. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_bspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/endsem_may_jun_2016_ete_bspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/biomedical_signal_processing_ete/endsem_may_jun_2016_ete_bspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1774. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_bcse_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_apr_2017_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_apr_2017_ete_bcse_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1775. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_bcse_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_feb_2016_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_feb_2016_ete_bcse_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1776. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_bcse_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2018_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2018_ete_bcse_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1777. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_bcse_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2019_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2019_ete_bcse_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1778. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_bcse_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2020_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/insem_mar_2020_ete_bcse_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1779. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2016_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2016_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1780. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2017_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2017_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1781. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2018_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2018_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1782. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2019_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_may_jun_2019_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1783. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2016_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2016_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1784. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2017_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2017_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1785. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2018_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2018_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1786. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_bcse_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2019_ete_bcse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/broadband_communication_systems_ete/endsem_nov_dec_2019_ete_bcse_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1787. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_cne_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_aug_2015_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_aug_2015_ete_cne_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1788. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_cne_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_aug_2017_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_aug_2017_ete_cne_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1789. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2016_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2016_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1790. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2017_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2017_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1791. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2018_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2018_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1792. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2019_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_may_jun_2019_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1793. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2015_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2015_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1794. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2016_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2016_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1795. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2017_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2017_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1796. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2018_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2018_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1797. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_cne_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2019_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/endsem_nov_dec_2019_ete_cne_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1798. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_cne_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_oct_2019_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_oct_2019_ete_cne_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1799. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_cne_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_oct_2016_ete_cne_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/computer_network_ete/insem_oct_2016_ete_cne_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1800. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_dete_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/insem_apr_2017_ete_dete_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/insem_apr_2017_ete_dete_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1801. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_dete_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/endsem_may_jun_2016_ete_dete_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/detection_and_estimation_theory_ele_IV_ete/endsem_may_jun_2016_ete_dete_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1802. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_dipe_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_aug_2015_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_aug_2015_ete_dipe_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1803. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_dipe_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_aug_2017_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_aug_2017_ete_dipe_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1804. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2016_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2016_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1805. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2017_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2017_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1806. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2019_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_may_jun_2019_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1807. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2015_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2015_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1808. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2016_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2016_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1809. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2017_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2017_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1810. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2018_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2018_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1811. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_dipe_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2019_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/endsem_nov_dec_2019_ete_dipe_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1812. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_dipe_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_oct_2016_ete_dipe_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/digital_image_processing_elective_I_ete/insem_oct_2016_ete_dipe_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1813. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_epde_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_aug_2015_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_aug_2015_ete_epde_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1814. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_epde_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_aug_2017_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_aug_2017_ete_epde_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1815. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2016_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2016_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1816. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2017_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2017_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1817. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2018_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2018_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1818. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2019_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_may_jun_2019_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1819. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2015_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2015_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1820. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2016_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2016_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1821. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2017_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2017_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1822. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_epde_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2018_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/endsem_nov_dec_2018_ete_epde_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1823. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_epde_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_oct_2016_ete_epde_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/electronic_product_design_ete/insem_oct_2016_ete_epde_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1824. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_esre_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_aug_2015_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_aug_2015_ete_esre_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1825. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_esre_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_aug_2017_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_aug_2017_ete_esre_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1826. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_may_jun_2016_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_may_jun_2016_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1827. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_may_jun_2017_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_may_jun_2017_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1828. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2015_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2015_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1829. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2016_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2016_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1830. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2017_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2017_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1831. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2018_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2018_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1832. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_esre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2019_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/endsem_nov_dec_2019_ete_esre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1833. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_esre_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_oct_2016_ete_esre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/embedded_system_and_rtos_elective_I_ete/insem_oct_2016_ete_esre_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1834. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_idce_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/endsem_may_jun_2016_ete_idce_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/endsem_may_jun_2016_ete_idce_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1835. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_idce_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/endsem_nov_dec_2015_ete_idce_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/endsem_nov_dec_2015_ete_idce_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1836. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_idce_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/insem_oct_2016_ete_idce_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/industrial_drives_and_control_ele_I_ete/insem_oct_2016_ete_idce_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1837. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_mee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_aug_2015_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_aug_2015_ete_mee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1838. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_mee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_aug_2017_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_aug_2017_ete_mee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1839. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2016_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2016_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1840. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2017_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2017_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1841. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2018_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2018_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1842. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2019_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_may_jun_2019_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1843. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2015_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2015_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1844. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2016_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2016_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1845. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2017_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2017_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1846. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_mee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2019_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/endsem_nov_dec_2019_ete_mee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1847. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_mee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_oct_2016_ete_mee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/microwave_engineering_ete/insem_oct_2016_ete_mee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1848. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_mce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_apr_2017_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_apr_2017_ete_mce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1849. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_mce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_feb_2016_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_feb_2016_ete_mce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1850. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_mce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2018_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2018_ete_mce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1851. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_mce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2019_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2019_ete_mce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1852. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_mce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2020_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/insem_mar_2020_ete_mce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1853. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2016_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2016_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1854. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2017_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2017_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1855. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2018_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2018_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1856. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2019_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_may_jun_2019_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1857. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2016_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2016_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1858. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2017_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2017_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1859. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2018_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2018_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1860. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_mce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2019_ete_mce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/mobile_communication_ete/endsem_nov_dec_2019_ete_mce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1861. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_maspe_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/endsem_may_jun_2016_ete_maspe_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/endsem_may_jun_2016_ete_maspe_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1862. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_maspe_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/endsem_nov_dec_2016_ete_maspe_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/endsem_nov_dec_2016_ete_maspe_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1863. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_maspe_eII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/insem_oct_2016_ete_maspe_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/multirate_and_adaptive_signal_processing_ele_II_ete/insem_oct_2016_ete_maspe_eII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1864. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_neme_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/insem_apr_2017_ete_neme_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/insem_apr_2017_ete_neme_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1865. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_pae_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/endsem_may_jun_2016_ete_pae_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/endsem_may_jun_2016_ete_pae_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1866. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_pae_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/endsem_nov_dec_2016_ete_pae_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/endsem_nov_dec_2016_ete_pae_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1867. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_pae_eII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/insem_oct_2016_ete_pae_eII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/plcs_and_automation_ele_II_ete/insem_oct_2016_ete_pae_eII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1868. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_rcde_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/insem_apr_2017_ete_rcde_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/insem_apr_2017_ete_rcde_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1869. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_rcde_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/endsem_may_jun_2016_ete_rcde_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/rf_circuit_design_ele_III_ete/endsem_may_jun_2016_ete_rcde_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1870. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_scte_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/insem_apr_2017_ete_scte_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/insem_apr_2017_ete_scte_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1871. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_scte_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/endsem_may_jun_2016_ete_scte_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/endsem_may_jun_2016_ete_scte_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1872. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_scte_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/endsem_nov_dec_2016_ete_scte_eIII_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/soft_computing_techniques_ele_III_ete/endsem_nov_dec_2016_ete_scte_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1873. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_sdre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/endsem_may_jun_2016_ete_sdre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/endsem_may_jun_2016_ete_sdre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1874. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_sdre_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/endsem_nov_dec_2015_ete_sdre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/endsem_nov_dec_2015_ete_sdre_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1875. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_sdre_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/insem_oct_2016_ete_sdre_eI_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/software_defined_radio_elective_I_ete/insem_oct_2016_ete_sdre_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1876. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_saspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/insem_apr_2017_ete_saspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/insem_apr_2017_ete_saspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1877. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_saspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/endsem_may_jun_2016_ete_saspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/endsem_may_jun_2016_ete_saspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1878. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_saspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/endsem_nov_dec_2016_ete_saspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/speech_and_audio_signal_processing_ete/endsem_nov_dec_2016_ete_saspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1879. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_ucccae_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/insem_apr_2017_ete_ucccae_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/insem_apr_2017_ete_ucccae_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1880. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_ucccae_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/endsem_may_jun_2016_ete_ucccae_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/endsem_may_jun_2016_ete_ucccae_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1881. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_ucccae_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/endsem_nov_dec_2018_ete_ucccae_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/unified_communication_and_contact_center_application_ele_IV_ete/endsem_nov_dec_2018_ete_ucccae_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1882. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_vdte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_aug_2015_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_aug_2015_ete_vdte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1883. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_vdte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_aug_2017_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_aug_2017_ete_vdte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1884. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2016_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2016_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1885. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2017_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2017_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1886. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2018_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2018_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1887. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2019_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2019_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1888. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2015_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2015_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1889. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2016_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2016_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1890. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2017_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2017_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1891. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2018_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2018_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1892. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_vdte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2019_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2019_ete_vdte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1893. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_vdte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_oct_2016_ete_vdte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/vlsi_design_and_technology_ete/insem_oct_2016_ete_vdte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1894. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_wne_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_apr_2017_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_apr_2017_ete_wne_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1895. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_wne_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_feb_2016_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_feb_2016_ete_wne_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1896. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_wne_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_mar_2018_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_mar_2018_ete_wne_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1897. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_wne_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_mar_2019_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/insem_mar_2019_ete_wne_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1898. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2016_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2016_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1899. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2017_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2017_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1900. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2018_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2018_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1901. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2019_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_may_jun_2019_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1902. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2016_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2016_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1903. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2017_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2017_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1904. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_wne_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2019_ete_wne_eIV_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/wireless_networks_elective_IV_ete/endsem_nov_dec_2019_ete_wne_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1905. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/artificial_intelligence_ele_II_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/artificial_intelligence_ele_II_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_aie_eII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/artificial_intelligence_ele_II_ete/endsem_may_jun_2022_ete_aie_eII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/artificial_intelligence_ele_II_ete/endsem_may_jun_2022_ete_aie_eII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1906. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_avee_eIII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/insem_mar_2019_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/insem_mar_2019_ete_avee_eIII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1907. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_avee_eIII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/insem_mar_2020_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/insem_mar_2020_ete_avee_eIII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1908. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2019_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2019_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1909. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2022_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2022_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1910. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2023_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2023_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1911. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2025_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_may_jun_2025_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1912. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2019_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2019_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1913. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2022_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2022_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1914. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_avee_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2023_ete_avee_eIII_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/audio_video_engg_ele_III_ete/endsem_nov_dec_2023_ete_avee_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1915. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/biomedical_electronics_ele_IV_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/biomedical_electronics_ele_IV_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_bee_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/biomedical_electronics_ele_IV_ete/endsem_may_jun_2022_ete_bee_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/biomedical_electronics_ele_IV_ete/endsem_may_jun_2022_ete_bee_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1916. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_bcse_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/insem_mar_2019_ete_bcse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/insem_mar_2019_ete_bcse_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1917. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_bcse_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/insem_mar_2020_ete_bcse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/insem_mar_2020_ete_bcse_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1918. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_bcse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_may_jun_2022_ete_bcse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_may_jun_2022_ete_bcse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1919. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_bcse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_may_jun_2023_ete_bcse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_may_jun_2023_ete_bcse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1920. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_bcse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_nov_dec_2019_ete_bcse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/brodband_comm_systems_ete/endsem_nov_dec_2019_ete_bcse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1921. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_cnse_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/insem_aug_2018_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/insem_aug_2018_ete_cnse_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1922. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_cnse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_may_jun_2019_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_may_jun_2019_ete_cnse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1923. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_cnse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_may_jun_2022_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_may_jun_2022_ete_cnse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1924. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_cnse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_nov_dec_2018_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_nov_dec_2018_ete_cnse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1925. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_cnse_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_nov_dec_2019_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/endsem_nov_dec_2019_ete_cnse_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1926. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_cnse_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/insem_oct_2019_ete_cnse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/computer_networks_and_security_ete/insem_oct_2019_ete_cnse_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1927. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_epde_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/insem_aug_2018_ete_epde_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/insem_aug_2018_ete_epde_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1928. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_epde_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_may_jun_2019_ete_epde_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_may_jun_2019_ete_epde_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1929. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_epde_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_nov_dec_2018_ete_epde_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_nov_dec_2018_ete_epde_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1930. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_epde_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_nov_dec_2019_ete_epde_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/endsem_nov_dec_2019_ete_epde_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1931. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_epde_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/insem_oct_2019_ete_epde_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/electronics_product_design_ete/insem_oct_2019_ete_epde_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1932. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_esre_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/insem_aug_2018_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/insem_aug_2018_ete_esre_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1933. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_esre_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_may_jun_2019_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_may_jun_2019_ete_esre_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1934. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_esre_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_may_jun_2022_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_may_jun_2022_ete_esre_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1935. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_esre_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2019_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2019_ete_esre_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1936. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_esre_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2022_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2022_ete_esre_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1937. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_esre_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2023_ete_esre_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/embedded_system_and_rtos_ete/endsem_nov_dec_2023_ete_esre_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1938. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_ite_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/insem_aug_2018_ete_ite_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/insem_aug_2018_ete_ite_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1939. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_ite_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_may_jun_2019_ete_ite_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_may_jun_2019_ete_ite_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1940. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_ite_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_nov_dec_2018_ete_ite_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_nov_dec_2018_ete_ite_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1941. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_ite_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_nov_dec_2019_ete_ite_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/endsem_nov_dec_2019_ete_ite_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1942. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_ite_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/insem_oct_2019_ete_ite_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/internet_of_things_ete/insem_oct_2019_ete_ite_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1943. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_mce_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/insem_mar_2019_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/insem_mar_2019_ete_mce_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1944. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_mce_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/insem_mar_2020_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/insem_mar_2020_ete_mce_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1945. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_mce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2019_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2019_ete_mce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1946. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_mce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2022_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2022_ete_mce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1947. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_mce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2023_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_may_jun_2023_ete_mce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1948. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_mce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_nov_dec_2019_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_nov_dec_2019_ete_mce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1949. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_mce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_nov_dec_2022_ete_mce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/mobile_communication_ete/endsem_nov_dec_2022_ete_mce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1950. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_rmte_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/insem_aug_2018_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/insem_aug_2018_ete_rmte_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1951. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_rmte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_may_jun_2019_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_may_jun_2019_ete_rmte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1952. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_rmte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_may_jun_2022_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_may_jun_2022_ete_rmte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1953. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_rmte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_nov_dec_2018_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_nov_dec_2018_ete_rmte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1954. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_rmte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_nov_dec_2019_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/endsem_nov_dec_2019_ete_rmte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1955. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_rmte_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/insem_oct_2019_ete_rmte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/radiation_and_microwave_techniques_ete/insem_oct_2019_ete_rmte_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1956. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_vdte_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/insem_aug_2018_ete_vdte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/insem_aug_2018_ete_vdte_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1957. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_vdte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2019_ete_vdte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2019_ete_vdte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1958. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_vdte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2018_ete_vdte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2018_ete_vdte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1959. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_vdte_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2019_ete_vdte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2019_ete_vdte_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1960. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_vdte_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/insem_oct_2019_ete_vdte_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/vlsi_design_and_technology_ete/insem_oct_2019_ete_vdte_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1961. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_wsne_eIV_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/insem_mar_2019_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/insem_mar_2019_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 1962. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_wsne_eIV_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/insem_mar_2020_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/insem_mar_2020_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1963. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_wsne_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2019_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2019_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1964. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_wsne_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2022_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2022_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1965. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_wsne_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2023_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_may_jun_2023_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1966. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_wsne_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_nov_dec_2019_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_nov_dec_2019_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1967. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_wsne_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_nov_dec_2022_ete_wsne_eIV_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2015_pattern/wireless_sensor_networks_ele_IV_ete/endsem_nov_dec_2022_ete_wsne_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1968. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_ade_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/insem_mar_2024_ete_ade_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/insem_mar_2024_ete_ade_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1969. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_ade_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/endsem_may_jun_2024_ete_ade_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/android_development_ele_V_ete/endsem_may_jun_2024_ete_ade_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1970. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_cce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_aug_2025_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_aug_2025_ete_cce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1971. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2023_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2023_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1972. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2024_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2024_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1973. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2025_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_may_jun_2025_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1974. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2022_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2022_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1975. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2023_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2023_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1976. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2024_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2024_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1977. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_cce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2025_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/endsem_nov_dec_2025_ete_cce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1978. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_cce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_oct_2022_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_oct_2022_ete_cce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1979. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_cce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2023_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2023_ete_cce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1980. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_cce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2024_ete_cce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/cloud_computing_ete/insem_sep_2024_ete_cce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1981. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dle_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_may_jun_2024_ete_dle_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_may_jun_2024_ete_dle_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1982. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dle_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_nov_dec_2023_ete_dle_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/endsem_nov_dec_2023_ete_dle_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1983. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_dle_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/insem_sep_2023_ete_dle_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/deep_learning_ele_IV_ete/insem_sep_2023_ete_dle_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1984. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_dme_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_feb_2023_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_feb_2023_ete_dme_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1985. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_dme_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2024_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2024_ete_dme_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1986. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_dme_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2025_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/insem_mar_2025_ete_dme_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1987. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dme_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2023_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2023_ete_dme_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1988. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dme_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2024_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2024_ete_dme_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1989. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dme_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2025_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_may_jun_2025_ete_dme_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1990. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dme_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2023_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2023_ete_dme_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1991. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dme_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2024_ete_dme_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/digital_marketing_ele_VI_ete/endsem_nov_dec_2024_ete_dme_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1992. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_epde_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_aug_2025_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_aug_2025_ete_epde_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 1993. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2023_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2023_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1994. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2024_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2024_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1995. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2025_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_may_jun_2025_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1996. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2022_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2022_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1997. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2023_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2023_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1998. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2024_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2024_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 1999. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_epde_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2025_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/endsem_nov_dec_2025_ete_epde_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2000. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_epde_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_oct_2022_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_oct_2022_ete_epde_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2001. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_epde_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2023_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2023_ete_epde_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2002. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_epde_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2024_ete_epde_eIV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/electronic_product_development_ele_IV_ete/insem_sep_2024_ete_epde_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2003. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/embedded_system_design_ele_V_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/embedded_system_design_ele_V_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_esde_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/embedded_system_design_ele_V_ete/endsem_may_jun_2025_ete_esde_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/embedded_system_design_ele_V_ete/endsem_may_jun_2025_ete_esde_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2004. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_foce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_feb_2023_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_feb_2023_ete_foce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2005. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_foce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2024_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2024_ete_foce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2006. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_foce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2025_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/insem_mar_2025_ete_foce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2007. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2023_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2023_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2008. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2024_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2024_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2009. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2025_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_may_jun_2025_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2010. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2023_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2023_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2011. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2024_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2024_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2012. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_foce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2025_ete_foce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/fiber_optic_communication_ete/endsem_nov_dec_2025_ete_foce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2013. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_irae_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2023_ete_irae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2023_ete_irae_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2014. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_irae_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2025_ete_irae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_may_jun_2025_ete_irae_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2015. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_irae_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_nov_dec_2024_ete_irae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/endsem_nov_dec_2024_ete_irae_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2016. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_irae_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/insem_sep_2023_ete_irae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/industrial_robotics_and_automation_ete/insem_sep_2023_ete_irae_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2017. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_jse_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_aug_2025_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_aug_2025_ete_jse_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2018. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2023_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2023_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2019. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2024_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2024_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2020. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2025_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_may_jun_2025_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2021. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2022_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2022_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2022. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2023_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2023_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2023. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2024_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2024_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2024. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_jse_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2025_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/endsem_nov_dec_2025_ete_jse_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2025. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_jse_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_oct_2022_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_oct_2022_ete_jse_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2026. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_jse_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2023_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2023_ete_jse_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2027. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_jse_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2024_ete_jse_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/java_script_ele_III_ete/insem_sep_2024_ete_jse_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2028. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_mce_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_feb_2023_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_feb_2023_ete_mce_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2029. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_mce_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2024_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2024_ete_mce_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2030. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_mce_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2025_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/insem_mar_2025_ete_mce_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2031. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2023_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2023_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2032. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2024_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2024_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2033. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2025_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_may_jun_2025_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2034. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2023_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2023_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2035. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2024_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2024_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2036. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_mce_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2025_ete_mce_eV_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/mobile_computing_ele_V_ete/endsem_nov_dec_2025_ete_mce_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2037. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_mie_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_aug_2025_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_aug_2025_ete_mie_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2038. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_mie_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2024_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2024_ete_mie_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2039. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_mie_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2025_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_may_jun_2025_ete_mie_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2040. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_mie_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2023_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2023_ete_mie_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2041. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_mie_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2024_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2024_ete_mie_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2042. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_mie_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2025_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/endsem_nov_dec_2025_ete_mie_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2043. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_mie_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2023_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2023_ete_mie_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2044. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_mie_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2024_ete_mie_eIII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/modernized_iot_ele_III_ete/insem_sep_2024_ete_mie_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2045. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_nee_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_feb_2023_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_feb_2023_ete_nee_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2046. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_nee_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2024_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2024_ete_nee_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2047. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_nee_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2025_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/insem_mar_2025_ete_nee_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2048. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2023_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2023_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2049. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2024_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2024_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2050. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2025_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_may_jun_2025_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2051. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2023_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2023_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2052. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2024_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2024_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2053. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_nee_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2025_ete_nee_eVI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/nano_electronics_ele_VI_ete/endsem_nov_dec_2025_ete_nee_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2054. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_rmte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_aug_2025_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_aug_2025_ete_rmte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2055. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2023_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2023_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2056. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2024_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2024_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2057. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2025_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_may_jun_2025_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2058. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2022_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2022_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2059. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2023_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2023_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2060. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2024_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2024_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2061. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_rmte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2025_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/endsem_nov_dec_2025_ete_rmte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2062. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_rmte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_oct_2022_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_oct_2022_ete_rmte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2063. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_rmte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2023_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2023_ete_rmte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2064. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_rmte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2024_ete_rmte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/radiation_and_microwave_theory_ete/insem_sep_2024_ete_rmte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2065. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/smart_contract_and_crypto_currency_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/smart_contract_and_crypto_currency_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_sccce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/smart_contract_and_crypto_currency_ete/insem_sep_2023_ete_sccce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/smart_contract_and_crypto_currency_ete/insem_sep_2023_ete_sccce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2066. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_vdte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_aug_2025_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_aug_2025_ete_vdte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2067. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2023_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2023_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2068. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2024_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2024_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2069. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2025_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_may_jun_2025_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2070. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2022_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2022_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2071. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2023_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2023_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2072. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2024_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2024_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2073. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_vdte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2025_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/endsem_nov_dec_2025_ete_vdte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2074. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_vdte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_oct_2022_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_oct_2022_ete_vdte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2075. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_vdte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2023_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2023_ete_vdte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2076. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Sept-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_vdte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2024_ete_vdte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/be/2019_pattern/vlsi_design_and_technology_ete/insem_sep_2024_ete_vdte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2077. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2014_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2014_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2078. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2016_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2016_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2079. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2017_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2017_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2080. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2018_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_may_jun_2018_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2081. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2015_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2015_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2082. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2016_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2016_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2083. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ace_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2017_ete_ace_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/analog_communication_ete/other_nov_dec_2017_ete_ace_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2084. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2014_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2014_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2085. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2015_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2015_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2086. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2016_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2016_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2087. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2017_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2017_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2088. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2018_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_may_jun_2018_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2089. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2014_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2014_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2090. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2015_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2015_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2091. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2016_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2016_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2092. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2017_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2017_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2093. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_coe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2019_ete_coe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/computer_organisation_ete/other_nov_dec_2019_ete_coe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2094. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2014_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2014_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2095. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2015_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2015_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2096. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2016_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2016_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2097. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2017_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2017_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks found in first page header, month and year extracted from filename
+
+### 2098. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2018_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_may_jun_2018_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2099. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2014_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2014_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2100. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2015_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2015_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2101. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2016_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2016_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2102. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_cse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2017_ete_cse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/control_systems_ete/other_nov_dec_2017_ete_cse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2103. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2014_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2014_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2104. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2015_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2015_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2105. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2016_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2016_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2106. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2017_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2017_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2107. OTHER - Nov_Dec_2013.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2013.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2013.pdf`
+- Initial filename: `Nov_Dec_2013.pdf`
+- Changed filename: `other_nov_dec_2013_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2013`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2013_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2013_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2108. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2014_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2014_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2109. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2015_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2015_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2110. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_ddae_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2016_ete_ddae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2016_ete_ddae_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2111. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2014_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2014_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2112. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2015_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2015_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2113. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2016_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2016_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2114. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2017_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2017_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks found in first page header, month and year extracted from filename
+
+### 2115. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2018_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_may_jun_2018_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2116. OTHER - Nov_Dec_2013.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2013.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2013.pdf`
+- Initial filename: `Nov_Dec_2013.pdf`
+- Changed filename: `other_nov_dec_2013_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2013`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2013_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2013_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2117. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2014_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2014_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2118. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2015_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2015_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2119. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2016_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2016_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2120. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_dee_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2017_ete_dee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/digital_electronics_ete/other_nov_dec_2017_ete_dee_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2121. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2014_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2014_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2122. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2015_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2015_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2123. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2016_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2016_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2124. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2017_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2017_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2125. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2018_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2018_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2126. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2019_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_may_jun_2019_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2127. OTHER - Nov_Dec_2013.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2013.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2013.pdf`
+- Initial filename: `Nov_Dec_2013.pdf`
+- Changed filename: `other_nov_dec_2013_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2013`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2013_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2013_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2128. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2014_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2014_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2129. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2015_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2015_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2130. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2016_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2016_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2131. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2017_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2017_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2132. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2018_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2018_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2133. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_edce_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2019_ete_edce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2019_ete_edce_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2134. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2014_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2014_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2135. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2015_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2015_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2136. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2016_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2016_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2137. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2017_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2017_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks found in first page header, month and year extracted from filename
+
+### 2138. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2018_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_may_jun_2018_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2139. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2014_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2014_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2140. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2015_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2015_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2141. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2016_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2016_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2142. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_emIIIe_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2017_ete_emIIIe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/engineering_mathematics_III_ete/other_nov_dec_2017_ete_emIIIe_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2143. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2014_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2014_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2144. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2015_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2015_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2145. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2016_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2016_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2146. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2017_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2017_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2147. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2018_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_may_jun_2018_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2148. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2014_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2014_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2149. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2015_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2015_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2150. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2016_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2016_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2151. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ice_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2017_ete_ice_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/integrated_circuits_ete/other_nov_dec_2017_ete_ice_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2152. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2015_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2015_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2153. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2016_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2016_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2154. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2017_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2017_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; Metadata extracted from filename and first page header
+
+### 2155. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2018_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2018_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2156. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2019_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_may_jun_2019_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2157. OTHER - Nov_Dec_2013.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2013.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2013.pdf`
+- Initial filename: `Nov_Dec_2013.pdf`
+- Changed filename: `other_nov_dec_2013_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2013`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2013_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2013_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2158. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2014_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2014_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2159. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2015_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2015_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2160. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2016_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2016_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2161. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2017_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2017_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2162. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2018_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2018_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2163. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_nte_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2019_ete_nte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/network_theory_ete/other_nov_dec_2019_ete_nte_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2164. OTHER - May_Jun_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2014.pdf`
+- Initial filename: `May_Jun_2014.pdf`
+- Changed filename: `other_may_jun_2014_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2014_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2014_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2165. OTHER - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `other_may_jun_2015_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2015`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2015_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2015_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2166. OTHER - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `other_may_jun_2016_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2016_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2016_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2167. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2017_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2017_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2168. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2018_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_may_jun_2018_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2169. OTHER - Nov_Dec_2013.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2013.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2013.pdf`
+- Initial filename: `Nov_Dec_2013.pdf`
+- Changed filename: `other_nov_dec_2013_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2013`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2013_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2013_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2170. OTHER - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `other_nov_dec_2014_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2014_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2014_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2171. OTHER - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `other_nov_dec_2015_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2015_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2015_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2172. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2016_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2016_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2173. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_sse_2012p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2017_ete_sse_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2012_pattern/signals_and_systems_ete/other_nov_dec_2017_ete_sse_2012p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2174. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2017_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2017_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks found in first page header, month and year extracted from filename
+
+### 2175. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2018_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2018_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2176. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2019_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_may_jun_2019_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2177. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2017_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2017_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2178. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2018_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2018_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2179. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_ace_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2019_ete_ace_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/analog_communication_ete/other_nov_dec_2019_ete_ace_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2180. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2017_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2017_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2181. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2018_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2018_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2182. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2019_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_may_jun_2019_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2183. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2017_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2017_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2184. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2018_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2018_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2185. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_cse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2019_ete_cse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/control_system_ete/other_nov_dec_2019_ete_cse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2186. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2017_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2017_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2187. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2019_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_may_jun_2019_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2188. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2016_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2016_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2189. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2017_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2017_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2190. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2018_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2018_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2191. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_ddae_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2019_ete_ddae_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/data_dtructures_and_algorithms_ete/other_nov_dec_2019_ete_ddae_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2192. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2017_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2017_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks found in first page header, month and year extracted from filename
+
+### 2193. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2018_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2018_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2194. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2019_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_may_jun_2019_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2195. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2016_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2016_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2196. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2017_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2017_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2197. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_dee_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2019_ete_dee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/digital_electronics_ete/other_nov_dec_2019_ete_dee_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2198. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2017_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2017_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2199. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2018_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2018_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2200. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2019_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_may_jun_2019_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2201. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2016_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2016_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2202. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2017_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2017_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2203. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2018_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2018_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2204. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_ecme_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2019_ete_ecme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electrical_circuits_and_machines_ete/other_nov_dec_2019_ete_ecme_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2205. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2017_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2017_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2206. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2018_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2018_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2207. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2019_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_may_jun_2019_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2208. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2016_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2016_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2209. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2017_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2017_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2210. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2018_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2018_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2211. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_edce_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2019_ete_edce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/electronics_devices_and_circuits_ete/other_nov_dec_2019_ete_edce_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2212. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_emIIIe_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `groq`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2017_ete_emIIIe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2017_ete_emIIIe_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks found on first page, month and year extracted from filename
+
+### 2213. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_emIIIe_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2018_ete_emIIIe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2018_ete_emIIIe_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2214. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_emIIIe_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2019_ete_emIIIe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_may_jun_2019_ete_emIIIe_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2215. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_emIIIe_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_nov_dec_2017_ete_emIIIe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_nov_dec_2017_ete_emIIIe_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2216. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_emIIIe_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_nov_dec_2018_ete_emIIIe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/engineering_maths_III_ete/other_nov_dec_2018_ete_emIIIe_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2217. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_ice_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_may_jun_2017_ete_ice_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_may_jun_2017_ete_ice_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 100% first-page crop
+
+### 2218. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_ice_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_may_jun_2019_ete_ice_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_may_jun_2019_ete_ice_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2219. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_ice_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2017_ete_ice_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2017_ete_ice_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2220. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_ice_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2018_ete_ice_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2018_ete_ice_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2221. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_ice_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2019_ete_ice_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/integrated_circuits_ete/other_nov_dec_2019_ete_ice_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2222. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2017_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2017_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2223. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2018_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2018_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2224. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2019_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_may_jun_2019_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2225. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2017_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2017_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2226. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2018_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2018_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2227. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_oope_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2019_ete_oope_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/object_oriented_programming_ete/other_nov_dec_2019_ete_oope_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2228. OTHER - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `other_may_jun_2017_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2017_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2017_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2229. OTHER - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `other_may_jun_2018_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2018_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2018_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2230. OTHER - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `other_may_jun_2019_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2019_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_may_jun_2019_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2231. OTHER - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `other_nov_dec_2016_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2016_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2016_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2232. OTHER - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `other_nov_dec_2017_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2017_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2017_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2233. OTHER - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `other_nov_dec_2018_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2018_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2018_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2234. OTHER - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `other_nov_dec_2019_ete_sse_2015p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2019_ete_sse_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2015_pattern/signals_and_systems_ete/other_nov_dec_2019_ete_sse_2015p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 2235. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_cse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_feb_2023_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_feb_2023_ete_cse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2236. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_cse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2024_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2024_ete_cse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2237. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_cse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2025_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2025_ete_cse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2238. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_cse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2026_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/insem_mar_2026_ete_cse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2239. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2022_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2022_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2240. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2023_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2023_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2241. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2024_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2024_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2242. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2025_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_may_jun_2025_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2243. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2022_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2022_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2244. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2023_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2023_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2245. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2024_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2024_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2246. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_cse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2025_ete_cse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/control_system_ete/endsem_nov_dec_2025_ete_cse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2247. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dsae_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/endsem_may_jun_2024_ete_dsae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/endsem_may_jun_2024_ete_dsae_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2248. INSEM - Sept_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/Sept_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/Sept_2024.pdf`
+- Initial filename: `Sept_2024.pdf`
+- Changed filename: `insem_sep_2024_ete_dsae_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/insem_sep_2024_ete_dsae_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_and_algorithms_ete/insem_sep_2024_ete_dsae_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2249. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2023_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2023_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2250. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2025_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_may_jun_2025_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2251. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2022_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2022_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2252. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2023_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2023_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2253. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2024_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2024_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2254. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_dse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2025_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/endsem_nov_dec_2025_ete_dse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2255. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_dse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2022_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2022_ete_dse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2256. INSEM - Oct - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct - 2023.pdf`
+- Initial filename: `Oct - 2023.pdf`
+- Changed filename: `insem_oct_2023_ete_dse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2023_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2023_ete_dse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2257. INSEM - Oct - 2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct%20-%202025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Oct - 2025.pdf`
+- Initial filename: `Oct - 2025.pdf`
+- Changed filename: `insem_oct_2025_ete_dse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2025_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_oct_2025_ete_dse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2258. INSEM - Sept_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Sept_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/Sept_2024.pdf`
+- Initial filename: `Sept_2024.pdf`
+- Changed filename: `insem_sep_2024_ete_dse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_sep_2024_ete_dse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/data_structures_ete/insem_sep_2024_ete_dse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2259. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2260. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2261. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2262. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2263. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2264. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2265. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2266. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2022_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2022_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2267. INSEM - Oct - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct - 2023.pdf`
+- Initial filename: `Oct - 2023.pdf`
+- Changed filename: `insem_oct_2023_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2023_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2268. INSEM - Oct - 2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct%20-%202025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Oct - 2025.pdf`
+- Initial filename: `Oct - 2025.pdf`
+- Changed filename: `insem_oct_2025_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_oct_2025_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2269. INSEM - Sept_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Sept_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/Sept_2024.pdf`
+- Initial filename: `Sept_2024.pdf`
+- Changed filename: `insem_sep_2024_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_sep_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/digital_circuits_ete/insem_sep_2024_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2270. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2271. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2272. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2273. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2274. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2275. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2276. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2277. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2278. INSEM - Oct - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct - 2023.pdf`
+- Initial filename: `Oct - 2023.pdf`
+- Changed filename: `insem_oct_2023_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2279. INSEM - Oct - 2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct%20-%202025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/Oct - 2025.pdf`
+- Initial filename: `Oct - 2025.pdf`
+- Changed filename: `insem_oct_2025_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2025_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electrical_circuits_ete/insem_oct_2025_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2280. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2022_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2022_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2281. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2023_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2282. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2024_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2283. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_may_jun_2025_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2284. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2022_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2285. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2023_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2286. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2024_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2287. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/endsem_nov_dec_2025_ete_ece_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2288. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2022_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2289. INSEM - Oct - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Oct%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Oct - 2023.pdf`
+- Initial filename: `Oct - 2023.pdf`
+- Changed filename: `insem_oct_2023_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_oct_2023_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2290. INSEM - Sept_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Sept_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/Sept_2024.pdf`
+- Initial filename: `Sept_2024.pdf`
+- Changed filename: `insem_sep_2024_ete_ece_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_sep_2024_ete_ece_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/electronic_circuits_ete/insem_sep_2024_ete_ece_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2291. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2023_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2023_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2292. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2024_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2024_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2293. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2025_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_may_jun_2025_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2294. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2022_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2022_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2295. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2023_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2023_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2296. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2024_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2024_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2297. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_emIIIe_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2025_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/endsem_nov_dec_2025_ete_emIIIe_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2298. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_emIIIe_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2022_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2022_ete_emIIIe_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2299. INSEM - Oct - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct - 2023.pdf`
+- Initial filename: `Oct - 2023.pdf`
+- Changed filename: `insem_oct_2023_ete_emIIIe_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2023_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2023_ete_emIIIe_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2300. INSEM - Oct - 2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct%20-%202025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Oct - 2025.pdf`
+- Initial filename: `Oct - 2025.pdf`
+- Changed filename: `insem_oct_2025_ete_emIIIe_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2025_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_oct_2025_ete_emIIIe_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2301. INSEM - Sept_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Sept_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/Sept_2024.pdf`
+- Initial filename: `Sept_2024.pdf`
+- Changed filename: `insem_sep_2024_ete_emIIIe_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_sep_2024_ete_emIIIe_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/engineering_mathematics_III_ete/insem_sep_2024_ete_emIIIe_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2302. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_oope_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_feb_2023_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_feb_2023_ete_oope_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2303. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_oope_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2024_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2024_ete_oope_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2304. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_oope_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2025_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2025_ete_oope_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2305. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_oope_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2026_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/insem_mar_2026_ete_oope_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2306. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2022_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2022_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2307. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2023_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2023_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2308. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2024_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2024_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2309. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2025_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_may_jun_2025_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2310. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2022_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2022_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2311. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2023_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2023_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2312. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2024_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2024_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2313. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_oope_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2025_ete_oope_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/object_oriented_programming_ete/endsem_nov_dec_2025_ete_oope_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2314. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_pcse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_feb_2023_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_feb_2023_ete_pcse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2315. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_pcse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2024_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2024_ete_pcse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2316. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_pcse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2025_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2025_ete_pcse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2317. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_pcse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2026_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/insem_mar_2026_ete_pcse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2318. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2022_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2022_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2319. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2023_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2023_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2320. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2024_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2024_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2321. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2025_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_may_jun_2025_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2322. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2022_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2022_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2323. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2023_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2023_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2324. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2024_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2024_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2325. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_pcse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2025_ete_pcse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/principles_of_communication_systems_ete/endsem_nov_dec_2025_ete_pcse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2326. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_sse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_feb_2023_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_feb_2023_ete_sse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2327. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_sse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2024_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2024_ete_sse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2328. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_sse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2025_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2025_ete_sse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2329. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_sse_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2026_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/insem_mar_2026_ete_sse_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2330. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2022_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2022_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2331. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2023_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2023_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2332. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2024_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2024_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2333. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2025_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_may_jun_2025_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2334. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2022_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2022_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2335. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2023_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2023_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2336. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2024_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2024_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2337. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_sse_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2025_ete_sse_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/se/2019_pattern/signals_and_systems_ete/endsem_nov_dec_2025_ete_sse_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2338. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_apr_2017_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_apr_2017_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2339. INSEM - Feb_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Feb_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Feb_2015.pdf`
+- Initial filename: `Feb_2015.pdf`
+- Changed filename: `insem_feb_2015_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_feb_2015_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_feb_2015_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2340. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_feb_2016_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_feb_2016_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2341. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2018_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2018_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2342. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2019_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2019_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2343. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_awpe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2020_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/insem_mar_2020_ete_awpe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2344. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2015_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2015_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2345. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2016_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2016_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2346. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2017_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2017_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2347. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2018_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2018_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2348. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2019_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_may_jun_2019_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2349. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2015_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2015_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2350. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2016_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2016_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2351. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2017_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2017_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2352. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2018_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2018_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2353. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_awpe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2019_ete_awpe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/antena_and_wave_propagation_ete/endsem_nov_dec_2019_ete_awpe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2354. INSEM - August_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2014.pdf`
+- Initial filename: `August_2014.pdf`
+- Changed filename: `insem_aug_2014_ete_dce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2014`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2014_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2014_ete_dce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2355. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_dce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2015_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2015_ete_dce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2356. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_dce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2017_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2017_ete_dce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2357. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_dce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2018_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_aug_2018_ete_dce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2358. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2015_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2015_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2359. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2016_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2016_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2360. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2017_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2017_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2361. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2018_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2018_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 100% first-page crop
+
+### 2362. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2019_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_may_jun_2019_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2363. ENDSEM - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `endsem_nov_dec_2014_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2014_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2014_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2364. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2015_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2015_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2365. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2016_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2016_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2366. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2017_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2017_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2367. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_dce_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2018_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/endsem_nov_dec_2018_ete_dce_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2368. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_dce_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_oct_2016_ete_dce_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_communication_ete/insem_oct_2016_ete_dce_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2369. INSEM - August_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2014.pdf`
+- Initial filename: `August_2014.pdf`
+- Changed filename: `insem_aug_2014_ete_dspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2014`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2014_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2014_ete_dspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2370. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_dspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2015_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2015_ete_dspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2371. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_dspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2017_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_aug_2017_ete_dspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2372. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2015_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2015_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2373. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2016_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2016_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2374. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2017_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2017_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2375. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2018_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2018_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2376. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2019_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_may_jun_2019_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2377. ENDSEM - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `endsem_nov_dec_2014_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2014_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2014_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2378. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2015_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2015_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2379. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2016_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2016_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2380. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2017_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2017_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2381. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_dspe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2018_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/endsem_nov_dec_2018_ete_dspe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2382. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_dspe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_oct_2016_ete_dspe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/digital_signal_processing_ete/insem_oct_2016_ete_dspe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2383. INSEM - August_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2014.pdf`
+- Initial filename: `August_2014.pdf`
+- Changed filename: `insem_aug_2014_ete_etle_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2014`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2014_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2014_ete_etle_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2384. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_etle_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2015_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2015_ete_etle_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2385. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_etle_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2017_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2017_ete_etle_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2386. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_etle_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2018_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_aug_2018_ete_etle_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2387. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2015_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2015_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2388. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2016_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2016_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2389. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2017_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2017_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2390. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2018_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2018_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2391. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2019_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_may_jun_2019_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2392. ENDSEM - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `endsem_nov_dec_2014_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2014_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2014_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2393. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2015_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2015_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2394. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2016_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2016_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2395. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2017_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2017_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2396. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_etle_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2018_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/endsem_nov_dec_2018_ete_etle_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2397. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_etle_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_oct_2016_ete_etle_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/electromagnetics_and_transmission_lines_ete/insem_oct_2016_ete_etle_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2398. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_apr_2017_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_apr_2017_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2399. INSEM - Feb_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Feb_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Feb_2015.pdf`
+- Initial filename: `Feb_2015.pdf`
+- Changed filename: `insem_feb_2015_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_feb_2015_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_feb_2015_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2400. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_feb_2016_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_feb_2016_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2401. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2018_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2018_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2402. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2019_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2019_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2403. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_epe_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2020_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/insem_mar_2020_ete_epe_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2404. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2015_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2015_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2405. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2016_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2016_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2406. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2017_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2017_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2407. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2018_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2018_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2408. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2019_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_may_jun_2019_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2409. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2015_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2015_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2410. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2016_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2016_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2411. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2017_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2017_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2412. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_epe_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2018_ete_epe_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/embedded_processors_ete/endsem_nov_dec_2018_ete_epe_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2413. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_ime_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_apr_2017_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_apr_2017_ete_ime_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2414. INSEM - Feb_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Feb_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Feb_2015.pdf`
+- Initial filename: `Feb_2015.pdf`
+- Changed filename: `insem_feb_2015_ete_ime_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_feb_2015_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_feb_2015_ete_ime_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2415. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_ime_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_feb_2016_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_feb_2016_ete_ime_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2416. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_ime_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_mar_2018_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/insem_mar_2018_ete_ime_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2417. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2015_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2015_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2418. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2016_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2016_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2419. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2017_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2017_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2420. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2018_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_may_jun_2018_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2421. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2015_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2015_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2422. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2016_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2016_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2423. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2017_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2017_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2424. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_ime_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2018_ete_ime_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/industrial_management_ete/endsem_nov_dec_2018_ete_ime_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2425. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_itcte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_apr_2017_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_apr_2017_ete_itcte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2426. INSEM - Feb_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Feb_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Feb_2015.pdf`
+- Initial filename: `Feb_2015.pdf`
+- Changed filename: `insem_feb_2015_ete_itcte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_feb_2015_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_feb_2015_ete_itcte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2427. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_itcte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_feb_2016_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_feb_2016_ete_itcte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2428. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_itcte_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_mar_2018_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/insem_mar_2018_ete_itcte_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2429. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2015_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2015_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2430. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2016_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2016_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2431. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2017_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2017_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2432. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2018_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2018_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2433. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2019_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_may_jun_2019_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2434. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2015_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2015_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2435. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2016_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2016_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2436. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2017_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2017_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2437. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_itcte_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2018_ete_itcte_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/information_theory_and_coding_tech_ete/endsem_nov_dec_2018_ete_itcte_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2438. INSEM - August_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2014.pdf`
+- Initial filename: `August_2014.pdf`
+- Changed filename: `insem_aug_2014_ete_mae_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2014`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2014_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2014_ete_mae_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2439. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_ete_mae_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2015_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2015_ete_mae_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2440. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_mae_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2017_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2017_ete_mae_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2441. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_mae_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2018_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_aug_2018_ete_mae_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2442. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2015_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2015_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2443. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2016_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2016_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2444. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2017_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2017_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2445. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2018_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2018_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2446. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2019_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_may_jun_2019_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2447. ENDSEM - Nov_Dec_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2014.pdf`
+- Initial filename: `Nov_Dec_2014.pdf`
+- Changed filename: `endsem_nov_dec_2014_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2014`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2014_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2014_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2448. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2015_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2015_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2449. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2016_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2016_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2450. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2017_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2017_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2451. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_mae_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2018_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/endsem_nov_dec_2018_ete_mae_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2452. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_mae_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_oct_2016_ete_mae_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/microcontroller_and_applications_ete/insem_oct_2016_ete_mae_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2453. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/April_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_ete_pee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_apr_2017_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_apr_2017_ete_pee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2454. INSEM - Feb_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Feb_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Feb_2015.pdf`
+- Initial filename: `Feb_2015.pdf`
+- Changed filename: `insem_feb_2015_ete_pee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_feb_2015_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_feb_2015_ete_pee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2455. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Feb_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_ete_pee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_feb_2016_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_feb_2016_ete_pee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2456. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_pee_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_mar_2018_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/insem_mar_2018_ete_pee_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2457. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2015_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2015_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2458. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2016_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2016_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2459. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2017_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2017_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2460. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2018_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2018_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2461. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2019_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_may_jun_2019_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2462. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2015_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2015_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2463. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2016_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2016_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2464. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2017_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2017_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2465. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_pee_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2018_ete_pee_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/power_electronics_ete/endsem_nov_dec_2018_ete_pee_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2466. INSEM - August_2014.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2014.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2014.pdf`
+- Initial filename: `August_2014.pdf`
+- Changed filename: `insem_aug_2014_ete_spose_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2014`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2014_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2014_ete_spose_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2467. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_spose_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2017_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2017_ete_spose_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2468. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_spose_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2018_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_aug_2018_ete_spose_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2469. ENDSEM - May_Jun_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2015.pdf`
+- Initial filename: `May_Jun_2015.pdf`
+- Changed filename: `endsem_may_jun_2015_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2015_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2015_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2470. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2016_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2016_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2471. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2017_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2017_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2472. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2018_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_may_jun_2018_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2473. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2015_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2015_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2474. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2016_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2016_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2475. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_spose_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2017_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/endsem_nov_dec_2017_ete_spose_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2476. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Oct_2016.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_ete_spose_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_oct_2016_ete_spose_2012p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2012_pattern/system_programming_and_operating_system_ete/insem_oct_2016_ete_spose_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2477. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_ape_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2018_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2018_ete_ape_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2478. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_ape_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2019_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2019_ete_ape_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2479. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_ape_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2020_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/insem_mar_2020_ete_ape_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2480. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_ape_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_may_jun_2018_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_may_jun_2018_ete_ape_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2481. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_ape_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_nov_dec_2018_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_nov_dec_2018_ete_ape_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2482. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_ape_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_nov_dec_2019_ete_ape_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/advanced_processors_ete/endsem_nov_dec_2019_ete_ape_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2483. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_bme_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2018_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2018_ete_bme_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2484. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_bme_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2019_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2019_ete_bme_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2485. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_bme_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2020_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/insem_mar_2020_ete_bme_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2486. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_bme_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_may_jun_2018_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_may_jun_2018_ete_bme_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2487. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_bme_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_may_jun_2019_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_may_jun_2019_ete_bme_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2488. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_bme_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_nov_dec_2018_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_nov_dec_2018_ete_bme_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2489. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_bme_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_nov_dec_2019_ete_bme_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/business_management_ete/endsem_nov_dec_2019_ete_bme_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2490. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_dce_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_aug_2017_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_aug_2017_ete_dce_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2491. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_dce_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_aug_2018_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_aug_2018_ete_dce_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2492. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_dce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_may_jun_2018_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_may_jun_2018_ete_dce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2493. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_dce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_may_jun_2019_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_may_jun_2019_ete_dce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2494. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_dce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2017_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2017_ete_dce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2495. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_dce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2018_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2018_ete_dce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2496. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_dce_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2019_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/endsem_nov_dec_2019_ete_dce_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2497. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_dce_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_oct_2019_ete_dce_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_communication_ete/insem_oct_2019_ete_dce_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2498. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_dspe_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/insem_aug_2017_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/insem_aug_2017_ete_dspe_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2499. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_dspe_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_may_jun_2018_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_may_jun_2018_ete_dspe_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2500. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_dspe_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_may_jun_2019_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_may_jun_2019_ete_dspe_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2501. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_dspe_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2017_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2017_ete_dspe_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2502. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_dspe_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2018_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2018_ete_dspe_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2503. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_dspe_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2019_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/endsem_nov_dec_2019_ete_dspe_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2504. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_dspe_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/insem_oct_2019_ete_dspe_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/digital_signal_processing_ete/insem_oct_2019_ete_dspe_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2505. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_ee_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_aug_2017_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_aug_2017_ete_ee_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2506. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_ee_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_aug_2018_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_aug_2018_ete_ee_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2507. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_ee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_may_jun_2018_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_may_jun_2018_ete_ee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2508. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_ee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_may_jun_2019_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_may_jun_2019_ete_ee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2509. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_ee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2017_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2017_ete_ee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2510. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_ee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2018_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2018_ete_ee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2511. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_ee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2019_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/endsem_nov_dec_2019_ete_ee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2512. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_ee_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_oct_2019_ete_ee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/electromagnetics_ete/insem_oct_2019_ete_ee_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2513. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_itccne_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2018_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2018_ete_itccne_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2514. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_itccne_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2019_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2019_ete_itccne_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2515. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_itccne_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2020_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/insem_mar_2020_ete_itccne_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2516. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_itccne_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_may_jun_2018_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_may_jun_2018_ete_itccne_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2517. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_itccne_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_may_jun_2019_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_may_jun_2019_ete_itccne_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2518. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_itccne_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_nov_dec_2018_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_nov_dec_2018_ete_itccne_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2519. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_itccne_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_nov_dec_2019_ete_itccne_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/info_theory_coding_and_comm_networks_ete/endsem_nov_dec_2019_ete_itccne_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2520. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_aug_2017_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_aug_2017_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2521. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_aug_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_aug_2018_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2522. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_may_jun_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_may_jun_2018_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2523. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_may_jun_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_may_jun_2019_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2524. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2525. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2526. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2527. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_oct_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/mechatronics_ete/insem_oct_2019_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2528. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/August_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_aug_2017_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_aug_2017_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2529. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/August_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_aug_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_aug_2018_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2530. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_may_jun_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_may_jun_2018_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2531. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_may_jun_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_may_jun_2019_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2532. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2017_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2533. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2018_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2534. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/endsem_nov_dec_2019_ete_me_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2535. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Oct%202019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_ete_me_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_oct_2019_ete_me_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/microcontrollers_ete/insem_oct_2019_ete_me_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2536. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_pee_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/insem_mar_2019_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/insem_mar_2019_ete_pee_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2537. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_pee_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/insem_mar_2020_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/insem_mar_2020_ete_pee_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2538. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_pee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_may_jun_2018_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_may_jun_2018_ete_pee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2539. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_pee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_may_jun_2019_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_may_jun_2019_ete_pee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2540. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_pee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_nov_dec_2018_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_nov_dec_2018_ete_pee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2541. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_pee_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_nov_dec_2019_ete_pee_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/power_electronics_ete/endsem_nov_dec_2019_ete_pee_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2542. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_ete_spose_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2018_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2018_ete_spose_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2543. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_ete_spose_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2019_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2019_ete_spose_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2544. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2020.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_ete_spose_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2020_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/insem_mar_2020_ete_spose_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2545. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/May_Jun_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_ete_spose_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_may_jun_2018_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_may_jun_2018_ete_spose_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2546. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/May_Jun_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_ete_spose_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_may_jun_2019_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_may_jun_2019_ete_spose_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2547. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_ete_spose_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_nov_dec_2018_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_nov_dec_2018_ete_spose_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 2548. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_ete_spose_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_nov_dec_2019_ete_spose_2015p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2015_pattern/system_prog_and_operating_system_ete/endsem_nov_dec_2019_ete_spose_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2549. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_ajpe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_feb_2023_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_feb_2023_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2550. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_ajpe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2024_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2024_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2551. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_ajpe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2025_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2025_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2552. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_ajpe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2026_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/insem_mar_2026_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2553. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2023_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2023_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2554. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2024_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2024_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2555. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2025_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_may_jun_2025_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2556. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2023_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2023_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2557. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2024_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2024_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2558. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_ajpe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2025_ete_ajpe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/advanced_java_programming_ele_II_ete/endsem_nov_dec_2025_ete_ajpe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2559. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_bte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/endsem_nov_dec_2022_ete_bte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/endsem_nov_dec_2022_ete_bte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2560. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_bte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/insem_oct_2022_ete_bte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/blockchain_technology_ete/insem_oct_2022_ete_bte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2561. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_cne_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_feb_2023_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_feb_2023_ete_cne_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2562. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_cne_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2024_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2024_ete_cne_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2563. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_cne_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2025_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2025_ete_cne_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2564. INSEM - March_2026.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2026.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/March_2026.pdf`
+- Initial filename: `March_2026.pdf`
+- Changed filename: `insem_mar_2026_ete_cne_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2026`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2026_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/insem_mar_2026_ete_cne_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2565. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2022_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2022_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2566. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2023_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2023_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2567. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2024_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2024_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2568. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2025_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_may_jun_2025_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2569. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2022_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2022_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2570. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2023_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2023_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2571. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2024_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2024_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2572. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_cne_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2025_ete_cne_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/cellular_networks_ete/endsem_nov_dec_2025_ete_cne_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2573. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_cne_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_aug_2025_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_aug_2025_ete_cne_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2574. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2022_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2022_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2575. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2023_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2023_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2576. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2024_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2024_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2577. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2025_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_may_jun_2025_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2578. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2022_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2022_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2579. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2023_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2023_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2580. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2024_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2024_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2581. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_cne_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2025_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/endsem_nov_dec_2025_ete_cne_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2582. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_cne_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2023_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2023_ete_cne_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2583. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_cne_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2024_ete_cne_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/computer_networks_ele_I_ete/insem_sep_2024_ete_cne_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2584. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_dme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_aug_2025_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_aug_2025_ete_dme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2585. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2023_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2023_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2586. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2024_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2024_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2587. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2025_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_may_jun_2025_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2588. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2022_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2022_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2589. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2023_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2023_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2590. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2024_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2024_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2591. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_dme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2025_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/endsem_nov_dec_2025_ete_dme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2592. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_dme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_oct_2022_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_oct_2022_ete_dme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2593. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_dme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2023_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2023_ete_dme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2594. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_dme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2024_ete_dme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/database_management_ete/insem_sep_2024_ete_dme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2595. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/decentralize_blockchain_technologies_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/decentralize_blockchain_technologies_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_dbte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/decentralize_blockchain_technologies_ete/insem_feb_2023_ete_dbte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/decentralize_blockchain_technologies_ete/insem_feb_2023_ete_dbte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2596. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_aug_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_aug_2025_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2597. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2022_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2022_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2598. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2023_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2599. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2024_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2600. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_may_jun_2025_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2601. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2022_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2602. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2023_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2603. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2024_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2604. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/endsem_nov_dec_2025_ete_dce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2605. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_oct_2022_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_oct_2022_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2606. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2023_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2023_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2607. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_dce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2024_ete_dce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_communication_ete/insem_sep_2024_ete_dce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2608. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_dipe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_feb_2023_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_feb_2023_ete_dipe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2609. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_dipe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2024_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2024_ete_dipe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2610. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_dipe_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2025_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/insem_mar_2025_ete_dipe_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2611. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2023_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2023_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2612. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2024_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2024_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2613. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2025_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_may_jun_2025_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2614. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2023_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2023_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2615. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2024_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2024_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2616. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_dipe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2025_ete_dipe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_image_processing_ele_II_ete/endsem_nov_dec_2025_ete_dipe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2617. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_dspe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2022_ete_dspe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2022_ete_dspe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2618. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_dspe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2023_ete_dspe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_may_jun_2023_ete_dspe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2619. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_dspe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_nov_dec_2022_ete_dspe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/digital_signal_processing_ele_I_ete/endsem_nov_dec_2022_ete_dspe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2620. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_efte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_aug_2025_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_aug_2025_ete_efte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2621. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2022_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2022_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2622. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2023_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2023_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2623. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2024_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2024_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2624. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2025_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_may_jun_2025_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2625. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2022_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2022_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2626. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2023_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2023_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2627. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2024_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2024_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2628. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_efte_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2025_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/endsem_nov_dec_2025_ete_efte_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2629. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_efte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_oct_2022_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_oct_2022_ete_efte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2630. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_efte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2023_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2023_ete_efte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2631. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_efte_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2024_ete_efte_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/electromagnetic_field_theory_ete/insem_sep_2024_ete_efte_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2632. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2022_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2022_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2633. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2023_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2023_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2634. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2024_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2024_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2635. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2025_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_may_jun_2025_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2636. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2022_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2022_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2637. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2023_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2023_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2638. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2024_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2024_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2639. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_epe_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2025_ete_epe_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/embedded_processors_ele_II_ete/endsem_nov_dec_2025_ete_epe_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2640. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_fjpe_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_aug_2025_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_aug_2025_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2641. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2023_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2023_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2642. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2024_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2024_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2643. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2025_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_may_jun_2025_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2644. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2022_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2022_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2645. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2023_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2023_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2646. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2024_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2024_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2647. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_fjpe_eI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2025_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/endsem_nov_dec_2025_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2648. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_fjpe_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_oct_2022_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_oct_2022_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2649. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_fjpe_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2023_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2023_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2650. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_fjpe_eI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2024_ete_fjpe_eI_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/fundamentals_of_java_programming_ele_I_ete/insem_sep_2024_ete_fjpe_eI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2651. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/August_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_ete_me_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_aug_2025_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_aug_2025_ete_me_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2652. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2023_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2023_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2653. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2024_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2024_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2654. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2025_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_may_jun_2025_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2655. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2022_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2022_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2656. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2023_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2023_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2657. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2024_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2024_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2658. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_me_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2025_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/endsem_nov_dec_2025_ete_me_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2659. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Oct%20-%202022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_ete_me_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_oct_2022_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_oct_2022_ete_me_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2660. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Sep%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_ete_me_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2023_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2023_ete_me_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2661. INSEM - Sep - 2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Sep%20-%202024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/Sep - 2024.pdf`
+- Initial filename: `Sep - 2024.pdf`
+- Changed filename: `insem_sep_2024_ete_me_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2024_ete_me_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/microcontrollers_ete/insem_sep_2024_ete_me_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2662. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_nse_eII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/insem_mar_2025_ete_nse_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/insem_mar_2025_ete_nse_eII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2663. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_nse_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2022_ete_nse_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2022_ete_nse_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2664. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_nse_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2025_ete_nse_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_may_jun_2025_ete_nse_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2665. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_nse_eII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_nov_dec_2025_ete_nse_eII_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/network_security_ele_II_ete/endsem_nov_dec_2025_ete_nse_eII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2666. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_pdce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_feb_2023_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_feb_2023_ete_pdce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2667. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_pdce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2024_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2024_ete_pdce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2668. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_pdce_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2025_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/insem_mar_2025_ete_pdce_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2669. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2022_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2022_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2670. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2023_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2023_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2671. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2024_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2024_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2672. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2025_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_may_jun_2025_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2673. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2022_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2022_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2674. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2023_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2023_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2675. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2024_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2024_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2676. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_pdce_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2025_ete_pdce_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/power_devices_and_circuits_ete/endsem_nov_dec_2025_ete_pdce_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2677. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Feb%20-%202023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_ete_pme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_feb_2023_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_feb_2023_ete_pme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2678. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/March_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_ete_pme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2024_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2024_ete_pme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2679. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/March_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_ete_pme_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2025_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/insem_mar_2025_ete_pme_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 2680. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2022_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2022_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2681. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2023_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2023_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2682. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2024_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2024_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2683. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2025_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_may_jun_2025_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2684. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2022_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2022_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2685. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2023_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2023_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2686. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2024_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2024_ete_pme_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 2687. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_ete_pme_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2025_ete_pme_2019p.pdf`
+- Expected papers path: `papers/e-and-tc-engineering/te/2019_pattern/project_management_ete/endsem_nov_dec_2025_ete_pme_2019p.pdf`
 - Reason: marks=70; date_from=filename; marks from PyMuPDF header text

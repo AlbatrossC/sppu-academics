@@ -68,7 +68,25 @@ Install dependencies:
 python3 -m pip install -r requirements.txt
 ```
 
-PaddleOCR defaults are tuned for Ubuntu 24 WSL with an RTX 3050 Laptop GPU and 4 GB VRAM: one OCR worker, confidence threshold `0.85`, a relaxed direct-phrase threshold `0.55`, and page 1 crop attempts at `45%`, `65%`, and `100%`. The relaxed threshold is used only after OCR sees a direct `Max/Maximum/Total Marks` phrase. The expected local stack is PaddleOCR `3.6.0`, PaddlePaddle GPU `3.3.0`, and PaddleX `3.6.1`.
+PaddleOCR now defaults to the first Windows CUDA GPU:
+
+```bash
+python3 tools/rename_files.py --ocr-device gpu:0
+```
+
+You can also set the default once for the shell:
+
+```powershell
+$env:PADDLEOCR_DEVICE = "gpu:0"
+```
+
+Use CPU only as a fallback:
+
+```bash
+python3 tools/rename_files.py --ocr-device cpu
+```
+
+The OCR settings remain conservative for an RTX 3050 Laptop GPU with 4 GB VRAM: one OCR worker, confidence threshold `0.85`, a relaxed direct-phrase threshold `0.55`, and page 1 crop attempts at `45%`, `65%`, and `100%`. The relaxed threshold is used only after OCR sees a direct `Max/Maximum/Total Marks` phrase. The expected local stack is PaddleOCR `3.6.0`, PaddlePaddle GPU `3.3.0`, and PaddleX `3.6.1`.
 
 Set one optional Groq fallback key:
 
@@ -166,10 +184,10 @@ python3 tools/rename_files.py --fresh
 Review with compatibility worker flag:
 
 ```bash
-python3 tools/rename_files.py --ocr-workers 1
+python3 tools/rename_files.py --ocr-workers 1 --ocr-device gpu:0
 ```
 
-Review mode checkpoints after each PDF. `--workers` is still accepted as a compatibility alias for `--ocr-workers`; the default remains `1` for 4 GB GPU VRAM.
+Review mode checkpoints after each PDF. `--workers` is still accepted as a compatibility alias for `--ocr-workers`; the default remains `1` for 4 GB GPU VRAM, and the default OCR device is `gpu:0` unless `PADDLEOCR_DEVICE` is set.
 
 Review one subtree:
 

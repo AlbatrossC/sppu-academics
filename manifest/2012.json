@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2012_pattern",
   "patternYear": "2012",
-  "generatedAt": "2026-06-05T14:26:14Z",
+  "generatedAt": "2026-06-06T21:02:19Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -296,6 +296,295 @@
                   "shortCode": "tc",
                   "fullName": "Theory of Computation",
                   "normalizedName": "theory_of_computation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "e-and-tc-engineering",
+          "branchCode": "ete",
+          "branchName": "E & TC Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_automotive_electronics_ele_I_ete",
+                  "shortCode": "aae_eI",
+                  "fullName": "Advanced Automotive Electronics_Ele_I",
+                  "normalizedName": "advanced_automotive_electronics_ele_I"
+                },
+                {
+                  "subjectKey": "artificial_intelligence_ele_II_ete",
+                  "shortCode": "ai_eII",
+                  "fullName": "Artificial Intelligence_Ele-II",
+                  "normalizedName": "artificial_intelligence_ele_II"
+                },
+                {
+                  "subjectKey": "audio_vedio_engineering_elective_III_ete",
+                  "shortCode": "ave_eIII",
+                  "fullName": "Audio Vedio Engineering_Elective_III",
+                  "normalizedName": "audio_vedio_engineering_elective_III"
+                },
+                {
+                  "subjectKey": "biomedical_signal_processing_ete",
+                  "shortCode": "bsp",
+                  "fullName": "Biomedical Signal Processing",
+                  "normalizedName": "biomedical_signal_processing"
+                },
+                {
+                  "subjectKey": "broadband_communication_systems_ete",
+                  "shortCode": "bcs",
+                  "fullName": "Broadband Communication Systems",
+                  "normalizedName": "broadband_communication_systems"
+                },
+                {
+                  "subjectKey": "computer_network_ete",
+                  "shortCode": "cn",
+                  "fullName": "Computer Network",
+                  "normalizedName": "computer_network"
+                },
+                {
+                  "subjectKey": "detection_and_estimation_theory_ele_IV_ete",
+                  "shortCode": "det_eIV",
+                  "fullName": "Detection and Estimation Theory_Ele_IV",
+                  "normalizedName": "detection_and_estimation_theory_ele_IV"
+                },
+                {
+                  "subjectKey": "digital_image_processing_elective_I_ete",
+                  "shortCode": "dip_eI",
+                  "fullName": "Digital Image Processing_Elective I",
+                  "normalizedName": "digital_image_processing_elective_I"
+                },
+                {
+                  "subjectKey": "electronic_product_design_ete",
+                  "shortCode": "epd",
+                  "fullName": "Electronic Product Design",
+                  "normalizedName": "electronic_product_design"
+                },
+                {
+                  "subjectKey": "embedded_system_and_rtos_elective_I_ete",
+                  "shortCode": "esr_eI",
+                  "fullName": "Embedded System & RTOS_Elective I",
+                  "normalizedName": "embedded_system_and_rtos_elective_I"
+                },
+                {
+                  "subjectKey": "industrial_drives_and_control_ele_I_ete",
+                  "shortCode": "idc_eI",
+                  "fullName": "Industrial Drives and Control_Ele_I",
+                  "normalizedName": "industrial_drives_and_control_ele_I"
+                },
+                {
+                  "subjectKey": "microwave_engineering_ete",
+                  "shortCode": "me",
+                  "fullName": "Microwave Engineering",
+                  "normalizedName": "microwave_engineering"
+                },
+                {
+                  "subjectKey": "mobile_communication_ete",
+                  "shortCode": "mc",
+                  "fullName": "Mobile Communication",
+                  "normalizedName": "mobile_communication"
+                },
+                {
+                  "subjectKey": "multirate_and_adaptive_signal_processing_ele_II_ete",
+                  "shortCode": "masp_eII",
+                  "fullName": "Multirate & Adaptive Signal Processing_Ele_II",
+                  "normalizedName": "multirate_and_adaptive_signal_processing_ele_II"
+                },
+                {
+                  "subjectKey": "nano_electronics_and_mems_ete",
+                  "shortCode": "nem",
+                  "fullName": "Nano Electronics and MEMS",
+                  "normalizedName": "nano_electronics_and_mems"
+                },
+                {
+                  "subjectKey": "plcs_and_automation_ele_II_ete",
+                  "shortCode": "pa_eII",
+                  "fullName": "PLCs and Automation_Ele_II",
+                  "normalizedName": "plcs_and_automation_ele_II"
+                },
+                {
+                  "subjectKey": "rf_circuit_design_ele_III_ete",
+                  "shortCode": "rcd_eIII",
+                  "fullName": "RF Circuit Design_Ele_III",
+                  "normalizedName": "rf_circuit_design_ele_III"
+                },
+                {
+                  "subjectKey": "soft_computing_techniques_ele_III_ete",
+                  "shortCode": "sct_eIII",
+                  "fullName": "Soft Computing techniques_Ele_III",
+                  "normalizedName": "soft_computing_techniques_ele_III"
+                },
+                {
+                  "subjectKey": "software_defined_radio_elective_I_ete",
+                  "shortCode": "sdr_eI",
+                  "fullName": "Software Defined Radio_Elective I",
+                  "normalizedName": "software_defined_radio_elective_I"
+                },
+                {
+                  "subjectKey": "speech_and_audio_signal_processing_ete",
+                  "shortCode": "sasp",
+                  "fullName": "Speech and Audio Signal Processing",
+                  "normalizedName": "speech_and_audio_signal_processing"
+                },
+                {
+                  "subjectKey": "unified_communication_and_contact_center_application_ele_IV_ete",
+                  "shortCode": "uccca_eIV",
+                  "fullName": "Unified Communication & Contact Center Application_Ele_IV",
+                  "normalizedName": "unified_communication_and_contact_center_application_ele_IV"
+                },
+                {
+                  "subjectKey": "vlsi_design_and_technology_ete",
+                  "shortCode": "vdt",
+                  "fullName": "VLSI Design & Technology",
+                  "normalizedName": "vlsi_design_and_technology"
+                },
+                {
+                  "subjectKey": "wireless_networks_elective_IV_ete",
+                  "shortCode": "wn_eIV",
+                  "fullName": "Wireless Networks_Elective_IV",
+                  "normalizedName": "wireless_networks_elective_IV"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "analog_communication_ete",
+                  "shortCode": "ac",
+                  "fullName": "Analog Communication",
+                  "normalizedName": "analog_communication"
+                },
+                {
+                  "subjectKey": "computer_organisation_ete",
+                  "shortCode": "co",
+                  "fullName": "Computer Organisation",
+                  "normalizedName": "computer_organisation"
+                },
+                {
+                  "subjectKey": "control_systems_ete",
+                  "shortCode": "cs",
+                  "fullName": "Control Systems",
+                  "normalizedName": "control_systems"
+                },
+                {
+                  "subjectKey": "data_dtructures_and_algorithms_ete",
+                  "shortCode": "dda",
+                  "fullName": "Data Dtructures and Algorithms",
+                  "normalizedName": "data_dtructures_and_algorithms"
+                },
+                {
+                  "subjectKey": "digital_electronics_ete",
+                  "shortCode": "de",
+                  "fullName": "Digital Electronics",
+                  "normalizedName": "digital_electronics"
+                },
+                {
+                  "subjectKey": "electronics_devices_and_circuits_ete",
+                  "shortCode": "edc",
+                  "fullName": "Electronics Devices and Circuits",
+                  "normalizedName": "electronics_devices_and_circuits"
+                },
+                {
+                  "subjectKey": "engineering_mathematics_III_ete",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Mathematics - III",
+                  "normalizedName": "engineering_mathematics_III"
+                },
+                {
+                  "subjectKey": "integrated_circuits_ete",
+                  "shortCode": "ic",
+                  "fullName": "Integrated Circuits",
+                  "normalizedName": "integrated_circuits"
+                },
+                {
+                  "subjectKey": "network_theory_ete",
+                  "shortCode": "nt",
+                  "fullName": "Network Theory",
+                  "normalizedName": "network_theory"
+                },
+                {
+                  "subjectKey": "signals_and_systems_ete",
+                  "shortCode": "ss",
+                  "fullName": "Signals & Systems",
+                  "normalizedName": "signals_and_systems"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "antena_and_wave_propagation_ete",
+                  "shortCode": "awp",
+                  "fullName": "Antena & Wave Propagation",
+                  "normalizedName": "antena_and_wave_propagation"
+                },
+                {
+                  "subjectKey": "digital_communication_ete",
+                  "shortCode": "dc",
+                  "fullName": "Digital Communication",
+                  "normalizedName": "digital_communication"
+                },
+                {
+                  "subjectKey": "digital_signal_processing_ete",
+                  "shortCode": "dsp",
+                  "fullName": "Digital Signal Processing",
+                  "normalizedName": "digital_signal_processing"
+                },
+                {
+                  "subjectKey": "electromagnetics_and_transmission_lines_ete",
+                  "shortCode": "etl",
+                  "fullName": "Electromagnetics and Transmission Lines",
+                  "normalizedName": "electromagnetics_and_transmission_lines"
+                },
+                {
+                  "subjectKey": "embedded_processors_ete",
+                  "shortCode": "ep",
+                  "fullName": "Embedded Processors",
+                  "normalizedName": "embedded_processors"
+                },
+                {
+                  "subjectKey": "industrial_management_ete",
+                  "shortCode": "im",
+                  "fullName": "Industrial Management",
+                  "normalizedName": "industrial_management"
+                },
+                {
+                  "subjectKey": "information_theory_and_coding_tech_ete",
+                  "shortCode": "itct",
+                  "fullName": "Information Theory and Coding Tech",
+                  "normalizedName": "information_theory_and_coding_tech"
+                },
+                {
+                  "subjectKey": "microcontroller_and_applications_ete",
+                  "shortCode": "ma",
+                  "fullName": "Microcontroller and Applications",
+                  "normalizedName": "microcontroller_and_applications"
+                },
+                {
+                  "subjectKey": "power_electronics_ete",
+                  "shortCode": "pe",
+                  "fullName": "Power Electronics",
+                  "normalizedName": "power_electronics"
+                },
+                {
+                  "subjectKey": "system_programming_and_operating_system_ete",
+                  "shortCode": "spos",
+                  "fullName": "System Programming and Operating System",
+                  "normalizedName": "system_programming_and_operating_system"
                 }
               ]
             }
