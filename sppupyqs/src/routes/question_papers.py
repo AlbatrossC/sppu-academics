@@ -1,6 +1,7 @@
 import html as _html
 import json
 import os
+import re
 from urllib.parse import urlparse
 
 from flask import Blueprint, abort, redirect, render_template
@@ -67,6 +68,14 @@ def _render_viewer(pattern_key, subject_key):
     }
 
     subject_papers = _hydrate_subject_papers(subject)
+    # Sort: INSEM first, then ENDSEM, latest year first within each group
+    _exam_order = {"insem": 0, "endsem": 1}
+    subject_papers.sort(
+        key=lambda p: (
+            _exam_order.get(str(p.get("exam_type") or "").lower(), 2),
+            -(int(re.search(r"\d{4}", p.get("paper_label") or "").group()) if re.search(r"\d{4}", p.get("paper_label") or "") else 0),
+        )
+    )
     available_exam_types = {
         str(paper.get("exam_type") or "unknown").lower()
         for paper in subject_papers

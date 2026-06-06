@@ -1060,25 +1060,25 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 .questions-modal-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.82);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.78);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 
 .questions-modal-content {
     position: relative;
     z-index: 1;
-    width: min(1040px, calc(100vw - 48px));
-    max-height: min(92vh, 980px);
+    width: min(960px, calc(100vw - 48px));
+    max-height: min(90vh, 920px);
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(32, 32, 38, 0.98), rgba(24, 24, 30, 0.98));
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    background: #1f1f24;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
     overflow: hidden;
-    transform: translateY(20px) scale(0.98);
-    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(16px) scale(0.98);
+    transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .questions-modal.active .questions-modal-content {
@@ -1089,32 +1089,33 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    padding: 18px 24px;
+    gap: 12px;
+    padding: 16px 22px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.015);
 }
 
 .questions-modal-heading {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 3px;
     min-width: 0;
 }
 
 .questions-modal-title {
     display: block;
     margin: 0;
-    color: #f6f8fb;
-    font-size: 20px;
+    color: #f0f2f5;
+    font-size: 17px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
 .questions-modal-subtitle {
     display: block;
     margin: 0;
-    color: #9ca3af;
-    font-size: 13px;
+    color: #777;
+    font-size: 12px;
     line-height: 1.35;
 }
 
@@ -1122,60 +1123,62 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    padding: 14px 28px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    background: rgba(255, 255, 255, 0.02);
+    gap: 16px;
+    padding: 10px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.012);
 }
 
 .questions-tabs {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 8px;
+    padding: 3px;
 }
 
 .questions-tab {
-    min-width: 120px;
-    height: 38px;
-    background: rgba(255, 255, 255, 0.04);
-    color: #b0b0b0;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    font-size: 13px;
-    font-weight: 500;
-    border-radius: 8px;
-    transition: all 0.2s ease;
+    min-width: 90px;
+    height: 32px;
+    background: transparent;
+    color: #888;
+    border: none;
+    font-size: 12.5px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.15s ease;
+    box-shadow: none;
 }
 
-.questions-tab.active,
-.questions-tab:hover {
-    background: rgba(59, 130, 246, 0.18);
-    border-color: rgba(59, 130, 246, 0.4);
-    color: var(--text-light);
+.questions-tab:hover:not(.active) {
+    color: #bbb;
+    background: rgba(255, 255, 255, 0.04);
 }
 
 .questions-tab.active {
-    background: rgba(59, 130, 246, 0.25);
-    box-shadow: 0 2px 12px rgba(59, 130, 246, 0.2);
+    background: var(--primary-color);
+    color: #fff;
+    box-shadow: none;
 }
 
 .questions-paper-picker {
     display: flex;
     align-items: center;
-    gap: 10px;
-    min-width: min(100%, 340px);
+    gap: 8px;
+    min-width: min(100%, 300px);
 }
 
 .questions-picker-label {
-    color: var(--secondary-color);
-    font-size: 12px;
+    color: #888;
+    font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 
 .questions-paper-dropdown {
-    min-width: min(100%, 280px);
+    min-width: min(100%, 260px);
     flex: 1;
 }
 
@@ -1206,24 +1209,24 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    margin: 20px 28px 0;
-    padding: 16px 18px;
-    border-radius: 10px;
-    background: rgba(59, 130, 246, 0.08);
-    border: 1px solid rgba(59, 130, 246, 0.16);
+    gap: 10px;
+    margin: 14px 20px 0;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.025);
+    border-left: 3px solid var(--primary-color);
 }
 
 .questions-paper-summary h3 {
-    margin: 3px 0 0;
-    color: #eef5ff;
-    font-size: 17px;
-    font-weight: 700;
+    margin: 1px 0 0;
+    color: #dde3ea;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .summary-kicker {
-    color: #93c5fd;
-    font-size: 11px;
+    color: var(--primary-color);
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -1231,13 +1234,13 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 
 .questions-count-pill {
     flex-shrink: 0;
-    padding: 6px 10px;
+    padding: 3px 9px;
     border-radius: 999px;
-    background: rgba(94, 234, 212, 0.12);
-    border: 1px solid rgba(94, 234, 212, 0.22);
-    color: #7dd3fc;
-    font-size: 12px;
-    font-weight: 700;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: #888;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .questions-modal-layout {
@@ -1263,59 +1266,64 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 .question-card-list {
     display: flex;
     flex-direction: column;
-    gap: 22px;
-    padding: 24px 28px 32px;
+    gap: 20px;
+    padding: 16px 20px 24px;
 }
 
 .question-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
 }
 
 .question-group-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
-    padding: 0 2px;
+    gap: 10px;
+    padding: 8px 12px;
+    margin-bottom: 2px;
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: 6px;
 }
 
 .question-group-header h4 {
     margin: 0;
-    color: #dbeafe;
-    font-size: 15px;
+    color: #c8d4e3;
+    font-size: 13px;
     font-weight: 700;
+    letter-spacing: 0.02em;
 }
 
 .question-group-header span {
-    color: #5eead4;
-    font-size: 12px;
+    color: var(--primary-color);
+    font-size: 11px;
     font-weight: 700;
 }
 
 .question-card {
-    padding: 18px 20px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.025);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 10px 12px;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.035);
+    transition: background 0.12s ease;
+}
+
+.question-card:last-child {
+    border-bottom: none;
 }
 
 .question-card:hover {
-    background: rgba(255, 255, 255, 0.045);
-    border-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
-    transform: translateY(-1px);
+    background: rgba(255, 255, 255, 0.02);
 }
 
 .question-card-top {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-    gap: 16px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 6px;
 }
 
 .question-card-meta {
@@ -1334,9 +1342,9 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 }
 
 .question-meta-separator {
-    color: #555;
-    font-size: 12px;
-    margin: 0 8px;
+    color: #3a3a3a;
+    font-size: 10px;
+    margin: 0 5px;
     user-select: none;
 }
 
@@ -1345,95 +1353,97 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 .question-marks {
     display: inline-flex;
     align-items: center;
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-    font-weight: 600;
-    background: rgba(59, 130, 246, 0.12);
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    border: none;
 }
 
 .question-number {
-    color: #9bc4ff;
-    background: rgba(59, 130, 246, 0.15);
-    border-color: rgba(59, 130, 246, 0.25);
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.1);
 }
 
 .question-subquestion {
-    color: #a0a0a0;
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.1);
+    color: #888;
+    background: rgba(255, 255, 255, 0.04);
     text-transform: uppercase;
-    font-size: 12px;
-    padding: 4px 8px;
+    font-size: 10px;
+    padding: 2px 6px;
 }
 
 .question-marks {
-    color: #5eead4;
-    background: rgba(94, 234, 212, 0.1);
-    border-color: rgba(94, 234, 212, 0.2);
-    font-size: 12px;
+    color: #7a9ab5;
+    background: rgba(255, 255, 255, 0.03);
+    font-size: 10px;
 }
 
 .question-card-text {
-    color: #e8e8e8;
-    font-size: 15.5px;
-    line-height: 1.7;
+    color: #e2e2e6;
+    font-size: 15px;
+    line-height: 1.6;
     margin: 0;
     font-weight: 400;
+    letter-spacing: 0.005em;
 }
 
 .questions-empty-state {
-    padding: 24px 16px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px dashed rgba(255, 255, 255, 0.08);
-    margin: 10px 16px;
+    padding: 28px 22px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.015);
+    border: 1px dashed rgba(255, 255, 255, 0.06);
+    margin: 18px 22px;
+    text-align: center;
 }
 
 .questions-empty-state h3 {
     margin-bottom: 6px;
-    font-size: 15px;
-    color: var(--text-light);
+    font-size: 14px;
+    color: #bbb;
+    font-weight: 600;
 }
 
 .questions-empty-state p {
-    color: #aaa;
+    color: #777;
     line-height: 1.5;
-    font-size: 13px;
+    font-size: 12.5px;
 }
 
 .metadata-table-wrap {
-    border-radius: 14px;
+    border-radius: 8px;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    margin: 16px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    margin: 16px 22px;
 }
 
 .metadata-table {
     width: 100%;
     border-collapse: collapse;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.015);
 }
 
 .metadata-table th,
 .metadata-table td {
-    padding: 14px 18px;
+    padding: 11px 16px;
     text-align: left;
-    font-size: 14px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     vertical-align: top;
 }
 
 .metadata-table th {
-    width: 180px;
-    color: #9bc4ff;
+    width: 170px;
+    color: #888;
     font-weight: 600;
-    background: rgba(59, 130, 246, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .metadata-table td {
-    color: #ececec;
+    color: #d4d4d8;
 }
 
 .metadata-table tr:last-child th,
@@ -1442,13 +1452,13 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 }
 
 .metadata-table tr:hover td {
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(255, 255, 255, 0.015);
 }
 
 .metadata-watermark-row td {
     font-style: italic;
-    color: #aaa;
-    font-size: 13px;
+    color: #777;
+    font-size: 12px;
 }
 
 /* Mobile Control Bar - Hidden by default, shown only on mobile */
@@ -1805,7 +1815,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     .questions-modal-content {
         width: calc(100vw - 16px);
         max-height: calc(100vh - 16px);
-        border-radius: 16px;
+        border-radius: 12px;
     }
 
     .questions-modal-header {
@@ -1814,39 +1824,51 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     }
 
     .questions-modal-title {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .questions-modal-subtitle {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .questions-modal-toolbar {
-        padding: 12px 16px;
+        padding: 10px 16px;
         flex-direction: column;
         align-items: stretch;
-        gap: 12px;
+        gap: 10px;
     }
 
     .question-card-list {
-        padding: 16px 20px 20px;
+        padding: 12px 14px 16px;
+        gap: 16px;
     }
 
     .question-card {
-        padding: 18px 20px;
+        padding: 8px 10px;
     }
 
     .question-card-top {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
     }
 
+    .question-card-text {
+        font-size: 14px;
+    }
+
+
     .questions-paper-summary {
-        margin: 16px 20px 0;
+        margin: 10px 14px 0;
         align-items: flex-start;
         flex-direction: column;
-        gap: 10px;
+        gap: 6px;
+        padding: 8px 12px;
+    }
+
+    .question-group-header {
+        padding: 6px 10px;
     }
 
     .questions-paper-picker {
@@ -1866,13 +1888,12 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 
     .metadata-table th {
         border-bottom: none;
-        padding-bottom: 6px;
+        padding-bottom: 4px;
     }
 
     .metadata-table td {
         padding-top: 0;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -1958,7 +1979,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
         height: 14px;
     }
 
-    /* Paper selector stays hidden on mobile - using bottom bar */
     .paper-selector {
         display: none;
     }
@@ -2018,7 +2038,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
         font-size: 12px;
     }
 
-    /* Mobile control bar adjustments for small screens */
     .mobile-control-bar {
         padding: 10px 12px;
         gap: 12px;
@@ -2063,7 +2082,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
     *,
     *::before,
     *::after {
@@ -2078,7 +2096,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 }
 
 @media print {
-
     header,
     .paper-selector,
     .rotation-prompt,

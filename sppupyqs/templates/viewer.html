@@ -48,7 +48,7 @@
     <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 
     <link href="/images/logo.png" rel="icon" fetchpriority="high" type="image/png">
-    <link href="{{ url_for('static', filename='css/viewer.css') }}?v=5.0" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/viewer.css') }}?v=5.2" rel="stylesheet">
     <script src="https://openfpcdn.io/fingerprintjs/v4/iife.min.js" defer></script>
     <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
 
@@ -2041,18 +2041,14 @@
         (function () {
             'use strict';
 
-            // Wait for DOM to be ready
             function init() {
-                // Close paper selector dropdowns when an option is selected
+                // Close paper selector dropdowns when clicking on an option
                 document.addEventListener('click', function (e) {
-                    // Check if click is on a dropdown option inside paper selector
                     var dropdownOption = e.target.closest('.paper-selector .dropdown-option');
 
                     if (dropdownOption) {
-                        // Find the parent dropdown and close it
                         var dropdown = dropdownOption.closest('.custom-dropdown');
                         if (dropdown) {
-                            // Small delay to allow the selection to process
                             setTimeout(function () {
                                 dropdown.classList.remove('open');
                             }, 100);
@@ -2060,19 +2056,38 @@
                     }
                 });
 
-                // Also close when clicking outside paper selector
+                // Close paper selector dropdowns when clicking outside
                 document.addEventListener('click', function (e) {
-                    // Check if click is outside all paper selectors
                     if (!e.target.closest('.paper-selector')) {
-                        // Close all paper selector dropdowns
                         document.querySelectorAll('.paper-selector .custom-dropdown.open').forEach(function (dropdown) {
                             dropdown.classList.remove('open');
                         });
                     }
                 });
+
+                // Close all open dropdowns when an iframe steals focus (clicking on PDF viewer area).
+                // Iframe clicks don't bubble to document, so we detect them via window blur.
+                window.addEventListener('blur', function () {
+                    // When focus moves to an iframe, window blurs.
+                    // Use a short delay to avoid racing with intentional dropdown interactions.
+                    setTimeout(function () {
+                        if (document.activeElement && document.activeElement.tagName === 'IFRAME') {
+                            CustomDropdown.closeAll();
+                        }
+                    }, 50);
+                });
+
+                // Also close on mousedown on the container background (gap between iframes)
+                var pdfContainer = document.getElementById('pdf-container');
+                if (pdfContainer) {
+                    pdfContainer.addEventListener('mousedown', function (e) {
+                        if (e.target === pdfContainer || e.target.closest('.pdf-viewer')) {
+                            CustomDropdown.closeAll();
+                        }
+                    });
+                }
             }
 
-            // Initialize when DOM is ready
             if (document.readyState === 'loading') {
                 document.addEventListener('DOMContentLoaded', init);
             } else {
