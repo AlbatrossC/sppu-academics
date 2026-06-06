@@ -1,0 +1,1982 @@
+{
+  "subject_name": "Human Computer Interface - Ele I",
+  "subject_slug": "human_computer_interface_ele_I_aids",
+  "branch": "aids",
+  "semester": "sem-5",
+  "papers": [
+    {
+      "pdf_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2022_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2022_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5926]-246",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1612",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/01/2023 13:47:15 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "List the interaction styles and explain command line interfaces in detail.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the Direct Manipulation interaction style with example",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How does Menu selection interaction style impact on better user interface/Explain with example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain any three Principles of User interface of design in detail.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the important aspects of Graphics to be considered in any web page interface designs?",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Usability Engineering in detail.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain GOMS model with an example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Compare and explain the Formative and Summative Evaluation methods.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the Heuristic Evaluation concept with example.",
+          "marks": 5,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a note on “Model based analysis”.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a note on DECIDE framwork.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write a note on “Usability testing in Laboratory”.",
+          "marks": 5,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write a note on “Sensor based and context aware Interaction” in HCI.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are the important factors in Data Retrieval in HCI? Give example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the five stage search framework.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is Hypertext? Explain with example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is the role of Pattern Recognition in HCI? Explain with example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write a note on “Machine learning and its importance in HCI”.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the basic anatomy of mobile app.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the comparison between a handheld device user interface and a computer based user interface with example.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the important aspects to be considered when designing help screens in a mobile app?",
+          "marks": 5,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the interface constraints of Mobile apps.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the Navigation and Toolbars used in mobile apps.",
+          "marks": 6,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write a short note on “Sorting and Filtering” in mobile apps.",
+          "marks": 5,
+          "question_id": "1vs_F0EpyqEwwhsMTek8xOFi7HHGuKOXd_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2546,
+        "processed_at": "2026-06-06 15:26:39"
+      }
+    },
+    {
+      "pdf_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_oct_2022_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_oct_2022_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "635",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245B",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P9025",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/10/2022 10:36:55 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain HCI principles in detail.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is ergonomics in HCI.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Differentiate between Mistake and Slip with some example.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between Good Design and Bad Design with example.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain WIMP in detail.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Draw and explain Human Memory Structure.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Why people have trouble with computers?",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss Shneiderman’s eight golden rules.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain advantages and disadvantages of the primary interaction styles.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Normans seven principles of design.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain different human considerations in design of business systems.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Millers Law.",
+          "marks": 5,
+          "question_id": "1P1lSMUQdYsn429NvcDE6RVCxfYWaVWFi_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1493,
+        "processed_at": "2026-06-06 15:26:55"
+      }
+    },
+    {
+      "pdf_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2023_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2023_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6003]-541",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245 (B)",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-437",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 15/06/2023 10:49:50 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain what is mean by Human err in detail.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Elaborate Graphical User Interface in detail.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain web user interface in detail.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain usability Engineering with suitable example.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write down about interactive design and prototyping using suitable example.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write short note on: i) Popularity of Graphics ii) Concept of Direct Manipulation",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain analytic methods and model-based analysis.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Elaborate universal design principles in detail.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain cognitive walkthrough in detail.",
+          "marks": 5,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate GOMS model.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Elaborate evaluation Framework using following point: i) Paradigms and Techniques ii) DECIDE: A Framework to Guide Evaluation",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Discuss the concept of designing of diversity.",
+          "marks": 5,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is mean by ubiquitous computing? Which are the applications of it? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Compare data integrity and data immunity.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Which are the social aspects of search? Explain.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss about handling missing data using suitable example.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is the significance of machine learning in HCI? Describe.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain sensor-based and context-aware interaction.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Mobile Navigation, Content and Control Idioms using appropriate. Example.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss Drawers used in HCI system. Explain item-level drawers.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe the “Inter-app Integration”.",
+          "marks": 5,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is use of “multi-touch gestures”? Explain various multi-touch gestures used in mobile device.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe Tap-to-Reveal and Direct Manipulation.",
+          "marks": 6,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain “Welcome and Help Screens”.",
+          "marks": 5,
+          "question_id": "1giBOt8Ui4kTIutkWfn4mP_Mp9APuPPTv_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2497,
+        "processed_at": "2026-06-06 15:27:10"
+      }
+    },
+    {
+      "pdf_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2023_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2023_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Computer Engineering / A.I & D.S",
+        "paper_number": "[6180]-50",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-7542",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/12/2023 09:57:53 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Ergonomics? Explain the Arrangement of controls and display with respect to cognitive aspects of design.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List the interaction styles and explain any one in detail.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a short note on Human Memory and its types.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the psychological reactions to poor interface designs?",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is Usability Engineering? Explain Scenario based usability Engineering.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List the Principles of User Interface of design and explain any one in detail.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List the seven commandments and explain “Soliciting early and ongoing user involvement” in detail.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the importance of multimodal interaction with respect to “Sound in interface”.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the Cognitive Walkthrough concept With example.",
+          "marks": 5,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain GOMS model with an example.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the Summative and Formative Evaluation techniques.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write a note on “Usability testing in Laboratory”.",
+          "marks": 5,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is CSCW? Give example.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Heuristic evaluation with example.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the five stage search framework.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write a comparison between Dynamic queries and faceted search in a user interface.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is the role of Pattern Recognition in HCI? Explain with example.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What factors should be considered for data entry designing for any HCI?",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the difference between good and bad interface in a mobile based app with example.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Which factors are important in designing an interface for a handheld device.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the important aspects to be considered when designing help screens in a mobile app?",
+          "marks": 5,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the design principles for user interface in mobile devices.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the importance of using carousels in designing mobile apps.",
+          "marks": 6,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "How can drawers and secondary drawers help in better designing of a mobile app?",
+          "marks": 5,
+          "question_id": "15f7tZ8RKWKsn69R3LFsDwpJ5M4apNiDo_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2687,
+        "processed_at": "2026-06-06 15:27:24"
+      }
+    },
+    {
+      "pdf_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2023_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2023_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE (Elective - I)",
+        "academic_year": "T.E.",
+        "branch_name": "Artifical Intelligence and Data Science",
+        "paper_number": "[6187]-534",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245(B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5127",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/09/2023 10:47:38 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Human-Computer Interface. State its Importance.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Good and Bad Interface design with an example.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "List and explain the elements of WIMP.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Ergonomics? Describe the arrangement of controls and displays, the physical environment",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a short note on text entry devices.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List the various interaction style. Explain any one in details.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is the Miller’s law? Give an example.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "List the eight Golden rules of interface. Explain any 2 in details.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "How does User’s Knowledge and Experience help in Human Considerations in the Design of Business Systems.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the Information processing and Memory as Human characteristics in design.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe with an example, the response of poor design from users.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the stages of “Human action cycle”.",
+          "marks": 5,
+          "question_id": "1XJAuY4t0qjWXSuSsnO7PdPeV3h0utMCN_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1522,
+        "processed_at": "2026-06-06 15:27:28"
+      }
+    },
+    {
+      "pdf_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2024_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2024_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Computer/Artificial Intelligence and Data Science",
+        "paper_number": "[6262]-40",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3782",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 28/05/2024 09:55:54 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is meant by design? Which are the important points needed to consider for designing?",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain what is mean by human error in detail.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "List out Eight golden rules.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the process of design using suitable example.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss the Software Life cycle used in HCI system using appropriate example.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Elaborate Graphical User Interface in Detail.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Elaborate Evaluation framework using following point: i) Paradigms and Techniques ii) DECIDE: a framework to Guide Evaluation",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Elaborate usability assessment in the design process.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain formative and summative evaluation.",
+          "marks": 5,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain analytic methods and model-based analysis.Write short note on usability specification for evaluation.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Elaborate GOMS model.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Elaborate universal design principles in detail.",
+          "marks": 5,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "explain vision-based Hand Gesture Recognition System using HCI paradigms.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is mean by paradigm? Explain in detail.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is mean by ubiquitous computing? Which are the applications of it? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the following terms: i) Sensor-based interaction ii) Context-aware interaction iii) Data integrity and data immunity",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Elaborate the term auditing versus editing using Nielson heuristic principles.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain “Five stage framework” using suitable HCI system.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Norman’s principles of Design in software.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Elaborate designing for mobile and other devices in detail.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write short note on: i) Mobile form factors ii) Handheld format apps iii) Tablet format apps iv) Mini-tablet format apps v) Mobile Navigation",
+          "marks": 5,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is the significance of “navigation and toolbars” in HCI? Explain.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the drawers used in HCI system. Explain item-level drawers in detail.",
+          "marks": 6,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Describe the term “Inter-app Integration” in detail.",
+          "marks": 5,
+          "question_id": "1cJQs0GVZsOAyjpjDYpr10y3XQAXbqB6X_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2758,
+        "processed_at": "2026-06-06 15:27:40"
+      }
+    },
+    {
+      "pdf_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2024_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2024_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6353]-40",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC1723",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/12/2024 09:53:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is mean by interaction styles? Explain different types of interaction styles such as: i) Command-line interface ii) Menus iii) Form-Fills-In iv) Direct Manipulation",
+          "marks": 8,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write down about iterative design and prototyping using suitable example.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Elaborate characteristics of web using Merging of Graphical Business Systems and Web Characteristics of Intranet Versus Internet.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is mean by design? Which are the important things required to consider for designing? Explain with example.",
+          "marks": 8,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain advantages, disadvantages and characteristics of Graphical User Interface.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write short note on: Popularity of the Web.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Usability Testing in Laboratory ii) Controlled Experiments iii) Heuristic Evaluation",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Elaborate Evaluation Framework using following point: i) Paradigms and Techniques ii) DECIDE: a Framework to Guide Evaluation",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is significance of multi-modal interaction in HCI System? Explain with example.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate universal design principles in detail.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Empirical Methods: Experimental Evaluation ii) Field Studies",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain formative and summative evaluation.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss about interface design, pattern recognition phases, system architecture using suitable example of HCI system.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain vision-based Hand Gesture Recognition System using HCI paradigms.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is mean by ubiquitous computing? Which are the applications of it? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the term “data entry and usability using appropriate case study.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Retrieval in Physical World ii) Retrieval in Digital world iii) Constrained Natural Language output",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Compare data integrity and data immunity.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Elaborate designing for Mobile and other devices.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Mobile Navigation, Content, and Control Idioms using appropriate Example.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is the significance of “navigation and toolbars” in HCI? Explain.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is use of “multi-touch gestures”. Explain various multi-touch gestures used in mobile device.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe Tap-to-Reveal and Direct Manipulation.",
+          "marks": 6,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Norman’s Principles of Design in software.",
+          "marks": 5,
+          "question_id": "1q7hQwOiukPXamACG_lCmOyxifbCYkPx5_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3124,
+        "processed_at": "2026-06-06 15:27:45"
+      }
+    },
+    {
+      "pdf_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2024_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2024_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE (Elective - I)",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6360]-132",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245 B",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-126",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/09/2024 10:58:09 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Good and Poor design. List benefits of Good design.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain I/O channels?",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is reasoning? Explain any two types of Reasoning.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Human Memory.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain : Emotion, Individual Difference.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Interactivity? Explain the context of Interaction.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are Interaction style? Explain any two.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the eight Golden Rules of Interface Design.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the different guidelines for organizing the display.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are different human considerations factors in a design?",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the different techniques for Getting the user’s attention.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Important Human Characteristics in Design.",
+          "marks": 5,
+          "question_id": "1Lw4tK59ORQ4k3ysuMM6tz3lTEQw4kqDH_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1359,
+        "processed_at": "2026-06-06 15:27:51"
+      }
+    },
+    {
+      "pdf_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_aug_2025_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_aug_2025_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Computer Engg./Computer Science/A.I.D.S/Computer Science & Engg. In D.S.",
+        "paper_number": "[6579]-330",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310245 (B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE29",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 23/08/2025 10:39:36 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Elaborate designing, system architecture, and working Hand Gesture Recognition system using HCI system.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Compare between Human and Computer.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Which are the applications of HCI in various fields.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain human and computer abilities in detail.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss about fundamental ability for human-THINKING.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Describe human ability-EMOTION in detail.List down various standard human emotions.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the importance of human characteristics in design.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the concept of human consideration in design of business system . Explain with suitable example.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Which are the tools used for Positioning. Pointing, and Drawing? Explain in detail.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate different methods of Gaining an Understanding of users.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss various design guidelines to have suitable HCI system.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain design principles in detail.",
+          "marks": 5,
+          "question_id": "1aWJcs3c7y6F4gefde4TKLLb-w5pDztv9_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1569,
+        "processed_at": "2026-06-06 15:27:54"
+      }
+    },
+    {
+      "pdf_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2025_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2025_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Computer (AIDS)",
+        "paper_number": "[6403]-40",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "310245 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4246",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 23/05/2025 09:42:20 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is GUI? Elaborate Graphical user Interface in Details.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is mean by interaction styles? Explain any two interaction styles.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Discuss software life cycle used in HCI system using appropriate example.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Principles for UI/UX Design in details. Also give some application name.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is design Rationals? Explain Usability Engineering with suitable example.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List down Norman’s Seven rules.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss the GOMS Models with example.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Elaborate the objective measures of Usability, formative and summative evaluation.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Cognitive walkthrough in detail.",
+          "marks": 5,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate evaluation framework using following points : i) Paradigms and techniques. ii) DECIDE : a framework to guide evaluation.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss the concept of designing in diversity.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write short note on Heuristic evaluation and Usability testing in laboratory.",
+          "marks": 5,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain vision based hand gesture recognition system using HCI Paradigms.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss about handling missing data. What are the roles of Machine learning in HCI.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Describe following paradigms used for interaction in HCI i) Time sharing ii) Programming toolkit iii) Agent based Interfaces",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain with example pattern recognition in HCI.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What do you mean by Ubiquitous Computing? What is its application? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Compare Data Integrity versus Data immunity.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is significance of “navigation and toolbar” in HCI? Explain with example.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on : i) Mini tablet format app. ii) Searching, Sorting and Filtering.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe anatomy of mobile app.",
+          "marks": 5,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is used of “Multi-touch gestures”? Explain various multi texture gesture used in Mobile devices.",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on based on various devices : i) Designing for kiosks ii) Designing for audible interfaces",
+          "marks": 6,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Describe the “Inter-app integration”.",
+          "marks": 5,
+          "question_id": "1T2VApk_tNOgjhIP374M2M-C5NnepsZuk_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2797,
+        "processed_at": "2026-06-06 15:27:59"
+      }
+    },
+    {
+      "pdf_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2025_aids_hcia_eI_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2025_aids_hcia_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "HUMAN COMPUTER INTERFACE",
+        "academic_year": "T.E.",
+        "branch_name": "Computer/A.I.&D.S./ComputerScience/Computer Science and Engineering (Data Science)",
+        "paper_number": "[6583]-47",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "310245 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2521",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/12/2025 09:52:05 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is mean by interaction styles? Explain different types of interaction styles such as: i) Command-line interface ii) Menus iii) Form-Fills-In iv) Direct Manipulation.",
+          "marks": 8,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write down about iterative design and prototyping using suitable example.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Elaborate characteristics of web using Merging of Graphical Business Systems and Web Characteristics of Intranet Versus Internet.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is mean by design? Which are the important things required to consider for designing? Explain with example.",
+          "marks": 8,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain advantages, disadvantages and characteristics of Graphical User Interface.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write short note on: Popularity of the Web",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Usability Testing in Laboratory ii) Controlled Experiments iii) Heuristic Evaluation",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Elaborate Evaluation Framework using following point: i) Paradigms and Techniques ii) DECIDE: a Framework to Guide Evaluation",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is significance of multi-modal interaction in HCI System? Explain with example.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate universal design principles in detail.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Empirical Methods: Experimental Evaluation ii) Field Studies",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain formative and summative evaluation.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss about interface design, pattern recognition phases, system architecture using suitable example of HCI system.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain vision-based Hand Gesture Recognition System using HCI paradigms.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is mean by ubiquitous computing? Which are the applications of it? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the term “data entry and usability using appropriate case study.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Retrieval in Physical World ii) Retrieval in Digital world iii) Constrained Natural Language output",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Compare data integrity and data immunity.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Elaborate designing for Mobile and other devices.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Mobile Navigation, Content, and Control Idioms using appropriate Example.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is the significance of navigation and toolbars” in HCI? Explain.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is use of”multi-touch gestures”. Explain various multi-touch gestures used in mobile device",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe Tap-to-Reveal and Direct Manipulation.",
+          "marks": 6,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Norman’s Principles of Design in software.",
+          "marks": 5,
+          "question_id": "1jfLp4qnwjUwjLqu5cRoYVHM0nWz1iNtK_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3322,
+        "processed_at": "2026-06-06 15:28:05"
+      }
+    }
+  ]
+}

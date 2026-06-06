@@ -28,7 +28,6 @@ CLOUDINARY_RAW_BASE_URL = (
 
 CF_WORKER_DB_URL = os.getenv("CF_WORKER_DB_URL", "").strip().rstrip("/")
 DB_API_KEY = os.getenv("DB_API_KEY", "").strip()
-QUESTION_ANSWER_WORKER_URL = os.getenv("QUESTION_ANSWER_WORKER_URL", "").strip().rstrip("/")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 MAINTENANCE_MODE = os.getenv("MAINTENANCE_MODE", "false").lower() == "true"
 SECRET_KEY = os.getenv("SECRET_KEY") or os.getenv("FLASK_SECRET_KEY", "karltos")

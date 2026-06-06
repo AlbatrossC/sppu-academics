@@ -46,7 +46,7 @@ def load_config() -> AppConfig:
     return AppConfig(
         base_dir=base_dir,
         scripts_dir=scripts_dir,
-        input_dir=base_dir / "question-papers" / "question-papers-r2",
+        input_dir=base_dir / "manifest",
         output_dir=base_dir / "pyqs-metadata",
         prompt_path=scripts_dir / "prompt.txt",
         schema_path=schema_path,

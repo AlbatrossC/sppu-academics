@@ -1,0 +1,1457 @@
+{
+  "subject_name": "Data Science",
+  "subject_slug": "data_science_aids",
+  "branch": "aids",
+  "semester": "sem-6",
+  "papers": [
+    {
+      "pdf_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_feb_2023_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_feb_2023_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6009]-424",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10120",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/04/2023 12:11:40 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Compare Business Intelligence Vs. Data Science.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List and explain data reduction techniques with example.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is Data wrangling? Explain various methods of Data wrangling.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Data Science? Differentiate between Data Science and Information Science?",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe Bayes theorem with an example.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate Structured and Unstructured Data.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "For the given numbers find out the variance and standard deviation.1, 2, 3, 4,5, 6.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the use of hypothesis and hypothesis testing.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is Data Integration and Discretization explain?",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define measures of central tendency and given the five annual salaries of an industry shown in Table, determine the mean and the median. Position: CEO, Salary: $10,00,000; Position: Manager, Salary: $55,000; Position: Developer, Salary: $40,000; Position: Tester, Salary: $30,000; Position: Custodian, Salary: $20,000",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What does the Pearson correlation coefficient test do explain with an example.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Type I and Type II errors with an example.",
+          "marks": 5,
+          "question_id": "13zCM3822RP0XyY-8C2dDChZ5KrIN5uhZ_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1606,
+        "processed_at": "2026-06-06 15:22:57"
+      }
+    },
+    {
+      "pdf_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2023_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2023_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6003]-542",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P438",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/06/2023 10:39:16 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Data Analytics life cycle with the help of diagram.",
+          "marks": 10,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List different phases in data analytics life cycle and explain Model Building phase in detail.",
+          "marks": 8,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are different phases in data analytics life cycle? Explain Operationalize phase in detail.",
+          "marks": 10,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Model building phase with its challenges.",
+          "marks": 8,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain association rules with example.",
+          "marks": 4,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Python Libraries for Data Processing, Modeling and Data Visualization.",
+          "marks": 10,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain predictive, Descriptive, and Prescriptive data analysis. And also mention their difference.",
+          "marks": 4,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a short notes on Global Innovation Social Network and Analysis.",
+          "marks": 5,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the use of logistic function in logistic regression in detail. List and explain the Types of Logistic regression.",
+          "marks": 10,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Wirte short notes on ASM.",
+          "marks": 3,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is clustering? With suitable example explain the steps involved in k-means algorithm.",
+          "marks": 7,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss Holdout method and Random Sampling methods.",
+          "marks": 6,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Wirte short note on i) Confusion matrix ii) AVC- ROC curve",
+          "marks": 4,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What do you mean by text analysis? Why text analysis need to be done? Explain the following text analysis steps with suitable examples i) Part of speech (POS) tagging ii) Lemmatization iii) Stemming",
+          "marks": 11,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Wirte short note on i) Time series Analysis ii) TF- IDF.",
+          "marks": 6,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is data visualization? What are the different methods of data visualization explain in detail.",
+          "marks": 6,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail the Hadoop Ecosystem with suitable diagram.",
+          "marks": 11,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Describe the Data visualization tool “Tableau”. Explain its applications in brief.",
+          "marks": 6,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "With a suitable example explain and draw a Box plot and explain its usages.",
+          "marks": 6,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "With a suitable example explain Histogram and explain its usages.",
+          "marks": 5,
+          "question_id": "1IErmUtNJZWFF0eGjHrBfwzmIkaEC0ddz_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2599,
+        "processed_at": "2026-06-06 15:23:09"
+      }
+    },
+    {
+      "pdf_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2024_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2024_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6269]-324",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-110",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/03/2024 10:40:44 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Data Science? Explain its use in AI.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the various applications of Data Science.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Imagine you have given the data set with the Null or Nan values. Apply data wrangling methods used in data science.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain null and alternative hypothesis by considering the example for a flipping coin.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe Bayes theorem in detail with an example.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Standard deviation and Inter Quartile range and write python code to compute the standard deviation and interquartile range.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is data Wrangling? Explain various methods of data wrangling.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Data Cleaning, Data Transformation.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Data Integration and Discretization.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is hypothesis testing?",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain different measures of dispersion.",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve the following. Suppose the probability of the weather being cloudy is 40%. Also suppose the probability of rain on a given day is 20%. Also suppose the probability of clouds on a rainy day is 85%. If it’s cloudy outside on a given day, what is the probability that it will rain that day?",
+          "marks": 5,
+          "question_id": "1yRQXTt9qoZtSnZdatDcz_x-FJGNaUJIX_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1917,
+        "processed_at": "2026-06-06 15:23:18"
+      }
+    },
+    {
+      "pdf_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2024_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2024_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6262]-56",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3797",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 15/05/2024 09:49:40 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Data Analytics Life Cycle?",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw the diagram of the data analytics life cycle in big data and briefly explain the Model Planning phase.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a note on the Data Preparation phase with its steps.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail how the model-building phase is built by a team in the data analytics life cycle.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "List and explain the steps in the Data Preparation phase of the data analytics lifecycle.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain challenges in the Model building phase.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What do you mean by Linear Regression? Elaborate the types.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the Apriori algorithm with an example.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a short note on the following: i) FP growth ii) Decision Tree Classification",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Data transformation using function and mapping.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a short note on the following: i) Removing duplicates from the data set. ii) Handling missing data.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain association rules with examples.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is clustering? Explain hierarchical clustering with an example.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the Holdout method and Random Sub Sampling method.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Discuss parameter tuning and optimization.",
+          "marks": 5,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Short Note on: i) AUC-ROC Curves ii) Elbow plot",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is clustering? Explain k - means algorithm.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write a short note on : i) Time series Analysis ii) TF-IDF.",
+          "marks": 5,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is data Visualization? List and explain any one type of data visualization.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "With a suitable example explain and draw a Box plot and explain its usage.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss various challenges to Big data Visualization.",
+          "marks": 5,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Define data visualization. What are the different methods of data visualization explain in detail.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in detail the Hadoop Ecosystem with a suitable diagram.",
+          "marks": 6,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "With a suitable example explain the Scatter plot and explain its usage.",
+          "marks": 5,
+          "question_id": "1YJ-rEh1WdE-bLV6HZ99G4BK-6WUyOZ77_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2656,
+        "processed_at": "2026-06-06 15:23:28"
+      }
+    },
+    {
+      "pdf_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2024_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2024_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6353]-56",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC1739",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 25/11/2024 09:48:43 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in Detail Discovery Phase of Data Analytics lifecycle.",
+          "marks": 7,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in Detail Data Preparation Phase of Data Analytics lifecycle.",
+          "marks": 4,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain in Detail Model Building Phase of Data Analytics lifecycle.",
+          "marks": 7,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in Detail Communication Result Phase of Data Analytics lifecycle.",
+          "marks": 8,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a Short Notes on Global Innovation Social Network and Analysis (GINA).",
+          "marks": 10,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are different python libraries used for data analysis?",
+          "marks": 3,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain data preprocessing in detail.",
+          "marks": 10,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between Predictive, Descriptive, and Prescriptive data analysis.",
+          "marks": 4,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are association rules? Explain Apriori Algorithm in brief.",
+          "marks": 5,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write python program to apply the logistic regression model and check for goodness of fit.",
+          "marks": 7,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is the decisiontree? Explain with an example.",
+          "marks": 5,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What do you mean by text analysis? Why text analysis needs to be done? Explain the following text analysis steps with suitable example. i) Part of speech (POS) tagging ii) Lemmatization iii) Stemming",
+          "marks": 12,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Time series Analysis ii) TF - IDF.",
+          "marks": 6,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is clustering? With suitable example explain the steps involved in k - means algorithm.",
+          "marks": 8,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss Holdout method and Random Sampling methods.",
+          "marks": 6,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write short note on: i) Confusion matrix ii) AUC - ROC curve",
+          "marks": 4,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write a short note on the following i) Map reduce ii) Pig iii) Hive",
+          "marks": 6,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe the Data visualization tool “Tableau”. Explain its applications in brief.",
+          "marks": 6,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "With a suitable example explain Histogram and explain its usages.",
+          "marks": 5,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in detail the Hadoop Ecosystem with suitable diagram.",
+          "marks": 11,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "With a suitable example explain and draw a Box plot and explain its usages.",
+          "marks": 6,
+          "question_id": "1iNrNwDSL6R7hc5IRD0Z8AYOoPE5WB4Bs_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2547,
+        "processed_at": "2026-06-06 15:23:33"
+      }
+    },
+    {
+      "pdf_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2025_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2025_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6410]-424",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD103",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 10:30:17 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Differentiate Structured and Unstructured Data.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List and explain various Data Discretization techniques.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is Data Wrangling? Why data wrangling is important in data science?",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Data Science? How data science is similar to and differ from Information Science?",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe Bayes theorem with an example.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the Data Transformation methods in detail?",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are different measures of dispersion? For the given numbers find out variance and standard deviation 4, 34, 11, 12, 2 and 26.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Here are the 19 scores listed out. 5, 7, 10, 15, 19, 21, 21, 22, 22, 23, 23, 23, 23, 23, 24, 24, 24, 24, 25 Calculate IQR for below the first quartile and above the third quartile. Identify outliers if any?",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Type I and Type II Error. Give example to differentiate between the two types of error.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are different measures of central tendency? A pizza outlet overview its weekly sales. They sold 57 cheese pizzas, 63 pasta pizzas, 53 veggies pizzas, 68 cottage cheese pizzas, and 56 max cheese pizzas, Find the mean of all the pizzas sold by them.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the Chi-Square hypothesis testing with an example.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is T-test? What are the types of T-tests? Explain by example the number of variables and degree of freedom.",
+          "marks": 5,
+          "question_id": "1QmTWLry7q0w5iiahvlt_hmadNw_UT9YX_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1927,
+        "processed_at": "2026-06-06 15:23:41"
+      }
+    },
+    {
+      "pdf_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2025_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2025_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6403]-56",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4260",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/05/2025 09:38:51 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain phases of data analytic life cycle in detail. Draw a suitable diagram.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is model building elaborate this phase of Data analytics with the help of suitable example.",
+          "marks": 8,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a short note on : i) ETL ii) Common tools for model building iii) Model selection for Data analytics",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "List and explain the various activities involved in identifying potential data resources as a part of discovery phase in Data analytics life cycle.",
+          "marks": 8,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write short note on the following : i) Removing duplicates from data set. ii) Data transformation iii) FP Growth",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are association rules? Explain Apriori Algorithm in brief.",
+          "marks": 8,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Predictive, Descriptive and Prescriptive analytics with example.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is Classification? Explain Decision Tree Classification with example.",
+          "marks": 8,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write short note on the following : i) Confusion matrix. ii) AUC-ROC Curves. iii) Elbow plot.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the following Text Analysis steps with suitable example : i) Part-of-speech(POS)tagging ii) Lemmatization",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is clustering? With suitable example explain the steps involved in Hierarchical Clustering.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is confusion matrix? Given the confusion matrix, Calculate Accuracy, Precision, Recall, Error rate with description on diabetic risk Predicted Classes Actual Classes Diabetic Risk- Yes Diabetic Risk- No Classes Diabetic Risk- Yes 90 210 Diabetic Risk- No 140 9560",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "List the challenges of Big Data Visualization. Explain the types of visualization with example.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail the Hadoop Ecosystem with suitable diagram and different components.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a short note on the following : i) Map reduce. ii) Pig iii) Hive",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "With suitable example draw histogram and boxplot. Also explain its uses.",
+          "marks": 9,
+          "question_id": "1PvcgJ8-NYmT3zq9MEWRM6BFho7tZSF2i_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2621,
+        "processed_at": "2026-06-06 15:24:01"
+      }
+    },
+    {
+      "pdf_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2025_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2025_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "6583-50",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2524",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 22/11/2025 09:48:25 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Model Selection in detail.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in Detail Data Preparation Phase of Data Analytics life cycle.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain Data Discovery phase in Data analytics Life cycle with example.",
+          "marks": 8,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a short note on i) ETL ii) Common tools for model building.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Why communication is important in Data analytics Life cycle.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Data Analytics Life Cycle with diagram.",
+          "marks": 8,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a short note on Association rule.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe Regression Analysis with example.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain how Apriori algorithm works, with a suitable example.",
+          "marks": 7,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the term Support, Confidence & Lift by taking a suitable example.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a short note on Decision Tree.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the Naïve Bayes Classifier with its Advantages & Disadvantages.",
+          "marks": 7,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write a short note on clustering with its properties & types.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write a short note on social network analysis.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "With a suitable example explain the steps involved in K-means algorithm.",
+          "marks": 8,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain confusion Matrix with all its key terms.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Hyperparameter tuning. What are the various tuning techniques.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write a short note on : i) Time series Analysis ii) TF-IDF",
+          "marks": 8,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is mean by Data Visualization and explain its types?",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the challenges in big data visualization.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain data visualization tool Tableau.",
+          "marks": 7,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a short note on Hadoop Distributed File System and Hive.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain analytical techniques used in Big Data Visualization.",
+          "marks": 5,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain MapReduce paradigm with example.",
+          "marks": 7,
+          "question_id": "1XKqtUTh1HFEjPOH-Lj32GlD1V2hi4UUA_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2372,
+        "processed_at": "2026-06-06 15:24:18"
+      }
+    },
+    {
+      "pdf_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2026_aids_dsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2026_aids_dsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "DATA SCIENCE",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "384",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF304",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 09/03/2026 10:53:21 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Data Science? Differentiate between Data Science and Information Science?",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List and explain data reduction techniques with example.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain Data Integration and Discretization.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is data wrangling? Explain various methods of data wrangling.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is Data? Explain different types of Data and Data Collection.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the various applications of Data Science.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is Hypothesis? Explain null and alternative hypothesis with an example.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe Bayes theorem in detail with an example.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "In a garden, there are 39 plants. The heights (in cm) of 5 randomly selected plants are 38, 51, 46, 79, and 57. Calculate the standard deviation of their heights.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain need of statistics in data science.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain different measures of dispersion.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve the following. The average score of a class is 90. However, a teacher believes that the average score might be lower. The scores of 6 students were randomly measured. The mean was 82 with a standard deviation of 18. With a 0.05 significance level use hypothesis testing to check if this claim is true.",
+          "marks": 5,
+          "question_id": "1fA7ENw-igLy-04Dzee1Dv5Pnf9tg9SGI_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1792,
+        "processed_at": "2026-06-06 15:24:27"
+      }
+    }
+  ]
+}

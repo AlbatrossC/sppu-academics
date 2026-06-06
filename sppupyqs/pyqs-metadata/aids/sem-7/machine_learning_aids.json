@@ -1,0 +1,904 @@
+{
+  "subject_name": "Machine Learning",
+  "subject_slug": "machine_learning_aids",
+  "branch": "aids",
+  "semester": "sem-7",
+  "papers": [
+    {
+      "pdf_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6181]-404",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P6779",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 30/11/2023 13:42:16 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Apply K-Nearest Neighbor Algorithm (KNN) on following data. Predict the student result for values physics = 6 marks, Chemistry = 8 marks. Consider number of neighbours K = 3 and Euclidean Distance as distance measure. Physics (marks) Chemistry (marks) Results 4 3 Fail 6 7 Pass 7 8 Pass 5 5 Fail 8 8 Pass",
+          "marks": 12,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain support Vector Machine classification algorithm with suitable example.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain any 4 evaluation measures of Binary classification with example?",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain construction of multi-classifier. i) One Vs. All approach ii) One Vs One approach",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate between Binary - vs - Multiclass Classification.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain K - Means clustering algorithm and states the advantages and disadvantages of k-means clustering algorithm.",
+          "marks": 9,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Gaussian mixture model with example.",
+          "marks": 8,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Elaborate need of clustering and explain how the elbow method is used to decide the value of cluster k.",
+          "marks": 9,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Divisive Hierarchical clustering (DHC) algorithm with example.",
+          "marks": 8,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Differentiate the Bagging and Boosting approach of ensemble learning.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain different types of voting mechanisms in ensemble learning.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain AdaBoost algorithm in detail.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Compare Homogeneous and Heterogeneous ensemble methods.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is the ensemble learning? Explain any two ensemble learning techniques.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain random forest ensembles with an example.",
+          "marks": 6,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain following terms: i) Markov Property ii) Bellman Equation iii) Markov Reward Process iv) Markov Chain",
+          "marks": 8,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Q-Learning algorithm with an example.",
+          "marks": 9,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is Reinforcement Learning? Explain the real time applications of reinforcement learning.",
+          "marks": 8,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain following terms : i) Supervised Learning. ii) Unsupervised Learning. iii) Reinforcement Learning.",
+          "marks": 9,
+          "question_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2562,
+        "processed_at": "2026-06-06 14:57:13"
+      }
+    },
+    {
+      "pdf_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2023_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2023_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "A. I. D. S.",
+        "paper_number": "[6188]-290",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5321",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2023 13:59:27 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Compare Machine Learning with Traditional programming.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Dimensionality Reduction, Explain any one Dimensionality Reduction technique.",
+          "marks": 6,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a note on Reinforcement Learning.",
+          "marks": 4,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain parametric & nonparametric models in machine learning.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate supervised and unsupervised learning techniques.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Elaborate grouping and grading models.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Elaborate random forest regression.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Differentiate multivariate regression and univariate regression.",
+          "marks": 4,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Regression. Explain types of regression.",
+          "marks": 6,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is underfitting and overfitting in machine Learning explain the techniques to reduce overfitting?",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain any two Evaluation Metrics for regression.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Elastic Net regression in Machine Learning.",
+          "marks": 5,
+          "question_id": "1EBtMJ1irKB25NJ4HX8WtAqNC00SdebWb_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1398,
+        "processed_at": "2026-06-06 14:57:17"
+      }
+    },
+    {
+      "pdf_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2024_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2024_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AIDS",
+        "paper_number": "[6354]-781",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2632",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2024 14:08:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are kernel functions in SVM? Describe the Radial Basis Kernel, and Sigmoid kernel.",
+          "marks": 6,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write formula for accuracy, precision, recall and f1-score. Calculate accuracy, precision, recall and f1-score for given example. Actual Values (Cancer, No Cancer) Predicted Values (Cancer, No Cancer)",
+          "marks": 12,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain any 4 evaluation measures of Multiclass classification.",
+          "marks": 4,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate Balanced and Imbalanced Classification.",
+          "marks": 6,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a detailed note on K Nearest Neighbour algorithm with suitable example.",
+          "marks": 8,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate Agglomerative Hierarchical Clustering and Divisive Hierarchical Clustering.",
+          "marks": 8,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is clustering? Elaborate Types of Clustering.",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain DBSCAN algorithm with advantages and disadvantages.",
+          "marks": 8,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe centroid based clustering algorithm and explain any one type with example.",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Following with respect to Ensemble learning. i) Need of Ensemble Learning ii) Advantages of Ensemble methods iii) Ensemble learning limitations",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Elaborate stacking approach of ensemble with example.",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe ensemble learning. Explain Gradient Boosting ensemble learning techniques.",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain any three voting mechanism in ensemble learning.",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Differentiate supervised and unsupervised learning with example.",
+          "marks": 8,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Reinforcement Learning need and its types in detail?",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain following terms: i) Belman Equation ii) Markov Chain iii) Q table iv) Q function",
+          "marks": 8,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "How does the Markov property relate to Reinforcement Learning? Why is it important?",
+          "marks": 9,
+          "question_id": "1WkxtesCfVpuO89o9s_gygom5EVvQx0a6_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2367,
+        "processed_at": "2026-06-06 14:57:27"
+      }
+    },
+    {
+      "pdf_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2024_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2024_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AIDS",
+        "paper_number": "[6361]-188",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-316",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 31/08/2024 13:38:08 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe Machine Learning and differentiate it from traditional programming.",
+          "marks": 6,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Principal Component Analysis used in Machine Learning.",
+          "marks": 5,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the relationship between Artificial Intelligence, Machine Learning and data science.",
+          "marks": 4,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain types of Machine Learning.",
+          "marks": 6,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Linear Discriminant Analysis (LDA) used in Machine Learning.",
+          "marks": 5,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate Grouping and Grading models of Machine Learning.",
+          "marks": 4,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain three evaluation metrics used for regression model.",
+          "marks": 6,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the Random forest Regression.",
+          "marks": 5,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between Regression and Correlation.",
+          "marks": 4,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is Regression? Explain types of Regressions.",
+          "marks": 6,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Bias-Variance Trade-off with respect to Machine Learning.",
+          "marks": 5,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Differentiate Ridge and Lasso Regression techniques.",
+          "marks": 4,
+          "question_id": "1UisKNE_HxsoJuU2vdOZByGD8GszKm_1M_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1405,
+        "processed_at": "2026-06-06 14:57:31"
+      }
+    },
+    {
+      "pdf_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_aug_2025_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_aug_2025_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6580]-693",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-322",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/08/2025 13:32:26 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe Machine Learning and highlight its key differences from traditional programming Methods.",
+          "marks": 5,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the main difference between Linear Discriminant Analysis (LDA) and Principal Component Analysis (PCA) in reducing dimensions.",
+          "marks": 6,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a note on Reinforcement Learning.",
+          "marks": 4,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is a logical model in the context of Machine Learning?",
+          "marks": 5,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What distinguishes unsupervised learning from supervised and semi-supervised learning techniques?",
+          "marks": 6,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Grouping and Grading models in a machine learning with example?",
+          "marks": 4,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Elaborate decision tree regression and random forest regression.",
+          "marks": 6,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Differentiate between multivariate regression from univariate regression?",
+          "marks": 4,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain bias-variance trade-off with neat diagram.",
+          "marks": 5,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Which one of these is Underfit or Overfit? Why? Comment with respect to Bias and Variance.",
+          "marks": 6,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain any two evaluation metrics in regression model.",
+          "marks": 4,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "List and Explain any two different types of Regression.",
+          "marks": 5,
+          "question_id": "19AbT_mlV9DOeJCjrie-2r4ILrpvaKuNS_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1793,
+        "processed_at": "2026-06-06 14:57:50"
+      }
+    },
+    {
+      "pdf_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2025_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2025_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "MACHINE LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AIDS",
+        "paper_number": "[6584]-383",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417521",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE2433",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/12/2025 13:38:26 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain evaluation measures (SSE, MSE) for regression model. For a given data having 100 examples, if squared errors SEI, SE2, and SE3 are 13.33, 3.33 and 4.00 respectively, calculate Mean Squared Error (MSE). State the formula for MSE.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain K nearest neighbor classification algorithm with suitable example.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What are kernel functions in SVM? Describe the Radial Basis Kernel, Gaussian, Polynomial, and Sigmoid kernel",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Baysian Linear Regression.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between balanced and imbalanced classification.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the concept of a soft margin SVM. How does it differ from a hard margin SVM?",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the DBSCAN algorithm. How does it work? What are its advantages and disadvantages.",
+          "marks": 9,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the applications of clustering techniques in market segmentaion, social network analysis, image segmentation, and anomaly detection. Provide examples for each application.",
+          "marks": 8,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe the Gaussian Mixture Model (GMM) for distribution-based clustering. How is it different from other clustering algorithms?",
+          "marks": 9,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the K-Means clustering algorithm. What are its advantages and disadvantages.",
+          "marks": 8,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of ensemble learning. Why is ensemble learning considered beneficial in machine learning?",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the concept of stacking in ensemble learning. What are the different methods used for variance reduction in stacking?",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Describe the Random Forest ensemble method in detail.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Differentiate between homogeneous and heterogeneous ensemble methods. provide examples of each type.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Describe the concept of a voting ensemble. What are the different types of voting techniques?",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the Adaptive Boosting (AdaBoost) algorithm in detail.",
+          "marks": 6,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define reinforcement learning. Why is reinforcement learning important in the field of machine learning?",
+          "marks": 9,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Markov’s Decision Process (MDP). What is the Markov property in the context of MDP?",
+          "marks": 8,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Introduce Q-learning. What are the important terms used in Q-learning? How does Q-learning work?",
+          "marks": 9,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Compare and contrast supervised, unsupervised, and reinforcement learning. Provide examples of each type.",
+          "marks": 8,
+          "question_id": "1PSaBcq9MCMZQ3jPmMDrYCHk8TREr5Cy5_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3015,
+        "processed_at": "2026-06-06 14:57:54"
+      }
+    }
+  ]
+}

@@ -419,7 +419,10 @@
         <div class="questions-modal-overlay" id="questions-modal-overlay"></div>
         <div class="questions-modal-content" role="dialog" aria-modal="true" aria-label="Questions">
             <div class="questions-modal-header">
-                <div class="questions-modal-header-spacer"></div>
+                <div class="questions-modal-heading">
+                    <h2 class="questions-modal-title">{{ seo_data.subject_name }} Questions</h2>
+                    <p class="questions-modal-subtitle">Pre-rendered question cards from available structured metadata.</p>
+                </div>
                 <button class="download-modal-close" id="questions-modal-close" aria-label="Close questions modal">
                     <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" viewBox="0 0 24 24">
@@ -469,8 +472,23 @@
                         data-paper-id="{{ paper.pdf_id }}" data-exam-type="{{ paper.exam_type }}">
                         <div class="questions-panel active" data-tab-panel="questions">
                             {% if paper.questions %}
+                            <div class="questions-paper-summary">
+                                <div>
+                                    <span class="summary-kicker">{{ paper.exam_type | upper }}</span>
+                                    <h3>{{ paper.paper_label }}</h3>
+                                </div>
+                                <div class="questions-count-pill">{{ paper.question_count }} Questions</div>
+                            </div>
                             <div class="question-card-list">
-                                {% for question in paper.questions %}
+                                {% for group in paper.question_groups %}
+                                <section class="question-group">
+                                    <div class="question-group-header">
+                                        <h4>{{ group.question_number }}</h4>
+                                        {% if group.total_marks %}
+                                        <span>{{ group.total_marks }} Marks</span>
+                                        {% endif %}
+                                    </div>
+                                    {% for question in group.questions %}
                                 <article class="question-card">
                                     <div class="question-card-top">
                                         <div class="question-card-meta">
@@ -486,22 +504,11 @@
                                             {% endif %}
                                             </span>
                                         </div>
-                                        <button type="button" class="generate-answer-btn"
-                                            data-question-id="{{ question.question_id }}"
-                                            data-pdf-id="{{ paper.pdf_id }}"
-                                            data-pdf-url="{{ paper.pdf_url }}"
-                                            data-subject-slug="{{ subject_link }}"
-                                            data-subject-name="{{ seo_data.subject_name }}"
-                                            data-semester="{{ subject_semester_key }}"
-                                            data-branch="{{ subject_link.split('-')[-1] }}"
-                                            data-question-number="{{ question.question_number }}"
-                                            data-subquestion="{{ question.subquestion }}"
-                                            data-marks="{{ question.marks }}"
-                                            data-paper-label="{{ paper.paper_label }}"
-                                            data-question-text="{{ question.question_text }}">Generate Answer</button>
                                     </div>
                                     <p class="question-card-text">{{ question.question_text }}</p>
                                 </article>
+                                    {% endfor %}
+                                </section>
                                 {% endfor %}
                             </div>
                             {% else %}
@@ -536,37 +543,6 @@
                     </section>
                     {% endfor %}
                     </div>
-                    <section class="answer-panel" id="answer-panel" aria-live="polite">
-                        <div class="answer-panel-header">
-                            <div class="answer-panel-title-wrap">
-                                <h3 id="answer-panel-title">Answer</h3>
-                                <span class="answer-panel-meta" id="answer-panel-meta"></span>
-                            </div>
-                            <button type="button" class="answer-panel-close" id="answer-close-btn" aria-label="Close answer panel">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M18 6L6 18M6 6l12 12"/>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="answer-panel-body markdown-answer" id="answer-panel-body">
-                            <div class="answer-panel-empty" id="answer-panel-empty">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="empty-icon">
-                                    <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                                </svg>
-                                <p>Select a question to generate an answer</p>
-                            </div>
-                        </div>
-                        <div class="answer-panel-summary" id="answer-panel-summary" style="display:none;">
-                            <div class="answer-panel-summary-content">
-                                <span class="summary-label">Key Points</span>
-                                <div class="answer-panel-summary-text" id="answer-panel-summary-text"></div>
-                            </div>
-                        </div>
-                        <div class="answer-panel-loading" id="answer-panel-loading" style="display:none;">
-                            <div class="loading-spinner"></div>
-                            <span>Generating answer...</span>
-                        </div>
-                    </section>
                 </div>
             </div>
         </div>
@@ -614,8 +590,7 @@
         "subjectLink": subject_link,
         "subjectName": seo_data.subject_name,
         "papers": subject_papers,
-        "initialPaperId": initial_questions_paper_id,
-        "workerUrl": question_answer_worker_url
+        "initialPaperId": initial_questions_paper_id
     } | tojson | safe }}</script>
 
     <script>
@@ -646,13 +621,13 @@
         var questionModalDataFromServer = (function () {
             var node = document.getElementById('question-modal-data');
             if (!node) {
-                return { papers: [], initialPaperId: '', workerUrl: '' };
+                return { papers: [], initialPaperId: '' };
             }
             try {
                 return JSON.parse(node.textContent);
             } catch (error) {
                 console.error('[PDF Viewer] Failed to parse question modal data', error);
-                return { papers: [], initialPaperId: '', workerUrl: '' };
+                return { papers: [], initialPaperId: '' };
             }
         })();
 
@@ -805,15 +780,6 @@
             questionsPaperDropdown: null,
             questionsTabs: document.querySelectorAll('.questions-tab'),
             questionsPaperPanels: document.getElementById('questions-paper-panels'),
-            answerPanel: document.getElementById('answer-panel'),
-            answerPanelTitle: document.getElementById('answer-panel-title'),
-            answerPanelBody: document.getElementById('answer-panel-body'),
-            answerPanelSummary: document.getElementById('answer-panel-summary'),
-            answerPanelSummaryText: document.getElementById('answer-panel-summary-text'),
-            answerPanelMeta: document.getElementById('answer-panel-meta'),
-            answerPanelEmpty: document.getElementById('answer-panel-empty'),
-            answerPanelLoading: document.getElementById('answer-panel-loading'),
-            answerCloseBtn: document.getElementById('answer-close-btn'),
             mobileControlBar: document.getElementById('mobile-control-bar'),
             mobileExamDropdown: null,
             mobilePaperDropdown: null
@@ -839,10 +805,7 @@
             iframeLoadTokens: new WeakMap(),
             nextIframeLoadToken: 0,
             currentQuestionsPaperId: questionModalDataFromServer.initialPaperId || '',
-            currentQuestionsTab: 'questions',
-            answerAbortController: null,
-            answerIsStreaming: false,
-            questionAnswerWorkerUrl: questionModalDataFromServer.workerUrl || ''
+            currentQuestionsTab: 'questions'
         };
 
         // Service worker keeps static viewer assets warm; PDF bodies are cached separately.
@@ -1634,286 +1597,6 @@
             Logger.info('Questions modal closed');
         }
 
-        function escapeHtml(value) {
-            return String(value || '')
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#39;');
-        }
-
-        function parseAnswerAndSummary(raw) {
-            var answerMatch = raw.match(/<answer>([\s\S]*?)<\/answer>/);
-            var summaryMatch = raw.match(/<summary>([\s\S]*?)<\/summary>/);
-            if (!answerMatch && !summaryMatch) {
-                var answerOpen = raw.indexOf('<answer>');
-                if (answerOpen !== -1) {
-                    var afterTag = raw.slice(answerOpen + 8);
-                    var summaryOpen = afterTag.indexOf('<summary>');
-                    if (summaryOpen !== -1) {
-                        return { answer: afterTag.slice(0, summaryOpen).trim(), summary: '' };
-                    }
-                    return { answer: afterTag.trim(), summary: '' };
-                }
-                return { answer: raw.trim(), summary: '' };
-            }
-            return {
-                answer: answerMatch ? answerMatch[1].trim() : '',
-                summary: summaryMatch ? summaryMatch[1].trim() : ''
-            };
-        }
-
-        function applyInlineMarkdown(text) {
-            var escaped = escapeHtml(text);
-            escaped = escaped.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-            escaped = escaped.replace(/\*(.+?)\*/g, '<em>$1</em>');
-            escaped = escaped.replace(/`([^`]+)`/g, '<code>$1</code>');
-            return escaped;
-        }
-
-        function renderMarkdown(markdown) {
-            var lines = (markdown || '').split(/\r?\n/);
-            var html = [];
-            var inList = false;
-            var listType = '';
-
-            function closeList() {
-                if (inList) {
-                    html.push(listType === 'ol' ? '</ol>' : '</ul>');
-                    inList = false;
-                    listType = '';
-                }
-            }
-
-            lines.forEach(function (line) {
-                var trimmed = line.trim();
-                if (!trimmed) {
-                    closeList();
-                    return;
-                }
-
-                if (/^#{1,6}\s+/.test(trimmed)) {
-                    closeList();
-                    var level = trimmed.match(/^(#{1,6})/)[1].length;
-                    var headingText = trimmed.replace(/^#{1,6}\s+/, '');
-                    html.push('<h' + level + '>' + applyInlineMarkdown(headingText) + '</h' + level + '>');
-                    return;
-                }
-
-                if (/^[-*]\s+/.test(trimmed)) {
-                    if (!inList) {
-                        html.push('<ul>');
-                        inList = true;
-                        listType = 'ul';
-                    }
-                    html.push('<li>' + applyInlineMarkdown(trimmed.replace(/^[-*]\s+/, '')) + '</li>');
-                    return;
-                }
-
-                if (/^\d+\.\s+/.test(trimmed)) {
-                    if (!inList || listType !== 'ol') {
-                        closeList();
-                        html.push('<ol>');
-                        inList = true;
-                        listType = 'ol';
-                    }
-                    html.push('<li>' + applyInlineMarkdown(trimmed.replace(/^\d+\.\s+/, '')) + '</li>');
-                    return;
-                }
-
-                closeList();
-                html.push('<p>' + applyInlineMarkdown(trimmed) + '</p>');
-            });
-
-            closeList();
-            return html.join('');
-        }
-
-        function renderSummary(summaryText) {
-            if (!summaryText) return '';
-            var withKeywords = summaryText.replace(/<b>([\s\S]*?)<\/b>/g, '<b class="summary-keyword">$1</b>');
-            return withKeywords
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/&lt;b class="summary-keyword"&gt;/g, '<b class="summary-keyword">')
-                .replace(/&lt;\/b&gt;/g, '</b>');
-        }
-
-        function setAnswerPanelState(options) {
-            options = options || {};
-            
-            if (options.title !== undefined && DOM.answerPanelTitle) {
-                DOM.answerPanelTitle.textContent = options.title;
-            }
-            if (options.meta !== undefined && DOM.answerPanelMeta) {
-                DOM.answerPanelMeta.textContent = options.meta;
-                DOM.answerPanelMeta.style.display = options.meta ? '' : 'none';
-            }
-            if (options.loading !== undefined) {
-                if (DOM.answerPanelLoading) {
-                    DOM.answerPanelLoading.style.display = options.loading ? '' : 'none';
-                }
-                if (DOM.answerPanelEmpty) {
-                    DOM.answerPanelEmpty.style.display = options.loading ? 'none' : '';
-                }
-            }
-            if (options.markdown !== undefined) {
-                var parsed = parseAnswerAndSummary(options.markdown);
-                if (DOM.answerPanelBody) {
-                    if (parsed.answer) {
-                        DOM.answerPanelBody.innerHTML = renderMarkdown(parsed.answer);
-                    } else if (!options.loading) {
-                        DOM.answerPanelBody.innerHTML = DOM.answerPanelEmpty ? DOM.answerPanelEmpty.outerHTML : '';
-                    }
-                }
-                if (DOM.answerPanelSummary && DOM.answerPanelSummaryText) {
-                    if (parsed.summary) {
-                        DOM.answerPanelSummaryText.innerHTML = renderSummary(parsed.summary);
-                        DOM.answerPanelSummary.style.display = '';
-                    } else {
-                        DOM.answerPanelSummary.style.display = 'none';
-                    }
-                }
-            }
-            if (options.open && DOM.answerPanel) {
-                DOM.answerPanel.classList.add('visible');
-                DOM.answerPanel.removeAttribute('hidden');
-            }
-        }
-
-        function stopAnswerStreaming() {
-            if (state.answerAbortController) {
-                state.answerAbortController.abort();
-                state.answerAbortController = null;
-            }
-            state.answerIsStreaming = false;
-        }
-
-        function closeAnswerPanel() {
-            stopAnswerStreaming();
-            if (DOM.answerPanel) {
-                DOM.answerPanel.classList.remove('visible');
-            }
-            setTimeout(function() {
-                setAnswerPanelState({
-                    title: 'Answer',
-                    meta: '',
-                    markdown: '',
-                    loading: false
-                });
-            }, 300);
-        }
-
-        function streamAnswerForQuestion(button) {
-            if (!button) return;
-
-            if (!state.questionAnswerWorkerUrl) {
-                setAnswerPanelState({
-                    open: true,
-                    title: 'Configuration Error',
-                    meta: '',
-                    markdown: 'Worker URL not configured. Please contact support.'
-                });
-                return;
-            }
-
-            stopAnswerStreaming();
-
-            var payload = {
-                questionId: button.getAttribute('data-question-id'),
-                pdfId: button.getAttribute('data-pdf-id'),
-                pdfUrl: button.getAttribute('data-pdf-url'),
-                subjectSlug: button.getAttribute('data-subject-slug'),
-                subjectName: button.getAttribute('data-subject-name'),
-                semester: button.getAttribute('data-semester'),
-                branch: button.getAttribute('data-branch'),
-                questionNumber: button.getAttribute('data-question-number'),
-                subquestion: button.getAttribute('data-subquestion'),
-                marks: button.getAttribute('data-marks'),
-                paperLabel: button.getAttribute('data-paper-label'),
-                questionText: button.getAttribute('data-question-text')
-            };
-
-            var answerTitle = 'Q' + payload.questionNumber + (payload.subquestion ? payload.subquestion : '');
-            var controller = new AbortController();
-            var markdown = '';
-
-            state.answerAbortController = controller;
-            state.answerIsStreaming = true;
-
-            document.querySelectorAll('.generate-answer-btn').forEach(function (node) {
-                node.disabled = false;
-                node.classList.remove('generating');
-                node.textContent = 'Generate Answer';
-            });
-            button.disabled = true;
-            button.classList.add('generating');
-            button.textContent = 'Generating...';
-
-            setAnswerPanelState({
-                open: true,
-                title: answerTitle,
-                meta: payload.marks ? payload.marks + ' marks' : '',
-                loading: true,
-                markdown: ''
-            });
-
-            fetch(state.questionAnswerWorkerUrl.replace(/\/$/, '') + '/api/answers/stream', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload),
-                signal: controller.signal
-            }).then(function (response) {
-                if (!response.ok) throw new Error('HTTP ' + response.status);
-                if (!response.body) throw new Error('Streaming not supported');
-
-                var reader = response.body.getReader();
-                var decoder = new TextDecoder();
-
-                function pump() {
-                    return reader.read().then(function (result) {
-                        if (result.done) {
-                            state.answerIsStreaming = false;
-                            state.answerAbortController = null;
-                            button.disabled = false;
-                            button.classList.remove('generating');
-                            button.textContent = 'Generate Answer';
-                            setAnswerPanelState({ loading: false, markdown: markdown });
-                            return;
-                        }
-
-                        markdown += decoder.decode(result.value, { stream: true });
-                        setAnswerPanelState({ loading: true, markdown: markdown });
-                        return pump();
-                    });
-                }
-
-                return pump();
-            }).catch(function (error) {
-                button.disabled = false;
-                button.classList.remove('generating');
-                button.textContent = 'Generate Answer';
-
-                if (error && error.name === 'AbortError') {
-                    setAnswerPanelState({ loading: false, markdown: markdown });
-                    return;
-                }
-
-                setAnswerPanelState({
-                    loading: false,
-                    markdown: markdown || 'Error: ' + (error && error.message ? error.message : 'Failed to generate answer')
-                });
-            }).finally(function () {
-                state.answerIsStreaming = false;
-                state.answerAbortController = null;
-                document.querySelectorAll('.generate-answer-btn').forEach(function (node) {
-                    if (node !== button) node.disabled = false;
-                });
-            });
-        }
-
         function updateMobilePaperDropdown() {
             var dropdown = document.getElementById('mobile-paper-dropdown');
             if (!dropdown) return;
@@ -2122,20 +1805,6 @@
                 });
             }
 
-            if (DOM.answerCloseBtn) {
-                DOM.answerCloseBtn.addEventListener('click', closeAnswerPanel);
-            }
-
-            if (DOM.questionsPaperPanels) {
-                DOM.questionsPaperPanels.addEventListener('click', function (event) {
-                    var trigger = event.target.closest('.generate-answer-btn');
-                    if (!trigger) {
-                        return;
-                    }
-                    streamAnswerForQuestion(trigger);
-                });
-            }
-
             document.addEventListener('fullscreenchange', updateFullscreenButton);
 
             document.addEventListener('keydown', function (e) {
@@ -2145,8 +1814,6 @@
                         closeDownloadModal();
                     } else if (DOM.questionsModal && DOM.questionsModal.classList.contains('active')) {
                         closeQuestionsModal();
-                    } else if (DOM.answerPanel && !DOM.answerPanel.hidden) {
-                        closeAnswerPanel();
                     } else if (document.fullscreenElement) {
                         document.exitFullscreen().catch(function (err) {
                             Logger.error('Error exiting fullscreen on escape', err.message);

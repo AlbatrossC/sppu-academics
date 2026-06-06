@@ -1,0 +1,344 @@
+{
+  "subject_name": "UI - UX Design",
+  "subject_slug": "ui_ux_design_aids",
+  "branch": "aids",
+  "semester": "sem-7",
+  "papers": [
+    {
+      "pdf_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/endsem_nov_dec_2023_aids_uuda_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/endsem_nov_dec_2023_aids_uuda_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "UI/UX DESIGN",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6181]-412",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P7853",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 11/12/2023 13:55:56 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain different human considerations in design.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain golden rules of Interface design.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How to evaluate Interface design?",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with an example Usability testing.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How do you approach designing for mobile applications?",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is information architecture and its importance in UI design?",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is direct manipulation? Explain different advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a short note on-Phrasing the Menu.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between menu bar and toolbar.",
+          "marks": 5,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a short note on-Interaction with natural language.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Enlist different interaction styles.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain WIMP in detail.",
+          "marks": 5,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write a short note on-Selection of controls.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain drop down and pop up list boxes.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain operable controls in detail.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is presentaion control?",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain individual windows design and multiple windows design.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain command menus in detail.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is usability testing?",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Cognitive walkthrough in detail.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain different challenges for information visualization.",
+          "marks": 5,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Differentiate between usability testing and user testing.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a short note on Eye tracking and A/B testing.",
+          "marks": 6,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Think Aloud protocol in detail.",
+          "marks": 5,
+          "question_id": "1g367jMB6jT4AFg0NvApAYW9WhjB2eh_X_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2120,
+        "processed_at": "2026-06-06 14:59:21"
+      }
+    },
+    {
+      "pdf_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/insem_sep_2023_aids_uuda_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/insem_sep_2023_aids_uuda_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "UI / UX DESIGN",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6188]-298",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 C",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5350",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/09/2023 13:53:05 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define user interface design. Explain the importance of a good design.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a short note on - Human Memory Structure with diagram.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain UI elements.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief UI design process.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain visual communication design components in interface design.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "How to create a mobile app interface design.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate GUI and Web Interface.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain 6 stages used in UX design.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Different Visual Design Principles.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Differentiate Between UI and UX with example.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a short note on - Universal Usability.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Describe the concept of interaction design.",
+          "marks": 5,
+          "question_id": "1xH2xLYU5XT37NpX3NfzL6eFpGgQy_Y8u_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1241,
+        "processed_at": "2026-06-06 14:59:43"
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "subject_name": "Big Data Analytics_Ele. V",
+  "subject_slug": "big_data_analytics_ele_V_aids",
+  "branch": "aids",
+  "semester": "sem-8",
+  "papers": [
+    {
+      "pdf_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/insem_mar_2024_aids_bdaa_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/insem_mar_2024_aids_bdaa_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "BIG DATA ANALYTICS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6270]-196",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532(B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-384",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/03/2024 13:38:40 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Differentiate between Big Data and Business, Intelligence.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of Big Data Ecosystem and its components.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write concept of Predictive Analytics and Hadoop.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the types of Big Data Analytics with suitable example",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss the characteristics and challenges with Big Data.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Describe big data Ecosystem and looker with suitable example.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Liner Regression with suitable example.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the Apriori algorithm and its significance in association rule mining.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Logistics Regression and its use in real world scenario.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain K means clustering algorithm with suitable example.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the concept of association rule mining in the context of transaction data from a grocery store.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Differentiate between Liner Regression and Logistics Regression.",
+          "marks": 5,
+          "question_id": "1CKHKZn-Q6E7f18N9TQ7dXbPhcoDqeTN9_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1514,
+        "processed_at": "2026-06-06 14:52:09"
+      }
+    },
+    {
+      "pdf_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/endsem_may_jun_2024_aids_bdaa_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/endsem_may_jun_2024_aids_bdaa_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "BIG DATA ANALYTICS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6263]-393",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-2507",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 14:07:39 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the primary methods and functions for importing and exporting data in R and how can they be utilized effectively?",
+          "marks": 8,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How can data analysts detect and address dirty data using visualizations and statistical techniques in R and what are the implications of anomalies in datasets on decision-making processes?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "With the help of neat diagram explain the phases of Data Analytics life cycle.",
+          "marks": 8,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the different attribute types in data analysis, and how are they categorized? How does R handle various data types, such as numeric, character, logical, and factors?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the following terms with respect to Exploratory data analysis. i) Data Sourcing ii) Data Cleaning iii) Univariate analysis iv) Bi-variate/Multivariate analysis",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are the essential steps in data exploration and how do they contribute to uncovering insights and patterns within a dataset?",
+          "marks": 7,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "How do ensemble methods such as bagging, boosting, AdaBoost and Random Forest contribute to improving classification accuracy in machine learning models?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How does the utilization of a confusion matrix aid in the evaluation and selection of models.",
+          "marks": 7,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the challenges associated with visualizing big data and how do these challenges impact the effectiveness and efficiency of data analysis and decision-making processes?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "How does Tableau facilitate effective data visualization and what are some advanced techniques or features within Tableau that can be utilized to create insightful and interactive visualizations for complex datasets?",
+          "marks": 8,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the key features and functionalities of the Google Chart API and how does it enable developers to create dynamic and interactive charts and visualizations for web applications?",
+          "marks": 8,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the various types of data visualization techniques available to data analysts?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "In what ways does financial data analytics leverage big data technologies to drive insights, mitigate risks and enhance decision-making processes within the financial industry?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How does Apache HBase contribute to efficient data storage and retrieval in big data environments",
+          "marks": 7,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "How does the Semantria tool streamline the data collection process and what features or capabilities does it offer that make it a valuable asset for businesses seeking to gather and analyze large volumes of unstructured data from various sources?",
+          "marks": 10,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "How does Mozenda serve as an effective data filtering and extraction tool?",
+          "marks": 7,
+          "question_id": "1ZNH4w_wtpgYWCSDth6alzsxXqflvYYNp_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3438,
+        "processed_at": "2026-06-06 14:52:18"
+      }
+    }
+  ]
+}

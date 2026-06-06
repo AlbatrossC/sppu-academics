@@ -1,0 +1,1688 @@
+{
+  "subject_name": "Data Structures & Algorithms",
+  "subject_slug": "data_structures_and_algorithms_aids",
+  "branch": "aids",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_feb_2023_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_feb_2023_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer /A.I. & D.S.",
+        "paper_number": "[6008] - 228",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "210252",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-4976",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/04/2023 15:05:10 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "We have a hash table of size 10 to store integer keys, with hash function h(x) = x mod 10. Construct a hash table step by step using linear probing without replacement strategy and insert elements in the order 31,3,4,21,61,6,71,8,9,25. Calculate average number of comparisons required to search given data from hash table using linear probing without replacement.",
+          "marks": 6,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of quadratic probing using example. What are the advantages and disadvantages of quadratic probing over linear probing?",
+          "marks": 5,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is hashing? Explain the properties of good hash function with examples.",
+          "marks": 4,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Insert the following data in the hash table of size 10 using linear probing with chaining by applying with replacement : 11, 33, 20, 88, 79, 98, 68, 44, 66, 24. Calculate average number of comparisons required to search given data from hash table.",
+          "marks": 6,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Add following keys in hash table by applying extendible hashing mechanism. Assume capacity of each directory to store buckets is 3. Keys are 10, 20, 15, 12, 25, 30, 7, 11, 08.",
+          "marks": 5,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write short note on skip list.",
+          "marks": 4,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write an algorithm to delete a node from Threaded binary Search Tree.",
+          "marks": 6,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "The following numbers are inserted into an empty binary search tree in the given order : G, C, B, A , D, E, F, I, H. Construct tree step by step. Represent the constructed tree using static memory allocation.",
+          "marks": 5,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Let characters a, b, c, d, e, f has probabilities 0.07, 0.09, 0.12, 0.22, 0.23, 0.27 respectively. Find an optimal Huffman code and draw Huffman tree.",
+          "marks": 4,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct threaded binary tree step by step if the preorder traversal is G, B, D, C, A, K, Q, P, R & in-order traversal is B, A, C, D, G, K, P, Q, R. Delete G and redraw a tree.",
+          "marks": 6,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a non-recursive function to display data in Binary Search Tree in descending order.",
+          "marks": 5,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain how to convert general tree to binary tree with example.",
+          "marks": 4,
+          "question_id": "1Fz3kL3Gq9tpQRINed9edrtllRfk7c8SX_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2679,
+        "processed_at": "2026-06-06 15:01:08"
+      }
+    },
+    {
+      "pdf_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2023_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2023_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer/AI & DS",
+        "paper_number": "[6002]-161",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1532",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 24/06/2023 10:32:22 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write an algorithm for depth first traversal of a graph.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Construct the minimum spanning tree (MST) for the given graph using Prim’s Algorithm staring from vertex 6.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is topological sorting? Find topological sorting of given graph.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write an algorithm for breadth first traversal of a graph.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Using Prim’s Algorithm, find the cost of minimum spanning tree (MST) of the given graph starting from vertex ‘a’ -",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Define the following terms : i) Complete Graph ii) Connected Graph iii) Subgraph",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Construct an AVL Tree by inserting numbers from 1 to 8.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define Red Black tree. List its properties. Give example of it.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write functions for RR and RL rotation with respect to AVL tree.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct an AVL Tree for following data : 50, 25, 10, 5, 7, 3, 30, 20, 8, 15",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain with example K dimensional tree.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain static and dynamic tree tables with suitable example.",
+          "marks": 6,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Construct a B-Tree of order 3 by inserting numbers from 1 to 10.",
+          "marks": 9,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain following primary index, Secondary index, Sparse index and Dense index with example.",
+          "marks": 8,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Construct a B Tree of order 5 with the following data : D H Z K B P Q E A S W T C L N Y M",
+          "marks": 9,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is trie tree? Explain insert and search operation on it.",
+          "marks": 8,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain multilist files & coral rings.",
+          "marks": 9,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Sequential and index sequential file organization? State its advantages and disadvantages.",
+          "marks": 8,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain inverted file & cellular partitions.",
+          "marks": 9,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain direct access file organization. State its advantages and disadvantages.",
+          "marks": 8,
+          "question_id": "1dJIKbVXmKNeC97sutFMoclNMVO1p7rml_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 2599,
+        "processed_at": "2026-06-06 15:01:12"
+      }
+    },
+    {
+      "pdf_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2023_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2023_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science Engineering",
+        "paper_number": "[6179]-236",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P9111",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/12/2023 09:40:32 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write Floyd Warshall Algorithm.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Construct stepwise minimum spanning tree (MST) for the given graph using Prim’s Algorithm. Also calculate sum of all weights. Start from vertex 1.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Apply Dijkstra’s Algorithm for the graph given below, and find the shortest path from node A to node C.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define indegree & outdegree of a directed graph. Write degree for G1 & G2. Write indegree & outdegree of each vertex for G3 graph.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Construct the minimum spanning tree (MST) for the given graph using Kruskal’s Algorithm.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Find the number of different topological orderings possible for the given graph.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Construct AVL tree for insertion of following data: 9, 15, 20, 8, 7, 13, 10.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw splay tree after i) Zig rotation ii) Zag rotation for follwoing tree- iii) Zig Zig Rotation iv) Zag Zag Rotations for following tree-",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Create 2D tree for following data: (3, 6), (17, 15), (13, 15), (6, 12), (9, 1) (2,7), (10, 19). Also plot all the points in XY plane.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct AVL tree for insertion of following data: 63, 9, 19, 27, 18, 108, 99, 81.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define Red Black tree. List its properties. Give example of it.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write the functions for split & skew operations in AA tree.",
+          "marks": 6,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Create a B- Tree of order 5 from the following list of data items: 30, 20, 35, 95, 15, 60, 55, 25, 5, 65, 70, 10, 40, 50, 80, 45",
+          "marks": 9,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain following indexing techniques: i) Primary ii) Secondary iii) Sparse iv) Dense",
+          "marks": 8,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Create a B+Tree of order 3 from the following list of data items: 1, 3, 5, 7, 9, 2, 4, 6, 8, 10",
+          "marks": 9,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define trie tree. Compare trie tree with hash table. Draw trie tree for following data: bear, sell, bell, bid, stock, bull, buy, stop.",
+          "marks": 8,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain sequential & direct access file organization. Also list two advantages & disadvantages of same.",
+          "marks": 9,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Indexed sequential access file organization. Also list two advantages & disadvantages of same. Compare sequential & indexed sequential file organization.",
+          "marks": 8,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is linked organization? Explain inverted file and coral rings with respect to linked organization.",
+          "marks": 9,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain multilist files & cellular partitions.",
+          "marks": 8,
+          "question_id": "1BRDmVWXceudnADmlIGf8Ixul3l_PWwYz_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 3476,
+        "processed_at": "2026-06-06 15:01:21"
+      }
+    },
+    {
+      "pdf_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2024_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2024_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science Engineering",
+        "paper_number": "[6268]-218",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB24",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/03/2024 13:46:41 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "For the given set of values: 76,40,48,5,55 Construct a hash table with size 7 and resolve collision using quadratic probing.",
+          "marks": 6,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain about skip list in Hashing. Give applications of skip list.",
+          "marks": 4,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is hash function? What are characteristics of good hash function?",
+          "marks": 5,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Prepare hash table by Inserting following Elements into hash table using extendible hashing: 16, 4, 6, 22, 24, 10, 31, 7, 9, 20, 26. Bucket Size: 3 (Assume)",
+          "marks": 6,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain applications of Hash Table.",
+          "marks": 4,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is hashing? Explain different methods of hash function calculation.",
+          "marks": 5,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how to convert general tree to binary tree with example.",
+          "marks": 4,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write non recursive pseudocode for inorder traversal of Binary tree.",
+          "marks": 5,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe binary search tree deletion with example.",
+          "marks": 6,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write pseudocode for BFS traversal of binary search tree.",
+          "marks": 4,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Construct Huffman’s tree and determine code for following characters whose frequencies are as given : Character A B C D E Frequency 20 10 10 30 30",
+          "marks": 5,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is the necessity of Threaded binary three? Explain advantages and disadvantages of TBT.",
+          "marks": 6,
+          "question_id": "1uRhfb1sreF2VGvF3f_75BgVneIg5W6wQ_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1955,
+        "processed_at": "2026-06-06 15:01:31"
+      }
+    },
+    {
+      "pdf_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2024_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2024_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/Artificial Intelligence & Data Science Engineering",
+        "paper_number": "[6261]-36",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-4462",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 18/05/2024 13:38:50 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Elaborate following terminologies : i) Graph ii) Adjacency List iii) Adjacency Matrix",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between tree and graph.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write pseudo code for Floyd-Warshall algorithm.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Find the shortest path using Dijkstra’s algorithm. Write all the sequence of steps used in algorithms.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write Prim’s algorithm to find minimum spanning tree.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write the applications of : i) Graph ii) BFS iii) DFS",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain following terms w.r.t. symbol table : i) Insert & lookup operations ii) Advantages iii) Disadvantages",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Construct an AVL tree having the following elements : H, I, J, B, A, E, C, F, D, G",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Insert 15, 10, 17, 7 in splay tree.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the need of AA tree? List the five invariants that AA tree must satisfy.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Who developed K-D tree? What is the purpose of K-O tree? Insert step by step (7, 8), (12, 3), (14, 1), (4, 12), (9, 1), (2, 7) and (10, 19) into K-D tree.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Show the balanced AVL tree after deletion of mentioned node : i) Delete 30 ii) Delete 55 iii) Delete 60",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is indexing? What are the advantages of indexing? Discuss clustering index with example.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Construct a B-Tree of order 3 for following data : 50, 30, 21, 90, 10, 13, 20, 70, 25, 92, 80.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Why B+ tree? List its properties and advantages.",
+          "marks": 5,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain with example trie tree. Give properties and advantages of trie tree.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Build B+ tree of order 3 for the following : F, S, Q, K, C, L, H, T, V, W, M, R",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is difference between B and B+ tree?",
+          "marks": 5,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Index Sequential file and discuss their advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "List & explain two possible ways of representing records.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Differentiate between indexed sequential file and direct access file.",
+          "marks": 5,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Sequential file organization and discuss their advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is coral rings? Describe inverted files w.r.t linked organization.",
+          "marks": 6,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Direct Access file.",
+          "marks": 5,
+          "question_id": "1u4kDYM-NexL0ifm2_7ME-zG4_d08coGM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3104,
+        "processed_at": "2026-06-06 15:01:50"
+      }
+    },
+    {
+      "pdf_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2024_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2024_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES & ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/(AI&DS)",
+        "paper_number": "[6352]-36",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2812",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/12/2024 09:41:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Using Kruskal’s algorithm, construct minimum spanning tree for the following graph.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write an algorithm for traversing Graphs BFS and DFS.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write in brief about adjacency multilist. Build adjacency multilist for the following graph.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Find the minimum spanning tree using Prim’s method for the graph given below with A as the root.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What does Floyd Warshall Algorithm compute? Which approach is used by it for computation? Write pseudo C/C++ code for the same.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Define the following terms: i) Complete Graph ii) Connected Graph iii) Subgraph",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Construct the AVL tree by inserting numbers from 11 to 18.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain following terms with respect to height balance tree: LL, LR, RR.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Elaborate the concept of Splay Tree and K Dimension Tree.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is OBST? How dynamic programming is used in OBST to reduce time complexity? What are the advantages of OBST?",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is symbol table? Describe static tree table and dynamic tree table with example.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Elaborate the concept of AA tree and Red Black tree.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is B+ tree? Construct B+ tree of order 3 for the following data: F, S, Q. K, C, L, H, T, V, W, M, R",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Elaborate the concept of Trie Tree, Construct a Trie Tree for the following data: Big, Bigger, Bill, Good, Gosh, Goodbye.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain primary and secondary indexing techniques.",
+          "marks": 5,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Construct a B tree of order 4 by inserting the following numbers 10, 34, 78, 45, 123, 341, 234, 167, 159, 52, 83",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write a brief remark about indexing techniques and multiway trees.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write steps for insertion of a node in B+ Tree. Give example.",
+          "marks": 5,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Sequential file and random flie organization.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is a File? Write with an example different file opening modes in C++.",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe inverted files.",
+          "marks": 5,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is cellular partitions? What are its advantages?",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Clarify about the following: i) Coral Ring; ii) Benefits and Drawbacks of Linked Organization",
+          "marks": 6,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain any two types of indices.",
+          "marks": 5,
+          "question_id": "1eafQ-sx4cXi3gDWolsy0WMQKU7QXZtd7_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3040,
+        "processed_at": "2026-06-06 15:01:56"
+      }
+    },
+    {
+      "pdf_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2025_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2025_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engg./AI & DS/Computer Science",
+        "paper_number": "[6409]-221",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD24",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/03/2025 14:28:05 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Construct a hash table to insert following data in hash table. Use quadratic probing for collision resolution. Hash function key% 10.Consider one slot per bucket. Elements: 13, 48, 25, 33, 55, 72, 147, 43 Calculate the average number of comparisons.",
+          "marks": 6,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the folding method of hashing with examples.",
+          "marks": 5,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the terms Key density and load density Calculate the load density for the hash table with 20 slots, that stores 1000 elements",
+          "marks": 4,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Consider the hash table with 9 buckets. The hash function is h(K)=k mod table size. The collision is resolved by chaining using replacement. The following keys are inserted in the order: 5, 37, 19, 24, 29, 23, 48, and 17. Calculate the maximum chain length.",
+          "marks": 6,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the concept of skip list with example. State its application.",
+          "marks": 5,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Compare static hashing and extendible hashing.",
+          "marks": 4,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Generate Huffman tree and find the codes for following alphabets having specified frequency: A-4, B-5, C-2, D-7, E-3, F-1",
+          "marks": 6,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write an algorithm for non recursive post order traversal of binary tree.",
+          "marks": 5,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain how to convert general tree to binary tree with example.",
+          "marks": 4,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct a binary tree from its given preorder traversal PQSXYTRUV and postorder traversal XYSTQUVRP and apply inorder traversal to it.",
+          "marks": 6,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write an algorithm to delete a node from binary search tree.",
+          "marks": 5,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain threaded binary tree with example and state its advantages.",
+          "marks": 4,
+          "question_id": "14VIAPi2eFvQ_IOh8Caf-3rxwCes-dlSD_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2258,
+        "processed_at": "2026-06-06 15:02:00"
+      }
+    },
+    {
+      "pdf_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2025_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2025_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6402]-41",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4081",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/05/2025 09:38:51 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define the following terms : i) Complete Graph ii) Connected Graph iii) Subgraph",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a pseudo C/C++ code for depth traversal of graph represented using adjacency matrix.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Find MST for the following graph using Prim’s algorithm. Show various steps.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write an algorithm for BFS traversal of graph.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Give difference between Prim’s and Kruskal’s algorithm.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is topological sorting? Find topological sorting of given graph.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Build AVL tree for following input: A,Z,B,Y,C,X,D,U,E. Show balance factor of all nodes and name rotation in each step.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain static and dynamic tree tables with suitable example.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain with example Red Black tree.",
+          "marks": 5,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write functions for LL and LR rotation with respect to AVL tree.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain with example K dimensional tree.",
+          "marks": 6,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Construct AVL tree for following data: 15,20,24,10,13,7,30,36,25",
+          "marks": 5,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write an algorithm to delete data from B Tree. Create B tree of order 3 of following data 78, 21, 14, 11,97, 85, 74, 63, 45, 42, 57, 20, 16, 19.",
+          "marks": 10,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Tric data structure to insert, delete, search operations with example.",
+          "marks": 8,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Create B+tree of orders 5 of following data 5,30,50, 110, 80, 40, 10, 120, 60, 20, 70, 100, 35, 90. Perform deletion of values 90 and then 100",
+          "marks": 10,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain following primary index, Secondary index, Sparse index and Dense index with example.",
+          "marks": 8,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Compare Sequential and Direct access file organization.",
+          "marks": 8,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is the concept of Multilist Structure in file organization. Explain Coral ring for multilist structure.",
+          "marks": 9,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is linked organization? Explain inverted file and cellular partitions with respect to linked organization.",
+          "marks": 9,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is Sequential and index sequential file organization? State its advantages and disadvantages.",
+          "marks": 8,
+          "question_id": "1PO0lvrqakDxiOHyDutdqnAXkuCSbQ8PP_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 2907,
+        "processed_at": "2026-06-06 15:02:20"
+      }
+    },
+    {
+      "pdf_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2025_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2025_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering / AI & DS",
+        "paper_number": "[6582]-36",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4264",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/11/2025 09:45:11 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Represent the following graphs using adjacency matrix.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Floyd Warshall algorithm to calculate shortest paths.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Construct the minimal spanning tree for the graph shown below using Kruskal's algorithm.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Find the MST for the following graph using Prims algorithm.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Depth first traversal of a graph with example.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Find Single source shortest path using Dijkstra's Algorithm. Select source as vertex 1.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is K-D tree? Show creation of 2-D tree with example.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Consider following : Input: keys[] = {10, 12, 20}, freq[] = {34, 8, 50} Draw all possible BSTs. Find minimum cost of the BST.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Do the following operations on the tree : i) Zig Zag Rotation ii) Zag Zig Rotation",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct a AVL tree for the following data: 5, 12, 10, 9, 8, 14, 23, 29, 28, 17",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define Red- Black tree, state its properties and give suitable example.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "i) Illustrate AA tree. ii) Define splay tree. List the operations and rotations that can be performed on splay tree.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the various cases of node deletion in B- tree.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Build B+ tree of order 4 for the following data: 1, 3, 5, 7, 9, 2, 4, 6, 8, 10.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain indexing and types of indexing techniques.",
+          "marks": 5,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Construct a B tree of order 3 for following data: 10, 34, 78, 45, 123, 341, 234, 167, 159, 52.83",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Answer the following questions w.r.t. trie tree: i) Which of the following is not true? a) Trie requires less storage space than hashing b) Trie allows listing of all the words with same prefix c) Tries are collision free d) Trie is also known as prefix tree ii) What can be the maximum depth of the trie with n strings and m as the maximum sting the length? a) log2n b) log2m c) n d) m iii) Which of the following is true about the trie? a) root is letter a b) path from root to the leaf yields the string c) children of nodes are randomly ordered d) each node stores the associated keys iv) Auto complete and spell checkers can be implemented efficiently using the trie. a) True b) False v) What traversal over trie gives the lexicographical sorting of the set of the strings? a) postorder b) preorders c) inorder d) level order vi) What is/are the key feature(s) of trie tree? a) Fast String Operations b) Efficient Prefix Searches c) Memory Compactness d) All of the above",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What are multiway search trees? Explain its need and applications.",
+          "marks": 5,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Differentiate between sequential & linked organization.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is indexed sequential access file organization? Write two advantages & disadvantages of it.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is Direct access file? State its advantages.",
+          "marks": 5,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Differentiate between dense & sparse indices.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain Sequential file organization and discuss their advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Describe inverted files.",
+          "marks": 5,
+          "question_id": "1LdwbsvrHToHcOCQVFDjxYNQ7Z56O-Qhw_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 4098,
+        "processed_at": "2026-06-06 15:02:27"
+      }
+    },
+    {
+      "pdf_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2026_aids_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2026_aids_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "APR-26/SE/Insem-261",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210252",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF212",
+        "watermark_text": [
+          "CEGP013091",
+          "152.58.30.154 10/03/2026 14:01:49"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "For the given set of values. 11, 33, 20, 88, 79, 98, 44, 68, 66, 22 Create a hash table with size 10 and resolve collision using chaining with replacement. Use the modulus Hash function. (key % size.)",
+          "marks": 6,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Insert the keys 9, 19, 29, 39, 49, 59, 71 into the Hash Table of size 10. Resolve all collisions using Quadratic probing where hash-function is h(k). h(k) = k mod 10",
+          "marks": 5,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write difference between separate chaining and open addressing.",
+          "marks": 4,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Solve the following example using extendible hashing. Elements: 28,4,19,1,22,16,12,0,5,7 & Bucket Size: 3",
+          "marks": 6,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Construct hash table of size 10 using linear probing without replacement strategy for collision resolution. The hash function is h(x)=x%10. Consider slot per bucket is 1. 31, 3, 4, 21, 61, 6, 71, 8, 9, 25.",
+          "marks": 5,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Skip List? What are advantages and disadvantages of skiplist?",
+          "marks": 4,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write an algorithm for recursive and non-recursive postorder traversal of binary tree and give suitable example.",
+          "marks": 6,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Construct Huffman’s Tree and the prefix free code for all characters: Value A, B, C, D, E, F Frequency 5, 25, 7, 15, 4, 12",
+          "marks": 5,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "From the given traversals construct the binary tree. Pre-order: G, B, Q, A, C, K, F, P, D, E, R, H In-order: Q, B, K, C, F, A, G, P, E, D, H, R",
+          "marks": 4,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write an algorithm to delete node from BST with example.",
+          "marks": 6,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the storage representation of a binary tree with the following example.",
+          "marks": 5,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Binary Search Tree. Construct Binary Search Tree(BST) for the following : J, R, D, G, T, E, M, H, P, A, F, Q.",
+          "marks": 4,
+          "question_id": "1briRd_RqBy0Qw7E1WB5MmsB3IPnoOzyn_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2359,
+        "processed_at": "2026-06-06 15:02:34"
+      }
+    }
+  ]
+}

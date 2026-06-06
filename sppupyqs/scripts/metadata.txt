@@ -6426,3 +6426,3981 @@ Branch: cse
 Semester: sem-6
 Subject: web-technology-cse
 
+[2026-06-06 14:44:58] Pipeline started.
+[2026-06-06 14:51:40] No PDFs matched the selected filters.
+[2026-06-06 14:51:55] Pipeline started.
+[2026-06-06 14:52:09] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/insem_mar_2024_aids_bdaa_eV_2019p.pdf
+[2026-06-06 14:52:09]
+
+Processed: 1
+Skipped: 0
+Failed: 0
+Remaining: 263
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: big_data_analytics_ele_V_aids
+
+[2026-06-06 14:52:18] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/big_data_analytics_ele_V_aids/endsem_may_jun_2024_aids_bdaa_eV_2019p.pdf
+[2026-06-06 14:52:18]
+
+Processed: 2
+Skipped: 0
+Failed: 0
+Remaining: 262
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: big_data_analytics_ele_V_aids
+
+[2026-06-06 14:52:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/business_intelligence_ele_VI_aids/insem_mar_2024_aids_bia_eVI_2019p.pdf
+[2026-06-06 14:52:32]
+
+Processed: 3
+Skipped: 0
+Failed: 0
+Remaining: 261
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: business_intelligence_ele_VI_aids
+
+[2026-06-06 14:52:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/business_intelligence_ele_VI_aids/endsem_may_jun_2024_aids_bia_eVI_2019p.pdf
+[2026-06-06 14:52:42]
+
+Processed: 4
+Skipped: 0
+Failed: 0
+Remaining: 260
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: business_intelligence_ele_VI_aids
+
+[2026-06-06 14:52:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2024_aids_cia_2019p.pdf
+[2026-06-06 14:52:54]
+
+Processed: 5
+Skipped: 0
+Failed: 0
+Remaining: 259
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: computational_intelligence_aids
+
+[2026-06-06 14:53:04] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2024_aids_cia_2019p.pdf
+[2026-06-06 14:53:04]
+
+Processed: 6
+Skipped: 0
+Failed: 0
+Remaining: 258
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: computational_intelligence_aids
+
+[2026-06-06 14:53:23] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2025_aids_cia_2019p.pdf
+[2026-06-06 14:53:23]
+
+Processed: 7
+Skipped: 0
+Failed: 0
+Remaining: 257
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: computational_intelligence_aids
+
+[2026-06-06 14:53:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2025_aids_cia_2019p.pdf
+[2026-06-06 14:53:34]
+
+Processed: 8
+Skipped: 0
+Failed: 0
+Remaining: 256
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: computational_intelligence_aids
+
+[2026-06-06 14:53:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/endsem_nov_dec_2023_aids_dmva_2019p.pdf
+[2026-06-06 14:53:41]
+
+Processed: 9
+Skipped: 0
+Failed: 0
+Remaining: 255
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:53:44] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/insem_sep_2023_aids_dmva_2019p.pdf
+[2026-06-06 14:53:44]
+
+Processed: 10
+Skipped: 0
+Failed: 0
+Remaining: 254
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:53:52] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/endsem_nov_dec_2024_aids_dmva_2019p.pdf
+[2026-06-06 14:53:52]
+
+Processed: 11
+Skipped: 0
+Failed: 0
+Remaining: 253
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:53:59] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/insem_sep_2024_aids_dmva_2019p.pdf
+[2026-06-06 14:53:59]
+
+Processed: 12
+Skipped: 0
+Failed: 0
+Remaining: 252
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:54:07] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/insem_aug_2025_aids_dmva_2019p.pdf
+[2026-06-06 14:54:07]
+
+Processed: 13
+Skipped: 0
+Failed: 0
+Remaining: 251
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:54:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/data_modeling_and_visualization_aids/endsem_nov_dec_2025_aids_dmva_2019p.pdf
+[2026-06-06 14:54:13]
+
+Processed: 14
+Skipped: 0
+Failed: 0
+Remaining: 250
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: data_modeling_and_visualization_aids
+
+[2026-06-06 14:54:16] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2024_aids_dla_eV_2019p.pdf
+[2026-06-06 14:54:16]
+
+Processed: 15
+Skipped: 0
+Failed: 0
+Remaining: 249
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: deep_learning_ele_V_aids
+
+[2026-06-06 14:54:24] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2024_aids_dla_eV_2019p.pdf
+[2026-06-06 14:54:24]
+
+Processed: 16
+Skipped: 0
+Failed: 0
+Remaining: 248
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: deep_learning_ele_V_aids
+
+[2026-06-06 14:54:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2025_aids_dla_eV_2019p.pdf
+[2026-06-06 14:54:34]
+
+Processed: 17
+Skipped: 0
+Failed: 0
+Remaining: 247
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: deep_learning_ele_V_aids
+
+[2026-06-06 14:54:38] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2025_aids_dla_eV_2019p.pdf
+[2026-06-06 14:54:38]
+
+Processed: 18
+Skipped: 0
+Failed: 0
+Remaining: 246
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: deep_learning_ele_V_aids
+
+[2026-06-06 14:54:43] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/distributed_computing_aids/insem_mar_2024_aids_dca_2019p.pdf
+[2026-06-06 14:54:43]
+
+Processed: 19
+Skipped: 0
+Failed: 0
+Remaining: 245
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: distributed_computing_aids
+
+[2026-06-06 14:54:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/distributed_computing_aids/endsem_may_jun_2024_aids_dca_2019p.pdf
+[2026-06-06 14:54:50]
+
+Processed: 20
+Skipped: 0
+Failed: 0
+Remaining: 244
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: distributed_computing_aids
+
+[2026-06-06 14:54:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/distributed_computing_aids/insem_mar_2025_aids_dca_2019p.pdf
+[2026-06-06 14:54:54]
+
+Processed: 21
+Skipped: 0
+Failed: 0
+Remaining: 243
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: distributed_computing_aids
+
+[2026-06-06 14:55:03] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/distributed_computing_aids/endsem_may_jun_2025_aids_dca_2019p.pdf
+[2026-06-06 14:55:03]
+
+Processed: 22
+Skipped: 0
+Failed: 0
+Remaining: 242
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: distributed_computing_aids
+
+[2026-06-06 14:55:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2023_aids_iita_2019p.pdf
+[2026-06-06 14:55:13]
+
+Processed: 23
+Skipped: 0
+Failed: 0
+Remaining: 241
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:55:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2023_aids_iita_2019p.pdf
+[2026-06-06 14:55:17]
+
+Processed: 24
+Skipped: 0
+Failed: 0
+Remaining: 240
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:55:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_may_jun_2024_aids_iita_2019p.pdf
+[2026-06-06 14:55:28]
+
+Processed: 25
+Skipped: 0
+Failed: 0
+Remaining: 239
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:55:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2024_aids_iita_2019p.pdf
+[2026-06-06 14:55:39]
+
+Processed: 26
+Skipped: 0
+Failed: 0
+Remaining: 238
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:55:46] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2024_aids_iita_2019p.pdf
+[2026-06-06 14:55:46]
+
+Processed: 27
+Skipped: 0
+Failed: 0
+Remaining: 237
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:55:59] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_aug_2025_aids_iita_2019p.pdf
+[2026-06-06 14:55:59]
+
+Processed: 28
+Skipped: 0
+Failed: 0
+Remaining: 236
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:56:07] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2025_aids_iita_2019p.pdf
+[2026-06-06 14:56:07]
+
+Processed: 29
+Skipped: 0
+Failed: 0
+Remaining: 235
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: industrial_internmet_of_things_aids
+
+[2026-06-06 14:56:23] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2023_aids_ira_2019p.pdf
+[2026-06-06 14:56:23]
+
+Processed: 30
+Skipped: 0
+Failed: 0
+Remaining: 234
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:56:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2023_aids_ira_2019p.pdf
+[2026-06-06 14:56:28]
+
+Processed: 31
+Skipped: 0
+Failed: 0
+Remaining: 233
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:56:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_may_jun_2024_aids_ira_2019p.pdf
+[2026-06-06 14:56:39]
+
+Processed: 32
+Skipped: 0
+Failed: 0
+Remaining: 232
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:56:44] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2024_aids_ira_2019p.pdf
+[2026-06-06 14:56:44]
+
+Processed: 33
+Skipped: 0
+Failed: 0
+Remaining: 231
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:56:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2024_aids_ira_2019p.pdf
+[2026-06-06 14:56:54]
+
+Processed: 34
+Skipped: 0
+Failed: 0
+Remaining: 230
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:56:58] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_aug_2025_aids_ira_2019p.pdf
+[2026-06-06 14:56:58]
+
+Processed: 35
+Skipped: 0
+Failed: 0
+Remaining: 229
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:57:07] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2025_aids_ira_2019p.pdf
+[2026-06-06 14:57:07]
+
+Processed: 36
+Skipped: 0
+Failed: 0
+Remaining: 228
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: information_retrival_aids
+
+[2026-06-06 14:57:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf
+[2026-06-06 14:57:13]
+
+Processed: 37
+Skipped: 0
+Failed: 0
+Remaining: 227
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:57:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2023_aids_mla_2019p.pdf
+[2026-06-06 14:57:17]
+
+Processed: 38
+Skipped: 0
+Failed: 0
+Remaining: 226
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:57:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2024_aids_mla_2019p.pdf
+[2026-06-06 14:57:27]
+
+Processed: 39
+Skipped: 0
+Failed: 0
+Remaining: 225
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:57:31] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_sep_2024_aids_mla_2019p.pdf
+[2026-06-06 14:57:31]
+
+Processed: 40
+Skipped: 0
+Failed: 0
+Remaining: 224
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:57:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/insem_aug_2025_aids_mla_2019p.pdf
+[2026-06-06 14:57:50]
+
+Processed: 41
+Skipped: 0
+Failed: 0
+Remaining: 223
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:57:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2025_aids_mla_2019p.pdf
+[2026-06-06 14:57:54]
+
+Processed: 42
+Skipped: 0
+Failed: 0
+Remaining: 222
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: machine_learning_aids
+
+[2026-06-06 14:58:00] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/endsem_nov_dec_2023_aids_qaia_2019p.pdf
+[2026-06-06 14:58:00]
+
+Processed: 43
+Skipped: 0
+Failed: 0
+Remaining: 221
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:03] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/insem_sep_2023_aids_qaia_2019p.pdf
+[2026-06-06 14:58:03]
+
+Processed: 44
+Skipped: 0
+Failed: 0
+Remaining: 220
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:12] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/endsem_nov_dec_2024_aids_qaia_2019p.pdf
+[2026-06-06 14:58:12]
+
+Processed: 45
+Skipped: 0
+Failed: 0
+Remaining: 219
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:19] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/insem_sep_2024_aids_qaia_2019p.pdf
+[2026-06-06 14:58:19]
+
+Processed: 46
+Skipped: 0
+Failed: 0
+Remaining: 218
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:22] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/insem_aug_2025_aids_qaia_2019p.pdf
+[2026-06-06 14:58:22]
+
+Processed: 47
+Skipped: 0
+Failed: 0
+Remaining: 217
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:37] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/quantum_artificial_intelligence_aids/endsem_nov_dec_2025_aids_qaia_2019p.pdf
+[2026-06-06 14:58:37]
+
+Processed: 48
+Skipped: 0
+Failed: 0
+Remaining: 216
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: quantum_artificial_intelligence_aids
+
+[2026-06-06 14:58:47] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/reinforcement_learning_ele_VI_aids/insem_mar_2024_aids_rla_eVI_2019p.pdf
+[2026-06-06 14:58:47]
+
+Processed: 49
+Skipped: 0
+Failed: 0
+Remaining: 215
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: reinforcement_learning_ele_VI_aids
+
+[2026-06-06 14:59:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/reinforcement_learning_ele_VI_aids/endsem_may_jun_2024_aids_rla_eVI_2019p.pdf
+[2026-06-06 14:59:01]
+
+Processed: 50
+Skipped: 0
+Failed: 0
+Remaining: 214
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: reinforcement_learning_ele_VI_aids
+
+[2026-06-06 14:59:03] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/reinforcement_learning_ele_VI_aids/insem_mar_2025_aids_rla_eVI_2019p.pdf
+[2026-06-06 14:59:03]
+
+Processed: 51
+Skipped: 0
+Failed: 0
+Remaining: 213
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: reinforcement_learning_ele_VI_aids
+
+[2026-06-06 14:59:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/reinforcement_learning_ele_VI_aids/endsem_may_jun_2025_aids_rla_eVI_2019p.pdf
+[2026-06-06 14:59:08]
+
+Processed: 52
+Skipped: 0
+Failed: 0
+Remaining: 212
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-8
+Subject: reinforcement_learning_ele_VI_aids
+
+[2026-06-06 14:59:21] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/endsem_nov_dec_2023_aids_uuda_2019p.pdf
+[2026-06-06 14:59:21]
+
+Processed: 53
+Skipped: 0
+Failed: 0
+Remaining: 211
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: ui_ux_design_aids
+
+[2026-06-06 14:59:43] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/ui_ux_design_aids/insem_sep_2023_aids_uuda_2019p.pdf
+[2026-06-06 14:59:43]
+
+Processed: 54
+Skipped: 0
+Failed: 0
+Remaining: 210
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-7
+Subject: ui_ux_design_aids
+
+[2026-06-06 14:59:48] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_may_jun_2023_aids_cga_2019p.pdf
+[2026-06-06 14:59:48]
+
+Processed: 55
+Skipped: 0
+Failed: 0
+Remaining: 209
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 14:59:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_nov_dec_2023_aids_cga_2019p.pdf
+[2026-06-06 14:59:54]
+
+Processed: 56
+Skipped: 0
+Failed: 0
+Remaining: 208
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/insem_oct_2023_aids_cga_2019p.pdf
+[2026-06-06 15:00:08]
+
+Processed: 57
+Skipped: 0
+Failed: 0
+Remaining: 207
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:15] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_may_jun_2024_aids_cga_2019p.pdf
+[2026-06-06 15:00:15]
+
+Processed: 58
+Skipped: 0
+Failed: 0
+Remaining: 206
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:20] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_nov_dec_2024_aids_cga_2019p.pdf
+[2026-06-06 15:00:20]
+
+Processed: 59
+Skipped: 0
+Failed: 0
+Remaining: 205
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:31] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/insem_sep_2024_aids_cga_2019p.pdf
+[2026-06-06 15:00:31]
+
+Processed: 60
+Skipped: 0
+Failed: 0
+Remaining: 204
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:36] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_may_jun_2025_aids_cga_2019p.pdf
+[2026-06-06 15:00:36]
+
+Processed: 61
+Skipped: 0
+Failed: 0
+Remaining: 203
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:45] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/endsem_nov_dec_2025_aids_cga_2019p.pdf
+[2026-06-06 15:00:45]
+
+Processed: 62
+Skipped: 0
+Failed: 0
+Remaining: 202
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:00:55] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/computer_graphics_aids/insem_oct_2025_aids_cga_2019p.pdf
+[2026-06-06 15:00:55]
+
+Processed: 63
+Skipped: 0
+Failed: 0
+Remaining: 201
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: computer_graphics_aids
+
+[2026-06-06 15:01:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_feb_2023_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:08]
+
+Processed: 64
+Skipped: 0
+Failed: 0
+Remaining: 200
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:01:12] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2023_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:12]
+
+Processed: 65
+Skipped: 0
+Failed: 0
+Remaining: 199
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:01:21] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2023_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:21]
+
+Processed: 66
+Skipped: 0
+Failed: 0
+Remaining: 198
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:01:31] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2024_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:31]
+
+Processed: 67
+Skipped: 0
+Failed: 0
+Remaining: 197
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:01:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2024_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:50]
+
+Processed: 68
+Skipped: 0
+Failed: 0
+Remaining: 196
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:01:56] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2024_aids_dsaa_2019p.pdf
+[2026-06-06 15:01:56]
+
+Processed: 69
+Skipped: 0
+Failed: 0
+Remaining: 195
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:02:00] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2025_aids_dsaa_2019p.pdf
+[2026-06-06 15:02:00]
+
+Processed: 70
+Skipped: 0
+Failed: 0
+Remaining: 194
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:02:20] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_may_jun_2025_aids_dsaa_2019p.pdf
+[2026-06-06 15:02:20]
+
+Processed: 71
+Skipped: 0
+Failed: 0
+Remaining: 193
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:02:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/endsem_nov_dec_2025_aids_dsaa_2019p.pdf
+[2026-06-06 15:02:27]
+
+Processed: 72
+Skipped: 0
+Failed: 0
+Remaining: 192
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:02:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/data_structures_and_algorithms_aids/insem_mar_2026_aids_dsaa_2019p.pdf
+[2026-06-06 15:02:34]
+
+Processed: 73
+Skipped: 0
+Failed: 0
+Remaining: 191
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: data_structures_and_algorithms_aids
+
+[2026-06-06 15:02:44] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_may_jun_2022_aids_dma_2019p.pdf
+[2026-06-06 15:02:44]
+
+Processed: 74
+Skipped: 0
+Failed: 0
+Remaining: 190
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:02:52] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_nov_dec_2022_aids_dma_2019p.pdf
+[2026-06-06 15:02:52]
+
+Processed: 75
+Skipped: 0
+Failed: 0
+Remaining: 189
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/insem_oct_2022_aids_dma_2019p.pdf
+[2026-06-06 15:03:01]
+
+Processed: 76
+Skipped: 0
+Failed: 0
+Remaining: 188
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:06] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_may_jun_2023_aids_dma_2019p.pdf
+[2026-06-06 15:03:06]
+
+Processed: 77
+Skipped: 0
+Failed: 0
+Remaining: 187
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:18] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_nov_dec_2023_aids_dma_2019p.pdf
+[2026-06-06 15:03:18]
+
+Processed: 78
+Skipped: 0
+Failed: 0
+Remaining: 186
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:23] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/insem_oct_2023_aids_dma_2019p.pdf
+[2026-06-06 15:03:23]
+
+Processed: 79
+Skipped: 0
+Failed: 0
+Remaining: 185
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_may_jun_2024_aids_dma_2019p.pdf
+[2026-06-06 15:03:32]
+
+Processed: 80
+Skipped: 0
+Failed: 0
+Remaining: 184
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_nov_dec_2024_aids_dma_2019p.pdf
+[2026-06-06 15:03:42]
+
+Processed: 81
+Skipped: 0
+Failed: 0
+Remaining: 183
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:47] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/insem_sep_2024_aids_dma_2019p.pdf
+[2026-06-06 15:03:47]
+
+Processed: 82
+Skipped: 0
+Failed: 0
+Remaining: 182
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:03:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_may_jun_2025_aids_dma_2019p.pdf
+[2026-06-06 15:03:57]
+
+Processed: 83
+Skipped: 0
+Failed: 0
+Remaining: 181
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:04:11] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/endsem_nov_dec_2025_aids_dma_2019p.pdf
+[2026-06-06 15:04:11]
+
+Processed: 84
+Skipped: 0
+Failed: 0
+Remaining: 180
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:04:24] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/discrete_mathematics_aids/insem_oct_2025_aids_dma_2019p.pdf
+[2026-06-06 15:04:24]
+
+Processed: 85
+Skipped: 0
+Failed: 0
+Remaining: 179
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: discrete_mathematics_aids
+
+[2026-06-06 15:04:40] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2022_aids_fdsa_2019p.pdf
+[2026-06-06 15:04:40]
+
+Processed: 86
+Skipped: 0
+Failed: 0
+Remaining: 178
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:04:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2022_aids_fdsa_2019p.pdf
+[2026-06-06 15:04:50]
+
+Processed: 87
+Skipped: 0
+Failed: 0
+Remaining: 177
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:04:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2023_aids_fdsa_2019p.pdf
+[2026-06-06 15:04:57]
+
+Processed: 88
+Skipped: 0
+Failed: 0
+Remaining: 176
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:05] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2023_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:05]
+
+Processed: 89
+Skipped: 0
+Failed: 0
+Remaining: 175
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:09] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2023_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:09]
+
+Processed: 90
+Skipped: 0
+Failed: 0
+Remaining: 174
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:19] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2024_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:19]
+
+Processed: 91
+Skipped: 0
+Failed: 0
+Remaining: 173
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:26] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2024_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:26]
+
+Processed: 92
+Skipped: 0
+Failed: 0
+Remaining: 172
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_sep_2024_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:34]
+
+Processed: 93
+Skipped: 0
+Failed: 0
+Remaining: 171
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2025_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:41]
+
+Processed: 94
+Skipped: 0
+Failed: 0
+Remaining: 170
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2025_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:50]
+
+Processed: 95
+Skipped: 0
+Failed: 0
+Remaining: 169
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:05:58] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2025_aids_fdsa_2019p.pdf
+[2026-06-06 15:05:58]
+
+Processed: 96
+Skipped: 0
+Failed: 0
+Remaining: 168
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: fundamentals_of_data_structures_aids
+
+[2026-06-06 15:06:04] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2022_aids_ita_2019p.pdf
+[2026-06-06 15:06:04]
+
+Processed: 97
+Skipped: 0
+Failed: 0
+Remaining: 167
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:10] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_feb_2023_aids_ita_2019p.pdf
+[2026-06-06 15:06:10]
+
+Processed: 98
+Skipped: 0
+Failed: 0
+Remaining: 166
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:29] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2023_aids_ita_2019p.pdf
+[2026-06-06 15:06:29]
+
+Processed: 99
+Skipped: 0
+Failed: 0
+Remaining: 165
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2023_aids_ita_2019p.pdf
+[2026-06-06 15:06:41]
+
+Processed: 100
+Skipped: 0
+Failed: 0
+Remaining: 164
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:46] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2024_aids_ita_2019p.pdf
+[2026-06-06 15:06:46]
+
+Processed: 101
+Skipped: 0
+Failed: 0
+Remaining: 163
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2024_aids_ita_2019p.pdf
+[2026-06-06 15:06:54]
+
+Processed: 102
+Skipped: 0
+Failed: 0
+Remaining: 162
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:06:59] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2024_aids_ita_2019p.pdf
+[2026-06-06 15:06:59]
+
+Processed: 103
+Skipped: 0
+Failed: 0
+Remaining: 161
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:07:07] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2025_aids_ita_2019p.pdf
+[2026-06-06 15:07:07]
+
+Processed: 104
+Skipped: 0
+Failed: 0
+Remaining: 160
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:07:19] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2025_aids_ita_2019p.pdf
+[2026-06-06 15:07:19]
+
+Processed: 105
+Skipped: 0
+Failed: 0
+Remaining: 159
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:07:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2025_aids_ita_2019p.pdf
+[2026-06-06 15:07:28]
+
+Processed: 106
+Skipped: 0
+Failed: 0
+Remaining: 158
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:07:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2026_aids_ita_2019p.pdf
+[2026-06-06 15:07:32]
+
+Processed: 107
+Skipped: 0
+Failed: 0
+Remaining: 157
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: internet_of_things_aids
+
+[2026-06-06 15:07:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2022_aids_misa_2019p.pdf
+[2026-06-06 15:07:42]
+
+Processed: 108
+Skipped: 0
+Failed: 0
+Remaining: 156
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:07:53] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2022_aids_misa_2019p.pdf
+[2026-06-06 15:07:53]
+
+Processed: 109
+Skipped: 0
+Failed: 0
+Remaining: 155
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:02] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_feb_2023_aids_misa_2019p.pdf
+[2026-06-06 15:08:02]
+
+Processed: 110
+Skipped: 0
+Failed: 0
+Remaining: 154
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:05] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2023_aids_misa_2019p.pdf
+[2026-06-06 15:08:05]
+
+Processed: 111
+Skipped: 0
+Failed: 0
+Remaining: 153
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:20] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2023_aids_misa_2019p.pdf
+[2026-06-06 15:08:20]
+
+Processed: 112
+Skipped: 0
+Failed: 0
+Remaining: 152
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:25] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2024_aids_misa_2019p.pdf
+[2026-06-06 15:08:25]
+
+Processed: 113
+Skipped: 0
+Failed: 0
+Remaining: 151
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2024_aids_misa_2019p.pdf
+[2026-06-06 15:08:34]
+
+Processed: 114
+Skipped: 0
+Failed: 0
+Remaining: 150
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2025_aids_misa_2019p.pdf
+[2026-06-06 15:08:41]
+
+Processed: 115
+Skipped: 0
+Failed: 0
+Remaining: 149
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:48] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2025_aids_misa_2019p.pdf
+[2026-06-06 15:08:48]
+
+Processed: 116
+Skipped: 0
+Failed: 0
+Remaining: 148
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:08:58] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2025_aids_misa_2019p.pdf
+[2026-06-06 15:08:58]
+
+Processed: 117
+Skipped: 0
+Failed: 0
+Remaining: 147
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:09:06] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2026_aids_misa_2019p.pdf
+[2026-06-06 15:09:06]
+
+Processed: 118
+Skipped: 0
+Failed: 0
+Remaining: 146
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: management_information_system_aids
+
+[2026-06-06 15:09:12] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_nov_dec_2022_aids_oopa_2019p.pdf
+[2026-06-06 15:09:12]
+
+Processed: 119
+Skipped: 0
+Failed: 0
+Remaining: 145
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:18] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_may_jun_2023_aids_oopa_2019p.pdf
+[2026-06-06 15:09:18]
+
+Processed: 120
+Skipped: 0
+Failed: 0
+Remaining: 144
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:26] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_nov_dec_2023_aids_oopa_2019p.pdf
+[2026-06-06 15:09:26]
+
+Processed: 121
+Skipped: 0
+Failed: 0
+Remaining: 143
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:30] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/insem_oct_2023_aids_oopa_2019p.pdf
+[2026-06-06 15:09:30]
+
+Processed: 122
+Skipped: 0
+Failed: 0
+Remaining: 142
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_nov_dec_2024_aids_oopa_2019p.pdf
+[2026-06-06 15:09:39]
+
+Processed: 123
+Skipped: 0
+Failed: 0
+Remaining: 141
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:45] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/insem_sep_2024_aids_oopa_2019p.pdf
+[2026-06-06 15:09:45]
+
+Processed: 124
+Skipped: 0
+Failed: 0
+Remaining: 140
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:09:56] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_may_jun_2025_aids_oopa_2019p.pdf
+[2026-06-06 15:09:56]
+
+Processed: 125
+Skipped: 0
+Failed: 0
+Remaining: 139
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:10:02] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/endsem_nov_dec_2025_aids_oopa_2019p.pdf
+[2026-06-06 15:10:02]
+
+Processed: 126
+Skipped: 0
+Failed: 0
+Remaining: 138
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:10:11] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/object_oriented_programming_aids/insem_oct_2025_aids_oopa_2019p.pdf
+[2026-06-06 15:10:11]
+
+Processed: 127
+Skipped: 0
+Failed: 0
+Remaining: 137
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: object_oriented_programming_aids
+
+[2026-06-06 15:10:33] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_nov_dec_2022_aids_osa_2019p.pdf
+[2026-06-06 15:10:33]
+
+Processed: 128
+Skipped: 0
+Failed: 0
+Remaining: 136
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:10:36] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/insem_oct_2022_aids_osa_2019p.pdf
+[2026-06-06 15:10:36]
+
+Processed: 129
+Skipped: 0
+Failed: 0
+Remaining: 135
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:10:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_may_jun_2023_aids_osa_2019p.pdf
+[2026-06-06 15:10:41]
+
+Processed: 130
+Skipped: 0
+Failed: 0
+Remaining: 134
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:10:46] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_nov_dec_2023_aids_osa_2019p.pdf
+[2026-06-06 15:10:46]
+
+Processed: 131
+Skipped: 0
+Failed: 0
+Remaining: 133
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:10:52] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/insem_oct_2023_aids_osa_2019p.pdf
+[2026-06-06 15:10:52]
+
+Processed: 132
+Skipped: 0
+Failed: 0
+Remaining: 132
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_may_jun_2024_aids_osa_2019p.pdf
+[2026-06-06 15:11:01]
+
+Processed: 133
+Skipped: 0
+Failed: 0
+Remaining: 131
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:11] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_nov_dec_2024_aids_osa_2019p.pdf
+[2026-06-06 15:11:11]
+
+Processed: 134
+Skipped: 0
+Failed: 0
+Remaining: 130
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:29] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/insem_sep_2024_aids_osa_2019p.pdf
+[2026-06-06 15:11:29]
+
+Processed: 135
+Skipped: 0
+Failed: 0
+Remaining: 129
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_may_jun_2025_aids_osa_2019p.pdf
+[2026-06-06 15:11:34]
+
+Processed: 136
+Skipped: 0
+Failed: 0
+Remaining: 128
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/endsem_nov_dec_2025_aids_osa_2019p.pdf
+[2026-06-06 15:11:42]
+
+Processed: 137
+Skipped: 0
+Failed: 0
+Remaining: 127
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/operating_systems_aids/insem_oct_2025_aids_osa_2019p.pdf
+[2026-06-06 15:11:50]
+
+Processed: 138
+Skipped: 0
+Failed: 0
+Remaining: 126
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-3
+Subject: operating_systems_aids
+
+[2026-06-06 15:11:55] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2022_aids_sea_2019p.pdf
+[2026-06-06 15:11:55]
+
+Processed: 139
+Skipped: 0
+Failed: 0
+Remaining: 125
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2022_aids_sea_2019p.pdf
+[2026-06-06 15:12:01]
+
+Processed: 140
+Skipped: 0
+Failed: 0
+Remaining: 124
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:04] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_feb_2023_aids_sea_2019p.pdf
+[2026-06-06 15:12:04]
+
+Processed: 141
+Skipped: 0
+Failed: 0
+Remaining: 123
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2023_aids_sea_2019p.pdf
+[2026-06-06 15:12:08]
+
+Processed: 142
+Skipped: 0
+Failed: 0
+Remaining: 122
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2023_aids_sea_2019p.pdf
+[2026-06-06 15:12:13]
+
+Processed: 143
+Skipped: 0
+Failed: 0
+Remaining: 121
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:25] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2024_aids_sea_2019p.pdf
+[2026-06-06 15:12:25]
+
+Processed: 144
+Skipped: 0
+Failed: 0
+Remaining: 120
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:40] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2024_aids_sea_2019p.pdf
+[2026-06-06 15:12:40]
+
+Processed: 145
+Skipped: 0
+Failed: 0
+Remaining: 119
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:51] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2024_aids_sea_2019p.pdf
+[2026-06-06 15:12:51]
+
+Processed: 146
+Skipped: 0
+Failed: 0
+Remaining: 118
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:12:58] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2025_aids_sea_2019p.pdf
+[2026-06-06 15:12:58]
+
+Processed: 147
+Skipped: 0
+Failed: 0
+Remaining: 117
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:13:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2025_aids_sea_2019p.pdf
+[2026-06-06 15:13:13]
+
+Processed: 148
+Skipped: 0
+Failed: 0
+Remaining: 116
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:13:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2025_aids_sea_2019p.pdf
+[2026-06-06 15:13:27]
+
+Processed: 149
+Skipped: 0
+Failed: 0
+Remaining: 115
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:13:31] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2026_aids_sea_2019p.pdf
+[2026-06-06 15:13:31]
+
+Processed: 150
+Skipped: 0
+Failed: 0
+Remaining: 114
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: software_engineering_aids
+
+[2026-06-06 15:13:38] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2022_aids_sa_2019p.pdf
+[2026-06-06 15:13:38]
+
+Processed: 151
+Skipped: 0
+Failed: 0
+Remaining: 113
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:13:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2022_aids_sa_2019p.pdf
+[2026-06-06 15:13:54]
+
+Processed: 152
+Skipped: 0
+Failed: 0
+Remaining: 112
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:05] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_feb_2023_aids_sa_2019p.pdf
+[2026-06-06 15:14:05]
+
+Processed: 153
+Skipped: 0
+Failed: 0
+Remaining: 111
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2023_aids_sa_2019p.pdf
+[2026-06-06 15:14:17]
+
+Processed: 154
+Skipped: 0
+Failed: 0
+Remaining: 110
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:25] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2023_aids_sa_2019p.pdf
+[2026-06-06 15:14:25]
+
+Processed: 155
+Skipped: 0
+Failed: 0
+Remaining: 109
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2024_aids_sa_2019p.pdf
+[2026-06-06 15:14:34]
+
+Processed: 156
+Skipped: 0
+Failed: 0
+Remaining: 108
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2024_aids_sa_2019p.pdf
+[2026-06-06 15:14:42]
+
+Processed: 157
+Skipped: 0
+Failed: 0
+Remaining: 107
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:14:51] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2024_aids_sa_2019p.pdf
+[2026-06-06 15:14:51]
+
+Processed: 158
+Skipped: 0
+Failed: 0
+Remaining: 106
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:15:03] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2025_aids_sa_2019p.pdf
+[2026-06-06 15:15:03]
+
+Processed: 159
+Skipped: 0
+Failed: 0
+Remaining: 105
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:15:15] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2025_aids_sa_2019p.pdf
+[2026-06-06 15:15:15]
+
+Processed: 160
+Skipped: 0
+Failed: 0
+Remaining: 104
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:15:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2025_aids_sa_2019p.pdf
+[2026-06-06 15:15:39]
+
+Processed: 161
+Skipped: 0
+Failed: 0
+Remaining: 103
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:15:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2026_aids_sa_2019p.pdf
+[2026-06-06 15:15:50]
+
+Processed: 162
+Skipped: 0
+Failed: 0
+Remaining: 102
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-4
+Subject: statistics_aids
+
+[2026-06-06 15:15:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_nov_dec_2022_aids_aia_2019p.pdf
+[2026-06-06 15:15:54]
+
+Processed: 163
+Skipped: 0
+Failed: 0
+Remaining: 101
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:15:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/insem_oct_2022_aids_aia_2019p.pdf
+[2026-06-06 15:15:57]
+
+Processed: 164
+Skipped: 0
+Failed: 0
+Remaining: 100
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_may_jun_2023_aids_aia_2019p.pdf
+[2026-06-06 15:16:01]
+
+Processed: 165
+Skipped: 0
+Failed: 0
+Remaining: 99
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:14] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_nov_dec_2023_aids_aia_2019p.pdf
+[2026-06-06 15:16:14]
+
+Processed: 166
+Skipped: 0
+Failed: 0
+Remaining: 98
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:23] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/insem_sep_2023_aids_aia_2019p.pdf
+[2026-06-06 15:16:23]
+
+Processed: 167
+Skipped: 0
+Failed: 0
+Remaining: 97
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:34] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_may_jun_2024_aids_aia_2019p.pdf
+[2026-06-06 15:16:34]
+
+Processed: 168
+Skipped: 0
+Failed: 0
+Remaining: 96
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_nov_dec_2024_aids_aia_2019p.pdf
+[2026-06-06 15:16:39]
+
+Processed: 169
+Skipped: 0
+Failed: 0
+Remaining: 95
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:47] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/insem_sep_2024_aids_aia_2019p.pdf
+[2026-06-06 15:16:47]
+
+Processed: 170
+Skipped: 0
+Failed: 0
+Remaining: 94
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:16:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/insem_aug_2025_aids_aia_2019p.pdf
+[2026-06-06 15:16:50]
+
+Processed: 171
+Skipped: 0
+Failed: 0
+Remaining: 93
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:17:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_may_jun_2025_aids_aia_2019p.pdf
+[2026-06-06 15:17:01]
+
+Processed: 172
+Skipped: 0
+Failed: 0
+Remaining: 92
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:17:12] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_intelligence_aids/endsem_nov_dec_2025_aids_aia_2019p.pdf
+[2026-06-06 15:17:12]
+
+Processed: 173
+Skipped: 0
+Failed: 0
+Remaining: 91
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: artificial_intelligence_aids
+
+[2026-06-06 15:17:20] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_feb_2023_aids_anna_2019p.pdf
+[2026-06-06 15:17:20]
+
+Processed: 174
+Skipped: 0
+Failed: 0
+Remaining: 90
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:17:30] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2023_aids_anna_2019p.pdf
+[2026-06-06 15:17:30]
+
+Processed: 175
+Skipped: 0
+Failed: 0
+Remaining: 89
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:10] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2023_aids_anna_2019p.pdf
+[2026-06-06 15:18:10]
+
+Processed: 176
+Skipped: 0
+Failed: 0
+Remaining: 88
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:16] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2024_aids_anna_2019p.pdf
+[2026-06-06 15:18:16]
+
+Processed: 177
+Skipped: 0
+Failed: 0
+Remaining: 87
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:21] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2024_aids_anna_2019p.pdf
+[2026-06-06 15:18:21]
+
+Processed: 178
+Skipped: 0
+Failed: 0
+Remaining: 86
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:29] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2024_aids_anna_2019p.pdf
+[2026-06-06 15:18:29]
+
+Processed: 179
+Skipped: 0
+Failed: 0
+Remaining: 85
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:33] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2025_aids_anna_2019p.pdf
+[2026-06-06 15:18:33]
+
+Processed: 180
+Skipped: 0
+Failed: 0
+Remaining: 84
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:44] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2025_aids_anna_2019p.pdf
+[2026-06-06 15:18:44]
+
+Processed: 181
+Skipped: 0
+Failed: 0
+Remaining: 83
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:18:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2025_aids_anna_2019p.pdf
+[2026-06-06 15:18:57]
+
+Processed: 182
+Skipped: 0
+Failed: 0
+Remaining: 82
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:19:04] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2026_aids_anna_2019p.pdf
+[2026-06-06 15:19:04]
+
+Processed: 183
+Skipped: 0
+Failed: 0
+Remaining: 81
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: artificial_nueral_network_aids
+
+[2026-06-06 15:19:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/insem_feb_2023_aids_cca_2019p.pdf
+[2026-06-06 15:19:08]
+
+Processed: 184
+Skipped: 0
+Failed: 0
+Remaining: 80
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:14] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/endsem_may_jun_2023_aids_cca_2019p.pdf
+[2026-06-06 15:19:14]
+
+Processed: 185
+Skipped: 0
+Failed: 0
+Remaining: 79
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:22] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/insem_mar_2024_aids_cca_2019p.pdf
+[2026-06-06 15:19:22]
+
+Processed: 186
+Skipped: 0
+Failed: 0
+Remaining: 78
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/endsem_may_jun_2024_aids_cca_2019p.pdf
+[2026-06-06 15:19:27]
+
+Processed: 187
+Skipped: 0
+Failed: 0
+Remaining: 77
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:37] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/endsem_nov_dec_2024_aids_cca_2019p.pdf
+[2026-06-06 15:19:37]
+
+Processed: 188
+Skipped: 0
+Failed: 0
+Remaining: 76
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:42] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/insem_mar_2025_aids_cca_2019p.pdf
+[2026-06-06 15:19:42]
+
+Processed: 189
+Skipped: 0
+Failed: 0
+Remaining: 75
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:19:56] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/endsem_may_jun_2025_aids_cca_2019p.pdf
+[2026-06-06 15:19:56]
+
+Processed: 190
+Skipped: 0
+Failed: 0
+Remaining: 74
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:20:06] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/endsem_nov_dec_2025_aids_cca_2019p.pdf
+[2026-06-06 15:20:06]
+
+Processed: 191
+Skipped: 0
+Failed: 0
+Remaining: 73
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:20:10] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cloud_computing_aids/insem_mar_2026_aids_cca_2019p.pdf
+[2026-06-06 15:20:10]
+
+Processed: 192
+Skipped: 0
+Failed: 0
+Remaining: 72
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cloud_computing_aids
+
+[2026-06-06 15:20:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_nov_dec_2022_aids_cna_2019p.pdf
+[2026-06-06 15:20:13]
+
+Processed: 193
+Skipped: 0
+Failed: 0
+Remaining: 71
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:23] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/insem_oct_2022_aids_cna_2019p.pdf
+[2026-06-06 15:20:23]
+
+Processed: 194
+Skipped: 0
+Failed: 0
+Remaining: 70
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_may_jun_2023_aids_cna_2019p.pdf
+[2026-06-06 15:20:27]
+
+Processed: 195
+Skipped: 0
+Failed: 0
+Remaining: 69
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:33] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_nov_dec_2023_aids_cna_2019p.pdf
+[2026-06-06 15:20:33]
+
+Processed: 196
+Skipped: 0
+Failed: 0
+Remaining: 68
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:44] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/insem_sep_2023_aids_cna_2019p.pdf
+[2026-06-06 15:20:44]
+
+Processed: 197
+Skipped: 0
+Failed: 0
+Remaining: 67
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:52] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_may_jun_2024_aids_cna_2019p.pdf
+[2026-06-06 15:20:52]
+
+Processed: 198
+Skipped: 0
+Failed: 0
+Remaining: 66
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:20:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_nov_dec_2024_aids_cna_2019p.pdf
+[2026-06-06 15:20:57]
+
+Processed: 199
+Skipped: 0
+Failed: 0
+Remaining: 65
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:21:03] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/insem_sep_2024_aids_cna_2019p.pdf
+[2026-06-06 15:21:03]
+
+Processed: 200
+Skipped: 0
+Failed: 0
+Remaining: 64
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:21:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/insem_aug_2025_aids_cna_2019p.pdf
+[2026-06-06 15:21:13]
+
+Processed: 201
+Skipped: 0
+Failed: 0
+Remaining: 63
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:21:19] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_may_jun_2025_aids_cna_2019p.pdf
+[2026-06-06 15:21:19]
+
+Processed: 202
+Skipped: 0
+Failed: 0
+Remaining: 62
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:21:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/computer_networks_aids/endsem_nov_dec_2025_aids_cna_2019p.pdf
+[2026-06-06 15:21:27]
+
+Processed: 203
+Skipped: 0
+Failed: 0
+Remaining: 61
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: computer_networks_aids
+
+[2026-06-06 15:21:30] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_feb_2023_aids_csa_2019p.pdf
+[2026-06-06 15:21:30]
+
+Processed: 204
+Skipped: 0
+Failed: 0
+Remaining: 60
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:21:35] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2023_aids_csa_2019p.pdf
+[2026-06-06 15:21:35]
+
+Processed: 205
+Skipped: 0
+Failed: 0
+Remaining: 59
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:21:40] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2024_aids_csa_2019p.pdf
+[2026-06-06 15:21:40]
+
+Processed: 206
+Skipped: 0
+Failed: 0
+Remaining: 58
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:21:49] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2024_aids_csa_2019p.pdf
+[2026-06-06 15:21:49]
+
+Processed: 207
+Skipped: 0
+Failed: 0
+Remaining: 57
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:00] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2024_aids_csa_2019p.pdf
+[2026-06-06 15:22:00]
+
+Processed: 208
+Skipped: 0
+Failed: 0
+Remaining: 56
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:06] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_sep_2024_aids_csa_2019p.pdf
+[2026-06-06 15:22:06]
+
+Processed: 209
+Skipped: 0
+Failed: 0
+Remaining: 55
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2025_aids_csa_2019p.pdf
+[2026-06-06 15:22:17]
+
+Processed: 210
+Skipped: 0
+Failed: 0
+Remaining: 54
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2025_aids_csa_2019p.pdf
+[2026-06-06 15:22:28]
+
+Processed: 211
+Skipped: 0
+Failed: 0
+Remaining: 53
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2025_aids_csa_2019p.pdf
+[2026-06-06 15:22:39]
+
+Processed: 212
+Skipped: 0
+Failed: 0
+Remaining: 52
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:48] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2026_aids_csa_2019p.pdf
+[2026-06-06 15:22:48]
+
+Processed: 213
+Skipped: 0
+Failed: 0
+Remaining: 51
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: cyber_security_aids
+
+[2026-06-06 15:22:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_feb_2023_aids_dsa_2019p.pdf
+[2026-06-06 15:22:57]
+
+Processed: 214
+Skipped: 0
+Failed: 0
+Remaining: 50
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:23:09] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2023_aids_dsa_2019p.pdf
+[2026-06-06 15:23:09]
+
+Processed: 215
+Skipped: 0
+Failed: 0
+Remaining: 49
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:23:18] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2024_aids_dsa_2019p.pdf
+[2026-06-06 15:23:18]
+
+Processed: 216
+Skipped: 0
+Failed: 0
+Remaining: 48
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:23:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2024_aids_dsa_2019p.pdf
+[2026-06-06 15:23:28]
+
+Processed: 217
+Skipped: 0
+Failed: 0
+Remaining: 47
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:23:33] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2024_aids_dsa_2019p.pdf
+[2026-06-06 15:23:33]
+
+Processed: 218
+Skipped: 0
+Failed: 0
+Remaining: 46
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:23:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2025_aids_dsa_2019p.pdf
+[2026-06-06 15:23:41]
+
+Processed: 219
+Skipped: 0
+Failed: 0
+Remaining: 45
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:24:01] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_may_jun_2025_aids_dsa_2019p.pdf
+[2026-06-06 15:24:01]
+
+Processed: 220
+Skipped: 0
+Failed: 0
+Remaining: 44
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:24:18] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/endsem_nov_dec_2025_aids_dsa_2019p.pdf
+[2026-06-06 15:24:18]
+
+Processed: 221
+Skipped: 0
+Failed: 0
+Remaining: 43
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:24:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/data_science_aids/insem_mar_2026_aids_dsa_2019p.pdf
+[2026-06-06 15:24:27]
+
+Processed: 222
+Skipped: 0
+Failed: 0
+Remaining: 42
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: data_science_aids
+
+[2026-06-06 15:24:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_nov_dec_2022_aids_dmsa_2019p.pdf
+[2026-06-06 15:24:32]
+
+Processed: 223
+Skipped: 0
+Failed: 0
+Remaining: 41
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:24:49] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/insem_oct_2022_aids_dmsa_2019p.pdf
+[2026-06-06 15:24:49]
+
+Processed: 224
+Skipped: 0
+Failed: 0
+Remaining: 40
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:24:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_may_jun_2023_aids_dmsa_2019p.pdf
+[2026-06-06 15:24:57]
+
+Processed: 225
+Skipped: 0
+Failed: 0
+Remaining: 39
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:25:10] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_nov_dec_2023_aids_dmsa_2019p.pdf
+[2026-06-06 15:25:10]
+
+Processed: 226
+Skipped: 0
+Failed: 0
+Remaining: 38
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:25:49] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/insem_sep_2023_aids_dmsa_2019p.pdf
+[2026-06-06 15:25:49]
+
+Processed: 227
+Skipped: 0
+Failed: 0
+Remaining: 37
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:25:57] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_may_jun_2024_aids_dmsa_2019p.pdf
+[2026-06-06 15:25:57]
+
+Processed: 228
+Skipped: 0
+Failed: 0
+Remaining: 36
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:02] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_nov_dec_2024_aids_dmsa_2019p.pdf
+[2026-06-06 15:26:02]
+
+Processed: 229
+Skipped: 0
+Failed: 0
+Remaining: 35
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:08] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/insem_sep_2024_aids_dmsa_2019p.pdf
+[2026-06-06 15:26:08]
+
+Processed: 230
+Skipped: 0
+Failed: 0
+Remaining: 34
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/insem_aug_2025_aids_dmsa_2019p.pdf
+[2026-06-06 15:26:17]
+
+Processed: 231
+Skipped: 0
+Failed: 0
+Remaining: 33
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:27] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_may_jun_2025_aids_dmsa_2019p.pdf
+[2026-06-06 15:26:27]
+
+Processed: 232
+Skipped: 0
+Failed: 0
+Remaining: 32
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/database_management_system_aids/endsem_nov_dec_2025_aids_dmsa_2019p.pdf
+[2026-06-06 15:26:32]
+
+Processed: 233
+Skipped: 0
+Failed: 0
+Remaining: 31
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: database_management_system_aids
+
+[2026-06-06 15:26:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2022_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:26:39]
+
+Processed: 234
+Skipped: 0
+Failed: 0
+Remaining: 30
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:26:55] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_oct_2022_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:26:55]
+
+Processed: 235
+Skipped: 0
+Failed: 0
+Remaining: 29
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:10] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2023_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:10]
+
+Processed: 236
+Skipped: 0
+Failed: 0
+Remaining: 28
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:24] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2023_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:24]
+
+Processed: 237
+Skipped: 0
+Failed: 0
+Remaining: 27
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:28] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2023_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:28]
+
+Processed: 238
+Skipped: 0
+Failed: 0
+Remaining: 26
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:41] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2024_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:41]
+
+Processed: 239
+Skipped: 0
+Failed: 0
+Remaining: 25
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:45] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2024_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:45]
+
+Processed: 240
+Skipped: 0
+Failed: 0
+Remaining: 24
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:51] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_sep_2024_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:51]
+
+Processed: 241
+Skipped: 0
+Failed: 0
+Remaining: 23
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:54] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/insem_aug_2025_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:54]
+
+Processed: 242
+Skipped: 0
+Failed: 0
+Remaining: 22
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:27:59] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_may_jun_2025_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:27:59]
+
+Processed: 243
+Skipped: 0
+Failed: 0
+Remaining: 21
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:28:05] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/human_computer_interface_ele_I_aids/endsem_nov_dec_2025_aids_hcia_eI_2019p.pdf
+[2026-06-06 15:28:05]
+
+Processed: 244
+Skipped: 0
+Failed: 0
+Remaining: 20
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: human_computer_interface_ele_I_aids
+
+[2026-06-06 15:28:09] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/insem_feb_2023_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:09]
+
+Processed: 245
+Skipped: 0
+Failed: 0
+Remaining: 19
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:13] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/endsem_may_jun_2023_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:13]
+
+Processed: 246
+Skipped: 0
+Failed: 0
+Remaining: 18
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:16] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/insem_mar_2024_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:16]
+
+Processed: 247
+Skipped: 0
+Failed: 0
+Remaining: 17
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:22] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/endsem_may_jun_2024_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:22]
+
+Processed: 248
+Skipped: 0
+Failed: 0
+Remaining: 16
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:25] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/insem_mar_2025_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:25]
+
+Processed: 249
+Skipped: 0
+Failed: 0
+Remaining: 15
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/endsem_may_jun_2025_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:32]
+
+Processed: 250
+Skipped: 0
+Failed: 0
+Remaining: 14
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:46] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/natural_language_processing_ele_II_aids/endsem_nov_dec_2025_aids_nlpa_eII_2019p.pdf
+[2026-06-06 15:28:46]
+
+Processed: 251
+Skipped: 0
+Failed: 0
+Remaining: 13
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: natural_language_processing_ele_II_aids
+
+[2026-06-06 15:28:50] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/pattern_recognition_ele_I_aids/endsem_nov_dec_2024_aids_pra_eI_2019p.pdf
+[2026-06-06 15:28:50]
+
+Processed: 252
+Skipped: 0
+Failed: 0
+Remaining: 12
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: pattern_recognition_ele_I_aids
+
+[2026-06-06 15:28:58] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/pattern_recognition_ele_I_aids/insem_sep_2024_aids_pra_eI_2019p.pdf
+[2026-06-06 15:28:58]
+
+Processed: 253
+Skipped: 0
+Failed: 0
+Remaining: 11
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: pattern_recognition_ele_I_aids
+
+[2026-06-06 15:29:04] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/software_modeling_and_architectures_aids/endsem_may_jun_2023_aids_smaa_2019p.pdf
+[2026-06-06 15:29:04]
+
+Processed: 254
+Skipped: 0
+Failed: 0
+Remaining: 10
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-6
+Subject: software_modeling_and_architectures_aids
+
+[2026-06-06 15:29:09] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_nov_dec_2022_aids_wta_2019p.pdf
+[2026-06-06 15:29:09]
+
+Processed: 255
+Skipped: 0
+Failed: 0
+Remaining: 9
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:17] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/insem_oct_2022_aids_wta_2019p.pdf
+[2026-06-06 15:29:17]
+
+Processed: 256
+Skipped: 0
+Failed: 0
+Remaining: 8
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:21] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_may_jun_2023_aids_wta_2019p.pdf
+[2026-06-06 15:29:21]
+
+Processed: 257
+Skipped: 0
+Failed: 0
+Remaining: 7
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:32] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_nov_dec_2023_aids_wta_2019p.pdf
+[2026-06-06 15:29:32]
+
+Processed: 258
+Skipped: 0
+Failed: 0
+Remaining: 6
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:39] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/insem_sep_2023_aids_wta_2019p.pdf
+[2026-06-06 15:29:39]
+
+Processed: 259
+Skipped: 0
+Failed: 0
+Remaining: 5
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:43] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_may_jun_2024_aids_wta_2019p.pdf
+[2026-06-06 15:29:43]
+
+Processed: 260
+Skipped: 0
+Failed: 0
+Remaining: 4
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:49] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/insem_sep_2024_aids_wta_2019p.pdf
+[2026-06-06 15:29:49]
+
+Processed: 261
+Skipped: 0
+Failed: 0
+Remaining: 3
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:29:53] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/insem_aug_2025_aids_wta_2019p.pdf
+[2026-06-06 15:29:53]
+
+Processed: 262
+Skipped: 0
+Failed: 0
+Remaining: 2
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:30:00] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_may_jun_2025_aids_wta_2019p.pdf
+[2026-06-06 15:30:00]
+
+Processed: 263
+Skipped: 0
+Failed: 0
+Remaining: 1
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:30:07] Processed PDF: https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/web_technology_aids/endsem_nov_dec_2025_aids_wta_2019p.pdf
+[2026-06-06 15:30:07]
+
+Processed: 264
+Skipped: 0
+Failed: 0
+Remaining: 0
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+
+[2026-06-06 15:30:07] Pipeline completed.
+[2026-06-06 15:30:07]
+
+Processed: 264
+Skipped: 0
+Failed: 0
+Remaining: 0
+Gemini failures: 0
+OCR usage: 0
+
+Current:
+Branch: aids
+Semester: sem-5
+Subject: web_technology_aids
+

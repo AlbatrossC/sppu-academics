@@ -1,0 +1,1583 @@
+{
+  "subject_name": "Artificial Nueral Network",
+  "subject_slug": "artificial_nueral_network_aids",
+  "branch": "aids",
+  "semester": "sem-6",
+  "papers": [
+    {
+      "pdf_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_feb_2023_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_feb_2023_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6009]-426",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10122",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/04/2023 12:04:38 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is a neural network activation function? State its Types?",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain architecture of Artificial Neural Network with a neat diagram.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain Mc-Culloch & Pitts model with an example.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the main differences among the three models of artificial neuron, namely, McCulloch-Pitts, Perceptron and Adaline?",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the structure and working of Biological Neural Network?",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate between Biological Neural Network and Artificial Neural Network.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Perceptron Learning Algorithm with an example.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the architecture of Multilayered neural network.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write and explain the steps of Back Propagation Learning algorithm.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw the architecture of Back Propagation Network and explain in detail.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Differentiate between Feed forward and Feedback neural network.",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is Error Correction and how to minimize these errors?",
+          "marks": 5,
+          "question_id": "1dRN88J-xsB0QF3wGWeHOJicR-rB1JbIN_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1567,
+        "processed_at": "2026-06-06 15:17:20"
+      }
+    },
+    {
+      "pdf_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2023_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2023_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6003]-544",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P440",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/06/2023 10:37:48 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is the Hopfield neural network? What is a state transition diagram for Hopfield Neural Network? Explain how to derive it in Hopfield model.",
+          "marks": 8,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of associative learning in artificial neural networks. How is it related to pattern recognition?",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the architecture of Boltzmann machine.",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe the Boltzmann machine and Boltzmann learning law. What are the limitations of the Boltzmann learning?",
+          "marks": 8,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a short note on i) Stochastic Network ii) Simulated Annealing",
+          "marks": 10,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw and explain Competitive learning Network.",
+          "marks": 7,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the self-organization map (SOM) algorithm and explain how it can be used for feature mapping.",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain how ART can be used for character recognition task.",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain briefly ART network. What are the features of ART network?",
+          "marks": 7,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the components of a competitive learning neural network and explain how they contribute to the network function.",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is vector quantization? How it is used for pattern clustering?",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the role of pooling layer in Convolution neural network.",
+          "marks": 8,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the concept of transfer learning and its importance in deep learning.",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain Padding in neural network.",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Residual network in Convolution neural network.",
+          "marks": 8,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the concept of SoftMax regression and its significance in CNN models.",
+          "marks": 10,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain how ANN can be used for the recognition of printed characters.",
+          "marks": 7,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe the Neocognitron model and its significance in the recognition of handwritten characters.",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain example of pattern recognition in everyday life.",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss the application of ANN in pattern classification and recognition of Olympic game symbols.",
+          "marks": 7,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain texture classification and segmentation in ANN.",
+          "marks": 6,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss the application of ANN in the recognition of consonant vowel (CV) segments.",
+          "marks": 4,
+          "question_id": "1c_s19UR9FbTIbQSOhvhwcXuMd3t_HJoM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2773,
+        "processed_at": "2026-06-06 15:17:30"
+      }
+    },
+    {
+      "pdf_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2023_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2023_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6180]-70",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P7558",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 14/12/2023 09:49:36 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What do you understand by associative memory? Also mention characteristics and applications for the same.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write short Notes on the following. i) State transition diagram ii) False minima problem",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Illustrate the architecture of Boltzmann machine and its learning also its applications.",
+          "marks": 8,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Boltzmann machine. How does it differ from Hopfield net?",
+          "marks": 8,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How does simulated annealing algorithm work?",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write short notes on the following. i) Applications of Hopfield Network for Travelling sales man problem ii) Associative Memory",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is competitive learning in neural networks?",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Consider an ART-I network with input vector [1,1,0,0], [0,0,1,0], [1,1,1,0] and [1,1,1,1], want to produce clustering with following data, number of inputs n =4, clusters to be formed m = 3 and vigilance parameter ρ = 0.5 , Compute the result of the first iteration and comment on clustering.",
+          "marks": 8,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw the network architecture of ART network. Explain the algorithm for designing the weights of ART network.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain ART under the following headings : i) Architecture ii) Working iii) Training iv) Implementation",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw the architecture of Kohonen Network and explain the algorithm for training the weights of the Network.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define following : i) Learning vector quantization ii) Adaptive pattern classification",
+          "marks": 8,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Illustrate with example convolution and max pooling?",
+          "marks": 6,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What frameworks are used in deep learning? Define any seven.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the softmax regression with respect to hypothesis and cost function and write down its properties.",
+          "marks": 6,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Exemplify convolution over volume with convolution on RGB images. Also illustrate multiple filters used in it.",
+          "marks": 6,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Consider a LeNet-5 a convolutional neural network, we want to perform the classification of digits, Write down the complete procedure followed in its architecture.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is transfer learning models for image classification? What are the 5 types of transfer learning?",
+          "marks": 6,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Which device recognize a pattern of handwritten or printed characters? And also illustrate it’s working.",
+          "marks": 7,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain texture classification using convolution neural network.",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write short notes on the following: i) NET Talk ii) Texture classification iii) Pattern classification",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "You have been asked to develop a model of recognizing hand written digits. What are the chosen steps for activity? Explain each with detail.",
+          "marks": 7,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is automatic translation? How does it work? What are its benefits?",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What is neocognitron neural network and how it is trained?",
+          "marks": 5,
+          "question_id": "1Bs6iyL89LrPqrDA4fiz_6BzdM3KeAo4c_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3458,
+        "processed_at": "2026-06-06 15:18:10"
+      }
+    },
+    {
+      "pdf_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2024_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2024_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6269]-326",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-112",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/03/2024 10:33:29 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is the role of activation function in neural network? Explain bipolar Sigmoid function in detail.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Why is ReLU the most commonly used Activation Function?",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain architecture of Artificial Neural Network with a neat diagram.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Draw the structure of the biological neuron and explain working of the same in brief.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write an algorithm of ADALINE and focus on its upper bound with largest Eigen Value of its correlation matrix.",
+          "marks": 10,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is Error Correction and how to minimize these errors?",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the architecture of Multilayered neural network.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define learning and memory. Explain learning algorithms in details.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the difference between Forward propagation and Backward Propagation in Neural Networks?",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the different types of Gradient Descent in detail.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write down Perceptron Learning Algorithm for OR function along with calculation of each input vector.",
+          "marks": 5,
+          "question_id": "1qir6hIHYjvditMpdNC9z4FQTy2esfn2E_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1585,
+        "processed_at": "2026-06-06 15:18:16"
+      }
+    },
+    {
+      "pdf_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2024_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2024_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6262]-58",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3799",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/05/2024 09:46:31 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "How does Hopefield network work and state its limitations.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Exemplify stimulated annealing with its advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define: i) Pattern association ii) Pattern classification iii) Pattern mapping tasks",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail stochastic gradient approach.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State basic functional units of ANN for pattern recognition tasks.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is catastrophic forgetting in neural network?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Why Kohonens network are called self organizing maps?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is Adaptive Resonance Theory and its applications?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define following: i) Learning vector quantization ii) Adaptive pattern classification",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "How to recognize character using ART network?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is competitive learning in neural network and its limitations?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain SOM architecture and its uses.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Why do we prefer Convolution Neural Networks(CNN) Over Artificial Neural Networks(ANN) for image data as input?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) AlexNET ii) VGG-16 iii) Residual networks",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the role of the flattening layer in CNN.",
+          "marks": 5,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What exactly is a CNN and how does it work?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define bias and variance. What is bias-variance trade-off?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What do we use a pooling layer in a CNN?",
+          "marks": 5,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain automatic language translation with its three basic rules.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Exemplify recognition of Olympic Games symbols.",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is NET talk?",
+          "marks": 5,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Exemplify pattern classification?",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a short note on: i) Texture classification ii) Texture segmentation",
+          "marks": 6,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Illustrate about Neocognitron?",
+          "marks": 5,
+          "question_id": "1iUfNIQBf_TRbLk61dJfq6SXnh_IqbPoI_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2410,
+        "processed_at": "2026-06-06 15:18:21"
+      }
+    },
+    {
+      "pdf_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2024_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2024_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6353] - 58",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-1741",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 30/11/2024 09:35:52 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw the state transition diagram for the three types of Boltzmann Machine neural network and comment on the nodes and their connections.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Train the hetero-associative memory network using outer products rule to store input row vectors s = (s1, s2, s3, s4), to the output row vectors t = (t1, t2). Use the vector pairs as given in Table 2.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the False Minima problem, Stochastic Update and Simulated Annealing concepts with reference to the Boltzmann machines.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How do you define associative memory? What are the types of associative memories? Explain with 2 real applications of associative memories.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How Hebbian learning is different from competitive learning? What is winner- takes-it-all? Draw basic architecture of ART and discuss its principle of working.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the following features of ART: 1) self-scaling computational unit 2) self-adjusting memory search 3) Pre-learned pattern access and 4) Attention vigilance",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct and test an LVQ net with five vectors assigned to two classes. The given vectors along with the classes are as shown in Table given below",
+          "marks": 10,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw the architecture of Kohonen Network. Discuss the feature mapping concept. Explain the training algorithm of KSOFM.",
+          "marks": 8,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Draw comparative architecture of ANN and CNN. What is the need for CNN? Will the overfitting be less in CNN than ANN? And if yes, why does this happen?",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Illustrate (with diagram) the bias-variance dilemma? How the trade-off is achieved? Comment on: Bias Low with Variance High, Bias High with Variance Low",
+          "marks": 8,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss the relevance and significance of 1) pooling layer 2) padding 3) strided convolutions 4) dropout.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Compare and contrast: LeNet – 5, AlexNet, VGG –16",
+          "marks": 8,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "How neo-congnitron is different from MNIST handwritten recognition? Discuss in your own words with reference to the algorithmic steps.",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How would you solve the problem of texture classification and segmentation? Develop your own block schematic for this task.",
+          "marks": 8,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Develop your own NN model (algorithm) for Recognition of Olympic games symbols. Draw the architecture of your proposed system. Will you use backpropagation? Why?",
+          "marks": 9,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "How do we recognize consonant vowel (CV) segments? Is this signal different from Image classification project? Which NN algorithm would you use?",
+          "marks": 8,
+          "question_id": "1wICgeOe3k7NAhlOOsT1hExYLBAMJLxyf_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3614,
+        "processed_at": "2026-06-06 15:18:29"
+      }
+    },
+    {
+      "pdf_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2025_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2025_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "6410-426",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317531",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD105",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/03/2025 10:34:32 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is neural network topology? Explain any three topologies in detail.",
+          "marks": 6,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain briefly McCulloch Pitt’s (MP) artificial neuron model. Give its limitations.",
+          "marks": 5,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Distinguish between Biological Neural Network and Artificial Neural Networks.",
+          "marks": 4,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss briefly the structure and function of a biological neuron.",
+          "marks": 7,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Obtain the output of the neuron Y for the network shown in figure using activation function as Binary Sigmoidal and Bipolar Sigmoidal.",
+          "marks": 8,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write and explain Hebbian learning Algorithm.",
+          "marks": 6,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is error correction learning? Explain in detail with diagram.",
+          "marks": 5,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between Feed Forward and Feedback neural network.",
+          "marks": 4,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw the architecture of multilayer feed forward networks. Explain input layer, hidden layer & output layer computations in multilayer feed forward networks.",
+          "marks": 7,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain perceptron learning algorithm and implement OR function using Perceptron network.",
+          "marks": 8,
+          "question_id": "1bYoY2MeqhLu_GTK1lmEofg2ARAMsgMj2_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1562,
+        "processed_at": "2026-06-06 15:18:33"
+      }
+    },
+    {
+      "pdf_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2025_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_may_jun_2025_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6403]-58",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4262",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 30/05/2025 09:34:31 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the Boltzmann machine and Boltzmann learning law. What are the limitations of the Boltzmann learning?",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of associative learning and associative memory in artificial neural networks. How is it related to pattern recognition?",
+          "marks": 8,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a short note on : i) Pattern Classification ii) Pattern mapping Task",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is simulated Annealing? Write and explain Simulated Annealing Algorithm.",
+          "marks": 8,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist and explain components of Competitive learning Network.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the architecture of a Self-Organizing Map (SOM).Discuss the Competition, Cooperation, and synaptic adaptation process.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is Vector Quantization. Explain linear vector quantization training algorithm.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain Properties of feature map in detail. Enlist Applications SOM.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Draw and explain the architectures of Convolutional Neural Network.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write a short note on following CNN Model: i) LeNet-5 ii) AlexNet",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the concept of Bias and Variance. Discuss the different combination of Bias and Variance.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain any four Deep Learning Framework in detail.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the architecture of NET talk model. Discuss the application of to convert English text to speech.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss the application of ANN in pattern classification and recognition of Olympic game symbols.",
+          "marks": 8,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Describe the Neocognitron model and its significance in the recognition of handwritten characters.",
+          "marks": 9,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain texture classification and segmentation in ANN.",
+          "marks": 8,
+          "question_id": "1GNwoNMb-jq_NJdlsVLa4i5x7CqgKbL58_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2376,
+        "processed_at": "2026-06-06 15:18:44"
+      }
+    },
+    {
+      "pdf_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2025_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/endsem_nov_dec_2025_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6583]-52",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317531",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2526",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/11/2025 09:46:24 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Hopfield Neural Network? What is a state transition Diagram for Hopfield Neural Network? Explain how to derive it in Hopfield model.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A hetero associative network is given. Find the weight matrix and test the network with the training input vectors. S1 = (1,1,0,0), S2 = (0,1,0,0), S3 = (0,0,1,1) S4 = (0,0,1,0) t1 = (1,0), t2 = (1,0), t3 = (0,1), t4 = (0,1)",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe Boltzmann Machine and Boltzmann learning Law. What are the limitations of Boltzmann learning.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "For a given input vector (S1,S2,S3,S4) and output vector T=(T1,T2). Find the weight matrix using hetero associative training algorithm. S1 = (1,1,0,0), S2 = (1,0,0,1), S3 = (1,1,0,0) S4 = (0,1,0,1) t1 = (0,1), t2 = (1,1), t3 = (1,0), t4 = (0,0)",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain ART under the following headings : i) Architecture ii) Working iii) Training iv) Implementation",
+          "marks": 8,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the self-organization map (SOM) algorithm and explain how it can be used for feature mapping.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss in detail the following with diagram: i) Learning vector quantization ii) Adaptive pattern classification",
+          "marks": 8,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw the architecture of Kohonen Network and explain the algorithm for training the weights of the Network.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Consider a LeNet-5 a convolutional neural network, we want to perform the classification of digits, Write down the complete procedure followed in its architecture.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Draw and explain the architecture of Convolutional Neural Network.",
+          "marks": 5,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Distinguish between CNN and RNN",
+          "marks": 4,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Exemplify convolution over volume with convolution on RGB images. Also illustrate multiple filters used in it.",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the softmax regression with respect to hypothesis and cost function and write down its properties.",
+          "marks": 5,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Distinguish between Pooling and Padding.",
+          "marks": 4,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss the following applications of ANN in detail. i) Recognition of consonant vowel (CV) segments. ii) Recognition of Olympic games symbols. iii) Recognition of handwritten characters",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "You have been asked to develop a model of recognizing hand written digits. What are the chosen steps for activity? Explain each with detail.",
+          "marks": 8,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on the following. i) NET Talk ii) Texture classification iii) Pattern classification",
+          "marks": 9,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe the Neocognitron model and its significance in the recognition of handwritten characters.",
+          "marks": 8,
+          "question_id": "1UxOHHB0LsOtS6S0UbW0-vIkP_u4df0qw_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3154,
+        "processed_at": "2026-06-06 15:18:57"
+      }
+    },
+    {
+      "pdf_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2026_aids_anna_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/artificial_nueral_network_aids/insem_mar_2026_aids_anna_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "ARTIFICIAL NEURAL NETWORK",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "Apr-26/TE/Insem-386",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317531",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF-306",
+        "watermark_text": [
+          "CEGP013091",
+          "152.59.11.239 11/03/2026 10:44:41"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is neural network topology? Explain any Two topologies in detail.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain briefly Mc Culloch Pitt’s (MP) artificial neuron model. Give its limitations.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Distinguish between Biological neural network and artificial neural networks.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the structure and function of a biological neuron.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Obtain the output of the neuron Y for the network shown in figure using activation function as Binary sigmoidal.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is a neural network activation function? Explain any one activation function in detail.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write and explain perceptron learning algorithm.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw and explain the architecture of multilayer feed forward networks.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between Learning and Memory.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write and explain Hebbian learning Algorithm.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is error correction learning? Explain in detail with diagram.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Differentiate between Feed Forward and Feedback neural network.",
+          "marks": 5,
+          "question_id": "1Er-2tskXzM5hmShFd9y6jIO7-sIUE0OK_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1709,
+        "processed_at": "2026-06-06 15:19:04"
+      }
+    }
+  ]
+}

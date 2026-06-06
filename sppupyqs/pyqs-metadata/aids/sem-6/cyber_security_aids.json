@@ -1,0 +1,1632 @@
+{
+  "subject_name": "Cyber Security",
+  "subject_slug": "cyber_security_aids",
+  "branch": "aids",
+  "semester": "sem-6",
+  "papers": [
+    {
+      "pdf_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_feb_2023_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_feb_2023_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DC",
+        "paper_number": "[6009]-425",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10121",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/04/2023 12:01:46 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "List and explain various elements of Information Security.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write difference between security and privacy.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist the security goals and mechanisms.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw and explain operational security model for network security.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define cyber security. Explain Active and passive attack.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Feistel cipher.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain ceaser cipher with example.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain DES Algorithm.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Monoalphabetic cipher with example.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Compaire symmetric key cryptography and Asymmetric key cryptography.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Use the transposition cipher to encrypt the message \"WE ARE THE BEST\" use key \"HEAVEN\".",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the following terms. i) Cryptography. ii) Crypt analysis. iii) Cryptology. iv) Crypto system. v) Steganography.",
+          "marks": 5,
+          "question_id": "1IsOFLQP6n-qz_wUS9w1X5zrQtbCROW96_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1566,
+        "processed_at": "2026-06-06 15:21:30"
+      }
+    },
+    {
+      "pdf_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2023_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2023_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6003]-543",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P439",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 23/06/2023 10:42:20 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the Deffie-Hellman Key Exchange in detail.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Identify and explain the authentication methods.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Distinguish between Kerberos and X.509 authentication service.",
+          "marks": 5,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Digital Signature Standard? Explain the DSS approach.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the RSA algorithm in detail with the help of diagram.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Message Digest algorithm in detail.",
+          "marks": 5,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explore Secure Socket Layer Handshake protocol in detail.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is VPN? Explain types of VPN.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe IPSec Protocol with its components and Security Services.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Distinguish between PGP and S/MIME.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain ISAKMP protocol of IPSec.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Identify Threats to web Security and figure out how any of two among listed are countered by particular feature of SSL.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Differentiate packet filtering router and stateful Inspection firewall.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is trusted system? Explain in brief.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "List limitations of Firewall.",
+          "marks": 5,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Illustrate Screened subnet firewall Architecture.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "List and Explain types of intrusion detection system (IDS)",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Identify and explore any two-password management practice.",
+          "marks": 5,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Identify and explore the different types of Cyber stalker attacks.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Illustrate life cycle of cyber forensics?",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "List VoIP hacking types and explore any 3? What are the counter measures for it.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Who are cyber criminals? What are types of cyber crimes.",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is Botnet? How to protect from botnet?",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain the terms: i) Virus ii) Phishing iii) Spoofing iv) Phone phishing v) Internet pharming vi) Cyber Forensic",
+          "marks": 6,
+          "question_id": "1BIO0GNs1A2anoM_CdGfENP9yno822IZU_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2496,
+        "processed_at": "2026-06-06 15:21:35"
+      }
+    },
+    {
+      "pdf_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2024_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2024_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6269]-325",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "PB111",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/03/2024 10:36:02 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw and explain operational security model for network security.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain passive and active attack.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write difference between security and privacy.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define the following term with example. i) Symmetry ii) Asymmetry",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the different threats and vulnerabilities in case of cyber security?",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "List and explain various elements of information security.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain DES Algorithm.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain One Time Pad with example.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Difference between AES and DES.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is block cipher? Explain counter mode of block cipher.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Use the transposition cipher to encrypt the message “GEEKS FOR GEEKS” use key “HACK”.",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the following terms. i) Ciphertext ii) Cryptology iii) Crypto system iv) Steganography v) Plaintext",
+          "marks": 5,
+          "question_id": "1ajO0uculFvR92LmgAstv3dx4l-bhTzR8_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1594,
+        "processed_at": "2026-06-06 15:21:40"
+      }
+    },
+    {
+      "pdf_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2024_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2024_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "Artificial Intelligence and Data Science Engineering",
+        "paper_number": "[6262]-57",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3798",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 09:43:45 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Public Key Cryptography.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Perform encryption and decryption using RSA algorithm for p=l 7, q=31, e = 7 and M = 2.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the operations of Kerberos.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain operation of MD5 message digest algorithm.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "User A and B use the Diffie-Helliman key exchange technique with a common prime q = 71 and a primitive root α = 7. i) If user A has private key XA = 5, what is A’s public key YA? ii) If user B has private key XB = 12, what is B’s public key YB? iii) What is the shared secret key?",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain X.509 Authentication Service.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List and explain components of IPSec protocol.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is VPN? Explain components of VPN.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain working of PGP in details.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "List and explain various participants involved in Secure Electronic Transaction (SET).",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the SSL protocol in details.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is S/MIME’? What are the benefits of S/MIME?",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the architecture of firewall.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is trusted system? Explain in brief.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Difference between IDS and IPS.",
+          "marks": 5,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "List and explain types of Intrusion Detection System.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is access control security service?",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Describe operation of packet filtering firewall.",
+          "marks": 5,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is Cyber Staking.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on Mobile Hacking.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain Indian IT Act.",
+          "marks": 5,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain PII impact level with examples.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on Cybercrime.",
+          "marks": 6,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write Advantages of cyber law.",
+          "marks": 5,
+          "question_id": "1pnK8Z1LWxhuCAS1zuYzdK7q6WnPPZ_GG_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2400,
+        "processed_at": "2026-06-06 15:21:49"
+      }
+    },
+    {
+      "pdf_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2024_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2024_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI&DS",
+        "paper_number": "[6353]-57",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC1740",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 28/11/2024 09:49:43 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Evaluate encryption and decryption using RSA algorithm p=7, q=11, e=17 and M=8.",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is authentication? Explain various methods for authentication.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "User A and B use the Diffie-Hellman Key exchange techniques with common prime q=71 and primitive root =7. i) If user A has private key XA=5 what is A’s public key YA? ii) If user B has private key Xb=12 what is B’s public key YB?",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Distinguish between Kerberos and X.509 authentication service.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Describe IPsec protocol with its components & security services.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is PGP? Explain operation of PGP.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Secure Socket Layer Protocol?",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain VPN architecture with its component.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "List and explain any two password management practices.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is IDS? Explain types of Intrusion detection systems (IDS).",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain methods for intrusion detection system (IDS).",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain countermeasures that can be implemented in Cyber security.",
+          "marks": 9,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define cybercrime? Explain it with its type?",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on following: i) Cyber stalking. ii) Hacking.",
+          "marks": 10,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Define Hacking? Explain different types of hacking.",
+          "marks": 8,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on following: i) Information Protection Law. ii) PII.",
+          "marks": 10,
+          "question_id": "1MTOtdx_V1_EXGZ5UYPvPMkZGfi5Il8he_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2127,
+        "processed_at": "2026-06-06 15:22:00"
+      }
+    },
+    {
+      "pdf_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_sep_2024_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_sep_2024_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INFORMATION AND CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "Cyber Security (Honours)",
+        "paper_number": "6360-150",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "310401",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-141",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/09/2024 10:41:05 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is the difference between Threat, Vulnerability and Risk.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the purpose of Access Control Matrix.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Describe the information security basic components.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the Hybrid Policies for information security.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the assumptions and trust of Information Security?",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the operational issues full fill the need of Information Security?",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is Modular Arithmetic in Information Security?",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain extended Euclid’s algorithm.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain in detail Classical Encryption Techniques.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe properties of Modular Arithmetic Operations.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail RC5.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain in detail Data Encryption Standard.",
+          "marks": 5,
+          "question_id": "1JkgY5MYlOfZLV9YAbl4L_9GDsbL1LrD5_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1372,
+        "processed_at": "2026-06-06 15:22:06"
+      }
+    },
+    {
+      "pdf_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2025_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2025_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6410]-425",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "317530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD104",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/03/2025 10:32:04 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw and explain operational security model for network security.",
+          "marks": 6,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write difference between security and privacy.",
+          "marks": 5,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain passive and active attack.",
+          "marks": 4,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define the following term with example. i) Symmetry ii) Asymmetry",
+          "marks": 6,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "List and explain various elements of information security.",
+          "marks": 5,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the different threats and vulnerabilities in case of cyber security?",
+          "marks": 4,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain One Time Pad with example.",
+          "marks": 6,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Difference between AES and DES.",
+          "marks": 5,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Use the transposition cipher to encrypt the message “GEEKS FOR GEEKS” use key “HACK”.",
+          "marks": 4,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is block cipher? Explain counter mode of block cipher.",
+          "marks": 6,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Play fair Cipher with example.",
+          "marks": 5,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain DES Algorithm.",
+          "marks": 4,
+          "question_id": "1zAFy1RLMX3K1B0u2Hd9H0N3oLH8NJre2_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1313,
+        "processed_at": "2026-06-06 15:22:17"
+      }
+    },
+    {
+      "pdf_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2025_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_may_jun_2025_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6403]-57",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4261",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 28/05/2025 09:38:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write short note on X.509.",
+          "marks": 5,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Digital Signature Standard? Explain the DSS approach.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Perform encryption and decryption using RSA algorithm for p = 11, q = 3, e = 3 and M = 7.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Identify and explain the various methods of authentication.",
+          "marks": 5,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the operations of Kerberos.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "In a Diffie-Hellman Key Exchange, Alice and Bob have chosen prime value q = 17 and primitive root = 5. If Alice’s secret key is 4 and Bob’s secret key is 6, what is the secret key they exchanged?",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is VPN? Explain types of VPN.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain IPsec also state the advantages of IPsec.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Distinguish between PGP and S/MIME.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain ISAKMP protocol of IPSec.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explore Secure Socket Layer Handshake protocol in detail.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Distinguish between IDS and IPS.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "List and explain types of intrusion detection system (IDS)",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Enlist the various types of firewall.",
+          "marks": 5,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain : i) Dictionary Attack ii) Social Engineering attack iii) Brute Force attack",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is Attribute-Based Access Control (ABAC)",
+          "marks": 5,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is trusted system? Explain in brief.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Differentiate packet filtering router and stateful Inspection firewall.",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "List types of VoIP hacking and Explore any 3? Describe a few counter Measures to prevent remote connectivity and VoIP hacking.",
+          "marks": 8,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Who are cyber criminals? What are types of cybercrimes?",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain Personally Identifiable Information PII.",
+          "marks": 4,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is cyberstalking? Compare between cyberstalking and physical stalking.",
+          "marks": 8,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the terms : i) Virus ii) Phishing iii) Spoofing iv) Mobile hacking v) Internet Pharming vi) Cyber Forensic",
+          "marks": 6,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Compare Security and Privacy.",
+          "marks": 4,
+          "question_id": "1Hmv_o2A5zZvPgS955pkXTbmbbYhTpmf6_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2455,
+        "processed_at": "2026-06-06 15:22:28"
+      }
+    },
+    {
+      "pdf_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2025_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/endsem_nov_dec_2025_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6583]-51",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2525",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 25/11/2025 09:40:09 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Diffie-Hellman Key Exchange algorithm with example.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Perform encryption and decryption using RSA algorithm for p=17, q=11, e=7 and M=2.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the operations of Kerberos.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain operation of MD5 message digest algorithm.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain RSA algorithm with example.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain X.509 Authentication Service.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List and explain components of IPSec protocol.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is VPN? Explain components of VPN.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain working of PGP in details.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "List and explain various participants involved in Secure Electronic Transaction (SET).",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the SSL protocol in details.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is S/MIME? What are the benefits of S/MIME?",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the firewall and its types",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is trusted system? Explain in brief.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Difference between IDS and IPS",
+          "marks": 5,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "List and explain types of Intrusion Detection System.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is access control security service?",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Difference between DAC and RBAC.",
+          "marks": 5,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is cyber stalking?",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on PII.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain Indian IT Act.",
+          "marks": 5,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a short note on Botnet.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on Cybercrime.",
+          "marks": 6,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write Advantages of cyber law.",
+          "marks": 5,
+          "question_id": "1cQMMureLuALH1uH93qMzd3OHbvfeDUki_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1956,
+        "processed_at": "2026-06-06 15:22:39"
+      }
+    },
+    {
+      "pdf_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2026_aids_csa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/te/2019_pattern/cyber_security_aids/insem_mar_2026_aids_csa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "CYBER SECURITY",
+        "academic_year": "T.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "Apr-26/TE/Insem-385",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "317530",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "PF-305",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2026 10:44:35 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "subquestion": "a",
+          "question_text": "List and explain various elements of information security.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_1_a"
+        },
+        {
+          "question_number": "1",
+          "subquestion": "b",
+          "question_text": "Difference between privacy and security.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_1_b"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "a",
+          "question_text": "Draw and explain operational security model for network security.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_2_a"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "b",
+          "question_text": "Difference between Passive attack and Active attack.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_2_b"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "a",
+          "question_text": "Explain various active attack in details.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_3_a"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "b",
+          "question_text": "Explain the operations of DES algorithm in details.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_3_b"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "a",
+          "question_text": "Explain various passive attack in details.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_4_a"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "b",
+          "question_text": "Explain the operations of AES Algorithm.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_4_b"
+        },
+        {
+          "question_number": "5",
+          "subquestion": "a",
+          "question_text": "Explain the operation of Cipher Block Chaining (CBC).",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_5_a"
+        },
+        {
+          "question_number": "5",
+          "subquestion": "b",
+          "question_text": "Use the transposition cipher to encrypt the plain text ‘WE ARE THE BEST’. Using the key ‘HEAVEN’.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_5_b"
+        },
+        {
+          "question_number": "6",
+          "subquestion": "a",
+          "question_text": "What is Steganography.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_6_a"
+        },
+        {
+          "question_number": "6",
+          "subquestion": "b",
+          "question_text": "Using Hill cipher encrypt plain text ‘COE’ use key ‘ANOTHERBZ’.",
+          "marks": 5,
+          "question_id": "1Cdztv-xlZU6N81wMBENu_SU07_yf7HOn_6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1347,
+        "processed_at": "2026-06-06 15:22:48"
+      }
+    }
+  ]
+}

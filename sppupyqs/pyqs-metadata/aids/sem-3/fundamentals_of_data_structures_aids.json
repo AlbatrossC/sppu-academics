@@ -1,0 +1,1632 @@
+{
+  "subject_name": "Fundamentals of Data Structures",
+  "subject_slug": "fundamentals_of_data_structures_aids",
+  "branch": "aids",
+  "semester": "sem-3",
+  "papers": [
+    {
+      "pdf_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2022_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2022_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Computer /AI&DS",
+        "paper_number": "[5925]-256",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1234",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/02/2023 13:37:02 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write pseudo ‘Python’ algorithm (recursive) for binary search. Apply your algorithm on the following numbers stored in array from A[0] to A[10] 9, 17, 23,38,45,50,57,76,90,100 to search numbers 10 & 100.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the quick sort algorithm. Show the contents of array after every itertion of your algorithm start from following status of array.- 27, 76, 17, 9, 57, 90, 45, 100, 79.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief the different searching techniques. What is the time complexity of each of them?",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write an algorithm of selection sort and sort the following numbers using selection sort and show the contents of an array after every pass:- 81, 5, 27, –6, 61, 93, 4, 8, 104, 15",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is linked list? Write a pseudo C++ code to sort the elements.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is doubly linked list? Explain the process of deletion of an element from doubly linked list with example.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Generalized Linked List with example.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write Pseudo C++ code for addition of two polynomials using singly linked list.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write an algorithm for postfix evaluation with suitable example.",
+          "marks": 8,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is concept of recursion? Explain the use of stack in recursion with example.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is need to convert the infix expression into postfix; convert the following expression into postfix expression (a+b) * d + e/(f + a*d) + c.",
+          "marks": 8,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is backtracking algorithm design strategy? How stack is useful in backtracking",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write pseudo C++ code to represent dequeue and perform the following operations on dequeue: i) Create ii) Insert iii) Delete iv) Display",
+          "marks": 8,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is circular queue? Explain the advantages of circular queue area linear queue.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Define queue as an ADT. Write pseudo C++ code to represent queue.",
+          "marks": 8,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain Array implementation of priority queue with all basic operations.",
+          "marks": 9,
+          "question_id": "1T0EaG-7FqAUhkssC7e9FC9sFl-Ws5b6I_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2681,
+        "processed_at": "2026-06-06 15:04:40"
+      }
+    },
+    {
+      "pdf_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2022_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2022_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Electronics & Computer/Artificial Intellegence & Data Science",
+        "paper_number": "[5931]-31",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "210242",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-21",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/01/2023 10:43:05 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define the following terms with suitable example. i) Data Structure ii) Abstract Data Type iii) Algorithm iv) Flowchart",
+          "marks": 4,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is frequency count? Why is frequency count important in the analysis of algorithm.",
+          "marks": 5,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write an algorithm to compute the sum of the digits of the given number. Justify that your algorithm satisfies all the characteristics of an algorithm.",
+          "marks": 6,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Give complete classification of data structures with one example of each.",
+          "marks": 4,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain divide & conquer Strategy and Greedy strategy with suitable example.",
+          "marks": 5,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Draw flowchart to check whether a given number is a perfect square of an integer. What is the time complexity of your algorithm.",
+          "marks": 6,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are advantages & disadvantages of sequential organization of data structure?",
+          "marks": 4,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain row major & column major representation of arrays in computer memory.",
+          "marks": 5,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write an algorithm to perform polynomial addition state the time complexity of the algorithm.",
+          "marks": 6,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a short note on storage representation of an array.",
+          "marks": 4,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write pseudo code to reverse the in numbers in one dimensional array.",
+          "marks": 5,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write an algorithm to perform sparse matrix addition & state its time complexity.",
+          "marks": 6,
+          "question_id": "1zbP5Qa2ea7fWxsgU9wW1Vei_KcE7r-M9_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2028,
+        "processed_at": "2026-06-06 15:04:50"
+      }
+    },
+    {
+      "pdf_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2023_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2023_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURE",
+        "academic_year": "S.E.",
+        "branch_name": "Computer / AI & DS",
+        "paper_number": "[6002]-156",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1527",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 14/06/2023 10:30:49 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write a pseudo code for binary search apply you algorithm on the following no.s stored in an array to search no:23 & 100. 9,17,23,40,45,52,58,80,85,95,100",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the selection sort with algorithm sort the following no.s using selection sort & show the content of array after every pass. 27, 76, 17, 9, 45, 58, 90, 79, 100.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain quick sort algorithm with suitable example. What is time complexity of quick sort algorithm.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a short note on sentinel search & Index sequential search with suitable example.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a pseudo code to insert new node in to singly link list.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the representation of polynomial using GLL.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is doubly linkedlist. Explain the process of deletion of element from doubly linked list with example.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is dynamic data structure. Explain with circular linked list with it’s basic operation.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write a pseudo code for basic operation of stack.",
+          "marks": 8,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are the variants of recursion. Explain with example.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write algorithm for posfix expression evalution. Explain with suitable example.",
+          "marks": 8,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the linked implementation of stack with suitable example.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write pseudo code to implement circular queue using array. Explain it’s basic operation.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain array implementation of priority queue with all basic operation.",
+          "marks": 8,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain linked implementation of queue with suitable example.",
+          "marks": 9,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write pseudo code for insertion operation of input restricted & output restricted double ended queue.",
+          "marks": 8,
+          "question_id": "1RnCJ1yP0tiDBTYRc6K6_APUVdhSg0jYE_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2392,
+        "processed_at": "2026-06-06 15:04:57"
+      }
+    },
+    {
+      "pdf_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2023_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2023_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering A.I & D.S.",
+        "paper_number": "[6179]-241",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-9671",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 29/12/2023 09:38:46 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Sort the following numbers step by step using insertion sort : 55, 85, 45, 11, 34, 5, 89, 99, 67. Comment on time complexity of Insertion sort",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in brief any three searching techniques. What is the time complexity of these techniques?",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Fibonacci Search algorithm with suitable example. What is it’s time complexity?",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Given numbers 29, 57, 47, 39, 36, 20, 55, 28, 31, 39. Sort stepwise using radix sort. When it is appropriate to use radix sort? Write time Complexity.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write pseudo code for following function using Singly Linked List of students (roll_number and name stored in every node) i) Search given roll no and delete that record. Draw diagram of operation. ii) Add given number after specified number in the list. Draw diagram of operation.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write and explain use of Generalized linked list for representation of multivariable polynomial with suitable example. Explain node structure.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write pseudocode to perform addition of two polynomials using doubly linked lists into third list. Write time complexity of it.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write and explain node structure of Circular Singly Linked List and Doubly Linked list. Write pseudocode for concatenation of two doubly linked lists.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write rules to convert given infix expression to postflx expression using stack. Convert expression (P * Q – (L + M * N) ^ (X * Y / Z) stepwise using above rules. Where ^ is - exponential operator.",
+          "marks": 8,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain with example three different types of recursion.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain procedure to convert infix expression to prefix expression and postfix evaluation with suitable example.",
+          "marks": 8,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write pseudo-C/C++ code to implement stack using Singly linked list with overflow and underfiow conditions.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Draw and explain Circular queue using array. Write pseudocode for Add, Remove operations.",
+          "marks": 8,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Doubly Ended Queue? Draw Dragram with labelling four basic operations at appropriate places. Which two data structures are combined in it and how?",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Comparison of Circular Queue with Linear queue ii) Priority Queue",
+          "marks": 8,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Draw and explain implementation of Linear Queue using Singly Linked List. Explain Add, Remove, Queue Full and Queue Empty operations.",
+          "marks": 9,
+          "question_id": "14_k9okH5CRML7thDinmcuvXBEkZ_WEpc_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3143,
+        "processed_at": "2026-06-06 15:05:05"
+      }
+    },
+    {
+      "pdf_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ_",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2023_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2023_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science/Computer Engineering",
+        "paper_number": "[6186]-520",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5394",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/10/2023 10:46:08 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is time complexity? Why asymptotic notations are important? Find time complexity of following code using step count method. int x = 0; for (i = 0; i <N; i++) { for (j = N; j > i; j--) { x = x + i + j; } }",
+          "marks": 6,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write pseudocode to find factorial of a number. Draw the flowchart for the same.",
+          "marks": 5,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain what is Linear and non-linear data structure with example.",
+          "marks": 4,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write short note on : ADT, Divide and conquer method.",
+          "marks": 6,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is meant by time and space complexity? Explain the asymptotic notations used for time complexity?",
+          "marks": 5,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain what is static and dynamic data structure with example.",
+          "marks": 4,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is Row Major and Column Major Representation? Explain with example. Write the formula to find any element A[i][j] in row major and column major representations of A.",
+          "marks": 6,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is meant by sparse Matrix? Write an algorithm to perform addition of two sparse matrices.",
+          "marks": 5,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain with example how single variable polynomial can be represented using 1-D array? What is advantage and disadvantage of this representation?",
+          "marks": 4,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the difference between simple and fast transpose of sparse matrix? Write an algorithm to find simple transpose of sparse matrix.",
+          "marks": 6,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write an algorithm to find addition of two single variable polynomials using array. Polynomial term consists of coefficient and exponent and both are stored as an element in array. Assume terms are arranged in descending order of exponent. State time complexity of the same.",
+          "marks": 5,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Draw and explain following terms : 2D Array, 3D Array",
+          "marks": 4,
+          "question_id": "1dvB0rJjGJFoNDKJyzY-PIM2NFc5nGeZ__q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2399,
+        "processed_at": "2026-06-06 15:05:09"
+      }
+    },
+    {
+      "pdf_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2024_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2024_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6261]-41",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3634",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 14:23:06 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Sort given array by using bubble sort method: 64, 34, 25, 12, 22, 11, 90. Show step by step execution for all the passes highlighting “swap” and “No Swap” situations. How many passes are required to sort an array of N elements using bubble sort?",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write an algorithm to search an element in array A using binary search technique. Show stepwise search of Key 10 in 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. Is there any pre-processing of data required before starting binary search or what is its precursor requirement?",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist different searching methods. Write short note on i) Fibonacci Search ii) Index Sequential Search",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Sort given array by using selection sort method 50, 23, 03, 18, 9, 01, 70, 21, 20, 6, 40, 04. Show step by step execution of all passes. What is the best and worst case time complexity of selection sort?",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write pseudo code for following function using Doubly Linked List of integer numbers i) Insert given value as last value in the list. Draw diagram of operation. ii) Delete first node from the list. Draw diagram of operation. iii) Delete last node from the list. Draw diagram of operation.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write and explain node structure of i) Generalized linked list. ii) Circularly Singly Linked List. Draw and explain insertion of value in Circularly Singly Linked List with example.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write pseudocode to perform merging of two sorted singly linked lists of integers into third list. Write complexity of it.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write and explain node structure of Generalized linked list for representing multiple variable polynomial. Represent given polynomial graphically using Generalized Linked List: 5x7 + 7xy6 + 11xz.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write rules to convert given infix expression to postfix expression using stack. Convert expression (A* B – (C + D * E) ˆ (F * G / H)) stepwise using above rules. Where ˆ is - exponential operator.",
+          "marks": 8,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain with example three different types of recursion.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is infix, prefix and postfix expression? Give example of each. Explain evaluation of postfix expression with suitable example expression and assume values for variables used to solve it.",
+          "marks": 8,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write pseudo-C/C++ code to implement stack using array with overflow and underflow conditions.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are advantages of Circular Queue over Linear Queue using static memory allocation? Write pseudocode to add and remove element from Circular Queue along with Queue Full and Empty condition.",
+          "marks": 8,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Draw and explain implementation of Linear Queue using Singly Linked List. Explain Add, Remove, Queue Full and Queue Empty operations.",
+          "marks": 9,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is Doubly Ended Queue? Draw Diagram with labelling four basic operations at appropriate places. Which two data structures are combined in it and how?",
+          "marks": 6,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Draw and explain Priority Queue? State any real life application.",
+          "marks": 6,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write pseudocode for Linear Queue Implementation using array.",
+          "marks": 5,
+          "question_id": "1EitsQv33h5Z_5MJc8nTmnBxa-8mMlKqS_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3776,
+        "processed_at": "2026-06-06 15:05:19"
+      }
+    },
+    {
+      "pdf_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2024_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2024_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/Artificial Intelligence & Data Science",
+        "paper_number": "[6352]-41",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2817",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/11/2024 09:45:27 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain with example the following terms related to sorting methods: i) Stability ii) Number of Passes/Iterations iii) Sort order",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Sort given array by using quick sort method 25, 23, 18, 19, 21, 17, 28, 20, 16 14. Show step by step execution.",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write the algorithm to search an element in array A using binary search technique. Write the complexity of the algorithm for best case worst case and average case.",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Compare linear search, binary search and sentinel search methods by considering its performance measures.",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Sort given array by using shell sort method 50, 23, 18, 9, 01, 70, 21,20, 6,40,03. Show step by step execution.",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write pseudocode for Selection sort method. Is this sort stable or unstable?",
+          "marks": 6,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are advantages of making doubly linked list making circular? Write pseudo code for following function using Doubly Circular Linked List of integer number i) Perform addition of odd numbers in Doubly linked list and insert at start ii) Delete all even numbers from list",
+          "marks": 9,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write and explain node structure of Generalized linked list. Represent given Generalized linked list graphically. (A, B, C, (D, (E, (F), I)), J)",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write node structure for polynomial implementation using circular linked list. Write pseudocode to perform addition of two polynomials using circular linked list. Write complexity of it.",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write and explain node structure of generalized linked list for representing multiple variable polynomials. Represent given polynomial graphically using Generalized linked list. 7x5 y2 z3+13x3 y4+30x9z8",
+          "marks": 9,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is the necessity of expression conversion? Write pseudocode to convert given infix expression to prefix using stack.",
+          "marks": 10,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain with example four different types of recursion.",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Convert given infix expression into postfix expression using stack. Show step by step conversion and evaluation. Evaluate postfix expression using given values. Infix Expression: (A+B^C^D*F/H) Values for A=4, B=2, C=3, D=2, F=2, H=8 ^-exponential operator",
+          "marks": 10,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is backtracking algorithmic strategy? Explain the use of stack in backtracking strategy with any one application.",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the advantages of Circular Queue over normal queue? Write insert and delete functions for Circular Queue using static memory allocation.",
+          "marks": 9,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the Queue implementation using Singly Linked List. Draw diagram with three elements in queue, showing front and rear. scheduling problem using Queue. Write pseudocode for insert and delete operations of above Queue.",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain with example primitive operations of Double ended Queue.",
+          "marks": 8,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the types of priority queue? Explain any one type of priority queue in detail with example. Mention the time complexity for insert and delete operations on it.",
+          "marks": 9,
+          "question_id": "1gcVWyYVcDvLpzHxDOtORHmakk9AreTIM_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3910,
+        "processed_at": "2026-06-06 15:05:26"
+      }
+    },
+    {
+      "pdf_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_sep_2024_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_sep_2024_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/ AI & DS/Computer Science",
+        "paper_number": "[6359]-520",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC400",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/10/2024 10:36:07 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss any six classes of time complexity with sample code.",
+          "marks": 6,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between: i) Static and Dynamic Data structures ii) Persistent and Ephemeral Data Structures",
+          "marks": 5,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain step count method with the help of suitable example.",
+          "marks": 4,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Analyse time complexity of following codes. Show step count for each statement: i) function is Prime(n){ for (i=2;i<n;++i){ if (n%i= = = 0){ return false; } } return true; } ii) Function f() { ans=0 for (i=n;i>=1;i/=2){ for (j=1; j <=m; j*=2){ ans+= (i*j) } print(ans) } }",
+          "marks": 6,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How asymptotic notations plays important role in defining complexity class? Explain Big-Oh, Big-theta and Big-Omega notation with graphs denoting growth rate.",
+          "marks": 5,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is algorithmic strategy? Explain divide & conquer and greedy strategy with example.",
+          "marks": 4,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How can we find transpose of sparse matrix in linear time? Give pseudocode for his method.",
+          "marks": 6,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Given an array,arr [1.......10] [1......15] with base value 100 and the size of each element is 1 Byte in memory. Find the address of arr[8] [6] with the help of row-major technique and column major technique.",
+          "marks": 5,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Compare and contrast row major and column major technique with the help of any matrix.",
+          "marks": 4,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write an algorithm to calculate sum of numbers stored in array and illustrate all characteristics of algorithm for the same.",
+          "marks": 6,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Give a pseudocode for polynomial addition.",
+          "marks": 5,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is an ADT? Write ADT operations for array.",
+          "marks": 4,
+          "question_id": "11vPCt0vXZl1M1VYKxL1xG8kPL5gD2UCY_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2308,
+        "processed_at": "2026-06-06 15:05:34"
+      }
+    },
+    {
+      "pdf_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2025_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_may_jun_2025_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURE",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/Computer Science & Design/AI & DS",
+        "paper_number": "[6402]-36",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4076",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/05/2025 09:36:52 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss an algorithm for sentinel search. Compare linear search & sentinel search. Comment on time & space complexity of both.",
+          "marks": 7,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain quick sort & sort the given list using quick sort. 54, 26, 93, 17, 77, 31, 44, 50, 20. Analyze time complexity of quick sort.",
+          "marks": 7,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Differentiate between internal and external sort.",
+          "marks": 3,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Sort the following numbers using insertion sort : 4, 3, 2, 10, 12, 1, 5, 6, 76, 36. Comment on efficiency, stability, in-place characteristics of insertion sort.",
+          "marks": 7,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Enlist non-comparison based sorting techniques. Explain bucket sort with suitable example. Comment on time and space complexity of it.",
+          "marks": 7,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Apply sentinel search to find key = 39. 34, 52, 78, 33, 67, 12, 45, 23",
+          "marks": 3,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Represent following polynomial using generalized linked list ((x12 + 2x9) y4 + 4x9y2) z3 + ((x5 + 6x3) y5 + 3y) z",
+          "marks": 8,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write an algorithm to perform following operations on singly linked list. i) Reverse ii) Merge",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is linked list? Enlist different types of linked list. Write pseudo C/C++ code to insert a node in a doubly linked list (3 cases).",
+          "marks": 8,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain polynomial addition using SLL with suitable example and write pseudo C/C ++ code for polynomial addition using singly linked list.",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "How to convert infix expression into postfix expression using stack & convert following expression into postfix form. (Show all intermediate steps) A * (B - C) / E ^ F + G",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write an algorithm for converting prefix expression into postfix expression. Convert following expression into postfix. (A + B) - (C/D-E) + (F + G/K)",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write an algorithm for converting prefix expression into postfix expression. Convert following expression into postfix. (A + B) - ((C/D-E) + (F + G/K)",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is stack? Write an ADT for stack and its implementation using array. What are different applications of stack?",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are polish notations? What is need of it? Evaluate below prefix and postfix expression for a = b = c = 2 and d = 1 Prefix Expression = - + a * bcd Postfix Expression = abc * + d-",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is queue? How they are represented in memory? write a pseudocode to implement insert & delete operation in a linear queue using array.",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is linked queue? Write a function for inserting & deleting a node in a linked queue.",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the concept of linear queue and circular queue. Give the advantages of circular queue over linear queue. Write C/C++ code to implement enqueue & dequeue operation on cicular queue.",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is Deque? Explain operations of Deque. Write C/C++ code for insertion & deletion operations of it using array.",
+          "marks": 9,
+          "question_id": "1WehVtc8U11MU3B5bwxyB0ns2qntEfFHi_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3545,
+        "processed_at": "2026-06-06 15:05:41"
+      }
+    },
+    {
+      "pdf_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2025_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/endsem_nov_dec_2025_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering (AI & DS)",
+        "paper_number": "[6582]-41",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE4269",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/12/2025 09:39:27 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Given numbers 49, 47, 37, 29, 26, 10, 65, 78, 21, 49. Sort stepwise using radix sort. When it is appropriate to use radix sort? Write time Complexity.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write pseudocode/Function for Binary Search algorithm. Explain with suitable example.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Binary Search ii) Index sequential search iii) Linear Search",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Quick sort technique with suitable solved example. Comment on time complexity.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write pseudo code/function using Doubly Linked List of Employees (Emp-number, name and age stored in every node) for: i) Search given Emp_no and update the age ii) Add given Emp_no after specified number in the list",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write and explain use of Generalized linked list for representation of multivariable polynomial with suitable example. Explain node structure.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "How polynomial can be represented using Singly Linked List? Write pseudocode to perform addition of two polynomials using singly linked lists into third list.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw and explain structure of Circular Doubly Linked List. What are advantages of Circular Linked List over Singly Linked List? Write pseudocode/function for insertion of a node in Circular doubly linked lists.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the rules to convert infix expression to postfix expression using stack. Convert expression (E* (F– (G + H * I)) ^ (J * K + L)) stepwise using above rules. Where ^ is - exponential operator",
+          "marks": 8,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short notes on i) Backtracking ii) Tree Recursion iii) Tail recursion.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are polish notations? What is the need to convert infix expression into postfix form? Explain postfix evaluation with suitable example.",
+          "marks": 8,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write pseudo-C/C++ code to implement stack using Singly linked list with overflow and underflow conditions.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write short notes on: i) Comparison of Linear queue and Circular queue ii) Priority queue",
+          "marks": 8,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Doubly Ended Queue? Which two data structures are combined in it? Explain input restricted and output restricted queue with operations.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Circular Queue using Singly Linked List ii) Descending priority queue and it’s applications",
+          "marks": 8,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Draw and explain implementation of Doubly ended Queue using Doubly Linked List. Explain Add, Remove operations.",
+          "marks": 9,
+          "question_id": "1AIHeK00UjV1Imb6VW6N3iy0dnl0tdaWj_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3158,
+        "processed_at": "2026-06-06 15:05:50"
+      }
+    },
+    {
+      "pdf_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2025_aids_fdsa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/fundamentals_of_data_structures_aids/insem_oct_2025_aids_fdsa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FUNDAMENTALS OF DATA STRUCTURES",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6578]-20",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "210242",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-547",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/11/2025 10:51:12 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define the following terms with the help of an example i) Data Structure ii) Abstract Data Types iii) Algorithm iv) Flowchart",
+          "marks": 4,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define Time and Space complexity and Explain the Asymptotic notations used for time complexity?",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State different algorithmic strategies and describe any two greedy algorithm strategies with example?",
+          "marks": 6,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write algorithm to find factorial of a number. Draw the flowchart for the same.",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define the term data structure? Give complete classification of data structure with an example?",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain following algorithm strategies with example i) Tower of Hanoi ii) Binary search",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Represent following polynomial using Array i) 4x2 + 5xy2 + 2y3–15 ii) x5y4 + 6x4y3 + 3x2y + 27",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State advantages and disadvantages of sequential organization of Data structure?",
+          "marks": 4,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain row major and column major representation of array in computer memory with example? Each element of an array A[10][12] requires 4 bytes of storage Base address of data is 1000. Determine the location of A[5][5] when array is stored as i) Row major ii) Column major",
+          "marks": 6,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain with help of an example how to convert 2D presentation of matrix to sparse representation and write pseudo code for it?",
+          "marks": 4,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the addition of two sparse matrices with the help of an example and write pseudo code for it?",
+          "marks": 6,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "State the different types of operations that can be performed on one dimensional array? Write pseudo code for inserting 5 elements in array and deleting one element from array?",
+          "marks": 5,
+          "question_id": "1PU9f7LDURiiQp7fuTKHCujA-dDZU1wLY_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2365,
+        "processed_at": "2026-06-06 15:05:58"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "subject_name": "Industrial Internmet of Things",
+  "subject_slug": "industrial_internmet_of_things_aids",
+  "branch": "aids",
+  "semester": "sem-7",
+  "papers": [
+    {
+      "pdf_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2023_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2023_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6181]-407",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P6781",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/12/2023 13:52:13 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the functions of the following IIoT components: i) Sensors ii) Gateways iii) Routers",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is a cloud broker and why is it used in IIoT?",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How can WSNs be used to collect data from industrial environments?",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe the functions of the following IIoT components: i) Modems, ii) Cloud brokers iii) Servers",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the difference between a sensor and a transducer.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the importance of data filtering and aggregation at the IIoT sensing layer.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how IIoT cloud platforms can be used to enable remote monitoring and control of industrial assets.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Compare and contrast the different features of leading IIoT cloud platforms (e.g. Predix, PTC ThingWorx, Microsoft Azure).",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe the process of designing and developing a digital twin.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Identify the key factors to consider when choosing an IIoT cloud platform.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss the challenges and benefits of using an IIoT cloud platform to implement a digital twin.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Assess the security and privacy challenges associated with IIoT cloud platforms.",
+          "marks": 6,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Compare and contrast different message integrity protection mechanisms for IIoT systems.",
+          "marks": 9,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Select and implement an appropriate identity establishment mechanism for a given IIoT application.",
+          "marks": 8,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe how to ensure the integrity of messages in a given IIoT system.",
+          "marks": 9,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define the following IIoT security components: i) identity establishment ii) access control iii) non-repudiation iv) availability",
+          "marks": 8,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain how smart robots can be used to improve the efficiency and productivity of industrial processes.",
+          "marks": 9,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Assess the challenges and benefits of implementing cyber manufacturing systems in different industries.",
+          "marks": 8,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Describe the concept of Industry 5.0 (Society 5.0). How does it build upon Industry 4.0, and what new societal challenges and opportunities does it aim to address?",
+          "marks": 9,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Define the terms : i) smart metering ii) smart irrigation iii) smart office iv) smart logistics",
+          "marks": 8,
+          "question_id": "1JlKSLVGT8KdGwwk5eFJ60ADKLyfXnxtU_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2905,
+        "processed_at": "2026-06-06 14:55:13"
+      }
+    },
+    {
+      "pdf_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2023_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2023_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6188]-293",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523(B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5324",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/09/2023 13:55:34 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Compare and contrast in between IOT and IIOT.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss various opportunities and challenges in implementation of IIOT.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State and explain the role of IIOT in manufacturing processes with suitable and neat sketch.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Elaborate various requirements and design considerations of IIOT.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Comment on industrial revolutions and significance of IIOT with suitable example.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List any 5 advantages and applications of IIOT.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain IIOT Sensor Network with neat and suitable diagram.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State and explain in brief the role of sensors and actuators used in industrial processes.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Compare nWave and Ingenue RPMA on the basis of the following parameters : i) Frequency Band ii) Range iii) Topology iv) Uplink Data Rate v) Downlink Data Rate",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Differentiate between Sensors and Actuators. [Any 5 valid points]",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain data acquisition and process automation in IIOT with suitable sketch.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "List any 5 features of Wi-Fi Backscatter.",
+          "marks": 5,
+          "question_id": "1dsBPQ2MhcrP_A9lOl8Co_HB3Fcspewzb_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1844,
+        "processed_at": "2026-06-06 14:55:17"
+      }
+    },
+    {
+      "pdf_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_may_jun_2024_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_may_jun_2024_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6263]-383",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523(B)",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-2497",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 18/05/2024 14:05:10 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Industrial Internet of Things (IIoT). List and briefly explain the components of IIoT architecture.",
+          "marks": 8,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw and explain the Reference Architecture of IIoT.",
+          "marks": 5,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the integration of Wireless Sensor Networks (WSN) into the IIoT architecture.",
+          "marks": 5,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the Industrial Internet Architecture Framework (IIAF). Explain its purpose, key principles and how it guides the design and implementation of IIoT systems.",
+          "marks": 10,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss the layers of Industrial IoT (IIoT) architecture. Describe the functionalities and interactions within each layer, focusing on (any 3): i) IIoT Sensing ii) IIoT Processing iii) IIoT Communication iv) IIoT Networking",
+          "marks": 8,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Compare and contrast the following IIoT cloud platforms w.r.t their features, capabilities and suitability for different industrial applications: i) Cloud of Things (COT) platforms ii) Predix iii) PTC ThingWorx iv) Microsoft Azure",
+          "marks": 8,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe various data visualization techniques commonly used in Industrial IoT (IIoT) applications. Explain how these techniques help in representing complex data sets visually for better understanding and analysis.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructure as a Service (IaaS), providing examples for each.",
+          "marks": 3,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss the role of Data Analytics in optimizing Industrial IoT (IIOT) systems. Explain how data analytics techniques can extract valuable insights from IIoT-generated data to improve efficiency, predictive maintenance and decision-making processes.",
+          "marks": 10,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the concept of Digital Twin in the context of Industrial IoT (IIoT). Discuss the need for Digital Twin technology and its benefits in industrial settings.",
+          "marks": 7,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the importance of security in Industrial IoT (IIoT) deployments. Discuss the potential consequences of security breaches in IoT systems and their impact on industrial operations.",
+          "marks": 10,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the management aspects of cybersecurity in Industrial IoT (IIoT) environments. Explain the roles and responsibilities of stakeholders in managing IIoT security risks and implementing effective cybersecurity policies and procedures.",
+          "marks": 7,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the concept of access control in Industrial IoT (IIoT) environments. Discuss the mechanisms and techniques used to enforce access control policies and permissions in IIoT systems.",
+          "marks": 10,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of identity establishment in IIoT security. Explain the methods and protocols used to establish and manage identities for IIoT devices and users.",
+          "marks": 7,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Smart Logistics and its impact on supply chain management.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe Smart Irrigation and its benefits in agricultural practices.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss the characteristics and design principles of Industry 4.0.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Define Cyber Manufacturing Systems and discuss their importance in modern manufacturing.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the role of IoT in the Healthcare Service Industry and provide examples of IoT-enabled healthcare solutions.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Introduce the concept of Industry 5.0 (Society 5.0) and discuss its potential impact on society.",
+          "marks": 6,
+          "question_id": "1JoV94j7oWgbMQGpYtOANYyyIn9yF5bmX_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4161,
+        "processed_at": "2026-06-06 14:55:28"
+      }
+    },
+    {
+      "pdf_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2024_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2024_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6354]-784",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-2635",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 18/12/2024 13:53:35 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the primary components of an industrial IoT system? Explain each in details.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the Industrial Internet Architecture Framework (IIAF).",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What are different types Industrial IoT- Layers? Explain in details each layer.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the key components and Design consideration of a typical WSN used in industrial IoT?",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the Business Model Architecture of industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "ExplaIn the difference between edge computing and cloud computing in industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the concept of Cloud of Things (CoT) and its significance in the context of Industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is the role of data analytics in Industrial IoT? Explain Any one Example.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is need of Digital Twin for industrial IoT? Explain Elements of Digital Twin in Industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the SaaS PaaS and IaaS with examples.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the importance of data visualization techniques in presenting complex Industrial IoT data.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Provide examples of how digital twin technology is transforming industries and driving digital transformation.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the key challenges and security considerations when implementing the industrial IoT in industrial environments?",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is the concept of threat analysis in the context of Industrial IoT? Explain the industrial IoT threat analysis in smart manufacturing plant.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the Network security techniques in industrial IoT.",
+          "marks": 5,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the Conventional web technology and relationship with industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is importance of access control in industrial IoT? Explain the methodologies for access control.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain Management aspects of cyber security in industrial IoT.",
+          "marks": 5,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the concept of smart factories and how they differ from traditional manufacturing facilities.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How does industry 4.0 benefits the industrial IoT in manufacturing process?",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is industry 5.0 with example?",
+          "marks": 5,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the health care application in industrial IoT.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe the advantages and challenges of implementing smart logistics in supply chain management.",
+          "marks": 6,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are Key characteristics of industry 4.0?",
+          "marks": 5,
+          "question_id": "1tgi8sdMIOIBAEUbxrsuZVVkdiPCyxUqY_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3046,
+        "processed_at": "2026-06-06 14:55:39"
+      }
+    },
+    {
+      "pdf_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2024_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_sep_2024_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B. E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "6361-191",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523B",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-319",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2024 13:40:55 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe how the IIoT evolved from the Internet of Things (IoT).",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define the Industrial Internet of Things (IIoT). Compare and contrast the similarities and differences between IoT and IIoT",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain how the IIoT is helping to improve efficiency, productivity and safety in industry.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain how the IIoT is helping to prevent unplanned downtime and improve asset reliability.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Identify specific applications of IIoT in industry.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List the benefits of using IIoT in industry.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Identify the different types of sensors used in industrial processes.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Compare and contrast the different types of IIoT sensor networks.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Recommend an IIoT low power WAN technology for a specific industrial application.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Identify the different types of actuators used in industrial processes.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the advantages and disadvantages of each type of IIoT sensor network.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Analyze how process automation and data acquisition are used together to improve the efficiency and productivity of industrial processes.",
+          "marks": 5,
+          "question_id": "1ALgV10P27uw9ptcL1liD0wparlAYIONh_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1964,
+        "processed_at": "2026-06-06 14:55:46"
+      }
+    },
+    {
+      "pdf_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_aug_2025_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/insem_aug_2025_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6580]-697",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523(B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-325",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/08/2025 13:38:42 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss the role of IIoT in modern manufacturing processes.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the key challenges in implementing IIoT in industries and suggest possible solutions.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Differentiate between IoT and IIoT with relevant examples.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Outline the history of Industrial Internet of Things (IIoT) and its evolution through various industrial revolutions.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Identify and discuss the key opportunities and challenges in adopting IIoT in industrial settings.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss the applications of IIoT in plant maintenance practices.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the role of sensors and actuators in IIoT with examples.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Compare ZigBee and Z-Wave technologies in the context of IIoT applications.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe the process of data acquisition on an IIoT platform.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss the characteristic features of NFC and 6LoWPAN in IIoT systems.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the technical specifications of Low Power Wi-Fi and SigFox used in IIoT.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Evaluate the benefits and challenges of using LTE Category-M in IIoT applications.",
+          "marks": 5,
+          "question_id": "1wMrEVLNGPf0v_VSZNAqasn0DQb23MoqE_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1680,
+        "processed_at": "2026-06-06 14:55:59"
+      }
+    },
+    {
+      "pdf_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2025_aids_iita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/industrial_internmet_of_things_aids/endsem_nov_dec_2025_aids_iita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INDUSTRIAL INTERNET OF THINGS",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6584]-386",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE2436",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/12/2025 13:45:45 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the functions of the following IIoT components: i) Gateways ii) Routers iii) Modem",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the Business Model Architecture of industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the difference between edge computing and cloud computing in industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Cloud broker and why is it used in IIoT?",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the Industrial Internet Architecture Framework (IIAF).",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the Industrial IoT- Layers.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Compare and contrast the different features of leading IIoT cloud platforms(e.g. Predix, PTC ThingWorx, Microsoft Azure).",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is the role of data analytics in Industrial IoT? Explain Any one Example.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is need of Digital Twin for industrial IoT? Explain Elements of Digital Twin in Industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the concept of Cloud of Things (CoT) and its significance in the context of Industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the importance of data visualization techniques in presenting complex Industrial IoT data.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Discuss the challenges and benefits of using an IIoT cloud platform to Implement a digital twin.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the key challenges and security considerations when implementing the industrial IoT in industrial environments?",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the industrial IoT threat analysis in smart manufacturing plant.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the Network security techniques in industrial IoT.",
+          "marks": 5,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the Conventional web technology and relationship with industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is importance of access control in industrial IoT? Explain the methodologies for access control.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain Management aspects of cyber security in industrial IoT.",
+          "marks": 5,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the concept of Smart Irrigation and how they differ from traditional manufacturing facilities.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Define the terms : i) smart metering ii) smart robotics iii) smart logistics",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe the concept of Industry 5.0 (Society 5.0). How does it build upon Industry 4.0?",
+          "marks": 5,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the health care application in industrial IoT.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Assess the challenges and benefits of implementing cyber Manufacturing systems in different industries.",
+          "marks": 6,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are Key characteristics of industry 4.0?",
+          "marks": 5,
+          "question_id": "1_1n0S_YPuWbwxlBX5nLVfuwZBdZj8b4f_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3006,
+        "processed_at": "2026-06-06 14:56:07"
+      }
+    }
+  ]
+}

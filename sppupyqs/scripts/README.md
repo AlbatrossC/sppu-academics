@@ -1,6 +1,6 @@
 # PYQ Metadata Pipeline
 
-This pipeline reads SPPU question paper branch JSON files, downloads each linked PDF, extracts paper text, sends that text to Gemini using your existing prompt and schema files, and stores resumable structured metadata output inside `pyqs-metadata`.
+This pipeline reads SPPU manifest subject JSON files, builds each PDF URL from the manifest provider data, downloads each PDF, extracts paper text, sends that text to Gemini using your existing prompt and schema files, and stores resumable structured metadata output inside `pyqs-metadata`.
 
 ## Folder Layout
 
@@ -23,8 +23,11 @@ sppupyqs/
 │   ├── structure_output.json
 │   ├── strucutre_output.json
 │   └── utils.py
-├── question-papers/
-│   └── question-papers-r2/
+├── manifest/
+│   ├── 2012_subjects.json
+│   ├── 2015_subjects.json
+│   ├── 2019_subjects.json
+│   └── honors_subjects.json
 └── pyqs-metadata/
 ```
 
@@ -36,10 +39,13 @@ When you run `main.py`, the pipeline performs these steps:
 2. Loads the Gemini system prompt from `prompt.txt`.
 3. Loads the response schema from `structure_output.json`.
    If that file is missing, it automatically falls back to the existing `strucutre_output.json`.
-4. Shows a terminal selection for available branch JSON files when `--branch` is not passed.
-5. Processes only one selected branch at a time.
+4. Reads all `*_subjects.json` files from `sppupyqs/manifest`.
+5. Uses the R2 provider by default:
+   `providers.r2BaseUrl + papers[].canonicalPath`
 6. Iterates:
-   `branch -> semester -> subject -> pdf_links`
+   `manifest -> subjects -> papers`
+7. When you run `python main.py` without filters, prompts for:
+   pattern/course -> branch -> year -> subject.
 7. Downloads each PDF and extracts text with PyMuPDF using `page.get_text("text")`.
 8. If extracted text is too small or invalid, retries using OCR fallback.
 9. Sends extracted text to Gemini using:
@@ -51,49 +57,61 @@ When you run `main.py`, the pipeline performs these steps:
 14. Writes subject JSON files atomically so partial writes do not corrupt output.
 15. Appends progress snapshots and failure logs to `metadata.txt`.
 
-## Interactive Branch Selection
-
-If you run `main.py` without `--branch`, it will show one selectable branch at a time from:
-
-```text
-sppupyqs/question-papers/question-papers-r2/*.json
-```
-
-If `questionary` is installed, you get a dropdown-style terminal selector.
-
-If `questionary` is not installed, the script falls back to a numbered terminal menu.
-
-Examples:
+## Examples
 
 ```bash
 python main.py
-python main.py --no-interactive
+python main.py --pattern 2019
 python main.py --branch aids
-python main.py --branch aids --semester sem-3
-python main.py --branch aids --semester sem-3 --subject discrete-mathematics-aids
+python main.py --pattern 2019 --branch aids --year te
+python main.py --branch aids --semester sem-7
+python main.py --branch aids --subject machine_learning_aids
 python main.py --branch aids --limit 5
+python main.py --provider cloudinary --limit 5
 ```
 
 ## Input Format
 
-Each branch JSON file inside `question-papers/question-papers-r2/` should follow this shape:
+Each subject manifest inside `sppupyqs/manifest/*_subjects.json` should follow this shape:
 
 ```json
 {
-  "branch_name": "Artificial Intelligence and Data Science",
-  "branch_code": "AI & DS",
-  "sem-3": {
-    "discrete-mathematics-aids": {
-      "subject_name": "Discrete Mathematics",
-      "pdf_links": [
-        "https://example.com/paper.pdf"
+  "schemaVersion": 2,
+  "pattern": "2019_pattern",
+  "patternYear": "2019",
+  "providers": {
+    "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev",
+    "cloudinaryRawBaseUrl": "https://res.cloudinary.com/example/raw/upload"
+  },
+  "subjects": {
+    "machine_learning_aids": {
+      "subjectKey": "machine_learning_aids",
+      "fullName": "Machine Learning",
+      "branchKey": "artificial-intelligence-and-data-science",
+      "branchCode": "aids",
+      "branchName": "Artificial Intelligence and Data Science",
+      "yearKey": "be",
+      "yearName": "BE",
+      "semesterNo": 7,
+      "papers": [
+        {
+          "pdfId": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu",
+          "canonicalPath": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        }
       ]
     }
   }
 }
 ```
 
-The pipeline ignores non-semester top-level keys like `branch_name` and `branch_code`.
+By default, the example paper resolves to:
+
+```text
+https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf
+```
 
 ## Output Format
 
@@ -103,13 +121,15 @@ Output is written to:
 sppupyqs/pyqs-metadata/<branch>/<semester>/<subject-slug>.json
 ```
 
+For manifest subjects with `semesterNo`, `<semester>` is `sem-<number>`. If a subject does not include `semesterNo`, the script falls back to the subject `yearKey`.
+
 Example:
 
 ```text
 pyqs-metadata/
 └── aids/
-    └── sem-3/
-        └── discrete-mathematics-aids.json
+    └── sem-7/
+        └── machine_learning_aids.json
 ```
 
 Each subject JSON looks like:
@@ -122,8 +142,20 @@ Each subject JSON looks like:
   "semester": "sem-3",
   "papers": [
     {
-      "pdf_id": "a8f9c21d41ab",
-      "pdf_url": "https://example.com/paper.pdf",
+      "pdf_id": "1RBEqdUb-DvLTXys8i6oHjjNG8JeafEFu",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/endsem_nov_dec_2023_aids_mla_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
       "metadata": {},
       "questions": [],
       "extraction_info": {
@@ -169,7 +201,7 @@ Main packages:
 - `PyMuPDF` for default PDF text extraction
 - `pytesseract` and `Pillow` for OCR fallback
 - `google-genai` for Gemini requests
-- `questionary` for the terminal dropdown selector
+- `requests` for downloading manifest PDF URLs
 
 ## Running The Pipeline
 
@@ -179,6 +211,13 @@ From `sppupyqs/scripts`:
 python main.py
 ```
 
+With no filters, the script opens an interactive selector:
+
+1. Choose `2019 Pattern`, `2015 Pattern`, `2012 Pattern`, or `M.B.A`.
+2. Choose a branch, or `All branches`.
+3. Choose a year, or `All years`.
+4. Choose a subject, or `All subjects`.
+
 Or from the repo root:
 
 ```bash
@@ -187,11 +226,14 @@ python sppupyqs/scripts/main.py
 
 Useful filters:
 
-- `--branch` processes one branch directly without prompting
+- `--pattern` processes one manifest pattern, for example `2019` or `honors`
+- `--branch` processes one branch code or branch key, for example `aids` or `computer-engineering`
+- `--year` processes one year key, for example `se`, `te`, or `be`
 - `--semester` narrows processing to one semester
 - `--subject` narrows processing to one subject
 - `--limit` processes only a fixed number of new PDFs
-- `--no-interactive` disables the terminal selector if you want batch behavior
+- `--provider` selects `r2` or `cloudinary`; it defaults to `r2`
+- `--no-interactive` skips the selector when no filters are provided
 
 ## metadata.txt Logging
 
