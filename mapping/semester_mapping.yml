@@ -92,6 +92,54 @@ standard:
         theory_of_computation_ce: 5
         virtual_reality_and_augmented_reality_ce: 6
         web_technology_ce: 6
+  e-and-tc-engineering:
+    be:
+      2019_pattern:
+        android_development_ele_V_ete: 8
+        cloud_computing_ete: 7
+        deep_learning_ele_IV_ete: 7
+        digital_marketing_ele_VI_ete: 8
+        electronic_product_development_ele_IV_ete: 7
+        embedded_system_design_ele_V_ete: 8
+        fiber_optic_communication_ete: 8
+        industrial_robotics_and_automation_ete: other
+        java_script_ele_III_ete: 7
+        mobile_computing_ele_V_ete: 8
+        modernized_iot_ele_III_ete: 7
+        nano_electronics_ele_VI_ete: 8
+        radiation_and_microwave_theory_ete: 7
+        smart_contract_and_crypto_currency_ete: other
+        vlsi_design_and_technology_ete: 7
+    se:
+      2019_pattern:
+        control_system_ete: 4
+        data_structures_and_algorithms_ete: 3
+        data_structures_ete: 3
+        digital_circuits_ete: 3
+        electrical_circuits_ete: 3
+        electronic_circuits_ete: 3
+        engineering_mathematics_III_ete: 3
+        object_oriented_programming_ete: 4
+        principles_of_communication_systems_ete: 4
+        signals_and_systems_ete: 4
+    te:
+      2019_pattern:
+        advanced_java_programming_ele_II_ete: 6
+        blockchain_technology_ete: other
+        cellular_networks_ete: 6
+        computer_networks_ele_I_ete: 5
+        database_management_ete: 5
+        decentralize_blockchain_technologies_ete: other
+        digital_communication_ete: 5
+        digital_image_processing_ele_II_ete: 6
+        digital_signal_processing_ele_I_ete: 5
+        electromagnetic_field_theory_ete: 5
+        embedded_processors_ele_II_ete: 6
+        fundamentals_of_java_programming_ele_I_ete: 5
+        microcontrollers_ete: 5
+        network_security_ele_II_ete: 6
+        power_devices_and_circuits_ete: 6
+        project_management_ete: 6
   it-engineering:
     be:
       2019_pattern:
