@@ -313,7 +313,7 @@ def _add_subject_level(levels, pattern_key, level_id, heading, subjects, semeste
         for subject in subjects:
             sem_no = subject.get("semesterNo")
             by_semester.setdefault(sem_no, []).append(_subject_card(pattern_key, subject))
-        for sem_no in sorted(by_semester, key=lambda value: (value is None, value or 0)):
+        for sem_no in sorted(by_semester, key=lambda value: (value is None, int(value) if str(value).isdigit() else 999, str(value or ""))):
             label = f"Semester {sem_no}" if sem_no else "Subjects"
             grouped.append({"heading": label, "items": by_semester[sem_no]})
     else:
