@@ -36,17 +36,145 @@ When the input is a subject folder, `scope.focus_subject_key` and `scope.focus_s
 
 Only map subjects present in `subjects[]`.
 
-## Research Requirements
+## Mandatory Research Workflow
 
-Search the web for the exact SPPU syllabus context:
+For each subject:
 
-- `SPPU`
-- branch display name
-- year display name, such as `SE`, `TE`, `BE`, or `First Year`
-- pattern name, such as `2019 Pattern`
-- subject display name and directory name
+1. Search for the official SPPU syllabus document.
+2. Search using:
+   - `SPPU`
+   - branch display name
+   - year display name, such as `SE`, `TE`, `BE`, or `First Year`
+   - pattern name, such as `2019 Pattern`
+   - subject display name and directory name
+3. Open and inspect at least one syllabus source.
+4. If a PDF is found, inspect the PDF contents directly.
+5. Extract the semester assignment from the syllabus.
+6. Record evidence (see Evidence Format below).
+7. Only if no syllabus is found:
+   - search university circulars
+   - search department syllabus mirrors
+   - search question-paper sites
+8. Question-paper sites are never primary evidence.
 
-Prefer official or high-confidence syllabus PDFs/pages. Inspect PDFs when available. Use question-paper pages only as secondary evidence when syllabus evidence cannot be found.
+## Source Ranking
+
+Use evidence in this order. If Tier 1 evidence exists, ignore lower-tier contradictory sources.
+
+**Tier 1 (Preferred)**
+- `sppu.unipune.ac.in`
+- official SPPU PDFs
+- official curriculum documents
+
+**Tier 2**
+- affiliated college syllabus mirrors
+- department curriculum pages
+
+**Tier 3**
+- educational repositories
+
+**Tier 4 (Last Resort)**
+- question paper websites
+- student forums
+
+## Source Validation
+
+Before recording a source:
+
+- Open the URL.
+- Verify the document is accessible.
+- Verify the document matches the branch, year, and pattern.
+- Do not cite search-result pages.
+
+If a URL is inaccessible or does not match the expected branch/year/pattern, discard it and continue searching.
+
+## Academic Year Normalization
+
+Use these standard mappings:
+
+- **FE** = First Year (Semesters 1–2)
+- **SE** = Second Year (Semesters 3–4)
+- **TE** = Third Year (Semesters 5–6)
+- **BE** = Final Year (Semesters 7–8)
+
+Do not assume year names from folder structure alone. Verify against syllabus documents when possible. If a syllabus labels a subject under a different year than the folder path implies, flag the discrepancy in the evidence field.
+
+## No Guessing Rule
+
+Never infer a semester from:
+
+- common curriculum patterns
+- neighboring subjects
+- branch conventions
+- subject difficulty
+- previous mappings
+
+If explicit syllabus evidence is unavailable, set `semester_no = "unresolved"`. There are no exceptions.
+
+## Evidence Format
+
+Each evidence statement must include:
+
+- source title
+- source URL
+- quoted syllabus section when possible
+
+Example:
+
+```text
+Evidence:
+"Artificial Neural Network (410243) appears under Semester VI."
+
+Quote:
+"Semester VI: Artificial Neural Network"
+
+Source:
+https://example.edu/sppu-te-comp-2019-syllabus.pdf
+```
+
+## Search Persistence
+
+If no syllabus is found after the first search, perform at least 3 independent searches before marking a subject unresolved:
+
+1. `{subject_name} {pattern_name}`
+2. `{subject_name} syllabus PDF`
+3. `{branch_name} {year_name} syllabus PDF`
+
+Only mark `unresolved` after all searches fail.
+
+## Conflicting Sources
+
+When sources disagree:
+
+1. Prefer official SPPU sources.
+2. Prefer newer syllabus versions.
+3. Prefer documents matching the exact pattern year.
+4. If conflict remains, set `semester_no = "unresolved"` and document the conflict in the evidence field.
+
+## Search Query Templates
+
+Use all of these query patterns during research:
+
+- `"SPPU {branch} {year} {pattern} syllabus PDF"`
+- `"SPPU {subject_name}"`
+- `"SPPU {subject_name} syllabus PDF"`
+- `site:sppu.unipune.ac.in {subject_name}`
+- `site:sppu.unipune.ac.in {branch} {pattern}`
+
+## Final Verification
+
+For every subject, answer all of these before staging:
+
+1. Did I find an official syllabus?
+2. Does the syllabus explicitly mention a semester number?
+3. Is the pattern year correct?
+4. Is the branch correct?
+5. Is the subject actually present in the preview payload?
+6. Would a human reviewer understand my evidence?
+
+If any answer is **no**, set `semester_no = "unresolved"`.
+
+## Semester Values
 
 Use one of these `semester_no` values:
 

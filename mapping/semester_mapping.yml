@@ -42,3 +42,90 @@ standard:
         pattern_recognition_ele_I_aids: 5
         software_modeling_and_architectures_aids: 6
         web_technology_aids: 5
+  computer-engineering:
+    be:
+      2019_pattern:
+        blockchain_technology_ce: 7
+        business_intelligence_ele_VI_ce: 8
+        cyber_security_and_digital_forensics_ele_III_ce: 7
+        deep_learning_ce: 8
+        design_and_analysis_of_algorithms_ce: 7
+        high_performance_computing_ce: 8
+        machine_learning_and_data_science_ce: other
+        machine_learning_ce: 7
+        machine_learning_for_internet_of_things_ce: other
+        mobile_computing_ele_IV_ce: 7
+        natural_language_processing_ele_V_ce: 8
+        software_testing_and_quality_assurance_ele_IV_ce: 7
+        virtual_reality_in_game_development_ce: other
+    se:
+      2019_pattern:
+        computer_graphics_ce: 3
+        data_structures_and_algorithms_ce: 4
+        digital_electronics_and_logic_design_ce: 3
+        discrete_mathematics_ce: 3
+        engineering_mathematics_III_ce: 4
+        fundamentals_of_data_structures_ce: 3
+        microprocessor_ce: 4
+        object_oriented_programming_ce: 3
+        principles_of_communication_systems_ce: other
+        principles_of_programining_languages_ce: 4
+        software_engineering_ce: 4
+        statistics_ce: other
+    te:
+      2019_pattern:
+        artificial_intelligence_ce: 6
+        cloud_computing_ce: 6
+        computer_network_and_security_ce: 5
+        data_science_and_big_data_analytics_ce: 6
+        data_science_and_visualization_honors_ce: other
+        database_management_systems_ce: 5
+        embedded_system_and_internet_of_things_ce: 5
+        embedded_systems_and_iot_honors_ce: other
+        human_computer_interface_ele_I_ce: 5
+        information_and_cyber_security_honors_ce: other
+        information_security_ele_II_ce: 6
+        internet_of_things_and_embedded_systems_ele_I_ce: 5
+        software_modeling_and_architectures_ce: 6
+        software_project_management_ele_I_ce: 5
+        systems_programming_and_operating_system_ce: 5
+        theory_of_computation_ce: 5
+        virtual_reality_and_augmented_reality_ce: 6
+        web_technology_ce: 6
+  it-engineering:
+    be:
+      2019_pattern:
+        blockchain_technology_ie: 8
+        deep_learning_ie: 7
+        distributed_systems_ie: 8
+        information_and_storage_retrieval_ie: 7
+        mobile_computing_ele_III_ie: 7
+        natural_languase_processing_ele_V_ie: 8
+        software_project_management_ie: 7
+        wireless_communication_ele_IV_ie: 7
+    se:
+      2019_pattern:
+        basics_of_computer_network_ie: 3
+        computer_graphics_ie: 4
+        data_structures_and_algorithms_ie: 3
+        database_management_system_ie: 4
+        discrete_mathematics_ie: 3
+        engineering_mathematics_III_ie: 4
+        logic_design_and_computer_oraganization_ie: 3
+        object_oriented_programming_ie: 3
+        processor_architecture_ie: 4
+        software_engineering_ie: 4
+    te:
+      2019_pattern:
+        advanced_database_and_management_system_ele_I_ie: 5
+        cloud_computing_ele_II_ie: 6
+        computer_network_and_security_ie: 6
+        cyber_security_ele_II_ie: 6
+        data_science_and_big_data_analytics_ie: 6
+        design_and_analysis_of_algorithms_ie: 5
+        human_compter_interaction_ie: 5
+        internet_of_things_ele_I_ie: 5
+        machine_learning_ie: 5
+        operating_systems_ie: 5
+        theory_of_computation_ie: 5
+        web_application_development_ie: 6

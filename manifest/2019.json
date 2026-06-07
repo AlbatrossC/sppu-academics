@@ -284,85 +284,98 @@
               "yearKey": "be",
               "yearName": "BE",
               "yearFullName": "Fourth Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "blockchain_technology_ce",
                   "shortCode": "bt",
                   "fullName": "Blockchain Technology",
-                  "normalizedName": "blockchain_technology"
+                  "normalizedName": "blockchain_technology",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "business_intelligence_ele_VI_ce",
                   "shortCode": "bi_eVI",
                   "fullName": "Business Intelligence - Ele VI",
-                  "normalizedName": "business_intelligence_ele_VI"
+                  "normalizedName": "business_intelligence_ele_VI",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "cyber_security_and_digital_forensics_ele_III_ce",
                   "shortCode": "csdf_eIII",
                   "fullName": "Cyber Security & Digital Forensics - Ele III",
-                  "normalizedName": "cyber_security_and_digital_forensics_ele_III"
+                  "normalizedName": "cyber_security_and_digital_forensics_ele_III",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "deep_learning_ce",
                   "shortCode": "dl",
                   "fullName": "Deep Learning",
-                  "normalizedName": "deep_learning"
+                  "normalizedName": "deep_learning",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "design_and_analysis_of_algorithms_ce",
                   "shortCode": "daa",
                   "fullName": "Design & Analysis of Algorithms",
-                  "normalizedName": "design_and_analysis_of_algorithms"
+                  "normalizedName": "design_and_analysis_of_algorithms",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "high_performance_computing_ce",
                   "shortCode": "hpc",
                   "fullName": "High Performance Computing",
-                  "normalizedName": "high_performance_computing"
+                  "normalizedName": "high_performance_computing",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "machine_learning_ce",
                   "shortCode": "ml",
                   "fullName": "Machine Learning",
-                  "normalizedName": "machine_learning"
+                  "normalizedName": "machine_learning",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "machine_learning_and_data_science_ce",
                   "shortCode": "mlds",
                   "fullName": "Machine Learning & Data Science",
-                  "normalizedName": "machine_learning_and_data_science"
+                  "normalizedName": "machine_learning_and_data_science",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "machine_learning_for_internet_of_things_ce",
                   "shortCode": "mlit",
                   "fullName": "Machine Learning for Internet of Things",
-                  "normalizedName": "machine_learning_for_internet_of_things"
+                  "normalizedName": "machine_learning_for_internet_of_things",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "mobile_computing_ele_IV_ce",
                   "shortCode": "mc_eIV",
                   "fullName": "Mobile Computing - Ele IV",
-                  "normalizedName": "mobile_computing_ele_IV"
+                  "normalizedName": "mobile_computing_ele_IV",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "natural_language_processing_ele_V_ce",
                   "shortCode": "nlp_eV",
                   "fullName": "Natural Language Processing - Ele V",
-                  "normalizedName": "natural_language_processing_ele_V"
+                  "normalizedName": "natural_language_processing_ele_V",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "software_testing_and_quality_assurance_ele_IV_ce",
                   "shortCode": "stqa_eIV",
                   "fullName": "Software Testing & Quality Assurance - Ele IV",
-                  "normalizedName": "software_testing_and_quality_assurance_ele_IV"
+                  "normalizedName": "software_testing_and_quality_assurance_ele_IV",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "virtual_reality_in_game_development_ce",
                   "shortCode": "vrgd",
                   "fullName": "Virtual Reality in Game Development",
-                  "normalizedName": "virtual_reality_in_game_development"
+                  "normalizedName": "virtual_reality_in_game_development",
+                  "semesterNo": "other"
                 }
               ]
             },
@@ -370,79 +383,91 @@
               "yearKey": "se",
               "yearName": "SE",
               "yearFullName": "Second Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "computer_graphics_ce",
                   "shortCode": "cg",
                   "fullName": "Computer Graphics",
-                  "normalizedName": "computer_graphics"
+                  "normalizedName": "computer_graphics",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "data_structures_and_algorithms_ce",
                   "shortCode": "dsa",
                   "fullName": "Data Structures & Algorithms",
-                  "normalizedName": "data_structures_and_algorithms"
+                  "normalizedName": "data_structures_and_algorithms",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "digital_electronics_and_logic_design_ce",
                   "shortCode": "deld",
                   "fullName": "Digital Electronics & Logic Design",
-                  "normalizedName": "digital_electronics_and_logic_design"
+                  "normalizedName": "digital_electronics_and_logic_design",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "discrete_mathematics_ce",
                   "shortCode": "dm",
                   "fullName": "Discrete Mathematics",
-                  "normalizedName": "discrete_mathematics"
+                  "normalizedName": "discrete_mathematics",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "engineering_mathematics_III_ce",
                   "shortCode": "emIII",
                   "fullName": "Engineering Mathematics - III",
-                  "normalizedName": "engineering_mathematics_III"
+                  "normalizedName": "engineering_mathematics_III",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "fundamentals_of_data_structures_ce",
                   "shortCode": "fds",
                   "fullName": "Fundamentals of Data Structures",
-                  "normalizedName": "fundamentals_of_data_structures"
+                  "normalizedName": "fundamentals_of_data_structures",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "microprocessor_ce",
                   "shortCode": "m",
                   "fullName": "Microprocessor",
-                  "normalizedName": "microprocessor"
+                  "normalizedName": "microprocessor",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "object_oriented_programming_ce",
                   "shortCode": "oop",
                   "fullName": "Object Oriented Programming",
-                  "normalizedName": "object_oriented_programming"
+                  "normalizedName": "object_oriented_programming",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "principles_of_communication_systems_ce",
                   "shortCode": "pcs",
                   "fullName": "Principles of Communication Systems",
-                  "normalizedName": "principles_of_communication_systems"
+                  "normalizedName": "principles_of_communication_systems",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "principles_of_programining_languages_ce",
                   "shortCode": "ppl",
                   "fullName": "Principles of Programining Languages",
-                  "normalizedName": "principles_of_programining_languages"
+                  "normalizedName": "principles_of_programining_languages",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "software_engineering_ce",
                   "shortCode": "se",
                   "fullName": "Software Engineering",
-                  "normalizedName": "software_engineering"
+                  "normalizedName": "software_engineering",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "statistics_ce",
                   "shortCode": "s",
                   "fullName": "Statistics",
-                  "normalizedName": "statistics"
+                  "normalizedName": "statistics",
+                  "semesterNo": "other"
                 }
               ]
             },
@@ -450,115 +475,133 @@
               "yearKey": "te",
               "yearName": "TE",
               "yearFullName": "Third Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "artificial_intelligence_ce",
                   "shortCode": "ai",
                   "fullName": "Artificial Intelligence",
-                  "normalizedName": "artificial_intelligence"
+                  "normalizedName": "artificial_intelligence",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "cloud_computing_ce",
                   "shortCode": "cc",
                   "fullName": "Cloud Computing",
-                  "normalizedName": "cloud_computing"
+                  "normalizedName": "cloud_computing",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "computer_network_and_security_ce",
                   "shortCode": "cns",
                   "fullName": "Computer Network & Security",
-                  "normalizedName": "computer_network_and_security"
+                  "normalizedName": "computer_network_and_security",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "data_science_and_big_data_analytics_ce",
                   "shortCode": "dsbda",
                   "fullName": "Data Science & Big Data Analytics",
-                  "normalizedName": "data_science_and_big_data_analytics"
+                  "normalizedName": "data_science_and_big_data_analytics",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "data_science_and_visualization_honors_ce",
                   "shortCode": "dsvh",
                   "fullName": "Data Science & Visualization - Honors",
-                  "normalizedName": "data_science_and_visualization_honors"
+                  "normalizedName": "data_science_and_visualization_honors",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "database_management_systems_ce",
                   "shortCode": "dms",
                   "fullName": "Database Management Systems",
-                  "normalizedName": "database_management_systems"
+                  "normalizedName": "database_management_systems",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "embedded_system_and_internet_of_things_ce",
                   "shortCode": "esit",
                   "fullName": "Embedded System & Internet of Things",
-                  "normalizedName": "embedded_system_and_internet_of_things"
+                  "normalizedName": "embedded_system_and_internet_of_things",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "embedded_systems_and_iot_honors_ce",
                   "shortCode": "esih",
                   "fullName": "Embedded Systems & IOT - Honors",
-                  "normalizedName": "embedded_systems_and_iot_honors"
+                  "normalizedName": "embedded_systems_and_iot_honors",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "human_computer_interface_ele_I_ce",
                   "shortCode": "hci_eI",
                   "fullName": "Human Computer Interface - Ele I",
-                  "normalizedName": "human_computer_interface_ele_I"
+                  "normalizedName": "human_computer_interface_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "information_and_cyber_security_honors_ce",
                   "shortCode": "icsh",
                   "fullName": "Information and Cyber Security - Honors",
-                  "normalizedName": "information_and_cyber_security_honors"
+                  "normalizedName": "information_and_cyber_security_honors",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "information_security_ele_II_ce",
                   "shortCode": "is_eII",
                   "fullName": "Information Security_Ele II",
-                  "normalizedName": "information_security_ele_II"
+                  "normalizedName": "information_security_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "internet_of_things_and_embedded_systems_ele_I_ce",
                   "shortCode": "ites_eI",
                   "fullName": "Internet of Things & Embedded Systems_Ele-I",
-                  "normalizedName": "internet_of_things_and_embedded_systems_ele_I"
+                  "normalizedName": "internet_of_things_and_embedded_systems_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "software_modeling_and_architectures_ce",
                   "shortCode": "sma",
                   "fullName": "Software Modeling & Architectures",
-                  "normalizedName": "software_modeling_and_architectures"
+                  "normalizedName": "software_modeling_and_architectures",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "software_project_management_ele_I_ce",
                   "shortCode": "spm_eI",
                   "fullName": "Software Project Management_Ele-I",
-                  "normalizedName": "software_project_management_ele_I"
+                  "normalizedName": "software_project_management_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "systems_programming_and_operating_system_ce",
                   "shortCode": "spos",
                   "fullName": "Systems Programming & Operating System",
-                  "normalizedName": "systems_programming_and_operating_system"
+                  "normalizedName": "systems_programming_and_operating_system",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "theory_of_computation_ce",
                   "shortCode": "tc",
                   "fullName": "Theory of Computation",
-                  "normalizedName": "theory_of_computation"
+                  "normalizedName": "theory_of_computation",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "virtual_reality_and_augmented_reality_ce",
                   "shortCode": "vrar",
                   "fullName": "Virtual Reality & Augmented Reality",
-                  "normalizedName": "virtual_reality_and_augmented_reality"
+                  "normalizedName": "virtual_reality_and_augmented_reality",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "web_technology_ce",
                   "shortCode": "wt",
                   "fullName": "Web Technology",
-                  "normalizedName": "web_technology"
+                  "normalizedName": "web_technology",
+                  "semesterNo": 6
                 }
               ]
             }
@@ -931,55 +974,63 @@
               "yearKey": "be",
               "yearName": "BE",
               "yearFullName": "Fourth Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "blockchain_technology_ie",
                   "shortCode": "bt",
                   "fullName": "Blockchain Technology",
-                  "normalizedName": "blockchain_technology"
+                  "normalizedName": "blockchain_technology",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "deep_learning_ie",
                   "shortCode": "dl",
                   "fullName": "Deep Learning",
-                  "normalizedName": "deep_learning"
+                  "normalizedName": "deep_learning",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "distributed_systems_ie",
                   "shortCode": "ds",
                   "fullName": "Distributed Systems",
-                  "normalizedName": "distributed_systems"
+                  "normalizedName": "distributed_systems",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "information_and_storage_retrieval_ie",
                   "shortCode": "isr",
                   "fullName": "Information & Storage Retrieval",
-                  "normalizedName": "information_and_storage_retrieval"
+                  "normalizedName": "information_and_storage_retrieval",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "mobile_computing_ele_III_ie",
                   "shortCode": "mc_eIII",
                   "fullName": "Mobile Computing - Ele III",
-                  "normalizedName": "mobile_computing_ele_III"
+                  "normalizedName": "mobile_computing_ele_III",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "natural_languase_processing_ele_V_ie",
                   "shortCode": "nlp_eV",
                   "fullName": "Natural Languase Processing - Ele V",
-                  "normalizedName": "natural_languase_processing_ele_V"
+                  "normalizedName": "natural_languase_processing_ele_V",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "software_project_management_ie",
                   "shortCode": "spm",
                   "fullName": "Software Project Management",
-                  "normalizedName": "software_project_management"
+                  "normalizedName": "software_project_management",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "wireless_communication_ele_IV_ie",
                   "shortCode": "wc_eIV",
                   "fullName": "Wireless Communication - Ele IV",
-                  "normalizedName": "wireless_communication_ele_IV"
+                  "normalizedName": "wireless_communication_ele_IV",
+                  "semesterNo": 7
                 }
               ]
             },
@@ -987,67 +1038,77 @@
               "yearKey": "se",
               "yearName": "SE",
               "yearFullName": "Second Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "basics_of_computer_network_ie",
                   "shortCode": "bcn",
                   "fullName": "Basics of Computer Network",
-                  "normalizedName": "basics_of_computer_network"
+                  "normalizedName": "basics_of_computer_network",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "computer_graphics_ie",
                   "shortCode": "cg",
                   "fullName": "Computer Graphics",
-                  "normalizedName": "computer_graphics"
+                  "normalizedName": "computer_graphics",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "data_structures_and_algorithms_ie",
                   "shortCode": "dsa",
                   "fullName": "Data Structures & Algorithms",
-                  "normalizedName": "data_structures_and_algorithms"
+                  "normalizedName": "data_structures_and_algorithms",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "database_management_system_ie",
                   "shortCode": "dms",
                   "fullName": "Database Management System",
-                  "normalizedName": "database_management_system"
+                  "normalizedName": "database_management_system",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "discrete_mathematics_ie",
                   "shortCode": "dm",
                   "fullName": "Discrete Mathematics",
-                  "normalizedName": "discrete_mathematics"
+                  "normalizedName": "discrete_mathematics",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "engineering_mathematics_III_ie",
                   "shortCode": "emIII",
                   "fullName": "Engineering Mathematics - III",
-                  "normalizedName": "engineering_mathematics_III"
+                  "normalizedName": "engineering_mathematics_III",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "logic_design_and_computer_oraganization_ie",
                   "shortCode": "ldco",
                   "fullName": "Logic Design & Computer Oraganization",
-                  "normalizedName": "logic_design_and_computer_oraganization"
+                  "normalizedName": "logic_design_and_computer_oraganization",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "object_oriented_programming_ie",
                   "shortCode": "oop",
                   "fullName": "Object Oriented Programming",
-                  "normalizedName": "object_oriented_programming"
+                  "normalizedName": "object_oriented_programming",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "processor_architecture_ie",
                   "shortCode": "pa",
                   "fullName": "Processor Architecture",
-                  "normalizedName": "processor_architecture"
+                  "normalizedName": "processor_architecture",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "software_engineering_ie",
                   "shortCode": "se",
                   "fullName": "Software Engineering",
-                  "normalizedName": "software_engineering"
+                  "normalizedName": "software_engineering",
+                  "semesterNo": 4
                 }
               ]
             },
@@ -1055,79 +1116,91 @@
               "yearKey": "te",
               "yearName": "TE",
               "yearFullName": "Third Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "advanced_database_and_management_system_ele_I_ie",
                   "shortCode": "adms_eI",
                   "fullName": "Advanced Database & Management System-Ele I",
-                  "normalizedName": "advanced_database_and_management_system_ele_I"
+                  "normalizedName": "advanced_database_and_management_system_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "cloud_computing_ele_II_ie",
                   "shortCode": "cc_eII",
                   "fullName": "Cloud Computing_Ele-II",
-                  "normalizedName": "cloud_computing_ele_II"
+                  "normalizedName": "cloud_computing_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "computer_network_and_security_ie",
                   "shortCode": "cns",
                   "fullName": "Computer Network & Security",
-                  "normalizedName": "computer_network_and_security"
+                  "normalizedName": "computer_network_and_security",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "cyber_security_ele_II_ie",
                   "shortCode": "cs_eII",
                   "fullName": "Cyber Security_Ele-II",
-                  "normalizedName": "cyber_security_ele_II"
+                  "normalizedName": "cyber_security_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "data_science_and_big_data_analytics_ie",
                   "shortCode": "dsbda",
                   "fullName": "Data Science & Big Data Analytics",
-                  "normalizedName": "data_science_and_big_data_analytics"
+                  "normalizedName": "data_science_and_big_data_analytics",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "design_and_analysis_of_algorithms_ie",
                   "shortCode": "daa",
                   "fullName": "Design & Analysis of Algorithms",
-                  "normalizedName": "design_and_analysis_of_algorithms"
+                  "normalizedName": "design_and_analysis_of_algorithms",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "human_compter_interaction_ie",
                   "shortCode": "hci",
                   "fullName": "Human Compter Interaction",
-                  "normalizedName": "human_compter_interaction"
+                  "normalizedName": "human_compter_interaction",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "internet_of_things_ele_I_ie",
                   "shortCode": "it_eI",
                   "fullName": "Internet of Things - Ele I",
-                  "normalizedName": "internet_of_things_ele_I"
+                  "normalizedName": "internet_of_things_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "machine_learning_ie",
                   "shortCode": "ml",
                   "fullName": "Machine Learning",
-                  "normalizedName": "machine_learning"
+                  "normalizedName": "machine_learning",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "operating_systems_ie",
                   "shortCode": "os",
                   "fullName": "Operating Systems",
-                  "normalizedName": "operating_systems"
+                  "normalizedName": "operating_systems",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "theory_of_computation_ie",
                   "shortCode": "tc",
                   "fullName": "Theory of Computation",
-                  "normalizedName": "theory_of_computation"
+                  "normalizedName": "theory_of_computation",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "web_application_development_ie",
                   "shortCode": "wad",
                   "fullName": "Web Application Development",
-                  "normalizedName": "web_application_development"
+                  "normalizedName": "web_application_development",
+                  "semesterNo": 6
                 }
               ]
             }

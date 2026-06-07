@@ -1,0 +1,581 @@
+{
+  "reviews": [
+    {
+      "path": "papers/computer-engineering/se/2019_pattern",
+      "entries": [
+        {
+          "subject_key": "computer_graphics_ce",
+          "subject_name": "Computer Graphics",
+          "semester_no": 3,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester III in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "data_structures_and_algorithms_ce",
+          "subject_name": "Data Structures And Algorithms",
+          "semester_no": 4,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester IV in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "digital_electronics_and_logic_design_ce",
+          "subject_name": "Digital Electronics And Logic Design",
+          "semester_no": 3,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester III in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "discrete_mathematics_ce",
+          "subject_name": "Discrete Mathematics",
+          "semester_no": 3,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester III in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "engineering_mathematics_III_ce",
+          "subject_name": "Engineering Mathematics Iii",
+          "semester_no": 4,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester IV in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "fundamentals_of_data_structures_ce",
+          "subject_name": "Fundamentals Of Data Structures",
+          "semester_no": 3,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester III in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "microprocessor_ce",
+          "subject_name": "Microprocessor",
+          "semester_no": 4,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester IV in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "object_oriented_programming_ce",
+          "subject_name": "Object Oriented Programming",
+          "semester_no": 3,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester III in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "principles_of_programining_languages_ce",
+          "subject_name": "Principles Of Programining Languages",
+          "semester_no": 4,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester IV in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "software_engineering_ce",
+          "subject_name": "Software Engineering",
+          "semester_no": 4,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester IV in the SPPU SE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU SE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "principles_of_communication_systems_ce",
+          "subject_name": "Principles Of Communication Systems",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Intentionally marked as other per user instructions.",
+          "sources": []
+        },
+        {
+          "subject_key": "statistics_ce",
+          "subject_name": "Statistics",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Intentionally marked as other per user instructions.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "path": "papers/computer-engineering/te/2019_pattern",
+      "entries": [
+        {
+          "subject_key": "artificial_intelligence_ce",
+          "subject_name": "Artificial Intelligence",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "cloud_computing_ce",
+          "subject_name": "Cloud Computing",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "computer_network_and_security_ce",
+          "subject_name": "Computer Network And Security",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "data_science_and_big_data_analytics_ce",
+          "subject_name": "Data Science And Big Data Analytics",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "data_science_and_visualization_honors_ce",
+          "subject_name": "Data Science And Visualization Honors",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Honors course intentionally included but not tied to a specific numbered semester.",
+          "sources": []
+        },
+        {
+          "subject_key": "database_management_systems_ce",
+          "subject_name": "Database Management Systems",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "embedded_system_and_internet_of_things_ce",
+          "subject_name": "Embedded System And Internet Of Things",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "embedded_systems_and_iot_honors_ce",
+          "subject_name": "Embedded Systems And Iot Honors",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Honors course intentionally included but not tied to a specific numbered semester.",
+          "sources": []
+        },
+        {
+          "subject_key": "human_computer_interface_ele_I_ce",
+          "subject_name": "Human Computer Interface Ele I",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "information_and_cyber_security_honors_ce",
+          "subject_name": "Information And Cyber Security Honors",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Honors course intentionally included but not tied to a specific numbered semester.",
+          "sources": []
+        },
+        {
+          "subject_key": "information_security_ele_II_ce",
+          "subject_name": "Information Security Ele Ii",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "internet_of_things_and_embedded_systems_ele_I_ce",
+          "subject_name": "Internet Of Things And Embedded Systems Ele I",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "software_modeling_and_architectures_ce",
+          "subject_name": "Software Modeling And Architectures",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "software_project_management_ele_I_ce",
+          "subject_name": "Software Project Management Ele I",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "systems_programming_and_operating_system_ce",
+          "subject_name": "Systems Programming And Operating System",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "theory_of_computation_ce",
+          "subject_name": "Theory Of Computation",
+          "semester_no": 5,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester V in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "virtual_reality_and_augmented_reality_ce",
+          "subject_name": "Virtual Reality And Augmented Reality",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "web_technology_ce",
+          "subject_name": "Web Technology",
+          "semester_no": 6,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VI in the SPPU TE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU TE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "papers/computer-engineering/be/2019_pattern",
+      "entries": [
+        {
+          "subject_key": "blockchain_technology_ce",
+          "subject_name": "Blockchain Technology",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "business_intelligence_ele_VI_ce",
+          "subject_name": "Business Intelligence Ele Vi",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VIII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "cyber_security_and_digital_forensics_ele_III_ce",
+          "subject_name": "Cyber Security And Digital Forensics Ele Iii",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "deep_learning_ce",
+          "subject_name": "Deep Learning",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VIII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "design_and_analysis_of_algorithms_ce",
+          "subject_name": "Design And Analysis Of Algorithms",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "high_performance_computing_ce",
+          "subject_name": "High Performance Computing",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VIII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "machine_learning_and_data_science_ce",
+          "subject_name": "Machine Learning And Data Science",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Intentionally marked as other per user instructions.",
+          "sources": []
+        },
+        {
+          "subject_key": "machine_learning_ce",
+          "subject_name": "Machine Learning",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "machine_learning_for_internet_of_things_ce",
+          "subject_name": "Machine Learning For Internet Of Things",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Intentionally marked as other per user instructions.",
+          "sources": []
+        },
+        {
+          "subject_key": "mobile_computing_ele_IV_ce",
+          "subject_name": "Mobile Computing Ele Iv",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "natural_language_processing_ele_V_ce",
+          "subject_name": "Natural Language Processing Ele V",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VIII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "software_testing_and_quality_assurance_ele_IV_ce",
+          "subject_name": "Software Testing And Quality Assurance Ele Iv",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Listed under Semester VII in the SPPU BE Computer Engineering 2019 Pattern syllabus.",
+          "sources": [
+            {
+              "title": "SPPU BE Computer Engineering 2019 Pattern Syllabus",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "virtual_reality_in_game_development_ce",
+          "subject_name": "Virtual Reality In Game Development",
+          "semester_no": "other",
+          "status": "mapped",
+          "confidence": "high",
+          "evidence": "Intentionally marked as other per user instructions.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
