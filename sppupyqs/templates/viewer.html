@@ -48,7 +48,7 @@
     <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 
     <link href="/images/logo.png" rel="icon" fetchpriority="high" type="image/png">
-    <link href="{{ url_for('static', filename='css/viewer.css') }}?v=5.2" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/viewer.css') }}?v=5.3" rel="stylesheet">
     <script src="https://openfpcdn.io/fingerprintjs/v4/iife.min.js" defer></script>
     <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
 
@@ -1068,21 +1068,35 @@
             }
 
             var fileName = pdfUrl.split('/').pop();
+            var isCached = state.cachedPdfs.has(pdfUrl);
 
-            Logger.debug('Loading PDF: ' + fileName + (state.cachedPdfs.has(pdfUrl) ? ' (from cache)' : ' (from network)'));
+            Logger.debug('Loading PDF: ' + fileName + (isCached ? ' (from cache)' : ' (from network)'));
 
-            return PdfCacheManager.fetchBlobUrl(pdfUrl)
+            var loadPromise;
+            if (isCached) {
+                loadPromise = PdfCacheManager.fetchBlobUrl(pdfUrl);
+            } else {
+                loadPromise = Promise.resolve(pdfUrl);
+                // Trigger a background warm so it caches for subsequent loads
+                PdfCacheManager.warmPdf(pdfUrl);
+            }
+
+            return loadPromise
                 .then(function (fileUrlToLoad) {
                     if (
                         renderToken !== state.activeRenderToken ||
                         !iframe.isConnected ||
                         state.iframeLoadTokens.get(iframe) !== iframeLoadToken
                     ) {
-                        URL.revokeObjectURL(fileUrlToLoad);
+                        if (isCached && fileUrlToLoad !== pdfUrl) {
+                            URL.revokeObjectURL(fileUrlToLoad);
+                        }
                         return false;
                     }
 
-                    state.activeObjectURLs.set(iframe, fileUrlToLoad);
+                    if (fileUrlToLoad !== pdfUrl) {
+                        state.activeObjectURLs.set(iframe, fileUrlToLoad);
+                    }
                     var viewerUrl = state.pdfViewerBase + '?file=' + encodeURIComponent(fileUrlToLoad);
 
                     return new Promise(function (resolve, reject) {
@@ -2041,7 +2055,18 @@
         (function () {
             'use strict';
 
+            var lastDropdownInteractionTime = 0;
+
             function init() {
+                // Record recent interaction with dropdowns/paper-selector to prevent window blur close-race.
+                var recordInteraction = function (e) {
+                    if (e.target.closest('.custom-dropdown') || e.target.closest('.paper-selector')) {
+                        lastDropdownInteractionTime = Date.now();
+                    }
+                };
+                document.addEventListener('mousedown', recordInteraction, true);
+                document.addEventListener('touchstart', recordInteraction, true);
+
                 // Close paper selector dropdowns when clicking on an option
                 document.addEventListener('click', function (e) {
                     var dropdownOption = e.target.closest('.paper-selector .dropdown-option');
@@ -2071,6 +2096,10 @@
                     // When focus moves to an iframe, window blurs.
                     // Use a short delay to avoid racing with intentional dropdown interactions.
                     setTimeout(function () {
+                        if (Date.now() - lastDropdownInteractionTime < 400) {
+                            // Do not close dropdowns if user recently interacted with one.
+                            return;
+                        }
                         if (document.activeElement && document.activeElement.tagName === 'IFRAME') {
                             CustomDropdown.closeAll();
                         }
