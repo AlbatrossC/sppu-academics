@@ -1,270 +1,261 @@
-# Rename Files
+# Rename Files — `tools/rename_files.py`
 
-> For agent-specific workflows and use cases, see [AGENTIC.md](../AGENTIC.md).
+`tools/rename_files.py` renames downloaded PDFs after `incoming/` folder names have been normalized.
 
-`tools/rename_files.py` renames downloaded PDFs after folders under `incoming/` have already been normalized.
+It is **review-first**: the default command produces a changelog but does not move or rename any files. Apply is a separate step that reads only from the generated changelog.
 
-It is review-first:
+---
 
-```bash
-python3 tools/rename_files.py
+## Metadata Extraction Pipeline
+
+```
+PyMuPDF (header text)
+  → PaddleOCR (page 1 crops: 45% / 65% / 100%)
+  → Groq (last resort for marks / month_code / year)
 ```
 
-creates:
+Only three exam metadata values are extracted from the PDF:
 
-```text
-changelog/rename.md
+| Field | Source |
+|---|---|
+| `marks` | Header text (PyMuPDF first, then PaddleOCR) |
+| `month_code` | Filename first (e.g. `May_Jun_2024`); Groq fallback |
+| `year` | Filename first; Groq fallback |
+
+Everything else — branch code, subject code, pattern code, exam type — is derived **locally** from the normalized file path and `mapping/folder_names.yml`. No model is asked to decide these.
+
+**Exam type from marks:**
+
+| Marks value | Exam type |
+|---|---|
+| `30` | `insem` |
+| `70` | `endsem` |
+| Any other valid value | `other` |
+
+---
+
+## Output Filename Format
+
 ```
-
-and does not move files.
-
-After reviewing the changelog:
-
-```bash
-python3 tools/rename_files.py --apply
-```
-
-renames files based only on `changelog/rename.json`. Apply mode does not call PyMuPDF, PaddleOCR, or Groq again.
-
-## Metadata Responsibility
-
-The metadata pipeline is:
-
-```text
-PyMuPDF header text -> PaddleOCR header crop -> Groq fallback
-```
-
-Only these exam metadata values are extracted:
-
-```text
-marks
-month_code
-year
-```
-
-The script decides exam type from marks:
-
-```text
-30 -> insem
-70 -> endsem
-any other valid marks value -> other
-```
-
-The script does not ask a model to decide branch, subject, pattern, branch code, subject code, or pattern code. Those values are derived locally from the file path and:
-
-```text
-mapping/folder_names.yml
-```
-
-The script prefers month/year from the PDF filename first. It supports single-month and two-month names such as `Aug_2025`, `Sep_2024`, `May_Jun_2023`, and `Nov_Dec_2022`. Groq month/year output is only a fallback if the filename cannot be parsed.
-
-Marks are read from PyMuPDF header text first. If the header text is missing, garbled, watermark-only, or does not contain usable marks, PaddleOCR runs on page 1 crops only: top 45%, then top 65%, then the full first page. It checks lines near `Max Marks`, `Max. Marks`, `Maximum Marks`, or `Total Marks`. Groq is called only if local extraction is still incomplete; when OCR text exists, Groq receives that OCR text instead of the useless embedded watermark text.
-
-## Setup
-
-Install dependencies:
-
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-PaddleOCR now defaults to the first Windows CUDA GPU:
-
-```bash
-python3 tools/rename_files.py --ocr-device gpu:0
-```
-
-You can also set the default once for the shell:
-
-```powershell
-$env:PADDLEOCR_DEVICE = "gpu:0"
-```
-
-Use CPU only as a fallback:
-
-```bash
-python3 tools/rename_files.py --ocr-device cpu
-```
-
-The OCR settings remain conservative for an RTX 3050 Laptop GPU with 4 GB VRAM: one OCR worker, confidence threshold `0.85`, a relaxed direct-phrase threshold `0.55`, and page 1 crop attempts at `45%`, `65%`, and `100%`. The relaxed threshold is used only after OCR sees a direct `Max/Maximum/Total Marks` phrase. The expected local stack is PaddleOCR `3.6.0`, PaddlePaddle GPU `3.3.0`, and PaddleX `3.6.1`.
-
-Set one optional Groq fallback key:
-
-```bash
-GROQ_API_KEY=your_key_here
-```
-
-Optional secondary keys:
-
-```bash
-GROQ_API_KEY_2=your_second_key_here
-GROQ_API_KEY_3=your_third_key_here
-```
-
-or:
-
-```bash
-GROQ_API_KEYS=key_one,key_two,key_three
-```
-
-Optional model override:
-
-```bash
-GROQ_MODEL=llama-3.3-70b-versatile
-```
-
-## Output Filename
-
-Successful PDFs are renamed in their current working folder, usually `incoming/`, and keep the same relative folder path. `verify.py` promotes valid renamed files to `VERIFIED`, then `move.py` moves them to `papers/`.
-
-The filename format is:
-
-```text
 {exam_type}_{month}_{year}_{branch_code}_{subject_code}_{pattern_code}.pdf
 ```
 
-Example:
+**Examples:**
 
-```text
-endsem_may_jun_2024_aids_bda_eV_2019p.pdf
-```
+| Scenario | Filename |
+|---|---|
+| End-sem, May-Jun 2024, AIDS, Big Data Analytics, Elective V | `endsem_may_jun_2024_aids_bda_eV_2019p.pdf` |
+| In-sem, October 2023, CompE, Web Technology | `insem_oct_2023_comp_wt_2019p.pdf` |
+| End-sem, Nov-Dec 2022, First Year, Engineering Maths I | `endsem_nov_dec_2022_fy_em1_2019p.pdf` |
+| Honors Course, BE year used as pattern | `endsem_may_2024_hc_ml_be.pdf` |
 
-Months use short lowercase names:
+**Month normalization:**
 
-```text
-Feb - 2023.pdf -> feb_2023
-May_Jun_2024.pdf -> may_jun_2024
-August_2025.pdf -> aug_2025
-```
+| Filename pattern | Output month |
+|---|---|
+| `Feb-2023.pdf` | `feb_2023` |
+| `May_Jun_2024.pdf` | `may_jun_2024` |
+| `August_2025.pdf` | `aug_2025` |
+| `Nov_Dec_2022.pdf` | `nov_dec_2022` |
 
-## Folder Families
+---
 
-Standard branch paths:
+## Folder Family Paths
 
-```text
-incoming/<branch>/<year>/<pattern>/<subject>/<file>.pdf
-```
+The script understands all four folder families:
 
-First Year paths:
+| Family | Incoming path structure |
+|---|---|
+| Standard | `incoming/<branch>/<year>/<pattern>/<subject>/<file>.pdf` |
+| First Year | `incoming/first-year/<pattern>/<subject>/<file>.pdf` |
+| MBA | `incoming/m-b-a/<semester>/<pattern>/<subject>/<file>.pdf` |
+| Honors Course | `incoming/honors-course/<year>/<subject>/<file>.pdf` |
 
-```text
-incoming/first-year/<pattern>/<subject>/<file>.pdf
-```
+For Honors Course, the year folder code (e.g. `be`, `te`) is used as `pattern_code` in the filename.
 
-MBA paths:
-
-```text
-incoming/m-b-a/<semester>/<pattern>/<subject>/<file>.pdf
-```
-
-Honors paths:
-
-```text
-incoming/honors-course/<year>/<subject>/<file>.pdf
-```
-
-For Honors, the year folder code is used as `pattern_code`.
+---
 
 ## Review Commands
 
-Review all PDFs:
+### Review all PDFs
 
 ```bash
-python3 tools/rename_files.py
+python3 tools/rename_files.py --ocr-workers 1
 ```
 
-If `changelog/rename.json` already exists, this command skips completed rows and retries only `retry_pending` rows. This is useful after Groq rate limits.
-
-Force a full rebuild:
+If `changelog/rename.json` already exists, this command skips completed rows and retries only `retry_pending` (Groq rate-limited) rows. To ignore the existing changelog and rebuild from scratch:
 
 ```bash
-python3 tools/rename_files.py --fresh
+python3 tools/rename_files.py --fresh --ocr-workers 1
 ```
 
-Review with compatibility worker flag:
+### Review a subtree
 
 ```bash
-python3 tools/rename_files.py --ocr-workers 1 --ocr-device gpu:0
-```
-
-Review mode checkpoints after each PDF. `--workers` is still accepted as a compatibility alias for `--ocr-workers`; the default remains `1` for 4 GB GPU VRAM, and the default OCR device is `gpu:0` unless `PADDLEOCR_DEVICE` is set.
-
-Review one subtree:
-
-```bash
+# Standard branch — one year
 python3 tools/rename_files.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern"
+
+# Standard branch — one subject
+python3 tools/rename_files.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids"
+
+# First Year
+python3 tools/rename_files.py --path "incoming/first-year/2019_pattern"
+
+# MBA
+python3 tools/rename_files.py --path "incoming/m-b-a/sem_II/2019_pattern"
+
+# Honors Course
+python3 tools/rename_files.py --path "incoming/honors-course/be"
 ```
 
-Review one PDF:
+### Review a single PDF
 
 ```bash
 python3 tools/rename_files.py --path "incoming/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V/March_2024.pdf"
 ```
 
-Discard the current rename review without moving PDFs:
+### Discard the current review
 
 ```bash
 python3 tools/rename_files.py --discard
 ```
 
+This clears `changelog/rename.json` without touching any PDF files.
+
+---
+
 ## Apply Commands
 
-Apply all pending entries. This updates SQLite after each individual file, so interrupted runs are resumable:
+### Apply all pending entries
 
 ```bash
 python3 tools/rename_files.py --apply
 ```
 
-Apply only entries from one source subtree:
+Apply reads only from `changelog/rename.json` and does not call PyMuPDF, PaddleOCR, or Groq again. SQLite is updated after each individual file, so interrupted runs are resumable — just rerun the same command.
+
+### Apply for one subtree
 
 ```bash
 python3 tools/rename_files.py --apply --path "incoming/artificial-intelligence-and-data-science"
+python3 tools/rename_files.py --apply --path "incoming/first-year"
+python3 tools/rename_files.py --apply --path "incoming/m-b-a"
+python3 tools/rename_files.py --apply --path "incoming/honors-course"
 ```
 
-Successful files are renamed in place under the working folder:
+---
 
-```text
-incoming/<same relative folders>/<normalized filename>.pdf
+## File Destinations
+
+After apply:
+
+| Outcome | Destination |
+|---|---|
+| Successful rename | `incoming/<same relative path>/<normalized_name>.pdf` |
+| Unsafe / failed / duplicate | `needs_review/<same incoming-relative path>/<original_name>` |
+
+Existing files in `papers/` are never overwritten. If a normalized target already exists in `papers/`, the source file moves to `needs_review/` and the changelog records `duplicate` as the reason.
+
+**SQLite updates during apply:**
+
+| Outcome | Stage |
+|---|---|
+| Successful rename | `FILE_RENAMED` |
+| Review failure | `NEEDS_REVIEW` |
+
+`current_path` records where the file is now. `expected_path` records where it should eventually move under `papers/`.
+
+---
+
+## Groq Rate Limits
+
+When Groq rate-limits a file, the row stays `retry_pending` in `changelog/rename.json`. It is **not** moved to `needs_review/`. Simply rerun:
+
+```bash
+python3 tools/rename_files.py --ocr-workers 1
 ```
 
-Files that cannot be safely renamed move to:
+Only `retry_pending` rows will be retried.
 
-```text
-needs_review/<same incoming-relative folders>/<original filename>
+---
+
+## OCR Configuration
+
+PaddleOCR defaults to the first Windows CUDA GPU:
+
+```bash
+python3 tools/rename_files.py --ocr-device gpu:0
 ```
 
-Existing files in `papers/` are never overwritten. If a target already exists, the source file is moved to `needs_review/` and the changelog records the duplicate reason.
+Set default once for the shell (PowerShell):
 
-SQLite tracking is updated during apply:
+```powershell
+$env:PADDLEOCR_DEVICE = "gpu:0"
+```
 
-- successful renames become `FILE_RENAMED`
-- review failures become `NEEDS_REVIEW`
-- Groq fallback key index/model and review reason are stored in `tracking/manifest.db`
-- `current_path` records where the file is now
-- `expected_path` records where the file should eventually move under `papers/`
+Use CPU only as fallback:
 
-After apply, run:
+```bash
+python3 tools/rename_files.py --ocr-device cpu
+```
+
+Default OCR worker count is `1` for 4 GB VRAM. The expected stack is PaddleOCR `3.6.0`, PaddlePaddle GPU `3.3.0`, and PaddleX `3.6.1`.
+
+---
+
+## Groq API Keys
+
+Set one optional Groq fallback key in `.env`:
+
+```env
+GROQ_API_KEY=your_key_here
+```
+
+Optional secondary keys:
+
+```env
+GROQ_API_KEY_2=your_second_key
+GROQ_API_KEY_3=your_third_key
+
+# Or use the comma-separated list form:
+GROQ_API_KEYS=key_one,key_two,key_three
+```
+
+Optional model override:
+
+```env
+GROQ_MODEL=llama-3.3-70b-versatile
+```
+
+---
+
+## Changelog Files
+
+| File | Contents |
+|---|---|
+| `changelog/rename.md` | Human-readable review: subject summaries, planned renames with clickable links, needs-review blocks |
+| `changelog/rename.json` | Machine-readable state used by `--apply` |
+
+`changelog/rename.md` contains:
+- Subject summary counts for `insem`, `endsem`, `other`, and `needs_review`
+- Readable `Planned Renames` blocks with clickable incoming PDF links
+- Readable `Needs Review` blocks for failed, ambiguous, duplicate, or unsafe files
+- Initial filename, changed filename, type, marks, source, and reason
+
+> [!CAUTION]
+> Never edit `changelog/rename.json` by hand. Never delete the marker comments in `changelog/rename.md`.
+> ```html
+> <!-- RENAME_FILES_BEGIN -->
+> <!-- RENAME_FILES_END -->
+> ```
+
+---
+
+## After Apply
 
 ```bash
 python3 tools/verify.py
 python3 tools/move.py
 ```
 
-`verify.py` promotes valid renamed files to `VERIFIED`. `move.py` moves only `VERIFIED` files to `papers/`.
-
-## Changelog
-
-`changelog/rename.md` contains:
-
-- subject summary counts for `insem`, `endsem`, `other`, and `needs_review`
-- readable `Planned Renames` blocks with clickable incoming PDF links
-- readable `Needs Review` blocks for failed, ambiguous, duplicate, or unsafe files
-- initial filename, changed filename, type, marks, source, and reason
-
-`changelog/rename.json` contains the machine-readable state used by `--apply`.
-
-The changelog is updated after each applied file, so if the command stops midway you can rerun:
-
-```bash
-python3 tools/rename_files.py --apply
-```
+`verify.py` promotes valid renamed files to `VERIFIED`. `move.py` moves only `VERIFIED` files to `papers/`. See [verify_move.md](verify_move.md).

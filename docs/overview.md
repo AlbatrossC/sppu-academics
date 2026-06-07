@@ -1,77 +1,262 @@
 # Architecture Overview
 
-The toolkit turns a public Google Drive archive into normalized local PDFs and frontend manifest JSON:
+The SPPU PYQ Sync Toolkit turns a public Google Drive archive of exam question papers into a normalized local `papers/` directory and publishable frontend manifest JSON.
 
-```text
-Drive -> mapping -> sync review -> download -> folder normalize -> PDF rename -> verify -> move -> upload -> manifest
+## Pipeline at a Glance
+
+```
+Drive
+  → map.py          (discover folder structure → mapping/*.json)
+  → sync.py --folders   (detect new/changed Drive folders → changelog/folder.md)
+  → sync.py --files     (detect new/changed PDFs → changelog/files.md)
+  → sync.py --files --apply  (download PDFs → incoming/)
+  → rename_folders.py  (normalize incoming/ folder names)
+  → rename_files.py    (review PDF metadata → changelog/rename.json)
+  → rename_files.py --apply  (rename PDFs in incoming/)
+  → verify.py          (promote valid rows to VERIFIED)
+  → move.py            (move VERIFIED files → papers/)
+  → upload_pipeline.py (publish papers/ → R2 + Cloudinary → manifest/*.json)
 ```
 
-All write-heavy steps are review-first where practical. `tools/sync.py --folders` and `tools/sync.py --files` scan Drive and write changelog files. Their `--apply` modes read pending changelog entries and do not re-scan Drive.
+Every write-heavy step is **review-first** where practical. Review commands scan Drive and write changelog files. Apply commands read those changelog files and do not re-scan Drive.
+
+> **Always run from the project root.**
+
+---
 
 ## Folder Families
 
-Standard branches use:
+The archive has **four distinct folder families** with different hierarchy depths. You must know which family a scope belongs to before running any scoped command.
 
-```text
+### Standard Branches (4 levels)
+
+```
 Branch / Year / Pattern / Subject
-mapping/sync_mapping.json
 ```
 
-First Year uses:
+**Mapping file:** `mapping/sync_mapping.json`  
+**Incoming path:** `incoming/<branch>/<year>/<pattern>/<subject>/`
 
-```text
+**Active standard branches:**
+
+| Display Name | Normalized Incoming |
+|---|---|
+| Artificial Intelligence and Data Science | `artificial-intelligence-and-data-science` |
+| Artificial Intelligence and Machine Learning | `artificial-intelligence-and-machine-learning` |
+| Civil Engineering | `civil-engineering` |
+| Computer Engineering | `computer-engineering` |
+| E & TC Engineering | `e-and-tc-engineering` |
+| Electrical Engineering | `electrical-engineering` |
+| Electronics & Computer Engineering | `electronics-and-computer-engineering` |
+| IT Engineering | `it-engineering` |
+| Mechanical Engineering | `mechanical-engineering` |
+| Robotics and Automation | `robotics-and-automation` |
+
+**Example path:**
+```
+Artificial Intelligence and Data Science / BE / 2019 Pattern / Machine Learning
+  → incoming/artificial-intelligence-and-data-science/be/2019_pattern/machine_learning_aids/
+```
+
+> **ME (Master of Engineering) is excluded from the main mapping.** Any Drive path where the second level is `ME` is dropped and not synced.
+
+---
+
+### First Year (3 levels — NO year tier)
+
+```
 First Year / Pattern / Subject
-mapping/first_year_mapping.json
 ```
 
-MBA uses:
+**Mapping file:** `mapping/first_year_mapping.json`  
+**Incoming path:** `incoming/first-year/<pattern>/<subject>/`
 
-```text
+> [!IMPORTANT]
+> First Year does NOT have a year level (BE/TE/SE). It goes directly from `First Year` → `Pattern` → `Subject`.
+
+**Example path:**
+```
+First Year / 2019 Pattern / Engineering Mathematics - I
+  → incoming/first-year/2019_pattern/engineering_mathematics_I_fy/
+```
+
+---
+
+### MBA (4 levels — uses Semester instead of Year)
+
+```
 M.B.A / Semester / Pattern / Subject
-mapping/mba.json
 ```
 
-Honors Course uses:
+**Mapping file:** `mapping/mba.json`  
+**Incoming path:** `incoming/m-b-a/<semester>/<pattern>/<subject>/`
 
-```text
+Semesters are named `SEM - I`, `SEM - II`, `SEM - III`, `SEM - IV`.
+
+Some MBA subjects live under specialization sub-folders on Drive but are **flattened** under their pattern in the mapping. These entries have `drive_path` and `source_group` fields.
+
+> [!IMPORTANT]
+> MBA uses Semester names like `SEM - I`, `SEM - II`, etc. **instead of year codes.**
+
+**Example path:**
+```
+M.B.A / SEM - II / 2019 Pattern / Financial Management
+  → incoming/m-b-a/sem_II/2019_pattern/financial_management/
+```
+
+---
+
+### Honors Course (3 levels — NO pattern tier)
+
+```
 Honors Course / Year / Subject
-mapping/honors_course_mapping.json
 ```
 
-`mapping/folder_names.yml` is the shared name registry. It maps Drive display names to normalized folder names, short codes, and folder IDs.
+**Mapping file:** `mapping/honors_course_mapping.json`  
+**Incoming path:** `incoming/honors-course/<year>/<subject>/`
 
-## Stage Lifecycle
+> [!IMPORTANT]
+> Honors Course does NOT have a pattern level. It goes directly from `Year` (BE, TE) → `Subject`. The year folder code is used as `pattern_code` during rename.
 
-`tracking/manifest.db` is the durable local file tracker. Rows move through:
-
-```text
-DISCOVERED -> DOWNLOADED -> FOLDER_RENAMED -> FILE_RENAMED -> VERIFIED -> MOVED
+**Example path:**
+```
+Honors Course / TE / Artificial Intelligence
+  → incoming/honors-course/te/artificial_intelligence_hc/
 ```
 
-Rows can also become:
+---
 
-```text
-NEEDS_REVIEW
-MISSING
+## Folder Name Normalization Rules
+
+After `rename_folders.py` runs, folder names are normalized:
+
+| Level | Separator | Example |
+|---|---|---|
+| Branch (top level) | Hyphens | `artificial-intelligence-and-data-science` |
+| Year, Pattern, Subject | Underscores | `2019_pattern`, `deep_learning_ele_V` |
+
+**Symbol replacements:**
+
+| Symbol | Becomes |
+|---|---|
+| `&` | `and` |
+| `+` | `plus` |
+| `@` | `at` |
+| `%` | `percent` |
+
+**Roman numerals are preserved in uppercase:** `Ele V` → `ele_V`, `Engineering Mathematics - II` → `engineering_mathematics_II`
+
+**Reference table:**
+
+| Drive Name | Normalized Incoming Path |
+|---|---|
+| `E & TC Engineering` | `e-and-tc-engineering` |
+| `2019 Pattern` | `2019_pattern` |
+| `BE` | `be` |
+| `TE` | `te` |
+| `SE` | `se` |
+| `First Year` | `first-year` |
+| `M.B.A` | `m-b-a` |
+| `Honors Course` | `honors-course` |
+| `Deep Learning - Ele V` | `deep_learning_ele_V` |
+
+---
+
+## Stage Lifecycle (SQLite Tracking)
+
+`tracking/manifest.db` is the durable local file tracker. Each Google Drive file ID has exactly one row that moves through these stages:
+
+```
+DISCOVERED → DOWNLOADED → FOLDER_RENAMED → FILE_RENAMED → VERIFIED → MOVED
 ```
 
-`DISCOVERED` means Drive file metadata is known and a download is pending. `DOWNLOADED` means the PDF exists under `incoming/`. `FOLDER_RENAMED` records normalized incoming folders. `FILE_RENAMED` means `rename_files.py --apply` produced a normalized filename. `VERIFIED` means `verify.py` accepted the path and filename. `MOVED` means the file is in `papers/`. `NEEDS_REVIEW` and `MISSING` are inspection states.
+Side states:
+```
+NEEDS_REVIEW   ← file could not be safely renamed or has a naming collision
+MISSING        ← file expected but not found on disk
+```
 
-## Tool Effects
+| Stage | Meaning |
+|---|---|
+| `DISCOVERED` | Drive file metadata known; download pending |
+| `DOWNLOADED` | PDF exists under `incoming/` |
+| `FOLDER_RENAMED` | Incoming folder normalized by `rename_folders.py` |
+| `FILE_RENAMED` | `rename_files.py --apply` produced a normalized filename |
+| `VERIFIED` | `verify.py` accepted the path and filename |
+| `MOVED` | File is in `papers/` |
+| `NEEDS_REVIEW` | Rename failed or produced a duplicate; file is in `needs_review/` |
+| `MISSING` | File cannot be found at its recorded path |
 
-| Tool | Inputs | Outputs and side effects |
-| --- | --- | --- |
-| `tools/map.py` | Drive root from `config.json` | Rebuilds `mapping/*.json` |
+**Important SQLite columns:**
+
+| Column | Purpose |
+|---|---|
+| `file_id` | Google Drive file ID (primary key) |
+| `current_stage` | Current lifecycle stage |
+| `current_path` | Where the file is now |
+| `expected_path` | Where the file should be in `papers/` |
+| `retry_count` | Number of failed rename review attempts |
+| `review_reason` | Why a file is in `NEEDS_REVIEW` |
+
+---
+
+## Tool Effects Summary
+
+| Tool | Inputs | Outputs & Side Effects |
+|---|---|---|
+| `tools/validate_mappings.py` | Mapping files only | Non-network sanity check; no writes |
+| `tools/map.py build/refresh` | Drive root from `config.json` | Rebuilds `mapping/*.json` |
 | `tools/sync.py --folders` | Drive, mapping JSON | Writes `changelog/folder.md` |
 | `tools/sync.py --folders --apply` | `changelog/folder.md` | Updates mapping JSON |
 | `tools/sync.py --files` | Drive, mapping JSON, SQLite | Writes `changelog/files.md` |
 | `tools/sync.py --files --apply` | `changelog/files.md` | Downloads to `incoming/`, updates SQLite |
 | `tools/rename_folders.py --create` | Mapping JSON | Updates `mapping/folder_names.yml` |
 | `tools/rename_folders.py` | `incoming/`, folder registry | Renames/merges folders under `incoming/` |
-| `tools/rename_files.py` | `incoming/`, folder registry, PDF text/OCR/Groq | Writes `changelog/rename.md` and `changelog/rename.json` |
-| `tools/rename_files.py --apply` | `changelog/rename.json` | Renames PDFs, moves unsafe files to `needs_review/`, updates SQLite |
-| `tools/verify.py` | SQLite and filesystem | Promotes valid rows to `VERIFIED` or records review/missing states |
-| `tools/move.py` | SQLite and filesystem | Moves `VERIFIED` files to `papers/` |
-| `tools/upload_pipeline.py` | `papers/`, upload env vars | Uploads to R2/Cloudinary and writes `manifest/*.json` |
-| `tools/status.py --print` | SQLite and filesystem | Writes and prints `docs/status.md` |
-| `tools/validate_mappings.py` | Mapping files only | Non-network mapping sanity check |
+| `tools/rename_files.py` | `incoming/`, folder registry, PDF/OCR/Groq | Writes `changelog/rename.md` + `changelog/rename.json` |
+| `tools/rename_files.py --apply` | `changelog/rename.json` | Renames PDFs; moves unsafe files to `needs_review/`; updates SQLite |
+| `tools/verify.py` | SQLite + filesystem | Promotes valid rows to `VERIFIED`; records review/missing states |
+| `tools/move.py` | SQLite + filesystem | Moves `VERIFIED` files to `papers/` |
+| `tools/upload_pipeline.py` | `papers/`, upload env vars | Uploads to R2/Cloudinary; writes `manifest/*.json` |
+| `tools/status.py` | SQLite + filesystem | Writes and prints `docs/status.md` |
+| `tools/semester_mapping.py` | `papers/`, syllabus research | Stages semester assignments; applies to `mapping/semester_mapping.yml` |
+| `tools/pipeline.py` | Multiple tools | Orchestrates the above tools in sequence |
+
+---
+
+## Key Data Files
+
+| File | Purpose |
+|---|---|
+| `config.json` | Drive root folder ID and request settings |
+| `mapping/sync_mapping.json` | Standard branch folder mapping |
+| `mapping/first_year_mapping.json` | First Year folder mapping |
+| `mapping/mba.json` | MBA folder mapping |
+| `mapping/honors_course_mapping.json` | Honors Course folder mapping |
+| `mapping/folder_names.yml` | Shared name registry: Drive names → normalized names, codes, IDs |
+| `mapping/semester_mapping.yml` | Approved semester assignments per subject |
+| `mapping/local/**/*.json` | Legacy per-pattern metadata; may be absent on fresh installs |
+| `changelog/folder.md` | Pending folder changes (JSON block inside) |
+| `changelog/files.md` | Pending file downloads (JSON block inside) |
+| `changelog/rename.md` | Pending file renames (human-readable) |
+| `changelog/rename.json` | Pending file renames (machine-readable; used by `--apply`) |
+| `changelog/semester.md` | Pending semester mappings (JSON block inside) |
+| `tracking/manifest.db` | SQLite file tracker (one row per Drive file ID) |
+| `tracking/uploads.db` | SQLite upload tracker (one row per PDF in `papers/`) |
+| `incoming/` | Temporary raw Drive download mirror |
+| `papers/` | Final normalized PDFs |
+| `needs_review/` | Files that could not be safely renamed |
+| `manifest/` | Frontend JSON manifests for public website |
+| `docs/status.md` | Human-readable status report (auto-generated) |
+
+---
+
+## Working / Output Folders
+
+| Folder | Role |
+|---|---|
+| `incoming/` | Temporary raw Drive mirror; PDFs are renamed here before moving |
+| `papers/` | Final archive; files are never overwritten here |
+| `needs_review/` | Files that failed renaming or have collisions |
+| `changelog/` | All review changelogs (folder, files, rename, semester) |
+| `manifest/` | Generated frontend JSON; uploaded with papers |
+| `sync_plan/` | Legacy sync plan output (older workflow) |
