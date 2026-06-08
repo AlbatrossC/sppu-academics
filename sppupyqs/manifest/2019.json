@@ -616,97 +616,112 @@
               "yearKey": "be",
               "yearName": "BE",
               "yearFullName": "Fourth Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "android_development_ele_V_ete",
                   "shortCode": "ad_eV",
                   "fullName": "Android Development_Ele V",
-                  "normalizedName": "android_development_ele_V"
+                  "normalizedName": "android_development_ele_V",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "cloud_computing_ete",
                   "shortCode": "cc",
                   "fullName": "Cloud Computing",
-                  "normalizedName": "cloud_computing"
+                  "normalizedName": "cloud_computing",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "deep_learning_ele_IV_ete",
                   "shortCode": "dl_eIV",
                   "fullName": "Deep Learning - Ele IV",
-                  "normalizedName": "deep_learning_ele_IV"
+                  "normalizedName": "deep_learning_ele_IV",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "digital_marketing_ele_VI_ete",
                   "shortCode": "dm_eVI",
                   "fullName": "Digital Marketing - Ele VI",
-                  "normalizedName": "digital_marketing_ele_VI"
+                  "normalizedName": "digital_marketing_ele_VI",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "electronic_product_development_ele_IV_ete",
                   "shortCode": "epd_eIV",
                   "fullName": "Electronic Product Development - Ele IV",
-                  "normalizedName": "electronic_product_development_ele_IV"
+                  "normalizedName": "electronic_product_development_ele_IV",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "embedded_system_design_ele_V_ete",
                   "shortCode": "esd_eV",
                   "fullName": "Embedded System Design_Ele V",
-                  "normalizedName": "embedded_system_design_ele_V"
+                  "normalizedName": "embedded_system_design_ele_V",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "fiber_optic_communication_ete",
                   "shortCode": "foc",
                   "fullName": "Fiber Optic Communication",
-                  "normalizedName": "fiber_optic_communication"
+                  "normalizedName": "fiber_optic_communication",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "industrial_robotics_and_automation_ete",
                   "shortCode": "ira",
                   "fullName": "Industrial Robotics & Automation",
-                  "normalizedName": "industrial_robotics_and_automation"
+                  "normalizedName": "industrial_robotics_and_automation",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "java_script_ele_III_ete",
                   "shortCode": "js_eIII",
                   "fullName": "Java Script - Ele III",
-                  "normalizedName": "java_script_ele_III"
+                  "normalizedName": "java_script_ele_III",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "mobile_computing_ele_V_ete",
                   "shortCode": "mc_eV",
                   "fullName": "Mobile Computing - Ele V",
-                  "normalizedName": "mobile_computing_ele_V"
+                  "normalizedName": "mobile_computing_ele_V",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "modernized_iot_ele_III_ete",
                   "shortCode": "mi_eIII",
                   "fullName": "Modernized IOT - Ele III",
-                  "normalizedName": "modernized_iot_ele_III"
+                  "normalizedName": "modernized_iot_ele_III",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "nano_electronics_ele_VI_ete",
                   "shortCode": "ne_eVI",
                   "fullName": "Nano Electronics - Ele VI",
-                  "normalizedName": "nano_electronics_ele_VI"
+                  "normalizedName": "nano_electronics_ele_VI",
+                  "semesterNo": 8
                 },
                 {
                   "subjectKey": "radiation_and_microwave_theory_ete",
                   "shortCode": "rmt",
                   "fullName": "Radiation & Microwave Theory",
-                  "normalizedName": "radiation_and_microwave_theory"
+                  "normalizedName": "radiation_and_microwave_theory",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "smart_contract_and_crypto_currency_ete",
                   "shortCode": "sccc",
                   "fullName": "Smart Contract & Crypto Currency",
-                  "normalizedName": "smart_contract_and_crypto_currency"
+                  "normalizedName": "smart_contract_and_crypto_currency",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "vlsi_design_and_technology_ete",
                   "shortCode": "vdt",
                   "fullName": "VLSI Design & Technology",
-                  "normalizedName": "vlsi_design_and_technology"
+                  "normalizedName": "vlsi_design_and_technology",
+                  "semesterNo": 7
                 }
               ]
             },
@@ -714,67 +729,77 @@
               "yearKey": "se",
               "yearName": "SE",
               "yearFullName": "Second Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "control_system_ete",
                   "shortCode": "cs",
                   "fullName": "Control System",
-                  "normalizedName": "control_system"
+                  "normalizedName": "control_system",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "data_structures_ete",
                   "shortCode": "ds",
                   "fullName": "Data Structures",
-                  "normalizedName": "data_structures"
+                  "normalizedName": "data_structures",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "data_structures_and_algorithms_ete",
                   "shortCode": "dsa",
                   "fullName": "Data Structures & Algorithms",
-                  "normalizedName": "data_structures_and_algorithms"
+                  "normalizedName": "data_structures_and_algorithms",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "digital_circuits_ete",
                   "shortCode": "dc",
                   "fullName": "Digital Circuits",
-                  "normalizedName": "digital_circuits"
+                  "normalizedName": "digital_circuits",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "electrical_circuits_ete",
                   "shortCode": "ec",
                   "fullName": "Electrical Circuits",
-                  "normalizedName": "electrical_circuits"
+                  "normalizedName": "electrical_circuits",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "electronic_circuits_ete",
                   "shortCode": "ec",
                   "fullName": "Electronic Circuits",
-                  "normalizedName": "electronic_circuits"
+                  "normalizedName": "electronic_circuits",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "engineering_mathematics_III_ete",
                   "shortCode": "emIII",
                   "fullName": "Engineering Mathematics - III",
-                  "normalizedName": "engineering_mathematics_III"
+                  "normalizedName": "engineering_mathematics_III",
+                  "semesterNo": 3
                 },
                 {
                   "subjectKey": "object_oriented_programming_ete",
                   "shortCode": "oop",
                   "fullName": "Object Oriented Programming",
-                  "normalizedName": "object_oriented_programming"
+                  "normalizedName": "object_oriented_programming",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "principles_of_communication_systems_ete",
                   "shortCode": "pcs",
                   "fullName": "Principles of Communication Systems",
-                  "normalizedName": "principles_of_communication_systems"
+                  "normalizedName": "principles_of_communication_systems",
+                  "semesterNo": 4
                 },
                 {
                   "subjectKey": "signals_and_systems_ete",
                   "shortCode": "ss",
                   "fullName": "Signals & Systems",
-                  "normalizedName": "signals_and_systems"
+                  "normalizedName": "signals_and_systems",
+                  "semesterNo": 4
                 }
               ]
             },
@@ -782,103 +807,119 @@
               "yearKey": "te",
               "yearName": "TE",
               "yearFullName": "Third Year",
-              "semesterIncluded": false,
+              "semesterIncluded": true,
               "subjects": [
                 {
                   "subjectKey": "advanced_java_programming_ele_II_ete",
                   "shortCode": "ajp_eII",
                   "fullName": "Advanced Java Programming_Ele-II",
-                  "normalizedName": "advanced_java_programming_ele_II"
+                  "normalizedName": "advanced_java_programming_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "blockchain_technology_ete",
                   "shortCode": "bt",
                   "fullName": "Blockchain Technology",
-                  "normalizedName": "blockchain_technology"
+                  "normalizedName": "blockchain_technology",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "cellular_networks_ete",
                   "shortCode": "cn",
                   "fullName": "Cellular Networks",
-                  "normalizedName": "cellular_networks"
+                  "normalizedName": "cellular_networks",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "computer_networks_ele_I_ete",
                   "shortCode": "cn_eI",
                   "fullName": "Computer Networks_Ele-I",
-                  "normalizedName": "computer_networks_ele_I"
+                  "normalizedName": "computer_networks_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "database_management_ete",
                   "shortCode": "dm",
                   "fullName": "Database Management",
-                  "normalizedName": "database_management"
+                  "normalizedName": "database_management",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "decentralize_blockchain_technologies_ete",
                   "shortCode": "dbt",
                   "fullName": "Decentralize Blockchain Technologies",
-                  "normalizedName": "decentralize_blockchain_technologies"
+                  "normalizedName": "decentralize_blockchain_technologies",
+                  "semesterNo": "other"
                 },
                 {
                   "subjectKey": "digital_communication_ete",
                   "shortCode": "dc",
                   "fullName": "Digital Communication",
-                  "normalizedName": "digital_communication"
+                  "normalizedName": "digital_communication",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "digital_image_processing_ele_II_ete",
                   "shortCode": "dip_eII",
                   "fullName": "Digital Image Processing_Ele-II",
-                  "normalizedName": "digital_image_processing_ele_II"
+                  "normalizedName": "digital_image_processing_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "digital_signal_processing_ele_I_ete",
                   "shortCode": "dsp_eI",
                   "fullName": "Digital Signal Processing - Ele-I",
-                  "normalizedName": "digital_signal_processing_ele_I"
+                  "normalizedName": "digital_signal_processing_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "electromagnetic_field_theory_ete",
                   "shortCode": "eft",
                   "fullName": "Electromagnetic Field Theory",
-                  "normalizedName": "electromagnetic_field_theory"
+                  "normalizedName": "electromagnetic_field_theory",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "embedded_processors_ele_II_ete",
                   "shortCode": "ep_eII",
                   "fullName": "Embedded Processors_Ele-II",
-                  "normalizedName": "embedded_processors_ele_II"
+                  "normalizedName": "embedded_processors_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "fundamentals_of_java_programming_ele_I_ete",
                   "shortCode": "fjp_eI",
                   "fullName": "Fundamentals of Java Programming - Ele I",
-                  "normalizedName": "fundamentals_of_java_programming_ele_I"
+                  "normalizedName": "fundamentals_of_java_programming_ele_I",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "microcontrollers_ete",
                   "shortCode": "m",
                   "fullName": "Microcontrollers",
-                  "normalizedName": "microcontrollers"
+                  "normalizedName": "microcontrollers",
+                  "semesterNo": 5
                 },
                 {
                   "subjectKey": "network_security_ele_II_ete",
                   "shortCode": "ns_eII",
                   "fullName": "Network Security_Ele-II",
-                  "normalizedName": "network_security_ele_II"
+                  "normalizedName": "network_security_ele_II",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "power_devices_and_circuits_ete",
                   "shortCode": "pdc",
                   "fullName": "Power Devices & Circuits",
-                  "normalizedName": "power_devices_and_circuits"
+                  "normalizedName": "power_devices_and_circuits",
+                  "semesterNo": 6
                 },
                 {
                   "subjectKey": "project_management_ete",
                   "shortCode": "pm",
                   "fullName": "Project Management",
-                  "normalizedName": "project_management"
+                  "normalizedName": "project_management",
+                  "semesterNo": 6
                 }
               ]
             }
