@@ -2,31 +2,39 @@
 // Exposes: window.DownloadPaper.handleClick(event, button)
 
 (function () {
-	// Utility: get status element and update progress
+	"use strict";
+
+	const REPO_OWNER = "AlbatrossC";
+	const REPO_NAME = "sppu-academics";
+	const REPO_BRANCH = "sppu-pyqs";
+	const RAW_BASE_URL = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}`;
+	const GITHUB_CONTENTS_BASE_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents`;
+	const JSZIP_URL = "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
+	const FILESAVER_URL = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js";
+	const EXAM_TYPES = new Set(["insem", "endsem", "other", "all"]);
+
+	const scriptCache = {};
+
 	function setStatus(msg, level = "info", progress = null) {
 		const statusEl = document.getElementById("download-status");
 		const containerEl = document.getElementById("download-status-container");
 		const progressFillEl = document.getElementById("download-progress-fill");
 		const percentageEl = document.getElementById("download-percentage");
-		
+
 		if (!statusEl || !containerEl) return;
-		
-		// Show container if hidden
+
 		if (containerEl.style.display === "none") {
 			containerEl.style.display = "flex";
 		}
-		
-		// Update status text
+
 		statusEl.textContent = msg;
 		statusEl.dataset.status = level;
-		
-		// Update progress bar
+
 		if (progress !== null && progressFillEl) {
-			const progressPercent = Math.min(Math.max(progress, 0), 100);
+			const progressPercent = Math.min(Math.max(Math.round(progress), 0), 100);
 			progressFillEl.style.width = progressPercent + "%";
 			progressFillEl.dataset.status = level;
-			
-			// Update percentage display
+
 			if (percentageEl) {
 				if (progressPercent > 0 && progressPercent < 100) {
 					percentageEl.textContent = progressPercent + "%";
@@ -37,13 +45,12 @@
 			}
 		}
 	}
-	
-	// Reset status display
+
 	function resetStatus() {
 		const containerEl = document.getElementById("download-status-container");
 		const progressFillEl = document.getElementById("download-progress-fill");
 		const percentageEl = document.getElementById("download-percentage");
-		
+
 		if (containerEl) containerEl.style.display = "none";
 		if (progressFillEl) {
 			progressFillEl.style.width = "0%";
@@ -55,276 +62,339 @@
 		}
 	}
 
-	// Simple script loader (idempotent)
-	const _scriptCache = {};
 	function loadScript(url) {
-		if (_scriptCache[url]) return _scriptCache[url];
-		_scriptCache[url] = new Promise((resolve, reject) => {
-			const s = document.createElement("script");
-			s.src = url;
-			s.async = true;
-			s.onload = () => resolve();
-			s.onerror = (e) => reject(new Error("Failed to load " + url));
-			document.head.appendChild(s);
+		if (scriptCache[url]) return scriptCache[url];
+
+		scriptCache[url] = new Promise((resolve, reject) => {
+			const script = document.createElement("script");
+			script.src = url;
+			script.async = true;
+			script.onload = () => resolve();
+			script.onerror = () => reject(new Error("Failed to load " + url));
+			document.head.appendChild(script);
 		});
-		return _scriptCache[url];
+
+		return scriptCache[url];
 	}
 
-	// Match exam rule
-	function matchesExam(name, type) {
-		name = name.toLowerCase();
-		if (type === "insem") return name.startsWith("insem");
-		if (type === "endsem") return name.startsWith("endsem") || name.startsWith("other");
-		return name.endsWith(".pdf"); // all PDFs
-	}
-
-	// Extract subject_link from root path /{subject_link}
 	function getSubjectLinkFromPath() {
 		const parts = location.pathname.split("/").filter(Boolean);
 		if (parts.length === 1) return parts[0];
-		return null;
+		if (parts.length === 2 && /^\d{4}$/.test(parts[0])) return parts.join("/");
+		return "";
 	}
 
-	// Fetch JSON with basic error handling
-	async function safeFetchJson(url) {
-		const resp = await fetch(url);
-		if (!resp.ok) {
-			const text = await resp.text().catch(()=>"");
-			const err = new Error(`HTTP ${resp.status} - ${text}`);
-			err.status = resp.status;
-			throw err;
+	function sanitizeZipPart(value) {
+		return String(value || "papers")
+			.trim()
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, "_")
+			.replace(/^_+|_+$/g, "") || "papers";
+	}
+
+	function normalizeCanonicalPath(value) {
+		if (!value) return "";
+
+		let path = String(value).trim().replace(/\\/g, "/");
+		try {
+			if (/^https?:\/\//i.test(path)) {
+				const url = new URL(path);
+				const papersIndex = url.pathname.indexOf("/papers/");
+				path = papersIndex >= 0 ? url.pathname.slice(papersIndex + 1) : "";
+			}
+		} catch (_) {
+			path = "";
 		}
-		return resp.json();
+
+		path = path.replace(/^\/+/, "");
+		return path.startsWith("papers/") && path.toLowerCase().endsWith(".pdf") ? path : "";
 	}
 
-	// Main handler
+	function getFilename(pathOrName) {
+		return String(pathOrName || "").split("/").pop() || "";
+	}
+
+	function getFolderPath(canonicalPath) {
+		const parts = String(canonicalPath || "").split("/");
+		parts.pop();
+		return parts.join("/");
+	}
+
+	function classifyExamType(paper, filename) {
+		const explicit = String(
+			paper.examType ||
+			paper.exam_type ||
+			paper.exam ||
+			(paper.source_metadata && paper.source_metadata.exam) ||
+			""
+		).toLowerCase();
+
+		if (EXAM_TYPES.has(explicit) && explicit !== "all") return explicit;
+
+		const name = String(filename || "").toLowerCase();
+		if (name.startsWith("insem_") || name.startsWith("insem-") || name === "insem.pdf") return "insem";
+		if (name.startsWith("endsem_") || name.startsWith("endsem-") || name === "endsem.pdf") return "endsem";
+		return "other";
+	}
+
+	function getQuestionModalData() {
+		const existing = window.paperDownloadContext && Array.isArray(window.paperDownloadContext.papers)
+			? window.paperDownloadContext
+			: null;
+		if (existing) return existing;
+
+		const node = document.getElementById("question-modal-data");
+		if (!node) return {};
+
+		try {
+			return JSON.parse(node.textContent) || {};
+		} catch (error) {
+			console.warn("Failed to parse question modal data", error);
+			return {};
+		}
+	}
+
+	function normalizeRenderedPapers() {
+		const context = getQuestionModalData();
+		const papers = Array.isArray(context.papers) ? context.papers : [];
+
+		return papers
+			.map((paper) => {
+				const canonicalPath = normalizeCanonicalPath(
+					paper.canonicalPath ||
+					paper.canonical_path ||
+					paper.canonical ||
+					paper.url ||
+					paper.link ||
+					paper.pdf_url
+				);
+				const filename = getFilename(canonicalPath || paper.filename || paper.originalFilename || paper.name);
+				if (!filename.toLowerCase().endsWith(".pdf")) return null;
+
+				return {
+					name: filename,
+					canonicalPath,
+					folderPath: getFolderPath(canonicalPath),
+					examType: classifyExamType(paper, filename),
+					downloadUrl: canonicalPath ? `${RAW_BASE_URL}/${canonicalPath}` : (paper.url || paper.link || paper.pdf_url || "")
+				};
+			})
+			.filter((paper) => paper && paper.downloadUrl);
+	}
+
+	function uniqueByName(papers) {
+		const seen = new Set();
+		return papers.filter((paper) => {
+			const key = `${paper.folderPath}/${paper.name}`.toLowerCase();
+			if (seen.has(key)) return false;
+			seen.add(key);
+			return true;
+		});
+	}
+
+	function filterByExamType(papers, examType) {
+		if (examType === "all") return papers;
+		return papers.filter((paper) => paper.examType === examType);
+	}
+
+	async function fetchJson(url) {
+		const response = await fetch(url);
+		if (!response.ok) {
+			const error = new Error(`HTTP ${response.status}`);
+			error.status = response.status;
+			throw error;
+		}
+		return response.json();
+	}
+
+	async function fetchGitHubFolder(folderPath) {
+		if (!folderPath) return [];
+
+		const encodedPath = folderPath.split("/").map(encodeURIComponent).join("/");
+		const url = `${GITHUB_CONTENTS_BASE_URL}/${encodedPath}?ref=${encodeURIComponent(REPO_BRANCH)}`;
+		const items = await fetchJson(url);
+
+		if (!Array.isArray(items)) return [];
+
+		return items
+			.filter((item) => item.type === "file" && String(item.name || "").toLowerCase().endsWith(".pdf"))
+			.map((item) => {
+				const canonicalPath = normalizeCanonicalPath(item.path || `${folderPath}/${item.name}`);
+				return {
+					name: item.name,
+					canonicalPath,
+					folderPath,
+					examType: classifyExamType(item, item.name),
+					downloadUrl: canonicalPath ? `${RAW_BASE_URL}/${canonicalPath}` : item.download_url
+				};
+			});
+	}
+
+	async function resolvePapersForDownload(examType) {
+		const renderedPapers = uniqueByName(normalizeRenderedPapers());
+		if (renderedPapers.length) {
+			return filterByExamType(renderedPapers, examType);
+		}
+
+		const context = getQuestionModalData();
+		const subjectLink = context.subjectLink || getSubjectLinkFromPath();
+		if (!subjectLink) return [];
+
+		const list = await fetchJson("/api/question-papers/list");
+		const meta = Array.isArray(list) && list.find((item) => item.subject_link === subjectLink);
+		const folderPath = normalizeCanonicalPath(meta && meta.canonical_path);
+		const folderPapers = await fetchGitHubFolder(getFolderPath(folderPath));
+		return filterByExamType(uniqueByName(folderPapers), examType);
+	}
+
+	function getSubjectName() {
+		const context = getQuestionModalData();
+		const subjectEl = document.getElementById("download-subject-name");
+		return context.subjectName ||
+			(window.paperDownloadContext && window.paperDownloadContext.subjectName) ||
+			(subjectEl && subjectEl.textContent) ||
+			"papers";
+	}
+
+	function notifyDownload(subjectLink, subjectName, examType, downloaded) {
+		try {
+			const context = window.paperDownloadContext || {};
+			const fingerprintPromise = context.fingerprintPromise || Promise.resolve("fp-anon");
+
+			Promise.resolve(fingerprintPromise)
+				.then((fingerprintId) => fetch("/api/notify-download", {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						fingerprint_id: fingerprintId,
+						subject_link: subjectLink,
+						subject_name: subjectName,
+						exam_type: examType,
+						file_count: downloaded
+					})
+				}))
+				.catch((error) => {
+					console.warn("notify-download failed", error);
+				});
+		} catch (error) {
+			console.warn("notify-download error", error);
+		}
+	}
+
+	async function downloadIntoZip(zip, papers) {
+		const concurrency = Math.min(4, papers.length);
+		let index = 0;
+		let downloaded = 0;
+		let failed = 0;
+		const totalFiles = papers.length;
+		const startProgress = 40;
+		const endProgress = 85;
+
+		async function worker() {
+			while (index < papers.length) {
+				const current = papers[index++];
+				try {
+					const response = await fetch(current.downloadUrl);
+					if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+					zip.file(current.name, await response.arrayBuffer());
+					downloaded++;
+				} catch (error) {
+					failed++;
+					console.error("Download error", current.name, error);
+				}
+
+				const completed = downloaded + failed;
+				const progress = startProgress + ((completed / totalFiles) * (endProgress - startProgress));
+				const level = failed ? "warning" : "info";
+				const failedText = failed ? `, ${failed} failed` : "";
+				setStatus(`Downloaded ${downloaded} of ${totalFiles}${failedText}...`, level, progress);
+			}
+		}
+
+		await Promise.all(Array.from({ length: concurrency }, worker));
+		return { downloaded, failed };
+	}
+
 	async function handleClick(event, button) {
+		const buttons = document.querySelectorAll("button[data-download]");
+
 		try {
 			event && event.preventDefault && event.preventDefault();
 
-			const examType = (button && button.dataset && button.dataset.download) || (event && event.target && event.target.dataset && event.target.dataset.download);
-			if (!examType) {
+			const source = button || (event && event.currentTarget) || (event && event.target);
+			const examType = String(source && source.dataset && source.dataset.download || "").toLowerCase();
+			if (!EXAM_TYPES.has(examType) || examType === "other") {
 				setStatus("Unable to determine download type. Please try again.", "error", 0);
 				return;
 			}
 
-			const buttons = document.querySelectorAll('button[data-download]');
-			buttons.forEach(b => b.disabled = true);
-
-			// Reset status display
+			buttons.forEach((item) => { item.disabled = true; });
 			resetStatus();
 			setStatus("Preparing download...", "info", 5);
 
-			const subject_link = getSubjectLinkFromPath();
-			if (!subject_link) {
-				setStatus("Could not identify the subject. Please refresh and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
-				return;
-			}
-
-			setStatus("Fetching subject information...", "info", 10);
-
-			let list;
+			setStatus("Finding available papers...", "info", 15);
+			let pdfItems;
 			try {
-				list = await safeFetchJson("/api/question-papers/list");
-			} catch (err) {
-				setStatus("Unable to connect to server. Please check your connection and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
+				pdfItems = await resolvePapersForDownload(examType);
+			} catch (error) {
+				console.error("Paper lookup failed", error);
+				setStatus("Unable to retrieve paper list. Please try again later.", "error", 0);
 				return;
 			}
-
-			const meta = Array.isArray(list) && list.find(x => x.subject_link === subject_link);
-			if (!meta) {
-				setStatus("Subject information not found. Please contact support if this persists.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
-				return;
-			}
-
-			const repoPath = meta.repo_path;
-			const subjectName = meta.subject_name || subject_link;
-
-			setStatus("Searching for available papers...", "info", 20);
-
-			const ghApiUrl = `https://api.github.com/repos/AlbatrossC/sppu-codes/contents/${encodeURIComponent(repoPath)}?ref=question-papers`;
-
-			let ghList;
-			try {
-				const resp = await fetch(ghApiUrl);
-				if (resp.status === 403) {
-					const remaining = resp.headers.get("X-RateLimit-Remaining");
-					if (remaining === "0") {
-						setStatus("Service temporarily unavailable. Please wait a moment and try again.", "error", 0);
-						buttons.forEach(b => b.disabled = false);
-						return;
-					}
-					setStatus("Access temporarily restricted. Please try again in a few moments.", "error", 0);
-					buttons.forEach(b => b.disabled = false);
-					return;
-				}
-				if (!resp.ok) {
-					setStatus("Unable to retrieve paper list. Please try again later.", "error", 0);
-					buttons.forEach(b => b.disabled = false);
-					return;
-				}
-				ghList = await resp.json();
-			} catch (err) {
-				setStatus("Connection error. Please check your internet connection and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
-				return;
-			}
-
-			if (!Array.isArray(ghList)) {
-				setStatus("Unexpected response format. Please try again or contact support.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
-				return;
-			}
-
-			const pdfItems = ghList
-				.filter(item => item.type === "file" && item.name.toLowerCase().endsWith(".pdf"))
-				.filter(item => {
-					if (examType === "all") return true;
-					return matchesExam(item.name, examType);
-				})
-				.map(i => ({ name: i.name, download_url: i.download_url }));
 
 			if (!pdfItems.length) {
-				setStatus("No papers found for the selected exam type. Please try a different option.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
+				setStatus("No papers found for this download option.", "error", 0);
 				return;
 			}
 
-			setStatus(`Found ${pdfItems.length} paper${pdfItems.length > 1 ? 's' : ''}. Getting ready...`, "info", 30);
-
-			const jszipUrl = "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
-			const filesaverUrl = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js";
-			setStatus("Loading required tools...", "info", 35);
+			setStatus(`Found ${pdfItems.length} paper${pdfItems.length === 1 ? "" : "s"}. Loading tools...`, "info", 30);
 			try {
-				await loadScript(jszipUrl);
-				await loadScript(filesaverUrl);
-			} catch (err) {
+				await Promise.all([loadScript(JSZIP_URL), loadScript(FILESAVER_URL)]);
+			} catch (error) {
+				console.error("Download tools failed", error);
 				setStatus("Failed to initialize download tools. Please refresh and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
 				return;
 			}
+
 			if (typeof JSZip === "undefined" || typeof saveAs === "undefined") {
-				setStatus("Download tools not available. Please refresh the page and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
+				setStatus("Download tools not available. Please refresh and try again.", "error", 0);
 				return;
 			}
 
 			const zip = new JSZip();
+			setStatus(`Downloading ${pdfItems.length} paper${pdfItems.length === 1 ? "" : "s"}...`, "info", 40);
+			const result = await downloadIntoZip(zip, pdfItems);
 
-			const concurrency = 3;
-			let idx = 0;
-			let downloaded = 0;
-			let failed = 0;
-			const totalFiles = pdfItems.length;
-			const downloadStartProgress = 40;
-			const downloadEndProgress = 85;
-
-			setStatus(`Downloading ${totalFiles} paper${totalFiles > 1 ? 's' : ''}...`, "info", downloadStartProgress);
-
-			async function worker() {
-				while (true) {
-					let current;
-					if (idx >= pdfItems.length) break;
-					current = pdfItems[idx++];
-					try {
-						const r = await fetch(current.download_url);
-						if (!r.ok) throw new Error(`Failed ${r.status}`);
-						const ab = await r.arrayBuffer();
-						zip.file(current.name, ab);
-						downloaded++;
-						
-						// Calculate progress: download phase is 40% to 85%
-						const downloadProgress = downloadStartProgress + 
-							((downloaded / totalFiles) * (downloadEndProgress - downloadStartProgress));
-						const progressPercent = Math.round(downloadProgress);
-						
-						if (failed === 0) {
-							setStatus(`Downloaded ${downloaded} of ${totalFiles} paper${totalFiles > 1 ? 's' : ''}...`, "info", progressPercent);
-						} else {
-							setStatus(`Downloaded ${downloaded} of ${totalFiles} (${failed} failed)...`, "warning", progressPercent);
-						}
-					} catch (e) {
-						console.error("Download error", current.name, e);
-						failed++;
-						const downloadProgress = downloadStartProgress + 
-							((downloaded / totalFiles) * (downloadEndProgress - downloadStartProgress));
-						setStatus(`Downloading... (${downloaded} downloaded, ${failed} failed)`, "warning", Math.round(downloadProgress));
-					}
-				}
-			}
-
-			const workers = [];
-			for (let i = 0; i < Math.min(concurrency, pdfItems.length); i++) workers.push(worker());
-			await Promise.all(workers);
-
-			if (downloaded === 0) {
+			if (result.downloaded === 0) {
 				setStatus("All downloads failed. Please check your connection and try again.", "error", 0);
-				buttons.forEach(b => b.disabled = false);
 				return;
 			}
 
 			setStatus("Creating ZIP archive...", "info", 85);
-			try {
-				const blob = await zip.generateAsync({ type: "blob" }, meta => {
-					const pct = Math.round((meta.percent || 0));
-					// ZIP creation phase is 85% to 95%
-					const zipProgress = 85 + (pct * 0.1);
-					setStatus(`Creating ZIP file... ${pct}%`, "info", Math.round(zipProgress));
-				});
-				const safeExam = examType.toLowerCase();
-				const zipName = `${subjectName.replace(/\s+/g, "_")}-${safeExam}.zip`;
-				saveAs(blob, zipName);
-				setStatus("Download complete! Your ZIP file is ready.", "success", 100);
-				
-				// Hide status after 3 seconds on success
-				setTimeout(() => {
-					resetStatus();
-				}, 3000);
+			const blob = await zip.generateAsync({ type: "blob" }, (metadata) => {
+				const zipProgress = 85 + ((metadata.percent || 0) * 0.1);
+				setStatus(`Creating ZIP file... ${Math.round(metadata.percent || 0)}%`, "info", zipProgress);
+			});
 
-				(function fireNotify() {
-					try {
-						const ctx = window.paperDownloadContext || {};
-						const fingerprintPromise = ctx.fingerprintPromise || Promise.resolve('fp-anon');
-						Promise.resolve(fingerprintPromise)
-							.then(function (fingerprintId) {
-								return fetch('/api/notify-download', {
-									method: 'POST',
-									headers: { 'Content-Type': 'application/json' },
-									body: JSON.stringify({
-										fingerprint_id: fingerprintId,
-										subject_link: subject_link,
-										subject_name: subjectName,
-										exam_type: examType,
-										file_count: downloaded
-									})
-								});
-							})
-							.catch(function (e) {
-								console.warn('notify-download failed', e);
-							});
-					} catch (e) {
-						console.warn('notify-download error', e);
-					}
-				})();
-			} catch (err) {
-				console.error(err);
-				setStatus("Failed to create ZIP file. Please try again.", "error", 0);
-			} finally {
-				buttons.forEach(b => b.disabled = false);
-			}
-		} catch (err) {
-			console.error(err);
-			setStatus("An unexpected error occurred. Please try again or contact support if the issue persists.", "error", 0);
-			const buttons = document.querySelectorAll('button[data-download]');
-			buttons.forEach(b => b.disabled = false);
+			const subjectName = getSubjectName();
+			const suffix = examType === "all" ? "papers" : examType;
+			const zipName = `${sanitizeZipPart(subjectName)}-${suffix}.zip`;
+			saveAs(blob, zipName);
+			setStatus("Download complete. Your ZIP file is ready.", result.failed ? "warning" : "success", 100);
+
+			setTimeout(resetStatus, 3000);
+			notifyDownload(getSubjectLinkFromPath(), subjectName, examType, result.downloaded);
+		} catch (error) {
+			console.error(error);
+			setStatus("An unexpected error occurred. Please try again.", "error", 0);
+		} finally {
+			buttons.forEach((item) => { item.disabled = false; });
 		}
 	}
 
-	// expose public API
 	window.DownloadPaper = {
-		handleClick
+		handleClick,
+		_resolvePapersForDownload: resolvePapersForDownload
 	};
 })();

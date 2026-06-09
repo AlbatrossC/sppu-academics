@@ -634,6 +634,7 @@
         window.paperDownloadContext = {
             subjectLink: subjectLinkFromServer,
             subjectName: subjectNameFromServer,
+            papers: questionModalDataFromServer.papers || [],
             fingerprintPromise: (async function () {
                 async function waitForFingerprintJs() {
                     for (var attempt = 0; attempt < 20; attempt++) {
@@ -670,6 +671,74 @@
                 }
             })()
         };
+
+        function getDownloadExamType(paper) {
+            var explicit = String(
+                paper.examType ||
+                paper.exam_type ||
+                paper.exam ||
+                (paper.source_metadata && paper.source_metadata.exam) ||
+                ''
+            ).toLowerCase();
+
+            if (explicit === 'insem' || explicit === 'endsem' || explicit === 'other') {
+                return explicit;
+            }
+
+            var path = String(
+                paper.canonicalPath ||
+                paper.canonical_path ||
+                paper.filename ||
+                paper.originalFilename ||
+                paper.url ||
+                paper.link ||
+                paper.pdf_url ||
+                ''
+            ).toLowerCase();
+            var filename = path.split('/').pop();
+
+            if (filename.indexOf('insem_') === 0 || filename.indexOf('insem-') === 0) return 'insem';
+            if (filename.indexOf('endsem_') === 0 || filename.indexOf('endsem-') === 0) return 'endsem';
+            return 'other';
+        }
+
+        function setDownloadOptionVisible(buttonId, visible) {
+            var button = document.getElementById(buttonId);
+            var option = button && button.closest ? button.closest('.download-option') : null;
+            if (option) {
+                option.style.display = visible ? '' : 'none';
+            }
+        }
+
+        function configureDownloadOptions() {
+            var papers = questionModalDataFromServer.papers || [];
+            var available = papers.reduce(function (set, paper) {
+                set[getDownloadExamType(paper)] = true;
+                return set;
+            }, {});
+
+            var hasInsem = !!available.insem;
+            var hasEndsem = !!available.endsem;
+            var allTitle = document.querySelector('#download-all-btn')
+                && document.querySelector('#download-all-btn').closest('.download-option')
+                && document.querySelector('#download-all-btn').closest('.download-option').querySelector('.download-option-title');
+            var allDesc = document.querySelector('#download-all-btn')
+                && document.querySelector('#download-all-btn').closest('.download-option')
+                && document.querySelector('#download-all-btn').closest('.download-option').querySelector('.download-option-desc');
+
+            setDownloadOptionVisible('download-insem-btn', hasInsem);
+            setDownloadOptionVisible('download-endsem-btn', hasEndsem);
+            setDownloadOptionVisible('download-all-btn', papers.length > 0);
+
+            if (allTitle) {
+                allTitle.textContent = hasInsem || hasEndsem ? 'All Papers' : 'Download Papers';
+            }
+            if (allDesc) {
+                allDesc.textContent = hasInsem || hasEndsem
+                    ? 'Download all available question papers as ZIP'
+                    : 'Download available question papers as ZIP';
+            }
+        }
 
         // Custom Dropdown Component with improved logic
         var CustomDropdown = {
@@ -1536,6 +1605,7 @@
         function openDownloadModal() {
             if (DOM.downloadModal && DOM.downloadSubjectName) {
                 DOM.downloadSubjectName.textContent = subjectNameFromServer || 'Subject';
+                configureDownloadOptions();
                 DOM.downloadModal.classList.add('active');
                 document.body.style.overflow = 'hidden';
                 Logger.info('Download modal opened');
