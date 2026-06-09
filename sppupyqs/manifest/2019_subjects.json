@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-06T21:02:19Z",
+  "generatedAt": "2026-06-09T14:30:58Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -2433,6 +2433,505 @@
       "yearName": "TE",
       "yearFullName": "Third Year",
       "semesterNo": 5
+    },
+    "computer_graphics_aiml": {
+      "subjectKey": "computer_graphics_aiml",
+      "shortCode": "cg",
+      "fullName": "Computer Graphics",
+      "normalizedName": "computer_graphics",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2025_aiml_cga_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_may_jun_2025_aiml_cga_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_nov_dec_2025_aiml_cga_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2026_aiml_cga_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 4
+    },
+    "computer_networks_aiml": {
+      "subjectKey": "computer_networks_aiml",
+      "shortCode": "cn",
+      "fullName": "Computer Networks",
+      "normalizedName": "computer_networks",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Yk6KDKB-VoBQhlpqpR7GBeQS57_UIft5",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_networks_aiml/endsem_nov_dec_2024_aiml_cna_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1OMZcodGFeWDRXO4839eY5bymDFAklllM",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_networks_aiml/insem_sep_2024_aiml_cna_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "16VqHuaFBEAJEEZRslPX-m2v8yC_4hYMM",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_networks_aiml/endsem_may_jun_2025_aiml_cna_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1vx9E2t-4SRcOhwZOtqAp6-KANfu7TyFT",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_networks_aiml/endsem_nov_dec_2025_aiml_cna_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1h3kY6DvX8B36Cp-PptmrHEZabREd4TcP",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_networks_aiml/insem_oct_2025_aiml_cna_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 3
+    },
+    "data_structures_and_algoriths_aiml": {
+      "subjectKey": "data_structures_and_algoriths_aiml",
+      "shortCode": "dsa",
+      "fullName": "Data Structures & Algoriths",
+      "normalizedName": "data_structures_and_algoriths",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2024_aiml_dsaa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_sep_2024_aiml_dsaa_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_may_jun_2025_aiml_dsaa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2025_aiml_dsaa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_oct_2025_aiml_dsaa_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 3
+    },
+    "database_management_system_aiml": {
+      "subjectKey": "database_management_system_aiml",
+      "shortCode": "dms",
+      "fullName": "Database Management System",
+      "normalizedName": "database_management_system",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1C0Kw8YA0EmARHoVoqMHnV2gsTBEZpiUL",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/database_management_system_aiml/insem_mar_2025_aiml_dmsa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1oXP8ehK449asJJ3M4voBeNuoMLFrEgEs",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/database_management_system_aiml/endsem_may_jun_2025_aiml_dmsa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ieXxgKNbFx3wDOgoN9nalzhgVm4xsDim",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/database_management_system_aiml/endsem_nov_dec_2025_aiml_dmsa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1B6eLn-035ZmYyFZ2XaXSxC0wXMiX23lh",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/database_management_system_aiml/insem_mar_2026_aiml_dmsa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 4
+    },
+    "discrete_mathematics_aiml": {
+      "subjectKey": "discrete_mathematics_aiml",
+      "shortCode": "dm",
+      "fullName": "Discrete Mathematics",
+      "normalizedName": "discrete_mathematics",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1YrGt5t3gy_NJoZ-4JFfSPr9NWvca-7q8",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/discrete_mathematics_aiml/endsem_nov_dec_2024_aiml_dma_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1PGF0GyV8-nzjPN_fFVLIxqJZFQCfxPDr",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/discrete_mathematics_aiml/insem_sep_2024_aiml_dma_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1I5Gc_YQJcBB1i_FzDJOE0LEZYjHOroaQ",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/discrete_mathematics_aiml/endsem_may_jun_2025_aiml_dma_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1kSTDY51yO2vcVS2gUOeLdJ_xD2Ehifjd",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/discrete_mathematics_aiml/endsem_nov_dec_2025_aiml_dma_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1aMIJsROe76kHNQ5VAj8igqQXeZz_7wCL",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/discrete_mathematics_aiml/insem_oct_2025_aiml_dma_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 3
+    },
+    "engineering_mathematics_III_aiml": {
+      "subjectKey": "engineering_mathematics_III_aiml",
+      "shortCode": "emIII",
+      "fullName": "Engineering Mathematics - III",
+      "normalizedName": "engineering_mathematics_III",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2024_aiml_emIIIa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2024_aiml_emIIIa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2025_aiml_emIIIa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2025_aiml_emIIIa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2025_aiml_emIIIa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2026_aiml_emIIIa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 4
+    },
+    "funda_of_artificial_intelligence_and_machine_learning_aiml": {
+      "subjectKey": "funda_of_artificial_intelligence_and_machine_learning_aiml",
+      "shortCode": "faiml",
+      "fullName": "Funda. Of Artificial Intelligence And Machine Learning",
+      "normalizedName": "funda_of_artificial_intelligence_and_machine_learning",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1y2qn8msgNxM9p9JwHq6keXqK7UbjAJWl",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/funda_of_artificial_intelligence_and_machine_learning_aiml/insem_mar_2025_aiml_faimla_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1mv-cFLZX6GtrvJ9Yl57cXv-rzaWztWXI",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/funda_of_artificial_intelligence_and_machine_learning_aiml/endsem_may_jun_2025_aiml_faimla_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "14uiCfNTlrqNh-UWPwKW4EKSh0Fh1Zd8y",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/funda_of_artificial_intelligence_and_machine_learning_aiml/endsem_nov_dec_2025_aiml_faimla_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Ltab_MDAicHWg6YvwX4NL7WomVOH3Fg0",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/funda_of_artificial_intelligence_and_machine_learning_aiml/insem_mar_2026_aiml_faimla_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 4
+    },
+    "object_oriented_programming_aiml": {
+      "subjectKey": "object_oriented_programming_aiml",
+      "shortCode": "oop",
+      "fullName": "Object Oriented Programming",
+      "normalizedName": "object_oriented_programming",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2024_aiml_oopa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_sep_2024_aiml_oopa_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_may_jun_2025_aiml_oopa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2025_aiml_oopa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_oct_2025_aiml_oopa_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 3
+    },
+    "operating_systems_aiml": {
+      "subjectKey": "operating_systems_aiml",
+      "shortCode": "os",
+      "fullName": "Operating Systems",
+      "normalizedName": "operating_systems",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2025_aiml_osa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_may_jun_2025_aiml_osa_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_nov_dec_2025_aiml_osa_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2026_aiml_osa_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 4
+    },
+    "software_engineering_aiml": {
+      "subjectKey": "software_engineering_aiml",
+      "shortCode": "se",
+      "fullName": "Software Engineering",
+      "normalizedName": "software_engineering",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-machine-learning",
+      "branchCode": "aiml",
+      "branchName": "Artificial Intelligence and Machine Learning",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1q0UY5zVBOXNyvKe9wGztG2VK158b2pgp",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/software_engineering_aiml/endsem_nov_dec_2024_aiml_sea_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1_P21qoJBOzajy5pI-VaGcKFShOUk3-zK",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/software_engineering_aiml/insem_sep_2024_aiml_sea_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1D49nXqSmrXOagu30hjlGXwhXpRrMyoZ8",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/software_engineering_aiml/endsem_may_jun_2025_aiml_sea_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1uDj4LjfeaWpW29xJdkp9TgVMWdGgR3aM",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/software_engineering_aiml/endsem_nov_dec_2025_aiml_sea_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1wPccdJvrWAWz1wKhOw-UV3yidoSETANS",
+          "canonicalPath": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/software_engineering_aiml/insem_oct_2025_aiml_sea_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year",
+      "semesterNo": 3
     },
     "blockchain_technology_ce": {
       "subjectKey": "blockchain_technology_ce",

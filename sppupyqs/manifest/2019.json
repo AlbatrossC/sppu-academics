@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-06T21:02:19Z",
+  "generatedAt": "2026-06-09T14:30:58Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -270,6 +270,91 @@
                   "fullName": "Web Technology",
                   "normalizedName": "web_technology",
                   "semesterNo": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "artificial-intelligence-and-machine-learning",
+          "branchCode": "aiml",
+          "branchName": "Artificial Intelligence and Machine Learning",
+          "years": [
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": true,
+              "subjects": [
+                {
+                  "subjectKey": "computer_graphics_aiml",
+                  "shortCode": "cg",
+                  "fullName": "Computer Graphics",
+                  "normalizedName": "computer_graphics",
+                  "semesterNo": 4
+                },
+                {
+                  "subjectKey": "computer_networks_aiml",
+                  "shortCode": "cn",
+                  "fullName": "Computer Networks",
+                  "normalizedName": "computer_networks",
+                  "semesterNo": 3
+                },
+                {
+                  "subjectKey": "data_structures_and_algoriths_aiml",
+                  "shortCode": "dsa",
+                  "fullName": "Data Structures & Algoriths",
+                  "normalizedName": "data_structures_and_algoriths",
+                  "semesterNo": 3
+                },
+                {
+                  "subjectKey": "database_management_system_aiml",
+                  "shortCode": "dms",
+                  "fullName": "Database Management System",
+                  "normalizedName": "database_management_system",
+                  "semesterNo": 4
+                },
+                {
+                  "subjectKey": "discrete_mathematics_aiml",
+                  "shortCode": "dm",
+                  "fullName": "Discrete Mathematics",
+                  "normalizedName": "discrete_mathematics",
+                  "semesterNo": 3
+                },
+                {
+                  "subjectKey": "engineering_mathematics_III_aiml",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Mathematics - III",
+                  "normalizedName": "engineering_mathematics_III",
+                  "semesterNo": 4
+                },
+                {
+                  "subjectKey": "funda_of_artificial_intelligence_and_machine_learning_aiml",
+                  "shortCode": "faiml",
+                  "fullName": "Funda. Of Artificial Intelligence And Machine Learning",
+                  "normalizedName": "funda_of_artificial_intelligence_and_machine_learning",
+                  "semesterNo": 4
+                },
+                {
+                  "subjectKey": "object_oriented_programming_aiml",
+                  "shortCode": "oop",
+                  "fullName": "Object Oriented Programming",
+                  "normalizedName": "object_oriented_programming",
+                  "semesterNo": 3
+                },
+                {
+                  "subjectKey": "operating_systems_aiml",
+                  "shortCode": "os",
+                  "fullName": "Operating Systems",
+                  "normalizedName": "operating_systems",
+                  "semesterNo": 4
+                },
+                {
+                  "subjectKey": "software_engineering_aiml",
+                  "shortCode": "se",
+                  "fullName": "Software Engineering",
+                  "normalizedName": "software_engineering",
+                  "semesterNo": 3
                 }
               ]
             }
