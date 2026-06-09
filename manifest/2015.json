@@ -2,10 +2,215 @@
   "schemaVersion": 2,
   "pattern": "2015_pattern",
   "patternYear": "2015",
-  "generatedAt": "2026-06-09T14:30:58Z",
+  "generatedAt": "2026-06-09T18:15:27Z",
   "hierarchy": {
     "standard": {
       "branches": [
+        {
+          "branchKey": "civil-engineering",
+          "branchCode": "ce",
+          "branchName": "Civil Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_concrete_technology_ce",
+                  "shortCode": "act",
+                  "fullName": "Advanced Concrete Technology",
+                  "normalizedName": "advanced_concrete_technology"
+                },
+                {
+                  "subjectKey": "air_pollution_and_control_ele_III_ce",
+                  "shortCode": "apc_eIII",
+                  "fullName": "Air Pollution & Control_Ele_III",
+                  "normalizedName": "air_pollution_and_control_ele_III"
+                },
+                {
+                  "subjectKey": "construction_management_ele_IV_ce",
+                  "shortCode": "cm_eIV",
+                  "fullName": "Construction Management_Ele_IV",
+                  "normalizedName": "construction_management_ele_IV"
+                },
+                {
+                  "subjectKey": "dams_and_hydraulic_structures_ce",
+                  "shortCode": "dhs",
+                  "fullName": "DAMS & Hydraulic Structures",
+                  "normalizedName": "dams_and_hydraulic_structures"
+                },
+                {
+                  "subjectKey": "environmental_engg_II_ce",
+                  "shortCode": "eeII",
+                  "fullName": "Environmental Engg-II",
+                  "normalizedName": "environmental_engg_II"
+                },
+                {
+                  "subjectKey": "quantity_sur_cont_and_tenders_ce",
+                  "shortCode": "qsct",
+                  "fullName": "Quantity Sur. Cont. & Tenders",
+                  "normalizedName": "quantity_sur_cont_and_tenders"
+                },
+                {
+                  "subjectKey": "structural_design_and_drawing_III_ce",
+                  "shortCode": "sddIII",
+                  "fullName": "Structural Design & Drawing-III",
+                  "normalizedName": "structural_design_and_drawing_III"
+                },
+                {
+                  "subjectKey": "tqm_and_mis_in_civil_engg_ele_II_ce",
+                  "shortCode": "tmce_eII",
+                  "fullName": "TQM & MIS In Civil Engg_Ele-II",
+                  "normalizedName": "tqm_and_mis_in_civil_engg_ele_II"
+                },
+                {
+                  "subjectKey": "transportation_engg_ce",
+                  "shortCode": "te",
+                  "fullName": "Transportation Engg",
+                  "normalizedName": "transportation_engg"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "architectural_planning_and_design_of_building_ce",
+                  "shortCode": "apdb",
+                  "fullName": "Architectural Planning & Design of Building",
+                  "normalizedName": "architectural_planning_and_design_of_building"
+                },
+                {
+                  "subjectKey": "building_technology_and_materials_ce",
+                  "shortCode": "btm",
+                  "fullName": "Building Technology and Materials",
+                  "normalizedName": "building_technology_and_materials"
+                },
+                {
+                  "subjectKey": "concrete_technology_ce",
+                  "shortCode": "ct",
+                  "fullName": "Concrete Technology",
+                  "normalizedName": "concrete_technology"
+                },
+                {
+                  "subjectKey": "engineering_geology_ce",
+                  "shortCode": "eg",
+                  "fullName": "Engineering Geology",
+                  "normalizedName": "engineering_geology"
+                },
+                {
+                  "subjectKey": "engineering_mathematics_III_ce",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Mathematics - III",
+                  "normalizedName": "engineering_mathematics_III"
+                },
+                {
+                  "subjectKey": "fluid_mechanics_I_ce",
+                  "shortCode": "fmI",
+                  "fullName": "Fluid Mechanics - I",
+                  "normalizedName": "fluid_mechanics_I"
+                },
+                {
+                  "subjectKey": "geotechnical_engineering_ce",
+                  "shortCode": "ge",
+                  "fullName": "Geotechnical Engineering",
+                  "normalizedName": "geotechnical_engineering"
+                },
+                {
+                  "subjectKey": "strength_of_materials_ce",
+                  "shortCode": "sm",
+                  "fullName": "Strength of Materials",
+                  "normalizedName": "strength_of_materials"
+                },
+                {
+                  "subjectKey": "structural_analysis_I_ce",
+                  "shortCode": "saI",
+                  "fullName": "Structural Analysis - I",
+                  "normalizedName": "structural_analysis_I"
+                },
+                {
+                  "subjectKey": "surveying_ce",
+                  "shortCode": "s",
+                  "fullName": "Surveying",
+                  "normalizedName": "surveying"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_surveying_ce",
+                  "shortCode": "as",
+                  "fullName": "Advanced Surveying",
+                  "normalizedName": "advanced_surveying"
+                },
+                {
+                  "subjectKey": "environmental_engineering_I_ce",
+                  "shortCode": "eeI",
+                  "fullName": "Environmental Engineering - I",
+                  "normalizedName": "environmental_engineering_I"
+                },
+                {
+                  "subjectKey": "fluid_mechanics_II_ce",
+                  "shortCode": "fmII",
+                  "fullName": "Fluid Mechanics - II",
+                  "normalizedName": "fluid_mechanics_II"
+                },
+                {
+                  "subjectKey": "foundation_engineering_ce",
+                  "shortCode": "fe",
+                  "fullName": "Foundation Engineering",
+                  "normalizedName": "foundation_engineering"
+                },
+                {
+                  "subjectKey": "hydrology_and_water_resource_engg_ce",
+                  "shortCode": "hwre",
+                  "fullName": "Hydrology & Water Resource Engg",
+                  "normalizedName": "hydrology_and_water_resource_engg"
+                },
+                {
+                  "subjectKey": "infrastructure_engg_and_construction_tech_ce",
+                  "shortCode": "iect",
+                  "fullName": "Infrastructure Engg. & Construction Tech",
+                  "normalizedName": "infrastructure_engg_and_construction_tech"
+                },
+                {
+                  "subjectKey": "project_mgt_and_engg_economics_ce",
+                  "shortCode": "pmee",
+                  "fullName": "Project Mgt & Engg Economics",
+                  "normalizedName": "project_mgt_and_engg_economics"
+                },
+                {
+                  "subjectKey": "structural_analysis_II_ce",
+                  "shortCode": "saII",
+                  "fullName": "Structural Analysis - II",
+                  "normalizedName": "structural_analysis_II"
+                },
+                {
+                  "subjectKey": "structural_design_I_ce",
+                  "shortCode": "sdI",
+                  "fullName": "Structural Design - I",
+                  "normalizedName": "structural_design_I"
+                },
+                {
+                  "subjectKey": "structural_design_II_ce",
+                  "shortCode": "sdII",
+                  "fullName": "Structural Design - II",
+                  "normalizedName": "structural_design_II"
+                }
+              ]
+            }
+          ]
+        },
         {
           "branchKey": "computer-engineering",
           "branchCode": "ce",

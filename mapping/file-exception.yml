@@ -1,0 +1,7 @@
+# Add file IDs of PDFs that should be skipped during sync (e.g. corrupt files).
+# Format: "file_id": "filename or reason for skipping"
+
+exceptions:
+  # Example:
+  # "1A2b3C4d5E6f7G8h9I0j": "corrupted_file.pdf (fails OCR)"
+  "1VLpg8TEyJu9dnixjJYa0zTyaTjv_Bego": "May_Jun_2025.pdf (needs_review/honors-course/te/embedded_systems_and_internet_of_things_hc)"

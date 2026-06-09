@@ -25,100 +25,22 @@ try:
     import questionary
     from questionary import Choice, Separator, Style
 except ImportError:
-    @dataclass(frozen=True)
-    class Choice:  # type: ignore[no-redef]
-        name: str
-        value: str | None = None
+    print("Please install requirements: pip install -r requirements.txt")
+    sys.exit(1)
 
-        def __post_init__(self) -> None:
-            if self.value is None:
-                object.__setattr__(self, "value", self.name)
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+from rich.text import Text
+from rich.theme import Theme
+from rich.columns import Columns
 
-    class Separator(str):  # type: ignore[no-redef]
-        pass
-
-    class Style(list):  # type: ignore[no-redef]
-        pass
-
-    def _choice_label(choice: Any) -> str:
-        line = getattr(choice, "line", None)
-        if line is not None:
-            return str(line)
-        return choice.name if isinstance(choice, Choice) else str(choice)
-
-    def _is_separator(choice: Any) -> bool:
-        return isinstance(choice, Separator) or getattr(choice, "line", None) is not None
-
-    def _fallback_select_with_arrows(message: str, choices: list[Any]) -> str | None:
-        actionable = [choice for choice in choices if not _is_separator(choice)]
-        if not actionable:
-            return None
-
-        if os.name != "nt" or not sys.stdin.isatty():
-            print(message)
-            for index, choice in enumerate(actionable, start=1):
-                print(f"  {index}. {_choice_label(choice)}")
-            answer = input("> ").strip()
-            if not answer:
-                return None
-            try:
-                selected = actionable[int(answer) - 1]
-            except (ValueError, IndexError):
-                return None
-            return selected.value if isinstance(selected, Choice) else str(selected)
-
-        import msvcrt
-
-        selected_index = 0
-        while True:
-            os.system("cls")
-            print(message)
-            print("  Use Up/Down arrows, Enter to choose, Esc to go back.")
-            print()
-            for index, choice in enumerate(actionable):
-                pointer = ">" if index == selected_index else " "
-                print(f"  {pointer} {_choice_label(choice)}")
-
-            key = msvcrt.getch()
-            if key in {b"\x00", b"\xe0"}:
-                key = msvcrt.getch()
-                if key == b"H":
-                    selected_index = (selected_index - 1) % len(actionable)
-                elif key == b"P":
-                    selected_index = (selected_index + 1) % len(actionable)
-                continue
-            if key == b"\r":
-                selected = actionable[selected_index]
-                return selected.value if isinstance(selected, Choice) else str(selected)
-            if key in {b"\x1b", b"\x03"}:
-                return None
-
-    class _Prompt:
-        def __init__(self, message: str, choices: list[Any] | None = None, default: bool = True) -> None:
-            self.message = message
-            self.choices = choices or []
-            self.default = default
-
-        def ask(self) -> str | bool | None:
-            if not self.choices:
-                suffix = "Y/n" if self.default else "y/N"
-                answer = input(f"{self.message} [{suffix}] ").strip().lower()
-                if not answer:
-                    return self.default
-                return answer in {"y", "yes"}
-            return _fallback_select_with_arrows(self.message, self.choices)
-
-    class _QuestionaryFallback:
-        @staticmethod
-        def select(message: str, choices: list[Any], **_: Any) -> _Prompt:
-            return _Prompt(message, choices)
-
-        @staticmethod
-        def confirm(message: str, **kwargs: Any) -> _Prompt:
-            return _Prompt(message, default=bool(kwargs.get("default", True)))
-
-    questionary = _QuestionaryFallback()  # type: ignore[assignment]
-
+console = Console(theme=Theme({
+    "info": "cyan",
+    "warning": "yellow",
+    "error": "red bold",
+    "success": "green bold",
+}))
 
 ROOT = Path(__file__).resolve().parent
 PYTHON = sys.executable
@@ -141,32 +63,18 @@ EXIT = "Exit"
 ALL_SCOPE = "All mapped folders"
 
 
-THEME = Style(
-    [
-        ("qmark", "fg:#7DD3FC bold"),
-        ("question", "fg:#F8FAFC bold"),
-        ("answer", "fg:#86EFAC bold"),
-        ("pointer", "fg:#FDE68A bold"),
-        ("highlighted", "fg:#FDE68A bold"),
-        ("selected", "fg:#86EFAC"),
-        ("separator", "fg:#64748B"),
-        ("instruction", "fg:#94A3B8 italic"),
-        ("text", "fg:#CBD5E1"),
-    ]
-)
+THEME = Style([
+    ("qmark", "fg:#38bdf8 bold"),       # Light blue
+    ("question", "fg:#f8fafc bold"),    # Slate 50
+    ("answer", "fg:#4ade80 bold"),      # Green 400
+    ("pointer", "fg:#facc15 bold"),     # Yellow 400
+    ("highlighted", "fg:#facc15 bold"), # Yellow 400
+    ("selected", "fg:#4ade80"),         # Green 400
+    ("separator", "fg:#64748b"),        # Slate 500
+    ("instruction", "fg:#94a3b8 italic"),# Slate 400
+    ("text", "fg:#cbd5e1"),             # Slate 300
+])
 
-RESET = "\033[0m"
-BOLD = "\033[1m"
-DIM = "\033[2m"
-CYAN = "\033[36m"
-BLUE = "\033[34m"
-GREEN = "\033[32m"
-YELLOW = "\033[33m"
-RED = "\033[31m"
-MAGENTA = "\033[35m"
-GRAY = "\033[90m"
-WHITE = "\033[37m"
-NATIVE_WINDOWS_TUI = os.name == "nt" and os.environ.get("SPPU_TUI_NATIVE", "1") != "0"
 CLEAR_SCREENS = os.environ.get("SPPU_TUI_CLEAR", "0") == "1"
 
 
@@ -426,8 +334,12 @@ def dashboard_values() -> dict[str, Any]:
     }
 
 
+def clear() -> None:
+    console.clear()
+
+
 def metric(label: str, value: int, style: str) -> str:
-    return f"{color(label, GRAY)} {color(str(value), BOLD + style)}"
+    return f"[dim]{label}[/] [bold {style}]{value}[/]"
 
 
 def clipped(value: str, limit: int) -> str:
@@ -437,50 +349,67 @@ def clipped(value: str, limit: int) -> str:
     return value[: max(0, limit - 3)].rstrip() + "..."
 
 
-def two_column(left: str, right: str, gap: int = 4) -> str:
-    width = terminal_width() - 4
-    left_width = max(34, width // 2 - gap)
-    pad = max(0, left_width - visible_len(left))
-    return f"  {left}{' ' * pad}{' ' * gap}{right}"
-
-
 def banner() -> None:
     clear()
     values = dashboard_values()
     stages = values["stages"]
     upload_stages = values["upload_stages"]
-    width = terminal_width() - 4
+    
+    table = Table(
+        title="[bold white]SPPU PYQ Operations Dashboard[/]",
+        caption="[dim]Review first. Apply deliberately. Keep the archive traceable.[/]",
+        border_style="cyan",
+        header_style="bold cyan",
+        expand=False,
+        padding=(0, 4)
+    )
+    
+    table.add_column("Local System")
+    table.add_column("Tracking Database")
+    
+    table.add_row(
+        metric("Raw Incoming PDFs", values["incoming"], "cyan"),
+        metric("Synced from Drive", stages["DOWNLOADED"], "blue")
+    )
+    table.add_row(
+        metric("Awaiting Renaming", values["needs_review"], "yellow"),
+        metric("Renamed Successfully", stages["FILE_RENAMED"], "magenta")
+    )
+    table.add_row(
+        metric("Final Papers Archive", values["papers"], "green"),
+        metric("Verified & Ready", stages["VERIFIED"], "green")
+    )
+    table.add_row(
+        metric("Remaining to Upload", values["upload_remaining"], "yellow"),
+        metric("Uploaded to Cloud", upload_stages["UPLOADED"], "green")
+    )
+    
     print()
-    print(color("  " + "SPPU PYQ Operator Console".ljust(width), BOLD + CYAN))
-    print(color("  " + "Review first. Apply deliberately. Keep the archive traceable.".ljust(width), GRAY))
-    print(color("  " + hr("="), BLUE))
-    print()
-    print(two_column(metric("incoming", values["incoming"], CYAN), metric("downloaded", stages["DOWNLOADED"], BLUE)))
-    print(two_column(metric("needs review", values["needs_review"], YELLOW), metric("renamed", stages["FILE_RENAMED"], MAGENTA)))
-    print(two_column(metric("papers", values["papers"], GREEN), metric("verified", stages["VERIFIED"], GREEN)))
-    print(two_column(metric("upload remaining", values["upload_remaining"], YELLOW), metric("uploaded", upload_stages["UPLOADED"], GREEN)))
+    console.print(table, justify="center")
     print()
 
 
 def section(title: str, subtitle: str | None = None) -> None:
     print()
-    print(color(f"  {title}", BOLD + WHITE))
+    text = f"[bold white]{title}[/]"
     if subtitle:
-        print(color(f"  {subtitle}", GRAY))
-    print(color("  " + hr(), GRAY))
+        text += f" [dim]- {subtitle}[/]"
+    console.rule(text, style="dim", align="left")
+    print()
 
 
 def note(message: str, tone: str = "info") -> None:
-    styles = {"info": CYAN, "ok": GREEN, "warn": YELLOW, "error": RED}
-    labels = {"info": "INFO", "ok": "DONE", "warn": "WARN", "error": "FAIL"}
-    style = styles.get(tone, CYAN)
-    label = labels.get(tone, "INFO")
-    print(f"  {color(label, BOLD + style)}  {message}")
+    styles = {"info": "cyan", "ok": "green", "warn": "yellow", "error": "red"}
+    icons = {"info": "ℹ", "ok": "✔", "warn": "⚠", "error": "✖"}
+    style = styles.get(tone, "cyan")
+    icon = icons.get(tone, "ℹ")
+    console.print(f"  [{style} bold]{icon}[/]  {message}")
 
 
 def pause() -> None:
     print()
-    input(color("  Press Enter to continue...", GRAY))
+    console.print("  [dim]Press Enter to continue...[/]", end="")
+    input()
 
 
 def select(message: str, choices: list[Any], show_back: bool = True) -> str | None:
@@ -488,16 +417,13 @@ def select(message: str, choices: list[Any], show_back: bool = True) -> str | No
     if show_back:
         items.extend([Separator("-" * 44), Choice(BACK, value=BACK)])
     try:
-        if NATIVE_WINDOWS_TUI:
-            answer = native_select(message, items)
-        else:
-            answer = questionary.select(
-                message,
-                choices=items,
-                style=THEME,
-                instruction="arrows to move, enter to choose",
-                qmark=">",
-            ).ask()
+        answer = questionary.select(
+            message,
+            choices=items,
+            style=THEME,
+            instruction="arrows to move, enter to choose",
+            qmark="❯",
+        ).ask()
     except KeyboardInterrupt:
         return None
     if answer in {None, BACK}:
@@ -507,7 +433,7 @@ def select(message: str, choices: list[Any], show_back: bool = True) -> str | No
 
 def confirm(message: str, default: bool = True) -> bool:
     try:
-        return bool(questionary.confirm(message, style=THEME, qmark=">", default=default).ask())
+        return bool(questionary.confirm(message, style=THEME, qmark="❯", default=default).ask())
     except KeyboardInterrupt:
         return False
 
@@ -549,20 +475,15 @@ def wrap_text(text: str, indent: str = "       ", width: int | None = None) -> l
 
 def compact_path(value: str, limit: int) -> str:
     value = re.sub(r"\s+", " ", value).strip()
-    if len(value) <= limit:
-        return value
+    
     path = value.replace("\\", "/")
     parts = path.split("/")
-    if len(parts) >= 3:
+    if len(parts) >= 2:
         filename = parts[-1]
-        parent = parts[-2]
-        prefix = parts[0]
-        candidate = f"{prefix}/.../{parent}/{filename}"
-        if len(candidate) <= limit:
-            return candidate
-    keep_left = max(10, limit // 3)
-    keep_right = max(12, limit - keep_left - 5)
-    return f"{value[:keep_left].rstrip()} ... {value[-keep_right:].lstrip()}"
+        parent = parts[:-1]
+        dim_parent = f"[dim]{'/'.join(parent)}/[/]"
+        return f"{dim_parent}[bold cyan]{filename}[/]"
+    return f"[bold cyan]{value}[/]"
 
 
 def compact_value(key: str, value: str, limit: int) -> str:
@@ -573,80 +494,87 @@ def compact_value(key: str, value: str, limit: int) -> str:
     return clipped(value, limit)
 
 
-def format_inline_rows(rows: tuple[tuple[str, str], ...], width: int) -> str:
-    if not rows:
-        return ""
-    parts: list[str] = []
-    remaining = max(24, width)
-    for key, value in rows:
-        key_text = key.strip()
-        budget = max(12, min(remaining - len(key_text) - 4, 52))
-        if key_text in {"from", "to"}:
-            budget = max(18, min(remaining - len(key_text) - 4, 38))
-        if key_text == "detail":
-            budget = max(18, min(remaining - len(key_text) - 4, 46))
-        rendered = compact_value(key_text, str(value), budget)
-        piece = f"{color(key_text + '=', GRAY)}{rendered}"
-        parts.append(piece)
-        remaining -= len(key_text) + len(rendered) + 5
-        if remaining < 20:
-            break
-    return " ".join(parts)
-
-
 def print_event(event: OutputEvent) -> None:
     if event.kind == "skip":
         return
     styles = {
-        "ok": GREEN,
-        "work": CYAN,
-        "warn": YELLOW,
-        "error": RED,
-        "stat": BLUE,
-        "rename": MAGENTA,
-        "plain": GRAY,
-        "path": CYAN,
-        "pull": GREEN,
+        "ok": "green",
+        "work": "cyan",
+        "warn": "yellow",
+        "error": "red",
+        "stat": "blue",
+        "rename": "magenta",
+        "plain": "dim",
+        "path": "cyan",
+        "pull": "green",
     }
-    labels = {
-        "ok": "DONE",
-        "work": "WORK",
-        "warn": "WARN",
-        "error": "FAIL",
-        "stat": "STAT",
-        "rename": "NAME",
-        "plain": "LOG ",
-        "path": "PATH",
-        "pull": "PULL",
+    icons = {
+        "ok": "✔",
+        "work": "⚙",
+        "warn": "⚠",
+        "error": "✖",
+        "stat": "📊",
+        "rename": "✎",
+        "plain": "·",
+        "path": "📁",
+        "pull": "↓",
     }
-    style = styles.get(event.kind, GRAY)
-    label = labels.get(event.kind, "LOG ")
-    prefix = f"  {color(label, BOLD + style)}  "
-    width = terminal_width() - len(label) - 6
+    style = styles.get(event.kind, "dim")
+    icon = icons.get(event.kind, "·")
+    
+    prefix = f"  [{style} bold]{icon}[/]  "
+    
     if event.kind == "pull":
-        print(f"{prefix}{event.title}")
+        console.print(f"{prefix}[bold]{event.title}[/]")
         for key, value in event.rows:
-            print(f"       {color(key + '=', GRAY)}{value}")
+            console.print(f"       [dim]{key}=[/]{compact_value(key, value, 80)}")
         return
+        
     if event.kind == "path":
         key = event.rows[0][0] if event.rows else "path"
         value = event.rows[0][1] if event.rows else event.title
-        title = "" if event.title == "rename field" else f"{event.title} "
-        print(f"{prefix}{title}{color(key + '=', GRAY)}{value}")
+        
+        if event.title == "rename field":
+            if key == "from":
+                console.print(f"       [red]─>[/] {compact_path(value, 999)}")
+            elif key == "to":
+                console.print(f"       [green]─>[/] {compact_path(value, 999)}")
+            else:
+                console.print(f"       [cyan]─>[/] [dim]{key}=[/]{compact_path(value, 999)}")
+            return
+            
+        title = f"{event.title} "
+        if title.startswith("Reviewing"):
+            console.rule(style="dim cyan")
+        console.print(f"{prefix}[bold]{title}[/][dim]{key}=[/]{compact_value(key, value, 80)}")
         return
+        
     if event.rows or event.one_line:
-        title = clipped(event.title, max(18, width // 3))
-        rows = format_inline_rows(event.rows, max(24, width - len(title) - 3))
-        detail = compact_value("detail", event.detail, max(24, width - len(title) - len(re.sub(r'\x1b\[[0-9;]*m', '', rows)) - 4)) if event.detail else ""
-        suffix = " ".join(part for part in (rows, detail) if part)
-        line = f"{prefix}{title}"
-        if suffix:
-            line = f"{line} {suffix}"
-        print(line)
+        if event.title == "rename metadata" and event.rows:
+            key, value = event.rows[0]
+            console.print(f"       [magenta]ℹ[/] [dim]{key.strip()}=[/][bold]{value}[/]")
+            return
+            
+        parts = []
+        for key, value in event.rows:
+            key_text = key.strip()
+            val_text = str(value)
+            if key_text in {"from", "to", "file", "path"} or "/" in val_text or "\\" in val_text:
+                val_text = compact_path(val_text, limit=60)
+            else:
+                val_text = f"[{style}]{clipped(val_text, 50)}[/]"
+            parts.append(f"[dim]{key_text}=[/]{val_text}")
+            
+        row_str = " ".join(parts)
+        detail_str = f"[dim detail=]{event.detail}[/]" if event.detail else ""
+        
+        suffix = " ".join(part for part in (row_str, detail_str) if part)
+        console.print(f"{prefix}[bold]{event.title}[/] {suffix}")
         return
-    print(f"{prefix}{compact_value('detail', event.title, width)}")
+        
+    console.print(f"{prefix}[bold]{event.title}[/]")
     if event.detail:
-        print(f"       {color('detail=', GRAY)}{compact_value('detail', event.detail, terminal_width() - 18)}")
+        console.print(f"       [dim]detail=[/]{event.detail}")
 
 
 LOG_PREFIX_RE = re.compile(r"^(?:\d{4}-\d{2}-\d{2}\s+)?\d{2}:\d{2}(?::\d{2})?\s+(?:INFO|WARNING|ERROR|DEBUG)\s+[^:]+:\s+")
@@ -702,6 +630,12 @@ def parse_output_event(raw_line: str) -> OutputEvent:
     if match:
         name, value = match.groups()
         return OutputEvent("stat", name.strip(), rows=(("value", value.strip()),), raw=line, one_line=True)
+
+    match = re.match(r"^\s*(TEXT|PADDLEOCR|GROQ|SKIP|RETRY|REVIEW)\s+(pending|done|failed|skipped|review)$", line, flags=re.IGNORECASE)
+    if match:
+        source, status = match.groups()
+        kind = "rename" if source.upper() in {"TEXT", "PADDLEOCR", "GROQ"} else "warn"
+        return OutputEvent(kind, f"{source} {status}", raw=line)
 
     if line.startswith(("python tools/", "python3 tools/")):
         return OutputEvent("work", "Next suggested command", rows=(("command", line),), raw=line)
@@ -966,7 +900,7 @@ def run_cmd(command: list[str], label: str, *, allow_failure: bool = False) -> i
 
     proc.wait()
     thread.join(timeout=1)
-    print(color("  " + hr(), GRAY))
+    console.rule(style="dim")
     if proc.returncode == 0:
         note("Step completed.", "ok")
     else:

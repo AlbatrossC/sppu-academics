@@ -6157,6 +6157,12 @@ name_registry:
     normalized: water_supply_engineering_ce
     code: wsec
     id: 1Yl72R6f3tSdRjXvKPATCbSYmIwU-dLz2
+  water_supply_engineering_ce_be: &id002
+    normalized: water_supply_engineering_ce_be
+    code: wsecb
+  water_supply_engineering_ce_te: &id003
+    normalized: water_supply_engineering_ce_te
+    code: wsect
   Wave Mechanics:
     normalized: wave_mechanics
     code: wm
@@ -10805,3 +10811,5 @@ honors_course:
           code: evth
 incoming_unmapped:
   incoming: *id001
+  water_supply_engineering_ce_be: *id002
+  water_supply_engineering_ce_te: *id003

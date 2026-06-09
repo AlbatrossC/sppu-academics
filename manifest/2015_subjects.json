@@ -2,12 +2,1764 @@
   "schemaVersion": 2,
   "pattern": "2015_pattern",
   "patternYear": "2015",
-  "generatedAt": "2026-06-09T14:30:58Z",
+  "generatedAt": "2026-06-09T18:15:27Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
   },
   "subjects": {
+    "advanced_concrete_technology_ce": {
+      "subjectKey": "advanced_concrete_technology_ce",
+      "shortCode": "act",
+      "fullName": "Advanced Concrete Technology",
+      "normalizedName": "advanced_concrete_technology",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1rPd6KI1V9OiC0HmVXV14_ipoNs_UBR9j",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/advanced_concrete_technology_ce/insem_aug_2018_ce_actc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CUS0VYf2xX354Zg6gE_gnnzeRlNCVM77",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/advanced_concrete_technology_ce/endsem_nov_dec_2018_ce_actc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1a164Ag-mRdDrlWhb9JhcMcPkxL8cY_OS",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/advanced_concrete_technology_ce/endsem_may_jun_2019_ce_actc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "122dGbu93uVLhBzr3OE7hjqqxGGIHvk9S",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/advanced_concrete_technology_ce/endsem_nov_dec_2019_ce_actc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Ajblf_l7e1tQHDkqWJdCqDjwXCNMtLvg",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/advanced_concrete_technology_ce/insem_oct_2019_ce_actc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "air_pollution_and_control_ele_III_ce": {
+      "subjectKey": "air_pollution_and_control_ele_III_ce",
+      "shortCode": "apc_eIII",
+      "fullName": "Air Pollution & Control_Ele_III",
+      "normalizedName": "air_pollution_and_control_ele_III",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1dG8EHi3kLm5pmZB1GNkv1z-iSxbDM1bl",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/insem_mar_2019_ce_apcc_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1s0YllfS5Qh_ZDSLoKrKnD1Ky4LwV66ic",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_may_jun_2019_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1U7X6g7NPFPXr8w7C5swV2IWcmdVfQ_4q",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_nov_dec_2019_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1hzZP1uv4_9JZT9KrjHmm2uAxZnWBMntD",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/insem_mar_2020_ce_apcc_eIII_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "191IzuXAKE6Nb7bvGbJmmRKJalGLp4jza",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_may_jun_2022_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1BYL532TYR8Jl9SOeGR_wiehLntg7Woit",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_nov_dec_2022_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1swnAvxHSYi-xbcRNwndcK5rL0MaspuFj",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_may_jun_2023_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Czi0wp3h_6zgHv5vsaPKf9qsNCPs9NHD",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/air_pollution_and_control_ele_III_ce/endsem_nov_dec_2023_ce_apcc_eIII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "construction_management_ele_IV_ce": {
+      "subjectKey": "construction_management_ele_IV_ce",
+      "shortCode": "cm_eIV",
+      "fullName": "Construction Management_Ele_IV",
+      "normalizedName": "construction_management_ele_IV",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1bxSbxfJBQk-l0d9wVYnrTVduJc6iroPc",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/insem_mar_2019_ce_cmc_eIV_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1hmKBXhGz3Ffzbjg7yr6mum8CIcHskmEt",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/endsem_may_jun_2019_ce_cmc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1VGiiV5RMPzyerakYTbZTbYW68PLHTG2l",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/endsem_nov_dec_2019_ce_cmc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1qjM4BmUGoZFSZ35qVsWDg5aYlUKq00LU",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/insem_mar_2020_ce_cmc_eIV_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1auCHlHQTlkCXGaiITOoJQ3mYWV5JPDzX",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/endsem_may_jun_2022_ce_cmc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1s9jdhiBM46XkQRVtWddCog0w0EEGGTzg",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/construction_management_ele_IV_ce/endsem_nov_dec_2022_ce_cmc_eIV_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "dams_and_hydraulic_structures_ce": {
+      "subjectKey": "dams_and_hydraulic_structures_ce",
+      "shortCode": "dhs",
+      "fullName": "DAMS & Hydraulic Structures",
+      "normalizedName": "dams_and_hydraulic_structures",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1XvtS5dBG-AkDcpTqt4qG4hSksG73-9Vx",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/insem_mar_2019_ce_dhsc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Eq7Le3ViFIFN-aj6QDviCOSF-0B3hvrc",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/endsem_may_jun_2019_ce_dhsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yl2QAijSMFO40Y3_lah-JL5UurDIPMU6",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/endsem_nov_dec_2019_ce_dhsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "13VKvSB4v_TqnIhMJN-xD6EiJOPVEZUpg",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/insem_mar_2020_ce_dhsc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1YIWdsiReuzd7lYJJEk72_7dEBZBZ4PIv",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/endsem_may_jun_2022_ce_dhsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1vfS9XTQKMOJl30W1kFd1ijczm4Rw-W84",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/dams_and_hydraulic_structures_ce/endsem_nov_dec_2022_ce_dhsc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "environmental_engg_II_ce": {
+      "subjectKey": "environmental_engg_II_ce",
+      "shortCode": "eeII",
+      "fullName": "Environmental Engg-II",
+      "normalizedName": "environmental_engg_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1f7-fDoS-wY-4ZfwpZD6nzytZpxPnY_EW",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/environmental_engg_II_ce/insem_aug_2018_ce_eeIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ZHFHKJ5y1Huh1EGTBvMeWf-jBjB9waG7",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/environmental_engg_II_ce/endsem_nov_dec_2018_ce_eeIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1D5FBGYGrx1LoC3TY-d_BNVDgcib423Md",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/environmental_engg_II_ce/endsem_may_jun_2019_ce_eeIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1XXycwO8HKpICNRlF1z-EfSAIeMiH0iFb",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/environmental_engg_II_ce/endsem_nov_dec_2019_ce_eeIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "168ehFg4f4zyNFOKUtv6Fe0n6wDCPcWwX",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/environmental_engg_II_ce/insem_oct_2019_ce_eeIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "quantity_sur_cont_and_tenders_ce": {
+      "subjectKey": "quantity_sur_cont_and_tenders_ce",
+      "shortCode": "qsct",
+      "fullName": "Quantity Sur. Cont. & Tenders",
+      "normalizedName": "quantity_sur_cont_and_tenders",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1ksBovLtyHRCdhYVA1CSjvWIxYcsNtd5b",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/quantity_sur_cont_and_tenders_ce/insem_mar_2019_ce_qsctc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1kFOsoFJLo2zqH1oiLqvCH7cGNODCdRR5",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/quantity_sur_cont_and_tenders_ce/endsem_may_jun_2019_ce_qsctc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FPnYhUjW-qzwPcHzKNIaj9-X4VIBXNCu",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/quantity_sur_cont_and_tenders_ce/endsem_nov_dec_2019_ce_qsctc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1iSqS8ArirBTvTnkfQQgDFQ_noGrqkiRl",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/quantity_sur_cont_and_tenders_ce/insem_mar_2020_ce_qsctc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        },
+        {
+          "pdfId": "1NRGBUD_YcrKrbI2YXldPhIgjY4Gahhcm",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/quantity_sur_cont_and_tenders_ce/endsem_may_jun_2022_ce_qsctc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "structural_design_and_drawing_III_ce": {
+      "subjectKey": "structural_design_and_drawing_III_ce",
+      "shortCode": "sddIII",
+      "fullName": "Structural Design & Drawing-III",
+      "normalizedName": "structural_design_and_drawing_III",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1V1vnnFE3J9v7VXNIUIt54GRkaiVyAwnr",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/insem_aug_2018_ce_sddIIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "13ksHjK7xCgvug9oNYylnAqAO0VUPPjMV",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/endsem_nov_dec_2018_ce_sddIIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1aIlMdT943VItCTzof_E9anux5mGJtcUn",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/endsem_may_jun_2019_ce_sddIIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FA9QU9LUQzTfopgAvrPmPuAnKSkojVKJ",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/endsem_nov_dec_2019_ce_sddIIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "13842Zu1DsZ3tTvRF5JcdaZgaOFXop-XL",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/insem_oct_2019_ce_sddIIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "180AXHidbep4VpD5bySxm4UckqdoVaQUK",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/structural_design_and_drawing_III_ce/endsem_may_jun_2022_ce_sddIIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "tqm_and_mis_in_civil_engg_ele_II_ce": {
+      "subjectKey": "tqm_and_mis_in_civil_engg_ele_II_ce",
+      "shortCode": "tmce_eII",
+      "fullName": "TQM & MIS In Civil Engg_Ele-II",
+      "normalizedName": "tqm_and_mis_in_civil_engg_ele_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1dbzkKtM0l5x5uVqITr8z7LMZ8DzhdFqY",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/tqm_and_mis_in_civil_engg_ele_II_ce/insem_aug_2018_ce_tmcec_eII_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1YARoM_Kb4IRQly_a67C2nivGZ93FDRSU",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/tqm_and_mis_in_civil_engg_ele_II_ce/endsem_nov_dec_2018_ce_tmcec_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1B87MKKiNvERqh8jFsCxwYl0m4rUS_Z6-",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/tqm_and_mis_in_civil_engg_ele_II_ce/endsem_may_jun_2019_ce_tmcec_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "11naJH3O1ScFlUFCl0li28IXrymc3YIwd",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/tqm_and_mis_in_civil_engg_ele_II_ce/endsem_nov_dec_2019_ce_tmcec_eII_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1IW-KyLb8USHNwYEGML6fUfdtVvXFDxUY",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/tqm_and_mis_in_civil_engg_ele_II_ce/insem_oct_2019_ce_tmcec_eII_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "transportation_engg_ce": {
+      "subjectKey": "transportation_engg_ce",
+      "shortCode": "te",
+      "fullName": "Transportation Engg",
+      "normalizedName": "transportation_engg",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1cFcFgkIRJxwhcPlrmfsnyJiCxdnqExw3",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/insem_aug_2018_ce_tec_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "10WqCx_cw2rqxGbmOkbGvgaqF9wetkb62",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/endsem_nov_dec_2018_ce_tec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1PVzKc_VDBy9OtTf5bTvLvmP6ctL2N_Cx",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/endsem_may_jun_2019_ce_tec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Y7TkmYMm9tpqZyJUaxUQYc909-qSJpyT",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/endsem_nov_dec_2019_ce_tec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1RrD3JwUSoyiiGmqSnR1wKakTUkw3aCz7",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/insem_oct_2019_ce_tec_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        },
+        {
+          "pdfId": "1bWVkUZeb2nmsNrZFSJ-0GKUrjL9LbjAj",
+          "canonicalPath": "papers/civil-engineering/be/2015_pattern/transportation_engg_ce/endsem_may_jun_2022_ce_tec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "architectural_planning_and_design_of_building_ce": {
+      "subjectKey": "architectural_planning_and_design_of_building_ce",
+      "shortCode": "apdb",
+      "fullName": "Architectural Planning & Design of Building",
+      "normalizedName": "architectural_planning_and_design_of_building",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1bmx_d6KaFBARC0jrS19CjlaZU_dxbvqt",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_may_jun_2017_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1eM2At6OqRsk6E2WEixY299rLDKAdMGv3",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_nov_dec_2017_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1ijb6OidfWwdvEiLO7O9snme1jPYLF0A_",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_may_jun_2018_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1jxaUL0iAslCrKcd7vrsVA9WgdX2QVRMe",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_nov_dec_2018_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1WDizP3NN5c2WtIjYXZns3xoo8Gq8KqbT",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_may_jun_2019_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1fRHhcJ8uzCU0C1kSWTJIl4P4vGrNzNts",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/architectural_planning_and_design_of_building_ce/other_nov_dec_2019_ce_apdbc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "building_technology_and_materials_ce": {
+      "subjectKey": "building_technology_and_materials_ce",
+      "shortCode": "btm",
+      "fullName": "Building Technology and Materials",
+      "normalizedName": "building_technology_and_materials",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1p0S-6nTstUXM1hn08KHsrjtimuJ6pRBA",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_nov_dec_2016_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "13-fBJDbUQgovm7zzYqcYsNC_kwcZ9hRL",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_may_jun_2017_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1n9rQJPiTOL2x4bY-Q36zFYQL10OBXEpw",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_nov_dec_2017_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1WvKysABqYZcjpBmd9WJDbNSmYo17UQAy",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_may_jun_2018_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1jZkuV-IUK7susRRW00CYkxY1s2_YiZgj",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_nov_dec_2018_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "161RaWyC2w8plwxX_lY2RYyX2IvO1mnEo",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_may_jun_2019_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1qxWeP_yR8BMIspggxs04ii4sGwVeehrj",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/building_technology_and_materials_ce/other_nov_dec_2019_ce_btmc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "concrete_technology_ce": {
+      "subjectKey": "concrete_technology_ce",
+      "shortCode": "ct",
+      "fullName": "Concrete Technology",
+      "normalizedName": "concrete_technology",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1R9RPgjbLjQxggnvyrJJcEkza6hhuv0VJ",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/concrete_technology_ce/other_may_jun_2017_ce_ctc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1jFSTmJMD9wNpfbmFhC7YHjc1rxtwp5yq",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/concrete_technology_ce/other_may_jun_2018_ce_ctc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1RryScSR4WE29exGWF9hOFI-fovk5SHuA",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/concrete_technology_ce/other_nov_dec_2018_ce_ctc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1GhX_qGQxyyeUYKlj3QMNuuVYfvpJShxu",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/concrete_technology_ce/other_may_jun_2019_ce_ctc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1vpKcmnJ815114PnivxXxPTOa8rj1w15p",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/concrete_technology_ce/other_nov_dec_2019_ce_ctc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_geology_ce": {
+      "subjectKey": "engineering_geology_ce",
+      "shortCode": "eg",
+      "fullName": "Engineering Geology",
+      "normalizedName": "engineering_geology",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1dcSRK8uthyxJqv7YVIREOTEBWKbSq8kG",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_may_jun_2017_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1KtOJrqFUcysyknKugnkbJ0citA3L2TRC",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_nov_dec_2017_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "18vypllb6NMi5_d-pDDGwj4E0Ld3F69o2",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_may_jun_2018_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1FIR2Uocj3vrFV18pYmeYX8_7UpjzmBbq",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_nov_dec_2018_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1yNuDP2Smu5S6CDmdNhy8eDCi-mLP_oC3",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_may_jun_2019_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "16umr_qlXev4QtbH0HiPufiXOWfXcp3ba",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_geology_ce/other_nov_dec_2019_ce_egc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_mathematics_III_ce": {
+      "subjectKey": "engineering_mathematics_III_ce",
+      "shortCode": "emIII",
+      "fullName": "Engineering Mathematics - III",
+      "normalizedName": "engineering_mathematics_III",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1mEoyz9F4EWVfKD5jF1PEEu0Iomi6e65V",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_nov_dec_2016_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1j76nGCpElgtwxENvaOT7kPNiJ3fIO_Uv",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_nov_dec_2017_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1m6uvwCQpgfA6_3Xtc0fW2cFByoXUAXtf",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_may_jun_2018_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1VE7fNgIiWOSiNM273BRdyUv6q2cictJr",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_nov_dec_2018_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1uVfIJycfT7IPOdMXOPRNXQPLtQdh2M4N",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_may_jun_2019_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1yzq3Ay0xg75GZ35TF2MjJDn2uBNr3xL1",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/engineering_mathematics_III_ce/other_nov_dec_2019_ce_emIIIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "fluid_mechanics_I_ce": {
+      "subjectKey": "fluid_mechanics_I_ce",
+      "shortCode": "fmI",
+      "fullName": "Fluid Mechanics - I",
+      "normalizedName": "fluid_mechanics_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1mWhSh3JdJOKSAOF_1zVCB6tzFKK_5piM",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_may_jun_2017_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1H-Ic8WY1igK1xGv6Z6vUK-cHydlvXO_b",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_nov_dec_2017_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1gtK9EvBTtIS9mjfjw-U3mRbgjQP00YR_",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_may_jun_2018_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1IyMFMlz4D6e-2ku_0i2vGYxp8ER2pHDh",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_nov_dec_2018_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1GvnXgSMJHW6EJWallzEm5usVnMt8PCw6",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_may_jun_2019_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1e35285NOSUAnlRTIIWowkyZePVbDyzLN",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/fluid_mechanics_I_ce/other_nov_dec_2019_ce_fmIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "geotechnical_engineering_ce": {
+      "subjectKey": "geotechnical_engineering_ce",
+      "shortCode": "ge",
+      "fullName": "Geotechnical Engineering",
+      "normalizedName": "geotechnical_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1ds5eWbaT0jL4Z6xV_8xT5ovAvKFJ3-Un",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_nov_dec_2016_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1YSx3PUB_QDkfT858dP2ZOfF7HpFdOhpc",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_may_jun_2017_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1uTefwWfLf2siyG5b4URp9RajlHrVNBwY",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_nov_dec_2017_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1lgXmcsTtAAAN4PdHuuJPmbRC-dUlSp_I",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_may_jun_2018_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "10RUWzwHuOGF6LLo0PPGxJgkjzc8ILdWe",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_nov_dec_2018_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1TGhNmifp4Ib_5o9CcfFdeiXu1Fm0-gLw",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_may_jun_2019_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1uFY6MgwASlJemSIRFPqhcPW_6EC58uxX",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/geotechnical_engineering_ce/other_nov_dec_2019_ce_gec_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "strength_of_materials_ce": {
+      "subjectKey": "strength_of_materials_ce",
+      "shortCode": "sm",
+      "fullName": "Strength of Materials",
+      "normalizedName": "strength_of_materials",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1LN9ui2PcCSw81VhurGoH4rOlMaaQHDDm",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_nov_dec_2016_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1h_tQ5APjHon4qopU-Vp7N8Tn825JZlCn",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_may_jun_2017_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1gMlmEg_uq7Ps2lRiOYxlvXGDwBNGoR02",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_nov_dec_2017_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1-VdFrMUliLPc6tPiICYmmXbEbsma_22f",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_nov_dec_2018_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1KWpfFqkHPkphC9esdiZQLmL6DZBzXPdi",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_may_jun_2019_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1xaRlCJS0VpFpW3r3qBy46px35Q_R5zST",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/strength_of_materials_ce/other_nov_dec_2019_ce_smc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "structural_analysis_I_ce": {
+      "subjectKey": "structural_analysis_I_ce",
+      "shortCode": "saI",
+      "fullName": "Structural Analysis - I",
+      "normalizedName": "structural_analysis_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1-7rLbsUWrPphz8Sfl9ze2bG70h-lMuRI",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_may_jun_2017_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1bGG81SPmNpR_NhBgVrc-NDCIEwYyJhdQ",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_nov_dec_2017_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1bMRXsVPh8LytngIQTsPMJwKmkv_TI7TK",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_may_jun_2018_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ca46QhtHM1BN39wdbAseY8vfnX6FmiR0",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_nov_dec_2018_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1SWnkRWme6IGzIDmbaFXitBfYmKTNKdzs",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_may_jun_2019_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "10PppFT_0I4JRO0-NbcdGgBn4tDT-SL7G",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/structural_analysis_I_ce/other_nov_dec_2019_ce_saIc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "surveying_ce": {
+      "subjectKey": "surveying_ce",
+      "shortCode": "s",
+      "fullName": "Surveying",
+      "normalizedName": "surveying",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1AU4dgWy2sgLz3EnObarubaiynMh1CAY0",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_nov_dec_2016_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1qXGmD0Pux7dTnuIdLaJQ7tEbnBpkJr23",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_may_jun_2017_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1bhKGP9g1gUnjpKc2BASSsTK4I6zv240I",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_nov_dec_2017_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "10WrHnybm8bhmypc3QPhqy5mkCaUYv5Vh",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_may_jun_2018_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "15XhbBPBFRbCuZWwJ5CuWJfgZiscIxSuP",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_may_jun_2019_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1nQuCB7aCQ1aBXNVE-9t_FAOXpCEKBuVx",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_nov_dec_2019_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "advanced_surveying_ce": {
+      "subjectKey": "advanced_surveying_ce",
+      "shortCode": "as",
+      "fullName": "Advanced Surveying",
+      "normalizedName": "advanced_surveying",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1Gpsi87iLek2-OAkzwMf1_vMIH5fCpV45",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/endsem_may_jun_2018_ce_asc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1etcaIookqubVUU2f0Ivl4sD1J8MQAPbc",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/endsem_nov_dec_2018_ce_asc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1g_RDQ6_zUmCt0Av6-Hh1aPd2AH5bGF8Q",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/insem_mar_2019_ce_asc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "10qdJIxDKpZTgnhd15uAy8fW0QSYxW3Rb",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/endsem_may_jun_2019_ce_asc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1V4pTR_UedqhGaTQy1H-qVUtpsF3vqKb4",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/endsem_nov_dec_2019_ce_asc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1tTGvc6rQVrTw1uD0dSWIp-XOFLmFtZy1",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/advanced_surveying_ce/insem_mar_2020_ce_asc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "environmental_engineering_I_ce": {
+      "subjectKey": "environmental_engineering_I_ce",
+      "shortCode": "eeI",
+      "fullName": "Environmental Engineering - I",
+      "normalizedName": "environmental_engineering_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1gFHe1r1M53HK00mc_6A4qhvW5nnKJxit",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/insem_mar_2018_ce_eeIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "11WQgmj9GOwkjWcENv29x29QGk0MIzLCi",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/endsem_may_jun_2018_ce_eeIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1DcV6DmHnxfJzg8cXGrMlDtnxSbwYnX_M",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/endsem_nov_dec_2018_ce_eeIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "12KJ5TsjijjZftIx-nm1f8CsWcYxMZctl",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/insem_mar_2019_ce_eeIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1MnlVHziIiUalRMGNBpjdIShHWlLUG0Tz",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/endsem_may_jun_2019_ce_eeIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1P_Ug4_g3-H6K47tb6YxL5LBuHJi3kEAO",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/endsem_nov_dec_2019_ce_eeIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "130ncIERSyEl_6myK_DvBeScxES8yEnqq",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/environmental_engineering_I_ce/insem_mar_2020_ce_eeIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "fluid_mechanics_II_ce": {
+      "subjectKey": "fluid_mechanics_II_ce",
+      "shortCode": "fmII",
+      "fullName": "Fluid Mechanics - II",
+      "normalizedName": "fluid_mechanics_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1_2jw31GW-2TRiBX0HogItCGA5bXJ4Y9w",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/insem_aug_2017_ce_fmIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1BPmyVnio-9-UOkQJ_HQerJwMgXPHI_5D",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/endsem_nov_dec_2017_ce_fmIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1hdUughzLdHwmBbCHEndTljmRnD5WDz9G",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/insem_aug_2018_ce_fmIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1KX3p5OOxCD7VURm62NcjdnPe92dXoEDa",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/endsem_may_jun_2018_ce_fmIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1cNK5u8o_deKrW_ffaWt6xmUQk_ybfbIF",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/endsem_nov_dec_2018_ce_fmIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1KQVF2icJYOFHmN_sZhnogZ45FtD-OkxY",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/endsem_may_jun_2019_ce_fmIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1O6XHw8sp4gcqkx9w5ocEAaloogOrwDok",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/endsem_nov_dec_2019_ce_fmIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1lU1Gs572I5RbVg_3VZTJnowe7_gvzSwg",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/fluid_mechanics_II_ce/insem_oct_2019_ce_fmIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "foundation_engineering_ce": {
+      "subjectKey": "foundation_engineering_ce",
+      "shortCode": "fe",
+      "fullName": "Foundation Engineering",
+      "normalizedName": "foundation_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1u4vLyTWpuuXnjy-j47CRl3M9sEdUlRok",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/insem_mar_2018_ce_fec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1K6-l0K5ncY_Am_Yx34AMhZ6rUgZNRhWt",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/endsem_may_jun_2018_ce_fec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CwTyK8a35eHN1h3ZD_0PLmprGX6kDS0r",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/endsem_nov_dec_2018_ce_fec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1n7yZkLrKQZybD_qBfW1RJ9GQzJuDMoHF",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/insem_mar_2019_ce_fec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "13dt5ji_N7LwTSGVCaLutxXC5DC76lGD1",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/endsem_may_jun_2019_ce_fec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "13KSte7X2QQjjGPbrUHivPH73Vz9kJhQf",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/endsem_nov_dec_2019_ce_fec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "18stVGDXRqKtaY-EOCkjBMrk78CCzozht",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/foundation_engineering_ce/insem_mar_2020_ce_fec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "hydrology_and_water_resource_engg_ce": {
+      "subjectKey": "hydrology_and_water_resource_engg_ce",
+      "shortCode": "hwre",
+      "fullName": "Hydrology & Water Resource Engg",
+      "normalizedName": "hydrology_and_water_resource_engg",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "15VLYMNOrCn1WhYQU0BMmagKE_kyWCirW",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/insem_aug_2017_ce_hwrec_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1uEk7LMTeUiYeilILGWmmEkjRlvw1stF2",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/endsem_nov_dec_2017_ce_hwrec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1u72kQJngyOmf66jBZXXjj4WzEZFdq1UN",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/insem_aug_2018_ce_hwrec_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1NU_C41ycijbqvv6mT24lNNMOrR5yzpfd",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/endsem_may_jun_2018_ce_hwrec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1wT7gB95IT4X15biOcxxrMfe3mghD3JuJ",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/endsem_nov_dec_2018_ce_hwrec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1pn8skJK5kLaoVCdNXigFevEDeEgE_k7M",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/endsem_may_jun_2019_ce_hwrec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "13JuAsTMhMLv0IZRqAhBA6SMiROK3KJNq",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/endsem_nov_dec_2019_ce_hwrec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1l_IwpoiM4k_JJW0iumz0DBFQI3pd6I8t",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/hydrology_and_water_resource_engg_ce/insem_oct_2019_ce_hwrec_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "infrastructure_engg_and_construction_tech_ce": {
+      "subjectKey": "infrastructure_engg_and_construction_tech_ce",
+      "shortCode": "iect",
+      "fullName": "Infrastructure Engg. & Construction Tech",
+      "normalizedName": "infrastructure_engg_and_construction_tech",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1VKq18CFM-nMeugF-0VSCA9KF7GGiJrX3",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/insem_aug_2017_ce_iectc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1ovXqyGJVwFuvyaqCIBmYdEhwJKPX45ml",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/endsem_may_jun_2018_ce_iectc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1s8CNkFZ8gZAA0-btZt-YcneWvPIsCtt9",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/endsem_nov_dec_2018_ce_iectc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1OdBuvkjpnxjM6hnetVOfDSWchK8Uy2fZ",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/endsem_may_jun_2019_ce_iectc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1lkxLZq-VJf7qTXSCpUGCCLxuM_GvpNB-",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/endsem_nov_dec_2019_ce_iectc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Dy2cV4AR-9A4WtGddIf9LZtf4CSt2qnJ",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/infrastructure_engg_and_construction_tech_ce/insem_oct_2019_ce_iectc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "project_mgt_and_engg_economics_ce": {
+      "subjectKey": "project_mgt_and_engg_economics_ce",
+      "shortCode": "pmee",
+      "fullName": "Project Mgt & Engg Economics",
+      "normalizedName": "project_mgt_and_engg_economics",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1rCqY6GN3YFhk3S2zQgsTq8UTnyB7XDAz",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/insem_mar_2018_ce_pmeec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ahybfXfD5jKrto0HQC-MKOQ11yBVyMd6",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/endsem_may_jun_2018_ce_pmeec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1zA0-bDqrZC-Qd3oxMKKB_rlWM4Dczv_K",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/endsem_nov_dec_2018_ce_pmeec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1PTtNwuYGcLJPbmKzrWjpkTqYYwUDxl4X",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/insem_mar_2019_ce_pmeec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1-_v5qc_VNg3j6mpsukcj2WNUC5mkoVR1",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/endsem_may_jun_2019_ce_pmeec_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "17vSrw4dmiCSdhifg1R6Nb_GxHz7XXTX3",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/endsem_nov_dec_2019_ce_pmeec_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1BYXhhSJkJ4FAL8e3n3R3T28LczDFYEZe",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/project_mgt_and_engg_economics_ce/insem_mar_2020_ce_pmeec_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "structural_analysis_II_ce": {
+      "subjectKey": "structural_analysis_II_ce",
+      "shortCode": "saII",
+      "fullName": "Structural Analysis - II",
+      "normalizedName": "structural_analysis_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "1IyenF8sqB6LogSmqf3B3Om1XD_BfcsH8",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/insem_aug_2017_ce_saIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1O0j0h2uPVFe1YTAkUAO2VeykkqtHcPOX",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/endsem_nov_dec_2017_ce_saIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Gu4-TkUATSIwO7yASgy84DFIVJKhmRtX",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/insem_aug_2018_ce_saIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "14jcZMf41TiYXlQAOzgE0PX97BmyWIbNE",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/endsem_may_jun_2018_ce_saIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1RAMD9A6_xR5geIrIXh9m7_oxn9qLSiO0",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/endsem_nov_dec_2018_ce_saIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1I35V-r-qosffILFloJUefnG4SFJVnF7-",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/endsem_may_jun_2019_ce_saIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1qeb1gQDbIjH006WGiPmjSfbISLKu2kiw",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/endsem_nov_dec_2019_ce_saIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1jmuYK7NXu_Vg1X5ZHL-kcQXKuqy8uQKq",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_analysis_II_ce/insem_oct_2019_ce_saIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "structural_design_II_ce": {
+      "subjectKey": "structural_design_II_ce",
+      "shortCode": "sdII",
+      "fullName": "Structural Design - II",
+      "normalizedName": "structural_design_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "18X_hL90pcvkpf5EJ-YH1xSMYwZF-G2As",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/insem_mar_2018_ce_sdIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1lSo_7Xi0hbjtPnpz4KL430jHc8z73fe3",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/endsem_may_jun_2018_ce_sdIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "19lZ867qRgDQs1H8QEqJ7TpZ6zAX_Nbhv",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/endsem_nov_dec_2018_ce_sdIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1TWDI8tZz4UyRtujgpgGXshkCn1ysJF6P",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/insem_mar_2019_ce_sdIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1FDZe0jxhECFANDz8_hiUUwR5ck9wUr1E",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/endsem_nov_dec_2019_ce_sdIIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1zSBqskSleVRLgI0qi4Bnvplal12F_ShC",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_II_ce/insem_mar_2020_ce_sdIIc_2015p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "structural_design_I_ce": {
+      "subjectKey": "structural_design_I_ce",
+      "shortCode": "sdI",
+      "fullName": "Structural Design - I",
+      "normalizedName": "structural_design_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2015_pattern",
+      "papers": [
+        {
+          "pdfId": "12bCuyO6qoInY87vxYPqBIL7tkZNtBfvt",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/insem_aug_2017_ce_sdIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1LU7BJUlFzUG7ZxbU6fch_KIz0RynXHUm",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/endsem_nov_dec_2017_ce_sdIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Rp8WKYAoiU0-lXffzmivrDzNTNnkf6SX",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/insem_aug_2018_ce_sdIc_2015p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "16oU78emiwhX14SDc1e5WwHbRUJHNp0Nu",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/endsem_may_jun_2018_ce_sdIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1fY2uBl6X0kbI65unCaKozxgOfFKp4hQm",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/endsem_nov_dec_2018_ce_sdIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1AwkHBYXZ85ycFH2cV6S78DtlWt3rcYJ8",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/endsem_may_jun_2019_ce_sdIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1ZxDss2jJ2ad1BVJDJ-txbnPpUTktN4SD",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/endsem_nov_dec_2019_ce_sdIc_2015p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1SfYfhjgkPzL9dGhdxfCRfbeqXCCKVVem",
+          "canonicalPath": "papers/civil-engineering/te/2015_pattern/structural_design_I_ce/insem_oct_2019_ce_sdIc_2015p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
     "artificial_intelligence_and_robotics_ce": {
       "subjectKey": "artificial_intelligence_and_robotics_ce",
       "shortCode": "air",

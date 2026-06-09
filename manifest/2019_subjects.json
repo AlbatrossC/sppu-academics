@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-09T14:30:58Z",
+  "generatedAt": "2026-06-09T18:15:27Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -2933,6 +2933,2791 @@
       "yearFullName": "Second Year",
       "semesterNo": 3
     },
+    "air_pollution_and_control_ele_IV_ce": {
+      "subjectKey": "air_pollution_and_control_ele_IV_ce",
+      "shortCode": "apc_eIV",
+      "fullName": "Air Pollution and Control - Ele IV",
+      "normalizedName": "air_pollution_and_control_ele_IV",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1YjIjiErZ8P8OAb1KM3n4TUfECPVM6TJk",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_nov_dec_2022_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ZZPIon4Q6u7QXDzLFPP2OXd2C6E2_e-S",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/insem_oct_2022_ce_apcc_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Y32ttWcXBnmjaHMKJ9yMKyg5Y9fZp197",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_may_jun_2023_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1iBQk8NqDdMrpggT7lhZ5oseopkGD254H",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_nov_dec_2023_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1YF71fdEM-H2xYzKTH-9F1qFxVE8cmYHI",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/insem_sep_2023_ce_apcc_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1sbSCtLS5SAbAiaTq2W0xrlbBY2H7WewF",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_may_jun_2024_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "10cBHJzVcZ0uOT5fkLnK6SjQcHeHsRopr",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_nov_dec_2024_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ut10KsZiE_MqZb8nt7R_IKSsxpzNfEKv",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/insem_sep_2024_ce_apcc_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Lb_CMk4iXOAcStzGJsGuQsCdeMvqJQVF",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/insem_aug_2025_ce_apcc_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1iXpGhPcU4FQiOeFcEnkyIHdNZtIGWbNS",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_may_jun_2025_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1sugS-u2hYb10L3L8w7BNJGscRaSl5A1C",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/air_pollution_and_control_ele_IV_ce/endsem_nov_dec_2025_ce_apcc_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "airport_and_bridge_engineering_ele_IV_ce": {
+      "subjectKey": "airport_and_bridge_engineering_ele_IV_ce",
+      "shortCode": "abe_eIV",
+      "fullName": "Airport and Bridge Engineering - Ele IV",
+      "normalizedName": "airport_and_bridge_engineering_ele_IV",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18BNOE6EeoCRnzWs3u5Qt13MeeNQm_QNq",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_nov_dec_2022_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tOT1iZ3rFzEo5U-htyEFEYStihAclUBI",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/insem_oct_2022_ce_abec_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1bcOw0vmGy7GvgIIAmEDwRRxVythCkeFa",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_may_jun_2023_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1_2bgDfLQWm9z8p2tIK7Wv3nLLQiYgTGX",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_nov_dec_2023_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "16ydRCq2CAftPxGQuw_tS2V2bRtRg_3o6",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/insem_sep_2023_ce_abec_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1J-OSNLi5P_cjGEyt93EXCfoGPR6SdtC-",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_may_jun_2024_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1YaPrqLCCbJ5iSu4JcqbKOADOxf65rEPr",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_nov_dec_2024_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1CAKVk0NydO_VnXzCK0FIlrDx93wKz6fY",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/insem_sep_2024_ce_abec_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1do12Nfr9wV3F5GvVRqwInwVTLG_Tjug9",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/airport_and_bridge_engineering_ele_IV_ce/endsem_may_jun_2025_ce_abec_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "dams_and_hydraulics_structures_ce": {
+      "subjectKey": "dams_and_hydraulics_structures_ce",
+      "shortCode": "dhs",
+      "fullName": "DAMS & Hydraulics Structures",
+      "normalizedName": "dams_and_hydraulics_structures",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_feb_2023_ce_dhsc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2023_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2023_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2024_ce_dhsc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2024_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2024_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2025_ce_dhsc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2025_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2025_ce_dhsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "foundation_engineering_ce": {
+      "subjectKey": "foundation_engineering_ce",
+      "shortCode": "fe",
+      "fullName": "Foundation Engineering",
+      "normalizedName": "foundation_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2022_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_oct_2022_ce_fec_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2023_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2023_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2023_ce_fec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2024_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2024_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2024_ce_fec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_aug_2025_ce_fec_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2025_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2025_ce_fec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "integrated_water_resource_planning_and_mgt_ele_III_ce": {
+      "subjectKey": "integrated_water_resource_planning_and_mgt_ele_III_ce",
+      "shortCode": "iwrpm_eIII",
+      "fullName": "Integrated Water Resource Planning & Mgt - Ele III",
+      "normalizedName": "integrated_water_resource_planning_and_mgt_ele_III",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2022_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_oct_2022_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2023_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2023_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2023_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2024_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2024_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2024_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_aug_2025_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2025_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2025_ce_iwrpmc_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "irrigation_and_drainage_ele_V_ce": {
+      "subjectKey": "irrigation_and_drainage_ele_V_ce",
+      "shortCode": "id_eV",
+      "fullName": "Irrigation & Drainage - Ele V",
+      "normalizedName": "irrigation_and_drainage_ele_V",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_feb_2023_ce_idc_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2023_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2023_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2024_ce_idc_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2024_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2024_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2025_ce_idc_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2025_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2025_ce_idc_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "quantity_surveying_contracts_and_tenders_ce": {
+      "subjectKey": "quantity_surveying_contracts_and_tenders_ce",
+      "shortCode": "qsct",
+      "fullName": "Quantity Surveying Contracts & Tenders",
+      "normalizedName": "quantity_surveying_contracts_and_tenders",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1PHCI3qETFNMYn7uHE99TjHPCQa32TKmN",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/insem_feb_2023_ce_qsctc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jnKNbcFixgFLxO4TVLZFRof4QLuAoOss",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_may_jun_2023_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jGHAte5UpsN27WNf6YMBSF29kwwYdEjQ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_nov_dec_2023_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "11ICo4iO3FzGl1hKZ5d-X5Jlq9X5EFYUT",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/insem_mar_2024_ce_qsctc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Baltf2BNJqScAYP37XodhwFMGapI9yl4",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_may_jun_2024_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1rNydzdkG1KmxMTeZcKi53L771Rlg-jZg",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_nov_dec_2024_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "17PkYidD0uaIYcoDmHy-V6qAo2H9Tbl2X",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/insem_mar_2025_ce_qsctc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1yXFpdeO7BAMmALn5anbt6Adatol4Ypic",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_may_jun_2025_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1iRLUpzWj4PoWJsFy9HjQNmYnReKQLUhz",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/quantity_surveying_contracts_and_tenders_ce/endsem_nov_dec_2025_ce_qsctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "tqm_and_mis_ele_VI_ce": {
+      "subjectKey": "tqm_and_mis_ele_VI_ce",
+      "shortCode": "tm_eVI",
+      "fullName": "TQM & MIS - Ele VI",
+      "normalizedName": "tqm_and_mis_ele_VI",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1lEKUdic51k-SXUd-kYbdAGHxi-iW22Ac",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/insem_feb_2023_ce_tmc_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1z-LvmcHkrgBY2HJ7nAegwxQuLM_7oFwZ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/endsem_may_jun_2023_ce_tmc_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "191MDvCR_CDJvJEbdzne_ksa02b1bf9QI",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/endsem_nov_dec_2023_ce_tmc_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1NBNRg4ICM3iG-0PbnTBNPeDOa0X-raKQ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/insem_mar_2024_ce_tmc_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1xcIjD9wQfR5O88xAUfZNJk3E0z5y_2v4",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/endsem_may_jun_2024_ce_tmc_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Iskp88WweCbuw9VbJdh3CLVMCWj6ksbC",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/endsem_nov_dec_2024_ce_tmc_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1oH27Iu1fBD1-RPv2ajhK5YGpQsiegGIR",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/insem_mar_2025_ce_tmc_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1jlR7HcDxJP2dq5Hn5kbVoPSm-aAkC8Mv",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/tqm_and_mis_ele_VI_ce/endsem_may_jun_2025_ce_tmc_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "transportation_engineering_ce": {
+      "subjectKey": "transportation_engineering_ce",
+      "shortCode": "te",
+      "fullName": "Transportation Engineering",
+      "normalizedName": "transportation_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1AELJWLBhegthjawn3Lsm0k0iqRomplIf",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_nov_dec_2022_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Urufa-Cu9xXoBStfSLeiZ3JsqOUIcJ79",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/insem_oct_2022_ce_tec_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Gke8oAiUs-TCPHYjUpnUI8ZIG7Z6GoWH",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_may_jun_2023_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1yUejh5SihDGkNgA6688uyd3W7a9UvMon",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_nov_dec_2023_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1qjDTRdXgx6V0p3NE2NySSv5-oxzukBlE",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/insem_sep_2023_ce_tec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1fd-gkmNjaZrIWeEljzEkMSUojf593fQ_",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_may_jun_2024_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1rmRlDiUxugzgeh3P3kCIgmz_OJgVPpJP",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_nov_dec_2024_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1jFWxvoGCuM4CWLBEMbv3RSTiibGrzYaJ",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/insem_sep_2024_ce_tec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1T7YtKLkU7IxgKVrWnv4hyU3CcceRX8X3",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/insem_aug_2025_ce_tec_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1oKYQ1crW6k4Fh0BZH5EBybSeuro0xjYA",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_may_jun_2025_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1xeuqLKNtlKEm1sBP0pqYrBezhfewQ7vy",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/transportation_engineering_ce/endsem_nov_dec_2025_ce_tec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "water_supply_engineering_ce_be": {
+      "subjectKey": "water_supply_engineering_ce_be",
+      "shortCode": "wse",
+      "fullName": "Water Supply Engineering",
+      "normalizedName": "water_supply_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "114KWWCnszeUULweJp023gsOPwDKXWaI1",
+          "canonicalPath": "papers/civil-engineering/be/2019_pattern/water_supply_engineering_ce_be/insem_sep_2024_ce_wsecb_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year"
+    },
+    "building_tech_and_architectural_planning_ce": {
+      "subjectKey": "building_tech_and_architectural_planning_ce",
+      "shortCode": "btap",
+      "fullName": "Building Tech & Architectural Planning",
+      "normalizedName": "building_tech_and_architectural_planning",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "18QabAhjBLtqME7if6I7lroCy5pkJWpXz",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_nov_dec_2022_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1qi3H8YTXOuexzr3DbKwB_rmWk0lUBgYk",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/insem_oct_2022_ce_btapc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "119T657hpacd-TSOD4qKsuFvkeFmJMpED",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_may_jun_2023_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1gXbg8SjqzILcoWn8JByWjHNFGQzIafyn",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_nov_dec_2023_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tuNL7P2NIF5SnGQLovSSZb0H5G33e6gO",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/insem_oct_2023_ce_btapc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1AE13Ew1YDDGglfcz3SrSPdkltf24DlYQ",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_may_jun_2024_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1UO2llvKiynjvr4jWz8rbcUPOrLMKtcyG",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_nov_dec_2024_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1MubK0mzODcDH6wHk_KoIDJ2C7wOReKew",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/insem_sep_2024_ce_btapc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "13MZlsi0dgXP7HyhM8ej5AJati38n86GV",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_may_jun_2025_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1QCtaYzwtKEvrsBNOF7PACAvrYce13Nqf",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/endsem_nov_dec_2025_ce_btapc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1j28bpTdRnOhP2fE2-l6QZyQMglqxhIYt",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/building_tech_and_architectural_planning_ce/insem_oct_2025_ce_btapc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "concrete_technology_ce": {
+      "subjectKey": "concrete_technology_ce",
+      "shortCode": "ct",
+      "fullName": "Concrete Technology",
+      "normalizedName": "concrete_technology",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1nYgEgxqm19o5ux7ll_Jjqv9fSjnDyHZN",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_may_jun_2022_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tSIh0ngJWQ3FUBIGTnMMVY6wKngQQ_pM",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_nov_dec_2022_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1GjERtas54oSUghI-o9n1ousp6whfvHf5",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/insem_feb_2023_ce_ctc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1qIsN7VvQvnCWjxeZ15OlWndLJr9Pd5qo",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_may_jun_2023_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "100vs-ZZhBj-2m9-IP4pDb7Y28_nrqRHR",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_nov_dec_2023_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1933wmNtiQNQg4YPDL0hcw4fW3YK53w0g",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/insem_mar_2024_ce_ctc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1QQAysiTqR6H3Pq2mfSPURgvM4TEI6qlM",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_may_jun_2024_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1o-eAKnqUealmPVuEmT0HO_JoGhSZn_sk",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_nov_dec_2024_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1jCe0JtqAsIou2UtYWb0AH3k7BScTIu8L",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/insem_mar_2025_ce_ctc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1DDaMsjBbc9tyGZJGsOkBhom8D5iHeo7R",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_may_jun_2025_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1KI2eFxYBhrCJmFqyRY_aSKdZEWD4xN3j",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/endsem_nov_dec_2025_ce_ctc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1YgGbQ9xyefYtDqrHdSbijJwEwCGwdyF_",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/concrete_technology_ce/insem_mar_2026_ce_ctc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_geology_ce": {
+      "subjectKey": "engineering_geology_ce",
+      "shortCode": "eg",
+      "fullName": "Engineering Geology",
+      "normalizedName": "engineering_geology",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1IuwUpOIqSvQbUBTgCKxWpfPtRpiVihzO",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_nov_dec_2022_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1R8B8vzUaAmrJD3BXQe7sg4yvI-78kkHZ",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/insem_oct_2022_ce_egc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Uj8OU6IVxLeowzcDeK4kPKyrMSJDI5d6",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_may_jun_2023_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1owD4gpzY1NapMhAbrbJRWUWNfqb5yOOm",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_nov_dec_2023_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1-SjWDwPqh29i5mQW8s5lV_Y1eArI9NWB",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/insem_oct_2023_ce_egc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "16QDgxOUiW_OmHIbtXAx7fWPtFgFr6543",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_may_jun_2024_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1KBWTy5jl8cd3v3IGgJXDWxqp-1DK7tks",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_nov_dec_2024_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Iwxv3Fbr7T-kTZPoIEy0AaRXNXjeRIB1",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/insem_sep_2024_ce_egc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1bMqljS1mzpwYTWWzWfcCbbgqwZPxdqzY",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_may_jun_2025_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Oh8IZqe8c9_PRPnP5aKzhg9sDD78pkAn",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/endsem_nov_dec_2025_ce_egc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "15kNJYp0LNGrJJWNFfIKnIsRbUxatdrQF",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_geology_ce/insem_oct_2025_ce_egc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "engineering_mathematics_III_ce": {
+      "subjectKey": "engineering_mathematics_III_ce",
+      "shortCode": "emIII",
+      "fullName": "Engineering Mathematics - III",
+      "normalizedName": "engineering_mathematics_III",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1O3UdgdlFf9ItD2iQ0HMEKgMzzSaDZjIF",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2022_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1uQWfeKB_vHqvSVtZBHqcSZJ-LYx5ooCg",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2022_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1VXYKxr7ifEw3nL7gvuYrzMgiNbCIIdOX",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2022_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1bJYAgScV_mqIx8ROcF0MKpKLH9ZbuaR8",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_oct_2022_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1RTW1znx_caEphuZdHc_LkIJzO7g-l6m-",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_feb_2023_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jdUN87LzTYf6fXsMlLyOHsavrrD-2TPZ",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2023_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "12oKVTVotRt_RPAtclJa7B8IRxAkZpa5l",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2023_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1e_UNnScUd4snp4-bO0GZHhyWU70Yhc2P",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2023_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1y5y9wMVP1oSINJT1gVIalT0bt30KTFtO",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2023_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1FqzTesgh4O7culKI_hPJ_xm1evTZNgpC",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_oct_2023_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1SNRrgONIWSev_Yn16xyVThlaV8ld9GkH",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2024_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1dG4NpFOZdvGetNjZh-bkNBhkNBWGdcY2",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2024_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "11qzr9-s_uJvpVAnC4YcmkaylJNbzW_0X",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2024_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1NG7vBSi8Fy6X0gQXPcRXKCkkp2JAwpYG",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2024_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1e0icadk2x_YYx8pXYNGzp0jnEfOvoD2A",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2024_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1waecZI7_Js0ni6e4nbnZ4f25daPdBJLV",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_sep_2024_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1FvWbG8QkiOOpRb4-KvurOoGsK7NZdwAu",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2025_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Ptc2dz-Ak1wEjOpH8KytST7qii5m0WYk",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2025_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1--b8Ra9Rjd6J9zUGk5h_-ETJb28w2Y7a",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2025_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "10qdjedRPGCsxppltot5Gi6TP0q3uJpGz",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2025_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "11PTX2eP-LuPaZwPbSyfM-3Pycj-mN2Xs",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2025_ce_emIIIc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1eUCm15_rzQKnDZkmD1hYJgE2YHNb9a7n",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_oct_2025_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Z95dSOVwlePsR1hkE_O2oUyAn7n-q0id",
+          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2026_ce_emIIIc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "fluid_mechanics_ce": {
+      "subjectKey": "fluid_mechanics_ce",
+      "shortCode": "fm",
+      "fullName": "Fluid Mechanics",
+      "normalizedName": "fluid_mechanics",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2022_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2022_ce_fmc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2023_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2023_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2023_ce_fmc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2024_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2024_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_sep_2024_ce_fmc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2025_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2025_ce_fmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2025_ce_fmc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "geotechnical_engineering_ce": {
+      "subjectKey": "geotechnical_engineering_ce",
+      "shortCode": "ge",
+      "fullName": "Geotechnical Engineering",
+      "normalizedName": "geotechnical_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2022_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2022_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_feb_2023_ce_gec_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2023_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2023_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2024_ce_gec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2024_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2024_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2025_ce_gec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2025_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2025_ce_gec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2026_ce_gec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "mechanics_of_structures_ce": {
+      "subjectKey": "mechanics_of_structures_ce",
+      "shortCode": "ms",
+      "fullName": "Mechanics of Structures",
+      "normalizedName": "mechanics_of_structures",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "19a-1zHsrofKncFjU4nbCS1koW2aNDu2x",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_nov_dec_2022_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1OnjrMGq54hWkdh2lDBMIVpa6N2C17IE_",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/insem_oct_2022_ce_msc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1CAA4yN99W21bUiETrzqc4TclpCbVm_p_",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_may_jun_2023_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1stPXLShwD6d41KDIqfM2nBPVeOqqNhSb",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_nov_dec_2023_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1t1zX9sWnViX7TOvNMvXyV0YMewkkB8nL",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/insem_oct_2023_ce_msc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2023
+        },
+        {
+          "pdfId": "18r9XGGNEG67Mk_sF0N6YZubrEOGl2mHS",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_may_jun_2024_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1mZDY6B6B-qLVeHXzokNGvU3NwD5KO46Z",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_nov_dec_2024_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1dFrPYmZa_vCqO7pinmAwzxJs5LWLee5w",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/insem_sep_2024_ce_msc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1fnoJa5y3frLsZ_raM-Exci3grdLzCiYX",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_may_jun_2025_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1T8m42gmA630_CK-XeXq4Cnqq9vBEb6ne",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/endsem_nov_dec_2025_ce_msc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1o6xg76qv7T1aTRQAsfQIFh0XiQkuLLQl",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/mechanics_of_structures_ce/insem_oct_2025_ce_msc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2025
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "project_management_ce": {
+      "subjectKey": "project_management_ce",
+      "shortCode": "pm",
+      "fullName": "Project Management",
+      "normalizedName": "project_management",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2022_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2022_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_feb_2023_ce_pmc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2023_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2023_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2024_ce_pmc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2024_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2024_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2025_ce_pmc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2025_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2025_ce_pmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2026_ce_pmc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "structural_analysis_ce": {
+      "subjectKey": "structural_analysis_ce",
+      "shortCode": "sa",
+      "fullName": "Structural Analysis",
+      "normalizedName": "structural_analysis",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1_PtAIXKyoWb8GmCASjmjt3S3o7IQe3Z8",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_may_jun_2022_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Y07bLPCALYQ3oQ8CwaM01ELx_5WN_MEI",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_nov_dec_2022_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1cBmGH8anFYk-eyUsUmk90UCJD9iGmEiY",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/insem_feb_2023_ce_sac_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1H6RaVPm0gncDljOg-xMw5soQXnGgYNTs",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_may_jun_2023_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1fDQPmnC7FlEOdl-U2ujm2bsnYlYFLPBo",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_nov_dec_2023_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Ir-1p1PJz6ShC2FzWNY3vmj85ac30Tew",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/insem_mar_2024_ce_sac_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1u6SO1-9SIzGOzGflMJLmv1v3Y_Hrc0va",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_may_jun_2024_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1v-bhSrGQ0sfFfd3z6OoeooljUu7rK4Nk",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_nov_dec_2024_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1XmB99ZMg2E3cDGKKT235r2UMDOqyQcIq",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/insem_mar_2025_ce_sac_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1WdplgCeXpLR7nLjJuTtvtVWlbAhhV2LW",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_may_jun_2025_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "14Omq1a-lQ0N-vYvPaIKNABO8o0Ae7mMi",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/endsem_nov_dec_2025_ce_sac_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1zUbVfDUbzVo4NqeBbIy1iXTAfHb7vabr",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/structural_analysis_ce/insem_mar_2026_ce_sac_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "survey_ce": {
+      "subjectKey": "survey_ce",
+      "shortCode": "s",
+      "fullName": "Survey",
+      "normalizedName": "survey",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "14dHy1R0qWXVMLX15GeFB10lxpKntGnEl",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_may_jun_2022_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1V5jlAeHRS4Xu2lo0aKIRw1JG4aE-4E2n",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_nov_dec_2022_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1xjeAQA83dRNr5MrB7d8xEKxZrKhZMEk9",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/insem_feb_2023_ce_sc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1J9qTCDkglC7fwk3DLghQLn8Q73tjmyvh",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_may_jun_2023_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1SjRrqy8bZ18UGWgadc8etC2c8zbdoZhL",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_nov_dec_2023_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1OFmp-7CZ1PXO4Qn4j6EQTUv1Qm8LTzqE",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/insem_mar_2024_ce_sc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1eoQLQuVYMOMcazworCNHReG4UlWgaODj",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_may_jun_2024_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1CMVL5kcRZw5Q7FVlLkMi0U76X9_A6YxU",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_nov_dec_2024_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "10ZstsfBVBcmWCiXrME0M-Oxjjlg2ED2H",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/insem_mar_2025_ce_sc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1rlsbqkC2ruR74mT36BJrGjXMLfAORrbG",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_may_jun_2025_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1xjsQjyKGg09mEReBfoKF7oMDR0xPNwzb",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/endsem_nov_dec_2025_ce_sc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1PJoO3Kk3xv69IoDhYflRFq3jd1A70-Wz",
+          "canonicalPath": "papers/civil-engineering/se/2019_pattern/survey_ce/insem_mar_2026_ce_sc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "se",
+      "yearName": "SE",
+      "yearFullName": "Second Year"
+    },
+    "architecture_and_town_planning_ele_II_ce": {
+      "subjectKey": "architecture_and_town_planning_ele_II_ce",
+      "shortCode": "atp_eII",
+      "fullName": "Architecture and Town Planning_Ele-II",
+      "normalizedName": "architecture_and_town_planning_ele_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "11QvvVe9oQiCNk3dEWLw8ru1ao82htIj0",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_may_jun_2022_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1WOG7BIwo6g7cPe3Slv7xh7sl3ScM9Sj4",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_nov_dec_2022_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1uydL99jIgypz8oCLJfrfjy1w16--wld-",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/insem_feb_2023_ce_atpc_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1A48RPBej2hUTWilZEs8xxJ8bHQu00qiZ",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_may_jun_2023_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1w8zL1T92UKQ1uxJLR5HcPXrSYhi0tYYG",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_nov_dec_2023_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1LQR0_u4tPU-FVM_ntWWXBOldMRADO99h",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_may_jun_2024_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Yx28kD39YKclfMU7d8U4kfixRnYpE_No",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_nov_dec_2024_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1u1qEC6_BDV3kI7OyMevliKysaZQM4qrW",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/insem_mar_2025_ce_atpc_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "14j83h1Hq3VqxOaFxsgT63181DQcKg7ai",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_may_jun_2025_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1_TwIKkEMocyqLQK1Le8OkSjwP6WXdBbe",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/endsem_nov_dec_2025_ce_atpc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1J89dw9EB7LF5CHPMAABK1eopm8JxFZXP",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/architecture_and_town_planning_ele_II_ce/insem_mar_2026_ce_atpc_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "construction_management_ele_I_ce": {
+      "subjectKey": "construction_management_ele_I_ce",
+      "shortCode": "cm_eI",
+      "fullName": "Construction Management - Ele I",
+      "normalizedName": "construction_management_ele_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2023_ce_cmc_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2023_ce_cmc_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2024_ce_cmc_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2024_ce_cmc_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2024_ce_cmc_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_aug_2025_ce_cmc_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2025_ce_cmc_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2025_ce_cmc_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "design_of_rc_structures_ce": {
+      "subjectKey": "design_of_rc_structures_ce",
+      "shortCode": "drs",
+      "fullName": "Design of RC Structures",
+      "normalizedName": "design_of_rc_structures",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2022_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2022_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_feb_2023_ce_drsc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2023_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2024_ce_drsc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2024_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2024_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2025_ce_drsc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2025_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2025_ce_drsc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2026_ce_drsc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "design_of_steel_structures_ce": {
+      "subjectKey": "design_of_steel_structures_ce",
+      "shortCode": "dss",
+      "fullName": "Design of Steel Structures",
+      "normalizedName": "design_of_steel_structures",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2022_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_oct_2022_ce_dssc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2023_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2023_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2023_ce_dssc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2024_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2024_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2024_ce_dssc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_aug_2025_ce_dssc_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz_",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2025_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2025_ce_dssc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "engineering_economics_and_financial_mgt_ce": {
+      "subjectKey": "engineering_economics_and_financial_mgt_ce",
+      "shortCode": "eefm",
+      "fullName": "Engineering Economics & Financial Mgt",
+      "normalizedName": "engineering_economics_and_financial_mgt",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_oct_2022_ce_eefmc_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2023_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2023_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2023_ce_eefmc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2024_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2024_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2024_ce_eefmc_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_aug_2025_ce_eefmc_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2025_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2025_ce_eefmc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "hydrology_and_water_resources_engineering_ce": {
+      "subjectKey": "hydrology_and_water_resources_engineering_ce",
+      "shortCode": "hwre",
+      "fullName": "Hydrology & Water Resources Engineering",
+      "normalizedName": "hydrology_and_water_resources_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2022_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_oct_2022_ce_hwrec_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2023_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2023_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2023_ce_hwrec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2024_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2024_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2024_ce_hwrec_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_aug_2025_ce_hwrec_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1EruZzrzlwasdf-wlg82Jg3okJ23gzofa",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2025_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2025_ce_hwrec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "remote_sensing_and_geographic_info_system_ce": {
+      "subjectKey": "remote_sensing_and_geographic_info_system_ce",
+      "shortCode": "rsgis",
+      "fullName": "Remote Sensing & Geographic Info. System",
+      "normalizedName": "remote_sensing_and_geographic_info_system",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1KnS0TNqqlcZkqPTL8WRURoJIZFDf5w2M",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_may_jun_2022_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Y9tjH2OwYTyeMCMLKnCHVoM65s473GxE",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_nov_dec_2022_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1GrH7gefFvyFBmJW4wyklap5pjmENMMrX",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/insem_feb_2023_ce_rsgisc_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1K9W3gR6qxvmcypl3o4IOwBacG5eV3yUK",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_may_jun_2023_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1dJi4VXmQ8GgwZ6IOmuBQTpZGUoRnFHLk",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_nov_dec_2023_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "100knw55uBIjlLGvjTOOlj4CZFZKFwcSD",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/insem_mar_2024_ce_rsgisc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1uSg-L5w14sZX1JcNdG5Ny4ArsBmR7PJ7",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_may_jun_2024_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "11I_CHx4llBZk3_vcQoM7IGv8sS6XspH9",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_nov_dec_2024_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1jsGvE-rMli4elOiAbAVvN5wPjCWdrRcF",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/insem_mar_2025_ce_rsgisc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1S-nBbQQ1NdCRmUe16FuNJeMpR6WVJ3DL",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_may_jun_2025_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1TUhpuINuP5S7gK5jDEv0TNy2-KVONIgU",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/endsem_nov_dec_2025_ce_rsgisc_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1tNVfz0UI6pdf7YgL-Ybubx8ZERQzMTSi",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/remote_sensing_and_geographic_info_system_ce/insem_mar_2026_ce_rsgisc_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "research_methodology_and_ipr_ele_I_ce": {
+      "subjectKey": "research_methodology_and_ipr_ele_I_ce",
+      "shortCode": "rmi_eI",
+      "fullName": "Research Methodology & IPR - Ele I",
+      "normalizedName": "research_methodology_and_ipr_ele_I",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1EEYbLY7Z9ynU72fIJGGmjtJI0K_XAWly",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/research_methodology_and_ipr_ele_I_ce/endsem_nov_dec_2022_ce_rmic_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1IT6OW4FzqWq-a0P38mMy-sGEkd6kEtW6",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/research_methodology_and_ipr_ele_I_ce/insem_oct_2022_ce_rmic_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1vUvRt8iJvXWDv4wvtaWOmKqVAniT8LDN",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/research_methodology_and_ipr_ele_I_ce/endsem_may_jun_2023_ce_rmic_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "15yChqQOv3tDn2wxa0eqmV9rmsAv8OfwT",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/research_methodology_and_ipr_ele_I_ce/endsem_nov_dec_2023_ce_rmic_eI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1RP9SSnAzXsVmZsaEJW0WNlI-oKr3pe3b",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/research_methodology_and_ipr_ele_I_ce/insem_sep_2023_ce_rmic_eI_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "solid_waste_management_ele_II_ce": {
+      "subjectKey": "solid_waste_management_ele_II_ce",
+      "shortCode": "swm_eII",
+      "fullName": "Solid Waste Management_Ele-II",
+      "normalizedName": "solid_waste_management_ele_II",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Q0MerBfu6bV6ZZJzKSXqF8xiU8wFTmzJ",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_may_jun_2022_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1aD2FvIQHRkvzwzVE5UYOFQhndOPmvmlR",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_nov_dec_2022_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tfEzSQp6BaksiHBURddQnYzDTAdeBqv6",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/insem_feb_2023_ce_swmc_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Ko6YAfVAt2_FpXkNFY5cVnUUcsNuWa_c",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_may_jun_2023_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "10GwuKwfUvNDljzvCWvOfXr1vXryfep_z",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_nov_dec_2023_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1WB67yHK55K4XYZexsq2TcFwlWinx1s7u",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/insem_mar_2024_ce_swmc_eII_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1-GZcv3lADhmBEGoKRVqCQPG8MrCXNX6J",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_may_jun_2024_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1aTaPOZ6mKLapbUNQd01N3BQtxmBkN4qN",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_nov_dec_2024_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1dEyAxhlhT-VCmVCB-0PrbsIVKTBysRUK",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_may_jun_2025_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1AWLIzKAgCDBBxrSVkVD97qLPV-ogTJd3",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/solid_waste_management_ele_II_ce/endsem_nov_dec_2025_ce_swmc_eII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "waste_water_engineering_ce": {
+      "subjectKey": "waste_water_engineering_ce",
+      "shortCode": "wwe",
+      "fullName": "Waste Water Engineering",
+      "normalizedName": "waste_water_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "16XjXJNRt6paDuqGaUL-S8UqqW8piMwdq",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_may_jun_2022_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2022
+        },
+        {
+          "pdfId": "1BkX2IJqTZJG8U67teLmn4PR_oRztB7vb",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_nov_dec_2022_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Y1Pk4KOiVkY6ndcfWtbwaF2S488BOkL5",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/insem_feb_2023_ce_wwec_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1oOttO4YinkQNl5KHJpnf3xgUDtXq0BWg",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_may_jun_2023_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1t1uYDjgbglxR28YJSTwDpKtoZITjin4L",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_nov_dec_2023_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ohA_M8Tzo7X0dr5jH0XzgpsdWXXP01fP",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/insem_mar_2024_ce_wwec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1K9SJP7n7Cb5D1PDlV76JuJnvp09_cfb5",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_may_jun_2024_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1OEAEK7h_jX2uX4ksVmx2EBYnfgZpkyCK",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_nov_dec_2024_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1z1KhymlX1S2A7B24tsSlBF3JRXv33_K1",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/insem_mar_2025_ce_wwec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1FwAnQ0ciN9wDX4X3q9j6t3IoA972AnW4",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_may_jun_2025_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1kLALorRQqjmp-A3P23G_2G04-jbTtxiz",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/endsem_nov_dec_2025_ce_wwec_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        },
+        {
+          "pdfId": "1rqVt-FttllKYKXJWE44BxtZ27Co9-j5t",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/waste_water_engineering_ce/insem_mar_2026_ce_wwec_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2026
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
+    "water_supply_engineering_ce_te": {
+      "subjectKey": "water_supply_engineering_ce_te",
+      "shortCode": "wse",
+      "fullName": "Water Supply Engineering",
+      "normalizedName": "water_supply_engineering",
+      "branchType": "standard",
+      "branchKey": "civil-engineering",
+      "branchCode": "ce",
+      "branchName": "Civil Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "167rMxqceiZUsge34aT15egJlI7mNJt3E",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_nov_dec_2022_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1tyxZrSt6joZP_cgMvE1qyxiu3sbcWFuT",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/insem_oct_2022_ce_wsect_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1UaVqeSHeUjH1ZjezmGsdA-iJR5QhmVfW",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_may_jun_2023_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1iwtF69lJfNcqntkiFqhtitSmocPQhmIf",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_nov_dec_2023_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "19Q1GuA6PChpRmgcDrSYDLhB7ulG5Q_y-",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/insem_sep_2023_ce_wsect_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1qNd-3ZFWXlX9G2r2tGEpg_vliX_5hR0L",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_may_jun_2024_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1HdYScCEUc0i9TwLRWuxDcCDmDoS680dv",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_nov_dec_2024_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1yrJF8l_gP7GNlc0NEjth5us1otf3UtYN",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/insem_aug_2025_ce_wsect_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1hfpVK-eqpf0bHsG6Xj3vHCMpwlfwL550",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_may_jun_2025_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ZaRkoPC2UZa3ZQCy_XIdwt9iIcBSNe9D",
+          "canonicalPath": "papers/civil-engineering/te/2019_pattern/water_supply_engineering_ce_te/endsem_nov_dec_2025_ce_wsect_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "te",
+      "yearName": "TE",
+      "yearFullName": "Third Year"
+    },
     "blockchain_technology_ce": {
       "subjectKey": "blockchain_technology_ce",
       "shortCode": "bt",
@@ -4292,107 +7077,6 @@
       "yearName": "SE",
       "yearFullName": "Second Year",
       "semesterNo": 3
-    },
-    "engineering_mathematics_III_ce": {
-      "subjectKey": "engineering_mathematics_III_ce",
-      "shortCode": "emIII",
-      "fullName": "Engineering Mathematics - III",
-      "normalizedName": "engineering_mathematics_III",
-      "branchType": "standard",
-      "branchKey": "computer-engineering",
-      "branchCode": "ce",
-      "branchName": "Computer Engineering",
-      "pattern": "2019_pattern",
-      "papers": [
-        {
-          "pdfId": "1O3UdgdlFf9ItD2iQ0HMEKgMzzSaDZjIF",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2022_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "may_jun",
-          "year": 2022
-        },
-        {
-          "pdfId": "1VXYKxr7ifEw3nL7gvuYrzMgiNbCIIdOX",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2022_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "nov_dec",
-          "year": 2022
-        },
-        {
-          "pdfId": "1RTW1znx_caEphuZdHc_LkIJzO7g-l6m-",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_feb_2023_ce_emIIIc_2019p.pdf",
-          "exam": "insem",
-          "month": "feb",
-          "year": 2023
-        },
-        {
-          "pdfId": "12oKVTVotRt_RPAtclJa7B8IRxAkZpa5l",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2023_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "may_jun",
-          "year": 2023
-        },
-        {
-          "pdfId": "1y5y9wMVP1oSINJT1gVIalT0bt30KTFtO",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2023_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "nov_dec",
-          "year": 2023
-        },
-        {
-          "pdfId": "1SNRrgONIWSev_Yn16xyVThlaV8ld9GkH",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2024_ce_emIIIc_2019p.pdf",
-          "exam": "insem",
-          "month": "mar",
-          "year": 2024
-        },
-        {
-          "pdfId": "11qzr9-s_uJvpVAnC4YcmkaylJNbzW_0X",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2024_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "may_jun",
-          "year": 2024
-        },
-        {
-          "pdfId": "1e0icadk2x_YYx8pXYNGzp0jnEfOvoD2A",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2024_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "nov_dec",
-          "year": 2024
-        },
-        {
-          "pdfId": "1FvWbG8QkiOOpRb4-KvurOoGsK7NZdwAu",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2025_ce_emIIIc_2019p.pdf",
-          "exam": "insem",
-          "month": "mar",
-          "year": 2025
-        },
-        {
-          "pdfId": "1--b8Ra9Rjd6J9zUGk5h_-ETJb28w2Y7a",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_may_jun_2025_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "may_jun",
-          "year": 2025
-        },
-        {
-          "pdfId": "11PTX2eP-LuPaZwPbSyfM-3Pycj-mN2Xs",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/endsem_nov_dec_2025_ce_emIIIc_2019p.pdf",
-          "exam": "endsem",
-          "month": "nov_dec",
-          "year": 2025
-        },
-        {
-          "pdfId": "1Z95dSOVwlePsR1hkE_O2oUyAn7n-q0id",
-          "canonicalPath": "papers/computer-engineering/se/2019_pattern/engineering_mathematics_III_ce/insem_mar_2026_ce_emIIIc_2019p.pdf",
-          "exam": "insem",
-          "month": "mar",
-          "year": 2026
-        }
-      ],
-      "yearKey": "se",
-      "yearName": "SE",
-      "yearFullName": "Second Year",
-      "semesterNo": 4
     },
     "fundamentals_of_data_structures_ce": {
       "subjectKey": "fundamentals_of_data_structures_ce",

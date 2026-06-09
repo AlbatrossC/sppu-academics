@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-09T14:30:58Z",
+  "generatedAt": "2026-06-09T18:15:27Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -355,6 +355,223 @@
                   "fullName": "Software Engineering",
                   "normalizedName": "software_engineering",
                   "semesterNo": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "civil-engineering",
+          "branchCode": "ce",
+          "branchName": "Civil Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "air_pollution_and_control_ele_IV_ce",
+                  "shortCode": "apc_eIV",
+                  "fullName": "Air Pollution and Control - Ele IV",
+                  "normalizedName": "air_pollution_and_control_ele_IV"
+                },
+                {
+                  "subjectKey": "airport_and_bridge_engineering_ele_IV_ce",
+                  "shortCode": "abe_eIV",
+                  "fullName": "Airport and Bridge Engineering - Ele IV",
+                  "normalizedName": "airport_and_bridge_engineering_ele_IV"
+                },
+                {
+                  "subjectKey": "dams_and_hydraulics_structures_ce",
+                  "shortCode": "dhs",
+                  "fullName": "DAMS & Hydraulics Structures",
+                  "normalizedName": "dams_and_hydraulics_structures"
+                },
+                {
+                  "subjectKey": "foundation_engineering_ce",
+                  "shortCode": "fe",
+                  "fullName": "Foundation Engineering",
+                  "normalizedName": "foundation_engineering"
+                },
+                {
+                  "subjectKey": "integrated_water_resource_planning_and_mgt_ele_III_ce",
+                  "shortCode": "iwrpm_eIII",
+                  "fullName": "Integrated Water Resource Planning & Mgt - Ele III",
+                  "normalizedName": "integrated_water_resource_planning_and_mgt_ele_III"
+                },
+                {
+                  "subjectKey": "irrigation_and_drainage_ele_V_ce",
+                  "shortCode": "id_eV",
+                  "fullName": "Irrigation & Drainage - Ele V",
+                  "normalizedName": "irrigation_and_drainage_ele_V"
+                },
+                {
+                  "subjectKey": "quantity_surveying_contracts_and_tenders_ce",
+                  "shortCode": "qsct",
+                  "fullName": "Quantity Surveying Contracts & Tenders",
+                  "normalizedName": "quantity_surveying_contracts_and_tenders"
+                },
+                {
+                  "subjectKey": "tqm_and_mis_ele_VI_ce",
+                  "shortCode": "tm_eVI",
+                  "fullName": "TQM & MIS - Ele VI",
+                  "normalizedName": "tqm_and_mis_ele_VI"
+                },
+                {
+                  "subjectKey": "transportation_engineering_ce",
+                  "shortCode": "te",
+                  "fullName": "Transportation Engineering",
+                  "normalizedName": "transportation_engineering"
+                },
+                {
+                  "subjectKey": "water_supply_engineering_ce_be",
+                  "shortCode": "wse",
+                  "fullName": "Water Supply Engineering",
+                  "normalizedName": "water_supply_engineering"
+                }
+              ]
+            },
+            {
+              "yearKey": "se",
+              "yearName": "SE",
+              "yearFullName": "Second Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "building_tech_and_architectural_planning_ce",
+                  "shortCode": "btap",
+                  "fullName": "Building Tech & Architectural Planning",
+                  "normalizedName": "building_tech_and_architectural_planning"
+                },
+                {
+                  "subjectKey": "concrete_technology_ce",
+                  "shortCode": "ct",
+                  "fullName": "Concrete Technology",
+                  "normalizedName": "concrete_technology"
+                },
+                {
+                  "subjectKey": "engineering_geology_ce",
+                  "shortCode": "eg",
+                  "fullName": "Engineering Geology",
+                  "normalizedName": "engineering_geology"
+                },
+                {
+                  "subjectKey": "engineering_mathematics_III_ce",
+                  "shortCode": "emIII",
+                  "fullName": "Engineering Mathematics - III",
+                  "normalizedName": "engineering_mathematics_III"
+                },
+                {
+                  "subjectKey": "fluid_mechanics_ce",
+                  "shortCode": "fm",
+                  "fullName": "Fluid Mechanics",
+                  "normalizedName": "fluid_mechanics"
+                },
+                {
+                  "subjectKey": "geotechnical_engineering_ce",
+                  "shortCode": "ge",
+                  "fullName": "Geotechnical Engineering",
+                  "normalizedName": "geotechnical_engineering"
+                },
+                {
+                  "subjectKey": "mechanics_of_structures_ce",
+                  "shortCode": "ms",
+                  "fullName": "Mechanics of Structures",
+                  "normalizedName": "mechanics_of_structures"
+                },
+                {
+                  "subjectKey": "project_management_ce",
+                  "shortCode": "pm",
+                  "fullName": "Project Management",
+                  "normalizedName": "project_management"
+                },
+                {
+                  "subjectKey": "structural_analysis_ce",
+                  "shortCode": "sa",
+                  "fullName": "Structural Analysis",
+                  "normalizedName": "structural_analysis"
+                },
+                {
+                  "subjectKey": "survey_ce",
+                  "shortCode": "s",
+                  "fullName": "Survey",
+                  "normalizedName": "survey"
+                }
+              ]
+            },
+            {
+              "yearKey": "te",
+              "yearName": "TE",
+              "yearFullName": "Third Year",
+              "semesterIncluded": false,
+              "subjects": [
+                {
+                  "subjectKey": "architecture_and_town_planning_ele_II_ce",
+                  "shortCode": "atp_eII",
+                  "fullName": "Architecture and Town Planning_Ele-II",
+                  "normalizedName": "architecture_and_town_planning_ele_II"
+                },
+                {
+                  "subjectKey": "construction_management_ele_I_ce",
+                  "shortCode": "cm_eI",
+                  "fullName": "Construction Management - Ele I",
+                  "normalizedName": "construction_management_ele_I"
+                },
+                {
+                  "subjectKey": "design_of_rc_structures_ce",
+                  "shortCode": "drs",
+                  "fullName": "Design of RC Structures",
+                  "normalizedName": "design_of_rc_structures"
+                },
+                {
+                  "subjectKey": "design_of_steel_structures_ce",
+                  "shortCode": "dss",
+                  "fullName": "Design of Steel Structures",
+                  "normalizedName": "design_of_steel_structures"
+                },
+                {
+                  "subjectKey": "engineering_economics_and_financial_mgt_ce",
+                  "shortCode": "eefm",
+                  "fullName": "Engineering Economics & Financial Mgt",
+                  "normalizedName": "engineering_economics_and_financial_mgt"
+                },
+                {
+                  "subjectKey": "hydrology_and_water_resources_engineering_ce",
+                  "shortCode": "hwre",
+                  "fullName": "Hydrology & Water Resources Engineering",
+                  "normalizedName": "hydrology_and_water_resources_engineering"
+                },
+                {
+                  "subjectKey": "remote_sensing_and_geographic_info_system_ce",
+                  "shortCode": "rsgis",
+                  "fullName": "Remote Sensing & Geographic Info. System",
+                  "normalizedName": "remote_sensing_and_geographic_info_system"
+                },
+                {
+                  "subjectKey": "research_methodology_and_ipr_ele_I_ce",
+                  "shortCode": "rmi_eI",
+                  "fullName": "Research Methodology & IPR - Ele I",
+                  "normalizedName": "research_methodology_and_ipr_ele_I"
+                },
+                {
+                  "subjectKey": "solid_waste_management_ele_II_ce",
+                  "shortCode": "swm_eII",
+                  "fullName": "Solid Waste Management_Ele-II",
+                  "normalizedName": "solid_waste_management_ele_II"
+                },
+                {
+                  "subjectKey": "waste_water_engineering_ce",
+                  "shortCode": "wwe",
+                  "fullName": "Waste Water Engineering",
+                  "normalizedName": "waste_water_engineering"
+                },
+                {
+                  "subjectKey": "water_supply_engineering_ce_te",
+                  "shortCode": "wse",
+                  "fullName": "Water Supply Engineering",
+                  "normalizedName": "water_supply_engineering"
                 }
               ]
             }

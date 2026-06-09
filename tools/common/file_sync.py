@@ -125,6 +125,20 @@ def _known_file_ids() -> set[str]:
     return tracking.known_file_ids()
 
 
+def _get_exception_file_ids() -> set[str]:
+    exception_file = PROJECT_ROOT / "mapping" / "file-exception.yml"
+    if not exception_file.exists():
+        return set()
+    try:
+        with exception_file.open("r", encoding="utf-8") as handle:
+            data = yaml.safe_load(handle) or {}
+            exceptions = data.get("exceptions") or {}
+            return set(exceptions.keys())
+    except Exception as e:
+        logging.getLogger(__name__).warning("Failed to load file-exception.yml: %s", e)
+        return set()
+
+
 def _local_file_id_exists(file_id: str) -> bool:
     return tracking.file_has_local_copy(file_id)
 
@@ -337,6 +351,9 @@ def review_file_changes(
     workers = max(1, workers)
     known_ids = _known_file_ids()
     logger.info("Loaded %d known file IDs from tracking/manifest.db.", len(known_ids))
+    exception_ids = _get_exception_file_ids()
+    if exception_ids:
+        logger.info("Loaded %d exception file IDs from mapping/file-exception.yml.", len(exception_ids))
 
     subject_folders = load_all_subject_folders(scope)
     logger.info(
@@ -362,6 +379,9 @@ def review_file_changes(
         for drive_file in drive_files:
             file_id = drive_file["id"]
             if file_id in known_ids:
+                continue
+            if file_id in exception_ids:
+                logger.info("File '%s' (%s) appeared in Drive but was skipped due to file-exception.yml", drive_file["name"], file_id)
                 continue
             filename = drive_file["name"]
             subject_changes.append(
