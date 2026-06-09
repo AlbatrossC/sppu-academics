@@ -42,6 +42,19 @@ standard:
         pattern_recognition_ele_I_aids: 5
         software_modeling_and_architectures_aids: 6
         web_technology_aids: 5
+  artificial-intelligence-and-machine-learning:
+    se:
+      2019_pattern:
+        computer_graphics_aiml: 4
+        computer_networks_aiml: 3
+        data_structures_and_algoriths_aiml: 3
+        database_management_system_aiml: 4
+        discrete_mathematics_aiml: 3
+        engineering_mathematics_III_aiml: 4
+        funda_of_artificial_intelligence_and_machine_learning_aiml: 4
+        object_oriented_programming_aiml: 3
+        operating_systems_aiml: 4
+        software_engineering_aiml: 3
   computer-engineering:
     be:
       2019_pattern:
