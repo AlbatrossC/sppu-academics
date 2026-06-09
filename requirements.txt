@@ -8,8 +8,6 @@ PyMuPDF>=1.24.0
 groq>=0.11.0
 questionary>=2.0.1
 
-# PaddleOCR GPU rename pipeline target stack.
-# On Windows with NVIDIA/CUDA, install the GPU wheel appropriate to the local CUDA runtime.
-paddlepaddle-gpu==3.3.0
-paddleocr==3.6.0
-paddlex==3.6.1
+# ── PaddleOCR GPU stack ──────────────────────────────────────────────────
+paddlepaddle-gpu==2.6.2
+paddleocr==2.9.1

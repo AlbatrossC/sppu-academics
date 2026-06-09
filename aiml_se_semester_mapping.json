@@ -1,0 +1,95 @@
+{
+  "path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern",
+  "entries": [
+    {
+      "subject_key": "discrete_mathematics_aiml",
+      "subject_name": "Discrete Mathematics",
+      "semester_no": 3,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Discrete Mathematics is listed under Semester III in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "data_structures_and_algoriths_aiml",
+      "subject_name": "Data Structures & Algoriths",
+      "semester_no": 3,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Data Structures and Algorithms is listed under Semester III in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "computer_networks_aiml",
+      "subject_name": "Computer Networks",
+      "semester_no": 3,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Computer Networks is listed under Semester III in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "object_oriented_programming_aiml",
+      "subject_name": "Object Oriented Programming",
+      "semester_no": 3,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Object Oriented Programming is listed under Semester III in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "software_engineering_aiml",
+      "subject_name": "Software Engineering",
+      "semester_no": 3,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Software Engineering is listed under Semester III in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "engineering_mathematics_III_aiml",
+      "subject_name": "Engineering Mathematics - III",
+      "semester_no": 4,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Engineering Mathematics III is listed under Semester IV in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "operating_systems_aiml",
+      "subject_name": "Operating Systems",
+      "semester_no": 4,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Operating Systems is listed under Semester IV in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "funda_of_artificial_intelligence_and_machine_learning_aiml",
+      "subject_name": "Funda. Of Artificial Intelligence And Machine Learning",
+      "semester_no": 4,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Fundamentals of Artificial Intelligence and Machine Learning is listed under Semester IV in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "database_management_system_aiml",
+      "subject_name": "Database Management System",
+      "semester_no": 4,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Database Management System is listed under Semester IV in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    },
+    {
+      "subject_key": "computer_graphics_aiml",
+      "subject_name": "Computer Graphics",
+      "semester_no": 4,
+      "status": "mapped",
+      "confidence": "high",
+      "evidence": "Computer Graphics is listed under Semester IV in the SPPU SE Artificial Intelligence & Machine Learning 2020 Course syllabus.",
+      "sources": [{"title": "SPPU SE Artificial Intelligence & Machine Learning 2020 Course Syllabus", "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2021/SE_AI-DS_Curriculam_2021_28.06.2021.pdf"}]
+    }
+  ]
+}

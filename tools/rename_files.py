@@ -272,6 +272,15 @@ class PaddleOCRRunner:
         return list(dict.fromkeys(devices))
 
     def _init_for_device(self, device: str) -> Any:
+        if os.name == "nt" and device.startswith("gpu"):
+            for path in sys.path:
+                nvidia_dir = Path(path) / "nvidia"
+                if nvidia_dir.exists():
+                    for lib in ("cudnn", "cublas", "cuda_nvrtc"):
+                        bin_path = nvidia_dir / lib / "bin"
+                        if bin_path.exists() and str(bin_path) not in os.environ["PATH"]:
+                            os.environ["PATH"] = f"{bin_path};{os.environ['PATH']}"
+
         from paddleocr import PaddleOCR  # type: ignore[import-not-found]
 
         try:
