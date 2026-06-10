@@ -261,6 +261,20 @@ Then open **[http://localhost:5000](http://localhost:5000)** in your browser.
 
 <br/>
 
+### 🔄 Updating Manifests
+
+The latest manifest files (JSON data for papers and subjects) are always maintained in the `sppu-pyqs` branch. To update these manifests in the `main` or `test` branches, you need to pull the `manifest` folder from the `sppu-pyqs` branch into the `sppupyqs/manifest` directory.
+
+Run the following command (via Command Prompt, not PowerShell) to extract and place the files correctly:
+
+```cmd
+cmd /c "git archive sppu-pyqs manifest | tar -x -C sppupyqs"
+```
+
+This bypasses the folder path mismatch and directly updates the files in the `sppupyqs/manifest` directory so they are ready to be committed.
+
+<br/>
+
 ---
 
 <br/>
