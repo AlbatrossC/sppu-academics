@@ -3,7 +3,7 @@
 
 <head>
     <!-- Preload critical assets -->
-    <link rel="preload" href="/static/css/select.css?v=3.1" as="style">
+    <link rel="preload" href="{{ asset_url('css/select.css') }}" as="style">
     <link rel="preload" href="/images/logo.png" as="image">
 
     <meta name="google-site-verification" content="s0ezZ-kg4bjZR6Jbt_-6H1Im5EDs61Rg5yWJr6BHXFY" />
@@ -36,12 +36,12 @@
     <meta name="language" content="English">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/select.css', v='3.1') }}" media="all">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/header.css', v='2.8') }}" media="all">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css', v='1.0') }}" media="all">
+    <link rel="stylesheet" href="{{ asset_url('css/select.css') }}" media="all">
+    <link rel="stylesheet" href="{{ asset_url('css/header.css') }}" media="all">
+    <link rel="stylesheet" href="{{ asset_url('css/footer.css') }}" media="all">
 
     <link href="/images/logo.png" rel="icon" fetchpriority="high" type="image/png">
-    <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
+    <script src="{{ asset_url('js/analytics.js') }}" defer></script>
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -257,7 +257,7 @@
         </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/select.js', v='3.0') }}"></script>
-    <script src="{{ url_for('static', filename='js/mobile-menu.js') }}"></script>
+    <script src="{{ asset_url('js/select.js') }}"></script>
+    <script src="{{ asset_url('js/mobile-menu.js') }}"></script>
 </body>
 </html>

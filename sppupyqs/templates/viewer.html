@@ -2180,7 +2180,7 @@
                 var pdfContainer = document.getElementById('pdf-container');
                 if (pdfContainer) {
                     pdfContainer.addEventListener('mousedown', function (e) {
-                        if (e.target === pdfContainer || e.target.closest('.pdf-viewer')) {
+                        if ((e.target === pdfContainer || e.target.closest('.pdf-viewer')) && !e.target.closest('.paper-selector')) {
                             CustomDropdown.closeAll();
                         }
                     });

@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, render_template, request, send_from_directory, abort
+from flask import Flask, render_template, request, send_from_directory, abort, url_for
 from flask_compress import Compress
 from werkzeug.exceptions import HTTPException
 
@@ -37,11 +37,20 @@ def create_app():
     def add_asset_cache_headers(response):
         if request.path == "/static/search.1.json":
             response.headers["Cache-Control"] = "public, max-age=300, stale-while-revalidate=86400"
-        elif request.path.startswith(("/static/fonts/", "/static/pdfjs/", "/static/images/")):
+        elif request.path.startswith(("/static/dist/", "/static/fonts/", "/static/pdfjs/", "/static/images/")):
             response.headers["Cache-Control"] = "public, max-age=31536000, immutable"
         elif request.path.startswith(("/static/css/", "/static/js/")):
             response.headers["Cache-Control"] = "public, max-age=86400, stale-while-revalidate=604800"
         return response
+
+    @app.context_processor
+    def asset_helpers():
+        from .assets import asset_path
+
+        def asset_url(filename):
+            return url_for("static", filename=asset_path(filename))
+
+        return {"asset_url": asset_url}
 
     @app.errorhandler(404)
     def not_found(_error):
@@ -77,7 +86,7 @@ def create_app():
 def _static_max_age(filename):
     if filename == "search.1.json":
         return 300
-    if filename.startswith(("fonts/", "pdfjs/", "images/")):
+    if filename.startswith(("dist/", "fonts/", "pdfjs/", "images/")):
         return 31536000
     if filename.startswith(("css/", "js/")):
         return 86400

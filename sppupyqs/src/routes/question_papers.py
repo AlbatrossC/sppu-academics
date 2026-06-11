@@ -111,6 +111,12 @@ def _render_viewer(pattern_key, subject_key):
         subject_papers[0] if subject_papers else None,
     )
 
+    has_questions = any(
+        paper.get("question_count", 0) > 0
+        for paper in subject_papers
+        if isinstance(paper, dict)
+    )
+
     return render_template(
         "viewer.html",
         subject_name=subject_name,
@@ -125,6 +131,7 @@ def _render_viewer(pattern_key, subject_key):
         site_url=SITE_URL,
         codes_site_url=CODES_SITE_URL,
         site_name="SPPU PYQs",
+        has_questions=has_questions,
     )
 
 
