@@ -29,7 +29,7 @@
     <meta property="og:title" content="{{ seo_data.title | safe }}">
     <meta property="og:description" content="{{ seo_data.description | safe }}">
     <meta property="og:url" content="{{ site_url }}/{{ subject_link }}">
-    <meta property="og:image" content="{{ site_url }}/images/logo.png">
+    <meta property="og:image" content="{{ site_url }}/images/logo.webp">
     <meta property="og:image:width" content="112">
     <meta property="og:image:height" content="112">
     <meta property="og:image:alt" content="{{ seo_data.title | safe }}">
@@ -40,14 +40,14 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ seo_data.title | safe }}">
     <meta name="twitter:description" content="{{ seo_data.description | safe }}">
-    <meta name="twitter:image" content="{{ site_url }}/images/logo.png">
+    <meta name="twitter:image" content="{{ site_url }}/images/logo.webp">
     <meta name="twitter:site" content="@sppucodes">
 
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
     <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 
-    <link href="/images/logo.png" rel="icon" fetchpriority="high" type="image/png">
+    <link href="/images/logo.webp" rel="icon" fetchpriority="high" type="image/webp">
     <link href="{{ url_for('static', filename='css/viewer.css') }}?v=5.5" rel="stylesheet">
     <script src="https://openfpcdn.io/fingerprintjs/v4/iife.min.js" defer></script>
     <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
@@ -103,7 +103,7 @@
                 "url": "{{ site_url }}",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "{{ site_url }}/images/logo.png"
+                    "url": "{{ site_url }}/images/logo.webp"
                 }
             }
         },

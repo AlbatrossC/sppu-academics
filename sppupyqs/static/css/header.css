@@ -72,8 +72,8 @@ header {
 }
 
 .logo-link img {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
 }
 
@@ -773,8 +773,8 @@ header h1 {
     }
 
     .logo-link img {
-        width: 36px;
-        height: 36px;
+        width: 44px;
+        height: 44px;
     }
 
     .mobile-menu {
@@ -804,8 +804,8 @@ header h1 {
     }
 
     .logo-link img {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
     }
 
     .mobile-search-toggle,
