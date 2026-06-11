@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2015_pattern",
   "patternYear": "2015",
-  "generatedAt": "2026-06-10T16:25:41Z",
+  "generatedAt": "2026-06-11T13:46:00Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -1082,6 +1082,13 @@
           "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_may_jun_2018_ce_sc_2015p.pdf",
           "exam": "other",
           "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1Z8SelYMXX_DmK3fILWTjEphgmF8fj2Xy",
+          "canonicalPath": "papers/civil-engineering/se/2015_pattern/surveying_ce/other_nov_dec_2018_ce_sc_2015p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
           "year": 2018
         },
         {

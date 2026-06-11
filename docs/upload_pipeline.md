@@ -98,6 +98,20 @@ R2_PUBLIC_BASE_URL=https://sppu-pyqs.albatrossc.workers.dev
 | `FAILED` | Upload attempt failed |
 | `NEEDS_TRACKING_ID` | Missing provider ID in DB |
 
+`status` also prints:
+
+- `UPLOADABLE_REMAINING` — rows that `sync` can upload now (`PENDING`, `MODIFIED`, `RENAMED`, or `FAILED`)
+- `LOCAL_UNTRACKED` — PDFs that exist under `papers/` but have no row in `tracking/uploads.db`
+
+When `LOCAL_UNTRACKED` is non-zero, `sync` cannot upload those files yet because `sync` only works from DB rows. Run:
+
+```bash
+python3 tools/upload_pipeline.py scan
+python3 tools/upload_pipeline.py sync --limit 1
+```
+
+After the first scan on an older DB, future scans skip re-hashing unchanged PDFs by using cached file size and modified time. Scan writes are committed incrementally, so stopping a long scan does not throw away all earlier DB reconciliation work.
+
 ---
 
 ## Semester Mapping

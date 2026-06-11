@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2012_pattern",
   "patternYear": "2012",
-  "generatedAt": "2026-06-10T16:25:41Z",
+  "generatedAt": "2026-06-11T13:46:00Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -7259,6 +7259,13 @@
       "branchName": "E & TC Engineering",
       "pattern": "2012_pattern",
       "papers": [
+        {
+          "pdfId": "1-d-tjEFYzNiMgZkt9r0mm00FIIRgo5cU",
+          "canonicalPath": "papers/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/endsem_may_2016_ete_neme_2012p.pdf",
+          "exam": "endsem",
+          "month": "may",
+          "year": 2016
+        },
         {
           "pdfId": "1ANUVxM9QzqeE2eGB4msjxw73z76QMA0Q",
           "canonicalPath": "papers/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/insem_apr_2017_ete_neme_2012p.pdf",

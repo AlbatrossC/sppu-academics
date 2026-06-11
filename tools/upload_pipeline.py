@@ -353,6 +353,7 @@ def connect_upload_db() -> sqlite3.Connection:
           canonical_path TEXT NOT NULL,
           sha256 TEXT NOT NULL,
           size_bytes INTEGER NOT NULL,
+          mtime_ns INTEGER,
           branch_type TEXT NOT NULL,
           branch_code TEXT NOT NULL,
           branch_name TEXT NOT NULL,
@@ -377,6 +378,9 @@ def connect_upload_db() -> sqlite3.Connection:
         CREATE INDEX IF NOT EXISTS idx_uploaded_local_path ON uploaded_pdfs(local_path);
         """
     )
+    columns = {row["name"] for row in connection.execute("PRAGMA table_info(uploaded_pdfs)")}
+    if "mtime_ns" not in columns:
+        connection.execute("ALTER TABLE uploaded_pdfs ADD COLUMN mtime_ns INTEGER")
     connection.commit()
     return connection
 
@@ -391,7 +395,7 @@ def existing_rows(connection: sqlite3.Connection) -> tuple[dict[str, sqlite3.Row
     return by_pdf_id, by_path
 
 
-def record_for_pdf(path: Path, names: NameLookup, tracking_lookup: dict[str, str]) -> dict[str, Any] | None:
+def record_for_pdf(path: Path, names: NameLookup, tracking_lookup: dict[str, str], existing: sqlite3.Row | None = None) -> dict[str, Any] | None:
     metadata = parse_papers_path(path, names)
     if not metadata:
         return None
@@ -399,13 +403,26 @@ def record_for_pdf(path: Path, names: NameLookup, tracking_lookup: dict[str, str
     canonical_path = local_path.replace("2019_pattren", "2019_pattern")
     pdf_id = tracking_lookup.get(comparable_path(canonical_path, names))
     stat = path.stat()
+    mtime_ns = stat.st_mtime_ns
+    sha256 = ""
+    if (
+        existing
+        and existing["sha256"]
+        and int(existing["size_bytes"]) == stat.st_size
+        and existing["mtime_ns"] is not None
+        and int(existing["mtime_ns"]) == mtime_ns
+    ):
+        sha256 = str(existing["sha256"])
+    else:
+        sha256 = sha256_file(path)
     return {
         **metadata,
         "pdf_id": pdf_id,
         "local_path": local_path,
         "canonical_path": canonical_path,
-        "sha256": sha256_file(path),
+        "sha256": sha256,
         "size_bytes": stat.st_size,
+        "mtime_ns": mtime_ns,
     }
 
 
@@ -429,10 +446,31 @@ def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], n
         if state in {"UPLOADED", "FAILED"}:
             r2_status = str(existing["r2_status"])
             cloudinary_status = str(existing["cloudinary_status"])
+        unchanged_fields = (
+            ("pdf_id", record["pdf_id"]),
+            ("local_path", record["local_path"]),
+            ("canonical_path", record["canonical_path"]),
+            ("sha256", record["sha256"]),
+            ("size_bytes", record["size_bytes"]),
+            ("mtime_ns", record["mtime_ns"]),
+            ("branch_type", record["branch_type"]),
+            ("branch_code", record["branch_code"]),
+            ("branch_name", record["branch_name"]),
+            ("year_or_semester", record["year_or_semester"]),
+            ("pattern", record["pattern"]),
+            ("subject_key", record["subject_key"]),
+            ("subject_name", record["subject_name"]),
+            ("filename", record["filename"]),
+            ("r2_status", r2_status),
+            ("cloudinary_status", cloudinary_status),
+            ("state", state),
+        )
+        if all(existing[key] == value for key, value in unchanged_fields):
+            return state
         connection.execute(
             """
             UPDATE uploaded_pdfs
-            SET pdf_id = ?, local_path = ?, canonical_path = ?, sha256 = ?, size_bytes = ?,
+            SET pdf_id = ?, local_path = ?, canonical_path = ?, sha256 = ?, size_bytes = ?, mtime_ns = ?,
                 branch_type = ?, branch_code = ?, branch_name = ?, year_or_semester = ?,
                 pattern = ?, subject_key = ?, subject_name = ?, filename = ?,
                 r2_status = ?, cloudinary_status = ?, state = ?, last_seen_at = ?, updated_at = ?
@@ -444,6 +482,7 @@ def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], n
                 record["canonical_path"],
                 record["sha256"],
                 record["size_bytes"],
+                record["mtime_ns"],
                 record["branch_type"],
                 record["branch_code"],
                 record["branch_name"],
@@ -465,12 +504,12 @@ def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], n
     connection.execute(
         """
         INSERT INTO uploaded_pdfs (
-          pdf_id, local_path, canonical_path, sha256, size_bytes, branch_type,
+          pdf_id, local_path, canonical_path, sha256, size_bytes, mtime_ns, branch_type,
           branch_code, branch_name, year_or_semester, pattern, subject_key,
           subject_name, filename, r2_status, cloudinary_status, state,
           first_seen_at, last_seen_at, updated_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
             record["pdf_id"],
@@ -478,6 +517,7 @@ def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], n
             record["canonical_path"],
             record["sha256"],
             record["size_bytes"],
+            record["mtime_ns"],
             record["branch_type"],
             record["branch_code"],
             record["branch_name"],
@@ -506,19 +546,27 @@ def scan_papers() -> Counter[str]:
 
     all_pdfs = sorted(PAPERS_DIR.rglob("*.pdf"))
     total = len(all_pdfs)
-    print(f"Scanning {total} papers (hashing + DB upsert)...", flush=True)
+    commit_interval = 100
+    print(f"Scanning {total} papers (hash changed files + DB upsert)...", flush=True)
 
     with connect_upload_db() as connection:
         by_pdf_id, by_path = existing_rows(connection)
         for index, path in enumerate(all_pdfs, start=1):
             if index == 1 or index % 100 == 0 or index == total:
                 print(f"Scan progress: {index}/{total} papers", flush=True)
-            record = record_for_pdf(path, names, tracking_lookup)
+            local_path = project_relative(path)
+            canonical_path = local_path.replace("2019_pattren", "2019_pattern")
+            pdf_id = tracking_lookup.get(comparable_path(canonical_path, names))
+            existing = by_pdf_id.get(pdf_id or "") if pdf_id else by_path.get(canonical_path)
+            record = record_for_pdf(path, names, tracking_lookup, existing)
             if not record:
                 counts["SKIPPED"] += 1
                 continue
             state = upsert_scan_record(connection, record, now, by_pdf_id, by_path)
             counts[state] += 1
+            if index % commit_interval == 0:
+                connection.commit()
+        connection.commit()
         current_paths = {project_relative(p) for p in all_pdfs}
         for row in connection.execute("SELECT id, local_path, state FROM uploaded_pdfs WHERE state != 'REMOVED'").fetchall():
             if row["local_path"] not in current_paths:
@@ -1406,8 +1454,12 @@ def status_counts() -> Counter[str]:
     for state, count in rows:
         counts[str(state)] = int(count)
     uploaded = counts["UPLOADED"]
+    tracked = sum(counts[state] for state in VALID_STATES if state != "REMOVED")
+    untracked_local = max(paper_total - tracked, 0)
     counts["PAPERS"] = paper_total
-    counts["TRACKED"] = sum(counts[state] for state in VALID_STATES if state != "REMOVED")
+    counts["TRACKED"] = tracked
+    counts["LOCAL_UNTRACKED"] = untracked_local
+    counts["UPLOADABLE_REMAINING"] = counts["PENDING"] + counts["MODIFIED"] + counts["RENAMED"] + counts["FAILED"]
     counts["NOT_UPLOADED"] = max(paper_total - uploaded, 0)
     counts["REMAINING"] = counts["NOT_UPLOADED"]
     return counts
@@ -1420,7 +1472,9 @@ def print_counts(title: str, counts: Counter[str]) -> None:
         "UPLOADED",
         "NOT_UPLOADED",
         "REMAINING",
+        "UPLOADABLE_REMAINING",
         "TRACKED",
+        "LOCAL_UNTRACKED",
         "PENDING",
         "MODIFIED",
         "RENAMED",
