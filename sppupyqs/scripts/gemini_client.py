@@ -5,7 +5,9 @@ import time
 from typing import Any
 
 from google import genai
+from google.genai.errors import APIError
 
+from key_manager import KeyManager
 
 class GeminiExtractionError(Exception):
     pass
@@ -14,17 +16,14 @@ class GeminiExtractionError(Exception):
 class GeminiMetadataClient:
     def __init__(
         self,
-        api_keys: list[str],
+        key_manager: KeyManager,
         model_name: str,
         system_prompt: str,
         response_schema: dict[str, Any],
         retries_per_key: int,
         retry_delay_seconds: float,
     ) -> None:
-        if not api_keys:
-            raise ValueError("At least one Gemini API key is required.")
-
-        self.api_keys = api_keys
+        self.key_manager = key_manager
         self.model_name = model_name
         self.system_prompt = system_prompt
         self.response_schema = response_schema
@@ -54,8 +53,10 @@ class GeminiMetadataClient:
 
         failures: list[str] = []
 
-        for key_index, api_key in enumerate(self.api_keys, start=1):
+        for key_change_attempt in range(len(self.key_manager.api_keys) * 2):
+            api_key = self.key_manager.get_available_key()
             client = genai.Client(api_key=api_key)
+            rate_limited = False
 
             for attempt in range(1, self.retries_per_key + 1):
                 try:
@@ -69,12 +70,31 @@ class GeminiMetadataClient:
                         },
                     )
                     return self._parse_response(response.text)
+                except APIError as error:
+                    # GenAI APIError might have `.code` attribute or be accessible via str
+                    if getattr(error, "code", None) == 429 or "429" in str(error):
+                        self.key_manager.set_cooldown(api_key)
+                        failures.append(f"Rate limited (429) on attempt {attempt}")
+                        rate_limited = True
+                        break
+                    failures.append(f"attempt={attempt} APIError: {error}")
+                    if attempt < self.retries_per_key:
+                        time.sleep(self.retry_delay_seconds * attempt)
                 except Exception as error:  # pragma: no cover
+                    if "429" in str(error) or "ResourceExhausted" in str(error):
+                        self.key_manager.set_cooldown(api_key)
+                        failures.append(f"Rate limited (429) on attempt {attempt}: {error}")
+                        rate_limited = True
+                        break
                     failures.append(
-                        f"key={key_index} attempt={attempt} error={type(error).__name__}: {error}"
+                        f"attempt={attempt} error={type(error).__name__}: {error}"
                     )
                     if attempt < self.retries_per_key:
                         time.sleep(self.retry_delay_seconds * attempt)
+            
+            if not rate_limited:
+                # If we exhausted attempts but didn't rate limit, maybe we just fail
+                pass
 
         raise GeminiExtractionError("; ".join(failures))
 

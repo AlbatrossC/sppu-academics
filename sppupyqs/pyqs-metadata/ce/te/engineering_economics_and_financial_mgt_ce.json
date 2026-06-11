@@ -1,0 +1,1596 @@
+{
+  "subject_name": "Engineering Economics & Financial Mgt",
+  "subject_slug": "engineering_economics_and_financial_mgt_ce",
+  "branch": "ce",
+  "semester": "te",
+  "papers": [
+    {
+      "pdf_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_oct_2022_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_oct_2022_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "TE/Insem-518",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P8551",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/10/2022 10:38:05 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the importance of economics in construction sector.",
+          "marks": 4,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "From the following trial balance of Vishal Ltd. Prepare the balance sheet of a company as on 31st March 2021 as per schedule III of The Companies Act 2013. Preliminary Expenses = Rs. 50000 Provision of Employees Welfare Fund - Rs. 50000 General Reserves = Rs. 78000 Advances to Employees = Rs. 100000 Bills Payable = Rs. 100000 Account Receivables = Rs. 178000 Furniture and Fixture = Rs. 245000 Deposits with ICICI Bank = Rs. 350000 Cash at Bank = Rs. 500000 Equity Share Capital = Rs. 545000 Loan from SBI = Rs. 650000 Unclaimed dividend = Rs. 15000 Goodwill = Rs. 15000",
+          "marks": 7,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a note on Structure of construction industry in India.",
+          "marks": 4,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Asset? Explain different types of Assets.",
+          "marks": 4,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "From the following information prepare the Profit and Loss Account of ABC Ltd. as on 31st March 2020. Particular Amount (Rs.) Gross Profit received from trading A/C 100000 Manager Salary 33000 Office Lighting 6500 Office Rent 15000 Salary Paid to Salesman 30000 Advertisement charges 26500 Discount allowed 3000 Discount received 4000 Dividend received 2000 Rent received 1500 Depreciation charges paid 10000 Repair and Maintenance 2500 Package charges 7500 Local Taxes 1000",
+          "marks": 6,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Balance Sheet? Why is it Prepared?",
+          "marks": 5,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist the different short term sources of finance and explain any one in detail.",
+          "marks": 5,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain any two types of debt in detail.",
+          "marks": 4,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Calculate the leverage ratios from the following data; Particular Amount (Rs.) Shareholder’s equity 1980200 Total assets 3001100 Total capital employed 2197600 Total debt 217400 Earnings available for debt service 493200 Installment amount 36400 EBIT 493200 Interest 2500 Preference Share capital + Debenture + Long term Loan 132100 Equity share capital + Reserves 49100",
+          "marks": 6,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is EBIT? Calculate EBIT for company which has reported total income of Rs. 12308.68 Crore., total expendiature of Rs. 11278.24 crore, Interest of Rs. 43.95 crore, Texes of Rs. 140.6 crore, depreciation of Rs. 287.81 and; net profit of 558.08 crore.",
+          "marks": 5,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is capital market? And explain any one instrument of it.",
+          "marks": 5,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is Divident Pay Out Ratio? Calculate Divident Pay Out Ratio and retained earnings for a company which has reported net income of Rs. 22,00,000/- and for the same year the company has declared a dividend of Rs. 6,00,000/-",
+          "marks": 5,
+          "question_id": "1EoiyC91TeattkkAmjXA9i6IRre1gxyOY_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3299,
+        "processed_at": "2026-06-12 01:17:06"
+      }
+    },
+    {
+      "pdf_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2023_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2023_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6187]-418",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5018",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/09/2023 10:36:54 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Enlist the Ten Principles of the Economics and explain any two briefly.",
+          "marks": 3,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Refer to the data given below and formulate the Balance Sheet for a Software Company as on March 2022 as per schedule III of The Companies Act 2013. Particulars Amount (Rs.) Cash & Equivalents 1,61,248 Property 30,719 Equity Capital 70,000 Accounts Receivable 11,650 Retained Earnings 2,74,373 Accounts Payable 11,016 Cost & Profit in excess of Billings. 1,00,000 Equipment 20,000 Long Term Debt 10,000 Goodwill 10,000 Inventory 29,772",
+          "marks": 8,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define terms given below : i) Owner’s Equity ii) Liabilities iii) Retained Earnings iv) Assets",
+          "marks": 4,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between Macro-Economics & Micro-Economics.",
+          "marks": 5,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a short note on the Profit & Loss Account and also mention its significance.",
+          "marks": 4,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "From the Income Statement of M/S Bharat Enterprises, the following data is given : i) Operating Revenues - Rs. 85,75,843 ii) Operating Expenses - Rs. 57,94,238 iii) General & Administrative Overhead Cost - Rs.15,25,645 iv) Non-Operating Revenues - Rs.4,23,462 v) Non-Operating Expenses - Rs. 1,54,622 From the above given data calculate the following: i) Gross Profit from Operations. ii) Net Profit from Operations. iii) Profit Before Tax iv) Net Profit After Tax",
+          "marks": 6,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define the term Financial Management and enumerate its various objectives.",
+          "marks": 3,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State the various Long-Term sources of finance and explain any its any two types.",
+          "marks": 5,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "The various Financial details, of a business are given below, by using them appropriately calculate the various Leverage Ratios for the given business organization. Particulars Amount (Rs.) Share Holder's Equity 23,864 Total Assets 54,648 Total Debt 2,625 Total Capital Employed 34,644 Amount for Installment 285 Interest 30",
+          "marks": 7,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Calculate the EBIT of a business unit by both Direct and In-Direct Method using the data given below : Particulars Amount (Rs.) Cost of Goods Sold 4,50,000 Total Revenue 9,50,000 Operating Expenses 3,00,000 Net Profit 1,00,000 Interest Expenses 75,000 Tax Expenses 25,000",
+          "marks": 6,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "The total income of a company is Rs. 45,00,000 for the financial year 2019-2020. Also the amount distributed by the company in the same financial year as dividends is Rs. 5,50,000. Calculate the Dividend Payout Ratio for the given company.",
+          "marks": 5,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write a short note on the following : i) Debentures. ii) Stock markets",
+          "marks": 4,
+          "question_id": "1O4Fc_jk8sI2BGwMD8QzACMD4m33kVArR_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3256,
+        "processed_at": "2026-06-12 01:17:09"
+      }
+    },
+    {
+      "pdf_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2023_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2023_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6003]-330",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P253",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/07/2023 10:33:14 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Elaborate the importance of financial management in construction.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain “Why is construction financial management is different?” and enlist the various stakeholders involve in construction financial management.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is a contract account? Draw the typical format of contract account.",
+          "marks": 5,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The following were the expenses on a contract which commenced on 1st January 2015. Particular Amount (Rs.) Material Purchased 1,10,000 Materials at the end 1,250 Direct Wages 15,000 Plant issued 5,000 Direct Expanses 8,000 The contract price was Rs. 1,50,000. It was duly received when the contract was completed on 31-3-2015. Charge indirect expenses at 15% on wages and provide Rs. 1,000 for depreciation on plant; Prepare the contract account.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain in detail procedure for costing of contract.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is contract and explain any two types of contract.",
+          "marks": 5,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in detail: Purposes of Budget.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a note on “Net Present Value Method” of capital budgeting with its advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "The initial investment in project A and B is Rs. 3000 lakh each. Rank the as per Profitability Index if the present value of cash inflow for both the projects mentioned in the following table: Sr. No. Present value of cash inflow for project A (in lakh Rs.) Present value of cash inflow for project B (in lakh Rs.) 1 1181.70 818.10 2 908.60 743.40 3 675.90 675.90 4 437.12 614.70 5 397.44 558.90",
+          "marks": 5,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the process of capital budgeting.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write down a detailed note on “Operating Budget”.",
+          "marks": 5,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A concrete mixer was purchased at Rs. 8,00,000. Assuming Scrap Value to be Rs. 5,50,000 after 10 years. Calculate the depreciation at the end of 5 years by i) Straight Line Method ii) Constant Percentage Method",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write down the significance of working capital in construction company. Enlist any four factors considered for determination of working capital.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain in details various Financing Resources of Working Capital.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is safety stock? Which types of costs are associated with it? Explain its importance.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write a note on “Types of working capital”.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A construction company purchases 10000 bags of cement annually. Each bag cement cost Rs. 500 and cost incurred.in procuring each lot is Rs. 150. The cost of carrying is 25%. What are the most EOQ and number of orders? If lead time is 5 days, calculate order point.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the various phases of operating cycle.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is direct tax and indirect tax? Explain any one type of direct tax and any one type of indirect tax.",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Calculate the tax to be paid on property in Delhi, from following data: Covered area = 900 sq. ft. Unit area value for one month = 6.0 per sq.ft. Age factor = 1.0 Use factor = 1.2 Structure factor = 1.0 Occupancy factor = 1.0 Taxrate = 11%",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain any six functions of Reserve Bank of India (RBI).",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a note on Goods and Services Tax (GST). Also write down the impact of GST on construction industry.",
+          "marks": 7,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain “Capital Value System” for the calculation of property tax.",
+          "marks": 5,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write down the roles and functions of following financial regulatory bodies: i) ICRA (Information and Credit Rating Agency) ii) SEBI (Security and Exchange Board of India)",
+          "marks": 6,
+          "question_id": "12-aReGLpp_q6TuqqZ9B2Zv_uIsIqZyZr_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4351,
+        "processed_at": "2026-06-12 01:17:10"
+      }
+    },
+    {
+      "pdf_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2024_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_sep_2024_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6360]-18",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-18",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2024 10:31:23 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the principles of economics? Explain in detail.",
+          "marks": 7,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What do you understand by assets and liabilities? Prepare a balance sheet for Swami earthmovers for the year ending 31st March 2023. The particulars and amounts in Rs. are as follows. Land & building 25,00,000/-, Bill payable 5,00,000/-, Shareholders' equity 20,00,000/-, Plants & Machinery 10,00,000/-, Advance given 50,000/-, Loan on mortgage 20,00,000/-, Sundry debtors 30,000/-, Cash at bank 9,20,000/-",
+          "marks": 8,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss about the intangible assets. How the Goodwill about any company is an intangible asset for it?",
+          "marks": 7,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Why the profit and loss account is prepared? Prepare profit and loss account for the information given below of small construction firm. What will be the net profit or net loss to the firm? Particulars Amount (Rs.) Salaries 1,00,000/-, By gross profit 2,00,000/-, Rent 50,000/-, Discount allowed 5,000/-, Loss by accident 20,000/-, Bad debts 10,000/-",
+          "marks": 8,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss about any three leverage ratios and calculate dividend payout ratio for Baramati agro factory which has reported total sales of sugar of Rs. 50, 00,000/-and net profit of Rs.10,00,000/-,Factory has Rs.22,000 shareholders and declared dividend for the year of Rs.5 per share.",
+          "marks": 7,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are the functions of financial management? And if you want to set a firm then which goals of financial management you would decide?",
+          "marks": 8,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain any three leverage ratios and their significance. Find out leverage ratio and by analyzing data given below and tell which company is riskier for business? Company-A have taken a total loan of Rs. 400 Cr and shareholders’ equity of Rs. 600 Cr and Company-B have taken loan of Rs. 500 Cr and shareholders’ equity of Rs. 300 Cr.",
+          "marks": 7,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss in detail short term and long term sources of finance.",
+          "marks": 8,
+          "question_id": "1ey7bOxJeotEe8Wic5Jr2aV8Kpr-XbZgU_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2608,
+        "processed_at": "2026-06-12 01:17:10"
+      }
+    },
+    {
+      "pdf_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2023_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2023_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6180]-14",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-7507",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/12/2023 09:36:48 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Who is responsible for Construction Financial Management? State the role of each.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How to treat various items in contract account?",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is Contract Costing? State the features of Contract Costing.",
+          "marks": 5,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The following were the expenses on a contract which commenced on 1st January 2015. Particular Amount (Rs.) Material Purchased 1,10,000 Materials at the end 1,250 Direct Wages 15,000 Plant issued 5,000 Direct Expanses 8,000. The contract price was Rs. 1,50,000. It was duly received when the contract was completed on 31-3-2015. Charge indirect expenses at 15% on wages and provide Rs. 1,000 for depreciation on plant; Prepare the contract account.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the role of Financial Management in Construction Project management.",
+          "marks": 5,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Enlist different Contractors document used on site. Also state various facts and information recorded from these documents.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define: Budget. Explain the purpose of budget.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are different types of Budget? Explain any two in details.",
+          "marks": 5,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "The initial investment in project A and B is Rs. 3000 lakh each. The present value of cash inflow for both the projects mentioned in the following table : Sr. No. Present value of cash inflow for project A (in lakh Rs.) Present value of cash inflow for project B (in lakh Rs.) 1 1181.79 818.10 2 908.60 743.40 3 675.90 675.90 4 437.12 614.70 5 397.44 558.90 Using the profitability index method, which project should the company undertake?",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is capital budgeting? Explain aspects of capital budgeting.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write down a detailed note on “Operating Budget”.",
+          "marks": 5,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A concrete mixer was purchased at Rs. 8,00,000. Assuming Scrap Value to be Rs. 5,50,000 after 10 years. Calculate the depreciation at the end of 5 years by : i) Straight Line Method ii) Constant Percentage Method",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain in detail “Need of Working Capital in Construction Industry”.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain in details various Financing Resources of Working Capital.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What are objectives of inventory management and explain Economic Order Quantity.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A construction company purchases 10000 bags of cement annually. Each bag cement cost Rs. 500 and cost incurred in procuring each lot is Rs. 150. The cost of carrying is 25%. What are the most EOQ and number of orders? If lead time is 5 days, calculate order point.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is operating cycle? Explain various phases associated with it.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is safety stock? Explain the types of cost associated and importance of Safety stock.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is Goods and Services Tax (GST). Also write down the impact of GST on construction industry.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Calculate the tax to be paid on property in Delhi, from following data : Covered area = 900 sq. ft. Unit area value for one month = 6.0 per sq.ft. Age factor = 1.0 Use factor =1.2 Structure factor = 1.0 Occupancy factor = 1.0 Tax rate = 11%",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is property tax? Explain Annual rental value system of calculation of property tax.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write down the roles and functions of following financial regulatory bodies : i) ICRA (Information and Credit Rating Agency) ii) SEBI (Security and Exchange Board of India).",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain “Capital Value System” for the calculation of property tax.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What is Direct Tax? Explain any four types of direct taxes which are imposed in India.",
+          "marks": 6,
+          "question_id": "13zwHyZeOxqfu1VNWG0WvU4Xkmxs2t9KM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4380,
+        "processed_at": "2026-06-12 01:17:10"
+      }
+    },
+    {
+      "pdf_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2024_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2024_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS & FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6353] - 4",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-1688",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 17/12/2024 09:35:49 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss in detail about construction financial management and how it is different from others?",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write down about the types of contract costing.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the contents of specimen of contact account and prepare template of contract account of work in progress and work completed.",
+          "marks": 8,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the role of financial manager in construction financial management.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Job costing and contract costing.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write down in detail about recording and reporting site accounts between site office and head office.",
+          "marks": 8,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define Budget? Write down any four objectives of budget.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What do you understand by master budget and functional budget.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What do you understand by NPV and IRR method? Explain with the help of formulae’s.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you understated by concept of time value of money?",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "List out objectives and benefits of capital budgeting for any company.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What do you understand by depreciation? Explain any two methods with formulae used to find out depreciation of a building.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write down benefits of working capital to any business.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What do you understand about procurement cost, inventory carrying costs? Explain with the help of examples.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write down step by step procedure to conduct ABC analysis, also draw ABC curve.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "List out methods of estimation of working capital and explain any one method in detail.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the term EOQ with the help of figure. Derive expression for it.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What are the objectives of inventory control? List out its benefits.",
+          "marks": 6,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write a short note on types of direct tax.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write a short note on corporate tax planning.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the methods of calculating property tax? Explain any two.",
+          "marks": 8,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Differentiate between IRDA and SEBI.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the key roles and functions of SEBI.",
+          "marks": 5,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss in detail about ICRA and IRDA.",
+          "marks": 8,
+          "question_id": "1sRq0Ui8faAkkauuXHfuTRzs9XmlreDeE_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2765,
+        "processed_at": "2026-06-12 01:17:11"
+      }
+    },
+    {
+      "pdf_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2024_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2024_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS & FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6262]-4",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-3746",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 25/05/2024 09:31:55 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in brief different features of contact costing.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the different costs involved in contract account?",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "A construction company undertakes large contracts. The following are the particulars related to contract carried during the year ended on 31 st March 2020.Prepare a contract account and find out notional profit. How much profit is to be transferred to P&L account and in reserve? Particulars Amt.(Rs.) Particulars Amt.(Rs.) Work certified 165000 Wages accrued on 31st March 6200 Work not certified 5600 Direct expenses 4900 Plant installed at site 12500 Material on hand 2700 Values of plant 17000 Material returned to store 750 Material sent to site 76300 Direct expenses accrued 920 Labor charges 69500 Contract price 190000 Establishment charges 4900 Cash received from contract 150000",
+          "marks": 8,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the role of financial manager in construction financial management.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the contents of format of contract account.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A construction company undertakes large contracts. The following are the particulars related to contract carried during the year ended on 31 st March 2020.Prepare a contract account and find out notional profit. How much profit is to be transferred to P&L account and in reserve? Particulars Amt.(Rs.) Particulars Amt.(Rs.) Work certified 150000 Wages accrued on 31st March 5800 Work not certified 5100 Direct expenses 4520 Plant installed at site 12500 Material on hand 2700 Values of plant 20000 Material returned to store 950 Material sent to site 72400 Direct expenses accrued 800 Labor charges 70000 Contract price 230000 Establishment charges 6200 Cash received from contract 140000",
+          "marks": 8,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define capital budgeting and discuss payback period method with the help of example.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "How to calculate simple and compound interest? What is the difference between simple and compound interest payable on principal of Rs.20000 in 7 years at rate of interest of 7% per annum?",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "The data below shows yearly Cash flows of projects. Use NPV method and decide which project is to be accepted? Consider 12 % discounting rate. Project Initial investment (Rs.) Yearly cash flows (R.s) 1 2 A 87000 56500 50000 B 145000 90000 85000",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you understated NPV method of capital budgeting? Explain with the help of suitable example.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How to calculate simple and compound interest? What is the difference between simple and compound interest payable on principal of Rs.25000 in 8 years at rate of interest of 6% per annum?",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A building is constructed at cost of Rs.20 lakhs. Consider life of building to be 80 years and scrap value of building to be 10% of building cost. Determine depreciation in 30 year. Use straight line and constant percentage method.",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "List out current assets and current liabilities included in working capital.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "List out different methods of inventory control and list out step by step procedure to conduct ABC analysis?",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "The rare of use of cement from the store is 24000 bags per year. The cost of placing order is Rs.25. The cost of a cement bag is Rs. 350/-The cost of carrying inventory in percent per year is 0.25. Determine i) EOQ ii) order time; consider lead time is one month iii) No. of orders placed.",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "List out methods of estimation of working capital and explanation of any one method in detail.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Segregate items based on their annual usage, calculate percentage cumulative annual usage and draw ABC curve for the following data Items Cement Sand Steel Murum Nails Water Annual 2000 120 4600 Kg 3200 1100 kg 130,000 lit Consumption bags cum cum Unit Cost 350 per 5000 per 50 per 150 per 100 per 4 per lit. (Rs.) bag cum Kg cum kg",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Calculate working capital using the data as follows by considering 20 % contingencies. Particulars Amt.(Rs.) Particulars Amt. (Rs.) Bank balance 350000 Account payable 150000 Term loan 320000 Finished goods 140000 Payable unclaimed 40000 Account receivable 220000 dividend Commission receivable 90000 Staff provident fund 200000",
+          "marks": 6,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write a note on tax deduction against income from house property (section 24).",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss tax system in India before implementation of GST also highlight on advantages of GST.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write a note on exemption on Property tax. And Calculate the payable property tax to be paid on property located in Chennai by using data as follows Plinth area = 1500 sq.ft. Monthly rent notified = Rs.12 per sq.ft. Tax rate = 22 %,Library cess = 10%, consider 15 % rebate on age of building",
+          "marks": 8,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write down composition of RBI and list out its main functions.",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a short note on i) SEBI and ii) IRDA",
+          "marks": 5,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write a note on tax deduction against income from property. Also Calculate property tax for the RCC bungalow located in Baramati, having carpet area 250 sq.m. Consider Base value Rs.300 per sq.m. Use category factor = 1,Type of structure factor = 1, Bungalow constructed in 1982 (Age factor = 0.9), Tax rate = 7%.",
+          "marks": 8,
+          "question_id": "1RDp3VKO-3EGb8n4ZHHV3dSgD6TRHAMJP_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 6157,
+        "processed_at": "2026-06-12 01:17:12"
+      }
+    },
+    {
+      "pdf_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_aug_2025_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/insem_aug_2025_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6579]-318",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301004",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE18",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/08/2025 10:34:33 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What do you understand by concept of time Value of money? Krishna invested Rs. 1,00,000 in a bank with rate of interest 5 percent compounded annually, what will be the future sum he will get after 7 years?",
+          "marks": 7,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist functions and limitations of balance sheet? Prepare a balance sheet for Pioneer construction for the year ending 31st March 2023. The particulars and amounts in Rs. are as follows. Capital: 5,00,000/-, Patents: 2,00,000/-, Net drawings: 50,000/-, Tax payable: 40,000/-, Goodwill: 50,000/-, Cash in hand: 1,20,000/-, Sundry debtors: 30,000/-, Cash at bank: 10,000/-",
+          "marks": 8,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What do you understand by sundry debtors and sundry creditors? To know financial position of any company which documents you would refer? Discuss the contents to be analyzed of the same document.",
+          "marks": 7,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Why the profit and loss account is prepared? Prepare profit and loss account for the information given below of small construction firm. what will be the net profit or net loss to the firm? Particulars: Salaries (80,000/-), By gross profit (1,20,000/-), Rent (50,000/-), Commission received (5,000/-), Loss by accident (60,000/-), Bad debts (15,000/-), Discount received (5000/-)",
+          "marks": 8,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How equity capital will be raised? List out salient features and pros and cons of equity funding.",
+          "marks": 7,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are the leverage ratios? Explain its importance in a business. EBIT and Earnings available for debt services is Rs. 4,50,000 if the total debt is Rs. 2,00,000 and installment amount to be paid Rs. 25,000 with interest Rs. 3,000, Calculate debt service coverage ratio and interest coverage ratio?",
+          "marks": 8,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is EBIET? Calculate EBIET using direct and indirect method for the company which has reported total income of Rs. 2,550 Cr., total expenditure of Rs. 1,700 Cr., interest of Rs. 50 Cr., Taxes paid of Rs. 100 Cr., depreciation of Rs. 200 Cr and net profit of 500 Cr.",
+          "marks": 7,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is the role of financial institutions in construction finance? List out any four banking financial institutions and their major functions.",
+          "marks": 8,
+          "question_id": "1QGR2zDO2Pu1C8pcHYjNYS1FoQlfL9azF_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2710,
+        "processed_at": "2026-06-12 01:17:13"
+      }
+    },
+    {
+      "pdf_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2025_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_nov_dec_2025_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS & FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6583]-13",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2489",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 18/12/2025 09:58:33 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss the concept of contract costing.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write down a role of financial manager in construction Financial management.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Differentiate between job costing and contact costing",
+          "marks": 8,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the features of contract costing?",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain method of reporting and recording site accounts between project and head office",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List out various accounting methods and explain any two",
+          "marks": 8,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a short note on Rule of 72",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define capital budgeting and discuss the importance of Capital budgeting.",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What the methods of capital budgeting? Explain any one with the help of example",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you understated by concept of time value of money? Explain with example",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Differentiate between master and functional budget",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain and differentiate simple and compound interest with the help of example.",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Why working capital is essential for any business? Enlist components of working capital.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What do understand by inventory and its types? How it would be manage?",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write a short note on ABC analysis and Just in time technique",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain factors affecting on working capital requirement.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain inventory management method like VED analysis, FIFO and LIFO",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain any two method of estimating the working capital",
+          "marks": 6,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss about the tax exemption for contractors.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Differentiate between direct tax and indirect tax",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write down on any two method used to calculate property tax for any two cities. How you will get exemption from property tax?",
+          "marks": 8,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write down about objectives and Functions of SEBI.",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the key roles of IRDA? list out its functions also",
+          "marks": 5,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write down the various taxes replaced by GST in India also mention different reasons to implement GST in our country.",
+          "marks": 8,
+          "question_id": "1vheVLqrHV-dSjWgFwBgqIi6h945X6Z5Z_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2661,
+        "processed_at": "2026-06-12 01:17:14"
+      }
+    },
+    {
+      "pdf_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2025_ce_eefmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/engineering_economics_and_financial_mgt_ce/endsem_may_jun_2025_ce_eefmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6403]-4",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301004",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4211",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 21/05/2025 09:39:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "a) What is Financial Management? Explain “Why construction financial management is different?” b) What are the roles and responsibilities of construction finance manager? c) Write down the definition of contract and explain: i) Percentage rate contract ii) Item rate contract",
+          "marks": 17,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q1"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "a) The following were the expenses on a contract which commenced on 1st January, 2020. i) Materials purchased = Rs. 4,40,000 ii) Direct wages = Rs. 1,28,000 iii) Plant issued = Rs. 40,000 iv) Overhead = Rs. 17,200 v) Material in hand = Rs. 20,000. The contract price was Rs. 12,00,000 against which the cash received on account of contract was Rs. 6,00,000. The plant has gone 20% depreciation. Prepare the contract account. b) Explain the importance of Financial management in construction. c) What is Contract? Explain why it is prepared?",
+          "marks": 17,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "a) Explain in brief the essential elements of budget. b) What is ‘Rule of 72’? Write down it’s formula. If Mr. ‘A’ has invested Rs. 20,00,000 at a 8% rate of interest, in how many number of years the invested amount gets doubled? c) Calculate the Internal Rate of Return (IRR) on the investment in the following cash flow: Year 0 1 2 3 4 5 Cash inflow -1,00,000 +20,000 +30,000 +20,000 +40,000 +40,000 Consider 10% discount rate for first calculation.",
+          "marks": 17,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "a) From the following details relating to two projects A and B, suggest which one is to be accepted using Net Present Value (NPV) method? Particular Project A Project B Estimated Cost (Rs.) 1,10,000 1,10,000 Cash flow in year 1 (Rs.) 31,000 71,000 Cash flow in year 2 (Rs.) 40,000 40,000 Cash flow in year 3 (Rs.) 50,000 40,000 Cash flow in year 4 (Rs.) 70,000 20,000 The company expects a return of 10% b) Write down a detailed note on “Project Expenditure Budget”. c) A concrete mixer was purchased at Rs. 9,00,000. Assuming Scrap Value to be Rs. 6,50,000 after 10 years. Calculate the depreciation at the end of 5 years by i) Straight Line Method ii) Constant Percentage Method",
+          "marks": 17,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "a) Write down the significance of working capital in construction company. Enlist any 6 factors considered for determination of working capital. b) Considering 10% contingencies, calculate the working capital from the following data; Particulars Amount (Rs.) Particulars Amount(Rs.) Bank Balance 2,55,000 Account Payable 2,80,000 Term loan from 2,95,000 Stock of finished 1,20,000 Bank goods Payable unclaimed 55,000 Account receivable 3,00,000 dividend Commission receivable 62,000 Staff PF 80000 c) What is classification problem in inventory management? How to solve this problem? Explain any one method.",
+          "marks": 18,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "a) Write a note on following: i) Types of working capital ii) Components and financing resources of working capital b) The yearly requirement of cement by a construction firm is 250 bags. The cost of one bag of cement is Rs. 375 and ordering cost per order is Rs. 100. Assume annual carrying cost for inventory of 20% of average inventory management. Calculate EOQ and number of orders in one year. If the lead time is 5 days calculate order point. c) Explain Safety stock, stating its importance and various cost involved.",
+          "marks": 18,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "a) What is direct tax? Explain any two types of direct tax in India. b) Calculate the property tax for the apartment which used only for residential purpose, from following location data: i) No of floors –14 (Floor factor -1.10) ii) Base value – Rs. 370/Sqft iii) User category factor – 0.5 iv) Nature and type of structure – RCC (factor-1) v) Age of building – 18 years (Age factor – 0.85) vi) Carpet area – 550 Sq ft vii) Location – Thane viii) Tax rate – 0.775% c) Explain any 6 functions of Reserve Bank of India (RBI).",
+          "marks": 18,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "a) What are objectives the of Tax planning? Explain in brief Corporate tax planning. b) Write down the roles and functions of following financial regulatory bodies: i) ICRA (Information and Credit Rating Agency) ii) SEBI (Security and Exchange Board of India) c) Calculate the payable property tax to be paid on property located in Chennai from following data; Plinth area= 400sq. ft. Monthly rent notified = Rs. 6 per sq. ft. Tax rate = 30% Library cess = 15% Consider 10% rebate on age of building.",
+          "marks": 18,
+          "question_id": "1zT3R0Cp5ew2DJ34mNpRApsGHYx7CKd0c_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 5289,
+        "processed_at": "2026-06-12 01:17:15"
+      }
+    }
+  ]
+}

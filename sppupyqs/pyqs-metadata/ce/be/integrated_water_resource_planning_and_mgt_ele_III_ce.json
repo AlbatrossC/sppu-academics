@@ -1,0 +1,1646 @@
+{
+  "subject_name": "Integrated Water Resource Planning & Mgt - Ele III",
+  "subject_slug": "integrated_water_resource_planning_and_mgt_ele_III_ce",
+  "branch": "ce",
+  "semester": "be",
+  "papers": [
+    {
+      "pdf_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2022_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2022_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5927]-332",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-908",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/01/2023 13:50:23 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Justify importance assessment of river water quality and write a brief note on prevention and control of surface water pollution.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is water quality monitoring for basins.",
+          "marks": 8,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State any four CPCB regulations regarding water pollution control.",
+          "marks": 8,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain principles of planning and financing water of water resources projects.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how water is economic good.",
+          "marks": 7,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain framework for planning a sustainable water future.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM",
+          "marks": 7,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are water crises, explain its global and national perspective",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State and explain rural local governing body water laws.",
+          "marks": 8,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain importance of management of flood plains",
+          "marks": 7,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is flood forecasting, what are the methods to forecast flood.",
+          "marks": 10,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "1kgB3rwhqrXR-8we7JCB8rGAM2gY9pMiO_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2140,
+        "processed_at": "2026-06-12 00:51:27"
+      }
+    },
+    {
+      "pdf_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_oct_2022_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_oct_2022_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCE PLANNING AND MANAGEMENT (Elective - III)",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "Oct-22/BE/Insem-31",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003C",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "P8460",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/10/2022 13:36:49 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Integrated Resource planning and Management.",
+          "marks": 3,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State objectives of IWRPM.",
+          "marks": 7,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State and Explain components of IWRPM.",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Central Water Commission (CWC).",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Global Water Partnership (GWP).",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain National Water Policy (NWP) in short.",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain importance of Participatory Irrigation Management (PIM).",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief role water distribution societies in development of water and irrigation sector.",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain water and land management Institute (WALMI).",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain blue vs green water disputes.",
+          "marks": 5,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain importance of ground water protection.",
+          "marks": 4,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "The depths of penetration along the length of boarder strip at points of 30 meters apart were probed. Their observed values are 2.0, 1.9, 1.8, 1.6 and 1.5 meters. Calculate the water distribution efficiency.",
+          "marks": 6,
+          "question_id": "1ZrVHmPjF1E3ZXjpczVDBhSgWePSQfotK_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1798,
+        "processed_at": "2026-06-12 00:51:31"
+      }
+    },
+    {
+      "pdf_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6004]-456",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P534",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 24/06/2023 14:39:31 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "subquestion": "a",
+          "question_text": "Justify importance assessment of river water quality and write a brief note on prevention and control of surface water pollution.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_1_a"
+        },
+        {
+          "question_number": "1",
+          "subquestion": "b",
+          "question_text": "Explain polluters pay principle.",
+          "marks": 8,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_1_b"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_2_a"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "b",
+          "question_text": "State any four CPCB regulations regarding water pollution control.",
+          "marks": 8,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_2_b"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "a",
+          "question_text": "State and explain principles of planning and financing water of water resources projects.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_3_a"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "b",
+          "question_text": "Explain how water is economic good.",
+          "marks": 7,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_3_b"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "a",
+          "question_text": "Explain framework for planning a sustainable water future.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_4_a"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM.",
+          "marks": 7,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_4_b"
+        },
+        {
+          "question_number": "5",
+          "subquestion": "a",
+          "question_text": "What are water crises, explain its global and national perspective.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_5_a"
+        },
+        {
+          "question_number": "5",
+          "subquestion": "b",
+          "question_text": "State and explain rural local governing body water laws.",
+          "marks": 8,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_5_b"
+        },
+        {
+          "question_number": "6",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_6_a"
+        },
+        {
+          "question_number": "6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_6_b"
+        },
+        {
+          "question_number": "7",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_7_a"
+        },
+        {
+          "question_number": "7",
+          "subquestion": "b",
+          "question_text": "Explain importance of management of flood plains.",
+          "marks": 7,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_7_b"
+        },
+        {
+          "question_number": "8",
+          "subquestion": "a",
+          "question_text": "Explain in detail Use of QGIS in IWRPM.",
+          "marks": 10,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_8_a"
+        },
+        {
+          "question_number": "8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "1nTOpzy8Kf8ays2cxwf_efuzGGLXTFM2L_8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2127,
+        "processed_at": "2026-06-12 00:51:34"
+      }
+    },
+    {
+      "pdf_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6181]-76",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-6527",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/12/2023 13:38:22 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Assessment of river water quality plays important, Justify and write a brief note on prevention and control of surface water pollution.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain water quality monitoring for basins.",
+          "marks": 8,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State any four important CPCB regulations regarding water pollution control.",
+          "marks": 8,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain principles of planning and financing water of water resources projects.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how water is economic good.",
+          "marks": 7,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain framework for planning a sustainable water future.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM.",
+          "marks": 7,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are water crises, explain its global and national perspective.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State and explain rural local governing body water laws.",
+          "marks": 8,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain importance of management of flood plains.",
+          "marks": 7,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is flood forecasting what are the methods to forecast flood.",
+          "marks": 10,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "1zpW5382yaZ8BF5vQq_OC54nr6SEWuXGN_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2150,
+        "processed_at": "2026-06-12 00:51:37"
+      }
+    },
+    {
+      "pdf_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2023_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6188]-131",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "P5179",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/09/2023 13:35:31 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in detail objectives of Integrated Resource Planning and Management.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State components of IWRPM. Explain any one in detail.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe in detail Challenges of IWRPM.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain National Water Policy (NWP) in short.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the various roles and functions of Central Water Commission (CWC)?",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State goals and objectives of Global Water Partnership (GWP).",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in detail the concept of blue and green water in IWRPM.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail the challenges to achieve Global Water Security.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain in detail virtual water trade with examples.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain in detail various categories of methods of charging irrigation water prices in India.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the various types of irrigation systems? Explain any one.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "The depths of penetration along the length of boarder strip at points of 30 meters apart were probed. Their observed values are 2.2, 2.0, 1.9, 1.8 and 1.6 meters. Calculate the water distribution efficiency.",
+          "marks": 5,
+          "question_id": "185FbvRw_yOLYocZ5XjPfvh_VdDi5TnkH_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1756,
+        "processed_at": "2026-06-12 00:51:40"
+      }
+    },
+    {
+      "pdf_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6263]-57",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2220",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 18/05/2024 13:49:28 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Justify importance assessment of river water quality and write a brief note on prevention and control of surface water pollution.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain polluters pay principle.",
+          "marks": 8,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State any four CPCB regulations regarding water pollution control.",
+          "marks": 8,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain principles of planning and financing water of water resources projects.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how water is economic good.",
+          "marks": 7,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain framework for planning a sustainable water future.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM.",
+          "marks": 7,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are water crises, explain its global and national perspective.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State and explain rural local governing body water laws.",
+          "marks": 8,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain importance of management of flood plains.",
+          "marks": 7,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in detail Use of QGIS in IWRPM.",
+          "marks": 10,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "1_rboJ1IhRnQrKti4_wZYzrE3a93RrX0f_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2129,
+        "processed_at": "2026-06-12 00:51:44"
+      }
+    },
+    {
+      "pdf_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCE PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6354]-461",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2345",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 18/12/2024 13:35:20 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is ground water pollution? How it can be prevented & controlled?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are various cost effective water methods of water quality monitoring for basins?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain benefits of Industrial waste water treatment?",
+          "marks": 5,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA)? Explain the steps involved in EIA?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State the Objectives and Functions of CPCB?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "State polluter pays principle?",
+          "marks": 5,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is water scarcity? Explain its effects?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a note on importance of water to the Indian economy?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a note on cash flow diagram and discount rate?",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "State seven steps of water planning process.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain sustainability principles for water management.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "State and explain the measures of preventing water scarcity.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain municipal corporation laws regarding water supply and drainage.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write a short note on Water allocation priorities.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "State the role and functions of CWC.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "State four principles related water sector reform Dublin Principles (1992).",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain importance of arbitration in IWRPM.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write a short note on Inter-Basin Water Transfer.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the role of dam in flood control and its importance in IWRPM.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write a short note on flood forecasting and disaster relief.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 5,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the role of dam in power generation and its importance in IWRPM.",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Compute the volume of water required to generate 4750 kW-hr of electric energy for one day if the average head is 95.0 m and efficiency of the power plant is 0.85.(T = 24 hr).",
+          "marks": 6,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "State applications of QGIS in IWRPM.",
+          "marks": 5,
+          "question_id": "1z-SpxtUWbEFNtEwiAov6yqI1C1OuKjgM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2623,
+        "processed_at": "2026-06-12 00:51:48"
+      }
+    },
+    {
+      "pdf_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_sep_2024_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6361]-31",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 (C)",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "PC173",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2024 13:42:12 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Integrated Resource planning and Management.",
+          "marks": 3,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State objectives of IWRPM.",
+          "marks": 7,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State and Explain components of IWRPM.",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Central Water Commission (CWC)",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Global Water Partnership (GWP)",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain National Water Policy (NWP) in short.",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain importance of Participatory Irrigation Management (PIM)",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief role water distribution societies in development of water and irrigation sector.",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain water and land management Institute (WALMI)",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain blue vs green water disputes.",
+          "marks": 5,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain importance of ground water protection.",
+          "marks": 4,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any two irrigation efficiencies.",
+          "marks": 6,
+          "question_id": "1pD2v1DJDyCxCW5L5Q39H_h7uoyuH4xH5_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1452,
+        "processed_at": "2026-06-12 00:51:51"
+      }
+    },
+    {
+      "pdf_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_aug_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/insem_aug_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6580]-535",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003C",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE178",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/08/2025 13:40:01 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in detail National Water Policy [NWP].",
+          "marks": 6,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe the challenges of IWRPM.",
+          "marks": 5,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State the objectives of IWRPM.",
+          "marks": 4,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail the Central Water Commission [CWC].",
+          "marks": 6,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State and explain the components of IWRPM.",
+          "marks": 5,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "State the goals and objectives of Global Water Partnership [GWP].",
+          "marks": 4,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain water and land management institute [WALMI].",
+          "marks": 6,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the challenges achieve global water security.",
+          "marks": 5,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Find the delta for crop if the duty for a base period of 120 days is 1500 hectors/cumes.",
+          "marks": 4,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "The depth of penetration along the length of border strip at point of 30m apart were probed. Their observed values are 2.2, 2.0, 1.9, 1.8 and 1.6m. calculate the water distribution efficiency.",
+          "marks": 6,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the importance of participatory irrigation management [PIM].",
+          "marks": 5,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain blue vs green dispute.",
+          "marks": 4,
+          "question_id": "1l21c2E_VYjTvrrBXoPV7Cwc1qJvSPlbC_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1583,
+        "processed_at": "2026-06-12 00:51:54"
+      }
+    },
+    {
+      "pdf_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_may_jun_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6404]-57",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4553",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 20/05/2025 13:43:09 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Justify imporatance assessment of river water quality and write a brief note on prevention and control of surface water pollution.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain polluters pay principle.",
+          "marks": 8,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State any four CPCB regulations regarding water pollution control.",
+          "marks": 8,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain principles of planning and financing water of water resources projects.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain water pricing.",
+          "marks": 7,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain framework for planning a sustainable water future.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM.",
+          "marks": 7,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are water crises, explain its global and national perspective .",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State and explain rural local governing body water laws.",
+          "marks": 8,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain importance of management of flood plain.",
+          "marks": 7,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in detail Use of QGIS in IWRPM.",
+          "marks": 10,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "1iZoKbu8n2QEjkszLbI2eaGvAc8SXg4xc_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2093,
+        "processed_at": "2026-06-12 00:51:57"
+      }
+    },
+    {
+      "pdf_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/integrated_water_resource_planning_and_mgt_ele_III_ce/endsem_nov_dec_2025_ce_iwrpmc_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTEGRATED WATER RESOURCES PLANNING AND MANAGEMENT",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6584]-71",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401003 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2172",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/12/2025 13:56:39 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain causes prevention & control of surface & ground water pollution.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of polluters pay principle along with an example.",
+          "marks": 8,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Environmental Impact Assessment (EIA) and what are its Objectives, state methodology to carryout EIA.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State any four regulations of Central Pollution Control Board (CPCB) related to water pollution and explain need of its strict implementation and monitoring.",
+          "marks": 8,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Why water is considered as an economic good? State and explain economic value of water.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State and explain principles of planning and financing of water resources projects.",
+          "marks": 7,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are the causes and effects of water scarcity and control measures for preventing water scarcity in India?",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief economics and decision making in IWRPM.",
+          "marks": 7,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "State and explain UN laws on non-navigable uses of international water courses.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State and explain Dublin Principles (1992) in detail.",
+          "marks": 8,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are water rights and state the water allocation priorities in detail.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State any four municipal corporation laws regarding water supply and drainage.",
+          "marks": 8,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in detail flood forecasting? What are the methods to forecast flood?",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the effect of hydraulic structures on river surface profiles and sediment transport?",
+          "marks": 7,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of dam in flood control and power generation and its importance in IWRPM.",
+          "marks": 10,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain application of soft computing in flood control.",
+          "marks": 7,
+          "question_id": "17xrb3xdbsjBtb9HNxQrbEYURRSW7V-9m_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2354,
+        "processed_at": "2026-06-12 00:52:00"
+      }
+    }
+  ]
+}

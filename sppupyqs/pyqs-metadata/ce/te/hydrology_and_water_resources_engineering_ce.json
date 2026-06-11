@@ -1,0 +1,1457 @@
+{
+  "subject_name": "Hydrology & Water Resources Engineering",
+  "subject_slug": "hydrology_and_water_resources_engineering_ce",
+  "branch": "ce",
+  "semester": "te",
+  "papers": [
+    {
+      "pdf_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_oct_2022_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_oct_2022_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "Oct-22/TE/Insem-515",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "P8550",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/10/2022 10:40:20 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain hydrological cycle with neat sketch.",
+          "marks": 5,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain central designs organization (CDO).",
+          "marks": 5,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain drizzle form and glaze form of precipitation.",
+          "marks": 4,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is infiltration capacity; explain any two factors affecting infiltration capacity.",
+          "marks": 3,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the different methods of measuring evaporation and draw sketch of class A evaporation pan.",
+          "marks": 3,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain working of symphonic rainguage with neat sketch.",
+          "marks": 5,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain frontal and orographic precipitation.",
+          "marks": 5,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain BINNI’s method & BARLOW Tables for runoff estimation.",
+          "marks": 6,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain factors affecting runoff.",
+          "marks": 4,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "State the assumptions made in Unit Hydrograph theory.",
+          "marks": 3,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Given below are ordinates 6-h unit hydrograph for a catchment. Calculate the ordinates of the DRH due to a rainfall of 3.5cm occurring in 6 hours. Time (h) 0 3 6 9 12 15 18 24 UH Ordinates m3/s 0 25 50 85 125 160 185 160 Time (h) 30 36 42 48 54 60 69 UH Ordinates m3/s 110 60 36 25 16 8 0",
+          "marks": 7,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain velocity area method for stream gauging. Draw neat sketch.",
+          "marks": 7,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain components of typical hydrograph.",
+          "marks": 3,
+          "question_id": "1HuMuANyxCpe85feva-4T5cXHBEtZOO1w_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2018,
+        "processed_at": "2026-06-12 01:17:14"
+      }
+    },
+    {
+      "pdf_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2022_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2022_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[5926]-38",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1422",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 13/01/2023 13:43:14 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain hydrological design parameters to be considered for design of culverts and bridges.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "An urban catchment has area of 85ha. The slope of catchment is 0.006 and the maximum length of water travel is 950 m. The maximum depth of rainfall with return period of is as below Duration (min) 5 10 20 30 40 60 Depth of rainfall (mm) 17 26 40 50 57 62 If a culvert for drainage at the outlet of this area is to be designed for a return period of 25 years estimate the required peak flow rate, by assuming runoff coefficient as 0.3",
+          "marks": 8,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State and explain step by step procedure to delineate watershed on a topo sheet with neat sketches.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain step by step software procedure to generate contour map of a catchment area where dam is to be constructed.",
+          "marks": 8,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain importance of various investigations to be carried out before constructed of multipurpose dam project.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are reservoir losses and suggest method to control leakages from reservoir.",
+          "marks": 7,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain how you will fix the capacity of reservoir using elevation capacity curve and dependable yield. Explain neat sketch.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State measures to control reservoir sedimentation.",
+          "marks": 7,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive the formula to calculate discharge of a well in a confined aquifer and unconfined aquifer.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is water logging? Explain tile drain method and also state formula for spacing of tile drains.",
+          "marks": 8,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain participatory irrigation management and also explain water distribution societies in detail.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State various types of tube wells and explain construction of slotted type.",
+          "marks": 8,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Piped Distribution Network (PDN) and state its advantages.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is micro irrigation and what are its advantages compared other methods of irrigation.",
+          "marks": 7,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "State various methods of canal revenue collection and explain any two in detail.",
+          "marks": 10,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between surface irrigation and subsurface irrigation and explain sprinkler irrigation in detail.",
+          "marks": 7,
+          "question_id": "1XVPxCI_XWPDUXYEEZ1behZCy174nA0vd_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2836,
+        "processed_at": "2026-06-12 01:17:14"
+      }
+    },
+    {
+      "pdf_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2023_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2023_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6180]-11",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-7504",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 29/11/2023 09:38:44 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Q-GIS and its application in hydrology.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Rational formula and its importance.",
+          "marks": 8,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain watershed delineation procedure using a topo sheet with neat sketches.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain flood routing in detail.",
+          "marks": 8,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how will you fix the capacity of reservoir using annual inflow and outflow?",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are reservoir losses and suggest method to control leakages from reservoir?",
+          "marks": 7,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are various investigations required for reservoir planning?",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State measures to control reservoir sedimentation.",
+          "marks": 7,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive the formula to calculate discharge of a well in a confined aquifer and unconfined aquifer.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is water logging? Explain tile drain method and also state formula for spacing of tile drains.",
+          "marks": 8,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain reclamation of saline lands.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State various types of tube wells and explain construction of slotted type tube well.",
+          "marks": 8,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Piped Distribution Network (PDN) and state its advantages.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Hortons curve with neat sketch.",
+          "marks": 7,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "State principle Indian crops and explain their planning and agricultural practices.",
+          "marks": 10,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between surface irrigation and subsurface irrigation and explain drip irrigation in detail.",
+          "marks": 7,
+          "question_id": "1lOJxNyMyxzns36v2CTwVXL4i2racwlrU_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2087,
+        "processed_at": "2026-06-12 01:17:16"
+      }
+    },
+    {
+      "pdf_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2023_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2023_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "Hydrology & Water Resources Engineering",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6003]-327",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-250",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/06/2023 10:19:36 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain hydrological design of culverts and bridges.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "An urban catchment has area of 85 ha, The slope of catchment is 0.006 and the maximum length of water travel is 950 m. The maximum depth of rainfall with return period of is as below Duration (mm) 5 10 20 30 40 60 Depth of rainfall (mm) 17 26 40 50 57 62 If a culvert for drainage at the outlet of this area is to be designed for a return period of 25 years estimate the required peak flow rate, by assuming runoff coefficient as 0.3",
+          "marks": 8,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State and explain step by step procedure to delineate watershed on a topo sheet with neat sketches.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain step by step software procedure to generate contour map of a catchment area where dam is to be constructed.",
+          "marks": 8,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State and explain importance of various investigations to be carried out before construction of multipurpose dam project.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are reservoir losses and suggest method to control leakages from reservoir.",
+          "marks": 7,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain how you will fix the capacity of reservoir using elevation capacity curve and dependable yield. Explain neat sketch.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State measures to control reservoir sedimentation.",
+          "marks": 7,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive the formula to calculate discharge of a well in a confined aquifer and unconfined aquifer.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is water logging? Explain tile drain method and also state formula for spacing of tile drains.",
+          "marks": 8,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain participatory irrigation management and also explain water distribution societies in detail.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State various types of tube wells and explain construction of any type.",
+          "marks": 8,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Piped Distribution Network (PDN) and state its advantages.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is micro irrigation and what are its advantages compared to other methods of irrigation.",
+          "marks": 7,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "State various methods of canal revenue collection and explain any two in detail.",
+          "marks": 10,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between surface irrigation and subsurface irrigation and explain drip irrigation in detail.",
+          "marks": 7,
+          "question_id": "1B0FnfJV4WtFFs8TmYThKMntpW4ozbRG1_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2786,
+        "processed_at": "2026-06-12 01:17:16"
+      }
+    },
+    {
+      "pdf_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2023_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2023_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCE ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6187]-415",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5015",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2023 10:48:20 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Hydrology is the study of movement of water through different paths in the nature resulting in hydrologic cycle, justify. Explain any two practical application of study of hydrology.",
+          "marks": 5,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain 1. Missing rainfall data and methods to correct it & 2, Consistency of rainfall record.",
+          "marks": 6,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Rain gauge station A was found to be inoperative during a storm which produced a rainfall of 100, 75 and 85mm in the three surrounding stations P, Q, R. The normal annual rainfall at station A, P, Q, R. are 1050, 875, 725 and 830 mm respectively. Find the missing rainfall data for station A.",
+          "marks": 4,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the different abstraction of precipitation? Explain  and W infiltration indices their uses and practical application.",
+          "marks": 5,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A Isoheytal map for a storm was drawn for a catchment area. The isohyet and the area bounded by each isohyet is given below. Estimate the average depth of rainfall due to this storm. Isoheytal Interval (mm) 200-160 160-120 120-80 80-40 40-0 Area (Km2) 96 88 65 66 85",
+          "marks": 6,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate between evaporation, transpiration, and evapotranspiration. Explain any one factor which effect transpiration.",
+          "marks": 4,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Part of total precipitation is converted into runoff, Justify. What are the different components of runoff and how these components are derived from run off process?",
+          "marks": 5,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how run off is estimated using Strange’s tables and Barlow’s tables.",
+          "marks": 5,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Why is it necessary to separate base flow from hydrograph? Explain different methods of base flow separation.",
+          "marks": 5,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is a unit hydrograph, its uses and limitations?",
+          "marks": 4,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Stream flow data is necessary for Civil Engineering applications, discuss. What are the different methods of measurement of stream flow measurement?",
+          "marks": 4,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Derive the unit hydrograph for a drainage basin of area 150 km2 using the stream flow data given in the table below. Assume a constant base flow of 150 m3/s. Time (hr) 0 2 4 6 8 10 12 14 16 18 20 22 Run off (m3/s) 150 280 360 540 900 720 615 510 380 250 180 150",
+          "marks": 7,
+          "question_id": "11VCvrNvRpYqWSkJyKbFx8JW_YhgDAC09_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2901,
+        "processed_at": "2026-06-12 01:17:17"
+      }
+    },
+    {
+      "pdf_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2024_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2024_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "Hydrology and Water Resources Engineering",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "6353-1",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-1685",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/12/2024 09:32:30 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Q-GIS and its application in hydrology",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Rational formula and its importance",
+          "marks": 8,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain watershed delineation procedure using a topo sheet with neat sketches",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain flood routing in detail",
+          "marks": 8,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how will you fix the capacity of reservoir using annual inflow and outflow",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are reservoir losses and suggest method to control leakages from reservoir.",
+          "marks": 7,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are various investigations required for reservoir planning",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State measures to control reservoir sedimentation",
+          "marks": 7,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive the formula to calculate discharge of a well in a confined aquifer and unconfined aquifer.",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is water logging? Explain tile drain method and also state formula for spacing of tile drains.",
+          "marks": 8,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain reclamation of saline lands",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State various types of tube wells and explain construction of slotted type tube well",
+          "marks": 8,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Piped Distribution Network (PDN) and state its advantages",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Hortons curve with neat sketch.",
+          "marks": 7,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "State principle Indian crops and explain their planning and agricultural practices",
+          "marks": 10,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between surface irrigation and subsurface irrigation and explain drip irrigation in detail",
+          "marks": 7,
+          "question_id": "1NMA9LDc7BHCkf2J01ehn5mqUEhzMysfR_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2102,
+        "processed_at": "2026-06-12 01:17:17"
+      }
+    },
+    {
+      "pdf_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2024_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_may_jun_2024_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6262]-1",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3743",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/05/2024 09:27:20 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Q-GIS and its application in hydrology.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Rational formula and its importance.",
+          "marks": 8,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain watershed delineation procedure using a topo sheet with neat sketches.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain flood routing in detial.",
+          "marks": 8,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how will you fix the capacity of reservoir using annual inflow and outflow.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are reservoir losses and suggest method to control leakages from reservoir.",
+          "marks": 7,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are various investigations required for reservoir planning.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State measures to control reservoir sedimentation.",
+          "marks": 7,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive the formula to calculate discharge of a well in a confined aquifer and unconfined aquifer.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is water logging? Explain tile drain method and also state formula for spacing of tile drains.",
+          "marks": 8,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain reclamation of saline lands.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State various types of tube wells and explain construction of slotted type tube well.",
+          "marks": 8,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Piped Distribution Network (PDN) and state its advantages.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Hortons curve with neat sketch.",
+          "marks": 7,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is evaporation, state Meyer’s formula and Rowher’s formula and explain every term in formula.",
+          "marks": 10,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between surface irrigation and subsurface irrigation and explain drip irrigation in detail.",
+          "marks": 7,
+          "question_id": "1tDT9Z9GhuMOiZ557nyTv8alto_Gbv_fJ_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2102,
+        "processed_at": "2026-06-12 01:17:18"
+      }
+    },
+    {
+      "pdf_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2024_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_sep_2024_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6360]-15",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 31/08/2024 10:36:35 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain applications of hydrology.",
+          "marks": 5,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain National Institute of Hydrology (NIH).",
+          "marks": 5,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain drizzle form and rain form of precipitation.",
+          "marks": 4,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is infiltration capacity; explain any two factors affecting infiltration capacity.",
+          "marks": 3,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the different methods of measuring evaporation and draw sketch of class A evaporation pan.",
+          "marks": 3,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain working of symphonic rainguage with neat sketch.",
+          "marks": 5,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain frontal and orographic precipitation.",
+          "marks": 5,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain BINNI’S method & BARLOW Tables for runoff estimation.",
+          "marks": 6,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain factors affecting runoff.",
+          "marks": 4,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "State the assumptions made in Unit Hydrograph theory.",
+          "marks": 3,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Given below are ordinates 6-h unit hydrograph for a catchment. Calculate the ordinates of the DRH due to a rainfall of 3.5 cm occurring in 6 hours. Time (h) 0 3 6 9 12 15 18 24 UH Ordinates m3/s 0 25 50 85 125 160 185 160 Time (h) 30 36 42 48 54 60 69 UH Ordinates m3/s 110 60 36 25 16 8 0",
+          "marks": 7,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain velocity area method for stream gauging. Draw neat sketch.",
+          "marks": 7,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain components of typical hydrograph.",
+          "marks": 3,
+          "question_id": "11sfdIFIA6TU3AsSW1Ev-hSsFF3ZgPq5r_q6_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1986,
+        "processed_at": "2026-06-12 01:17:18"
+      }
+    },
+    {
+      "pdf_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_aug_2025_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/insem_aug_2025_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6579]-315",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE15",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/08/2025 10:58:44 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the applications of Hydrology in Engineering? Explain applications of hydrology in irrigation Engineering.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Which are the government organizations involved meteorological, hydrologic monitoring and studies in India. Briefly explain activities of IMD.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Precipitation measurement is necessary for various hydrological studies, discuss. How precipitation is measured, explain any one type with neat sketch.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the different methods to estimate the average depth of rainfall over a catchment? Explain any one method.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of infiltration measurement in hydrology. Explain  index, W index in infiltration studies",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "How can the consistency of rain gauge be checked.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain BINNI’s method & BARLOW Tables for runoff estimation.",
+          "marks": 4,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how Runoff is generated in hydrological cycle and what are the three types of runoff. How does topography and geological characteristics affect runoff.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain components of typical hydrograph with neat sketch. Explain factors affecting runoff.",
+          "marks": 6,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "State the assumptions made in Unit Hydrograph theory.",
+          "marks": 3,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Given below are ordinates 4-h unit hydrograph as below derive the ordinates of 12 h unit hydrograph for the same catchment. Time (h) 0 4 8 12 16 20 24 28 32 36 40 44 Ordinates 0 20 80 130 150 130 90 52 27 15 5 0 4 Hrs UH (m3/s)",
+          "marks": 7,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain velocity area method for stream gauging. Draw neat sketch.",
+          "marks": 5,
+          "question_id": "11ZQFIRkPU9eOPgy3mvjhljoH8voicKoW_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2355,
+        "processed_at": "2026-06-12 01:17:20"
+      }
+    },
+    {
+      "pdf_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2025_ce_hwrec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/hydrology_and_water_resources_engineering_ce/endsem_nov_dec_2025_ce_hwrec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6583]-10",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2486",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2025 09:41:14 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the various methods to estimate flood and explain any one method in detail.",
+          "marks": 9,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain briefly the terms: i) Design flood. ii) Standard project flood iii) Probable maximum flood iv) Design storm",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is flood routing, types of flood routing and explain Muskingum method of flood routing ?",
+          "marks": 10,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the application of software in hydrology and what are the different hydrological software commonly used. Explain application Q-GIS software in watershed delineation.",
+          "marks": 7,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the different types of reservoir explain one reservoir in each type?",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "List out the various zones of storage in a reservoir. Explain this with a neat sketch, the sedimentation zones in reservoir and methods to control sedimentation of reservoir.",
+          "marks": 9,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain yield and different types of yield from a reservoir. Explain ‘mass curve analysis’ for determining the capacity of a reservoir for a specified yield.",
+          "marks": 9,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain density currents, trap efficiency, useful life of reservoir, reservoir losses.",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is water logging, state any four causes of water logging. What are the ill effects of water logging and how it is controlled.",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "State Dupit’ s assumptions and derive the equation for discharge from unconfined aquifer under steady state condition.",
+          "marks": 10,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Differentiate between aquifer, aquiclude, aquitard and aquifuge with suitable example.",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A well of 300 mm diameter is located in a confined aquifer of 40m thick. The aquifer has a hydraulic conductivity of 25 m/day and the radius of influence is 300m. determine the discharge in m3/day from the well if the draw down is 3m. Also determine the percentage increase in discharge if the diameter is made to 450mm, with the other conditions remain same.",
+          "marks": 5,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "How does the permeability of aquifer affect the groundwater movement? Explain the Darcy equation governing the flow of water through aquifer medium. What are the limitations of Darcy equation?",
+          "marks": 5,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is irrigation? Why is it necessary? What are the benefits and ill effects of irrigation of irrigation projects?",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the following terms i) Crop period ii) Base period iii) Intensity of irrigation iv) Paleo irrigation v) Consumptive use",
+          "marks": 10,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the significance of Duty and delta in irrigation and how duty varies with the place of measurement. Develop the relation between delta,base period and duty for crop.",
+          "marks": 8,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "State concept of PIM and explain role of water user’s cooperative society in PIM. What are the merits and demerits of area or crop basis and volumetric assessment of water charges?",
+          "marks": 10,
+          "question_id": "1_ljmMpTh1QPvbcxCPMTJlFkRE3h-1bUd_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3460,
+        "processed_at": "2026-06-12 01:17:21"
+      }
+    }
+  ]
+}

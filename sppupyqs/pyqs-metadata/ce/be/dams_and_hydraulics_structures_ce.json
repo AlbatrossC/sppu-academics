@@ -1,0 +1,1646 @@
+{
+  "subject_name": "DAMS & Hydraulics Structures",
+  "subject_slug": "dams_and_hydraulics_structures_ce",
+  "branch": "ce",
+  "semester": "be",
+  "papers": [
+    {
+      "pdf_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_feb_2023_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_feb_2023_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "Dams & Hydraulics Structures",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6010]-26",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10157",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/04/2023 09:11:41 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define the term dam & state its purpose.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the types of dams based on structural action and briefly explain any one type.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State & explain any two instruments used for various measurements needed to safety of dams.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is an arch dam & state its advantages and disadvantages.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the objectives of dam safety instruments?",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the factors that govern the selection of the site for a dam construction.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist forces acting on gravity dam & write their equation for any two forces acting on gravity dam.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are the Modes of failure of gravity dam? Explain any two.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Enlist different methods of stability analysis of gravity dam & explain in brief any one of them.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss various methods to reduce uplift pressure at the base of gravity dam.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain various joints provided in gravity dam.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "As shown in fig. 1 profile of gravity dam and water level in the reservoir. If specific weight of concrete used for the dam is 24 kN/m3 & coefficient of friction is 0.70, total self weight of dam is 54×103kN/m. check the safety of dam with respect to sliding.",
+          "marks": 5,
+          "question_id": "11jQgvTlNixnv-4n1TYJwFjBFtpAHK5af_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2108,
+        "processed_at": "2026-06-12 00:49:59"
+      }
+    },
+    {
+      "pdf_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2023_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2023_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6004]-466",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1446",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/06/2023 14:24:34 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is an emergency spillway? state its purpose.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is a spillway gate? Briefly explain anyone types of gates.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Discuss the various types of energy dissipator used below spillway in relation to the position of tail water depth and jump height curve at least two with sketch.",
+          "marks": 7,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist main components of spillway & explain any one.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Enlist type of energy dissipator & explain in details bucket type energy dissipater.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level = 160 m ii) Slope of D/S = 0.75 H : IV, u/s face is vertical iii) Spillway crest RL = 265 m iv) Design discharge = 5750 m3/s v) Spillway length is 6 spans with a clear length of 7 m each. Pier thickness = 2m.",
+          "marks": 7,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a note on measures adopted for safe drainage of seepage water in earthen dam.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the function of hearting and rock toe in earthen dam.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety of downstream slope of (homogeneous section) an earth dam drawn to a scale of 1:650, for the following data: Area of N-rectangle =20 cm2 Area of T-rectangle = 10 cm2 Area of U-rectangle = 5 cm2 Length of slip circle arc = 20 cm Angle of internal friction = 260 Cohesion c = 24 kg/m2 Specific weight of soil = 18 kN/m3",
+          "marks": 8,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Briefly explain various causes of modes of failure of earthen dams. Draw relevant sketches.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the method of plotting phreatic line for an earth dam with horizontal filter at the downstream.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "With the help of appropriate sketches explain Swedish slip circle method of stability analysis of an earth dam.",
+          "marks": 8,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Canal falls ii) Canal outlets",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe the types of canals on the basis of their purpose.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Briefly explain kennedy’s theory. What are the drawbacks of Kenned’s theory.",
+          "marks": 7,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Canal escapes ii) Canal regulators",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain types of canal according to function.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Design a regime channel of trapezoidal section for carrying water at the rate 12 cumecs having side slopes 1 H : 2 V, if Lacey’s slit factor is 0.90.",
+          "marks": 7,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain bilgh’s theory of seepage with neat sketch.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What do you understand by cross drainage work? Write the factors for selection of CD works.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain in brief i) Aqueduct ii) Super passage iii) Level crossing iv) Inlet and outlet",
+          "marks": 8,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Khosla’s theory of independent of seepage variable.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the importance of exit gradient.",
+          "marks": 5,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Draw a labelled sketch of diversion headworks Also enumerate the function of each component.",
+          "marks": 8,
+          "question_id": "1WVi8FRD5MmwFPUEXSYeOSMN5rSlurcnE_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3762,
+        "processed_at": "2026-06-12 00:50:04"
+      }
+    },
+    {
+      "pdf_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2023_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2023_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6181]-86",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P6537",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 29/11/2023 13:34:33 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define spillway & state its purpose.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist main components of spillway & explain Control structure.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level = 160 m ii) Slope of D/S = 0.75 H : 1V, u/s face is vertical iii) Spillway crest RL = 265 m iv) Design discharge = 5530 m3/s v) Spillway length is 6 spans with a clear length of 7 m each. vi) Pier thickness = 2m.",
+          "marks": 7,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist type of energy dissipator & explain Ski jump type energy dissipater.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State four types of spillway gate and explain any one with sketch.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the design criteria of U.S. type II stilling basin. Draw a neat sketch of the stilling basin.",
+          "marks": 7,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Briefly explain various causes of modes of failure of earthen dams. Draw relevant sketches.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the method of plotting phreatic line for an earth dam with horizontal filter at the downstream.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "With the help of appropriate sketches explain Swedish slip circle method of stability analysis of an earth dam.",
+          "marks": 8,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the function of hearting and rock toe in earthen dam.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch of a cross-section of earthen dam indicating the various components & explain any one component.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety of downstream slope of (homogeneous section) an earth dam drawn to a scale of 1:650, for the following data: Area of N-rectangle = 20 cm2 Area of T-rectangle = 10 cm2 Area of U-rectangle = 5 cm2 Length of slip circle arc = 20 cm angle of internal friction = 26º cohesion c = 24 kg/m2 specific weight of soil = 18 kN/m3",
+          "marks": 8,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is a canal? Explain types of canals based on function.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the advantage and disadvantages of lining of canals.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Design a regime channel of trapezoidal section for carrying water at the rate 10 cumecs having side slopes 1 H: 2 V, if Lacey’s slit factor is 0.90.",
+          "marks": 7,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write short note on. i) Canal falls ii) Canal outlets",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write note on khosla’s theory of independent variable.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Briefly explain kennedy’s theory. What are the drawbacks of Kenned’s theory.",
+          "marks": 7,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Khosla’s theory of independent od seepage variable.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the importance of exit gradient.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Draw a labelled sketch of diversion headworks Also enumerate the function of each component.",
+          "marks": 8,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief : i) Level crossing ii) Super passage",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Compare bligh’s and lane’s creep theores of seepage.",
+          "marks": 5,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write note on khosla’s theory application for design of structure on permeable foundations. Also explain the importance of exit gradient.",
+          "marks": 8,
+          "question_id": "1zKrG6WmiBv0onlz0Xr6fh9xO7xxJrS1v_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3536,
+        "processed_at": "2026-06-12 00:50:09"
+      }
+    },
+    {
+      "pdf_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2024_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2024_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6270]-36",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB248",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/03/2024 13:35:43 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the terms upstream side, downstream side, tailwater, spillway & gallery of gravity dam.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State various objectives of dam safety and instrumentation.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State the classification of dam based on purpose & explain in details anyone.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketches the instrumentation required for monitoring uplift pressure in gravity dam.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State the classification of arch dam and explain anyone.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with sketch “Piezometer” used in gravity dam safety.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in detail seismic forces acts on gravity dam with proper sketch.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State and explain various keys provided in gravity dam.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "State middle third rule for dam structure.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in details galleries in a gravity dam with respect to location and function.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe procedure for roller compacted concrete.",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "As shown in fig.1 profile of gravity dam, check the safety of dam with respect to sliding, where as unit weight of construction material = 24 KN/m3 Coefficient of friction = 0.75",
+          "marks": 5,
+          "question_id": "1vx4YaLlCKZgybLMqaPbJzw7hXF7TcuqY_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1961,
+        "processed_at": "2026-06-12 00:50:13"
+      }
+    },
+    {
+      "pdf_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2024_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2024_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6263]-67",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2230",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/05/2024 13:36:37 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain any one spillway with sketch.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain main components of spillway.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the concept of energy dissipation below spillway.",
+          "marks": 7,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain any one type of spillway gates.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the concept of energy dissipator & its importance.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level =160 m ii) Slope of D/S=0.75H: 1V, u/s face is vertical iii) Spillway crest RL=265m iv) Desing discharge=5750 m3/s v) Spillway length is 6 spans with a clear length of 7 m each. vi) Pier thickness=2m.",
+          "marks": 7,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist different causes of failure of earthen dams and explain any one",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define earthen dam & explain in details limitations of earth dam",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain various seepage control measures in eathen dam",
+          "marks": 8,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain types earth dam based on method of construction",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw various component of earthen dam",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety of downstrem slope of (homogeneous section) an earth dam drawn to a scale of 1:650, for the following data: Area of N-rectangle=20cm2 Area of T-rectangle=10cm2 Area of U-rectangle=5cm2 Length of slip circle arc=20cm angle of internal friction=26° cohesion c = 24 kg/m2 specific weight of soil=18 kN/m3",
+          "marks": 8,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the advantages of canal lining",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the components of canal system with neat sketch",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain design of canal by Kennedy’s theory",
+          "marks": 7,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is canal? Explain any one types of canals based on function.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is a Canal Fall? Explain any one types of canal fall.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Enlist & elaborate the steps in designing of trapezoidal lined canal.",
+          "marks": 7,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the concept of weir.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Draw layout plan of diversion head works and label all its components",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) Super passage ii) Siphon aqueduct",
+          "marks": 8,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the importance of exit gradient.",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain lane’s creep theories of seepage",
+          "marks": 5,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) Level crossing ii) Super passage",
+          "marks": 8,
+          "question_id": "1udZ5S7q5FuW91tOtQ4rYT-J6VgO2QMcy_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2893,
+        "processed_at": "2026-06-12 00:50:17"
+      }
+    },
+    {
+      "pdf_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2024_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2024_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULIC STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6354]-471",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2355",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/11/2024 13:47:48 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define spillway and explain anyone type of spiliway with proper sketch.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain main components of spillway.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain energy dissipation device and its importance.",
+          "marks": 7,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain ski jump bucket with suitable diagram.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between controlled and uncontrolled spillway.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level = 160 m ii) Slope of D/S = 0.75 H: 1V, u/s face is vertical iii) Spillway crest RL = 265 m iv) Design discharge = 5750 m3/s v) Spillway length is 6 spans with a clear length of 7 m each. Pier thickness= 2m.",
+          "marks": 7,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist different causes of failure of earthen dams and explain any one.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define earthen dam & explain in details limitations of earth dam.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain various seepage control measures in earthen dam.",
+          "marks": 8,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the function of hearting and rock toe in earthen dam.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define phreatic line for an earth dam & explain phreatic line for an earth dam with horizontal filter at the downstream.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Swedish slip circle method of stability analysis of an earth dam.",
+          "marks": 8,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the advantage and disadvantages of lining of canals.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the components of canal system with neat sketch.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain design of canal by Kennedy’s theory.",
+          "marks": 7,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain necessity of canal lining.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the drawbacks of Kenned’s theory.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write short note on. i) canal regulators ii) canal escapes",
+          "marks": 7,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Draw a labelled sketch of diversion headworks.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Compare bligh’s and lane’s creep theories of seepage.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) inlet and outlet ii) aqueduct",
+          "marks": 8,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the importance of exit gradient.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain lane’s creep theories of seepage.",
+          "marks": 5,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) Level crossing ii) Super passage",
+          "marks": 8,
+          "question_id": "1CsL5C0JQSd2VFdgqgi-HDBpGspVATmFq_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2753,
+        "processed_at": "2026-06-12 00:50:22"
+      }
+    },
+    {
+      "pdf_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2025_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/insem_mar_2025_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6411]-26",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1Hour",
+        "paper_identifier": "PD-251",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 13:44:59 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "State the objectives regarding the instrumentation in dam safety.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist type of dam based on hydraulic action and explain in details anyone.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define the term ‘Dam’. Explain the terms gallery, crest and toe of gravity dam.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketches the instrumentation required for monitoring joints & cracks in a concrete dam.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain with sketch “Inclinometer” used in gravity dam safety.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are salient features of arch dam?",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the Modes of failure of gravity dam? Explain any one with formula.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in details elementary profile of gravity dam.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "With a neat sketch of gravity dam, explain water pressure forces and their effects on dam.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "For gravity dam, Check the safety of dam as shown in fig 1 with respect to sliding. where unit weight of construction material = 24KN/m3& coefficient of friction = 0.75",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail concept of Roller compacted dams.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain how you will find the uplift pressure on a gravity dam provided with drainage gallery.",
+          "marks": 5,
+          "question_id": "1BBhYEvpegm-BJwoaxpiIucwrGIwfYSru_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1998,
+        "processed_at": "2026-06-12 00:50:25"
+      }
+    },
+    {
+      "pdf_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2025_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_may_jun_2025_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6404]-67",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4563",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/05/2025 13:32:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain any one type of spillway in details.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between controlled and uncontrolled spillway.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level = 160 m ii) Slope of D/S = 0.75 H: 1V, u/s face is vertical iii) Spillway crest RL = 265 m iv) Design discharge = 5750 m3/s v) Spillway length is 6 spans with a clear length of 7 m each. vi) Pier thickness= 2m.",
+          "marks": 7,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the importance of energy dissipater.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch of the type II stilling basin.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Draw typical layout of radial gate showing all the components and explain their purposes.",
+          "marks": 7,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the function of hearting and rock toe in earthen dam.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the method of plotting phreatic line for an earth dam with horizontal filter at the downstream.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "With the help of appropriate sketches explain Swedish slip circle method of stability analysis of an earth dam.",
+          "marks": 8,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw a neat sketch of a cross-section of earthen dam indicating the various components.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Briefly explain various causes of modes of failure of earthen dams.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety of downstream slope of (homogeneous section) an earth dam drawn to a scale of 1:650, for the following data: Area of N-rectangle = 20 cm2 Area of T-rectangle = 10 cm2 Area of U-rectangle = 5 cm2 Length of slip circle arc = 20 cm angle of internal friction=260 cohesion c = 24 kg/m2 specific weight of soil = 18 kN/m3",
+          "marks": 8,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the advantage and disadvantages of lining of canals.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are the drawbacks of Kenned’s theory.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write short note on. i) canal escapes ii) canal regulators",
+          "marks": 7,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write note on Lacey’s regime theory.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain necessity of canal lining.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write short note on. i) Canal falls ii) Canal outlets",
+          "marks": 7,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Khosla’s theory of independent of seepage variable.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the importance of exit gradient.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) inlet and outlet ii) aqueduct",
+          "marks": 8,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Draw a labelled sketch of diversion headworks.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Compare bligh’s and lane’s creep theories of seepage.",
+          "marks": 5,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) Level crossing ii) Super passage",
+          "marks": 8,
+          "question_id": "1cH1SvTfLHZkRSkagORZNIqBAx2jM6Wge_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3124,
+        "processed_at": "2026-06-12 00:50:30"
+      }
+    },
+    {
+      "pdf_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2025_ce_dhsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/dams_and_hydraulics_structures_ce/endsem_nov_dec_2025_ce_dhsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DAMS AND HYDRAULICS STRUCTURES",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6584]-53",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401011",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2154",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/11/2025 13:39:03 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are spillways and what is their necessity?",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw a labeled sketch of ogee spillway showing all components",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain ‘Stilling Basin Types’ according IS 4997-1968",
+          "marks": 7,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain importance of ‘Energy Dissipators’.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain in details ‘Vertical Lift Gate’.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Design an ogee spillway for concrete gravity dam, for the following data. i) Average river bed level = 100 m ii) Slope of D/S = 0.7 H: 1V, u/s face is vertical iii) Spillway crest RL = 204 m iv) Design discharge = 8000 m3/s v) Spillway length is 6 spans with a clear length of 10 m each. Pier thickness = 2.5 m.",
+          "marks": 7,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain function of pitching on U/S face of earthen dam & turfing.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in details homogenous embankment type of dam.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe the method of plotting phreatic line for an earth dam with & without horizontal filter at the downstream side.",
+          "marks": 8,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain significance of drainage blanket in earthen dam",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain ‘Seepage Failure’ in earthen dam",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety of downstream slope of (homogeneous section) an earth dam drawn to a scale of 1cm = 4 m, for the following data : Area of N-rectangle = 24 cm2 Area of T-rectangle = 12 cm2 Area of U-rectangle = 8 cm2 Length of slip circle arc = 20 cm angle of internal friction = 25° Cohesion c = 19.5 kN/m2 specific weight of soil = 19 kN/m3",
+          "marks": 8,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain types of canals based on alignment.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain in details limitations of Kennedy’s theory.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Design an irrigation channel by Kennedy’s theory to carry a discharge of 36 cumecs. Take rugosity coefficient N = 0.0225 and critical velocity ratio m = 1.05. The channel has a bed slope of 1 in 5000 and side slope of 0.5 H:1 V. Take initial trial depth as 2m.",
+          "marks": 8,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain various losses in irrigation of canals",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the concept of canal fall and describe ogee fall in details",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Design a regime channel of trapezoidal section for carrying water at the rate 12 cumecs having side slopes 1 H: 2 V, if Lacey’s slit factor is 0.90.",
+          "marks": 8,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in details “Super Passage”.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in details limitation of Bligh’s Theory.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Draw layout plan of a typical diversion head works and label all its part. Write functions of each part.",
+          "marks": 7,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in details “Level Crossing”.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain selection criteria for ‘Diversion Head Work’.",
+          "marks": 5,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain ‘Creep Theory by Bligh’ for the hydraulic design of weir on a permeable foundation.",
+          "marks": 7,
+          "question_id": "1Iw5VUtc7Z7glg_JVgC9AIL5XFUH2JbUS_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3402,
+        "processed_at": "2026-06-12 00:50:34"
+      }
+    }
+  ]
+}

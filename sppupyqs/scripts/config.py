@@ -21,14 +21,9 @@ class AppConfig:
     gemini_retries_per_key: int
     gemini_retry_delay_seconds: float
     pdf_text_min_characters: int
-    primary_gemini_api_key: str
-    secondary_gemini_api_key: str
+    gemini_api_keys: list[str]
     ocr_language: str
     tesseract_cmd: str | None
-
-    @property
-    def gemini_api_keys(self) -> list[str]:
-        return [key for key in [self.primary_gemini_api_key, self.secondary_gemini_api_key] if key]
 
 
 def load_config() -> AppConfig:
@@ -43,6 +38,13 @@ def load_config() -> AppConfig:
         if legacy_schema_path.exists():
             schema_path = legacy_schema_path
 
+    gemini_api_keys = []
+    for key, value in os.environ.items():
+        if key.startswith("GEMINI_API_KEY") and value.strip():
+            gemini_api_keys.append(value.strip())
+    # remove duplicates and sort for consistency
+    gemini_api_keys = list(sorted(set(gemini_api_keys)))
+
     return AppConfig(
         base_dir=base_dir,
         scripts_dir=scripts_dir,
@@ -56,8 +58,7 @@ def load_config() -> AppConfig:
         gemini_retries_per_key=int(os.getenv("GEMINI_RETRIES_PER_KEY", "3")),
         gemini_retry_delay_seconds=float(os.getenv("GEMINI_RETRY_DELAY_SECONDS", "3")),
         pdf_text_min_characters=int(os.getenv("PDF_TEXT_MIN_CHARACTERS", "200")),
-        primary_gemini_api_key=os.getenv("PRIMARY_GEMINI_API_KEY", "").strip(),
-        secondary_gemini_api_key=os.getenv("SECONDARY_GEMINI_API_KEY", "").strip(),
+        gemini_api_keys=gemini_api_keys,
         ocr_language=os.getenv("OCR_LANGUAGE", "eng"),
         tesseract_cmd=os.getenv("TESSERACT_CMD", "").strip() or None,
     )

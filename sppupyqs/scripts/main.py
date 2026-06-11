@@ -24,6 +24,14 @@ from utils import (
     timestamp_string,
 )
 
+from rich.console import Console, Group
+from rich.live import Live
+from rich.panel import Panel
+from rich.progress import Progress, SpinnerColumn, BarColumn, TextColumn, TimeElapsedColumn, TimeRemainingColumn
+from rich.table import Table
+
+console = Console()
+
 ALL_VALUE = "__all__"
 MBA_VALUE = "mba"
 
@@ -100,11 +108,11 @@ def main() -> int:
     )
     if stats.total == 0:
         progress_logger.append_event("No PDFs matched the selected filters.")
-        print("No PDFs matched the selected filters.")
+        console.print("[yellow]No PDFs matched the selected filters.[/yellow]")
         print_selection(args)
         return 0
     progress_logger.append_event("Pipeline started.")
-    print(f"Pipeline started. Provider: {args.provider}. Target PDFs: {stats.total}")
+    console.print(f"[bold green]Pipeline started.[/bold green] Provider: [blue]{args.provider}[/blue]. Target PDFs: [bold]{stats.total}[/bold]")
 
     extractor = PDFTextExtractor(
         timeout_seconds=config.request_timeout_seconds,
@@ -113,8 +121,10 @@ def main() -> int:
         tesseract_cmd=config.tesseract_cmd,
     )
     try:
+        from key_manager import KeyManager, AllKeysExhaustedError
+        key_manager = KeyManager(config.gemini_api_keys, cooldown_duration=60)
         gemini_client = GeminiMetadataClient(
-            api_keys=config.gemini_api_keys,
+            key_manager=key_manager,
             model_name=config.model_name,
             system_prompt=system_prompt,
             response_schema=response_schema,
@@ -124,12 +134,11 @@ def main() -> int:
     except ValueError as error:
         progress_logger.append_event(f"Configuration error: {error}")
         progress_logger.append_snapshot(stats)
-        print(f"Configuration error: {error}")
-        print(f"Check: {config.scripts_dir / '.env'}")
+        console.print(f"[red]Configuration error:[/red] {error}")
+        console.print(f"Check: {config.scripts_dir / '.env'}")
         return 1
 
-    processed_this_run = 0
-
+    items_to_process = []
     for manifest_file in manifest_files:
         pattern_key = pattern_key_from_manifest_file(manifest_file)
         if args.pattern and pattern_key != args.pattern:
@@ -150,11 +159,69 @@ def main() -> int:
                 continue
             if args.subject and item.subject_slug != args.subject:
                 continue
+            items_to_process.append(item)
 
-            stats.current_branch = item.branch
-            stats.current_semester = item.semester
-            stats.current_subject = item.subject_slug
+    import threading
+    import concurrent.futures
+    from collections import defaultdict
 
+    subject_locks = defaultdict(threading.Lock)
+    stats_lock = threading.Lock()
+    stop_event = threading.Event()
+    processed_this_run = 0
+    limit = args.limit
+
+    recent_logs = []
+    log_lock = threading.Lock()
+
+    def add_log(msg: str, is_error: bool = False):
+        with log_lock:
+            colored_msg = f"[red]{msg}[/red]" if is_error else msg
+            recent_logs.append(colored_msg)
+            if len(recent_logs) > 8:
+                recent_logs.pop(0)
+
+    progress = Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+        TextColumn("({task.completed}/{task.total})"),
+        TimeElapsedColumn(),
+        TimeRemainingColumn(),
+    )
+    overall_task = progress.add_task("[green]Processing PDFs...", total=stats.total)
+
+    class Dashboard:
+        def __rich__(self):
+            with stats_lock:
+                stats_table = Table(show_header=False, expand=True, box=None)
+                stats_table.add_row("Processed:", f"[green]{stats.processed}[/green]", "Skipped:", f"[yellow]{stats.skipped}[/yellow]")
+                stats_table.add_row("Failed:", f"[red]{stats.failed}[/red]", "Remaining:", f"[cyan]{stats.remaining}[/cyan]")
+                stats_table.add_row("OCR Used:", f"[magenta]{stats.ocr_used}[/magenta]", "Gemini Fails:", f"[red]{stats.gemini_failures}[/red]")
+            
+            with log_lock:
+                log_content = "\n".join(recent_logs)
+            
+            log_panel = Panel(log_content, title="Recent Logs", height=10, expand=True)
+            stats_panel = Panel(stats_table, title="Pipeline Stats", expand=True)
+            progress_panel = Panel(progress, title="Overall Progress", expand=True)
+            
+            return Group(progress_panel, stats_panel, log_panel)
+
+    def process_item(item):
+        nonlocal processed_this_run
+
+        if stop_event.is_set():
+            return
+        
+        with stats_lock:
+            if limit and processed_this_run >= limit:
+                return
+
+        subject_key = (item.branch, item.semester, item.subject_slug)
+        
+        with subject_locks[subject_key]:
             output_path, subject_document = load_subject_document(
                 config.output_dir,
                 item.branch,
@@ -172,86 +239,118 @@ def main() -> int:
             pdf_id = item.pdf_id or build_pdf_id(pdf_url)
 
             if pdf_url in existing_pdf_urls:
-                stats.skipped += 1
+                with stats_lock:
+                    stats.skipped += 1
                 progress_logger.append_event(f"Skipped existing PDF: {pdf_url}")
-                progress_logger.append_snapshot(stats)
-                print(f"Skipped existing PDF: {pdf_url}")
-                continue
+                add_log(f"[yellow]Skipped[/yellow] {pdf_url.split('/')[-1]}")
+                progress.update(overall_task, advance=1)
+                return
 
-            try:
-                print(f"Processing PDF: {pdf_url}")
-                extracted_document = extractor.extract_from_url(pdf_url)
-                if extracted_document.used_ocr:
+        try:
+            add_log(f"[blue]Processing[/blue] {pdf_url.split('/')[-1]}")
+            extracted_document = extractor.extract_from_url(pdf_url)
+            if extracted_document.used_ocr:
+                with stats_lock:
                     stats.ocr_used += 1
-                    progress_logger.append_event(f"OCR used for {pdf_url}")
-                    print(f"OCR used for: {pdf_url}")
+                progress_logger.append_event(f"OCR used for {pdf_url}")
+                add_log(f"[magenta]OCR Used[/magenta] {pdf_url.split('/')[-1]}")
 
-                gemini_payload = gemini_client.extract_metadata(
-                    branch=item.branch,
-                    semester=item.semester,
-                    subject_name=item.subject_name,
-                    subject_slug=item.subject_slug,
-                    pdf_url=pdf_url,
-                    extracted_text=extracted_document.text,
+            gemini_payload = gemini_client.extract_metadata(
+                branch=item.branch,
+                semester=item.semester,
+                subject_name=item.subject_name,
+                subject_slug=item.subject_slug,
+                pdf_url=pdf_url,
+                extracted_text=extracted_document.text,
+            )
+            questions = gemini_payload.get("questions", [])
+            normalized_questions = assign_question_ids(pdf_id, questions)
+
+            paper_payload = {
+                "pdf_id": pdf_id,
+                "pdf_url": pdf_url,
+                "canonical_path": item.canonical_path,
+                "pattern_key": item.pattern_key,
+                "pattern_year": item.pattern_year,
+                "year_key": item.year_key,
+                "year_name": item.year_name,
+                "source_metadata": {
+                    "branch_key": item.branch_key,
+                    "branch_name": item.branch_name,
+                    "exam": item.paper.get("exam"),
+                    "month": item.paper.get("month"),
+                    "year": item.paper.get("year"),
+                },
+                "metadata": gemini_payload.get("metadata", {}),
+                "questions": normalized_questions,
+                "extraction_info": {
+                    "method": extracted_document.extraction_method,
+                    "used_ocr": extracted_document.used_ocr,
+                    "page_count": extracted_document.page_count,
+                    "character_count": extracted_document.character_count,
+                    "processed_at": timestamp_string(),
+                },
+            }
+
+            with subject_locks[subject_key]:
+                output_path, subject_document = load_subject_document(
+                    config.output_dir,
+                    item.branch,
+                    item.semester,
+                    item.subject_slug,
+                    item.subject_name,
                 )
-                questions = gemini_payload.get("questions", [])
-                normalized_questions = assign_question_ids(pdf_id, questions)
-
-                paper_payload = {
-                    "pdf_id": pdf_id,
-                    "pdf_url": pdf_url,
-                    "canonical_path": item.canonical_path,
-                    "pattern_key": item.pattern_key,
-                    "pattern_year": item.pattern_year,
-                    "year_key": item.year_key,
-                    "year_name": item.year_name,
-                    "source_metadata": {
-                        "branch_key": item.branch_key,
-                        "branch_name": item.branch_name,
-                        "exam": item.paper.get("exam"),
-                        "month": item.paper.get("month"),
-                        "year": item.paper.get("year"),
-                    },
-                    "metadata": gemini_payload.get("metadata", {}),
-                    "questions": normalized_questions,
-                    "extraction_info": {
-                        "method": extracted_document.extraction_method,
-                        "used_ocr": extracted_document.used_ocr,
-                        "page_count": extracted_document.page_count,
-                        "character_count": extracted_document.character_count,
-                        "processed_at": timestamp_string(),
-                    },
-                }
                 subject_document.setdefault("papers", []).append(paper_payload)
                 atomic_write_json(output_path, subject_document)
 
-                existing_pdf_urls.add(pdf_url)
+            with stats_lock:
                 stats.processed += 1
                 processed_this_run += 1
-                progress_logger.append_event(f"Processed PDF: {pdf_url}")
-                progress_logger.append_snapshot(stats)
-                print(f"Processed PDF: {pdf_url}")
+                stats.current_branch = item.branch
+                stats.current_semester = item.semester
+                stats.current_subject = item.subject_slug
+            
+            progress_logger.append_event(f"Processed PDF: {pdf_url}")
+            add_log(f"[green]Success[/green] {pdf_url.split('/')[-1]}")
+            progress.update(overall_task, advance=1)
 
-                if args.limit and processed_this_run >= args.limit:
+            with stats_lock:
+                if limit and processed_this_run >= limit:
+                    stop_event.set()
                     progress_logger.append_event("Processing limit reached.")
-                    print("Processing limit reached.")
-                    print_summary(stats)
-                    return 0
-            except GeminiExtractionError as error:
+                    add_log("[bold yellow]Processing limit reached.[/bold yellow]")
+
+        except AllKeysExhaustedError as error:
+            progress_logger.append_event(f"All keys exhausted. Stopping. {error}")
+            add_log(f"All keys exhausted. Stopping. {error}", is_error=True)
+            stop_event.set()
+        except GeminiExtractionError as error:
+            with stats_lock:
                 stats.failed += 1
                 stats.gemini_failures += 1
-                progress_logger.append_event(f"Gemini failure for {pdf_url}: {error}")
-                progress_logger.append_snapshot(stats)
-                print(f"Gemini failure for {pdf_url}: {error}")
-            except Exception as error:  # pragma: no cover
+            progress_logger.append_event(f"Gemini failure for {pdf_url}: {error}")
+            add_log(f"Gemini failure: {pdf_url.split('/')[-1]}", is_error=True)
+            progress.update(overall_task, advance=1)
+        except Exception as error:  # pragma: no cover
+            with stats_lock:
                 stats.failed += 1
-                progress_logger.append_event(f"PDF failure for {pdf_url}: {error}")
-                progress_logger.append_snapshot(stats)
-                print(f"PDF failure for {pdf_url}: {error}")
+            progress_logger.append_event(f"PDF failure for {pdf_url}: {error}")
+            add_log(f"PDF failure: {pdf_url.split('/')[-1]}", is_error=True)
+            progress.update(overall_task, advance=1)
+
+    max_workers = len(config.gemini_api_keys) * 2
+    if max_workers < 1:
+        max_workers = 1
+
+    with Live(Dashboard(), console=console, refresh_per_second=4) as live:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = [executor.submit(process_item, item) for item in items_to_process]
+            for future in concurrent.futures.as_completed(futures):
+                future.result()
 
     progress_logger.append_event("Pipeline completed.")
     progress_logger.append_snapshot(stats)
-    print("Pipeline completed.")
+    console.print("\n[bold green]Pipeline completed.[/bold green]")
     print_summary(stats)
     return 0
 
@@ -405,26 +504,29 @@ def prompt_for_option(message: str, options: list[SelectionOption]) -> str | Non
 
 
 def print_selection(args: argparse.Namespace) -> None:
-    print(
-        "Selected:"
-        f" pattern={args.pattern or 'all'},"
-        f" branch={args.branch or 'all'},"
-        f" year={args.year or 'all'},"
-        f" semester={args.semester or 'all'},"
-        f" subject={args.subject or 'all'}"
+    console.print(
+        "[bold]Selected:[/bold]"
+        f" pattern=[cyan]{args.pattern or 'all'}[/cyan],"
+        f" branch=[cyan]{args.branch or 'all'}[/cyan],"
+        f" year=[cyan]{args.year or 'all'}[/cyan],"
+        f" semester=[cyan]{args.semester or 'all'}[/cyan],"
+        f" subject=[cyan]{args.subject or 'all'}[/cyan]"
     )
 
 
 def print_summary(stats: PipelineStats) -> None:
-    print(
-        "Summary:"
-        f" processed={stats.processed},"
-        f" skipped={stats.skipped},"
-        f" failed={stats.failed},"
-        f" remaining={stats.remaining},"
-        f" gemini_failures={stats.gemini_failures},"
-        f" ocr_used={stats.ocr_used}"
-    )
+    table = Table(title="Final Summary")
+    table.add_column("Metric", style="cyan")
+    table.add_column("Value", style="magenta")
+
+    table.add_row("Processed", str(stats.processed))
+    table.add_row("Skipped", str(stats.skipped))
+    table.add_row("Failed", str(stats.failed))
+    table.add_row("Remaining", str(stats.remaining))
+    table.add_row("Gemini Failures", str(stats.gemini_failures))
+    table.add_row("OCR Used", str(stats.ocr_used))
+
+    console.print(table)
 
 
 if __name__ == "__main__":

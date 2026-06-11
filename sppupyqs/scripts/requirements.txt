@@ -5,3 +5,4 @@ pytesseract
 python-dotenv
 questionary
 requests
+rich

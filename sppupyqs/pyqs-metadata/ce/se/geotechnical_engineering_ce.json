@@ -1,0 +1,2192 @@
+{
+  "subject_name": "Geotechnical Engineering",
+  "subject_slug": "geotechnical_engineering_ce",
+  "branch": "ce",
+  "semester": "se",
+  "papers": [
+    {
+      "pdf_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2022_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2022_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5869]-206",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P593",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/06/2022 08:15:11 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Differentiate between light compaction test and heavy compaction test. Draw typical compaction curve for both test.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe “Proctor needle in field compaction control”.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State and explain the terms involved in Boussinesq’s circular load equation for vertical stress determination.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the factors affecting Compaction of soil.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is pressure bulb? Explain its significance and draw a neat sketch of pressure bulb for concentrated point loading.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A concentrated load of 25 kN acts on the surface of homogeneous soil mass of large extend. Calculate stress intensity at a depth of 8.0m by using Boussinesq’s theory at a horizontal distance of 2.5m.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "State Mohr- Coulomb’s equation for shear strength of soil. Discuss the factors which affect the shear strength parameters of soil.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the shear strength in terms of effective stress on a plane within a saturated soil mass at a point where the total normal stress is 200 kN/m2 and pore water pressure is 80 kN/m2. The shear strength parameters in terms of effective stress are, c’ = 16 kN/m2 and ’ = 390.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain different drainage conditions in triaxial test.",
+          "marks": 5,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "State and explain the merits and demerits of direct shear test.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "In a consolidated drained triaxial test, a specimen of a clay fails at a cell pressure of 60 kN/m2.The effective shear strength parameters are c = 15 kN/m2 and =20°. Determine the additional stress required for the failure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain vane shear test procedure with a neat sketch and formula.",
+          "marks": 5,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss coulomb’s wedge theory for determination of earth pressure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "A wall with a smooth vertical back, 10m high, supports a purely cohesive soil with c = 9.81 kN/m2, &  = 17.66 kN/m3. Determine (i) Total Rankin’s active pressure against the wall; (ii) Position of zero pressure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain Rehbann’s graphical method for evaluation of earth pressure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe effect of wall moment with respect to earth pressure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Compute the intensity of active earth pressure at a depth of 8 m in dry cohesionless sand with an angle of internal friction 300 and unit weight of 18 kN/m3.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain Culmann’s graphical method for evaluation of earth pressure.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Classify the different modes of failure of finite and infinite slopes.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss causes and remedial measures of Landslides.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Analyze the stability of soil using friction circle method with neat sketch.",
+          "marks": 5,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the various methods to protect slopes from failure with clear sketch. Also list out the factors to be considered in selection of suitable method.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain steps involved in the stability analysis of slopes by method of slices.",
+          "marks": 6,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss “Taylor’s Stability Number” for stability analysis of finite slope.",
+          "marks": 5,
+          "question_id": "1RGR2dUI0mDvAJQZzl-O7yPwk-WhUuwcb_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3901,
+        "processed_at": "2026-06-12 01:00:56"
+      }
+    },
+    {
+      "pdf_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2022_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2022_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5925]-206",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1184",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/01/2023 13:27:56 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss in detail Proctor needle in field compaction control.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State any four assumptions in Boussinesq's theory. Mention the formula for calculation of stress in soil by point load and circular load by Boussinesq’s theory, with description of each term.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Describe the effect of compaction on properties of soil.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between Standard Proctor Test and Modified Proctor Test. Draw typical compaction curve for both the tests.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is pressure bulb? Explain its significance and draw a neat sketch of pressure bulb for concentrated point load.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A concentrated load of 25 kN acts on the surface of homogenous soil mass of large extent. Find the stress intensity at a depth of 8 m by using Boussinesq’s theory at a horizontal distance of 2.5 m.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain briefly the procedure of conducting Unconfined Compression Test on clayey soil sample. Draw Mohr’s circle for the test.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State and explain factors affecting shear strength of cohesive and cohesionless soil.",
+          "marks": 5,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Two identical soil specimens were tested in a triaxial apparatus. First specimen was failed at a deviator stress of 700 kN/m2 when the cell pressure was 200 kN/m2. Second specimen was failed at a deviator stress of 1300 kN/m2 when the cell pressure was 400 kN/m2. Determine cohesion of soil and angle of internal friction of soil analytically.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Determine the shear strength in terms of effective stress on a plane within a saturated soil mass at a point where the total normal stress is 200 kN/m2 and pore water pressure is 80 kN/m2. The shear strength parameters in terms of effective stress are, c’ = 16 kN/m2 and ’ = 390.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain how shear tests are conducted with different drainage conditions?",
+          "marks": 5,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Describe the procedure for Vane Shear Test.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain earth pressure at rest, active earth pressure and passive earth pressure w.r.t. wall movement with sketches.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Compute the intensity of active earth pressure at a depth of 8 m in dry cohesionless sand with an angle of internal friction 300 and unit weight of 18 kN/m3.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Derive the equation for lateral earth pressure in active state for dry cohesionless backfill with uniform surcharge.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A wall with a smooth vertical back, 10 m high, supports a purely cohesive soil with c = 9.81 kN/m2 and  = 17.66 kN/m3. Determine total active earth pressure against the wall and position of zero pressure before formation of tension crack.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain Rebhann’ s graphical method for determination of earth pressure on retaining wall.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Derive the expression for the active state of pressure at any point for a submerged cohesionless backfill along with pressure diagram.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketch different modes of slope failure.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss “Swedish Slip Circle Method” for stability analysis of finite slope.",
+          "marks": 5,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Derive the expression for F.O.S. for dry infinite slope in sandy soil.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Illustrates causes and remedial measures of landslide.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss “Taylor’s Stability Number” for stability analysis of finite slope.",
+          "marks": 5,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "An infinite slope is made of clay with the following properties: sat = 18 kN/m3, ’ = 9 kN/m3, c’ = 25 kN/m2 and  = 28°. If the slope angle has an inclination of 350 and height equal to 12 m, determine stability of slope. When, i) The slope is submerged ii) There is steady seepage parallel to slope.",
+          "marks": 6,
+          "question_id": "1k33njO68qXDTVGSnFKDiKx4bhhtA5qA6_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4461,
+        "processed_at": "2026-06-12 01:01:02"
+      }
+    },
+    {
+      "pdf_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_feb_2023_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_feb_2023_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6008]-201",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "201008",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-4956",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/04/2023 15:15:21 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Derive a relationship between void ratio, water content, Specific gravity and degree of saturation.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain \"Core Cutter Method\" to determine field density of soil with neat sketch.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Summarize the Major soil deposits in India.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain procedure of sieve analysis for the grain size distribution of soil.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Illustrate the Single, honeycomb, Flocculent and Dispersed structure of soil.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A soil sample has water content of 17% and bulk density of 16.40 kN/m3, determine the following : Void ratio, porosity, Degree of saturation and maximum dry density. (G = 2.7)",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List various laboratory tests for determination of coefficient of permeability and explain any one method in detail.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the coefficient of permeability of a soil in cm/s, if soil sample 6 cm in height and 50 cm2 in a cross - sectional area, and quantity of water equal to 430 ml passed down in 10 minutes under an effective constant head of 40 cm.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Determine the average coefficient of permeability in the horizontal and vertical directions for a deposit consisting of layers of 5m, 1m and 2.5m having the coefficients of permeability of 3 × 10–3 cm/sec, 2.8 × 10–4 cm/sec and 4.1 × 10–2 cm/sec respectively.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain various factors affecting Co-efficient of permeability.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Quicksand condition phenomenon and critical hydraulic gradient.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Soil sample of 80 mm diameter with length of 300 mm used for constant head test. The loss of head 1100 mm and the rate of flow was 2700 mm3/sec. Find the coefficient of permeability in mm/sec. If falling head test was performed on the same sample at the same void ratio, find the time taken for head to fall from 900 mm to 550 mm. The diameter of stand pipe is 25 mm in falling head test.",
+          "marks": 5,
+          "question_id": "1wkfe3LrbtYsz3hVgjU9cX-01ci2GkLC-_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2628,
+        "processed_at": "2026-06-12 01:01:05"
+      }
+    },
+    {
+      "pdf_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2023_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2023_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6002]-106",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1479",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/06/2023 10:32:26 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Calculate the zero-air-void density for a soil with Gs = 2.70 at moisture contents of 5, 10, 15, 20, and 25%. Plot a graph of ZAV versus moisture content.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A ring foundation is of 3.60 m external diameter and 2.40 m internal diameter. It transmits a uniform pressure of 135 kN/m2. Calculate the vertical stress at a depth of 1.80 m directly beneath the centre of the loaded area.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the field application of compaction test result and how to control Field compaction.",
+          "marks": 5,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "List the factors affecting compaction and explain the effect of compaction on any four soil properties.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A raft of size 4 m × 4 m carries a uniform load of 200 kN/m2. Using the point load approximation with equivalent point loads for four equal squares, calculate the stress increment at a point in the soil which is 4 m below the centre of the loaded area.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Isobar and Pressure bulb? Explain its significance.",
+          "marks": 5,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Comment on Unconfined Compression test is special case of Triaxial Compression test. Explain Unconfined Compression test with respect drainage, soil suitability and time requirement.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "The following table gives data obtained from triaxial compression test conducted under undrained conditions on two specimens of same soil sample. The diameter and height are 40 mm and 80 mm respectively for both samples. Determine shear strength parameters analytically. Specimen i ii Cell pressure (kN/m2) 100 200 Deviator load at failure (N) 637 881 Increase in volume at failure (ml) 1.1 1.5 Axial Compression (mm) 5 7",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw shear strength envelops for c-soils, ϕ-soils and c-ϕ soils. Explain Terzaghi’s effective stress principle.",
+          "marks": 5,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Thixotropy, Sensitivity and Activity of clayey soils.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "From a direct shear test on an undisturbed soil, evaluate the undrained shear strength parameters. Determine shear strength, major and minor principal stresses and their planes in the case of specimen of same soil sample subjected to a normal stress of 100 kN/m2. Normal stress (kN/m2) 70 96 114 Shear stress at failure (kN/m2) 138 156 170",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch the Peak and Residual shear strengths of soils.",
+          "marks": 5,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Compare between assumptions and principle of Rankine’s and Coulomb’s theory of Earth pressure.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "For the retaining wall of 6 m height with vertical back, the top 3 m of the sand fill has unit weight of 16 kN/m3 and ϕ = 30° and the rest sand fill have saturated unit weight of 18 kN/m3 and ϕ = 35° with Groundwater table at 3m from bottom. Determine the force per unit length of the wall for Rankine's active state. Also find the location of the resultant.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Culmann’s graphical method of determination of earth pressure.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketches at rest, active and passive earth pressure with respect to wall movements.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A retaining wall with a smooth vertical back retains a purely cohesive fill. Height of wall is 12 m. Unit weight of fill is 20 kN/m3. Cohesion is 10 kN/m2. Show pressure distribution, at what depth is the intensity of pressure zero. What is the total active Rankine thrust on the wall? where does the resultant thrust act?",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Rebhann’s graphical method of determination of earth pressure.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketch stability analysis of Infinite Slopes in c-ϕ soil.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "An embankment 10 m high is inclined at an angle of 36° to the horizontal A stability analysis by the method of slices gives the forces per running meter: Σ Shearing forces = 450 kN, Σ Normal forces = 900 kN, Σ Neutral forces = 216 kN. The length of the failure arc is 27 m. The soil has the effective values c' =20 kN/m2 and ϕ = 18°. respectively. Determine the factor of safety of the slope with respect to (a) shearing strength and (b) cohesion.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain Friction Circle Method with neat sketch.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Landslides causes and remedial measures.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "An embankment is inclined at an angle of 35° and its height is 15 m. The angle of shearing resistance is 15° and the cohesion intercept is 200 kN/m2. The unit weight of soil is 18 kN/m3. If Taylor's stability number is 0.06, find the factor of safety with respect to cohesion.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Bishop’s method of stability analysis with neat sketch.",
+          "marks": 6,
+          "question_id": "1cV1UuqMPWXmuY5xYnaybkJYVj0unCbhv_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 5355,
+        "processed_at": "2026-06-12 01:01:11"
+      }
+    },
+    {
+      "pdf_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2023_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2023_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6179]-201",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P9076",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/12/2023 09:39:59 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Standard Proctor Compaction Test with neat sketch.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A concentrated load of 30 kN acts on the surface of homogenous soil mass of large extent. Find the stress intensity at a depth of 8m and horizontal distance of 2.5 m by using Boussinesq’s theory. Compare the value with Westergaard’s theory.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist and explain factors affecting compaction.",
+          "marks": 5,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between Standard proctor Test and Modified Proctor Test. Draw typical compaction curve for both the tests.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State and explain the terms involved in Boussinesq’s point load and circular load equation for vertical stress determination.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a note on Proctor needle test with neat sketch.",
+          "marks": 5,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain with the help of Mohr circle how shear strength parameters are determined in direct shear test.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the types of triaxial test according to drainage conditions.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "A vane 75 mm in diameter and 150 mm in height was pressed into clay in a bore hole. The torque was applied and gradually increased to 50 N.m when failure took place. Determine underained shear strength.",
+          "marks": 5,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A soil has an angle of shearing resistance 18° and cohesion of 30 kN/m2. If the specimen of this soil is subjected to triaxial compression test, determine the value of cell pressure for failure to occur at a total stress of 300 kN/m2. Also calculate deviator stress.",
+          "marks": 7,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain factors affecting shear strength of cohesive soil.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define total and effective stresses.",
+          "marks": 4,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "In a cohesionless soil deposit having unit weight of 15 kN/m3 and angle of internal friction 30°. Determine resultant active and passive earth pressure and their positions, if the height of retaining wall is 10 m.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain step by step procedure for determination of lateral earth pressure graphically by Rebhann’s method with neat sketch.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Discuss how to calculate earth pressure of soil for Backfill with uniform surcharge.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define the various types of earth pressures w.r.t. wall movement with sketches.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain step by step procedure for determination of lateral earth pressure graphically by Culmann’s method with neat sketch.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A smooth backed vertical wall is 6.3 m high and retains a soil with a bulk unit weight of 18 kNm3 and angle of internal friction 18°. If the soil surface carries a uniformly distributed load of 5 kN/m2. Determine total active earth pressure and its point of application.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain classification of slopes based on different criteria.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Taylor’s Stability Number? How it can be used to chek the stability of slopes?",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Classify the different modes of failure of finite and infinite slope.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a note on causes and remedial measures of landslide.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain ‘Swedish Slip Circle’ method for stability analysis of finite slope.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Derive the expression for factor of safety for dry infinite slope in sandy soils.",
+          "marks": 6,
+          "question_id": "1ABRmgMbrLGcyJjYvVumGELbss94OwDkr_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3655,
+        "processed_at": "2026-06-12 01:01:16"
+      }
+    },
+    {
+      "pdf_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2024_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2024_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6268]-201",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/03/2024 14:07:49 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain residual soil and transported soils with types and examples of each.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss on Indian standard soil classification system.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Develop the relation between S, e, w and G.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketch, different structure of soil.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State the meaning of soil exploration? Explain any four purpose of same.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "The bulk unit weight of soil sample is 19 kN/m3. The specific gravity of soil solid is 2.65 and moisture content 12%. Calculate void ratio, porosity, degree of saturation and dry unit weight. Tale w = 10 kN/m3.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Describe various factors affecting the permeability of soil.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "In permeability test on a sample 12.2 cm height and 44.41 cm2 in cross- sectional area, the water level in the stand pipe of 6.25mm internal dia. drop from a height of 75cm to 24.7cm in 15min Find the coefficient of permeability in cm/sec.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain flow net, its properties and uses.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Determine the average coefficient of permeability in the horizontal and vertical directions for a deposit consisting of layers of 5m, 1m and 2.5m having the coefficients of permeability of 3 × 10–3 cm/sec, 2.8 × 10–4 cm/sec and 4.1 × 10–2 cm/sec respectively.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain quick sand condition. Calculate critical hydraulic gradient of a sand deposit of specific gravity 2.65 and porosity 45%",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Describe the procedure to construct flow net for seepage through earthen dam.",
+          "marks": 5,
+          "question_id": "1XXmuXicsnYLFFmmWmsLgVuJcp-xCRpmQ_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2249,
+        "processed_at": "2026-06-12 01:01:20"
+      }
+    },
+    {
+      "pdf_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2024_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2024_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6261]-1",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3596",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/05/2024 13:28:23 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the process of field compaction and its control using Proctor needle.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss the moisture-density relation graph for standard and modified proctor test. Also explain the significance of ZAV line in the graph.",
+          "marks": 5,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write the equations for stresses in soil for point loading by Boussinesq’s and Westergaard’s theory and assumptions in these theories.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the factors affecting Compaction of soil.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is pressure bulb? Explain its significance and draw a neat sketch of pressure bulb for concentrated point load.",
+          "marks": 5,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A concentrated load of 300 KN is applied at the ground surface. Compute the vertical pressure: i) At a depth of 6 m below the load. ii) At a distance of 5 m at the same depth.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the factors affecting shear strength of cohesion less soil and cohensive soil.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A soil sample fails under and axial stress of 150 kN/m2 when it is laterally unconfined. The failure makes an angle of 550 with the horizontal. Calculate C and ",
+          "marks": 5,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are the different methods to measure shear strength of soil. State merits and demerits of Direct shear test.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "The following results were obtained from a triaxial test on two soil specimens, Sample No. Confining Pressure (kPa) Deviator Stress at Failure (kPa) Pore water Pressure (kPa) 1 200 244 55 2 300 314 107 Determine the shear strength parameters of the soil terms of i) Total stress ii) Effective stresses",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail Vane shear test. Explain the limitations of Vane Shear test.",
+          "marks": 5,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain how shear tests are conducted with different drainage conditions.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Earth pressure at rest, active earth pressure and passive earth pressure with respect to Wall movement with sketches.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain step by step method of Coulomb’s Wedge Theory for determination of earth pressure of retaining wall.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "In a cohesionless soil deposit having unit weight of 18 kN/m3 and  = 320. Determine active and passive lateral pressure intensities at depth of 10m.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Derive the equation for lateral earth pressure in active state for dry cohesionless backfill with uniform surcharge.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain Culman’s method for evaluation of earth pressure.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A smooth vertical wall retains a level backfill with = 18 KN/m3,= 300 and c = 0 to a depth of 8 m. Draw the lateral pressure diagram and compute the total active pressure in dry condition and when water table rises to the GL. Assume sat = 22 KN/m3",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain landslide causes and remedial measures.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Taylor’s stability number. A slope is of 10 m with stability number equal to 0.055. What is factor of safety? Given = 20 kN/m3, C = 25 kN/m2, = 0",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain modes of failure of finite and infinite slopes.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain steps involved in the stability of slopes by method of slices.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Derive the expression F.O.S for dry infinite slope in sandy soil.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write a short note on slope classification. Determine the critical height of excavation of vertical cut in cohesive soil If C = 25 kN/m2 and unit weight = 17 kN/m3 = 0.",
+          "marks": 6,
+          "question_id": "1o18NYTTe1BSVI4V2jH7eZrT9ebPdGOTM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4170,
+        "processed_at": "2026-06-12 01:01:25"
+      }
+    },
+    {
+      "pdf_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2024_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2024_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6352]-1",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2777",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2024 09:40:51 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in detail Effect of compaction on properties of soil.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Geostatic stresses? Enlist various approaches to compute stresses due to different loading patterns of soil.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is Isobar? Explain its Significance. A line load of 200 kN/m is acting on the ground surface along a vertically downward direction. Determine the vertical stress at P which is 3.6 m deep and 2 m away horizontally.",
+          "marks": 5,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Compaction? How is it different from consolidation? Explain how compacting efforts affects compaction?",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "The following observations were noted during proctor compaction test with a soil : Water content(%) 8.6 11.0 12.5 14.5 16.0 18.0 19.5 Bulk density(kg/m3) 1800 1900 1960 2045 2100 2050 2010 Specific gravity of soil grains is 2.7. Find out MDD and OMC for the soil. Plot the zero air void curve and 80% saturation curve also.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain in detail comparison between Boussinesq’s and Westergaard’s Equation.",
+          "marks": 5,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the principle of Vane shear test. What are the advantages of this test? What are the limitations?",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A cohesive soil has an angle of shearing resistance of 20° and cohesion of 45 KN/m2. If a specimen of this soil is subjected to a triaxial compression test, find the value of lateral pressure in the cell for failure to occur at a total axial stress of 350 KN/m2.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "State and explain modes of application of Shear Force in shear strength determination.",
+          "marks": 5,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Enlist different drainage conditions in triaxial test also explain characteristic features of Triaxial Compression Test.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the principle of Direct shear test. What are the advantages & limitations of the test? Explain phenomenon of Thixotropy in soil.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "An in-situ: vane shear test was conducted in a clay at the bottom of bore hole, A torque of 153 N-m was required to shear the soil. What was the undrained strength of clay? The vane was 100mm diameter and 150mm long.",
+          "marks": 5,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Earth Pressure with respect to wall movement with sketches.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain step by step Rehbann’s graphical for determination of earth pressure of retaining wall.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "For a retaining wall system, the following data was available: Height of wall – 7 m, properties of backfill – γd = 18 kn/m3,φ = 35° , Angle of internal friction – δ = 25°, back of the retaining wall is inclined at 20° to the vertical, backfill is sloping at 1 :10. Determine the magnitude of active earth pressure by Culmann’s method.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Derive the relation for lateral pressure due to submerged cohesionless backfill with neat sketch.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "In a cohesionless soil deposit having unit weight of 25 kN/m3 and φ =32°. Determine active and passive lateral pressure intensities at depth of 5 m.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Discuss points of difference between Rankines and Coulombs theory of earth pressure.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is slope stability and how are the different types of factor of safety determined?",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on Taylor’s Stability Number for stability analysis of finite slope.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is the critical height of vertical excavation that can be made without any lateral support in a cohesive soil having the following properties γ = 18 kN/m3, c =10 kN/m2, φ = 32°.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Analyze the stability of soil using friction circle method with neat sketch.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short notes on causes and remedial measures of landslides.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Determine the factor of safety for cohesive soil with vertical cut 7 m high, if stability number is known to be 0.2, slope material having cohesion = 25 kN/m2, γ = 20 kN/m3.",
+          "marks": 6,
+          "question_id": "13H4ROxeShrRw9UMAnQ6_vfMxuMNOW8bI_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 4404,
+        "processed_at": "2026-06-12 01:01:32"
+      }
+    },
+    {
+      "pdf_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2025_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2025_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6409]-201",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD8",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 13:56:35 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Major Soil Deposits of India & Illustrate the Honeycomb and Flocculent structure of soil with diagrams.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List various laboratory tests for determination of specific gravity of soil and explain any one method in detail.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The dry unit weight of soil having 10% water content is 18 kN/m3. Find Bulk unit weight, saturated unit weight and submerged unit weight.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Derive the relationship between specific gravity (G), Void ratio (e), water content (w) and bulk unit weight ().",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "The grading curve of soil gives the effective size as 0.16 mm D30= 0.40 mm and D60= 0.75 mm. Find CC and CU and also classify the soil.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain in detail Casagrande’s method for determination of Liquid Limit of soil.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List various laboratory tests for determination of coefficient of permeability and explain any one method in detail.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "In falling head permeability test, soil sample of 75 mm diameter and length 150 mm indicated a fall of head from 600mm to 300mm in 193 seconds. If the stand pipe has diameter equal to 12mm, determine coefficient of permeability (k).",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write short note on permeability of stratified soil deposits.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define Flow net. Explain in detail what are the properties and uses of flow net.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain various factors affecting Coefficient of permeability.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "For weir on permeable foundation, the exit gradient does not exceed 80% of the grading causing quick condition. Determine maximum exit gradient if porosity is 50%.",
+          "marks": 5,
+          "question_id": "1n6cWh9gQbdSmHuhCiYqlDoAN0DGxBLFx_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2354,
+        "processed_at": "2026-06-12 01:01:35"
+      }
+    },
+    {
+      "pdf_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2025_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_may_jun_2025_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[6402]-6",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4047",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/05/2025 09:26:56 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the effect of compaction on properties of soil.",
+          "marks": 5,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain how compaction control is achieved in the field using a proctor needle.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is pressure bulb? Explain its significance and draw a neat sketch of pressure bulb for concentrated point load.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Boussinesq’s theory with neat sketch. State its Assumptions and formula for stress in soil by point load, with description of each term.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Light Compaction & Heavy Compaction test.",
+          "marks": 5,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A load of 1000 kN acts as a point load at the surface of a soil mass. Estimate the stress at a point 3m below and 4m away from the point of action of the load by Boussinesq’s formula. Compare the value with the result from Westergaards’s theory.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how shear tests are conducted with different drainage conditions?",
+          "marks": 5,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain vane shear test procedure with a neat sketch and formula.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define total and effective stress. Determine the shear strength in terms of effective stress on a plane within a saturated soil mass at a point where the total normal stress is 200 KN/m2 and the pore water pressure is 80 KN/m2. The effective stress shear strength parameters for the soil are c' = 16 KN/m2 and = 39°.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A sample of dry cohesionless soil was tested in a triaxial machine. If the angle of internal shearing resistance was 36° & the confining pressure 100kN/m2, determine the deviator stress at which the sample failed.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the procedure for Direct Shear Test.",
+          "marks": 5,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain briefly the procedure of conducting Unconfined Compression Test on Clayey soil sample. Draw Mohr’s circle for the test.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Rebhann’s graphical method for determination of earth pressure on retaining wall.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive the expression for active state of pressure at any point for dry cohesionless backfill with uniform surcharge.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A smooth vertical wall retains a level surface with  = l8kN/m3,  = 30°, to a depth of 8 m. Draw the lateral pressure diagram and compute the total active pressure in dry condition and when water table rises to the GL. Assume sat = 22kN/m3.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Determine the relation for lateral earth pressure in active state for submerged cohesionless backfill.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss Culmann’s graphical method for the determination of active earth pressure.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "In a cohesionless soil deposit having unit weight of 15 kN/m3 and angle of internal friction  of 30°. Determine the active and passive lateral pressure intensities at depth of 10 m.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss “Taylor’s Stability Number” for stability analysis of finite slope.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Enlist factors of safety used in stability analysis of slopes. Calculate the factor of safety w.r.t. cohesion of clay slope laid at 1 in 2 to a height of 10 m, if the angle of internal friction  = 10° and c = 25kN/m2 and  = l9kN/m3. What will be the critical height of the slope in this soil. Assume Sn = 0.064 for  = 10°.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss the causes and remedial measures of Landslides.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Derive the expression for factor of safety for dry infinite slope in sandy soil.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch different modes of slope failure.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss “Swedish Slip Circle Method” for stability analysis of finite slope.",
+          "marks": 6,
+          "question_id": "15rKX0-uJpxoyxGqMnUTr3T8WfM3W88a8_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4332,
+        "processed_at": "2026-06-12 01:01:41"
+      }
+    },
+    {
+      "pdf_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2026_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/insem_mar_2026_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "Apr-26/SE/Insem-241",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF195",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 09/03/2026 13:53:51 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Starting from first principles derive the following equation with usual nomenclature: ϒ =[(G + e Sr) / (1+e)] × ϒ w.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist the methods of soil exploration and explain any one in detail.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define consistency of soils and show the four states of consistency graphically with appropriate consistency limits.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a note on major soil deposits of India.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "The grading curve of soil gives the effective size as 0.15 mm D30= 0.45 mm and D60=0.75 mm. Find Cc and Cu and also classify the soil.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "State the methods for determination of field density. Explain the step by step procedure for any one of the methods with neat sketch.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain falling head permeability test for determination of coefficient of permeability.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "For weir on permeable foundation, the exit gradient does not exceed 78% of the grading causing quick condition. Determine maximum exit gradient if porosity is 35%.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write short note on permeability of stratified soil deposits.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write short note on Piping.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain various factors affecting coefficient of permeability.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Flow is taking place from the upstream of the dam under the head difference of 10 m. From the flow net it was found that the numbers of flow channels are 5 and the equipotential drops are 15. If the permeability of the soil is 4×10-4 m/min then what will be the quantity of flow per hour per meter length of the dam.",
+          "marks": 5,
+          "question_id": "1ea89tuY4LWHPjJ8XEUXGOHAE8fogLpvm_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 2128,
+        "processed_at": "2026-06-12 01:06:58"
+      }
+    },
+    {
+      "pdf_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2025_ce_gec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/geotechnical_engineering_ce/endsem_nov_dec_2025_ce_gec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "GEOTECHNICAL ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6582]-1",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201008",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4230",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/11/2025 09:52:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Compaction. Compare between Compaction and consolidation.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A soil sample has specific gravity 2.62 and Maximum Dry Density 1650 kg/m3 at a moisture content of 10%. Find Degree of Saturation, air content and percentage air voids at Maximum Dry density.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is pressure bulb? Explain its significance and draw neat sketch of pressure bulb for concentrated point loading.",
+          "marks": 5,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write the equation for stresses in soil for point loading by Boussinesq's and Westergaard's theory and assumptions of these theorise.",
+          "marks": 5,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A concentrated load of 450 kN is applied at a ground surface compute the vertical pressure : i) At a depth 6m below the load ii) At a distance 6m at same depth.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain standard proctor compaction test.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in detail Skempton's Pore pressure parameters.",
+          "marks": 5,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A soil sample fails under an axial stress of 250 kN/m2 when laterally unconfined. The failure wedge is making an angle of 50º with horizontal. Calculate Cohesion & angle of internal friction of soil.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write short note on Thixotropy and Sensitivity of clay.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in detail factors affecting shear strength of soil.",
+          "marks": 5,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "In vane shear test on clay, the following observations are made Applied Torgue : 180 kg cm, Height of vane : 10cm Diameter of Vane : 5cm, calculate shear strength of clay.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain in detail Triaxial Compression Test.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain in detail earth pressure at rest. Draw pressure distribution diagram for retaining wall with height h and Unit weight of soil in backfill = ",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short note on Coulomb's Wedge Theory in detail.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A smooth vertical wall retains a level backfill with  = 20 kN/m3,  = 32º and C=0 to a depth of 8m. Draw lateral pressure diagram and compute the total thrust on the retaining wall. What will be active pressure if water stands at a depth of 3.5m?",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Rebhann's graphical method for determination of earth pressure on retaining wall.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "In a cohesionless soil deposit having unit weight of 20 kN/m3 and  = 32º. Determine active and passive lateral pressure intensities at depth of 8m.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Discuss points of difference between Rankines and Coulombs theory of earth pressure.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Determine the critical height of excavation for vertical cut in cohesive soil, if C=20kN/m3 and = 20kN/m3.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Differentiate between Finite and Infinite slopes.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is stability number? What is its utility in the analysis of stability of slopes.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Determine the stability number for vertical cut in a cohesive soil with following details, = 18 kN/m3, C = 15 kN/m3, = 32º.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the assumptions that are generally made in the analysis of slopes? Discuss validity of such assumptions in brief.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss various types of slope failures in detail.",
+          "marks": 6,
+          "question_id": "1cVkWrTF6911B0VlYkrtdAukPY7OH5N3F_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3674,
+        "processed_at": "2026-06-12 01:07:01"
+      }
+    }
+  ]
+}

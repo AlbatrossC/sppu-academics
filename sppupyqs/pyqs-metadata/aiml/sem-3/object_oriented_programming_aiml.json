@@ -1,0 +1,855 @@
+{
+  "subject_name": "Object Oriented Programming",
+  "subject_slug": "object_oriented_programming_aiml",
+  "branch": "aiml",
+  "semester": "sem-3",
+  "papers": [
+    {
+      "pdf_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2024_aiml_oopa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2024_aiml_oopa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "OBJECT ORIENTED PROGRAMMING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning",
+        "paper_number": "[6352]-71",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218544",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-2847",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/12/2024 09:54:41 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Destructors? Explain finalize function.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a program to calculate an area of any polygon using parameterized constructor.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain different types of Constructors in OOP.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain concept of symbolic constant with example.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Constructor and Destructor.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write Pseudo code for Constructor Overloading.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write program to implement hierarchical inheritance.",
+          "marks": 5,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Method overriding with example.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Inheritance. What are the types of Inheritance?",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a program for addition of two numbers using Method overloading.",
+          "marks": 5,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is abstract class? Explain with example.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is interface? How to declare an interface, write syntax? Can we achieve multiple inheritance by using interface?",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is Run Time Exception? Demonstrate with the example, how to handle the Number Format Exception?",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain try, catch and finally with suitable example.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is Collection? Explain set interface?",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is checked exception? Demonstrate Arithmatic Exception using throw.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Generics? Write a code of Array List using generics.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Differentiate between Array List and Linked List collection classes.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Stream with its types.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain singleton pattern with example.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write the program to read a file using FileInput Stream class.",
+          "marks": 5,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Iterator Pattern with its merits.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a program to write a file using File Output Stream class.",
+          "marks": 6,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are design patterns? Explain ‘Adapter’ design pattern in detail.",
+          "marks": 5,
+          "question_id": "1fLptsEv9Gde4zwtn4W4e2ygs_CVmgA4t_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2462,
+        "processed_at": "2026-06-12 00:47:49"
+      }
+    },
+    {
+      "pdf_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_sep_2024_aiml_oopa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_sep_2024_aiml_oopa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "OBJECT ORIENTED PROGRAMMING",
+        "academic_year": "S.E.",
+        "branch_name": "AI & ML",
+        "paper_number": "[6359]-535",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218544",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC415",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/10/2024 10:46:30 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the difference between Procedure and Object oriented Programming languages.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define the fundamentals of Object Oriented Programming like Objects, Classes, Methods, Data Encapsulation and Data Abstraction.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the following terms: i) Static and Dynamic binding ii) Message passing",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "List the limitations of procedural programming. Explain the need of object oriented programming.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the following terms: i) Inheritance ii) Polymorphism",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the difference between object oriented and generic programming techniques.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is Class. Create a class for Student with roll number, name and marks as member variables and calculate percentage and display marks as member functions.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define encapsulation and explain the types of access modifiers.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define method overloading. Explain the use of this keyword in object oriented programming.",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the following terms: i) Memory allocation ii) Memory recovery",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Create a class ‘Addition’ with read method (to read two numbers), add method (to perform addition) and display method (to display the result).",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain static keyword. What are the different ways of using static keyword in program?",
+          "marks": 5,
+          "question_id": "1GL6n7WIAgg-5P1E0-IR3oKvdJa7rVfBx_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2042,
+        "processed_at": "2026-06-12 00:47:52"
+      }
+    },
+    {
+      "pdf_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_may_jun_2025_aiml_oopa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_may_jun_2025_aiml_oopa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OBJECT ORIENTED PROGRAMMING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning",
+        "paper_number": "[6402]-67",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218544",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4107",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 20/05/2025 09:35:04 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Destructor? Explain the use of destructor in object oriented programming.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss the advantages and disadvantages of constructor overloading.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain different types of Constructors in Object Oriented Programming.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate constructors from regular methods in object-oriented programming, considering their purpose, invocation, return type and inheritance properties.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Compare and contrast different types of constructors, such as default constructors, parameterized constructors and copy constructors.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate between abstract classes and interfaces in object-oriented programming.",
+          "marks": 5,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Differentiate between compile-time polymorphism and runtime polymorphism.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain how inheritance can be used to model real-world relationships between entities.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Identify and explain the different types of inheritance, such as single inheritance, multiple inheritance and multilevel inheritance.",
+          "marks": 8,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Analyze the impact of polymorphism on the efficiency of a software system, considering both compile-time and run-time aspects.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of an exception in object-oriented programming.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Provide examples of each type of error and how they manifest in programming code.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Discuss the ArrayList class and how it implements the List interface.",
+          "marks": 6,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Develop a simple generic class that can work with different data types. Provide an example of how this class can be used in a program.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss the consequences of uncaught exceptions and their impact on program execution also discuss purpose and use of multiple catch clauses in a try-catch block.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the different stream classes and what is the purpose of each stream class?",
+          "marks": 8,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Define design patterns and discuss three main categories of design patterns?",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Analyze the strengths and weaknesses of different design patterns.",
+          "marks": 8,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the concept of random access files and provide examples of applications that use random access files.",
+          "marks": 9,
+          "question_id": "1k2GDxBr70h23bE5D9tYc0BO7a5rNvmOu_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2918,
+        "processed_at": "2026-06-12 00:47:57"
+      }
+    },
+    {
+      "pdf_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2025_aiml_oopa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/endsem_nov_dec_2025_aiml_oopa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OBJECT ORIENTED PROGRAMMING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning",
+        "paper_number": "[6582]-71",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218544",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE4298",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 17/12/2025 09:43:37 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Constructor? Explain with example.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a program to calculate an area of circle using parameterized constructor.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain different types of Constructors in OOP.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain concept of symbolic constant with example.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Constructor and Destructor.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write Pseudo code for Constructor Overloading.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write java program to implement Multiple inheritance.",
+          "marks": 5,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Method overriding with example.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Inheritance. What are the types of Inheritance?",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a program for multiplication of two numbers using Method overloading.",
+          "marks": 5,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is abstract class and explain with example?",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is interface in java? How to declare an interface, write syntax? Can we achieve multiple inheritance by using interface?",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is RunTimeException? Demonstrate with the example, how to handle the Number Format exception?",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain try, catch and finally with suitable example.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is Collection? Explain set interface.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is checked exception? Demonstrate Arithmatic Exception using throw.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Generics? Write a code of ArrayList using generics.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Differentiate between ArrayList and LinkedList collection classes.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Stream with its types.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain singleton pattern with example.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write the Java program to read a file using FileInputStream class.",
+          "marks": 5,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Iterator Pattern with its merits.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a Program to write a file using FileOutputStream class.",
+          "marks": 6,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are design patterns? Explain ‘Adaptor’ design pattern in detail.",
+          "marks": 5,
+          "question_id": "1njmAEdvesVfHDbAycyGVhlkkZJUA1qiH_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2497,
+        "processed_at": "2026-06-12 00:48:01"
+      }
+    },
+    {
+      "pdf_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_oct_2025_aiml_oopa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/object_oriented_programming_aiml/insem_oct_2025_aiml_oopa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OBJECT ORIENTED PROGRAMMING",
+        "academic_year": "S.E.",
+        "branch_name": "A.I.&M.L.",
+        "paper_number": "[6578]-35",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218544",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-562",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 07/11/2025 10:56:14 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Software evolution in detail.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Data integrity issue in procedural Programming language.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain message passing in object oriented programming.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Abstraction in object oriented programming with real world example.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "List out different features of object oriented programming.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "List different types of inheritances with diagram.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a Program to add two complex numbers using object oriented programming concept.",
+          "marks": 7,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the concept of visibility specifiers in object oriented programming.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain concept of this keyword.",
+          "marks": 3,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a Program to add two numbers using method overloading.",
+          "marks": 7,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain steps of object creation in object oriented programming using static and dynamic memory allocation.",
+          "marks": 5,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the concept of forward declaration.",
+          "marks": 3,
+          "question_id": "1FUvKmqFdYym4qffRQ8u-rtzOgB3Bmji5_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1447,
+        "processed_at": "2026-06-12 00:48:03"
+      }
+    }
+  ]
+}

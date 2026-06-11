@@ -1,0 +1,1604 @@
+{
+  "subject_name": "Irrigation & Drainage - Ele V",
+  "subject_slug": "irrigation_and_drainage_ele_V_ce",
+  "branch": "ce",
+  "semester": "be",
+  "papers": [
+    {
+      "pdf_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_feb_2023_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_feb_2023_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6010]-30",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013C",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10161",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/04/2023 09:14:12 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define irrigation and explain its necessity in a tropical country like India. What are the advantages of irrigation?",
+          "marks": 6,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain following water distribution techniques in farms: i) furrow irrigation ii) check flooding, iii) basin flooding",
+          "marks": 6,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define i) gross command area ii) culturable command area iii) intensity of irrigation",
+          "marks": 3,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain piped distribution network (PDN) with neat sketch.",
+          "marks": 5,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss advantages and disadvantages of sprinkler irrigation.",
+          "marks": 5,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain factors affecting the choice of irrigation methods.",
+          "marks": 5,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Estimate the potential evapotranspiration (PET) of an area for the month July and August in which rice is grown. The latitude of the area is 12°N. The average value of crop coefficient K = 1.10 in Blaney-Criddle formula. The mean monthly temperature for the month July and August is 82°F (27.78°C) and 80°F (26.67°C). Use Table (3a) to calculate monthly daytime hours percentage.",
+          "marks": 8,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain direct method of measurement of evapotranspiration using lysimeter.",
+          "marks": 4,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Discss the significance of soil structure in irrigation engineering.",
+          "marks": 3,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain step by step procedure for estimating reference crop evapotranspiration using FAO Penman-Monteith equation.",
+          "marks": 7,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Estimate the potential evapotranspiration (PET) of an area for the month Oct in which sugarcane is grown. The latitude of the area is 12°N. Use Thornthwaite formula. The mean monthly air temperature in °C is as given below: Month Mean monthly air temperature (°C) Jan 19.9 Feb 20.8 Mar 23.1 Apr 27.3 May 32.5 June 29.4 July 27.9 Agu 26.3 Sept 26.0 Oct 23.9 Nov 21.1 Dec 20.2 An empirical constant ‘a’ in Thornthwaite formula is given by: a = 6.75 × 10–7 I3 - 7.71 10-5 I2 + 1.792 10-2 I + 0.49239 where, It = the total of 12 monthly values of heat index. Use Table (4a) to calculate Adjustment factor for number of hours of daylight and days in the month in Thornthwaite formula.",
+          "marks": 8,
+          "question_id": "1xOv2wHh-ko2wQsmqV7WNNlx7awk5-HPB_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2976,
+        "processed_at": "2026-06-12 00:52:04"
+      }
+    },
+    {
+      "pdf_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2023_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2023_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6004]-470",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1420",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 14/06/2023 14:36:30 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw a neat sketch of centrifugal pump and explain any three component parts.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw a layout of drip irrigation system. Explain three component parts of drip irrigation system.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain following component parts of lift irrigation: i) Intake structure ii) Rising main",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain why priming is essential in centrifugal pump.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the procedure for design of main line in drip irrigation system.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss two empirical equations used to estimate head loss in drip irrigation.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw a labelled sketch showing components of a sprinkler irrigation system and explain any four component parts in brief.",
+          "marks": 8,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain how to calculate water spread area using Cavazza formula.",
+          "marks": 3,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Determine the system capacity for a sprinkler irrigation system to irrigate 20 ha of maize crop. Design moisture use rate is 5 mm per day. Moisture replaced in soil at each irrigation is 7 cm. Irrigation efficiency is 70 %. Irrigation period is 10 days in 12 day interval. The system is to be operated for 18 hours per day.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Determine the required capacity of a sprinkler system to apply water at the rate of 1.25 cm/hr. Two 186 m long sprinkler lines are required. Sixteen sprinklers are spaced at 12 m intervals on each line. The spacing between lines is 18 m.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A lateral has 14 sprinklers spaced 16 m apart. The laterals are spaced 20 m on the main line. Determine the amount of fertilizer to be applied at each setting when recommended fertilizer dose is 90 kg/ha.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Fertilizer Applicator in sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Define the following terms : i) Sodic soil ii) Alkaline soil iii) Cation exchange capacity (CEC) iv) Exchangeable sodium percentage (ESP) v) Leaching requirement vi) Sodium adsorption ratio (SAR)",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 32 meq/l concentration as calcium, on reacting with 5 gm of an alkali soil showed 29.5 meq/l of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain in brief - water stress coefficient.",
+          "marks": 5,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain in brief - salinity stress coefficient.",
+          "marks": 5,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Calculate osmotic potential in the soil at 28% water content if electrical conductivity of saturated paste extract is equal to 1.3 dS/m, and saturated water content is 50%.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain different engineering practices for salinity management.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Draw a neat sketch of pipe envelope and also explain functions of pipe envelope.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Determine the required drain spacing for the basic design criteria q = 8 mm/d, H= 0.6 m, pipe with outer diameter = 0.2 m and wet entry perimeter (u) = 0.3 m. K1 = 2.1 m/day, K2 = 1.1 m/day. W = 1m, D = 3 m. Refer Fig. 7 (b). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 9,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write Glover-Dumm formula with meanings of all symbols.",
+          "marks": 3,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Surface drainage should be planned for a new agricultural farm to drain out irrigation tail-water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 20years record is 37 mm/h. The tertiary drain would have to carry runoff from 3.8 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the (i) tertiary, (ii) secondary, and (iii) main drain.",
+          "marks": 9,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain different types of surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are the selection criteria for drain pipe?",
+          "marks": 3,
+          "question_id": "1wKpZraitE41D0YO-dgmv05gswBi9fmFM_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4561,
+        "processed_at": "2026-06-12 00:52:11"
+      }
+    },
+    {
+      "pdf_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2023_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2023_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6181]-90",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P6541",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/12/2023 13:44:18 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw a neat sketch of centrifugal pump. Explain its working.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw a layout of drip irrigation system. Explain three component parts of drip irrigation system.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Discuss two empirical equations used to estimate head loss in drip irrigation.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Why can the suction lift of a pump not exceed a certain limit?",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Enlist component parts of lift irrigation system. Explain how to calculate power requirement of centrifugal pump in lift irrigation.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss the design procedure for lateral line of drip irrigation system for uniform slope.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the steps for sprinkler irrigation system design.",
+          "marks": 8,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A sprinkler system is to be designed to irrigate 8 ha of the vegetable crop (Root zone depth = 60 cm) in deep silt loam soil (Limiting application rate = 1.3 cm/h; Mositure holding capacity = 9.5 cm/m depth) in a moderate dry climate. The field is flat. Assuming the allowable depletion level = 50%, water application efficiency = 75% and peak rate of mositure use by crop = 5 mm/day. Determine the net depth of water per application, the depth of water pumped per application, irrigation period and the required system capacity in ha - cm per day. Assuming that system is operated for 15 h each day, determine the pump capacity in lit/sec.",
+          "marks": 9,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw a labelled sketch showing components of a sprinkler irrigation system. What are advantages and disadvantages of sprinkler irrigation system.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch Fertilizer Applicator in sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the required capacity of a sprinkler system to apply water at the rate of 1.25 cm/hr. Two 186 m long sprinkler lines are required. Sixteen sprinklers are spaced at 12 m intervals on each line. The spacing between lines is 18 m.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the most common problems that result from using poor quality of irrigation water.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Determine the depth of irrigation water which would change 30 cm depth of loam soil into saline soil condition, if the electrical conductivity of irrigation water is 1 millimhos/cm. The bulk density of the soil is 1.2 gm/cc and the density of water is 1 gm/cc. The saturation percentage of the soil is 40.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain in brief-water stress coefficient.",
+          "marks": 5,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain how to compute yield reduction due to salinity.",
+          "marks": 5,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain different engineering practices for salinity management.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 30 meq/1 concentration as calcium, on reacting with 6 gm of an alkali soil showed 29.5 meq/1 of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief: i) clay tile pipe, ii) concrete pipe, iii) plastic pipe used for subsurface drainage system.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Determine the required drain spacing (L) for the basic design criteria q = 6 mm/d, H = 0.65 m, pipe with outer diameter = 0.25m and wet entry perimeter (u) = 0.35 m. K1 = 2.0 m/day, K2 = 1.0 m/day. W = 1m, D = 3m. Refer Fig. 7(b). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 9,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write Glover-Dumm formula with meanings of all symbols.",
+          "marks": 3,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Surface drainage should be planned for a new agricultural farm to drain out irrigation tail-water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 20 years record is 32 mm/h. The tertiary drain would have to carry runoff from 3.5 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the i) tertiary, ii) secondary, and iii) main drain.",
+          "marks": 9,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain different types of sub surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are the advantages of sub surface drainage system?",
+          "marks": 3,
+          "question_id": "1n6LyKErwKDM4GT1RtEsmstXZR6SQMh4y_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4828,
+        "processed_at": "2026-06-12 00:52:17"
+      }
+    },
+    {
+      "pdf_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2024_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2024_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6270]-40",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013C",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-252",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/03/2024 13:39:42 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss benefits and disadvantages of irrigation.",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "‘All the waters are not fit for irrigating crops’. Discuss briefly and critically this statement.",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch following water distribution techniques in the farms : i) free flooding, ii) border flooding",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss on ‘Efficient water management is a challenge in India’.",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch showing layout of sprinkler irrigation system and explain function of each component.",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain application of artificial intelligence in irrigation and drainage.",
+          "marks": 5,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Estimate potential evapotranspiration for the months March and April using Blaney-Criddle formula using the following data : Mean monthly temperature in the month of March = 27°C (= 80.6°F), Mean monthly temperature in the month of April = 31°C (=87.8°F), Latitude = 26°N Crop coefficient = K = 0.75. Use Table (3B) to calculate monthly daytime hours percentage. Table 3B: Monthly daytime hours percentages, Ph, for use in Blaney- Criddle formula : North latitude (deg) March April 20 8.41 8.52 25 8.39 8.61 30 8.38 8.72",
+          "marks": 7,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the following terms : i) Field capacity, ii) Permanent wilting point, iii) Available water",
+          "marks": 6,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define ‘Maximum Allowable Deficiency (MAD)’.",
+          "marks": 2,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the following soil-water terms : i) Gravitational water, ii) Capillary water, iii) Hygroscopic water",
+          "marks": 6,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A crop has effective root zone depth of 1000 mm and monthly (30 days) crop evapotranspiration of 220 mm. The effective rainfall during the 30 days period is 15 mm. The field capacity and permissible soil moisture depletion (volume basis) are 30% and 16%, respectively. Determine the irrigation interval in days for the crop.",
+          "marks": 6,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Enlist data required for the computation of reference evapotranspiration along with their unit as per Penman method.",
+          "marks": 3,
+          "question_id": "1Qo-vU5vtidTJH28ldSASbIWtbm8znmA9_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2561,
+        "processed_at": "2026-06-12 00:52:20"
+      }
+    },
+    {
+      "pdf_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2024_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2024_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.(civil)",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6263]-71",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2233",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 13:32:15 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain why priming is essential in centrifugal pump.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss two empirical equations used to estimate head loss in drip irrigation.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is the general information required for the design of drip irrigation system?",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is the NPSH of centrifugal pump? Distinguish between available NPSH and required NPSH.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define following terms related to centrifugal pump: i) Static head, ii) Manometric head, iii) Delivery head, iv) Gross head, v) Suction head, vi) Manometric efficiency,",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss the design procedure for lateral line of drip irrigation system for uniform slope.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "As per hydraulic design of sprinkler system, explain how to compute: i) Discharge of sprinkler nozzle, ii) Water spread area of sprinkler, iii) Break-up of jet, iv) Water application rate.",
+          "marks": 8,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A farm of 25 ha is planned to be brought under sprinkler irrigation. The textural class of the soil is loam-to-silt loam, having moisture content at field capacity (FC) and permanent wilting point (WP) of about 42% (by volume), and 26% (by volume), respectively. An infiltration test data showed that the constant (basic) infiltration rate is 2mm/h. A relatively impervious layer exists at a depth of 2.0m below the soil surface.The long-term average reference evapotranspiration (ET0) rate in that area is 4.5 mm/d. Vegetable crops are planned to grow in the farm, and the crop coefficient (Kc) at the miximum vegetative period is 1.1. Determine: i) Maximum evapotranspiration (ETmax), ii) Daily water requirement for the area (assume application efficiency Ea = 80%), iii) Discharge rate (assume daily irrigation period = 4 hrs), iv) Discharge rate of individual sprinkler.",
+          "marks": 9,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw a labelled sketch showing components of a sprinkler irrigation system. What are advantages and disadvantages of sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain following types of sprinkler systems: i) Rotating head system ii) Perforated pipe system",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the system capacity for a sprinkler irrigation system to irrigate 30 ha of maize crop. Design moisture use rate is 5 mm per day. Moisture replaced in soil at each irrigation is 7 cm. Irrigation efficiency is 75%. Irrigation period is 11 days in 14 day interval. The system is to be operated for 20 hours per day.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain in brief-salinity stress coefficient.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is sodicity? Explain how to calculate SAR?",
+          "marks": 5,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Determine the depth of irrigation water which would change 25 cm depth of loam soil into saline soil condition, if the electrical conductivity of irrigation water is 1.5 millimhos/cm. The bulk density of the soil is 1.21 gm/cc and the density of water is 1gm/cc. The saturation percentage of the soil is 40.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 25 meq/l concentration as calcium, on reacting with 6.9 gm of an alkali soil showed 32 meq/l of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain influence of salts on the physical properties of soil.",
+          "marks": 5,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is leaching fraction? Explain how to compute leaching fraction.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the different steps involved in the drainage design?",
+          "marks": 5,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is land forming in surface drainage?",
+          "marks": 5,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Surface drainage should be planned for a new agricultural farm to drain out irrigation tail- water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 35 years record is 41 mm/h. The tertiary drain would have to carry runoff from 4.3 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the (a) tertiary, (b) secondary, and (c) main drain.",
+          "marks": 8,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Enlist different structures in pipe drain system.",
+          "marks": 4,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in brief: i) Clay tile pipe, ii) Concrete pope, iii) Plastic pipe used for subsurface drainage system.",
+          "marks": 6,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Determine the required drain spacing (L) for the basic design criteria q = 9mm/d, H = 0.65 m, pipe with outer diameter = 0.25 m and wet entry perimeter (u) = 0.35 m. K1 = 2.0m/day, K2 =1.0 m/day, W =1m, D = 3m. Refer Fig.8 (c). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 8,
+          "question_id": "1VxnOOwCzwM8MWqOxtjyUDa6nC19-TJqQ_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 5268,
+        "processed_at": "2026-06-12 00:52:27"
+      }
+    },
+    {
+      "pdf_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2024_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2024_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6354]-475",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2359",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/12/2024 13:49:30 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain characteristic curves of centrifugal pump.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the NPSH of centrifugal pump? Distinguish between available NPSH and required NPSH.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist component parts of lift irrigation system. Explain how to calculate power requirement of centrifugal pump in lift irrigation.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is the general information required for the design of a drip irrigation system?",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch of centrifugal pump and explain component parts.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the advantages and disadvantages of drip irrigation system.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the steps for sprinkler irrigation system design.",
+          "marks": 9,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the system capacity for a sprinkler irrigation system to irrigate 20 hectares of a crop. Design moisture use rate is 7mm/day. Moisture replaced in soil at each irrigation is 7.5 cm. Irrigation efficiency is 75 %. Irrigation period is 11 days in a 14-day interval. The system is to be operated for 19 hours per day.",
+          "marks": 8,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A sprinkler irrigation system is to be designed to irrigate 9 hectares of vegetables crops in deep silt loam soil in moderate dry climate. The field is flat. Determine the irrigation period, the net depth of water per application, the depth of water pumped per application and the required system capacity in hectare-cm per day. Assuming that the system is operated for 15 hours each day, determine the pump capacity in lit/sec. Assume following data: Limiting application rate = 1.35 cm/hr, Moisture holding capacity of the soil = 9.7 cm/meter depth, Root zone depth = 65 cm, Irrigation to be stated at 50 % moisture depletion.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain how to calculate power requirement of the pump in sprinkler irrigation system.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Fertilizer Applicator in sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain influence of salts on the physical properties of soil.",
+          "marks": 5,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain different engineering practices for salinity management.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Estimate the leaching requirement when the electrical conductivity (EC) of the saturation extract of the soil is 11 mmhos/cm at 25 percent reduction in the yield of cotton. The EC of irrigated water is 1.5 mmhos/cm.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is leaching fraction? Explain how to compute leaching fraction.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is sodicity? Explain how to calculate SAR?",
+          "marks": 5,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 29 meq/l concentration as calcium, on reacting with 6.5 gm of an alkali soil showed 30 meq/1 of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain steps involved in land forming in surface drainage.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "It is required to design surface drainage for a new agricultural farm to drain out irrigation tail-water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 30 years record is 40mm/h. The tertiary drain would have to carry runoff from 6.5 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the i) tertiary ii) secondary and iii) main drain",
+          "marks": 8,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Enlist different types of drain pipes used for subsurface drainage and brief about anyone.",
+          "marks": 4,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain different surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is composite drainage system?",
+          "marks": 3,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Determine the required drain spacing (L) for the basic design criteria q = 10 mm/d, H= 0.85 m, pipe with outer diameter = 0.3 m and wet entry perimeter (u) = 0.45 m, K1 = 3.5 m/day, K2 = 2.0 m/day. W= 1.5 m, D = 3 m. Refer Fig. 8(c). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 9,
+          "question_id": "11HLRw4cV7BHsHidxUHdeHN9XSb3c7VH1_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4646,
+        "processed_at": "2026-06-12 00:52:33"
+      }
+    },
+    {
+      "pdf_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2025_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/insem_mar_2025_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6411]-30",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013 C",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD255",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2025 13:41:35 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is mean by ‘Border flooding’, and how does it differ from ‘Check flooding’ and ‘Free flooding’?",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss critically the quality standards required for irrigation water.",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain canal distribution network (CDN) with neat sketch.",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss on ‘Efficient water management is a challenge in India’.",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch showing layout of drip irrigation system and explain function of each component.",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain application of artificial intelligence in irrigation and drainage.",
+          "marks": 5,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Estimate the potential evapotranspiration (PET) of an area for the month October and November in which sugarcane is grown. The latitude of the area is 18ºN. The average value of crop coefficient K = 0.95 in Blaney-Criddle formula. The mean monthly temperature for the month October and November is 75ºF (=23.89ºC) and 72ºF (=22.22ºC). Use Table (3a) to calculate monthly daytime hours percentage. Table 3a: Monthly daytime hours percentages, Ph, for use in Blaney-Criddle formula. North latitude (deg) Oct. Nov. 0 8.50 8.22 10 8.34 7.91 15 8.26 7.75 20 8.18 7.58",
+          "marks": 7,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the following terms: i) Field capacity ii) Permanent wilting point iii) Available water",
+          "marks": 6,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define - ‘reference surface’ as per FAO Penman-Monteith method.",
+          "marks": 2,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketch how soil texture and structure affect water movement in soil.",
+          "marks": 6,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A crop has effective root zone depth of 1200 mm and monthly (30 days) crop evapotranspiration of 260 mm. The effective rainfall during the 30 days period is 20mm. The field capacity and permissible soil moisture depletion (volume basis) are 16% and 8% respectively. Determine the irrigation interval in days for the crop.",
+          "marks": 6,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Enlist data required for the computation of reference evapotranspiration along with their unit as per FAO Penman-Monteith method.",
+          "marks": 3,
+          "question_id": "1HsQIuFcWscfRnzp0A0U4tEQJuHubG7x8_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2569,
+        "processed_at": "2026-06-12 00:52:36"
+      }
+    },
+    {
+      "pdf_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2025_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_may_jun_2025_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6404]-71",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4566",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/05/2025 13:37:38 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is the NPSH of centrifugal pump? Distinguish between available NPSH and required NPSH.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch arrangement of various possible fittings at a submain intake from the main in a drip irrigation system.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist component parts of lift irrigation system. Explain how to calculate power requirement of centrifugal pump in lift irrigation.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define following terms related to centrifugal pump: i) static head, ii) manometric head, iii) delivery head, iv) gross head, v) suction head, vi) manometric efficiency",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is the general information required for the design of a drip irrigation system?",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the advantages and disadvantages of drip irrigation system.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the steps for sprinkler irrigation system design.",
+          "marks": 9,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the system capacity for a sprinkler irrigation system to irrigate 20 hectares of a crop. Design moisture use rate is 7 mm/day. Moisture replaced in soil at each irrigation is 7.5 cm. Irrigation efficiency is 75 %. Irrigation period is 11 days in a 14-day interval. The system is to be operated for 19 hours per day.",
+          "marks": 8,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A sprinkler irrigation system is to be designed to irrigate 8 hectares of vegetables crops in deep silt loam soil in moderate dry climate. The field is flat. Determine the irrigation period, the net depth of water per application, the depth of water pumped per application and the required system capacity in hectare-cm per day. Assuming that the system is operated for 15 hours each day, determine the pump capacity in lit/sec. Assume following data: Limiting application rate = 1.3 cm/hr Moisture holding capacity of the soil = 9.5 cm/meter depth Root zone depth = 60 cm Irrigation to be stated at 50 % moisture depletion.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw a labelled sketch showing components of a sprinkler irrigation system. What are advantages and disadvantages of sprinkler irrigation system.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Fertilizer Applicator in sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain influence of salts on the physical properties of soil.",
+          "marks": 5,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain different engineering practices for salinity management.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Estimate the leaching requirement when the electrical conductivity (EC) of the saturation extract of the soil is 11 mmhos/cm at 25 percent reduction in the yield of cotton. The EC of irrigated water is 1.5 mmhos/cm.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is leaching fraction? Explain how to compute leaching fraction.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is sodicity? Explain how to calculate SAR?",
+          "marks": 5,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 29 meq/l concentration as calcium, on reacting with 6.5 gm of an alkali soil showed 30 meq/l of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain steps involved in land forming in surface drainage.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "It is required to design surface drainage for a new agricultural farm to drain out irrigation tail-water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 30 years record is 40 mm/h. The tertiary drain would have to carry runoff from 6.5 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the i) tertiary, ii) secondary, and iii) main drain.",
+          "marks": 8,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Enlist different types of drain pipes used for subsurface drainage and brief about anyone.",
+          "marks": 4,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain different surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is composite drainage system?",
+          "marks": 3,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Determine the required drain spacing (L) for the basic design criteria q = 8 mm/d, H = 0.85 m, pipe with outer diameter = 0.3 m and wet entry perimeter (u) = 0.45 m. K1 = 3.5 m/day, K2 = 2.0 m/day. W = 1.5 m, D = 3 m. Refer Fig. 8 (c). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 9,
+          "question_id": "1fQUS83zS4UYFuYuWRhz-6miaEwg_lm8D_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4897,
+        "processed_at": "2026-06-12 00:52:42"
+      }
+    },
+    {
+      "pdf_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2025_ce_idc_eV_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/irrigation_and_drainage_ele_V_ce/endsem_nov_dec_2025_ce_idc_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "IRRIGATION AND DRAINAGE",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6584]-57",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "401013-C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2158",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/12/2025 13:51:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain characteristic curves of centrifugal pump.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the advantages and disadvantages of drip irrigation system.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist component parts of lift irrigation system. Explain how to calculate power requirement of centrifugal pump in lift irrigation.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define following terms related to centrifugal pump: i) static head, ii) manometric head, iii) delivery head, iv) gross head, v) suction head, vi) manometric efficiency",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch of centrifugal pump and explain component parts.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is the NPSH of centrifugal pump? Distinguish between available NPSH and required NPSH.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain hydraulic design of sprinkler irrigation system.",
+          "marks": 9,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the system capacity for a sprinkler irrigation system to irrigate 25 hectares of a crop. Design moisture use rate is 7.5 mm/day. Moisture replaced in soil at each irrigation is 8 cm. Irrigation efficiency is 75 %. Irrigation period is 11 days in a 14-day interval. The system is to be operated for 19 hours per day.",
+          "marks": 8,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Determine the required capacity of a sprinkler system to apply water at the rate of 1.35 cm/hr. Two 186 m long sprinkler lines are required. Sixteen sprinklers are spaced at 12 m intervals on each line. The spacing between lines is 18 m.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw a labelled sketch showing components of a sprinkler irrigation system. What are advantages and disadvantages of sprinkler irrigation system.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch Fertilizer Applicator in sprinkler irrigation system.",
+          "marks": 5,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is osmotic potential? How to calculate osmotic potential energy in saturated soils?",
+          "marks": 5,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain different engineering practices for salinity management.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Estimate the leaching requirement when the electrical conductivity (EC) of the saturation extract of the soil is 11 mmhos/cm at 25 percent reduction in the yield of cotton. The EC of irrigated water is 1.5 mmhos/cm.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is leaching fraction? Explain how to compute leaching fraction.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain in brief – water stress coefficient.",
+          "marks": 5,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A quantity of 100 ml of gypsum solution, having 29 meq/l concentration as calcium, on reacting with 6.5 gm of an alkali soil showed 30 meq/l of Ca+Mg concentration in the filtrate. Estimate the gypsum requirement in meq/100 gm soil.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain different types of sub surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "It is required to design surface drainage for a new agricultural farm to drain out irrigation tail-water and seasonal rainfall runoff. The maximum rainfall intensity at the site in 30 years record is 38 mm/h. The tertiary drain would have to carry runoff from 6.0 ha land. The secondary drain would have to carry thrice of tertiary, and the main drain to carry discharge of five secondary drains (of similar flow). Determine the design discharge capacity of the (i) tertiary, (ii) secondary, and (iii) main drain.",
+          "marks": 8,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Enlist different types of drain pipes used for subsurface drainage and brief about anyone.",
+          "marks": 4,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain different surface drainage system layouts.",
+          "marks": 6,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is composite drainage system?",
+          "marks": 3,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Determine the required drain spacing (L) for the basic design criteria q = 7.9 mm/d, H = 0.87 m, pipe with outer diameter = 0.3 m and wet entry perimeter (u) = 0.45 m. K1 = 3.5 m/day, K2 = 2.0 m/day. W= 1.7 m, D = 3 m. Refer Fig. 8 (c). Use Hooghoudt’s formula. Take only two trials.",
+          "marks": 9,
+          "question_id": "1NJcQnse1J3dh2CHaIm8US2xX6pHKtqvv_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4477,
+        "processed_at": "2026-06-12 00:52:47"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2136 @@
+{
+  "subject_name": "Project Management",
+  "subject_slug": "project_management_ce",
+  "branch": "ce",
+  "semester": "se",
+  "papers": [
+    {
+      "pdf_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2022_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2022_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5869]-210",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/07/2022 08:36:56 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Carry out ABC analysis for the following items and plot ABC curve. Item No. Item Annual Expenditure (Rs.) 1 Cement 5,00,000 2 Sand 3,00,000 3 Bricks 1,00,000 4 Siporex Blocks 2,50,000 5 Paint 60,000 6 Steel 4,50,000 7 Tiles 70,000 8 Oil 2,000 9 Course Aggregate 95,000 10 Electrical fitting 50,000 11 Nails 1,500 12 Timber 42,000",
+          "marks": 10,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the responsibilities of a safety manager on construction sites?",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the use of Project Management Software’s in Construction Industry.",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define the terms : i) Safety stock ii) Lead time iii) Inventory iv) EOQ",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the objectives of material management?",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A construction company purchases 10,000 bags of cement annually. Each bag of cement cost Rs. 300/- and the cost incurred in procuring each lot is Rs. 200/-. The cost of carrying is 25%. What is the most Economic order Quantity? What is the average inventory level?",
+          "marks": 6,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is network crashing? Explain with suitable example.",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain resource smoothing and leveling. Use diagram wherever required.",
+          "marks": 5,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Project Management software in construction site planning.",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you mean by Earned Value Analysis? Explain any one method in detail.",
+          "marks": 5,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the objectives of Resource leveling? Explain the procedure of carryout resource leveling.",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the term Rescheduling and Updating.",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain demand and supply curve and factors affecting on it.",
+          "marks": 5,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "How to calculate simple and compound interest? What is the difference between simple interest and compound interest payable on principal of Rs. 15,000 in 2 years at the rate of 8% p.a.",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What are the factors affecting on Price Determination?",
+          "marks": 5,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Difference between Costs, Value.",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the types of Capital.",
+          "marks": 6,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the FDI in Infrastructure.",
+          "marks": 4,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Following are the details of Project A and B. Using NPV (i = 8%). Comment on the following statements: i) Whether both projects are feasible? ii) Whether both projects are not feasible? iii) Either of the A or B is feasible? Years Project A Project B Initial Investment 4,00,000 4,50,000 1 1,20,000 1,40,000 2 1,25,000 1,45,000 3 78,000 76,000 4 80,000 65,000 5 75,000 60,000 6 - 90,000",
+          "marks": 10,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail the role of Project Management Consultants in Civil Engineering field.",
+          "marks": 7,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a short note on: i) NPV ii) IRR iii) Pay-Back Period",
+          "marks": 9,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the following: i) Selection Criteria for project ii) Detailed Project report",
+          "marks": 8,
+          "question_id": "11b0UncHDEKF9a_RIBjGvMwe2QzZDs2uW_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3464,
+        "processed_at": "2026-06-12 01:09:16"
+      }
+    },
+    {
+      "pdf_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/insem_feb_2023_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_feb_2023_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6008]-205",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "201012",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-4960",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/04/2023 15:33:37 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write short notes on: i) PMBOK ii) PMI and PMP",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the merits and demerits of matrix structure?",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Discuss the importance and objectives of project management.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist the principles of management and explain any 4.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define the term “Project Life Cycle”. Describe the project life cycle showing various phases.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss in detail various function of management.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define : i) Activity ii) Critical Activity iii) Critical Path iv) Dummy Activity v) Total Float",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Find EST, EFT, LST, LFT and Total Float. Also mark critical path of the given network indicating total project duration. (given duration in days).",
+          "marks": 10,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write short note on Bar chart and it’s limitations.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Differentiate between CPM and PERT.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain WBS with suitable example.",
+          "marks": 5,
+          "question_id": "1tzsMchiuJwhFpPPa9gCeoo1W4gsup9Et_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1512,
+        "processed_at": "2026-06-12 01:09:17"
+      }
+    },
+    {
+      "pdf_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2024_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2024_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6268]-205",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB11",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 27/03/2024 14:17:07 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define authority. State its characteristics and types.",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a short note on Categories of project.",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the following principles of management. i) Unity of command ii) Division of work",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with a neat sketch “Line organization structure”",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What do you mean by project life cycle curve? Explain with a neat sketch.",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a note on PMI and Certified project management professional.",
+          "marks": 5,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Listed below are the activities of a project along with duration. Activity Duration (Weeks) 1-2 6 1-3 5 2-4 10 3-4 3 3-5 4 4-5 6 4-6 2 5-6 9 i) Draw a network and calculate project duration and highlight critical path. ii) Calculate EST, EFT, LST, LFT and total float for the activities.",
+          "marks": 8,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is PERT? Explain Its application.",
+          "marks": 4,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Work Breakdown structure with an example.",
+          "marks": 3,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "The following table gives the time estimates for various activities of project: Activity Duration in days Optimistic time (t0) Most like time (tm) Pessimistic time (tp) 1-2 4 10 22 2-3 2 5 8 2-4 4 7 16 2-5 4 7 10 3-5 4 7 22 4-5 5 8 17 5-6 6 9 18 i) Draw the project network and find total project duration and highlight critical path. ii) Calculate Variance of all the activities. iii) What is the probability that project will be completed in 38 days.",
+          "marks": 8,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What do you mean by dummy activity? What is the use of providing dummy activity in a network?",
+          "marks": 4,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define critical sub-critical and super-critical activities.",
+          "marks": 3,
+          "question_id": "1uyecL95lU5Pkym0xwbWDqUbXfJd0DglI_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2248,
+        "processed_at": "2026-06-12 01:09:18"
+      }
+    },
+    {
+      "pdf_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2022_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2022_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[5925]-210",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1188",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 11/01/2023 13:29:44 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "State the primary and secondary objectives of material management.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the process of material procurement in construction project.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The annual demand for the product is 22,000 units. The unit cost is Rs. 8/-. The annual inventory carrying cost per unit per annum is 20% of average iniventory cost. If the cost of procurement is Rs. 85/-. Determine i) EOQ ii) No. of orders per annum iii) Total cost of purchasing",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the meaning of i) Raising of Indents ii) Delivery of Material",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How do you inspect quality of material like sand and aggregate on your site?",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain why safety program have to be implemented at work site. what points should be considered while making a safety program for the following projects. i) highway construction ii) Building construction",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain resource allocation methods and their significance in manpower planning.",
+          "marks": 5,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Following table shows the data of small construction project. Activity 1-2, 2-3, 2-4, 3-5, 4-5, 5-6 5-7, 6-7 Duration (Days) 4, 6, 5, 2, 1, 4, 6, 6 i) Draw the network diagram and update the network by using the following conditions at the end of 8 days. ii) What is the change in the project duration? iii) What is remaining duration of project? At the end of 8 days review was taken which indicates 1) Activity 1-2 & 2-4 was completed as originally planned. 2) Activity 2-3 & 3-5 delayed drastically and requires 5 & 6 more days respectively for their completion. 3) Activity 4-5 & 5-6 is in progress and both require 10 more days for their completion. 4) Activity 6-7 yet to start and the original time estimate still appear to be accurate. 5) Activity 5-7 requires 8 days in place of 6 days for its completion.",
+          "marks": 12,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you mean by EVA? Explan any one method in detail",
+          "marks": 4,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "The following is available information about various activities Activity, Normal duration, Normal cost (Rs.), Crash duration (week), Crash cost (Rs.) 1-2, 6, 7000, 3, 14,500 1-3, 8, 4000, 5, 8,500 2-3, 4, 6000, 1, 9,000 2-4, 5, 8000, 3, 15,000 3-4, 5, 5000, 3, 11,000 Project overhead cost are Rs 3000/- per week. Determine network diagram with CPM and optimum cost and duration.",
+          "marks": 13,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Demand and Supply curve.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the following terms: i) Cost, Price and Value ii) Equilibrium price, Equilibrium quantity iii) Factors affecting Price Determination",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Illustrate with example “Law of Diminishing Marginal Utility”",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Cost of Capital & Time Value of Money.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Mr. Vilas brough an air-conditioner for Rs. 20,000; he paid tax of Rs. 2,000 and Rs. 200 for trnsport. If he sold it to a customer for Rs. 22,500, what is the percentage profit or loss?",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the following laws with suitable diagram. i) Law of demand and supply ii) law of substitution",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the different types of appraisals required to undertake any Project? Explain any one in detail.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write a short note on: i) Break even analysis, ii) Detailed project report (DPR).",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Compare the project by NPV and B/C ratio method and state its feasibility if project cost is Rs. 2,80,000 and it has net cash flow of Rs. 90,000 for a peiod 4 years. Firm expect returns 10% per annum.",
+          "marks": 5,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Following are the details of Project A and B. Using NPV (i=8%), Comment on the following statements: i) Whether both projects are feasible? ii) Whether both projects are not feasible? iii) Either of the A or B is feasible?",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the contents of Projet Feasibility report with example.",
+          "marks": 5,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain the role of Project management Consultant in Pre-tender and Post-tender of a Project.",
+          "marks": 6,
+          "question_id": "1mdkpjh09yobWMILcF3Jhy-mO27yA1y-i_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4809,
+        "processed_at": "2026-06-12 01:09:19"
+      }
+    },
+    {
+      "pdf_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2023_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2023_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6002]-110",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1483",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 01/07/2023 10:32:30 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "State the primary and secondary objectives of material management.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the process of material procurement in construction project.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The monthly requirement of a sand for a particular firm is 849 cubic meter. The cost of one cubic meter of sand is 25000. Ordering cost is Rs. 200 per order and annual inventory carrying cost is 20% of average inventory. Determine i) EOQ ii) No. of orders per annum",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief the following: i) Raising of Indents ii) Delivery of Material",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How do you inspect quality of material like sand and aggregate on your site?",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain why safety program have to be implemented at work site. What points should be considered while making a safety program for the following projects. i) Highway construction ii) Building construction",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain resource allocation methods and their significance in manpower planning.",
+          "marks": 5,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What do you mean by network crashing? Write down the step by step procedure of network crashing?",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "State the various methods of Project Monitoring. Explain any one in brief.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you mean by EVA? Explain any one method in detail.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss in brief direct cost and indirect cost.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Enlist the various benefits of EVA to any project.",
+          "marks": 5,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Demand and supply curve.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Define the following terms : i) Cost, Price and Value. ii) Equilibrium price, Equilibrium quantity.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Illustrate with example “ Law of Diminishing Marginal Utility”",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Cost of Capital & Time Value of Money.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Mr. Uttam brought an air - conditioner for Rs. 20,000; he paid tax of Rs. 2,000 and Rs.200 for transport. If he sold it to a customer for Rs. 22,500, what is the percentage profit or loss?",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the following laws with suitable diagram. i) Law of demand and supply. ii) Law of substitution.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the different types of appraisals required to undertake any Project? Explain any one in detail.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write a short note on: i) Break even analysis, ii) Detailed project report (DPR).",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Compare the project by NPV and B/C ratio method and state its feasibility if project cost is Rs. 2,80,000 and it has net cash flow of Rs. 90,000 for a period 4 years. Firm expect returns 10% per annum.",
+          "marks": 5,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Following are the details of Project A and B. Using NPV (i = 8%), comment on the following statements: i) Whether both projects are feasible? ii) Whether both projects are not feasible? iii) Either of the A or B is feasible?",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the contents of project Feasibility report with example.",
+          "marks": 5,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain the role of Project management Consultant in Pre - tender and Post - tender of a Project.",
+          "marks": 6,
+          "question_id": "19SpSb3-sLZv6SMACyM9aW6J8SI2AXUmw_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3878,
+        "processed_at": "2026-06-12 01:09:19"
+      }
+    },
+    {
+      "pdf_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2023_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2023_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6179]-205",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-9080",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/12/2023 09:31:40 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss the objectives of material management.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the various safety measures to be taken in case of high-rise building construction.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The annual demand of a construction item by a firm is 6400 units. The unit cost is Rs. 6 and inventory carrying cost per unit per annum is 25% of the average inventory cost. If the cost of procurement is Rs. 75, determine (i) economic order quantity (ii) Number of orders per annum",
+          "marks": 7,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with a neat sketch Site layout for a residential building construction site.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "The construction company has an inventory of 8 items. Following table shows the annual consumption of the items used in a project and their unit cost. Classify them in A,B,C classes. Item No. Annual Consumption in Unit Cost (Rs.) Unit 1 12000 3.00 2 22000 2.50 3 1900 1.70 4 45000 2.80 5 3500 1.70 6 60000 1.50 7 9000 2.00 8 32000 3.00",
+          "marks": 12,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss with sketch Resources Levelling and Resources Smoothing.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain different steps involved in Project Updating in a construction project.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Discuss the various performance of measurement parameters of Earned value Management.",
+          "marks": 8,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Project Monitoring and discuss any one method of it.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "The following table lists four activities of a construction project along with normal and shortest duration of completing the activity and the cost of reduction per day. The Project overhead costs are Rs. 2000 per week. Find the optimum duration and cost associated with it. Also draw least cost network for following project. Activity, Normal duration (weeks), Normal Cost (Rs.), Crash Duration (Weeks), Crash Cost (Rs.) 1-2 4 4000 2 12000 2-3 5 3000 2 7500 2-4 7 3600 5 6000 3-4 4 5000 2 10000",
+          "marks": 13,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Define the following : i) Cost ii) Value iii) Price iv) Rent v) Simple Interest",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss Elasticity of Demand and supply.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain Law of Diminishing Marginal Utility and Law of Substitution.",
+          "marks": 7,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss the various factors Affecting Price Determination.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State and explain the various Sources of Project Finance.",
+          "marks": 5,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain Supply curve and demand curve with neat diagram.",
+          "marks": 7,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "List the various types of project appraisal and explain any one in detail.",
+          "marks": 6,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A construction company has the resources to implement one of the two projects that have been offered to it. Using NPV suggest the one project the company should accept. The expected returns are 12% per annum. Particulars, Project A, Project B. Initial Investment (Rs.) 4,00,000, 3,50,000. Annual Income (Rs.) Year 1 1,50,000, 1,00,000. Annual Income Year 2 2,00,000, 3,00,000. Annual Income Year 3 80,000, 50,000. Annual Income Year 4 1,00,000, 90,000. Annual Income Year 5 20,000, 60,000.",
+          "marks": 12,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain with figure breakeven analysis.",
+          "marks": 6,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss role of project management consultant in pre tender and post tender stage.",
+          "marks": 6,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Differentiate between NPV and IRR.",
+          "marks": 6,
+          "question_id": "12WB34WyJxaYDpha-zi8xxHFFAZd9Q6IL_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3904,
+        "processed_at": "2026-06-12 01:09:20"
+      }
+    },
+    {
+      "pdf_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2024_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2024_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6352]-5",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2781",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 20/12/2024 09:32:58 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the procedure of procurement of primary materials.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe ABC Analysis and state its advantages in construction industry.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The annual demand of a construction item by a firm is 6400 units. The unit cost is Rs. 6 and inventory carrying cost per unit per annum is 25% of the average inventory cost. If the cost of procurement is Rs. 75, determine (a) economic order quantity.",
+          "marks": 7,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe implementation of safety programs in a construction project.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write short note on Personal Protective Equipment",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Economic ordering quantity.",
+          "marks": 7,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate between resource levelling and resource smoothening.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What do you mean by Project Monitoring. Explain any one method of project monitoring.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is updating of network. Also state its advantages.",
+          "marks": 8,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you mean by network crashing? Explain with suitable example.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Earned value analysis and its advantages.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Enlist various project management software used in construction sector. Discuss advantages of these softwares.",
+          "marks": 8,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain importance of project economics in construction industry.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss in brief the following: i) Equilibrium Price ii) Equilibrium amount",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Define capital. Discuss in brief working capital.",
+          "marks": 7,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain in detail Elasticity of demand.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "State and explain the various sources of project finance.",
+          "marks": 5,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain in detail Time value of money.",
+          "marks": 7,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "List different types of project appraisal. Explain any one in detail.",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A construction company has the resources to implement one of the two projects that have been offered to it. Using NPV suggest the company should accept. The expected returns are about 12% per annum. Particulars Project A Project B Initial Investment (Rs.) 4,00,000 3,50,000 Annual Income (Rs.) Year 1 1,50,000 1,00,000 Annual Income Year 2 2,00,000 3,00,000 Annual Income Year 3 80,000 50,000 Annual Income Year 4 1,00,000 90,000 Annual Income Year 5 20,000 60,000",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write short note on IRR method.",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain discounted and Non Discounted cash flow techniques for project selection.",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the role of project management consultant in pre tender and post tender stage.",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write a note on NPV and IRR.",
+          "marks": 6,
+          "question_id": "1s6C7FPJTm7Gp44Hf28v3rQYDwKgsr41b_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3133,
+        "processed_at": "2026-06-12 01:09:22"
+      }
+    },
+    {
+      "pdf_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2024_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2024_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6261]-5",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3600",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 28/05/2024 13:32:57 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write a short note on: i) Purchase Order ii) Material Receipt",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How doyou inspect quality of material like sand and aggregate on your site?",
+          "marks": 5,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define Inventory and list out step by step process to conduct ABC analysis.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "A construction Company purchases 12000/- Bags of Cement Annually with effective cost Rs. 315/-per Bag, the cost of procurement = Rs. 150 per lot & holding cost is 20%. Calculate EOQ.",
+          "marks": 5,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the objectives of Materials Management? Explain any two.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What safety precautions would you take to avoid accidents on tunneling site? Explain safety programme undertaken.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is MSP? State its Importance in Construction Sector.",
+          "marks": 5,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a short notes on: i) Objectives of Resource Smoothening. ii) Steps in Resource Smoothening.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain different methods of EVA. Explain any one in details.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Step by step process of Network Crashing?",
+          "marks": 5,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is Cost Slope and how it is determined?",
+          "marks": 4,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Following table shows the data of small construction project. Draw the network diagram and update the network by using the following conditions at the end of 10 days. i) What is the change in the project duration? ii) What is remaining duration of project? Activity 1-2 2-3 2-4 3-5 4-5 5-6 5-7 6-7 Duration 4 6 5 2 2 1 4 6 (Days) At the end of 10 days review was taken which indicates 1) Activity 1-2 & 2-4 was completed as originally planned. 2) Activity 2-3 & 3-5 delayed drastically and requires 5 & 6 more days respectively for their completion. 3) Activity 4-5 & 5-6 is in progress and both require 8 more days for their completion. 4) Activity 6-7 yet to start and the original time estimate still appear to be accurate. 5) Activity 5-7 requires 8 days in place of 6 days for its completion.",
+          "marks": 8,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Define : Cost, Value, Wants & Goods.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Fixed & Working Capital.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is Annuity? Explain how future value of Annuity is Calculated.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define : Price, Wealth, Rent & Money.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain Law of Diminishing Marginal Utility.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain factors affecting price determination.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write a short note on ‘Role of PMC’ in pre-tendering.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What do you mean by Project Appraisal? Explain Methods of Project Appraisal.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain importance of Project Feasibility Report.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a Short note on ‘Cost Benefits Analysis’.",
+          "marks": 4,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Following Data pertains to 2 Projects. Rank the Projects based on B/C ratio & NPV values Particulars Project A Project B Investment Rs. 1,10,000/- Rs. 1,10,000/- Cash Inflow Year 1 Rs. 31,000/- Rs. 71,000/- Cash Inflow Year 2 Rs. 40,000/- Rs. 40,000/- Cash Inflow Year 3 Rs. 50,000/- Rs. 40,000/- Cash Inflow Year 4 Rs. 70,000/- Rs. 20,000/- Interest Rate 14% 14%",
+          "marks": 8,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain ‘Pay-back Period’ with example.",
+          "marks": 6,
+          "question_id": "1IxcOVws_uxqUCDvtwpCrSBWAlvd26hZz_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3775,
+        "processed_at": "2026-06-12 01:09:22"
+      }
+    },
+    {
+      "pdf_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2025_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2025_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6409]-205",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD12",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/03/2025 14:02:53 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the importance of Project Management in Construction Industry.",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a short note on PMBOK.",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the following principles of management. i) Remuneration ii) Centralization",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with a neat sketch “Line and staff organization”.",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What do you mean by Project Failure? What are the causes of project failure?",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is meant by authority? Also state meaning of delegation of authority.",
+          "marks": 5,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "The table below gives activities and their durations: Activity Duration (days) 1-2 5 2-3 5 2-4 9 2-5 11 3-5 7 4-5 0 5-6 8 6-7 6 6-8 15 7-8 12 i) Draw a network and calculate project duration and highlight critical path. ii) Calculate EST, EFT, LST, LFT and total float for the activities.",
+          "marks": 8,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Compare Bar Chart and CPM on the following points: i) Activity dependence ii) Resource allocation iii) Interpretation and ease in reading iv) Time control",
+          "marks": 4,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define critical activity, critical path and dummy activity.",
+          "marks": 3,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "The following table gives the time estimates for various activities of project: Activity Duration in weeks to tm tp 1-2 3 8 13 1-3 2 5 8 2-4 3 8 7 2-5 4 7 10 3-5 2 3 10 4-6 7 9 11 5-7 4 6 8 6-8 6 9 12 6-7 5 7 9 7-8 2 5 14 i) Draw the project network and find total project duration and highlight critical path. ii) Calculate variance of all the activities. iii) What is the probability that project will be completed in 37 weeks.",
+          "marks": 8,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a short note on “Gantt Chart and its limitations”.",
+          "marks": 4,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define total float, free float and independent float.",
+          "marks": 3,
+          "question_id": "1zvHUN7neHB20WVu3SUyFIg71fC8lyMeq_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2302,
+        "processed_at": "2026-06-12 01:09:22"
+      }
+    },
+    {
+      "pdf_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2026_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/insem_mar_2026_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "APR-26/SE/Insem-245",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF199",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2026 13:50:45 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the scientific methods of project management? Explain with the help of example.",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a short note on Categories of project.",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the following principles of management i) Unity of direction ii) Esprit de Corps",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with a neat sketch “Matrix Organization Structure”",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What do you mean by project life cycle? What are the different phases considered?",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is meant by authority? Also state meaning of delegation of authority.",
+          "marks": 5,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Listed below are the activities of a project: Activity | Duration (days) | 1-2 | 8 | 2-3 | 12 | 2-4 | 12 | 3-5 | 0 | 4-5 | 0 | 3-6 | 16 | 5-7 | 20 | 4-8 | 12 | 6-9 | 16 | 7-9 | 10 | 8-9 | 16 i) Draw a network, calculate total project duration and highlight critical path. ii) Calculate EST, EFT, LST, LFT and total float for the activities.",
+          "marks": 8,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define i) Optimistic time ii) Most likely time iii) Pessimistic time iv) Expected mean time",
+          "marks": 4,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Compare CPM and PERT",
+          "marks": 3,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "The following table gives the time estimates for various activities of project: Activity | Duration in weeks | to | tm | tp | 1-2 | 1 | 2 | 3 | 2-3 | 3 | 6 | 9 | 2-4 | 2 | 4 | 6 | 3-5 | 4 | 6 | 8 | 4-6 | 4 | 6 | 8 | 5-6 | 0 | 0 | 0 | 5-7 | 3 | 4 | 5 | 6-7 | 2 | 5 | 8 i) Draw the project network and find total project duration and highlight critical path. ii) Calculate variance of all the activities. iii) What is the probability that project will be completed in 19 weeks.",
+          "marks": 8,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the rules for drawing network diagram?",
+          "marks": 4,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define i) Predecessor activity ii) Successor activity iii) Concurrent activities.",
+          "marks": 3,
+          "question_id": "1olhhXf7MtMfLeRGvAznVhi9tAiij639G_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 2475,
+        "processed_at": "2026-06-12 01:09:23"
+      }
+    },
+    {
+      "pdf_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2025_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_nov_dec_2025_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S. E.",
+        "branch_name": "Civil",
+        "paper_number": "[6582]-5",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4234",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 08/12/2025 09:37:03 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain any six safety programms that you are going to implement on construction of a Tunnel site",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain what do you understand by fleet management.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The construction company situated in Pune is in Sus. The annual demand for the correct is 3500 units. The unit cost is 8 Rs and the inventory carrying cost is 25% of the average inventory cost. If the cost of procurement is Rs 75. Determine i) Economic order quantity ii) Number of orders per Annum iii) Total cost of purchasing",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define the term i) Lead time ii) Procurement iii) Indents iv) ABC",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the various factors to be considered for an equipment management of a construction of an flyover.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Give an site layout of a construction site you have visited and explain any 4 points of the site layout.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain what do you understand by Earned Value Analysis.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State various methods of project monitoring. Explain any one in brief.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are the various benefits of project management software.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the case study that you have studied for a small project and explain any 6 Activities.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain what do you understand by Network crashing.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Differentiate between Primavera & MS project.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the law of Diminishing Marginal utility with suitable example.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the various sources of project finance.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A Reputed construction company borrowed Rs 15,00,000 Lakhs from State Bank of India Katraj Branch for its Industrial project. They have to pay 12% interest P.A. for 6 years. Find out the total Amount to be paid by the construction company after 6 years by Compounding Interest & Simple Interest.",
+          "marks": 5,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define the terms i) Cost ii) Value iii) Price iv) Rent v) Simple interest vi) Compound interest",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on Equity Share and Debentures.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Rushi purchased a car for Rs 3,20,000 he spend Rs 20,000 for Repair and 10,300 for other. At what price should be sell the car to cost earn the profit for Rs 15,000.",
+          "marks": 5,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain any 6 points for the project selection of a dam.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on i) Break Even Analysis ii) Benefit Cost Analysis",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain the Role of Project Manager in Past Tender.",
+          "marks": 5,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain IRR method with formula and selection criteria.",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on i) Social Appraisal ii) Economical Appraisal",
+          "marks": 6,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain pay back period method with formula and suitable method.",
+          "marks": 5,
+          "question_id": "1-yR-k3BTPoaVRDA3SR4IC9zZt7YRRAfe_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3383,
+        "processed_at": "2026-06-12 01:09:24"
+      }
+    },
+    {
+      "pdf_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2025_ce_pmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/project_management_ce/endsem_may_jun_2025_ce_pmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "PROJECT MANAGEMENT",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6402]-10",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "201012",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4051",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 03/06/2025 09:28:43 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Yearly requirement of cement by large firm is 300 bags. The cost of a bag is Rs. 300/-. Lead time is one month and ordering cost per order is Rs. 200/-. Assume annual carrying cost for inventory is 20% of average inventory management. Find EOQ and total inventory cost.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the merits and demerits of ERP system.",
+          "marks": 5,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define inventory and list out its types. Explain any method of inventory control.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Segregate the items as per their annual usage and plot ABC Curve. Sr. No. Item Annual Usage in Rs. 1 Cement 1,50,000 2 Sand 80,000 3 Wash basin 44,000 4 Steel 1,15,000 5 Aggregate 90,000 6 Paint 50,000",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the functions of Materials Manager?",
+          "marks": 5,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the points to be considered while preparing safety programme of construction site.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What do you understand by resource smoothing and resource levelling? Explain their significance.",
+          "marks": 5,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What do you mean by updating the network? Write steps to update the network.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the use of Project Management software in construction industry.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What do you mean by EVA? Explain any one in detail.",
+          "marks": 5,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is project monitoring? State its advantages.",
+          "marks": 4,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Following table shows the cost duration data for a small construction project. Carry out step by step crashing and how much you save by crashing the network. Indirect cost is Rs. 300/week. Activity 1-2, 2-3, 2-4, 3-5, 4-5, 5-6 Normal Cost 4000, 2000, 5500, 200, 2200, 4000 Duration 3, 4, 5, 7, 4, 8 (weeks) Crash Cost 4200, 4800, 6400, 1200, 2600, 4200 Duration 1, 2, 2, 3, 2, 4 (weeks)",
+          "marks": 8,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain importance of project economics in constrution industry.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain difference between cost and value with suitable examples.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Define annuities. What are the kinds of annuities.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the types of elasticities? Explain in brief.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain Law of Demand and Supply with proper Sketch.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain law of substitution with the help of a neat sketch.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the different types of appraisals required to undertake any project? Explain any one in detail.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail role of project Management Consultant in Civil Engineering field.",
+          "marks": 8,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write a short note on payback period.",
+          "marks": 4,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "“Technical and economical appraisals are a must to check project profitability”. Comment.",
+          "marks": 4,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Followingdata pertains to 2 projects. Rank the projects based on B/C ratio & NPV values. Particulars Project A Project B Investment Rs. 1,10,000/- Rs. 1,10,000/- Cash Inflow Year 1 Rs. 31,000/- Rs. 71,000/- Cash Inflow Year 2 Rs. 40,000/- Rs. 40,000/- Cash Inflow Year 3 Rs. 50,000/- Rs. 40,000/- Cash Inflow Year 4 Rs. 70,000/- Rs. 20,000/- Interest Rate 14% 14%",
+          "marks": 8,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Write a short note on ARR method and IRR method.",
+          "marks": 6,
+          "question_id": "1TNVs1X3r9V_y2r76lKhzoAvig5U6T91D_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3518,
+        "processed_at": "2026-06-12 01:09:24"
+      }
+    }
+  ]
+}

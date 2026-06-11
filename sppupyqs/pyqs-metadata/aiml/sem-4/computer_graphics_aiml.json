@@ -1,0 +1,540 @@
+{
+  "subject_name": "Computer Graphics",
+  "subject_slug": "computer_graphics_aiml",
+  "branch": "aiml",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2025_aiml_cga_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2025_aiml_cga_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "COMPUTER GRAPHICS",
+        "academic_year": "S. E.",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "paper_number": "[6409]-244R",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218555",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD455",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/03/2025 14:14:55 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Classify the major groups of graphics function in openGL. Explain in detail with suitable example.",
+          "marks": 8,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is computer graphics? Explain the concept of display file structure.",
+          "marks": 7,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Consider a line P (6, 6) to Q (15, 12). Use Bresenham’s line drawing algorithm to rasterize the line from P to Q. Draw the pixel wise rasterization of Line.",
+          "marks": 8,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain with diagram the difference between raster scan and random scan displays.",
+          "marks": 7,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the steps involved in scan line polygon filling algorithm.",
+          "marks": 8,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Perform a 60 degree rotation of triangle A (0, 0), B (30, 60), C (60, 0) in anticlockwise direction. i) About the origin (0, 0) ii) About a point P (30, 03)",
+          "marks": 7,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Consider the square A (0,0), B (150,0), C (150,150), D (0,150). Rotate the square by 60 degree anti-clockwise direction followed by reflection about Y-axis.",
+          "marks": 8,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Show that the composition of two rotations is additive. R(1).R(2) = R(1 + 2)",
+          "marks": 7,
+          "question_id": "1wFX_iLpzz04Vvs7xUGzjv3yCqg-NvmBl_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1558,
+        "processed_at": "2026-06-12 00:45:22"
+      }
+    },
+    {
+      "pdf_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_may_jun_2025_aiml_cga_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_may_jun_2025_aiml_cga_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "COMPUTER GRAPHICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "paper_number": "[6402]-72",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218555",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4112",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 03/06/2025 09:33:00 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Use the Cohen Sutherland Line Clipping Algorithm with the help of region codes to clip a line AB with A (30, 70), B (110,50) and PQ with P(60, 120), Q (90, 30) to clip a line against a window with lower left-hand corner (40, 40) and Upper right-hand corner (100, 80). Show Graphic Representation of Original and Clipped Line.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the basic transformation techniques in 3D Graphics. i) Scaling ii) Rotation iii) Reflection about XZ Plane",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Let ABCD be the rectangle window with A (150, 150), B (150, 200), C(200, 200) and D (200, 150). Use Cohen Hodgeman polygon clipping algorithm to clip the convex polygon PQRS with P (100, 175), Q(170, 250), R(250, 165), S (180, 100) and find the final coordinates of the clipped polygon.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is projection? Explain with diagram, oblique - Cavalier, Cabinet, Orthographic - isometric, diametric, trimetric Parallel projections.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define Shading. Compare Constant Intensity, Halftoning, Gourand Shading and Phong Shading algorithm.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in detail with Diagram i) RGB Color Model. ii) HSV Color Model. iii) CIE Chromaticity Diagram. iv) Color Gamut.",
+          "marks": 8,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is a segment? Why do we need segments? Explain the complete process of i) Segment Creation, ii) Segment Renaming and iii) Segment Closing.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define Illumination. Explain with diagram Phong illumination Model and Combined Diffuse Illumination models in detail.",
+          "marks": 8,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Write short note on Hilbert’s and Koch Curve along its Topological and Fractal Dimensions.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are the steps in design in animation sequence? Describe about each step briefly.",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Design of animation sequence ii) Frame-by-frame Animation techniques",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is curve interpolation? As far as splines are concerned what do Bezier and B-splines curves indicate?",
+          "marks": 9,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is the different usage of Virtual Reality? Explain in detail.",
+          "marks": 6,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Haptics Rendering Pipeline Modeling in Virtual Reality?",
+          "marks": 6,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain 3D position trackers.",
+          "marks": 5,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is graphics rendering pipeline in a Virtual Reality system.",
+          "marks": 6,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain gesture interfaces in Virtual Reality.",
+          "marks": 6,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What is kinematic modeling in a Virtual Reality?",
+          "marks": 5,
+          "question_id": "11Z_-pvjud2MJIh3dg1Xbb4EvLuL2l3Ae_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3037,
+        "processed_at": "2026-06-12 00:45:26"
+      }
+    },
+    {
+      "pdf_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_nov_dec_2025_aiml_cga_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/endsem_nov_dec_2025_aiml_cga_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "COMPUTER GRAPHICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "paper_number": "[6582]-67",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218555",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4294",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 08/12/2025 09:41:38 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the basic transformation techniques in 3D Graphics : i) Rotation ii) Translation iii) Reflection about XY Plane",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Let ABCD be the rectangle window with A (150, 150), B (150, 200), C (200, 200) and D (200, 150). Use Cohen Hodgeman polygon clipping algorithm to clip the convex polygon PQR with P (170,250), Q (180, 100), R (250, 180) and find the final coordinates of the clipped polygon.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Let ABCD be the rectangle window with A (20, 20), B (60, 20), C (60, 40) and D (20,40). Find the region code for endpoints and use Cohen Sutherland algorithm to clip the lines P1-P2 with P1 (10, 25) and P2 (70, 35) and Q1-Q2 with Q1 (30, l0) and Q2(50, 70) Show Graphic Representation of Original and Clipped Line.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is projection? Explain in detail with diagram parallel and perspective projection.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is a segment? Why do we need segments? Explain the complete process of i) Segment Creation, ii) Segment Deletion and iii) Segment Renaming.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in detail with Diagram i) RGB Color Model ii) CMY Color Model iii) HSV Color Model iv) Color Gamut",
+          "marks": 8,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Compare the following illumination models with diagrams i) Ambient Light, ii) Diffuse Light and iii) Specular reflection",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define Shading. Explain with help of diagrams Phong Shading algorithm in detail.",
+          "marks": 8,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain in detail with diagram Bezier curve generation using midpoint subdivision method.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short note on : i) Fractals and topological dimensions. ii) Koch Curve iii) Hilbert Curve",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write Short note on : i) Methods of controlling animation? ii) Types of animation languages.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is interpolation? Explain in detail with diagram the process of curves Approximation.",
+          "marks": 9,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the behavior modeling in Virtual Reality.",
+          "marks": 6,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain haptic feedback in Virtual Reality system.",
+          "marks": 6,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Differentiate HMD and CAVE in Virtual Reality.",
+          "marks": 5,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the physical modeling in Virtual Reality.",
+          "marks": 6,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is geometric modeling in a Virtual Reality?",
+          "marks": 6,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain gesture interfaces in Virtual Reality.",
+          "marks": 5,
+          "question_id": "1v_fMBHtDqEgCsB5cwnIQntOfnV6bKur8_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2907,
+        "processed_at": "2026-06-12 00:45:30"
+      }
+    },
+    {
+      "pdf_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2026_aiml_cga_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/computer_graphics_aiml/insem_mar_2026_aiml_cga_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "COMPUTER GRAPHICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "paper_number": "APR-26/SE/Insem-284",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218555",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF230",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2026 13:54:55 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Consider a line P ( 2, 6 ) to Q ( 10, 12). Use Bresenham’s line drawing algorithm to rasterize the line from P to Q. Draw the pixel wise rasterization of Line.",
+          "marks": 8,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is computer graphics? Define: i) Frame Buffer ii) Aspect Ratio iii) Resolution iv) Persistence",
+          "marks": 7,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Consider a line from P ( 5, 5 ) to Q ( 13, 10). Use DDA line drawing algorithm to rasterize the line from P to Q. Draw the pixel wise rasterization of Line.",
+          "marks": 8,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain display file structure. Why is display file interpreter used? Which are the commands used in display file interpreter.",
+          "marks": 7,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Apply following transformations on polygon A (10, 10), B (20, 40), C (50, 40), D ( 40, 0) i) Translation 10, 20 units along X & Y directions. ii) Rotate 45 degrees about the origin. iii) Reflection against X-axis.",
+          "marks": 8,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain concave and convex polygons with diagram. Explain even-odd method for testing a pixel inside or outside the polygon.",
+          "marks": 7,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are the steps involved in scan line polygon filling algorithm.",
+          "marks": 8,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Apply the shearing transformation to square with given coordinates below. A(0,0), B(0,3), C(3,3), D(3,0) i) Shear Parameter value of 0.7 relative to the line Y_ref = --1. ii) Shear Parameter value of 0.7 relative to the line X_ref = --1.",
+          "marks": 7,
+          "question_id": "16omoKY3VBgsYvZB0dT-w4thmGd9DSXdh_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2100,
+        "processed_at": "2026-06-12 00:45:33"
+      }
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "subject_name": "Engineering Mathematics - III",
+  "subject_slug": "engineering_mathematics_III_aiml",
+  "branch": "aiml",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2024_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2024_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS - III",
+        "academic_year": "S.E.",
+        "branch_name": "Computer/I.T./Computer Science & Design Engineering/AI & ML",
+        "paper_number": "[6261]-35",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 70,
+        "total_questions": 9,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3630",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/05/2024 13:35:07 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Write the correct option for the following multiple choice questions. a) The first three moments of a distribution about the value 5 are 2,20 and 40. Third moment about the mean is i) – 64 ii) 64 iii) 32 iv) – 32 b) If probability density function f (x) of a continuous random variable x is defined by f(x) = (x^2-4) for -2 <= x <= 2, 0 otherwise, then P(x <= 1) is i) 1/4 ii) 1/2 iii) 1/3 iv) 3/4 c) Using secant method, the first approximation to the root x2 of the equation x3 – 5x – 7 = 0, if the initial approximations are given as x0 = 2.5 and x1 = 3 is i) 2.7183 ii) 3 iii) 2 iv) 0 d) If Lagrange’s polynomial passes through x: 0, 1; y: –4, –4 then dy/dx at x = 1 is given by i) 0 ii) 2 iii) 1 iv) 1/2 e) To compare the variability of two or more than two series, coefficient of variation is obtained using ( x is arithmetic mean and  is standard deviation) i) (sigma/x) * 100 ii) (x/sigma) * 100 iii) (sigma/x) * 100 * sigma iv) (sigma^2/x) * 100 f) If x0 is initial approximation to the root of the equation f(x) = 0 by Newton - Raphson method, first approximation x1 is given by i) x1 = x0 + x0^2 ii) x1 = x0 - (f(x0)/f'(x0)) iii) x1 = x0 + (f(x0)/f'(x0)) iv) x1 = x0 + (f'(x0)/f(x0))",
+          "marks": 10,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q1"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "a) Find arithmetic mean and coefficient of variation for x if the data is, x: 1 2 3 4; f: 9 6 5 3. b) Fit a straight line of the form y = ax + b for the data x: -2 -1 0 1 2; y: 5 3 1 -1 -3. c) Given the information: x_bar = 8.2, y_bar = 12.4, sigma_x = 6.2, sigma_y = 20, gamma(x,y) = 0.9. Find line of regression of x on y. Estimate x for y = 10",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "a) The first four moments of a distribution about the value 2 are 2, 10, 20 and 25. Find first four moments about mean, coefficient of skewness and kurtosis. b) Fit a parabola of the type y = ax^2 + bx + c for the data x: -1 0 1 2; y: 3 1 3 9. c) Find the coefficient of correlation for following distribution, x: 5 7 9 11 13; y: 9 6 12 3 15",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "a) A box contains 6 red balls, 4 white balls and 5 blue balls. Three balls are drawn successively from the box. Find the probability that they are drawn in the order red, white and blue if each ball is not replaced. b) A coin is so biased that appearence of head is twice likely as that of tail. If a throw is made 6 times, using Binomial distribution, find the probalility that at least two heads will appear. c) In a distribution, exactly normal, 7% of the items are under 35 and 89% are under 63. Find the mean and standard deviation of the distribution. [Given A(z = 1.48) = 0.43, A(z = 1.23) = 0.39]",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "a) The average number of misprints per page of a book is 1.5. Assuming the distribution of number of misprints to be poisson, find the number of pages containing more than one misprint if the book contains 900 pages. b) A random sample of 200 screws is drawn from a population which represents the size of screws. If a sample is distributed normally with mean 3.15 cm and standard deviation 0.025cm, find expected number of screws whose size falls between 3.12 cm and 3.2 cm. [Given A(z = 1.2) = 0.3849, A(z = 2) = 0.4772] c) A nationalised bank utilizes four teller windows to render fast service to the customers. On a particular day, 800 customers were observed. They were given service at the different windows as follows. Window: 1, 2, 3, 4; Expected no. of customers: 150, 250, 170, 230. Test whether the customers are uniformly distributed over the windows at 5% level of significance. [Given chi^2(3, 0.05) = 7.815]",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "a) Using the Bisection method up to fifth iteration, find a real root of the equation x^3 – 4x – 9 = 0. b) Find the real root of the equation 2x^3 – 2x – 5 = 0 by applying Newton - Raphson method at the end of fourth iteration. c) Solve by Gauss - Seidel method, the system of equations: 45x1 + 2x2 + 3x3 = 58, –3x1 + 22x2 + 2x3 = 47, 5x1 + x2 + 20x3 = 67",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "a) Solve the following system by Cholesky’s method: 4x1 + 2x2 + 14x3 = 14, 2x1 + 17x2 – 5x3 = –101, 14x1 – 5x2 + 83x3 = 155. b) Solve the following system by Gauss elimination method: 2x1 – 2x2 + 3x3 = 2, x1 + 2x2 – x3 = 3, 3x1 – x2 + 2x3 = 1. c) Use method of false position to find the fourth root of 32 correct to three decimal places.",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "a) Using Newton’s forward interpolation formula, find the polynomial satisfying the data. x: 0 1 2 3 4; y: –4 –4 0 14 44. b) Use simpson’s 1/3 rd rule to obtain integral from 1 to 2 of (1/x) dx dividing the interval into four parts. c) Use Euler’s method to solve dy/dx = x - y, y(0) = 1. Tabulate values of y for x = 0 to x = 2. Take h = 0.5.",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q8"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "a) Use Runge - Kutta method of fourth order to solve dy/dx = x^2 + y^2, y(0) = 1, to find y at x = 1.1 taking h = 0.1. b) Using modified Euler’s method, find y(0.1) given that dy/dx = x + y, y(0) = 1 and h = 0.1. Consider accuracy to four decimal places. c) Using Newton’s backward interpolation formula, find the polynomial satisfying the data. Also, find y when x = 4.5. x: 1 2 3 4 5; y: 14 30 62 116 198",
+          "marks": 15,
+          "question_id": "18wYjJNLCYLEEBBqRa6UWTaqhjDdTKfmi_q9"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 6464,
+        "processed_at": "2026-06-12 00:47:02"
+      }
+    },
+    {
+      "pdf_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2024_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2024_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS-III",
+        "academic_year": "S.E.",
+        "branch_name": "AI & ML",
+        "paper_number": "[6352]-35",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 70,
+        "total_questions": 9,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2811",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2024 09:45:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "a) If the first four central moments of a distribution are 0, 2.5, 0.7 and 18.75 then the coefficient of Kurtosis 2 is _____. i) 0 ii) 1 iii) 2 iv) 3 b) The probability distribution of x is x 1 2 3 4 P(x) 1/2 1/4 1/8 1/8 The mathematical expectation E(x) is ____ i) 11/8 ii) 13/8 iii) 15/8 iv) 9/8 c) A root of the equation x3– 4x – 9 = 0 using bisection method lies between____ i) 0 and 1 ii) 1 and 2 iii) 2 and 3 iv) 3 and 4 d) If Lagrange’s polynomial passes through x 0 2 y –3 1 then integral of y dx from 0 to 2 is equal to______ i) –1 ii) –2 iii) 1 iv) 2 e) If x is arithmetic mean, N=f and the data is presented in the form of frequency distribution then the standard deviation  is given by ___ i) 1/N * sum(f(x-x_mean)^2) ii) sqrt(1/N * sum(f(x-x_mean)^2)) iii) sum(fx)/N iv) 1/N * sum(f|x-x_mean|) f) Given equation is dy/dx = f(x,y) with initial condition x=x0, y=y0 and h is step size. Euler’s formula to calculate y1 at x=x0+h is given by _____ i) y1 = y0 + h*f(x0, y0) ii) y1 = y0 + h*f(x1, y1) iii) y1 = y0 + h*f(x0, y1) iv) y1 = h*f(x0, y0)",
+          "marks": 12,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q1"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "a) The first four moments of a distribution about the value 5 are 2, 20, 40 and 50. Find the first four central moments about the mean. b) Obtain regression line of x on y for the following data. x: 6, 2, 10, 4, 8; y: 9, 11, 5, 8, 7. c) Fit a linear curve of the type y = ax + b to the data using method of least squares. x: 0, 1, 2, 3, 4, 5, 6, 7; y: –5, –3, –1, 1, 3, 5, 7, 9.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "a) Calculate the coefficient of correlation from the information n=10, x=40, x2=190, y2=200, xy=150, y=40. b) Fit a curve y=axb for the data x: 2000, 3000, 4000, 5000, 6000; y: 15, 15.5, 16, 17, 18. c) The two regression equations of the variables x and y are x = 19.13 – 0.87y and y = 11.64 – 0.50x. Find mean of x and mean of y and coefficient of correlation.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "a) A mathematics problem is given to the three students A, B, C whose chances of solving it are 1/2, 1/3 and 1/4 respectively. What is the probability that the problem will be solved? b) The mean and variance of a binomial distribution are 6 and 2 respectively. Find P (r  1). c) A fair coin is tossed 64 times. Using normal distribution with mean 32 and standard deviation 4, find the probability of getting: i) Number of heads between 28 to 40 ii) Number of heads less than 28. [Given: A(1) = 0.3413, A(2) = 0.4772]",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "a) On an average a box containing 10 articles is likely to have 2 defectives. If we consider a consignment of 100 boxes, how many of them are expected to have three or less defectives? b) Let 10% of the rivets produced by a machine are defective. Using Poisson distribution find the probability that out of 5 rivets chosen at random, at least two will be defective. c) A nationalized bank utilizes four teller windows to render fast service to the customers. On a particular day, 800 customers were observed. They were given service at the different windows as follows: Window 1: 150, Window 2: 250, Window 3: 170, Window 4: 230. Test whether the customers are uniformly distributed over the windows. (Given: chi-square 3, 0.05 = 7.815)",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "a) Use secant method to find a root of the equation f(x) = x^3 - 5x - 7 = 0 correct to three decimal places. b) Obtain a root of the equation 3x – cosx –1= 0 (measured in radians), correct to four decimal places, using Newton-Raphson method. c) Solve by Gauss-Seidel method, the following system of equations: 10x1 + x2 + x3 = 12; 2x1 + 10x2 + x3 = 13; 2x1 + 2x2 + 10x3 = 14.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "a) Solve the following system by Gauss elimination method: x1+x2+x3=4, x1-x2+x3=5, x1+x2-x3=-6, (Note: values parsed from text logic) 2x1+x2+x3=12, x1+2x2+x3=13, x1+x2+3x3=14. b) Solve the following system of equations by Jacobi-iteration method: 20x1+x2-x3=20, x1+20x2+x3=17, x1-2x2+20x3=18. c) Find a real root of the equation x3–2x–5=0 by the method of false position at the end of fifth iteration.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "a) Find value of y for x=0.5 using Newton’s forward difference formula for following data: x: 0, 1, 2, 3, 4; y: 1, 5, 25, 100, 250. b) Use Simpson’s 1/3rd rule to find the value of integral from 1 to 2 of 1/x dx. Take h = 0.25 correct solution upto fourth decimal place. c) Use Euler’s method to solve the equation dy/dx = x^2 + y with y(0)=1 and tabulate the solution for x = 0 to x = 0.3 take h = 0.1.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q8"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "a) Use Runge-Kutta method of fourth order to solve dy/dx = x^2 + y, y(1)=1.5 in the interval (1, 1.1) with h=0.1 and correct upto four decimal places. b) Given dy/dx = x^2 + y, y(0)=1, determine y(0.02) by using modified Euler’s method correct upto forth decimal places. Take h=0.02 (Two iterations only). c) Find the value of f (4.5) using Newton’s backward difference formula correct upto 4 decimal places for following data: x: 1, 2, 3, 4, 5; y=f(x): 14, 30, 62, 116, 198.",
+          "marks": 15,
+          "question_id": "1wTvnxJAJqtUzK52RkmEmL12nhkMgmCZg_q9"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 6359,
+        "processed_at": "2026-06-12 00:47:09"
+      }
+    },
+    {
+      "pdf_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2025_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2025_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS - III",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engg./ I.T./Computer Science & Design Engg./A.I. & M.L./ Computer Science",
+        "paper_number": "[6409]-235",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD35",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 14:03:12 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Solve any TWO. i) (D2 + 6 D + 9) y = e^-3x / x^3 ii) Solve by the variation of parameters method d^2y/dx^2 + y = cosec x iii) x^2(d^2y/dx^2) - 5x(dy/dx) + 4y = x^6",
+          "marks": 10,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Solve dx/(x^2) = dy/(y^2) = dz/(z(x+y-2z))",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Solve any TWO. i) (D2 – 1) y = x sin x ii) Solve by the variation of parameters method d^2y/dx^2 + y = 1/(1+e^x)^2 iii) x^2(d^2y/dx^2) - 2x(dy/dx) + 2y = x^3 + 4",
+          "marks": 10,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Solve the simultaneous linear differential equations with given conditions. du/dx + v = sin x, dv/dx + u = cos x. Given that when x = 0, then u = 1 and v = 0.",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Find the Fourier transform of f(x) = 1, |x| <= a; 0, |x| > a",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Using inverse Fourier sine transform, find f (x), given Fs(λ) = e^(-αλ) / λ",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Solve any one i) Find Z transform of f(k) = 2^k / k, k >= 1 ii) Find inverse Z transform of z/(z-5), |z| > 5",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Solve any one i) Find Z transform of f(k) = 5^k, k >= 0 ii) Find inverse Z transform of z/((z-1)(z-2)), |z| >= 2",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Obtain f (k), given f(k+2) - 4f(k) = 0, f(0) = 0, f(1) = 2",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve the following integral equation: Integral from 0 to infinity f(x) cos(λx) dx = e^(-λ), λ > 0",
+          "marks": 5,
+          "question_id": "16pb7ncXlrYZQN8fWaErQSMJUpfXkpb-E_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2090,
+        "processed_at": "2026-06-12 00:47:13"
+      }
+    },
+    {
+      "pdf_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2025_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_may_jun_2025_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS - III",
+        "academic_year": "S.E.",
+        "branch_name": "AI & ML",
+        "paper_number": "[6402]-40",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 70,
+        "total_questions": 9,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4080",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/05/2025 09:32:07 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Write the correct option for the following multiple choice questions : a) X is normally distributed. The mean of X is 15 and standard deviation 3. Given that for Z = 1, A = 0.3413 then P(X > 12) is given by : i) 0.3413 ii) 0.8413 iii) 0.1587 iv) 0.6587 b) Among 64 off springs of a certain cross between guinea pig 34 were red, 10 were black and 20 were white. According to genetic model, these number should be in the ratio 9 : 3 : 4. Expected frequencies in the order are i) 36, 12, 16 ii) 32, 8, 24 iii) 36, 16, 12 iv) 34, 10, 20 c) Using Newton - Raphson method, the first approximation to a root x1 of the equation x3 + 2x – 5 = 0 in (1, 2) if initial approximation x0 = 2 is ____ i) 0 ii) 3 iii) 1.5 iv) 4 d) If Lagrange's polynomial passes through x 0 1 y –4 –4 then dy dx at x = 1 is given by i) 0 ii) 2 iii) 1 iv) 1/2 e) The first central moment of a distribution about the mean is i) 1 ii) always positive iii) 0 iv) –1 f) If f(x) is continuous on [a, b] and f(a) f(b) < 0 then to find a root of f(x) = 0, initial approximation x0 by bisection method is ____ i) (a-b)/2 ii) (f(a)+f(b))/2 iii) (a+b)/2 iv) (a-b)/(a+b)",
+          "marks": 12,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q1"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "a) The first four moments about the working mean 30.2 of a distribution are 0.255, 6.222, 30.211, 400.25. Calculate the first four central moments about the mean. b) Obtain regression line of x on y for the following data : x 2 3 5 7 9 10 12 15 y 2 5 8 10 12 14 15 16 c) Fit a linear curve y = ax + b to the data : x 0 2 4 6 8 12 20 y 10 12 18 22 20 30 30",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "a) Calculate the coefficient of correlation from the information n = 10, x = 40, x2 = 190, y2 = 200, xy = 150, y = 40 b) Fit a curve y = axb for the data x 2000 3000 4000 5000 6000 y 15 15.5 16 17 18 c) If regression line of x on y is 9x + y =  and the regression line of y on x is 4x + y =  where means of x and y are 2 and –3 respectively. Find the values of  and  and the coefficient of correlation between x any y.",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "a) Two cards are drawn from a well shuffled pack of 52 cards. Find the probability that they are both Queens if : i) the first card drawn is replaced ii) the first card drawn is not replaced b) A series of five one-day matches is to be played between India and Australia. Assuming that the result of all the five matches is independent and the probability of India's win in each match is 0.6, find the probability that India wins the series. c) A life time of a certain component has a normal distribution with mean of 400 hours and standard deviation of 50 hours. Assuming a normal sample of 1000 components, find number of components whose life time lies between 340 to 465 hours. [Given : A (z = 1.2) = 0.3849, A(z = 1.3) = 0.4032]",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "a) The mean and variance of a binomial distribution are 4 and 2 respectively. Find P(r < 2). b) Number of road accidents on a high-way during a month follows a Poisson distribution with mean 5. Find the probability that in a certain month number of accidents on the highway will be i) less that 3 ii) more than 3 c) A die is tossed 300 times gave the following result. Score 1 2 3 4 5 6 Frequency 43 49 56 45 66 41 Is the data consistent at 5% level of significance with hypothesis that the die is unbiased? (Given : 2 5,0.05 = 11.07)",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "a) Using metnod of bisection, find the cube root of 69. (five iterations) b) Find the root of the equation x – e–x = 0 that lies between 0.5 and 1 by Newton Raphson method correct up to four decimal places. c) Solve by Gauss - Seidel method, the following system of equations. 8x1 + 3x2 + 2x3 = 13 x1 + 5x2 + x3 = 7 2x1 + x2 + 6x3 = 9",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "a) Solve the following system by Gauss elimination method. 2x1 + x2 + x3 = 10 3x1 + 2x2 + 3x3 = 18 x1 + 4x2 + 9x3 = 16 b) Solve the following system of equations by Jacobi's iteration method. 20x1 + x2 – 2x3 = 17 3x1 + 20x2 – x3 = 18 2x1 – 3x2 + 20x3 = 25 c) Solve the equation f (x) = x – e–x by Regula-Falsi method with the initial approximations 0.5 and 1 correct up to three decimal places.",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "a) Using Newton's backward difference formula find the value of y at x = 3.5 for following data : x 0 1 2 3 4 y 3 2 3 6 11 b) Use simpson's 1/3 rd rule to find the value of integral 1 to 2 of (1/x) dx. Take h = 0.25. Correct the solution upto fourth decimal place. c) Use Euler's method to solve the equation dy/dx = x+y with y(0) = 1 and tabulate the solution for x = 0 to x = 0.4. Take h = 0.1 and correct the solution upto fourth decimal place.",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q8"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "a) Use Runge-Kutta method of fourth order to solve dy/dx = (x^2 + y^2), y(1) = 1.5 in the interval (1, 1.1) with h = 0.1 and correct the solution upto fourth decimal place. b) Given dy/dx = x^2 + y, y(0) = 1 determine using modified Euler's method the value of y when x = 0.05. Take h = 0.05 and correct the solution upto fourth decimal place. Use two iterations only. c) Find the value of y for x = 0.5 using Newton's forward difference formula for following data : x 0 1 2 3 4 y 1 5 25 100 250",
+          "marks": 15,
+          "question_id": "1N9mzQMj9uyS2RwqOUJKBLUyUglMTu9RD_q9"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 6532,
+        "processed_at": "2026-06-12 00:47:19"
+      }
+    },
+    {
+      "pdf_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2025_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/endsem_nov_dec_2025_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS - III",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering / IT / Computer Science & Design / AI & ML",
+        "paper_number": "[6582]-35",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 70,
+        "total_questions": 9,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4263",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/11/2025 09:39:55 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "question_text": "Write the correct option for the following multiple choice questions : i) Coefficient of correlation between the variables x and y is 0.8 and their covariance is 20, the variance of x is 16. The standard deviation of y is ________. a) 6.75 b) 6.25 c) 7.5 d) 8.25 ii) The mean and variance of binomial probability distribution are 5/4 and 15/16 respectively. Probability of success in a single trial p is equal to a) 1/2 b) 15/16 c) 1/4 d) 3/4 iii) Using Gauss elimination method the solution of system of equations x+y+z=1, 5x-y+z=3, x+3y+3z=4 is _______. a) x = 1, y = 2, z = 3 b) x=1/2, y=1, z=1/2 c) x=2, y=1/2, z=1/2 d) x=1, y=1/2, z=-1/2 iv) If Langrange's interpolation polynomial passes through the points x : 0, 2, 3 and y : 1, 3, 2 then the value of y at x = 1 is a) 2/3 b) 5/3 c) 8/3 d) 5/4 v) Given equation is dy/dx = f(x, y) with initial conditions x = x0, y = y0 and h is step size Euler's formula to calculate y1 at x = x0 + h is given by _______. a) y1 = y0 + hf(x0, y0) b) y1 = y0 + hf(x1, y1) c) y1 = y1 + hf(x0, y0) d) y1 = hf(x0, y0) vi) Coefficient of kurtosis β2 is given by a) m4/m3^2 b) m4/m2^2 c) m3/m2^2 d) m4/m3^2",
+          "marks": 11,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q1"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "a) The first four moments of a distribution about the value 3.5 are 0.0375, 0.4546, 0.0609 and 0.5074. Find the first four central moments about the mean. b) Obtain regression line of x on y for the following data : x: 6, 2, 10, 4, 8; y: 9, 11, 5, 8, 7. c) Fit a linear curve y = ap + b by using least square criteria. p: 100, 120, 140, 160, 180, 200; y: 0.90, 1.10, 1.20, 1.40, 1.60, 1.70.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "a) Calculate the coefficient of correlation from the information n = 5, Σx = 100, Σx2 = 230000, Σy2 = 80, Σxy = 500, Σy = 2. b) Fit y = ax2 + bx + c to the given data where a, b, c are constants. x: –3, –2, –1, 0, 1, 2, 3; y: 12, 4, 1, 2, 7, 15, 30. c) The line of regression of y on x is 8x – 10y + 66 = 0 and the line of regression of x on y is 40x – 18y = 214. Find i) the mean values of x and y ii) correlation coefficient between x & y.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "a) A throw is made with two dice. Find the probability that : i) the sum is 7 or less ii) the sum is a perfect square. b) The mean and variance of a binomial distribution are 4 and 2 respectively, find p(r < 2). c) Assuming that the diameters of 1000 brass plugs taken consecutively from machine form a normal distribution with mean 0.7515 cm and standard deviation 0.0020 cm. How many of the plugs are likely to be approved if the acceptable diameter is 0.752 ± 0.004 cm? [Given A(2.25) = 0.4878, A(1.75) = 0.4599]",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "a) An unbiased coin is thrown 10 times. Find the probability of getting i) exactly 8 Heads ii) at least 8 heads. b) The number of breakdowns of a computer in a week is a Poisson variable with λ = np = 0.3. What is the probability that the computer will operate i) with no breakdown ii) at most one breakdown. c) Demand for a particular spare part in a factory was found to vary from day to day. In a sample study the following information was obtained. Days: Mon, Tue, Wed, Thurs, Fri, Sat; No. of parts demanded: 1124, 1125, 1110, 1120, 1126, 1115. Test the hypothesis that the number of parts demanded does not depend on the day of the week. (Given : χ2 5,0.05 = 11.07)",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "a) Using the bisection method, find an approximate root of the equation xsinx – 1, that lies between x = 1 and x = 1.5 (measured in radians). Perform six iterations. b) Obtain the root of the equation x3 – 4x – 9 = 0 correct to four decimal places by using Newton-Raphson method. c) Solve by Gauss - Seidel method, the following system of equations. 20x1 + x2 – 2x3 = 17, 3x1 + 20x2 – x3 = –18, 2x1 – 3x2 + 20x3 = 25.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "a) Solve the following system by Gauss - elimination method : 4x1 + x2 + x3 = 4, x1 + 4x2 – 2x3 = 4, 3x1 + 2x2 – 4x3 = 6. b) Solve the following system of equations by Jacobi - iteration method : 6x1 + 2x2 – x3 = 4, x1 + 5x2 + x3 = 3, 2x1 + x2 + 4x3 = 27. c) Use method of false position to find the root of the equation x4 – 32 = 0 correct to three decimal places.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "a) Find the value of y at x = 1.5 for the following data using Newton's forward difference formula. x: 0, 2, 4, 6, 8; y: 5, 29, 125, 341, 725. b) Find the value of integral 0 to 3 of 1/(1+x) dx by using Simpson's 3/8 th rule. Take h = 0.5 and correct the solution upto four decimal places. c) Use Euler's method to solve the equation dy/dx = xy + 1 with y(0) = 1 and tabulate the solution for x = 0 to x = 0.4. Take h = 0.1 and correct the solution upto fourth decimal place.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q8"
+        },
+        {
+          "question_number": "Q9",
+          "question_text": "a) Use Runge - Kutta method of fourth order to solve dy/dx = y/(x+y), y(0) = 1 in the interval (0, 0.2) with h = 0.2 correct the solution upto fourth decimal place. b) Given dy/dx = x2 + y, y(0) = 1 determine using modified Euler's method the value of y when x = 0.05. Take h = 0.05 and correct the solution upto fourth decimal place. Use two iterations only. c) Using Newton's backward difference formula find the value of y at x = 3.5 for the following data. x: 0, 1, 2, 3, 4; y: 3, 2, 3, 6, 11.",
+          "marks": 15,
+          "question_id": "1j4M_Tf3yQhVbsbhnI7IYcmHKV2owbpxS_q9"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 6548,
+        "processed_at": "2026-06-12 00:47:25"
+      }
+    },
+    {
+      "pdf_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2026_aiml_emIIIa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/engineering_mathematics_III_aiml/insem_mar_2026_aiml_emIIIa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "ENGINEERING MATHEMATICS -III",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning",
+        "paper_number": "Apr-26/SE/Insem-260",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "207003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF211",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 09/03/2026 13:57:47 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Solve any two: i) (d^2y/dx^2) - 4(dy/dx) + 4y = x^2 e^(2x) sin2x ii) (d^2y/dx^2) + y = sec(x) by method of variation of parameters. iii) x^2 (d^2y/dx^2) - 3x(dy/dx) + 5y = x^2 sin(logx)",
+          "marks": 10,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Solve: dx/x(y-z) = dy/y(z-x) = dz/z(x-y)",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Solve any two: i) (d^2y/dx^2) - 4(dy/dx) + 4y = e^x cos x ii) (d^2y/dx^2) - y = e^x sin x by method of variation of parameters. iii) (1+x)^2 (d^2y/dx^2) + (1+x)(dy/dx) + y = 4cos[log(1+x)]",
+          "marks": 10,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Solve: dx/dt - y = e^t; dy/dt - x = e^t",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Find the fourier integral representation of the function f(x) = 1 for |x|<1 and f(x) = 0 for |x|>1 and hence evaluate integral from 0 to infinity (sin lambda cos lambda x)/lambda d(lambda)",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Solve any one: i) Find the z-transform and its ROC of 2^k, k >= 0 ii) Find Z^-1 [z^2 / ((z-1/2)(z-1/3))] ; 1/3 < |z| < 1/2",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Obtain f(k), given that 12 f(k+2) - 7 f(k + 1) + f(k) = 0; k > 0, f(0) = 0, f(1) = 3.",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Solve any one: i) Find z{f(k)} if f(k) = 4^k sin(2k + 3), k >= 0 ii) Obtain Z^-1{f(k)} by use of the inversion integral method when F(z) = 10z / ((z-1)(z-2))",
+          "marks": 10,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Find the fourier cosine integral representation for the function f(x) = x for 0 < x < a and f(x) = 0 for x > a",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve the integral eqn integral from 0 to infinity f(x) cos lambda x dx = 1-lambda for 0 <= lambda <= 1 and 0 for lambda > 1 and hence show that integral from 0 to infinity (sin^2(z))/(z^2) dz = pi/2 where z = lambda/2",
+          "marks": 5,
+          "question_id": "1ave7z7av39OUyf9pZF4ar4UxD4XUwxDP_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2374,
+        "processed_at": "2026-06-12 00:47:32"
+      }
+    }
+  ]
+}
