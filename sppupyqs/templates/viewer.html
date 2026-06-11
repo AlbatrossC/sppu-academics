@@ -300,6 +300,13 @@
                     <span class="wm-label" id="watermarkGlobalToggleLabel">Hide watermark</span>
                 </button>
             </div>
+            {% set has_questions = namespace(value=false) %}
+            {% for paper in subject_papers %}
+                {% if paper.questions %}
+                    {% set has_questions.value = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_questions.value %}
             <button class="questions-btn" id="questions-btn" aria-label="View structured questions">
                 <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" viewBox="0 0 24 24">
@@ -311,6 +318,7 @@
                 </svg>
                 <span class="btn-text">View Questions</span>
             </button>
+            {% endif %}
             <button class="download-btn" id="download-btn" aria-label="Download papers">
                 <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" viewBox="0 0 24 24">
