@@ -446,6 +446,10 @@ def write_headers():
 /images/*
   Cache-Control: public, max-age=31536000, immutable
 
+/static/pdfjs/web/viewer
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=3600
+
 /static/pdfjs/*
   Cache-Control: public, max-age=3600
 
@@ -466,7 +470,6 @@ def write_redirects():
     lines = [
         "/api/question-papers/list /static/search.1.json 301",
         "/static/asset-manifest.json /static/asset-manifest.json 200",
-        "/papers/* https://sppu-pyqs.albatrossc.workers.dev/papers/:splat 302",
     ]
     data = load_question_papers()
     seen = set()
@@ -478,6 +481,7 @@ def write_redirects():
         if redirect_path:
             lines.append(f"/{subject_key} {redirect_path} 301")
             seen.add(subject_key)
+    lines.append("/papers/* https://sppu-pyqs.albatrossc.workers.dev/papers/:splat 302")
     write_file("_redirects", "\n".join(lines) + "\n")
 
 
