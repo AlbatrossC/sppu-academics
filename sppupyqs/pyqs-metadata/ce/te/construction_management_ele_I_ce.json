@@ -1,0 +1,1436 @@
+{
+  "subject_name": "Construction Management - Ele I",
+  "subject_slug": "construction_management_ele_I_ce",
+  "branch": "ce",
+  "semester": "te",
+  "papers": [
+    {
+      "pdf_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2023_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2023_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6187]-421",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005(C)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P5021",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/09/2023 10:38:21 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss in details various components of infrastructure.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the role of infrastructure development in Economic development.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the role of Project Management Consultant (PMC) on Metro Construction Project.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "How the infrastructure development plays an important role in economic development of India.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Project Monitoring and Reporting System of construction project.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the role of Project Management consultants in airport construction project.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss various factors affecting new road alignment Project Scheduling.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is the aim of ‘Method Study’? Describe in details steps involved in Method Study.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw Work Breakdown Structure of SRA (Residential) project.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a short note on Line of Balancing techniques.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the objectives of Time Study and Motion Study.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Draw and explain RMC Plant String Diagram.",
+          "marks": 5,
+          "question_id": "1JLke8BBobwGrYW85ukHRpicQGlg4FSM2_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1548,
+        "processed_at": "2026-06-12 01:10:43"
+      }
+    },
+    {
+      "pdf_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2023_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2023_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6180]-17",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-7510",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/12/2023 09:36:18 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the importance of working capital in construction projects.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain project cash flow projections.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain minimum wages act and building and other construction worker act 1996.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the project balance sheet with suitable example.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain child labor act.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the interstate migrant workers act.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the steps in risk management?",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write note on mitigation of risk.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain simulation analysis.",
+          "marks": 5,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain break even analysis.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write short note on role of insurance in construction projects.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "State the need of value engineering.",
+          "marks": 5,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the objectives of material management?",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is the importance of ERP in material management?",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the role of material manager.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the concept of EOQ in detail.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the various phases of material flow.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is the importance of inventory control?",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write short note on genetic algorithm.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write short note on training and development.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write short note on staffing policy and pattern.",
+          "marks": 5,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on compensation and benefits.",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the applications of fuzzy logic in Civil Engineering?",
+          "marks": 6,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain artificial neural network.",
+          "marks": 5,
+          "question_id": "1KRGD5yJDNntG_CXP0HptCiCnoFvVaq_F_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2141,
+        "processed_at": "2026-06-12 01:10:44"
+      }
+    },
+    {
+      "pdf_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2024_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_sep_2024_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6360]-32",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005c",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC21",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/09/2024 10:44:09 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "subquestion": "a",
+          "question_text": "Define the term Construction Management? Discuss the necessity and objectives of it in Construction sector.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_1_a"
+        },
+        {
+          "question_number": "1",
+          "subquestion": "b",
+          "question_text": "Explain Project Monitoring and Reporting System.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_1_b"
+        },
+        {
+          "question_number": "1",
+          "subquestion": "c",
+          "question_text": "How Construction industry plays an important role in Economic Development of the nation.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_1_c"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "a",
+          "question_text": "Enlist and explain in detail components of Infrastructure sector.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_2_a"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "b",
+          "question_text": "Explain the role and responsibilities of Project Management Consultants in Construction projects",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_2_b"
+        },
+        {
+          "question_number": "2",
+          "subquestion": "c",
+          "question_text": "Write short note on nature and characteristics of construction industry.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_2_c"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "a",
+          "question_text": "Discuss various factors affecting Project Scheduling in detail.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_3_a"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) String Diagram. ii) Work Study.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_3_b"
+        },
+        {
+          "question_number": "3",
+          "subquestion": "c",
+          "question_text": "Write note on Repetitive Project Management.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_3_c"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "a",
+          "question_text": "Explain in detail Time study and Motion study",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_4_a"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "b",
+          "question_text": "Explain Line of Balance Technique (LOB) with suitable example.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_4_b"
+        },
+        {
+          "question_number": "4",
+          "subquestion": "c",
+          "question_text": "Discuss in detail about Work Breakdown Structure for Dam Project.",
+          "marks": 5,
+          "question_id": "1qj2pm6mp_EB_kroCyiesPybhU3g4w4Bx_4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1529,
+        "processed_at": "2026-06-12 01:10:46"
+      }
+    },
+    {
+      "pdf_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_aug_2025_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/insem_aug_2025_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6579]-321",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005 c",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE21",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 23/08/2025 10:41:29 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define the term Construction Management? Discuss the necessity and objectives of it in the Construction sector.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Project Monitoring and Reporting System.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Discuss the role of Construction industry in Economic and Infrastructure Development of a nation.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss in detail various components of Infrastructure sector.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss in detail the importance of Project Management Consultants in Construction projects.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain in detail the nature of Construction industry in India.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss various factors affecting Project Scheduling in detail.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) String Diagram ii) Work Study.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write note on Repetitive Project Management.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the basic procedure to be carried out on Time study.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Line of Balance Technique (LOB) with suitable example.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write short note on Work Breakdown Structure. Draw WBS for Dam Project.",
+          "marks": 5,
+          "question_id": "1tXVBeXX_ZJUGV9kywbcc6QHVVjE728oU_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1533,
+        "processed_at": "2026-06-12 01:10:46"
+      }
+    },
+    {
+      "pdf_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2024_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2024_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6262]-7",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3749",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 28/05/2024 09:42:02 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss need and importance of labour laws associated with construction sector by explaining two laws.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the various means of finance? Explain any one in detail.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain workman’s compensation act & construction workers act.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Interstate Migrant Workers act and the Minimum wages act.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Project Cash Flow analysis considering construction site & list out various inflows & outflows.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Construction Project Balance Sheet with an example.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain various steps involved in the process of Risk Management.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the role of value engineering in construction with respect to time & cost aspects.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Enlist mathematical tools used in Risk management process and explain any one in detail with its applications.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define Risk. Enlist various risk involved in construction & Explain any method of risk mitigation.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain energy cost escalation and state its impact on infrastructure project.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define the process of Value Engineering & state its application.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the process of Material Management & draw Materials Flow System Chart.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write short note i) Stores Management ii) Supply Chain Management",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain Inventory control techniques and state its importance.",
+          "marks": 5,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the objectives, functions and scope of material management in construction.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define Economic Order Quantity (EOQ). State assumptions of EOQ model & discuss the equation.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the concept of Logistics and state its importance.",
+          "marks": 5,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Staffing policy and patterns in construction organization.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Enlist various types of trainings and explain any one in detail.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Define Artificial Intelligence technique and explain its application in Civil engineering.",
+          "marks": 5,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on following HR terms i) Recruitment & Selection ii) Performance Appraisal",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between artificial neural network (ANN) & Genetic Algorithm.",
+          "marks": 6,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Define HR. Explain the process of Human Resource Management & Human Resource development process.",
+          "marks": 5,
+          "question_id": "1lUQvGDa6ICpbJ98YxEXtrjVS6Yg2Ad69_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2934,
+        "processed_at": "2026-06-12 01:10:46"
+      }
+    },
+    {
+      "pdf_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2024_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2024_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6353]-7",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301005 c",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC1691",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/12/2024 09:33:17 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the importance of labour laws in construction sector.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write note on Child Labour Act.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is liability? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail profit loss accounts statement.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Building and other construction work Act.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a short note on ‘Need of Working Capital’.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the steps involved in mitigation of risk.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Short note on sensitivity analysis and break-even analysis.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a short note on value management.",
+          "marks": 5,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write note on break even analysis.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain importance of value analysis and decision tree analysis in construction sector.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write note on simulation analysis.",
+          "marks": 5,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is performance appraisal State importance of it.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is supply chain management and state its importance in construction sector.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "The Zen scientific Equipment Company estimates its carrying cost at 15% and its ordering cost at Rs. 9 per order. The estimated annual requirement is 48,000 units at a price of Rs. 04 per unit. Find out: i) What is the most economical number of units to order? ii) How many orders should be placed in a year?",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of ERP in material management.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write a short note on importance of HRM in construction industry.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A Mauli Brick supply company places an annual order of 48,000 units at a price of Rs. 20 per unit. Its carrying cost is 15% and the order cost is Rs. 12 per order. Find out: i) What is the most economical order quantity? ii) How many orders need to be placed in year?",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in details importance of Artificial Intelligence in Real Estate RERA Projects.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain list of various application using Python Programming and ANN, in Civil Engineering.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the application of fuzzy logic in construction industry.",
+          "marks": 5,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss in detail importance of Python Programing and genetic algorithm tool use in construction industry.",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in details characteristic of Artificial Neural Network (ANN).",
+          "marks": 6,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What do you mean by fuzzy logic.",
+          "marks": 5,
+          "question_id": "1Msie_DcwHqYd21hfaMyNO2xYUOUhW51A_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2907,
+        "processed_at": "2026-06-12 01:10:47"
+      }
+    },
+    {
+      "pdf_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2025_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_may_jun_2025_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6403]-7",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301005 C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4214",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 23/05/2025 09:47:23 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Building and other Construction Workers act 1996?",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the Significance of Project Balance Sheet and its Use?",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain Profit loss account statement.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain needs and importance of Labour laws in the Field of Civil Engineering.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write Note on Working Capital.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain minimum wages of ACT 1948.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write short Note on Risk Control in Construction.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "How Mathematical model will be useful in Risk Management.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "State the application of Value Engineering.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write Short note on Break even analysis and Sensitivity analysis.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain energy cost escalation and its impact on infrastructure project.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain principle of risk Management.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain supply Chain Management in Construction.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain in detail Role of ERP in material management.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write short note on material resource information systems.",
+          "marks": 5,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write note on break even analysis.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain inventory control methods.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Role of material management in construction Industry.",
+          "marks": 5,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the importance of Human Resource Management in Construction Industry.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain nature and scope of human resource management.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss in detail importance of Genetic Algorithm tool in construction industry.",
+          "marks": 5,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Human Resource development process.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write note on human resources information systems.",
+          "marks": 6,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Fuzzy Logic and its application in Civil engineering.",
+          "marks": 5,
+          "question_id": "1QaWvMlXtsF5cKczjZYzYoUVkXJxGHvMj_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2297,
+        "processed_at": "2026-06-12 01:10:48"
+      }
+    },
+    {
+      "pdf_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2025_ce_cmc_eI_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/construction_management_ele_I_ce/endsem_nov_dec_2025_ce_cmc_eI_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "CONSTRUCTION MANAGEMENT",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6583]-16",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301005C",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-2492",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/12/2025 09:48:34 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the importance of labour laws in construction sector.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write note on Child Labour Act.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is liability? Explain with suitable example.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail profit loss accounts statement.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Building and other construction work Act.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a short note on ‘Need of Working Capital’.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the steps involved in mitigation of risk.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Short note on sensitivity analysis and break-even analysis.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a short note on value management.",
+          "marks": 5,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write note on break even analysis.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain importance of value analysis and decision tree analysis in construction sector.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write note on simulation analysis.",
+          "marks": 5,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is performance appraisal State importance of it.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is supply chain management and state its importance in construction sector.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "The Zen scientific Equipment Company estimates its carrying cost at 15% and its ordering cost at Rs. 9 per order. The estimated annual requirement is 48,000 units at a price of Rs. 04 per unit. Find out: i) What is the most economical number of units to order? ii) How many orders should be placed in a year?",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain in detail role of ERP in material management.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write a short note on importance of HRM in construction industry.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A Mauli Brick supply company places an annual order of 48,000 units at a price of Rs. 20 per unit. Its carrying cost is 15% and the order cost is Rs. 12 per order. Find out: i) What is the most economical order quantity? ii) How many orders need to be placed in year?",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in details importance of Artificial Intelligence in Real Estate RERA Projects.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain list of various application using Python Programing and ANN, in Civil Engineering",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the application of fuzzy logic in construction industry.",
+          "marks": 5,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss in detail importance of Python Programing and genetic algorithm tool use in construction industry.",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in details characteristic of Artificial Neural Network (ANN).",
+          "marks": 6,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What do you mean by fuzzy logic.",
+          "marks": 5,
+          "question_id": "1dgCcuAESFntQZT12bfUYhsl2-ExXrRze_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2895,
+        "processed_at": "2026-06-12 01:10:48"
+      }
+    }
+  ]
+}

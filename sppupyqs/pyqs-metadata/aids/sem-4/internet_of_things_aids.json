@@ -1,0 +1,1548 @@
+{
+  "subject_name": "Internet of Things",
+  "subject_slug": "internet_of_things_aids",
+  "branch": "aids",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2022_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2022_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5869]-369",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P2305",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 30/06/2022 08:35:59 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Illustrate the various IoT communication APIs?",
+          "marks": 8,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "With the help of following sectors explain how IoT technology is impacting on the end-to-end value chain in the logistics sector : i) Route generation & scheduling ii) Fleet tracking iii) Shipment monitoring iv) Remote vehicle diagnostics",
+          "marks": 10,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Demonstrate the IoT component with a neat diagram.",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is Piggybacking? What is the necessity of security and privacy of IoT?",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw and Explain WSN architecture?",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain any four IoT network protocols?",
+          "marks": 8,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Machine to Machine Architecture?",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain any four applications of RFID?",
+          "marks": 8,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain IoT Information model specification.",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Various IoT sim card Technologies",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the criterias for selection of controllers in Embedded Products?",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are different security parameters considered while designing any IoT system?",
+          "marks": 9,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss various IoT applications in the Agriculture domain.",
+          "marks": 6,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is the E-Healthcare system? How IoT is important in E-Health Monitoring application.",
+          "marks": 6,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss various IoT applications in Automotive applications.",
+          "marks": 5,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a short note on IoT vertical Applications.",
+          "marks": 6,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain Voice Application for IoT Device.",
+          "marks": 6,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Vehicle to Vehicle communication.",
+          "marks": 5,
+          "question_id": "1ct4JlRs-BWKACtdpqC8hiAEGI42rPneY_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2096,
+        "processed_at": "2026-06-06 15:06:04"
+      }
+    },
+    {
+      "pdf_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_feb_2023_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_feb_2023_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6008]-262",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "217529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10006",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/04/2023 15:11:17 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Draw a block diagram of basic components of a computer system. Explain each component in detail.",
+          "marks": 10,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "With an example, write the steps to subtract a large number from a smaller number using 2’s complement method.",
+          "marks": 5,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the instruction cycle in detail.",
+          "marks": 7,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Difference between microprocessor and microcontroller.",
+          "marks": 8,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain about the Stepper Motor System.",
+          "marks": 5,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in detail the interfacing I/O Ports-PIO-8255.",
+          "marks": 10,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Peripherals and interfacing with 8086.",
+          "marks": 7,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in details modes of operation-interfacing Analog-Digital Data Converter.",
+          "marks": 8,
+          "question_id": "17LFLNTZf6ze95jOGTWaBbQtJtA4XxqkU_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1172,
+        "processed_at": "2026-06-06 15:06:10"
+      }
+    },
+    {
+      "pdf_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2023_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2023_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6002]-224",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1594",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/07/2023 10:36:43 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Next Generation Kiosks & smart vending machines in detail?",
+          "marks": 9,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Justify how the asset management impacts on end to end users by integrating IOT technology?",
+          "marks": 9,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief Smoke for gas detection and Air quality monitoring?",
+          "marks": 10,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How is security a big concern in IOT? How do IDS work in IoT?",
+          "marks": 8,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate M2M and IoT? Also differentiate COAP and MQTT?",
+          "marks": 8,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the IOT System working block with the help of Control units, Communication Modules and Sensors?",
+          "marks": 9,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Link layer protocol like ethernet, Wi-Fi, WiMax, Zigbee in Protocol architecture?",
+          "marks": 9,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How information is exchanged in real time without human intervention?",
+          "marks": 8,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Describe Cloud of Things. Explain how cloud is an integration of Grid Computing and SOA.",
+          "marks": 10,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain on Devices Security and Privacy of IoT cloud. Why do we need IoT Security?",
+          "marks": 8,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe the need of semantic web technology and business impacting IoT?",
+          "marks": 10,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain in detail vulnerabilities of Internet of Things.",
+          "marks": 8,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss Cloud computing. Explain the setup of a cloud environment in an IoT?",
+          "marks": 10,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are IoT design ethics, explain?",
+          "marks": 7,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "How does Vehicle-to-Vehicle (V2V) communication enhance safety and efficiency in the internet of Things (IoT) ecosystem?",
+          "marks": 10,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Elaborate on how you will use IoT for remote healthcare.",
+          "marks": 7,
+          "question_id": "1DrxEBG2BKsLCHCUIXtW2v1jMeITRQdRO_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2124,
+        "processed_at": "2026-06-06 15:06:29"
+      }
+    },
+    {
+      "pdf_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2023_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2023_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6179]-246",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P9120",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 23/12/2023 09:45:54 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain with the help of a neat diagram the components of IOT with pros and cons?",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "With the help of following sector justify how IOT technology impacting on end to enduser. i) Big Data Analytics ii) Telematics iii) Home Automation",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief SCADA with block diagram and SCADA functionality with middleware structure?",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How IOT plays an important role in smart city, smart appliances, smart parking, smart lightning?",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Block diagram of RFID system with frequency ranges? Explain any two strengths and weaknesses of RFID over Barcode?",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain with the help of a neat diagram cellular Machine to Machine application network?",
+          "marks": 8,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Differentiate MQTT and CoAP Protocol?",
+          "marks": 9,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain advanced message queuing protocol with architectural diagram?",
+          "marks": 8,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Why is security required in IOT? Explain in detail various security models in the Internet of Things.",
+          "marks": 10,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is threat analysis in the Internet of Things? Explain details of threat analysis.",
+          "marks": 8,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is Internet of Things security tomography? Explain in detail layered attacker model?",
+          "marks": 10,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain Analog and digital sensors with 2 examples each?",
+          "marks": 8,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write a detailed business model scenario for the Internet of Things.",
+          "marks": 7,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail application of Internet of Things in city automation and home automation.",
+          "marks": 10,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write applications of Internet of Things for e-health body area network.",
+          "marks": 7,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in detail business model and business innovation in the Internet of Things.",
+          "marks": 10,
+          "question_id": "1uQJIlF_SYt3Tz2ysfTdSw_AkelYXPOuT_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2313,
+        "processed_at": "2026-06-06 15:06:41"
+      }
+    },
+    {
+      "pdf_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2024_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2024_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6268]-223",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1Hour",
+        "paper_identifier": "PB29",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/03/2024 14:13:32 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Illustrate and elucidate the block diagram depicting the fundamental structure of a computer system.",
+          "marks": 5,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw & Explain different phases of the Instruction Cycle?",
+          "marks": 4,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Convert following Decimal no. to its Binary, Oct and Hex i) 378 ii) 1346",
+          "marks": 6,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Peripheral Component Interconnect (PCI)?",
+          "marks": 5,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the difference between Micro, Mini, Mainframe and Supercomputer?",
+          "marks": 4,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Convert Hex no. to its respective Binary, Decimal and Octal Number. i) DCF7 ii) C978",
+          "marks": 6,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw and explain internal block diagram of 8255.",
+          "marks": 5,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw the interfacing of ADC 0808 to the Microprocessor.",
+          "marks": 4,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Block diagram of 8086 with its features.",
+          "marks": 6,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the Control word format for Bit Set/Reset mode and I/O Mode?",
+          "marks": 5,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw the Schematic for interfacing a stepper motor using 8255.",
+          "marks": 4,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Differentiate between Minimum and Maximum Mode of 8086.",
+          "marks": 6,
+          "question_id": "1VzlNB3iMHG_izUUcoyGe823nHDmTVABm_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1420,
+        "processed_at": "2026-06-06 15:06:46"
+      }
+    },
+    {
+      "pdf_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2024_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2024_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6261]-46",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3638",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 25/05/2024 13:38:32 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Request Response model, Publish Subscribe model and Push/ Pull Model?",
+          "marks": 9,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Justify how Retail Sector impacting on end to end user by integrating IOT technology.",
+          "marks": 9,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief Telematics and Telemetry model?",
+          "marks": 10,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How is security a big concern in IOT? What kind of development is there in market to make IoT more secure?",
+          "marks": 8,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain SNMP and NETCONF in detail.",
+          "marks": 8,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the IOT system working block with the help of Control units, Communication Modules and Sensors?",
+          "marks": 9,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw IOT protocol structure and explain IPv4, 6LoWPAN in detail?",
+          "marks": 9,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How information is exchanged in real time without human intervention?",
+          "marks": 8,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain how you will design an energy management system in a commercial building using IoT.",
+          "marks": 10,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Elaborate on how you will use IoT for remote healthcare.",
+          "marks": 8,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is the Web of things (WOT)? Draw and explain the cloud of things architecture.",
+          "marks": 10,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Industrial IoT? How is it different from Conventional IoT?",
+          "marks": 8,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Smart home and Smart city applications in view of IoT.",
+          "marks": 10,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How will IoT be used to protect environmental loss?",
+          "marks": 7,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain use of IoT in the agriculture field. Explain it with a case study.",
+          "marks": 10,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a note on Industrial IoT.",
+          "marks": 7,
+          "question_id": "1UnN_n1IMdVWgiCDoD1ubWjc9LfzKxCzz_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1990,
+        "processed_at": "2026-06-06 15:06:54"
+      }
+    },
+    {
+      "pdf_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2024_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2024_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6352]-46",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2822",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 18/12/2024 09:41:01 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "List and explain fundamental components of IoT system.",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write a short note on IoT communication. Explain different types of IoT communication with example.",
+          "marks": 10,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Next Generation Kiosks & smart vending machines in detail?",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain : Automation, asset management, telemetry, transportation and telematics.",
+          "marks": 10,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain any four IoT network protocols?",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw and Explain WSN architecture?",
+          "marks": 9,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain any four IoT network devices.",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain with the help of a neat diagram cellular Machine to Machine application network?",
+          "marks": 9,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the applications of IoT tagging and tracking?",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain IoT SIM card technology. What are the features of IoT SIM card technology?",
+          "marks": 10,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write a short note on IOT Security & IOT Communication.",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define what IoT sensors. List different types of sensor and explain any two of them.",
+          "marks": 10,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are IoT design ethics, explain?",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How does Vehicle-to-Vehicle (V2V) communication enhance safety and efficiency in the IoT ecosystem?",
+          "marks": 9,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Elaborate on how you will use IoT for remote healthcare.",
+          "marks": 8,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in detail business model and business innovation in the IoT.",
+          "marks": 9,
+          "question_id": "1QEYNuDB9X1APqMoCHBIVHnvckeR76Kuc_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1965,
+        "processed_at": "2026-06-06 15:06:59"
+      }
+    },
+    {
+      "pdf_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2025_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2025_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6409]-228",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD29",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2025 13:58:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define interrupt? Explain different types of Interrupt in 8086?",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain difference between Micro, MINI, mainframe and supercomputer?",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Covert following Hex no. to its respective Binary & Decimal no. i) FAB4 ii) DCA2",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is PCI? Explain with its function.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain different phases of Instruction Cycle?",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Bus? Explain in brief the types of Bus.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a note of DRAM interfacing.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Differentiate between Isolated I/O and Memory Mapped I/O.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw and explain block diagram of ADC.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Block diagram of 8086. Explain with features.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw and explain internal block diagram of 8255.",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Describe in brief: i) SPI ii) I2C iii) UART iv) CAN v) USB",
+          "marks": 5,
+          "question_id": "1JRWso39FjJzjLAWFpbLDLVKX2UV3UUzs_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1284,
+        "processed_at": "2026-06-06 15:07:07"
+      }
+    },
+    {
+      "pdf_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2025_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_may_jun_2025_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6402]-47",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4087",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 31/05/2025 09:44:20 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Request Response model, Publish Subscribe model and Push/Pull Model?",
+          "marks": 9,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Justify how Retail Sector impacting on end to end user by integrating IOT technology.",
+          "marks": 9,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in brief Telematics and Telemetry model?",
+          "marks": 10,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How is security a big concern in IOT? What kind of development is there in market to make IoT more secure.",
+          "marks": 8,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are some common networking devices used in the internet of Things (IoT) ecosystem?",
+          "marks": 8,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the IOT system working block with the help of control units, Communication Modules and Sensors?",
+          "marks": 9,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw IOT protocol structure and explain IPv4, 6LoWPAN in detail?",
+          "marks": 9,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How information is exchanged in real time without human intervention?",
+          "marks": 8,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain how you will design an energy management system in a commercial building using IoT.",
+          "marks": 10,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Elaborate on how you will use IoT for remote healthcare.",
+          "marks": 8,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe the need of semantic web technology and business impacting IoT?",
+          "marks": 10,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Industrial IoT? How is it different from Conventional IoT?",
+          "marks": 8,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Smart home and Smart city applications in view of IoT.",
+          "marks": 10,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How will IoT be used to protect environmental loss?",
+          "marks": 7,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain use of IoT in the agriculture field. Explain it with a case study.",
+          "marks": 10,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write a note on Industrial IoT.",
+          "marks": 7,
+          "question_id": "1qGkSjIB1dI0CMPxES-K2zwk2PiEWWJZ-_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2076,
+        "processed_at": "2026-06-06 15:07:19"
+      }
+    },
+    {
+      "pdf_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2025_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/endsem_nov_dec_2025_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6582]-46",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4274",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/12/2025 09:43:15 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the Role of IoT in logistics management and smart vending machines in detail?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "With the help of the following sector justify how IoT technology impacts end-to-end User. i) Supply Chain Management ii) Industry 4.0 iii) Smart Cars",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the RequestResponse model, Publish Subscribe model and Push/Pull Model?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain in brief SCADA with a block diagram and SCADA funtionality with middleware structure?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain any four IoT network protocols?",
+          "marks": 8,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Zigbee and Z-Wave Protocol in detail?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Underground Wireless Sensor Networks and Terrestrial Wireless Sensor Networks.",
+          "marks": 8,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the Block diagram of RFID system with frequency ranges? Explain any two strengths and weaknesses of RFID over Barcode?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What are the different security parameters considered while designing any IoT system?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Various IoT SIM card Technologies.",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Analog and digital sensors with 2 examples each?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Enlist and Explain Any 4 Attacks on IoT System?",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss various IoT applications in the Agriculture domain.",
+          "marks": 8,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How IoT plays a great role in the development of the Automotive Sector.",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write applications of the Internet of Things for e-health body area networks.",
+          "marks": 8,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain why Amazon Web Service Cloud is popular in the World as compared to Google App Engine and Microsoft Azure.",
+          "marks": 9,
+          "question_id": "1nlPVs95PnFeSjlO2xwA5f9IGyXjWvX4E_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2140,
+        "processed_at": "2026-06-06 15:07:28"
+      }
+    },
+    {
+      "pdf_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2026_aids_ita_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/internet_of_things_aids/insem_mar_2026_aids_ita_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "INTERNET OF THINGS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "APR-26/SE/Insem-268",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217529",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF217",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/03/2026 13:50:42 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Give the Classification Micro, Mini, Mainframe and Super Computer.",
+          "marks": 8,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe in brief the System Bus and Interconnection.",
+          "marks": 7,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a short note on I-cycle.",
+          "marks": 7,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Find l’s & 2’s complement for: i) (753)8 ii) (ABD)16 iii) (763)10 iv) (10110101)2",
+          "marks": 8,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Describe in detail semiconductor memory interfacing.",
+          "marks": 7,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw and explain architecture of 8255 PPI.",
+          "marks": 8,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a short note on Interfacing I/O ports.",
+          "marks": 8,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain operating modes of 8255.",
+          "marks": 7,
+          "question_id": "19ATGZQqXZidvENHnTJi6cuaTW4x9PXi3_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1051,
+        "processed_at": "2026-06-06 15:07:32"
+      }
+    }
+  ]
+}

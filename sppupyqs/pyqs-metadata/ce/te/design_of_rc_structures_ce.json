@@ -1,0 +1,1204 @@
+{
+  "subject_name": "Design of RC Structures",
+  "subject_slug": "design_of_rc_structures_ce",
+  "branch": "ce",
+  "semester": "te",
+  "papers": [
+    {
+      "pdf_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_feb_2023_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_feb_2023_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6009]-314",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10032",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/04/2023 12:00:54 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Calculate neutral axis, lever arm and moment of resistance factor for M25 and Fe 550.",
+          "marks": 4,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Calculate moment of resistance for a section 300mm × 450mm deep. 3 bars of 20mm diameter provided on tension side only. Effective cover is 40mm, use M30 and FE 415.",
+          "marks": 6,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the terms bond stress and development length. Calculate development length for 20mm diameter bar of grade Fe500 and M30 grade of concrete in tension and compression using LSM.",
+          "marks": 4,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch Balanced, Under reinforced and Over reinforced section as per LSM.",
+          "marks": 6,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist essential conditions to design beam section as flanged beam in floor beam system.",
+          "marks": 2,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Design a cantilever RC slab for an effective span of 1.5 m carrying live load of 3 kN/m2 and floor finish of 1 kN/m2. Use M20 grade of concrete and Fe 415 grade of steel.",
+          "marks": 8,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Characteristic strength and Partial factor of safety.",
+          "marks": 2,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a simply supported one way slab for a room with clear inner size 3.5m × 7.8m. The slab is supported by beams of width 230mm along all the edges. The slab is subjected to floor finish of 1.5 kN/m2 and live load 3kN/m2. Use concrete of grade M20 and Fe500 reinforcement. Draw details of reinforcement.",
+          "marks": 8,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a simply supported two-way slab panel having effective dimensions as 4.23 m × 3.23 m. Take live load of 3.50 kN/m2 and floor finish of 1kN/m2. Use M20 grade of concrete and Fe 415 grade of steel. (Neglect design of distribution steel and check for shera)",
+          "marks": 10,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design of continuous two way slab of effective size 3.5 m × 5 m of a typing floor for an office building. The live load and floor finish are 3.0 kN/m2 and 1.5 kN/m2, respectively. The slab is discontinuous at two adjacent edges. Use M25 grade of concrete and Fe 500. (Neglect design of distribution steel, torsion reinforcement and check for shear).",
+          "marks": 10,
+          "question_id": "11z1QspZyTlEzF6le6HODq-BpNxLCfu71_q6"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2836,
+        "processed_at": "2026-06-12 01:10:49"
+      }
+    },
+    {
+      "pdf_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2022_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2022_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5926]-49",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1433",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/01/2023 09:42:04 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Design any intermediate flight of a dog legged staircase of a residential building as shown in Figure 1 with the following data: i) Floor to floor height = 3.15m ii) Rise = 175mm; Tread = 250mm; Width of flight = 1.0m iii) Width of supporting beams = 230mm iv) Live load = 3.0 kN/m2, Floor finish = 0.75 kN/m2 v) Material = M30, Fe 500 vi) Draw details of reinforcement. Use LSM approach.",
+          "marks": 13,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What do you meant by doubly reinforced section? Under which circumstances doubly reinforced sections are needed. Explain check for deflection for doubly reinforced section.",
+          "marks": 5,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Design a simply supported reinforced concrete floor beam B12 as shown in Figure 1 with following data: i) Center to center Span of beam = 3.73 m ii) Width of supporting columns = 300mm iii) Beam width = 230 mm iv) The beam supports two way slab of thickness 120mm on both sides of beam v) Live load = 3kN/m2; Floor finish= 1.5 kN/m2 vi) The wall on this beam is 150 mm thick and 2.7 m high. vii) Material - M25, Fe 415 viii) Show details of reinforcement. Use LSM",
+          "marks": 18,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Design a continuous floor beam B8-B9-B10 as shown in Figure 1 using IS code coefficients (or moment distribution). Thickness of the all floor slab is 120 mm, live load and floor finish load on all slabs are 2.5 kN/m2 and 1.5 kN/m2, respectively. The wall on this beam is 230 mm thick and 2.7 m high. Use M 25 and Fe 500 steel. Design longitudinal reinforcement for all the spans and support for flexure. Design shear reinforcement only for beam B19. Draw neat sketch showing details of main and shear reinforcement. Use LSM.",
+          "marks": 17,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Continuous RC beam ABCD of rectangular section is simply supported at A and D and continuous over support B and C. Span AB = 4.0m, BC = 6.0m and CD = 5.0m. The beam carries working dead load of 24 kN/m (including its self-weight) and working live load of 20 kN/m. The beam supports 120mm slab on one side. Calculate design moment for span BC and support C after 20 % redistribution of moments by considering proper load case. Design span BC and support C for flexure only. Draw the reinforcement details. Material- Concrete of grade M30, Fe 500 reinforcement.",
+          "marks": 17,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design an axially loaded short column C10 as shown in Figure 1 from terrace to footing level (floor wise four parts of column) for a G + 2 building with following details: i) Floor to Floor height = 3.6 m, consider both ends fixed. ii) Height of column below plinth = 2.5 m iii) Live load on all slabs = 4 kN/m2 iv) Floor Finish Load = 1.5 kN/m2 v) Water Proofing Load on roof slab = 1.5 kN/m2 vi) Wall thickness = 150 mm (Internal) vii) Slab thickness = 130 mm viii) Size of beams = 230 × 450 mm Material M 25 and Fe 500 used. Show detailed floorwise load & design calculations. Draw section of column showing reinforcement details for each floor.",
+          "marks": 18,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a bi-axial short column by limit state method with material M25 and Fe 500 to carry Ultimate load of 1400 kN. Factored moment of 90 kN-m about major axis bisecting the depth of column and 40 kN-m about minor axis bisecting the width of column. The unsupported length of column is 4.2m. The column is fixed at one end and hinged at the other. Show details of reinforcement in plan and sectional elevation.",
+          "marks": 18,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Design an isolated pad footing for a working axial load of 800 kN. The effective length of column is 3.2 m. Use M30 grade of concrete and Fe 500 grade of steel. SBC of soil is 200 kN/m2. Show detailed design calculations and reinforcement details in plan and sectional elevation.",
+          "marks": 17,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to working axial load 800 kN and 900 kN, respectively. Center to center to distance between two columns is 2.8m. Size of both the columns is 400 × 400mm. Safe bearing capacity of soil is 150kN/m2. Use M30 concrete and Fe 500 steel. Neglect check for one way shear. Show reinforcement details in sectional elevation.",
+          "marks": 17,
+          "question_id": "1aBhw5_Emh67RHtzLgv8WIL8XZPP32NLA_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 7,
+        "character_count": 5858,
+        "processed_at": "2026-06-12 01:10:51"
+      }
+    },
+    {
+      "pdf_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2022_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2022_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5870]-1012",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 02/07/2022 08:34:53 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Redistribution of moments and what are advantages of it?",
+          "marks": 5,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Design the second flight (midlanding level to first floor level) of a dog legged staircase of public building with the following data: i) Floor to floor height = 3.3m ii) Rise = 150mm; Tread = 300mm; Width of flight = 1.5m iii) Width of mid level landing = 1.5m iv) width of floor level landing = 1.8m v) Width of supporting beams = 300mm vi) Supporting beams are provided at the outer edges of both landings vii) Material = M30, Fe 500 viii) Draw details of reinforcement. USe LSM approach.",
+          "marks": 13,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the terms bond stress and development length. Calculate development length for 20mm diameter bar in tension by LSM approach. i) for M25 concrete and Fe 500 steel. ii) for M20 concrete and Fe 250 steel.",
+          "marks": 5,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Cantilever reinforced concrete floor beam with following data : i) Center Span of beam = 2.5 m ii) Width of supporting columns = 450mm iii) Beam width = 230 mm iv) The beam is subjected to working dead load of 20 kN/m (including its self-weight) and working live load of 18 kN/m. v) Material - M25, Fe 500 vi) Design longitudinal reinforcement (with curtailment) and shear reinforcement. vii) Show details of reinforcement. Use LSM",
+          "marks": 13,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Design a continuous beam ABCD for flexure and shear using IS Code method. AB=BC=CD=4.5m. The beam carries dead load of 20 kN/m (including its self-weight) and live load of 12 kN/m. Take material M25 and Fe 500. Show the reinforcement detail in longitudinal section and cross-section at continuous supports and at mid spans. Use LSM.",
+          "marks": 17,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Continuous RC beam ABCD of rectangular section is simply supported at A and D and continuous over support B and C. Span AB = 5.0m, BC = 4.0m and CD = 6.0m. The beam carries working dead load of 20 kN/m (including its self-weight) and working live load of 12 kN/m. The beam supports 120mm slab on one side. Calculate design moment for all spans and supports after 20% redistribution of moments. Design all spans and supports sections for flexure only. Draw the reinforcement details. Material - Concrete of grade M30, Fe 500 reinforcement.",
+          "marks": 17,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q4"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain different parameters of interaction curves for the design of column.",
+          "marks": 5,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Design a uni-axial short column by limit state method with material M25 and Fe 500 to carry a working load of 800 kN, working moment of 60 kN-m about major axis bisecting the depth of column. The unsupported length of column is 4.0m.The column is fixed at both the ends. Show detailed design calculations and reinforcement details.",
+          "marks": 13,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a bi-axial short column by limit state method with material M20 and Fe 500 to carry Ultimate load of 1600 kN. Factored moment of 110 kN-m about major axis bisecting the depth of column and 60 kN-m about minor axis bisecting the width of column. The unsupported length of column is 3.6m. The column is fixed at both the ends. Show details of reinforcement in plan and sectional elevation.",
+          "marks": 18,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Design an isolated pad footing for a working axial load of 800 kN. Use M25 grade of concrete and Fe 500 grade of steel. SBC of soil is 200 kN/m2. Show detailed design calculations and reinforcement details in plan and sectional elevation.",
+          "marks": 17,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to working axial load 750 kN and 800 kN, respectively. Center to center to distance between two columns is 2.5m. Size of both the columns is 380 × 380mm. Safe bearing capacity of soil is 150kN/m2. Use M25 concrete and Fe 500 steel. neglect check for one way shear.",
+          "marks": 17,
+          "question_id": "1mF1AEgjCCDLx2pP8FwbEIMTRMskcNns9_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 6,
+        "character_count": 5307,
+        "processed_at": "2026-06-12 01:10:52"
+      }
+    },
+    {
+      "pdf_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2023_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2023_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6003]-338",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1412",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 23/06/2023 10:39:51 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A stair hall of a building measures 3.0 m × 5.5 m. The floor to floor height is 3.4 m. Design a dog-legged stair case resting on beams of size 230 mm. The design load on the stairs may be considered as 4 kN/m2. Adopt M-25 grade of concrete and Fe-500 grade of steel. Sketch the details of reinforcement.",
+          "marks": 14,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are flanged sections? Explain how the flanged width is calculated.",
+          "marks": 3,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Figure 1 shows the floor plan of a building. The beams are of size 230 mm × 450 mm. Beam B1 is reinforced with 4-16# bars in tension and 2-10# in compression. The load on the slab is 6 kN/m2. Design the beam for shear. Adopt M-25 grade of concrete and Fe-500 grade of steel. Sketch the details of reinforcement.",
+          "marks": 14,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is torsion? List any three practical situations where concrete beam is subjected to torsion.",
+          "marks": 3,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "For the floor plan shown in Fig. 1, design the continuous beam A1-A2-A3-A4-A5. The total load on the slab is 5.5 kN/m2. Design the beam using M-20 grade concrete and Fe-500 grade of steel. Sketch the details of reinforcement.",
+          "marks": 15,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the assumptions made in the IS code method of analysis of continuous beams.",
+          "marks": 3,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Design the beam A-B-C shown in Fig. 2. The load on the beam may be considered as 12 kN/m. Design the beam using M-20 grade concrete and Fe-500 grade of steel. Sketch the details of reinforcement.",
+          "marks": 18,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q4"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "How are reinforced concrete columns classified? Explain the modes of failure.",
+          "marks": 3,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "For the floor plan shown in Fig. 1, design column C1. Show how the column is oriented, The column is subjected to working load of 700 kN, working moment of 90 kN-m about major axis bisecting the depth of column. The unsupported length of column is 4.0m. The column is fixed at both the ends. Show detailed design calculations and reinforcement details. Use M-30 grade concrete and Fe-500 grade of steel.",
+          "marks": 14,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are interaction curves? Explain the characteristic of a typical interaction curve.",
+          "marks": 5,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the design procedure for axial-loaded, uni-axial loaded, and bi-axial loaded columns.",
+          "marks": 12,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "State and explain types of combined footing for two adjoining columns. How do you decide size and projections of combined footing?",
+          "marks": 9,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain one-way and two-way shear. Also, describe how are they calculated?",
+          "marks": 9,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "A column of size 350 × 600 mm is reinforced with 8-20#. The column supports a dead load of 700 kN and imposed load of 450 kN. The safe bearing capacity of the soil is 200 kN/m2. Design the footing using M-30 grade concrete and Fe-500 grade of steel. Also, sketch the details of the reinforcement.",
+          "marks": 18,
+          "question_id": "1x6-ziHaYot1ANDwUDRJOos3mn5jzuTeA_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 4078,
+        "processed_at": "2026-06-12 01:10:52"
+      }
+    },
+    {
+      "pdf_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2024_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2024_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6269]-302",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1 ¼ Hour",
+        "paper_identifier": "PB88",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/03/2024 10:38:10 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Enlist various design philosophies/methods for design of RCC structures. Compare working stress method with limit state method.",
+          "marks": 4,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A beam of size 230mm × 412 mm effective depth is simply supported over a span of 5m. The reinforcement consists of 4 bars of 16mm diameter at tension face. Find intensity of uniformly distributed load (including self-weight) that can be carried by beam. Use M25 & Fe415.",
+          "marks": 6,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Draw and explain stress-strain curves for concrete as per LSM.",
+          "marks": 4,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Calculate maximum safe superimposed load carried by beam of effective span 7.5m. The beam is detailed as below i) Width of rib = 300mm ii) Effective flange width = 1200mm iii) Thickness of flange = 130mm iv) Effective depth = 565 mm v) Tension steel = 5nos. of 25mm diameter vi) M25 grade of concrete and Fe500 grade of steel vii) Effective cover = 35mm",
+          "marks": 6,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw stress block diagrams with all parameters for the design of doubly reinforced RCC section of flexural member using LSM.",
+          "marks": 2,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Design cantilever slab using LSM approach for an effective span of 1.6m carrying live load of 3.0 kN/m2 and floor finish of 1.5 kN/m2. Use M25 & Fe 415. Draw the details of the reinforcement.",
+          "marks": 8,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Enlist essential conditions to design beam section as flanged beam in floor beam system.",
+          "marks": 2,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A RC slab is to be provided for a passage measuring 3.2m × 7.5m with 230mm wide beams around all edges. Design the suitable slab assuming LL 3 kN/m2 and FF 1.5 kN/m2. Use M25 and Fe500. Assume moderate exposure condition. Show details of the reinforcement.",
+          "marks": 8,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a simply supported two way slab of effective spans 3.6m × 5.6m effective carrying L.L. of 3 kN/m2 and F.F. of 1 .5 kN/m2. Use M20 and Fe415 for mild exposure condition. Draw the details of the reinforcement. (Neglect design of distribution steel and check for shear)",
+          "marks": 10,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a two way slab of effective spans 3.23m × 4.73m with two adjacent edges discontinuous. The slab is supported on beams of 230m width around all edges. Provide L.L. of 2.5kN/m2 and F.F. of 1 kN/m2. Use M30 and Fe500. Show the details of the reinforcement with neat and clean sketch. (Neglect design of distribution steel, torsion reinforcement and check for shear)",
+          "marks": 10,
+          "question_id": "1LINGEX1NMVuvQ4iCC56VirisTjN_hhXP_q6"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3152,
+        "processed_at": "2026-06-12 01:15:52"
+      }
+    },
+    {
+      "pdf_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2025_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2025_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6410]-402",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 30,
+        "total_questions": 6,
+        "duration": "1¼ Hour",
+        "paper_identifier": "PD81",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/03/2025 10:32:57 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain balanced and under reinforced section with suitable sketch.",
+          "marks": 4,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A beam of size 230mm × 550mm effective depth is simply supported over a span of 5m. The reinforcement consists of 5 bars of 20mm diameter at tension face. Find intensity of uniformly distributed load (including self-weight) that can be carried by beam. Use M25 & Fe415.",
+          "marks": 6,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the terms bond stress and development length. Calculate development length for 16mm diameter bar of grade Fe500 and M30 grade of concrete in tension and compression using LSM.",
+          "marks": 4,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Calculate maximum safe superimposed load carried by beam of effective span 8m. The beam is detailed as below- i) Width of rib = 300mm ii) Effective flange width = 1200mm iii) Thickness of flange = 130mm iv) Effective depth = 565mm v) Tension steel = 5 nos. of 25mm diameter vi) M25 grade of concrete and Fe500 grade of steel vii) Effective cover = 40mm",
+          "marks": 6,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain four reason where doubly reinforced section is required.",
+          "marks": 2,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Design cantilever slab using LSM approach for an effective span of 1.8m carrying live load of 2.5kN/m2 and floor finish of 1.5kN/m2. Use M20 & Fe 415. Draw the details of the reinforcement.",
+          "marks": 8,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the purpose of partial safety factors used in LSM? Give the partial safety factors for stresses in steel and concrete.",
+          "marks": 2,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A RC slab is to be provided for a passage measuring 8.5m×2.5m with 230mm wide beams around all edges. Design the suitable slab assuming LL 4kN/m2 and FF 1.0kN/m2. Use M30 and Fe500. Assume moderate exposure condition. Show details of the reinforcement.",
+          "marks": 8,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a simply supported two way slab of effective spans 5.5m×4.5m effective carrying L.L. of 3kN/m2 and F.F of 1.5 kN/m2. Use M25 and Fe415 for mild exposure condition. Draw the details of the reinforcement. (Neglect design of distribution steel and check for shear)",
+          "marks": 10,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a two way slab of effective spans 4.5m×3.5m with two adjacent edges discontinuous. The slab is supported on beams of 300m width around all edges. Provide L.L of 3kN/m2 and F.F. of 1kN/m2. Use M20 and Fe415. Show the details of the reinforcement with neat and clean sketch. (Neglect design of distribution steel, torsion reinforcement and check for shear)",
+          "marks": 10,
+          "question_id": "1iDkVHbBNX535Zab_XfCqVcFwFhdbuH_f_q6"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3183,
+        "processed_at": "2026-06-12 01:15:53"
+      }
+    },
+    {
+      "pdf_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2025_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2025_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E. (Civil)",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6403]-12",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PD4218",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 28/05/2025 09:32:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Design an intermediate flight of a dog legged staircase of a residential building as shown in Figure 1 with the following data: i) Floor to floor height= 3.l5m ii) Tread = 250mm; iii) Width of supporting beams = 230mm iv) Live load = 4.0 kN/m2; Floor finish= 0.75 kN/m2 v) Material = M25, Fe 500, Use LSM vi) Draw details of reinforcement of only one flight.",
+          "marks": 13,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Redistribution of moments and what are advantages of it?",
+          "marks": 5,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Design a simply supported reinforced concrete floor beam B10 as shown in Figure 1 with following data: i) Center to center Span of beam = 3.73 m ii) Width of supporting columns = 300mm iii) Beam width = 230 mm iv) The beam supports slab of thickness 120mm on both side of beam v) For slab-Live load = 2kN/m2; Floor finish = 1.0 kN/m2 vi) The wall on this beam is 120 mm thick and 2.7 m high. vii) Material- M25, Fe 500. Show details of reinforcement along with zoning of shear reinforcement. UseLSM",
+          "marks": 18,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Design a continuous floor beam B11-B12-B13 as shown in Figure 1 using IS code coefficients. Thickness of the all floor slab is 130 mm, live load and floor finish load on all slabs are 2.5 kN/m2 and 1.5 kN/m2, respectively. The wall on this beam is 230 mm thick and 2.6 m high. Use M 30 and Fe 500 steel. Design longitudinal reinforcement for all the spans and support for flexure. Design shear reinforcement only for beam B12. Draw neat sketch showing details of main and shear reinforcement. Use LSM.",
+          "marks": 17,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Design a continuous floor beam B17-B23 (A-B-C) as shown in Figure 1 using moment redistribution method. Thickness of the all floor slab is 130 mm, live load and floor finish load on all slabs are 3.0 kN/m2 and 1.5 kN/m2, respectively. The wall on this beam is 120 mm thick and 2.7 m high. Calculate design moment for span AB and support B after 22 % redistribution of moments. Design span BC and support B for flexure only. Draw the reinforcement details. Material- Concrete of grade M30, Fe 500 reinforcement.",
+          "marks": 17,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q4"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Design a uni-axial short column by limit state method with material M25 and Fe 500 to carry a working load of 900 kN, working moment of 80 kN-m about major axis bisecting the depth of column. The unsupported length of column is 4.2m. The column is fixed at one end and hinged at the other. Show detailed design calculations and reinforcement details.",
+          "marks": 13,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the role of longitudinal and transverse reinforcement of column.",
+          "marks": 4,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a bi-axial short column by limit state method to carry Ultimate load of 1200 kN. Ultimate moment of 100 kN-m about major axis bisecting the depth of column and 20 kN-m about minor axis bisecting the width of column. The unsupported length of column is 4.2m. The column is fixed at one end and hinged at the other. Use M25 grade of concrete and Fe 500 grade of steel. Show details of reinforcement in plan and sectional elevation.",
+          "marks": 17,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Design rectangular isolated pad footing for an ultimate working axial load of 1500 kN. The column size is 300 × 450mm. SBC of soil is 250 kN/m2. Use M30 grade of concrete and Fe 500 grade of steel. Show detailed design calculations and reinforcement details in plan and sectional elevation.",
+          "marks": 18,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to working axial load 1000 kN and 1050 kN, respectively. Center to center to distance between two columns is 2.8m. Size of both the columns is 400 × 400mm. Safe bearing capacity of soil is 180 kN/m2. Use M30 concrete and Fe500 steel. Neglect check for one way shear. Show reinforcement details in sectional elevation.",
+          "marks": 18,
+          "question_id": "1P1zRqIn5ktzHBc7NZ3YeFXIr16xYoqYy_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 6,
+        "character_count": 5283,
+        "processed_at": "2026-06-12 01:15:53"
+      }
+    },
+    {
+      "pdf_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2024_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2024_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6353]-12",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PC1696",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 28/11/2024 09:38:24 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1)",
+          "subquestion": "a",
+          "question_text": "Explain curtailment of reinforcement in a beam. Explain the procedure of finding APC and TPC for a simply supported beam.",
+          "marks": 5,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q1_a"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "b",
+          "question_text": "Design an intermediate flight of an open well staircase of residential building with the following data : i) Length of going = 2.0m. ii) Rise= 175mm; Tread=250mm; Width of flight= 1.2m. iii) Landing width on both side of going = 1.2m. iv) Width of supporting beams on outer side of landing = 230mm. v) Material – M20, Fe 415; Mild exposure condition. vi) Draw details of reinforcement. Use LSM approach.",
+          "marks": 13,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q1_b"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "a",
+          "question_text": "Explain in detail zoning of shear reinforcement.",
+          "marks": 5,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q2_a"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "b",
+          "question_text": "Design a cantilever beam with following data : i) Clear Span of beam =3.0 m ii) Depth of column supporting the beam = 450mm iii) Beam width =230 mm iv) The beam is subjected to working dead load of 18 kN/m (including its self-weight) and working live load of 12 kN/m. v) Material- M25, Fe 500; Moderate exposure condition. vi) Design longitudinal reinforcement and shear reinforcement. vii) Show details of reinforcement. Use LSM",
+          "marks": 13,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q2_b"
+        },
+        {
+          "question_number": "Q3)",
+          "question_text": "Design a continuous RC beam PQRS for flexure and shear using IS Code method. PQ=QR=RS=4.0m. The beam supports 125mm thick two way slab on either side of it. The beam is subjected to ultimate dead load of 24 kN/m (including its self-weight) and ultimate live load of 14 kN/m. Consider material M30, Fe 500 and severe exposure condition, Show the reinforcement detail in longitudinal section and cross-section at continuous supports and at mid spans. Use LSM.",
+          "marks": 17,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q3"
+        },
+        {
+          "question_number": "Q4)",
+          "question_text": "Continuous RC beam ABC of rectangular section is simply supported at A and C and continuous over support C. Span AB = 6.0m and BC = 4.5m. The beam carries working dead load of 20 kN/m (including its self-weight) and working live load of 13 kN/m. Calculate all span and support ultimate moments. Apply 20 % redistribution of moments. Design all spans and supports for flexure. Determine position of TPC and APC. Also design RHS portion of span AB for shear. Draw the reinforcement details. Material - M30, Fe 500; Severe exposure condition.",
+          "marks": 17,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q4"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "a",
+          "question_text": "What are interaction curves? Explain the characteristics of a typical interaction curve.",
+          "marks": 5,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q5_a"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "b",
+          "question_text": "Design a uni-axial short column by limit state method to carry a working axial load of 1100 kN, Working axial moment of l00kN-m about major axis. The unsupported length of column is 3.6m. The column is fixed at both the ends. Show detailed design calculations and reinforcement details. Use M30 concrete and Fe 500 steel. Consider severe exposure condition.",
+          "marks": 13,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q5_b"
+        },
+        {
+          "question_number": "Q6)",
+          "question_text": "Design a bi-axial short column by limit state method to carry a working axial load of 900 kN. Working moment of 60 kN-m about major axis bisecting the depth of column and 40 kN-m about minor axis bisecting the width of column. The unsupported length of column is 3.6m about major axis and 4.5m about minor axis. The column is fixed at one end and hinged at the other. Show details of reinforcement in plan and sectional elevation. Use M25 concrete and Fe 500 steel. Consider moderate exposure condition.",
+          "marks": 18,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q6"
+        },
+        {
+          "question_number": "Q7)",
+          "question_text": "Design an isolated pad footing for a column of size 380 × 450mm subjected to working axial load of 1200 kN. SBC of soil is 275 kN/m2. (neglect check for one way shear about minor axis). Show detailed design calculations and reinforcement details in plan and sectional elevation. Use M25 concrete and Fe 500 steel. Consider moderate exposure condition.",
+          "marks": 17,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q7"
+        },
+        {
+          "question_number": "Q8)",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to ultimate axial load 1500 kN and 1300 kN, respectively. Center to center to distance between two columns is 2.8m. Size of both the columns is 450 × 450mm. Safe bearing capacity of soil is 180kN/m2. Use M35 concrete and Fe500 steel. (Neglect check for one way shear).",
+          "marks": 17,
+          "question_id": "1UwtcvXBeamXYv7AlVY9yNhXbZx8s1SKK_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 5,
+        "character_count": 5692,
+        "processed_at": "2026-06-12 01:15:54"
+      }
+    },
+    {
+      "pdf_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2025_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_nov_dec_2025_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6583]-2",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PE-2478",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 25/11/2025 09:37:59 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Design an intermediate flight of a dog legged staircase of a residential building as shown in Figure 1 with the following data : i) Floor to floor height = 3.15m ii) Tread = 250mm; iii) Width of supporting beams = 230mm iv) Live load = 3.0 kN/m2 Floor finish= 0.75 kN/m2; v) Material = M25, Fe 415, Use LSM vi) Draw details of reinforcement of only one flight.",
+          "marks": 13,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in detail zoning of shear reinforcement.",
+          "marks": 5,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Design a simply supported ground beam for the following data : i) Center to center Span of beam = 5.5 m ii) Width of supporting columns = 300mm; Beam width =230 mm iii) The beam supports 230mm thick brick wall. iv) Height of wall above plinth level = 2.7m, Plinth height =1.2m. v) Material- M25, Fe 500 Show details of reinforcement. Use LSM",
+          "marks": 13,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the advantages and limitations of using IS code coefficient method for the design of continuous beam.",
+          "marks": 5,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Design a continuous floor beam B1-B2-B3 as shown in Figure 1 using IS code coefficients. Thickness of the all floor slab is 120 mm, live load and floor finish load on all slabs are 3.0 kN/m2 and 1.5 kN/m2, respecitively. The wall on this beam is 230 mm thick and 2.7 m high. Use M 30 and Fe 500 steel. Design longitudinal reinforcement for all the spans and support for flexure. Design shear reinforcement only for beam B2. Draw neat sketch showing details of main and shear reinforcement. Use LSM.",
+          "marks": 17,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Design a continuous floor beam B17-B23 (A-B-C) as shown in Figure 1 using moment redistribution method. Thickness of the all floor slab is 120 mm, live load and floor finish load on all slabs are 3.0 kN/m2 and 1.5 kN/m2, respectively. The wall on this beam is 120 mm thick and 2.7 m high. Calculate design moment for span BC and support B after 20 % redistribution of moments. Design span BC and support B for flexure only. Draw the reinforcement details. Material- Concrete of grade M30, Fe 500 reinforcement.",
+          "marks": 17,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q4"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Design an axially loaded short column C9 as shown in Figure 1 from terrace to plinth level (floor wise four parts of column) for a G + 2 building with following details : i) Floor to Floor height = 3.6 m, consider both ends fixed. ii) Live load on all slabs = 3 kN/m2 iii) Floor Finish Load = 1.5 kN/m2 iv) Water Proofing Load on roof slab = 1.5 kN/m2 v) Wall thickness = 150 mm (Internal) vi) Slab thickness = 130 mm vii) Size of beams = 230 × 450 mm Material M 25 and Fe 500 used. Show detailed floorwise load calculations and design the column from plinth level to first floor level. Draw section of column showing reinforcement details.",
+          "marks": 13,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are interaction curves? Explain the characteristic of a typical interaction curve.",
+          "marks": 4,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a bi-axial short column by limit state method to carry Ultimate load of 1500 kN. Ultimate moment of 110 kN-m about major axis bisecting the depth of column and 50 kN-m about minor axis bisecting the width of column. The unsupported length of column is 4.5m. The column is fixed at one end and hinged at the other. Use M25 grade of concrete and Fe 500 grade of steel. Show details of reinforcement in plan and sectional elevation.",
+          "marks": 17,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Design rectangular isolated pad footing for a working axial load of 800 kN. The column size is 300 × 450mm. SBC of soil is 200 kN/m2. Use M30 grade of concrete and Fe 500 grade of steel. Show detailed design calculations and reinforcement details in plan and sectional elevation.",
+          "marks": 18,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to working axial load 750 kN and 850 kN, respectively. Center to center to distance between two columns is 2.4m. Size of both the columns is 400 × 400mm. Safe bearing capacity of soil is 160kN/m2. Use M30 concrete and Fe500 steel. Neglect check for one way shear. Show reinforcement details in sectional elevation.",
+          "marks": 18,
+          "question_id": "1tXvDL9EGfPhXuvfEq4qUrCN57zVIwWwz_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 7,
+        "character_count": 5730,
+        "processed_at": "2026-06-12 01:15:54"
+      }
+    },
+    {
+      "pdf_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2024_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/endsem_may_jun_2024_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF RC STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6262]-12",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "301013",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PB3754",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 09:31:18 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Design any intermediate flight of a dog legged staircase of a residential building as shown in Figure 1 with the following data: i) Floor to floor height = 3.06m ii) Rise = 170mm; Tread = 250mm; Width of flight = 1.0m iii) Width of supporting beams = 230mm iv) Live load = 3.5 kN/m2; Floor finish 0.5 kN/m2 v) Material = M25, Fe 500 vi) Draw details of reinforcement. Use LSM approach.",
+          "marks": 13,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in detail zoning of shear reinforcement.",
+          "marks": 5,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "question_text": "Design a simply supported reinforced concrete floor beam B5 as shown in Figure 1 with following data : a) Center to center Span of beam = 3.73 m b) Width of supporting columns = 300mm c) Beam width = 230 mm d) The beam supports slab of thickness 120mm on one side of beam e) For slab- Live load = 2kN/m2; Floor finish = 1.0 kN/m2 f) The wall on this beam is 230 mm thick and 2.7 m high. g) Material- M30, Fe 500 h) Show details of reinforcement along with zoning of shear reinforcement. Use LSM.",
+          "marks": 18,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q2"
+        },
+        {
+          "question_number": "Q3",
+          "question_text": "Design a continuous floor beam B8-B9-B10 as shown in Figure 1 using IS code coefficients (or moment distribution). Thickness of the all floor slab is 120 mm, live load and floor finish load on all slabs are 2.5 kN/m2 and 1.5 kN/m2, respectively. The wall on this beam is 150 mm thick and 2.7 m high. Use M 25 and Fe 415 steel. Design longitudinal reinforcement for all the spans and support for flexure. Design shear reinforcement only for beam B19. Draw neat sketch showing details of main and shear reinforcement. Use LSM.",
+          "marks": 17,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q3"
+        },
+        {
+          "question_number": "Q4",
+          "question_text": "Continuous RC beam ABCD of rectangular section is simply supported at A and D and continuous over support B and C. Span AB = 4.2m, BC 6.0m and CD = 5.2m. The beam carries working dead load of 22 kN/m (including its self-weight) and working live load of 19 kN/m. The beam supports 120mm slab on one side. Calculate design moment for span BC and support C after 20 % redistribution of moments by considering proper load case. Design span BC and support C for flexure only. Draw the reinforcement details. Material- Concrete of grade M25, Fe 500 reinforcement.",
+          "marks": 17,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q4"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design an axially loaded short column C 10 as shown in Figure 1 from terrace to footing. level (floor wise four parts of column) for a G + 2 building with following details: a) Floor to Floor height = 3.3 m, consider both ends fixed. b) Height of column below plinth = 2.2 m c) Live load on all slabs = 3 kN/m2 d) Floor Finish Load = 1.0 kN/m2 e) Water Proofing Load on roof slab = 1.5 kN/m2 f) Wall thickness = 150 mm (Internal) g) Slab thickness = 120 mm and Size of beams = 230 × 450 mm Material M 25 and Fe 500 used. Show detailed floorwise load & design calculations. Draw section of column showing reinforcement details for each floor.",
+          "marks": 18,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a bi-axial short column by limit state method with material M25 and Fe 500 to carry working load of 900 kN and working moment of 50 kN-m about major axis bisecting the depth of column and 30 kN-m about minor axis bisecting the width of column. The unsupported length of column is 3.9m. The column is fixed at one end and hinged at the other. Show details of reinforcement in plan and sectional. elevation.",
+          "marks": 18,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "Design an isolated pad footing for a working axial load of 900 kN. The effective length of column is 3.5 m. Use M25 grade of concrete and Fe 500 grade of steel. SBC of soil is 250 kN/m2. Show detailed design calculations and reinforcement details in plan and sectional elevation. Column size 300 × 450mm.",
+          "marks": 17,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a slab type rectangular combined footing for two columns A and B subjected to working axial load 850 kN and 950 kN, respectively. Center to center to distance between two columns is 2.6m. Size of both the columns is 400 × 400mm. Safe bearing capacity of soil is l60kN/m2. Use M30 concrete and Fe500 steel. Neglect check for one way shear. Show reinforcement details in sectional elevation.",
+          "marks": 17,
+          "question_id": "1VHBwd_lJckd5qcs3XkjYeoyVd1GbHy3k_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 7,
+        "character_count": 5766,
+        "processed_at": "2026-06-12 01:15:54"
+      }
+    },
+    {
+      "pdf_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2026_ce_drsc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_rc_structures_ce/insem_mar_2026_ce_drsc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "APR-26/TE/Insem-362",
+        "pattern_year": 2019,
+        "semester": "VI",
+        "subject_code": "301013",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour 15 minutes",
+        "paper_identifier": "PF283",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2026 10:36:21 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A T-beam has the following details: flange width = 1000 mm, web width = 250 mm, flange thickness = 100 mm, effective depth = 500 mm, area of reinforcement = 2200 mm2. Use M20 concrete and Fe 500 steel. Determine moment of resistance assuming the flange in compression.",
+          "marks": 8,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define the following terms used in Limit State Method: i) Characteristic strength ii) Characteristic load iii) Partial safety factors for materials iv) Partial safety factors for loads. Also explain why partial safety factors for loads are different for dead load, live load and wind/earthquake load.",
+          "marks": 7,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "A doubly reinforced L-beam has the following details: bf = 800 mm, bw = 250 mm, tf = 100 mm, d = 600 mm, d' = 50 mm, Ast= 2000 mm2 and Asc = 400 mm2. Calculate the moment of resistance using M30 grade concrete and Fe 500 grade steel.",
+          "marks": 8,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the following limit states and their importance in design: i) limit state of collapse ii) limit state of serviceability iii) limit state of durability.",
+          "marks": 7,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "null",
+          "question_text": "Design the slabs S-1, S-2, S-3 and S-4 shown in Fig. 1. Consider the width of the beam as 300 mm. The imposed load on the slabs S-1 to S-6 is 4 kN/m2 and 2 kN/m2 on S-7. Use M30 grade of concrete and Fe 500 grade steel. The design should include all assumptions, design steps, checks for deflection and strength and details of reinforcement in the slabs.",
+          "marks": 15,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q3_null"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "null",
+          "question_text": "For the data given in Q.3, design the slabs S-7 and S-6. The design should include all assumptions, design steps, checks for deflection and strength and details of reinforcement in the slabs.",
+          "marks": 15,
+          "question_id": "1UeKwrKuq3p6dI4MuytLHYp275UjPiuO9_q4_null"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2470,
+        "processed_at": "2026-06-12 01:15:56"
+      }
+    }
+  ]
+}

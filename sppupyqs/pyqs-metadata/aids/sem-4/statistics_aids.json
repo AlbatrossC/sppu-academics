@@ -1,0 +1,1974 @@
+{
+  "subject_name": "Statistics",
+  "subject_slug": "statistics_aids",
+  "branch": "aids",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2022_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2022_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5869] - 368",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 27/06/2022 08:49:36 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Calculate the mean and standard deviation for the following table giving the age distribution of 542 members. Age (in years) 20-30 30-40 40-50 50-60 60-70 70-80 80-90. No. of members 3 61 132 153 140 51 2",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "In a partially destroyed laboratory, record of an analysis of correlation data, the following results only are legible : Variance of X = 9. Regression equations : 8X–10Y+66=0, 40X–18Y=214. What are : i) the mean values X and Y, ii) the correlation coefficient between X and Y, and iii) the standard deviation of Y?",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "For 10 randomly selected observations the following data were recorded. Observation no: 1 2 3 4 5 6 7 8 9 10. Observation hrs. (X): 1 1 2 2 3 3 4 5 6 7. Additional units (Y): 2 7 7 10 8 12 10 14 11 14. Determine the coefficient of regression and regression equation using the non-linear form Y = a + b1 X + b2 X2.",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Variables X and Y have the joint p.d.f. given by : F(x, y) = (x+y)/8; 0 <= x <= 2, 0 <= y <= 1. Find i) r(X, Y), ii) The two lines of regression, and iii) The two regression curves for the means",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Assume that on an average number out of 15 called between 2pm to 3pm on week days is busy. What is the probability that 6 randomly selected telephone numbers called i) Not more than 3 busy ii) At least 3 busy",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "If the probability that an individual suffers a bad reaction from certain injection is 0.001. Determine the probability out of 2000 people, by using Poisson's distribution i) Exactly 3 ii) More than 1 will suffer a bad reaction",
+          "marks": 5,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "In a Sample of 1000 cases the means of a certain test is 14 and standard deviation is 2.5. Assuming the distribution to be normal find i) How many students scored between 12 & 15. ii) How many scored below 8. [Given : A(z = 0.8) = 0.2881, A(z = 0.4) = 0.1554), A(z = 2.4) = 0.4918]",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A Random variable X with following probability distribution X: 1 2 3 4 5. P(X): k 2k 2k k 7k^2. Find i) k ii) P (x >= 2) iii) P (x < 3) iv) P (2 <= x <= 3) v) P (x >= 3)",
+          "marks": 5,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "In a continuous distribution density function f(x) = kx(2– x), 0 < x < 2. Find the value of i) k ii) Mean iii) Variance",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "For a normal distribution when mean = 1, standard deviation = 4, find the probabilities of the following intervals : i) 3.43 <= x <= 6.19 ii) -1.43 <= x <= 6.19 [Given : A(z = 0.81) = 0.2910, A(z = 1.73) = 0.4582]",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "The following table gives the number of accidents that took place in an industry during various days of the week. Test if accidents are uniformly distributed over the week. Days: Mon Tue Web Thur Fri Sat. No. of accidents: 14 18 12 11 15 14. Given chi-square(0.05,5) = 11.09.",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "A normal population has mean 6.8 and standard deviation 1.5. A sample of 400 members gave a mean of 6.75. Is the difference significant? Z(alpha) = 1.96 at 5% level of significance.",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Suppose that sweets are sold in packages of fixed weight of contents. The procedure of the packages is interested in testing the average weight of content in packages in 1 kg. Sum of squares of deviations from mean of 12 samples is 0.011967. Using above data should we conclude the average. Given X = 0.9883, t(0.05,11) = 2.201.",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A set of five similar coins is tossed 210 times and the result is given in the following table. No. of heads: 0 1 2 3 4 5. Frequency: 2 5 20 60 100 31. Use chi-square test to test the hypothesis that data follows a binomial distribution (chi-square = 11.07 at 5% level of significance)",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "From the given data below, Intelligence tests of two groups of boys and girls gave the following results. Examine the difference in significance. Given Z(alpha) = 1.96 at 5% level of significance. Girls: Mean 70, Std Dev 10, Size 70. Boys: Mean 75, Std Dev 11, Size 110.",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "In two independent samples of size 8 and 10, the sum of squares of deviations of sample values from the respective sample means were 84.4 and 102.6. Test whether the difference of variances of the population is significant or not. Given F(0.05) = 3.29 at d.f. (7, 9).",
+          "marks": 6,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "If x >= 1 is the critical region for testing theta(0) : theta = 2 against the alternative theta = 1 on the basis of the single observation from the population. f (x, theta) = theta * e^(-theta*x), 0 <= x < infinity, obtain the values of type I, type II error also find power of function.",
+          "marks": 8,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "State & Prove Neyman-Pearson lemma for testing a simple hypothesis against a simple alternative hypothesis.",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Population and sample ii) Type I and Type II error iii) Critical region iv) Power of test",
+          "marks": 8,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Let X1, X2 ... Xn be random sample of size n from a normal distribution N (mu, sigma^2) where mu and sigma^2 both are unknown. Show that LRT used to test H0 : mu = mu0, vs H1 : mu != mu0, 0 < sigma^2 < infinity is used t-test.",
+          "marks": 9,
+          "question_id": "10KDjSxNWA0WbhEjsRakUCTcaJCvfc7k5_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5965,
+        "processed_at": "2026-06-06 15:13:38"
+      }
+    },
+    {
+      "pdf_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2022_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2022_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5925]-327",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/01/2023 13:36:34 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q.1",
+          "subquestion": "a",
+          "question_text": "Calculate: i) Quartile deviation (Q.D.), ii) Mean Deviation (M.D.) from mean, for the following data: Marks 0-10 10-20 20-30 30-40 40-50 50-60 60-70 No. of students 6 5 8 15 7 6 8",
+          "marks": 10,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q1_a"
+        },
+        {
+          "question_number": "Q.1",
+          "subquestion": "b",
+          "question_text": "The variables X and Y are connected by the equation aX + bY + c = 0. Show that the correlation between them is -1 if the signs of a and b are alike and +1 if they are different.",
+          "marks": 8,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q1_b"
+        },
+        {
+          "question_number": "Q.2",
+          "subquestion": "a",
+          "question_text": "An alalysis of monthly wages paid to the workers of two firms A and B belonging to the same industry give the following results: Firm A: 500 workers, 186.00 average, 81 variance. Firm B: 600 workers, 175.00 average, 100 variance. i) Which firm, A or B, has a larger wage bill? ii) In which firm, A or B, is there greater variability in individual wages? iii) Calculate (a) the average daily wage, and (b) the variance of the distrubution of wages of all the workers in the firm is A and B taken together.",
+          "marks": 10,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q2_a"
+        },
+        {
+          "question_number": "Q.2",
+          "subquestion": "b",
+          "question_text": "In a partially destroyed laboratory, record of an analysis of correlation data, the following results only are legible: Variance of X=9. Regression equations: 8X–10Y+66=0, 40X–18Y=214. what are: i) the mean values X and Y , ii) the correlation coefficient between X and Y, iii) the standard deviation of Y?",
+          "marks": 8,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q2_b"
+        },
+        {
+          "question_number": "Q.3",
+          "subquestion": "a",
+          "question_text": "A Dice is thrown 10 times. If getting an odd number is a sucess. What is the probability of getting i) 8 successes ii) at least 6 success?",
+          "marks": 5,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q3_a"
+        },
+        {
+          "question_number": "Q.3",
+          "subquestion": "b",
+          "question_text": "Fit Poisson’s distribution to following data and calculate theoretical frequencies. x: 0 1 2 3 4, f: 122 60 15 2 1",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q3_b"
+        },
+        {
+          "question_number": "Q.3",
+          "subquestion": "c",
+          "question_text": "In a Sample of 1000 caes the means of a certain test is 14 and standard deviation is 2.5 assuming the distrubution to be normal find i) How many students scored between 12 & 15. ii) How many scored below 8. [Given: A(z = 0.8) = 0.2881), A(z = 0.4) = 0.1554), A (z = 2.4) = 0.4918]",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q3_c"
+        },
+        {
+          "question_number": "Q.4",
+          "subquestion": "a",
+          "question_text": "A Random variable X with following probability distrubution: X: 1 2 3 4 5 6 7, P(X): k 2k 3k k^2 k^2+k 2k^2 4k^2. Find: i) k ii) P(x > 5) iii) P(1<= x <= 5)",
+          "marks": 5,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q4_a"
+        },
+        {
+          "question_number": "Q.4",
+          "subquestion": "b",
+          "question_text": "In a continuous distribution density function f(x) = kx(1-x), 0 <= x <= 1. Find the value of i) k ii) Mean iii) Variance",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q4_b"
+        },
+        {
+          "question_number": "Q.4",
+          "subquestion": "c",
+          "question_text": "MNC company conducted 1000 candidates’ aptitude test. The average score is 45 and the standard deviation of score is 25. Assuming normal distribution for the result. Find i) The number of candidate whose score exceed 60. ii) The number of candidates whose score lies between 30 & 60. [Given: A(z = 0.6) = 0.2257)]",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q4_c"
+        },
+        {
+          "question_number": "Q.5",
+          "subquestion": "a",
+          "question_text": "In an experiment of pea breeding.the following frequencies of seeds were obtained. Round and green: 222, Wrinkle and green: 120, Round and yellow: 32, Wrinkle and yellow: 150. Total: 524. Theory predicts that the frequencies should be in the proportion 8:2:2:1. Examine the correspondence betwen theory and experiment. Given chisquare (0.05,3) = 7.815",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q5_a"
+        },
+        {
+          "question_number": "Q.5",
+          "subquestion": "b",
+          "question_text": "The average marks in mathematics of a sample of 100 students was 51 with standard deviation of 6 marks. Could this have a random sample from the population with average marks 50? Given Zalpha at 5% level of significance = 1.96",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q5_b"
+        },
+        {
+          "question_number": "Q.5",
+          "subquestion": "c",
+          "question_text": "A random sample of 16 newcomers gave a mean of 1.67 m and standard deviation of 0.16 m. Is the mean height of newcomers significantly different from the mena height of students’ population of the previous year? Given t0.05, 15 = 2.13",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q5_c"
+        },
+        {
+          "question_number": "Q.6",
+          "subquestion": "a",
+          "question_text": "Following table shows number of books issued on the various days of week from a certain library At 5% level of significance test the null hypothesis that number of books issued in department of the day. Day: Mon 120, Tue 130, Wed 110, Thurs 115, Fri 135, Sat 110. Given: Chi-square value at 5% level of significance for degrees of freedom 5 is 11.071.",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q6_a"
+        },
+        {
+          "question_number": "Q.6",
+          "subquestion": "b",
+          "question_text": "A random sample of 900 members has mean 3.4 cms. Can it be reasonable regarded as a sample from a large population of mean 3.2 cms and standard deviation 2.3 cms.",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q6_b"
+        },
+        {
+          "question_number": "Q.6",
+          "subquestion": "c",
+          "question_text": "Find the F-statistics form the following data: Sample 1: size(n) 8, sum(x) 9.6, sum(x^2) 61.52. Sample 2: size(n) 11, sum(x) 16.5, sum(x^2) 73.26",
+          "marks": 6,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q6_c"
+        },
+        {
+          "question_number": "Q.7",
+          "subquestion": "a",
+          "question_text": "State & Prove Neyman-Pearson Fundamental Lemma.",
+          "marks": 9,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q7_a"
+        },
+        {
+          "question_number": "Q.7",
+          "subquestion": "b",
+          "question_text": "Given the frequency function f(x, theta) = 1/theta, 0 <= x <= theta. Testing H0: theta=1 vs H1: theta=2 by means of a single observed value of x. what would be the size of Type I and Type II error. If you choose the interval i) 0.5 <= x ii) 1 <= x <= 1.5. Also obtain the power function of the test.",
+          "marks": 8,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q7_b"
+        },
+        {
+          "question_number": "Q.8",
+          "subquestion": "a",
+          "question_text": "Write short notes on i) Most powerful test ii) Uniformly most powerful test iii) Advantages and disadvantages of non-parametric tests iv) Level of significance",
+          "marks": 8,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q8_a"
+        },
+        {
+          "question_number": "Q.8",
+          "subquestion": "b",
+          "question_text": "Explain in detail about test for the Equality of means of serveral normal populations.",
+          "marks": 9,
+          "question_id": "1e_N17kdQUicy8BkzX_TafP8MLIcrRetz_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5774,
+        "processed_at": "2026-06-06 15:13:54"
+      }
+    },
+    {
+      "pdf_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_feb_2023_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_feb_2023_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6008]-261",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "217528",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10005",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/04/2023 15:16:13 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the limitations and importance of Statistics.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the methods of estimation? Give brief on testing of hypothesis.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the Scope of Statistics in engineering & Technology.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is population and sample? Explain the type of sampling in brief.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are random sample? Explain lottery method and random numbers in detail.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Statistics? Explain the scope of statistics in medical and biological fields.",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw a frequency polygon for the following data. Marks 0-20 20-40 40-60 60-80 80-100. No. of students 2 18 42 28 5. Also state the advantages of graphical representation of data (any four).",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Calculate the mean for the following frequency distribution. Class 0-10 10-20 20-30 30-40 40-50 50-60. Frequency 12 18 27 20 17 6. Also state merits of Mean (any four).",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Age distribution of hundred life insurance policy holders is as follows : Age 17-19 20-22 23-25 26-28 29-31 32-34 35-37 38-40. Number 9 16 12 26 14 12 6 5. Calculate mode",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is histogram? Draw the histogram for the following data. Age group 0-20 21-40 41-60 61-80 81-100 101-120 (in years). Population 500 2100 2200 2000 1600 400",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Calculate median for the following distribution. Class 0-10 10-20 20-30 30-40 40-50. Frequency 5 14 29 21 25. Also write merits of median (any 2).",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What are the merits and demerits of Harmonic mean (2 each). Also calculate Harmonic mean of the following series. Values 2 6 10 14 18. Frequency 4 12 20 9 5",
+          "marks": 5,
+          "question_id": "12g3ktymHUt3d-Gsx066CBy4c-e-r1IQb_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2330,
+        "processed_at": "2026-06-06 15:14:05"
+      }
+    },
+    {
+      "pdf_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2023_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2023_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "A.I.D.S",
+        "paper_number": "[6002]-223",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1593",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/06/2023 10:34:59 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "The following marks have been obtained by a class of students in 2 papers of mathematics. Paper I: 45, 55, 56, 58, 60, 65, 68, 70, 75, 80, 85. Paper II: 56, 50, 48, 60, 62, 64, 65, 70, 74, 82, 90. Calculate the coefficient of correlation for the above data.",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Find the quartile deviation and coefficient of quartile deviation of the following frequency distribution. Marks: <10, 10-20, 20-30, 30-40, 40-50, 50-60. No. of Students: 10, 20, 30, 50, 40, 30.",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Determine the eqns of regression lines for the following data. Also find the value of (i) y for x = 4.5 (ii) x when y = 13. x: 2, 3, 5, 7, 9, 10, 12, 15. y: 2, 5, 8, 10, 12, 14, 15, 16.",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "The first four moments of four distribution about the value 4 are 2, 20, 40 and 100 respectively. i) Obtain the first central moments ii) Find mean, standard deviation iii) Find coefficients of skewness and kurtosis",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "In a certain company install 2000 LED bulbs on each floor. If LED bulbs have average life of 1000 burning hours with standard deviation of 200 hours. Using normal distribution find what number of LED bulbs might be expected to Fail in 700 hours. (Given : P(0 < z < 1.5) = 0.4332)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Between 2 pm to 4 pm the average no of phone calls per minute coming into a switch board of a company is 2.5. Find the probability that during a particular minute there will be i) no phone call ii) exactly 3 phone calls",
+          "marks": 5,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "A dice is thrown 10 times. If getting an odd number is a success. What is the probability of i) 8 sucess ii) At least 6 sucess",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Weights of 4000 students are found to be normally distributed with mean 50 kg and standard deviation 5 kgs. Find the number of students with weights i) less than 45 kgs ii) between 45 to 60 kgs (for standard normal distribution z, area under the curve between z = 0 to z = 1 is 0.3413 and that between z = 0 to z = 2 is 0.4772)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "If 10% bolts produced by a machine are defective. Determine the probability that out of 10 bolts choosen at random. i) two will be defective ii) at most two will be defective.",
+          "marks": 5,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "In a continuous distribution density function f(x) = kx(2 – x), 0 < x < 2 Find the value of k, mean and variance.",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Random sample of 400 men and 600 women were asked whether they would have a school near their residence 200 men and 325 women were in favour of proposal. Test the hypothesis that the proportion of men and women in front of proposal is same at 5% level of significance. (Given Zalpha = 1.96 at 5% l.o.s)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "The values given below are i) Observed frequencies of a distribution ii) The frequencies of a normal distribution having same mean, standard deviation and the total frequency as in a) apply Chi-square test of godness of fit. a) 1, 5, 20, 28, 42, 22, 15, 5, 2. b) 1, 6, 18, 25, 40, 25, 18, 6, 1. (Given Chi-square = 12.592 at 5% l.o.s.)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Fertilizers A and B are tried respectively on 10 and 8 randomly choosen experimental plots. The yields in the plots were as given below. Test using t-test whether in effects of the fertilizer as reflected in the mean yields. Fertilizers A: 8.0, 7.6, 8.2, 7.8, 8.3, 8.4, 8.2, 7.8, 7.1, 8.0. Fertilizers B: 7.4, 8.1, 7.6, 8.1, 7.5, 7.6, 7.3, 7.2. (Given t0.05 = 2.201 at d.o.f 16)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "The average marks in mathematics of a sample of 100 students was 51 with S.D. of 6 marks. Could this have a random sample from the population with average marks 50? (Given zalpha = 1.96 at 5% l.o.s.)",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A coin is tossed 160 times and following are expected and observed frequencies for number of heads. No of heads: 0, 1, 2, 3, 4. Expected: 17, 52, 54, 31, 6. Observed: 10, 40, 60, 40, 10. Find the Chi-square value.",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "In two independent samples of size 8 and 10 the sum of squares deviations of the values form the respective sample means were 84.4 and 102.6. Test whether the difference of variances of the population is significant or not. (Given F0.05 = 3.29 at degrees of freedom (7,9))",
+          "marks": 6,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "State and prove Neyman-pearson Fundamental lemma.",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Let p is the probability that a given die shows even number. To test H0 : P = 1/2 Vs H1 : P = 1/3 following procedure is adopted. Toss the die twice and accept H0 if both times. It shows even number. Find the probabilities of Type I and Type II error.",
+          "marks": 8,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "For distribution, show that for H0 : beta = beta0 = gamma = gamma0 and H1 : beta = beta1 = gamma = gamma1 is the best critical region is given by 1/n log(beta1/beta0) * sum(x) + (gamma1-gamma0) * sum(log(x)) >= k",
+          "marks": 9,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short notes on : i) Critical region and Most powerful critical region. ii) Level of significance and power of Test.",
+          "marks": 8,
+          "question_id": "1NNuq4a71DeMCl_yfgdt4SiToyhFkv9h5_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5691,
+        "processed_at": "2026-06-06 15:14:17"
+      }
+    },
+    {
+      "pdf_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2023_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2023_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science Engineering",
+        "paper_number": "[6179]-245",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/12/2023 09:46:37 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1)",
+          "subquestion": "a",
+          "question_text": "The first four moments of a distribution about the value 5 are 2,20,40 and 50. From the given information obtain the first four central moments, coefficient of skewness and kurtosis.",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q1_a"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "b",
+          "question_text": "Obtain the regression lines y on x and x on y for the data.\nx: 5, 1, 10, 3, 9\ny: 10, 11, 5, 10, 6",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q1_b"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "c",
+          "question_text": "Calculate standard deviation for the following frequency distribution. Decide whether Arithmetic mean is good or not.\nWages in rupees earned per day: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60\nNo. of laborer’s: 5, 9, 15, 12, 10, 3",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q1_c"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "a",
+          "question_text": "Following are the values of import of raw material and export of finished product in suitable units.\nExport: 10, 11, 14, 14, 20, 22, 16, 12, 15, 13\nImport: 12, 14, 15, 16, 21, 26, 21, 15, 16, 14\nCalculate the coefficient of Correlation between the import values and export values.",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q2_a"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "b",
+          "question_text": "If the two lines of regression are 9x + y – = 0 and 4x + y =  and the means of x and y are 2 and –3 respectively, find the values of ,  and the coefficient of correlation between x and y.",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q2_b"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "c",
+          "question_text": "Compute the first four moments about arbitrary mean A = 25 for the following frequencies.\nNo of Jobs: 0-10, 10-20, 20-30, 30-40, 40-50\nNo of Workers: 6, 26, 47, 15, 6",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q2_c"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "a",
+          "question_text": "20% of bolts produced by a machine are defective. Determine the probability that out of 4 bolts chosen at a random.\ni) 1 is defective\nii) Zero are defective\niii) At most 2 bolts are defective",
+          "marks": 5,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q3_a"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "b",
+          "question_text": "The average number of misprints per page of a book 1.5. Assuming the distribution of number of misprints to be Poisson, Find\ni) The Probability that a particular book is free from misprints.\nii) Number of pages containing more than one misprint if the book contains 900 pages.",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q3_b"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "c",
+          "question_text": "For a normal distribution When mean = 2, standard deviation  = 4, find the probabilities of the following intervals.\ni) 4.43  x  7.29\nii) –0.43  x  5.39\n[Given : A(z = 0.61) = 0.2291, A(z = 1.32) = 0.4066, A(z = 0.85) = 0.3023]",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q3_c"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "a",
+          "question_text": "A Random variable X with following probability distribution.\nX: 0, 1, 2, 3, 4\nP(X): 0.1, k, 2k, 2k, k\nFind\ni) k\nii) P (x < 2)\niii) P (x  3)\niv) P (1  x  3)",
+          "marks": 5,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q4_a"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "b",
+          "question_text": "Fit a Poisson Distribution to the following data and calculate theoretical frequencies\nx: 0, 1, 2, 3, 4, Total\nf: 109, 65, 22, 3, 1, 200",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q4_b"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "c",
+          "question_text": "The lifetime of an article has a normal distribution with mean 400 hours and standard deviation 50 hours. Find the expected number of articles out of 2000 whose lifetime lies between 335 hours to 465 hours. (Given : A(z = 1.3) = 0.4032)",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q4_c"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "a",
+          "question_text": "The Table below gives the number of customers visit the certain company on various days of week\nDays: Sun, Mon, Tue, Wed, Thurs, Fri, Sat\nNumber of Customers: 6, 4, 9, 7, 8, 10, 12\nTest at 5% of level of significance whether customer visits are uniformaly distributed over the days. [Given 2(6,0.05) = 15.592]",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q5_a"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "b",
+          "question_text": "In a Batch of 500 articles, produced by a machine, 16 articles are found defective. After overhauling the machine, it is found that 3 articles are defective in a batch of 100. Has the machine improved? (Given Z = 1.96)",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q5_b"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "c",
+          "question_text": "Samples of Size 10 and 14 were taken from two normal populations with Standard deviation 3.5 and 5.2. The sample means were found to be 20.3 and 18.6. Test whether the means of the two populations are at the same level. (Given t0.05,22 = 2.07)",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q5_c"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "a",
+          "question_text": "In an experiment on pea breeding, the following frequencies of seeds were obtained.\nRound and Green: 222\nWrinkled and Green: 120\nRound and Yellow: 32\nWrinkled and Yellow: 150\nTotal: 524\nTheory Predicts that the frequencies should be in Proportion 8:2:2:1. Examine the correspondence between theory and experiment [Given 2(3,0.05) = 7.815]",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q6_a"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "b",
+          "question_text": "For sample I : n1 = 1000, x = 49000, (x – x)2 = 7,84,000,\nFor Sample II : n2 = 1500, x = 70500, (x – x)2 = 24,00,000.\nDiscuss the significant difference between mean score. (Given Z = 1.96)",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q6_b"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "c",
+          "question_text": "Find the F statistics from the following data:\nSample Size (n): 8, 11\nTotal observation (Sum of observations x): 9.6, 16.5\nSum of squares of observations (x2): 61.52, 73.26",
+          "marks": 6,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q6_c"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "a",
+          "question_text": "Let P be the probability that a coin will fall head in a single toss in order to test H0 : P = 1/2 against P = 3/4. The coin is tossed 5 times and H0 is rejected if more than 3 heads are obtained. Find the probability of type I error and power of the test.",
+          "marks": 8,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q7_a"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "b",
+          "question_text": "Show that the likelihood ratio test for testing the equality of variances of two normal distribution is the usual F-test.",
+          "marks": 9,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q7_b"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "a",
+          "question_text": "Write short notes on\ni) Most Powerful test\nii) Level of significance\niii) Advantages and disadvantages of non-parametric test",
+          "marks": 8,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q8_a"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "b",
+          "question_text": "State and Prove Neyman - Pearson lemma for testing a simple hypothesis against a simple alternative hypothesis.",
+          "marks": 9,
+          "question_id": "1qL4YwetgL_UFgsi7rKeCmBx8SLfTaGAX_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5783,
+        "processed_at": "2026-06-06 15:14:25"
+      }
+    },
+    {
+      "pdf_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2024_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2024_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Comp./AI & DS",
+        "paper_number": "[6268]-222",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-28",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/03/2024 14:08:52 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain types of Sampling.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Statistics? Explain its importance.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the importance of sampling and state its limitations.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is distrust of Statistics? Explain the limitations of Statistics.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State the difference between Population and Sampling. Explain the process of sampling.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is random sampling? Explain its types.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Calculate the median marks of students from the following distribution: Marks 0-10 10-20 20-30 30-40 40-50 50-60 60-70 No. of students 3 6 13 15 14 5 4",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is harmonic mean? Explain its merits and demerits.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw the frequency polygon for the following data: Class Interva 10-20 20-30 30-40 40-50 50-60 60-70 70-80 80-90 Frequency 4 6 8 10 12 14 7 5",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Consider the following frequency distribution. Calculate the mean weight of students: Weight (in Kg) 31-35 36-40 41-45 46-50 51-55 56-60 61-65 66-70 71-75 No. of students 9 6 15 3 1 2 2 1 1",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is mode? How is it calculated? State its merits.",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Draw the Histogram for the following data : Height in meters 0-3 3-6 6-9 9-12 12-15 No. of Trees 80 100 120 90 50",
+          "marks": 5,
+          "question_id": "1tg-6Dp2u-JzUPXShmz_9_gmG8LDsW-Dm_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1960,
+        "processed_at": "2026-06-06 15:14:34"
+      }
+    },
+    {
+      "pdf_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2024_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2024_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6261]-45",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3637",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/05/2024 14:03:45 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "For the following distribution, find (1) first 4 moments about any arbitrary point (2) Four Central Moments. X: 2, 2.5, 3, 3.5, 4, 4.5, 5. F: 5, 38, 65, 92, 70, 40, 10.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "The regression equations are 8x – 10y + 66 = 0 and 40x – 18y = 214. The value of variance of x is 9. Find : i) The mean values of x and y. ii) The correlation x and y and iii) The standard deviation of y.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The first four moments about the working mean 30.2 of distribution are 0.255, 6.222, 30.211 and 400.25. Calculate the first four moments about the mean. Also evaluate 1, 2 and comment upon the skewness and kurtosis of the distribution.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Obtain the regression lines y on x and x on y for the data : x: 5, 1, 10, 3, 9. y: 10, 11, 5, 10, 6.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "A Dice is thrown 10 times. If getting an odd number is a success. What is the probability of getting (i) 8 successes (ii) at least 6 success.",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "If the probability that an individual suffers a bad reaction from certain injection is 0.001. Determine the probability out of 2000 people, by using Poisson’s distribution (i) Exactly 3 (ii) More than 1 will suffer a bad reaction.",
+          "marks": 5,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "For a normal distribution when mean = 2, standard deviation = 4, find the probabilities of the following intervals. i) 4.43 < x < 7.29 ii) –0.43 < x < 5.39 [Given : A (z = 0.61) = 0.2291, A (z = 1.32) = 0.4066, A (z = 0.85) = 0.3023]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A Random variable X with following probability distribution X: 0, 1, 2, 3, 4. P(X): 0.1, k, 2k, 2k, k. Find : i) k ii) P(x < 2) iii) P(x > 3) iv) P(1 < x < 3)",
+          "marks": 5,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "In a continuous distribution density function. f (x) = kx (2 –x), 0 < x < 2. Find the value of i) k ii) Mean iii) Variance",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "MNC company conducted 1000 candidates aptitude test. The average score is 45 and the standard deviation of score is 25. Assuming normal distribution for the result. Find : i) The number of candidates whose score exceed 60. ii) The number of candidates whose score lies between 30 & 60. [Given : A (z = 0.6) = 0.2257]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "The table below gives the number of customers visit the certain company on various days of week. Days: Sun, Mon, Tue, Wed, Thurs, Fri, Sat. Number of Customers: 6, 4, 9, 7, 8, 10, 12. Test at 5% of level of significance whether customer visits are uniformly distributed over the days. [Given 2 6,0.05 = 15.592]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "In a Batch of 500 articles, produced by a machine, 16 articles are found defective. After overhauling the machine, it is found that 3 articles are defective in a batch of 100. Has the machine improved? [Given Z = 1.96]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "In two independent samples of size 8 and 10 the sum of squares deviations of the sample values from the respective sample means were 84.4 and 102.6. Test whether the difference of variances of the population is significance or not. [Given Ft,0.05 = 3.29]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "In an experiment on pea breeding, the following frequencies of seeds were obtained. Round and Green, Wrinkled and Green, Round and Yellow, Wrinkled and Yellow. 222, 120, 32, 150. Total 524. Theory Predicts that the frequencies should be in Proportion 8:2:2:1. Examine the correspondence between theory and experiment. [Given 2 3,0.05 = 7.815]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "For sample I : n1=1000, x1=49000, (x-x1)2=7,84,000. For sample II : n2=1500, x2=70500, (x-x2)2=24,00,000. Discuss the significance difference between mean score. [Given Z = 1.96]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Samples of size 10 and 14 were taken from two normal populations with standard deviation 3.5 and 5.2. The sample means were found to be 20.3 and 18.6. The whether the means of the two populations are at the same level. [Given t22,0.05 = 2.07]",
+          "marks": 6,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "State & prove Neyman-Pearson Fundamental Lemma.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Let P be the probability that a coin will fall head in a single toss in order to test H0:P=1/2 against H1:P=3/4. The coin is tossed 5 times and H0 is rejected if more than 3 heads are obtained. Find the probability of type I error and power of the test.",
+          "marks": 8,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Show that the likelihood ratio test for testing the equality of variances of two normal distribution is the usual F-test.",
+          "marks": 9,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on : i) Population and sample ii) Type I and Type II Error iii) Critical Region iv) Power of test",
+          "marks": 8,
+          "question_id": "1UBSE9LrBrjmf0yF5OzYTONDSsoBYtpfF_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5340,
+        "processed_at": "2026-06-06 15:14:42"
+      }
+    },
+    {
+      "pdf_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2024_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2024_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6352]-45",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2821",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2024 10:00:04 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the following terms : i) Skewness & Kurtosis ii) Regression",
+          "marks": 8,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A collar manufacturer is considering the production of a new style collar to attract young men. The following statistics of neck circumference are available based on the measurement of a typical group of students. Calculate mean and standard deviation. 12.5 13 13.5 14 14.5 15 15.5 16 Frequency 4 19 30 63 66 29 18 1",
+          "marks": 10,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The following marks have been obtained by a class of students in 2 papers of mathematics. Paper I 45 55 56 58 60 65 68 70 75 80 85 Paper II 56 50 48 60 62 64 65 70 74 82 90 Calculate the coefficient of correlation for the above data.",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Determine the equations of regression lines for the following data. Also find the values of i) y for x = 4.5 ii) x when y = 13 X 2 3 5 7 9 10 12 15 Y 2 5 8 10 12 14 15 16",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "10% of bolts produced by a machine are defective. Determine the probability that out of 10 bolts chosen at a random. i) 2 will be defective ii) at most 2 will be defective",
+          "marks": 5,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A dice is thrown 10 times. If getting an odd number is a success, What is the probability of i) 8 success ii) at least 6 success",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "For a normal distribution When mean = 2, standard deviation  = 4, find the probabilities of the following intervals. i) 4.43 < x < 7.29 ii) –0.43 < x < 5.39 [Given : A (z = 0.61) = 0.2291, A(z = 1.32) = 0.4066, A (z = 0.85) = 0.3023]",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A random variable X has the following probability distribution : i) Find k ii) Evaluate P (X < 6) iii) P(X > = 6) iv) P(0 < X < 5) X 0 1 2 3 4 5 6 7 P(X) 0 k 2k 2k 3k k2 2k2 7k2 + k",
+          "marks": 5,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Fit a Poisson distribution to the following data and calculate theoretical frequencies. x 0 1 2 3 4 Total f 109 65 22 3 1 200",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "The lifetime of an article has a normal distribution with mean 400 hours and standard deviation 50 hours. Find the expected number of articles out of 2000 whose lifetime lies between 335 hours to 465 hours. (Given : A (z = 1.3) = 0.4032)",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "In a Batch of 500 articles, produced by a machine, 16 articles are found defective. After overhauling the machine, it is found that 3 articles are defective in a batch of 100. Has the machine improved? (Given Z = 1.96)",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "The Table below gives the number of customers visit the certain company on various days of week Days Sun Mon Tue Wed Thurs Fri Sat Number of 6 4 9 7 8 10 12 Customers Test at 5% of level of significance whether customer visits are uniformly distributed over the days. [Given 2 6,0.05 = 15.592]",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Two random samples gave the following results. Test whether the samples came from the same normal population at 5% level of significance. Sample Size Sample mean Sum of squares of deviations from them mean 1 10 15 90 2 12 14 108 Given : F(0.05, (9, 11)) = 2.9",
+          "marks": 6,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A survey of 320 families with 5 children each revealed the following distribution : No. of boys 0 1 2 3 4 5 No. of family 12 40 88 110 56 14 Use chi-square test to test the hypothesis that data follows a binomial distribution (chi-square = 11.07 at 5% level of significance)",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A random sample of 10 boys had the following I.Q.’s : 70, 120, 110, 101, 88, 83, 95, 98, 107, 100. Do these data support the assumption of a population mean I.Q. of 100. Given : t(0.05,9) = 2.262.",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Let P be the probability that a coin will fall head in a single toss in order to test H0 : P = 1/2 against H1 : P = 3/4. The coin is tossed 5 times and H0 is rejected if more than 3 heads are obtained. Find the probability of type I error and power of the test.",
+          "marks": 8,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What do you mean by Non Parametric Test? State its advantages & disadvantages.",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Population and sample ii) Type I and Type II error iii) Critical Region iv) Power of test",
+          "marks": 8,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "State and prove Neyman-Pearson lemma for testing a simple hypothesis against a simple alternative hypothesis.",
+          "marks": 9,
+          "question_id": "1caaSUJh99ICJe0zTECVEfkYV8GLH7o50_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5045,
+        "processed_at": "2026-06-06 15:14:51"
+      }
+    },
+    {
+      "pdf_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2025_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2025_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6409]-225",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD28",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 14:07:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Statistics. Give importance of Statistics.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define Sampling. Write a note on random sampling.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the Scope of Statistics in Engineering & Technology.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the reasons of distrust of statistics? Explain with suitable example.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "If the population size is 7 and sample size is 3, find total number of possible samples i) With replacement ii) Without replacement",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a short note on statistical inference.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Draw a Histogram for the following frequency distribution. Classes: 0-20, 21-40, 41-60, 61-80, 81-100; Frequencies: 2, 18, 42, 28, 5. Also state the disadvantages of graphical representation of data (any two).",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "For a certain frequency table which has only been partly reproduced here. The mean was found to be 1.46. No. of accidents: 0, 1, 2, 3, 4, 5; Frequency: 46, -, -, 25, 10, 5. If N = 200, then find missing frequencies.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the merits and demerits of median and mode.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Draw a frequency polygon for the following frequency distribution. Marks obtained: 0-10, 10-20, 20-30, 30-40, 40-50; No. of students: 5, 12, 43, 32, 8.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Obtain median for the following frequency distribution. Marks obtained: 0-20, 21-40, 41-60, 61-80, 81-100; No. of students: 1, 9, 32, 16, 7.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What are the merits and demerits of Harmonic mean (2 each). Also calculate Harmonic mean of the following series. Values: 2, 6, 10, 14, 18; frequency: 4, 12, 20, 9, 5.",
+          "marks": 5,
+          "question_id": "1zD3uBEkv0h-BClJwzt6MCjhwGhUa_qEr_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2193,
+        "processed_at": "2026-06-06 15:15:03"
+      }
+    },
+    {
+      "pdf_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2025_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_may_jun_2025_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6402]-46",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4086",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/05/2025 09:34:23 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "The number of I-phones sold by the showroom was recorded for 15 days. Find the i) Range and Coefficient of range ii) Quartile deviation and coefficient of Quartile deviation For the following discrete distribution Day: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. Freq: 29, 14, 21, 100, 26, 38, 108, 19, 100, 74, 69, 104, 62, 92, 22",
+          "marks": 10,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Obtain the regression lines y on x and x on y for the data : X: 5, 1, 10, 3, 9. Y: 10, 11, 5, 10, 6",
+          "marks": 8,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Find the first four moments about any arbitrary point for the following data. Marks: 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39. No.of Students: 2, 1, 4, 5, 10, 75, 50, 74, 62, 15, 6. Also find i) Four central moments ii) Coefficient of skewness and kurtosis",
+          "marks": 10,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Compute the coefficient of correlation for the following data. X: 10, 14, 18, 22, 26, 30. Y: 18, 12, 24, 6, 30, 36",
+          "marks": 8,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "In a sample of 1000 cases the mean of a certain test is 14 and standard deviation is 2.5. Assuming the distribution to be normal find i) How many students score between 12 and 15? ii) How many score below 8? [Given: A(z=0.8)=0.2881, A(z=0.4)=0.1554, A(z=2.4)=0.4918]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "An unbiased coin is thrown 10 times. Find the probability that i) getting exactly 6 heads. ii) Getting at least 6 heads.",
+          "marks": 5,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "If the probability that an individual suffers a bad reaction from a certain injection is 0.001. Determine the probability that out of 2000 individuals i) Exactly 3 will suffer a bad reaction. ii) At most 1 will suffer a bad reaction",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A random variable X the following probability distribution. X: 1, 2, 3, 4, 5, 6, 7. P(X): k, 2k, 3k, k2, k2+k, 2k2, 4k2. Find : i) k ii) P(x>5) iii) P(0<x<5)",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "The number of breakdowns of a computer in a week is a Poisson variable with m=np=0.3. What is the probability that the computer will operate i) With no breakdown ii) At most one breakdown in a week.",
+          "marks": 5,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Mean and variance of Binomial Distribution are 6 and 2 respectively. Find i) P(r=0), ii) P(r<1)",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "A random sample of 16 newcomers gave mean of 1.67m and standard deviation of 0.16m. The mean height of the students of the previous year known to be 1.600m. At 5% significance level is the mean height of the newcomers significantly different from the mean height of the students population of the previous years? [Given t = 2.13]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "From the data given below. Intelligence tests of two groups of boys and girls gave the following results. Examine the difference is significant at 5% level of Significance. Girls: Mean=70, S.D.=10, Size=70. Boys: Mean=75, S.D.=22, Size=110. [Given Z = 1.96]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Following table shows number of books issued, on the various days of the week, from a certain library. At 5% level of significance test the null hypothesis that number of books issued independent of the day. Day: Mon, Tue, Wed, Thur, Fri, Sat. No.of books issued: 120, 130, 110, 115, 135, 110. [Given 2  = 11.071]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Find the F-statistics from the following data. Sample 1: Size(n)=8, Total Observations=9.6, Sum of squares=61.52. Sample 2: Size(n)=11, Total Observations=16.5, Sum of squares=73.26",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A school does a study about the occurrence of different colored eyes in its pupils. It is hypothesized that 15% of pupils will have green eyes, 25% of pupils will have blue eyes and 60% of pupils will have brown eyes. Of the 1000 pupils, 80 are chosen at random. The results of the sample are as follows. Green: 18, Blue: 28, Brown: 34. [Given 2  = 5.99]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A manufacturer claims that a special type of projector bulb has an average life 160 hours. To check this claim an investigator takes a sample of 20 such bulbs, puts on the test and obtains an average life 167 hours with standard deviation 16 hours. Assuming that the life time of such bulbs follows normal distribution, does the investigator accept the manufacturer’s claim at 5% level of significance? [Given t = 2.093]",
+          "marks": 6,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "State & Prove Neyman-Pearson Fundamental Lemma.",
+          "marks": 9,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A single observation is drawn from the distribution f(x,q) = 1/(2q) for -q <= x <= q. It is require to test H0 :  = 1 vs H1 :  = 1.5, H1 is rejected iff the observation is >1.7. Calculate the probability the errors of two kinds.",
+          "marks": 8,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Critical Region ii) Most powerful test iii) Advantages and disadvantages of non-parametric tests",
+          "marks": 9,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in detail likelihood ratio test and the properties of it.",
+          "marks": 8,
+          "question_id": "16jNNPKcR_WFH1LQypx5MxZ8swyQSQbdZ_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5475,
+        "processed_at": "2026-06-06 15:15:15"
+      }
+    },
+    {
+      "pdf_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2025_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/endsem_nov_dec_2025_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6582]-45",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4273",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/11/2025 09:51:29 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1)",
+          "subquestion": "a",
+          "question_text": "Calculate Mean and standard deviation from the following data. Marks obtained 0-5 5-10 10-15 15-20 20-25 25-30 30-35 35-40 No. of Students 2 5 7 13 21 16 8 3",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q1_a"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "b",
+          "question_text": "Calculate the coefficient of correlation for the ages of husbands and wives Ages of Husband 23 27 28 29 30 31 33 35 36 39 (Years) Ages of Wife (Years) 18 22 23 24 25 26 28 29 30 32",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q1_b"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "a",
+          "question_text": "Determine the equation of regression lines for the following data. Also find the value of i) y for x = 12 ii) x for y = 8 x 5 1 10 3 9 y 10 11 5 10 6",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q2_a"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "b",
+          "question_text": "The first four moments of a distribution at x = 2 are 1, 2.5, 5.5 & 16 then i) Calculate the first central moments ii) Find mean and standard deviation iii) Find the coefficient of skewness and kurtosis",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q2_b"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "a",
+          "question_text": "Out of 2000 families with 4 children each how many would expect to have i) at least a boy ii) Two boys iii) No girls",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q3_a"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "b",
+          "question_text": "Fit a Poisson’s distribution to the following data and calculate theoretical frequencies. x 0 1 2 3 4 Total f 109 65 22 3 1 200",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q3_b"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "c",
+          "question_text": "In a certain company install 2000 LED bulbs on each floor. If LED bulbs have average life of 1000 burning hours with standard deviation of 200 hours using normal distribution find what number of LED bulbs might to expected to fail in 700 hours (Given p(0 <z < 1.5) = 0.4332)",
+          "marks": 5,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q3_c"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "a",
+          "question_text": "A Random variable X with following probability distribution X -2 -1 0 1 2 3 P(X) 0.1 K 0.2 2K 0.3 3K Find i) k ii) P(X<2) iii) P(-2<X<2)",
+          "marks": 5,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q4_a"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "b",
+          "question_text": "In a continuous distribution density function f(x) = kx(1-x), 0 <= x <= 1, 0 otherwise Then find value of i) k ii) Mean",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q4_b"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "c",
+          "question_text": "For a normal distribution when mean = 1, standard deviation = 4, find the probabilities of the following intervals : i) 4.43 < x < 7.29 ii) -0.43 < x < 5.39 [Given: A(z = 0.61) = 0.2291, A(z = 1.32) = 0.4066, A(z = 0.85) = 0.3023]",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q4_c"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "a",
+          "question_text": "A set of five similar coins is tossed 210 times and the result is given in the following table. No.of heads 0 1 2 3 4 5 frequency 2 5 20 60 100 31 Use chi-square test to test the hypothesis that data follows a binomial distribution (chi-square = 11.07 at 5% level of significance)",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q5_a"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "b",
+          "question_text": "The height of college students in the city are normally distributed with S.D. 6 cms. A sample of 1000 students has mean height 158 cms test the hypothesis mean height of college students in the city is 160 cms? (Given Zα = 1.96 at 5% level of significance)",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q5_b"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "c",
+          "question_text": "The following table gives the number of units produced per day by 2 workers A and B for some days can we say that worker A is more stable than worker B? Worker A 40 30 38 41 38 35 Worker B 39 38 41 33 32 49 49 34 [Given F0.05 = 4.88 at degree of freedom (7,5)]",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q5_c"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "a",
+          "question_text": "Following table shows number of books issued on the various days of week from a certain library At 5% level of significance test the null hypothesis that number of books issued in department of the day Day Mon. Tue. Wed. Thurs. Fri. Sat No. of Books 120 130 110 115 135 110 Given: Chi-square =11.071 at 5% level of significance for degrees of freedom 5",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q6_a"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "b",
+          "question_text": "Before increasing the excise duty it is observed that out of a sample 1000 persons 800 were coffee drinkers After an increase in the duty out of 1200 persons, 800 were found to be coffee drinkers. Is there a significance decrease in coffee consumption after increasing the excise duty (Given Zα = 1.96 at 5% level of significance)",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q6_b"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "c",
+          "question_text": "Sample of size 10 and 14 were taken from two normal population with standard deviation 3.5 and 5.2 The sample means were found to be 20.3 and 18.6 test whether the means of two population are at the same level? Given t0.05, 22 = 2.07",
+          "marks": 6,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q6_c"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "a",
+          "question_text": "State & Prove Neyman-Pearson Fundamental Lemma.",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q7_a"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "b",
+          "question_text": "Let p be the probability that a coin will fall head in a single toss in order to test H0 : P = 1/2 Vs. H1 : P = 3/4 The coin is toss 5 times and H0 is rejected if more than 3 heads are obtained. Find the probabilities of Type I and Type II error.",
+          "marks": 8,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q7_b"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "a",
+          "question_text": "Write short notes on : i) Critical region ii) Type I and Type II error iii) Level of significance iv) Most powerful test",
+          "marks": 8,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q8_a"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "b",
+          "question_text": "If x > 1 is the critical region for testing H0: θ = 2 against the alternative H1: θ = 1 on the basis of the single observation from the population. f(x,θ) = θ e^–θx, 0 < x < , obtain the values of type I, type II error and also find power of function of the test.",
+          "marks": 9,
+          "question_id": "1EfjsKKzpi-fWZuQkiNa_CzRTHy7CzK1l_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5553,
+        "processed_at": "2026-06-06 15:15:39"
+      }
+    },
+    {
+      "pdf_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2026_aids_sa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/statistics_aids/insem_mar_2026_aids_sa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "STATISTICS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "Apr-26/SE/Insem-265",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217528",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF216",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 09/03/2026 13:59:12 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is population and sample? Give a difference between them?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define sampling? What are type of sampling and explain any one?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is statistics? Give importance and limitations of statistics?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the scope of statistics in engineering and technology?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain Stratified sampling with suitable example?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain parameter and Statistics with suitable example?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Calculate the Arithmetic mean for the following distribution Class Interval 0-8 8-16 16-24 24-32 32-40 40-48 Frequency 8 7 16 24 15 7 Also states merits and demerits of Arithmetic mean (2 each)?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "An incomplete frequency distribution is given as follows. Class 10-20 20-30 30-40 40-50 50-60 60-70 70-80 Frequency 12 30 - 65 - 25 19 Total frequency 230 and median value is 46 then determine the missing frequencies?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw a frequency polygon for the following data Monthly house rent 0-10 10-20 20-30 30-40 40-50 50-60 No. of families 4 6 20 10 7 3 And also state the advantages of graphical representation of data?",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is a histogram? Draw the histogram for the following data. Age group (in years) 10-19 20-29 30-39 40-49 50-59 60-69 70-79 Population 4 12 20 18 14 25 10",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Calculate the mode for the following distribution: Marks 0-4 4-8 8-12 12-14 14-18 18-20 20-24 24-28 Number of students 10 12 18 7 5 3 4 6",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "From the following data calculate Harmonic mean Class interval 10-20 20-30 30-40 40-50 50-60 Frequency 30 75 70 135 220 also write merit and demerit of Harmonic mean",
+          "marks": 5,
+          "question_id": "1IgYdQGFBM8ytGjxsNobgfUzSOvSZFtfO_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2421,
+        "processed_at": "2026-06-06 15:15:50"
+      }
+    }
+  ]
+}

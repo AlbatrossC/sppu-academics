@@ -1,0 +1,1982 @@
+{
+  "subject_name": "Foundation Engineering",
+  "subject_slug": "foundation_engineering_ce",
+  "branch": "ce",
+  "semester": "be",
+  "papers": [
+    {
+      "pdf_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2022_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2022_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[5927]-328",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-906",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/01/2023 13:48:53 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the following terms: i) Coeff. of Compressibility ii) Compression Index iii) Coefficient of volume Compressibility iv) Degree of Consolidation v) Coeff. of Consolidation.",
+          "marks": 5,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Draw contact pressure diagram for surface and deep footing in clay for flexible and rigid footing.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "An oedometer test gives time for 90% consolidation as 16 minutes on a 20 mm thick specimen (double drainage). Determine the time required for 50% consolidation for a clay bed 3m thick with single face drainage.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss with sketch, logarithm of time fitting method for determination of coefficient of consolidation.",
+          "marks": 5,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the following terms: i) Normally consolidated soil ii) Pre consolidated soil iii) Under consolidated soil.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "The overburden pressure at the middle of 7.5 mm thick clayey layer increased from 2kg/cm2 to 3.5kg/cm2. Find the settlement due to consolidation assuming liquid limit and initial void ratio of the clay as 36% and 0.82 respectively.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss the necessity of pile foundation.",
+          "marks": 5,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is negative skin friction? How it is calculated for single pile embedded in two layers of clay.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "20 piles are arranged in four rows and five columns. Calculate the efficiency of the pile group by Feld’s rule.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the procedure for calculation of bearing capacity of single pile by static method?",
+          "marks": 5,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss static pile load test.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A circular pile with 0.35m diameter and 10m length penetrates a deposit of clay having cohesion 5 kN/m2 and mobilizing factor of 0.8. Calculate the ultimate frictional resistance of the pile.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain design steps of raft foundation by conventional (rigid) method.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Draw well foundation and state the function of each component.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write a note on i) Uses of caissons ii) Sand island method",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the steps involved in proportioning of isolated footing.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define shift and tilt of well foundation. Enlist any four ways to rectify the tilt.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "How the depth of well foundation is decided? Enlist the forces acting on well foundation.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Enlist types of cofferdams. Explain any one type with a neat sketch.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss the design principle of undreamed pile.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe Stone Column Technique with a neat sketch.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss preloading with prefabricated vertical drains/sand drains with a neat sketch.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain with a neat sketch the construction method of R.C. diaphragm wall.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Describe engineering problems associated with black cotton soil.",
+          "marks": 6,
+          "question_id": "17hyvbNC32aFGbUSGLOOKXGbsVhExixQk_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3253,
+        "processed_at": "2026-06-12 00:50:39"
+      }
+    },
+    {
+      "pdf_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_oct_2022_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_oct_2022_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "Oct-22/BE/Insem-27",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P8458",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/10/2022 13:42:22 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the purpose of soil exploration (any 5).",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe Standard Penetration test.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The inner diameters of sampling tube and that of cutting edge are 72 mm and 70 mm respectively. Their outer diameters are 74 mm and 76 mm respectively. Determine the inside clearance, outside clearance and area ratio of sampler. Comment on suitability of sampler.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss IS Criteria for depth of bore holes in subsurface investigations.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss pressure metertest with a neat sketch.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain in detail ‘Seismic refraction method’.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define the terms : i) Ultimate bearing capacity ii) Net ultimate bearing capacity iii) Net safe bearing capacity iv) Gross safe bearing capacity v) Allowable soil pressure",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the modes of shear failure.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Plate load test was conducted on a square plate of size 0.3 mm in clay. The settlement observed was 4 mm. Determine the settlement of square footing of size 2 m under the same load intensity.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe Meyerhof’s bearing capacity theory.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Terzaghi’s bearing capacity equation for strip, rectangular and circular footing with meaning of all terms.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the effect of water table on bearing capacity.",
+          "marks": 5,
+          "question_id": "1KOwNMJWpw6qs02u4jqFr4XrjLZ-hlsa5_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1898,
+        "processed_at": "2026-06-12 00:50:41"
+      }
+    },
+    {
+      "pdf_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2023_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2023_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engg",
+        "paper_number": "[6004]-452",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P530",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/06/2023 14:40:51 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain spring analogy with respect with respect to consolidation process.",
+          "marks": 5,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain with sketches how contact pressure changes according to type of soil and type of footing.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "A soil stratum is 10 m thick with pervious stratum on top and bottom. Determine the time required for 50% consolidation. Use following data (i) coefficient of permeability of soil = 10-9 m/s.(ii) Coefficient of compression = 0.003 m2/kN. (iii) void ratio =2.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "A rectangular footing 2 m × 3 m carries a column load of 600 kN at a depth of 1 m. The footing rests on c -  soil strata, 6 m thick having Poisson’s ratio of 0.25 and Young’s modulus of elasticity as 20000 kN/m2 . Calculate the immediate elastic settlement of the footing. Take influence factor = 1.06.",
+          "marks": 5,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain square root of time fitting method to determine coefficient of consolidation.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Define (i) normally consolidated soil (ii) pre consolidated soil (iii) degree of consolidation.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Give classification of piles based on function.",
+          "marks": 5,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is negative skin friction? How will you calculate the negative skin friction for a single pile?",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Calculate the efficiency of 15 piles arranged in three rows and 5 columns by Feld’s rule. Take pile diameter = 300 mm and spacing of pile (both ways) = 0.8 m.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the principle used in dynamic methods to calculate pile capacity? Write Engineering News Formula with meaning of each term.",
+          "marks": 5,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the static pile load test in detail.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A 3 × 3 pile group with pile diameter and pile length of 300 mm and 10 m respectively is embedded in soft clay with cohesion of 70 kN/m2. The spacing between the piles (both ways) is 90 cm and adhesion factor is 0.6. Calculate the capacity of the pile group. Take factor of safety = 2.5. Neglect end bearing.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss the design principles involved in design of raft foundation by flexible (elastic) method.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Write a note on (i) Floating raft (ii) types of shallow foundation.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "When following types of footings are used (i) Combined rectangular (in plan) footing (ii) Trapezoidal (in plan) footing (iii) Strap footing.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Enlist the uses of caissons and write a note on caisson disease.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the components of Pneumatic Caissons with a neat sketch.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Draw a sketch of well foundation and give names to all parts.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain any two types of cofferdams.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the procedure of swelling pressure test with a neat sketch.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss stone column technique with a neat sketch.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write a note on ‘construction of diaphragm wall’.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Draw a vertical section of underreamed pile with two bulbs. Name various parts.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss vibro flotation technique with a neat sketch.",
+          "marks": 6,
+          "question_id": "1rbej_5eZY2ieAHzY0-4htuMAa2Ciy4Yo_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3465,
+        "processed_at": "2026-06-12 00:50:47"
+      }
+    },
+    {
+      "pdf_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2023_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2023_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6181]-72",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-6523",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 30/11/2023 13:31:42 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Normal consolidation, over consolidation and Pre-consolidation Pressure.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A normally consolidated clay stratum of 5m thickness has two permeable layers at its top and bottom. The liquid limit and the initial void ratio of clay are 40% and 0.85 respectively. While the initial overburden pressure at the middle of clay layers is 300kPa. Due to the construction of a new building, this pressure increases by 150 kPa. Compute the probable primary consolidation settlement (expressed in mm) of the building.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What are the different types of foundation settlements? Explain in detail.",
+          "marks": 5,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss with sketch logarithmic of time fitting method for determination of coefficient of consolidation.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "An undisturbed sample of clay 24mm thick consolidated 50% in 20 minutes when tested in the laboratory, with drainage allowed at the top and bottom. The clay layer from which the sample was obtained is 4m tick in the field. How much time will it take place to consolidate 50% with a single drain?",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is contact pressure? Draw contact pressure distribution of a rigid footing on sandy and clayey soil strata.",
+          "marks": 5,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist the classification of piles and explain with neat sketch pile classified with respect to function.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A circular pile section with 0.35 m diameter and length of 10m penetrates into the clay having c = 50 KN/m2 and mobilization factor = 0.8. Calculate the safe load with a factor of safety = 2.5. Neglect the bearing resistance.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Negative Skin Friction. How it is determined. Also explain how it is prevented.",
+          "marks": 5,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are the conditions where a pile foundation is more suitable than a shallow foundation?",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design square pile group to carry 500 kN load in clay with an unconfined compressive strength of 80 kN/m2. The pile is 30cm diameter and 8m long and adhesion factor 0.6. Use FS = 3.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain in brief efficiency of pile group.",
+          "marks": 5,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Sketch and describe the various components of the well foundation, indicating functions of each component.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the procedure for proportioning of footing for equal settlement.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is Caisson? How Caissons are classified based on methods of construction?",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss tilts and shifts : precautionary and remedial measures of well Foundation.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain design steps of raft foundation by elastic (flexible) method.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is meant by shallow foundations? What .are the principles of the design of footing?",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss preloading with prefabricated vertical drains/sand drains with a neat sketch.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the effect of swelling and shrinkage of expansive soils on building constructed. Also, enlist the precautions to be taken. Illustrate with sketches.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Enlist types of cofferdams. Explain any one type with neat sketch.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss design principle of undreamed pile.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain any four engineering problem associated with black cotton soil.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "List out the various techniques of soil improvement. Explain any one.",
+          "marks": 6,
+          "question_id": "1ECkV26-OZGR7OQnJuJlzCLIijkqnF7lJ_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4094,
+        "processed_at": "2026-06-12 00:50:51"
+      }
+    },
+    {
+      "pdf_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2023_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2023_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6188]-127",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P5175",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/09/2023 13:47:58 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write a note on purpose and planning of subsurface exploration.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss SPT and what are the various corrections? What is the importance of the test?",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain percussion drilling with its advantages and disadvantages.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketches electrical Resistivity method.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is R.Q.D., How rating of rock quality is decided based on R.Q.D.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A sampling tube of 100 mm diameter and 2 mm thick. It is fitted with cutting edge. The inside diameter of cutting edge is flushed with sampling tube. The cutting edge is 3 mm thick. Compute inside clearance, outside clearance, and area ratio. Comment on sample collected by tube.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write a note on plate load test. Also explain limitations of plate load test.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a note on effect of water table on bearing capacity.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Discuss with neat sketches the modes of shear failure in soil.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Enlist the assumptions in Terzaghi’s bearing capacity theory. State Terzaghi’s bearing capacity equation with meaning of each term.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe Meyerhof’s bearing capacity theory.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A 30 cm square bearing plate settles by 8 mm in the plate load test on cohesionless soil, when the intensity of loading is 180 kN/m2. Estimate the settlement of shallow foundation of 1.6 m square under the same intensity of loading.",
+          "marks": 5,
+          "question_id": "15qBIUkb2w8ZiksT58-DXqlcKEYu90baK_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1959,
+        "processed_at": "2026-06-12 00:50:54"
+      }
+    },
+    {
+      "pdf_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2024_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2024_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[6263]-53",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2216",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/05/2024 13:36:52 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1)",
+          "subquestion": "a",
+          "question_text": "Enlist the assumptions of Terzaghi’s consolidation theory.",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q1_a"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "b",
+          "question_text": "Discuss the different causes of differential settlement. Mention the meausres to avoid it.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q1_b"
+        },
+        {
+          "question_number": "Q1)",
+          "subquestion": "c",
+          "question_text": "In a consolidation test the void ratio decreases from 0.7 to 0.65 when the load was changed from 50 kN/m2 to 100kN/m2. Calculate compression index coefficient of volume change.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q1_c"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "a",
+          "question_text": "Explain in detail significant depth of foundation.",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q2_a"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "b",
+          "question_text": "Define i) Over consolidation ratio ii) Normally consolidated soil iii) Over consolidated soil",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q2_b"
+        },
+        {
+          "question_number": "Q2)",
+          "subquestion": "c",
+          "question_text": "A consolidation test on a sample of clay having thickness of 2.3cm indicates half of consolidation in first 5 minutes, under similar condition how long the strata of 6m thick will take time for half consolidation with single drainage.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q2_c"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "a",
+          "question_text": "Write a note on classification of pile according to function.",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q3_a"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "b",
+          "question_text": "Explain the concept of field rule to calculate the efficiency of pile group with example.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q3_b"
+        },
+        {
+          "question_number": "Q3)",
+          "subquestion": "c",
+          "question_text": "A wooden pile is being driven with a drop hammer weighing 20 kN and having a free fall of 1.0 m. The penetration in last below is 5 mm. Determine the load carrying capacity of pile according to the Engineering News Formula.",
+          "marks": 7,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q3_c"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "a",
+          "question_text": "Discuss the negative skin friction with neat sketch How it is calculated for single pile?",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q4_a"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "b",
+          "question_text": "Write a note on uplift capacity of pile.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q4_b"
+        },
+        {
+          "question_number": "Q4)",
+          "subquestion": "c",
+          "question_text": "In a 16 piles group, the pile diameter is 45 cm and c/c spacing of the square group is 1.5 m. if cohesion is 50 kN/m2. Determine whether failure would occur with the pile acting individually or as a group? Neglect the bearing at the tip of the pile. All piles are 10 m long. Take m is 0.7 for shear mobilization around each pile.",
+          "marks": 7,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q4_c"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "a",
+          "question_text": "Write down the steps involved in proportioning of footing.",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q5_a"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "b",
+          "question_text": "When following footing types are recommended i) trapezoidal footing ii) strap footing",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q5_b"
+        },
+        {
+          "question_number": "Q5)",
+          "subquestion": "c",
+          "question_text": "Enlist the components of well foundation with neat sketch.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q5_c"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "a",
+          "question_text": "Explain the concept of floating raft.",
+          "marks": 5,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q6_a"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "b",
+          "question_text": "Write a note on determination of i) Scour depth ii) Bearing capacity of well foundation",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q6_b"
+        },
+        {
+          "question_number": "Q6)",
+          "subquestion": "c",
+          "question_text": "What is tilts and shifts of well foundation? How they are rectified?",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q6_c"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "a",
+          "question_text": "Discuss any three types of cofferdams with neat sketch.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q7_a"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "b",
+          "question_text": "Explain how to evaluate swelling potential of black cotton soil.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q7_b"
+        },
+        {
+          "question_number": "Q7)",
+          "subquestion": "c",
+          "question_text": "Write a note on interlocking circular piles.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q7_c"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "a",
+          "question_text": "Explain the different engineering problems associated with black cotton soil.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q8_a"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "b",
+          "question_text": "Enlist the different applications of cofferdam.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q8_b"
+        },
+        {
+          "question_number": "Q8)",
+          "subquestion": "c",
+          "question_text": "Discuss the preloading techniques with neat sketch.",
+          "marks": 6,
+          "question_id": "1Uj1SUkpgRNu85Hy62o7RyNhXpsY-c6mJ_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3355,
+        "processed_at": "2026-06-12 00:50:59"
+      }
+    },
+    {
+      "pdf_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2024_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2024_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[6354] - 457",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hour",
+        "paper_identifier": "PC-2341",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/12/2024 13:43:36 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define pre-consolidation pressure. How it is determined?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Square root of time fitting method for determination of coefficient of consolidation.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "In a consolidation test void ratio decreased from 0.75 to 0.70, when the load was changed from 50 KN/m2. Compute compression index of volume change.",
+          "marks": 5,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the different types of foundation settlement? Explain in detail.",
+          "marks": 5,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain laboratory consolidation test with i) Neat sketch with procedure ii) Different consolidation parameters obtain during test.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A soil stratum is 10 m thick with pervious stratum on top and bottom. Determine the time required for 50% consolidation. Given that coefficient of permeability =10–7 cm/s, coefficient of compression = 0.0003 cm2/gm, void ratio = 2 and time factor = 0.197.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is negative skin friction? Explain with figure.",
+          "marks": 5,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A group of 16 piles of 50 cm diameter is arranged with a centre to centre spacing of 1.0m. The piles are 9 m long and are embedded in soft clay with cohesion 30 kN/m2 . Bearing resistance may be neglected for the piles (Adhesion factor 0.6). Determine the ultimate load capacity of the pile group.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Enlist the methods of determining pile capacity. Explain any two methods in short.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What methods you can use for determining pile capacity. Explain any two methods in short.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A group of 9 piles, 10 m long is used as a foundation for bridge pier. The piles used are 30 cm diameter with centre to centre spacing of 0.9 m. The subsoil consists of clay with unconfined compressive strength of 1.5 kg/cm2. Determine the efficiency neglecting the bearing action. Assume adhesion factor = 0.9.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "How do you classify pile according to different criteria?",
+          "marks": 5,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is Caisson? How Caissons are classified based on methods of construction?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Sketch and describe the various components of well foundation, indicating functions of each component.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is pier? Explain methods of installation of pier.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is mean by shallow foundations? What are the principles of design of footing?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is mean by raft foundation? Explain any two types of raft foundation?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "How do you find out the bearing capacity and depth of well foundation? What are the forces acting on well foundations?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is sheet pile wall? Differentiate between cantilever sheet pile wall and anchored sheet pile wall.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain vibro-floatation of soil improvement.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write a short note on problems and its solution Black cotton soil?",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Cofferdams types and its applications",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain stone column techniques of soil improvement.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What is diaphragm wall? Explain with neat sketch construction of diaphragm wall.",
+          "marks": 6,
+          "question_id": "1wQOOPKqkCPZ8HOaTuc6kl56ZrLYrMy1c_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3877,
+        "processed_at": "2026-06-12 00:51:04"
+      }
+    },
+    {
+      "pdf_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2024_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_sep_2024_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6361]-27",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC170",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 31/08/2024 13:40:03 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is significant depth? How would you decide the depth of exploration?",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain with sketches Electrical Resistivity Method.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain N value correction and significance.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketch a typical ‘Core Log’. Indicate core recovery and RQD values for various rock types/layers.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain percussion drilling with its advantages and disadvantages.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A sampling tube of 72 mm diameter and 1mm thick. It is fitted with cutting edge. The inside diameter of cutting edge is flushed with sampling tube. The cutting edge is 1.5 mm thick. Compute inside clearance, outside clearance and area ratio. Comment on sample collected by tube.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Enlist the assumptions in Terzaghi’s bearing capacity theory. State Terzaghi’s bearing capacity equation with meaning of each term.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a note on plate load test. Also explain limitations of plate load test.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a note on effect of water table on bearing capacity.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss the modes of bearing capacity failure.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe Meyerhof’s bearing capacity theory.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Compute safe bearing capacity of a continuous footing 1.8m wide and located at a depth of 1.2 m below ground level in a soil having unit weight = 20 KN/m3,C=20KN/m2 and ø = 20º. Assume factor of safety 3. Terzaghi’s bearing capacity factors for ø = 200 are Nc = 17.7, Nq = 7.4 and N = 5.0.",
+          "marks": 5,
+          "question_id": "1mcONXASSMIDzaZXCGB2zQS0shOF27XNn_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2178,
+        "processed_at": "2026-06-12 00:51:07"
+      }
+    },
+    {
+      "pdf_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_aug_2025_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/insem_aug_2025_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6580]-531",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-174",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/08/2025 13:33:32 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in detail “Soil exploration for an important building project”.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain N value correction and significance.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a note on ‘Dynamic Cone Penetration Test’ (DCPT).",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain in detail ‘Seismic refraction method’.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw a neat sketch of Static Cone Penetration Test and explain how this test is performed in the field.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with sketch a typical ‘Core Log. Indicate core recovery and RQD values for various rock types/ layers.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define the terms: i) Ultimate bearing capacity ii) Net ultimate bearing capacity iii) Net safe bearing capacity iv) Gross safe bearing capacity v) Allowable soil pressure",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Terzaghi’s bearing capacity equation for strip, rectangular and circular footing with meaning of all terms.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a note on effect of eccentricity of loading.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Differentiate between Terzaghi’s and Meyerhofs analysis of bearing capacity.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail with neat sketch bearing capacity evaluation by plate load test.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "For a general c - , cohesion c = 50 kPa, the total unit weight  = 20 KN/m3 and the bearing capacity factors are Nc = 8, Nq = 3. and N = 2. Using Terzaghis formula only, estimate the safe total load on a footing 10 m long by 2 m wide strip footing, using a factor of safety of 3.",
+          "marks": 5,
+          "question_id": "1G6jZ9T8og-U63gwTGMWwSqW6lhvJQEYQ_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2156,
+        "processed_at": "2026-06-12 00:51:10"
+      }
+    },
+    {
+      "pdf_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2025_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_may_jun_2025_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6404]-53",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4549",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/05/2025 13:36:49 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the laboratory consolidation (Oedometer) test and its applications.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the graphic procedure for determination of preconsolidation pressure.",
+          "marks": 5,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "If the average effective stress on 3.1m thick clay layer (e0 = 0.95, WL=60%) sandwiched between top pervious and bottom impervious layer increases from 76.45 kN/m2 to 115 kN/m2 .Calculate total consolidation settlement. If coefficient of consolidation is 5.6mm2/min, how may days it will take to reach 50% consolidation settlement, assume time factor of 0.197.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State any six assumptions of Terzaghi’s 1-dimensional consolidation Theory.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain logarithm-of-time method for determination of coefficient of consolidation.",
+          "marks": 5,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "For a normally consolidated clay, 0= 200 kN/m2 e=e0 = 1.22, 0+ ’=400 kN/m2 e = 0.98. The hydraulic conductivity, k, of the clay for the loading range is 0.61 × 10–4 m/day. How long (in days) will it take for a 4-m-thick clay layer (drained on one side) in the field to reach 60% consolidation? Assume for U= 60%, the value of T60 = 0.286.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketch the separation of pile load into skin friction and point resistance using cyclic pile load test.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the classification of piles based on mode of transfer of loads.",
+          "marks": 5,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain Feld’s rule for calculation of efficiency of pile groups. Determine the group capacity, for group of 10 piles, arranged in 3 rows spaced at 1m c/c. if single pile capacity is 450 kN.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the consolidation settlement of pile group using approximate method with neat sketch.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the Micropiles? Give the applications of Micropiles.",
+          "marks": 5,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A square pile group (3×3 formation) consist of 9 piles of 30 cm diameter, center to center distance of 0.75 m and 10 m length driven in the clay Cu = 100 kN/m2, = 20kN/m3, Determine the safe load for the group if Nc = 9, factor of safety FS=3 and adhesion factor =0.6.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of floating raft with neat sketch.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "List the forces considered in the design of Well Foundations and explain any two forces in detail.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Distinguish the assumptions involved in analysis of a raft foundation by Rigid Foundation (Conventional Method) and Simplified elastic (Flexible) Foundation Method.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain proportioning of combined trapezoidal footing with neat sketch.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the depth selection and ultimate bearing capacity of well foundation.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch the remedial measures for rectification of Tilts during sinking of well.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are coffer dams? Explain any one Cellular coffer dams with neat sketch.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch the design principles to be followed for construction of foundations on black cotton soil.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain R C Diaphragm Wall-Construction stages with neat sketch.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain with neat sketch the load carrying capacity of under-reamed pile in clayey soils.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "List the methods for evaluation of swelling potential. Explain any one method for measurement of swelling pressure.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain the soil improvement method by pre loading with prefabricated vertical drains.",
+          "marks": 6,
+          "question_id": "1fvVBJ0uLzjqlnXKuGkb2h9g7TN1LtgI2_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 4003,
+        "processed_at": "2026-06-12 00:51:16"
+      }
+    },
+    {
+      "pdf_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2025_ce_fec_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/foundation_engineering_ce/endsem_nov_dec_2025_ce_fec_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FOUNDATION ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engg.",
+        "paper_number": "[6584]-67",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "401001",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE2168",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/12/2025 13:40:51 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the term: i) Coeff. of Compressibility. ii) Compression Index. iii) Coeff. of volume Compressibility. iv) Degree of Consolidation v) Coeff. of Consolidation.",
+          "marks": 5,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A soil stratum is 10 m thick with pervious stratum on top and bottom. Determine the time required for 50% consolidation. Given that coefficient of permeability = 10–7 cm/s, coefficient of compression = 0.0003 cm2/gm, void ratio = 2 and time factor = 0.197.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch laboratory consolidation test.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is contact pressure? Draw contact pressure distribution of a rigid footing on sandy and clayey soil strata.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "In a consolidation test void ratio decreased from 0.75 to 0.70, when the load was changed from 50kN/m2. Compute compression index of volume change.",
+          "marks": 5,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss with sketch Square root of time fitting method for determination of coefficient of consolidation.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the conditions where a pile foundation is more suitable than a shallow foundation?",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A group of 9 piles, 10m long is used as a foundation for bridge pier. The piles used are 30 cm diameter with centre to centre spacing of 0.9m. the subsoil consists of clay with unconfined compressive strength of 1.5kg/cm2. Determine the efficiency neglecting the bearing action. Assume adhesion factor = 0.9.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain in brief efficiency of pile group.",
+          "marks": 5,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "How do you classify piles according to different criteria?",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A group of 16 piles of 50 cm diameter is arranged with a centre to centre spacing of 1.0m. The piles are 9m long and are embedded in soft clay with cohesion 30kN/m2. Bearing resistance may be neglected for the piles (Adhesion factor 0.6). Determine the ultimate load capacity of the pile group.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Define Negative Skin Friction. How it is determined. Also explain how it is prevented.",
+          "marks": 5,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss the procedure for proportioning of footing for equal settlement.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss tilts and shifts: precautionary and remedial measures of well Foundation.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain design steps of raft foundation by elastic (flexible) method.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is meant by shallow foundations? What are the principles of the design of footing?",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Caisson? How Caissons are classified based on methods of construction?",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Sketch and describe the various components of the well foundation, indicating functions of each component.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the effect of swelling and shrinkage of expansive soils on building constructed. Also, enlist the precautions to be taken. Illustrate with sketches.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss design principle of undreamed pile.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "List out the various techniques of soil improvement. Explain any one.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss preloading with prefabricated vertical drains/sand drains with a neat sketch.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain any four engineering problem associated with black cotton soil.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Enlist types of cofferdams. Explain any one type with neat sketch.",
+          "marks": 6,
+          "question_id": "1z8-XTei_LacvQntT-TLGwYqWT_7FjbPY_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3986,
+        "processed_at": "2026-06-12 00:51:21"
+      }
+    }
+  ]
+}

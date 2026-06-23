@@ -1,0 +1,862 @@
+{
+  "subject_name": "Data Structures & Algoriths",
+  "subject_slug": "data_structures_and_algoriths_aiml",
+  "branch": "aiml",
+  "semester": "sem-3",
+  "papers": [
+    {
+      "pdf_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2024_aiml_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2024_aiml_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES & ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "A.I&M.L",
+        "paper_number": "[6352]-69",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218542",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-2845",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/11/2024 09:50:00 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Convert following Infix Expression to Postfix and evaluate using stack (A/B–C+D*E) A = 30 B = 2 C = 5 D = 10 E = 6",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is queue? How they are represented in memory? Write a pseudocode to implement insert & delete operation in a linear queue using array.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is priority queue? How insertion & deletion operation is performed? Explain with example.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Convert following expression into postfix form. (Show all intermediate steps) ((A + B) - C * (D / E)) + F",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the concept of linear queue and circular queue.Give the advantages of circular queue over linear queue. Write C/C++ code to implement enqueue & degueue operation on circular queue.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is linked stack? Write a C/C++ code to implement insertion & deletion operation on it.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "In a given BST write the output of inorder, preorder, postorder, level wise traversals. Also draw mirror image.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss algorithm for recursive and non recursive inorder traversal.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Construct BST from below data lnorder - 17, 32, 44, 48, 50, 62, 78, 88 Postorder - 32, 17, 48, 62, 50, 88, 78, 44",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Construct the expression tree from the following prefix expression using stack. /, * , – , 4, 7, 9, 3",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State and explain algorithm to display binary tree level wise with the help of sample tree.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Draw and explain how Threaded Binary Tree is efficient than Binary tree.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "In the following graph, consider ‘A’ is the source. Apply Kruskal’s algorithm to get minimum spanning tree.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Find the Optimal Binary Search Tree for the : Identifier set {al, a2, a3} = {do, if, while} Where n = 3 and Probabilities of successful search as {pl, p2, p3) = {0.5, 0.1, 0.05) and Probability of unsuccessful search as {q0, q1, q2, q3) = {0.15, 0.1, 0.05, 0.05)",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain the heap data structure &it’s types with the help of sample heap tree.",
+          "marks": 5,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Construct AVLtree for following set of keys : A, Z, B, Y, C, X, D, E, V, F, M, R. Show the balance factor of all the nodes & name the’ type of rotation used.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Show the output of Breadth First Search using stack. Use ‘d’ as a starting node",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "If ‘5’ is the source, find the shortest path from source to all vertices, using Dijkstra’s algorithm. Show answer step by step.",
+          "marks": 5,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Create the hash table using Linear Probing. Table size : 15 Data : 30, 61, 46, 77, 33, 93, 105, 70, 1 Hash function: data% table size",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain with example characteristics of good hash function.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss an algorithm to delete a record from the sequential file.",
+          "marks": 5,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss chaining with replacement technique to handle collision. Mention suitable example.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Compare sequential, Index sequential and direct access file organization.",
+          "marks": 6,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Give an algorithm to merge two sequential files into third new sequential file.",
+          "marks": 5,
+          "question_id": "18znsEbw7_Dl2iVWvblT2NemVFqdoYHes_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 4013,
+        "processed_at": "2026-06-12 00:45:54"
+      }
+    },
+    {
+      "pdf_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_sep_2024_aiml_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_sep_2024_aiml_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES & ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & ML",
+        "paper_number": "[6359]-533",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218542",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC413",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/10/2024 10:40:57 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write sudo code for inserting an element in doubly linked list.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss various asymptotic notations used to analyze algorithms.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist differences between Data & Data object.",
+          "marks": 3,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with the help of examples how row-major & column-major address calculations are performed for multi-dimensional arrays.",
+          "marks": 8,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write sudo code delete a specified element from a singly circular list.",
+          "marks": 7,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss various sorting-algorithm characteristics.",
+          "marks": 3,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Establish comparative analysis of merge sort & Quick sort algorithms.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write sudo code & dry-run for binary search algorithm.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss the importance of sort-stability with respect to sorting algorithms.",
+          "marks": 3,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss the time complexity of following sorting algorithm. i) Shell sort. ii) Merge sort. iii) Quick sort.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write sudo code & dryrun for fibonacci search.",
+          "marks": 6,
+          "question_id": "190XXwi-YMg84RBdBDWKxFRPv7r-eVF2z_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1414,
+        "processed_at": "2026-06-12 00:45:57"
+      }
+    },
+    {
+      "pdf_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_may_jun_2025_aiml_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_may_jun_2025_aiml_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES & ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "AI&ML",
+        "paper_number": "[6402]-65",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218542",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4105",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/05/2025 09:40:13 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write sudo code to read a valid postfix expression and evaluate the same.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist the applications of double ended queue & priority queue.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Establish queue over flow and under flow conditions for linear, when sequential organization is used with max elements N.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Clearly indicate the content of stack during conversion of infix expression to prefix expression. i) (A + B) $ (D – E) / (F + G/ I * 2) ii) 5/× $ y – z * (P + Q)",
+          "marks": 9,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write sudo code for insert & delete operations for circular using when sequential organization is used for implementation.",
+          "marks": 9,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write sudo code for creating an expression tree and Discuss its time complexity.",
+          "marks": 8,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss with the help of example how threaded binary search trees, make the BST operations faster?",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Discuss the procedure of adding a node in a BST using example.",
+          "marks": 4,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write sudo code for inorder traversal technique for inorder - threaded binary tree.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Construct an expression tree for the given postfix expression. Demonstrate the steps property. AB + CD – *",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Discuss the time complexity of finding height and depth of a tree.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is a minimum spanning tree. Discuss the various methods available for finding it.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Enlist applications of graphs. Explain now the Dijkstra algorithm is contributing to computer networks.",
+          "marks": 5,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Discuss briefly the graph traversals & perform those traversals for the following graph.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss how AVL is different from BST with suitable examples & illustrations?",
+          "marks": 8,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Enlist the characteristics of Heap data-structure. Give examples for max- heap & min-heap.",
+          "marks": 6,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Discuss the time complexities of BFS & DFS graph traversals.",
+          "marks": 3,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss the significance of the following. Illustrate your explaination with the help of examples. i) Primary indexes ii) Clustering indexes iii) Secondary indexes",
+          "marks": 9,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the concept of hashing. How hashing impacts the search time. Justify your answer with time complexity.",
+          "marks": 8,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss the types of collision resolution techniques for hash - tables.",
+          "marks": 8,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Enlist the file - opening modes in C++ and discuss any three briefly.",
+          "marks": 9,
+          "question_id": "11bql5VghSz96yUwXaeH6lTBXwlfcQoU9_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2951,
+        "processed_at": "2026-06-12 00:46:01"
+      }
+    },
+    {
+      "pdf_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2025_aiml_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/endsem_nov_dec_2025_aiml_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES AND ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering (AI & ML)",
+        "paper_number": "[6582]-69",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218542",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE4296",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/12/2025 09:46:45 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Imagine we have two empty stacks of integers, S1 and S2. Draw a picture of each stack after the following operations: i) S1. Push (3); ii) S1. Push (5); iii) S1. Push (7); iv) S1. Push (9); v) S1. Push (11); vi) S1. Push (13); vii) while (! Emptystack (S1)) { X=S1. Pop (); X=S1. Pop (); S2. Push (X); }",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Clearly indicate the content of stack during conversion of given infix expression to prefix. A^B*C-D+E/F/(G+H)",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Write a C++ pseudocode algorithm for the following operation of simple queue using linked representation. i) enqueue () ii) dequeue () iii) print_Queue()",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "If the values of A, B, C and D are 2, 3, 4 and 5 respectively. Calculate the value of the following prefix expression and clearly indicate the content of stack. (Consider ‘-’ as a minus sign) i) + - * A B C D ii) - * A + B C D",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Consider the following circular queue of characters of size 6. “-” denotes an empty queue location. Initial queue configuration is Front = 1, Rear = 3 and having letters as shown below. A. F is added to the queue B. Two letters are deleted C. K, L, M are added to the queue D. Two letters are deleted E. R is added to the queue F. Two letters are deleted G. S is added to the queue H. Two letters are deleted Show the queue content of queue with Front and Rear as the above options take place.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is double ended queue? Mention Types of double ended queue. Explain enqueue and dequeue operations of double ended queue.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Create a binary tree from given preorder and inorder traversal. Show all intermediate steps. Preorder : G B Q A C K F P D E R H Inorder : Q B K C F A G P E D H R",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write the C++ pseudocode algorithm for creating expression tree from postfix expression.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Construct an inorder threaded binary search tree for the following set of elements. 100, 50, 200, 300, 20, 150, 70, 180, 120, 30 Show all steps.",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write C++ pseudocode algorithm for preorder traversal of threaded binary tree.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Draw the expression tree for the given postflx expression. Clearly indicate the content of stack. Write the inorder and preorder traversal of the concern tree. A B C * + E * F +",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the following terms with respect to tree. i) Root ii) Leaf node iii) Siblings iv) Degree of a node v) Degree of tree",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Find the minimum spanning tree using Prim’s algorithm for the following graph.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Obtain an AVL tree by inserting one data element at a time in the following sequence : 50, 55, 60, 15, 10, 40, 20, 45, 30, 70, 80. Label the rotations appropriately at each stage",
+          "marks": 7,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Write short note on OBST.",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Write an application of Topological sorting with suitable example.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "For a given tree, Identify whether it is AVL tree or not? If it is not an AVL tree, convert it into balanced AVL tree . After conversion, insert node 15 in the tree. Delete node 20 from the tree. After insertion and deletion operation, if the tree is imbalanced, make it balanced AVL tree.",
+          "marks": 7,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Construct Heap to Sort given values in ascending order using MAXheap sort. 5, 3, 17, 10, 84,19, 22. (Note : Make a use of Heapify)",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Differentiate between sequential file and direct access file.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Write a pseudo code to perform the following operations on Sequential file : i) Insert record ii) Delete record",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What are the characteristics of good hash function? List different techniques to resolve collision in hash table and explain any one with suitable example.",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the Index sequential file organization with advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain Linear probing with and without replacement with suitable example.",
+          "marks": 6,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What is File? Differentiate between text file and binary file.",
+          "marks": 5,
+          "question_id": "1EOq65lYTSRqqsiVG7yPu2H7_3HRRScVe_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 4922,
+        "processed_at": "2026-06-12 00:46:06"
+      }
+    },
+    {
+      "pdf_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_oct_2025_aiml_dsaa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/data_structures_and_algoriths_aiml/insem_oct_2025_aiml_dsaa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DATA STRUCTURES & ALGORITHMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning",
+        "paper_number": "[6578]-33",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "218542",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-560",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 04/11/2025 10:54:33 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "For a Singly Linked list, write a pseudocode to delete: i) First element ii) Last element",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is an ADT? Explain ADT operations for singly Linked List.",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain frequency count method with the help of suitable example.",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the- concept of circular linked list and doubly linked list with the structure of node and sample linked list.",
+          "marks": 6,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "An array arr[10][5] is stored in the memory with each element requiring 2 bytes of storage. If the first element arr[0][0] is stored at the location 1250, calculate the address of arr[5][6] when the array is stored using row major technique.",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Calculate time complexity of following codes: i) int a = 0,b = 0 for (i = 0; i <N; i++) { a = a + rand ( ); } for (j = 0;j < M; j++) { b = b + rand ( ) ; } ii) a = 0 i = n While (i >0) { a = a+i; i = i/2; }",
+          "marks": 4,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain quick sort & sort the given list using quick sort: 15, 08, 20, -4, 16, 02, 01, 12, 21, -2 Analyse time complexity of quick sort.",
+          "marks": 6,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Apply binary search on {10,20,30,35,40,45,50}’ to-search the position of the element 40. Comment on it’s time complexity.",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Differentiate between binary search and Fibonacci search.",
+          "marks": 4,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Sort the following numbers using insertion sort: 55, 85, 45, 11, 34, 05, 89, 99, 67, 55 Comment on efficiency, stability, in-place characteristics of insertion sort.",
+          "marks": 6,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Suppose we have the array: (1, 2, 3,4, 5, 6,7). We have to find the element X = 6 using Fibonacci search. Explain all steps.",
+          "marks": 5,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the stable and unstable sort with the help of suitable example.",
+          "marks": 4,
+          "question_id": "1vn-3LjpsnhGP4Mq-vbjI-IIYgQW3JCja_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2385,
+        "processed_at": "2026-06-12 00:46:10"
+      }
+    }
+  ]
+}

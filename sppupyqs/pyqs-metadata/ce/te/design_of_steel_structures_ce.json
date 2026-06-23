@@ -1,0 +1,1372 @@
+{
+  "subject_name": "Design of Steel Structures",
+  "subject_slug": "design_of_steel_structures_ce",
+  "branch": "ce",
+  "semester": "te",
+  "papers": [
+    {
+      "pdf_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2023_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2023_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6187]-417",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1¼ Hour",
+        "paper_identifier": "P-5017",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/09/2023 10:47:42 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Sketch and briefly explain any three failure patterns of bolted connection.",
+          "marks": 5,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Determine the design tensile strength due to yielding and rupture of ISA 125×95×10 @ 16.5 kg/m which are connected to back to back on opposite side of 10mm thick gusset plate by 3 bolts of 20mm diameter of 4.6 grade.",
+          "marks": 10,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with sketches types of steel structures.",
+          "marks": 5,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Check the adequacy of an ISA 90×60×6 @6.8kg/m to carry axial tensile load of 150kN for yielding and block shear. Assume angle is connected to gusset plate of M20 black bolts of 4.6 grades.",
+          "marks": 10,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain modes of failure of compression members with suitable sketch.",
+          "marks": 5,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Check adequacy of 2ISA 70×70×6 @ 6.3 kg/m to factored axial compression load of 160kN. Two angles are connected on either sides of 8mm thick gusset plate by 4nos of M20 black bolts of 4.6 grades. The length of strut is 3 m.",
+          "marks": 10,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A 6m column is restrained in translation at both ends and restrained against rotation at one end. If an ISHB 400@ 77.4 kg/m is used calculated design compressive strength of the column.",
+          "marks": 8,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "State the difference between plastic and slender section. And classify the following sections Where fy = 250MPa. i) ISLB 300@ 37.7k/m ii) ISMC 300 @35.8 kg/m iii) ISA 90×90×8 @8.9 kg/m",
+          "marks": 7,
+          "question_id": "1NiGeDvAK9BccZRWZlFqw8bUMU6-vssnt_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2133,
+        "processed_at": "2026-06-12 01:17:00"
+      }
+    },
+    {
+      "pdf_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2024_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2024_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6262]-3",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PB-3745",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/05/2024 09:34:36 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define beam-Column with suitable sketches.",
+          "marks": 3,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Design a moment resisting base plate that can resist the given factored axial compressive load of 1500 kN and factored bending moment of 100 kNm, assuming that the concrete pedestal used is of M20 grade. The column section to which the base plate will be attached is ISHB 350 weighing 67.4 kg/m.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between slab base and gusseted base.",
+          "marks": 3,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A column having effective length of 3.5 m is subjected to factored axial load of 400 kN and factored moment of 45 kNm. Design the column section. Check for section strength only.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief web buckling and web crippling with suitable sketches.",
+          "marks": 4,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported steel joist of 3.5 m effective span carries a working uniformly distributed load 50 kN/m on entire span and a point load of 30 kN at mid span. The section is laterally supported throughout the span. Design an appropriate section. Apply usual checks for strength along with check for deflection.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain modes of failure of beam with suitable sketches.",
+          "marks": 4,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a suitable I section for simply supported beam of span 4.5 m carrying a dead load of 30 kN/m and imposed load of 50 kN/m. The beam is laterally unsupported throughout the span.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a gantry girder supporting an electronically operated crane to the following data: a) Capacity of crane = 120 kN b) Span between crane rails = 20 m c) Self-weight crane girder = 100 kN d) Weight of crab, electric motor, hook etc. = 15 kN e) Minimum hook approach = 1.2 m f) Wheelbase = 2m g) Span of Gantry = 5.5m h) Weight of rails = 0.3 kN/m",
+          "marks": 17,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Determine panel point dead load, imposed load and wind load for the truss as shown in Figure 1. Assume design wind pressure as 1200 N/m2, use A.C. Sheet and the C/C spacing of truss is 6 m. Assume self-weight of purlin as 120 N/m.",
+          "marks": 17,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q6"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief IS provisions for length and spacing of intermittent weld.",
+          "marks": 4,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Design the cross-section of a simply supported welded plate girder with an effective span of 25 m. The girder is subjected to a working uniformly distributed load of 50 kN/m throughout the span, including self-weight. Assume that the compression flange is laterally supported throughout the span. Apply checks for bending and shear.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief flange curtailment of plate girder.",
+          "marks": 4,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A simply supported welded plate girder has been designed for a span of 20 m and is subjected to a shear force of 1800 kN and a bending moment of 18500 kNm. The girder’s cross-section comprises flanges that are 800 mm wide and 50 mm thick and a web that is 20 mm thick and 2500 mm deep. Assume stiff bearing length at support as 300 mm. Design the intermittent welded connections between the flange and web, as well as the end bearing stiffener for the girder.",
+          "marks": 14,
+          "question_id": "1Shez_JhVTAtbr8QIaRamFQhvhY4YTpSc_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4055,
+        "processed_at": "2026-06-12 01:17:02"
+      }
+    },
+    {
+      "pdf_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2023_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2023_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6003]-329",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P252",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/06/2023 10:22:34 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "State and explain in brief type of column bases.",
+          "marks": 3,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Check the adequacy of ISHB 450 @ 87.2 kg/m to carry a factored axial load of 850 kN at an eccentricity of 250 mm about major axis. The effective length of column is 3 m. Consider only section strength.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between slab base and gusseted base.",
+          "marks": 3,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A column having effective length of 4 m is subjected to factored axial load of 500 kN and factored moment of 75 kNm. Design the column section. Check for section strength only.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief web buckling and web crippling with suitable sketches.",
+          "marks": 4,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported steel joist of 5 m effective span carries a working uniformly distributed load 50 kN/m on entire span and a point load of 70 kN at mid span. The section is laterally supported throughout the span. Design an appropriate section. Apply usual checks for strength along with check for deflection.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Classify the section ISLB500@75.0 kg/m and ISA 100 × 75 × 8 mm @ 10.5 kg/m used as a beam.",
+          "marks": 4,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A simply supported beam carries a uniformly distributed load of magnitude W kN/m on entire span of 5 m. The compression flange is laterally unsupported throughout the span. Find the intensity of uniformly distributed load the section ISMB 500@ 86.9 kg/m can carry for the beam safely. Both ends of beam are fully restrained against torsion.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Determine panel point dead load, imposed load and wind load for a truss as shown in Figure 1. Assume design wind pressure as 1170 N/m2, use G.I. Sheet and the centre to centre spacing of truss as 3.5 m. Assume self weight of purlin as 20 N/m2 on plan area.",
+          "marks": 17,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a gantry girder supporting an electronically operated crane for following data : a) Capacity of crane = 120 kN. b) Span between crane rails = 20 m. c) Self-weight crane girder = 100 kN. d) Weight of crab, electric motor, hook etc. = 15 kN. e) Minimum hook approach = 1.2 m. f) Wheelbase = 2 m. g) Span of Gantry 5.5 m. h) Weight of rails = 0.3 kN/m.",
+          "marks": 17,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q6"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief IS provisions for length and spacing of intermittent weld.",
+          "marks": 4,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Design the cross-section of a simply supported welded plate girder with an effective span of 20 m. The girder is subjected to a working uniformly distributed load of 43 kN/m throughout the span, including self-weight. Assume that the compression flange is laterally supported throughout the span. Apply checks for bending and shear.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief flange curtailment of plate girder.",
+          "marks": 4,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A simply supported welded plate girder is designed for the span of 24 m. It is subjected to a shear force of 2300 kN and bending moment of 20700 kNm. A section used for plate girder to carry above load is as given below - Flanges - 780 mm wide and 50 mm thick. Web - 16 mm thick and 2600 mm deep. Design intermittent welded connection between flange and web. Also design end bearing stiffener. Assume stiff bearing length as 300 mm near support.",
+          "marks": 14,
+          "question_id": "1lpI9bJ4lDb3OHI6JlP2hMM1gmIXhu_7I_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4171,
+        "processed_at": "2026-06-12 01:17:02"
+      }
+    },
+    {
+      "pdf_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2022_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2022_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5926]-40",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1424",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/01/2023 13:39:46 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "State and explain in brief type of column bases.",
+          "marks": 3,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Check the adequacy of ISHB 450 @ 85.4 kg/m to carry a factored axial load of 750 kN at an eccentricity of 270 mm about major axis. The effective length of column is 3 m. Consider only section strength.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Find buckling class of section ISHB 400 @ 77.4 kg/m used as a column.",
+          "marks": 3,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A column consist of section ISHB 350 @ 67.4 kg/m carries an axial compression factored load of 1700 kN. Design a suitable bolted gusseted base. The base is rest on M20 grade of concrete pedestal. Use 20 mm diameter bolts for the connection.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief how lateral support is provided to the compression flange of beams with suitable sketches.",
+          "marks": 4,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported beam carries a uniformly distributed load of magnitude W kN/m on entire span of 6 m. The compression flange is laterally unsupported throughout the span. Find the intensity of uniformly distributed load the section ISMB 500 @ 89.6 kg/m can carry for the beam safely. Both ends of beam are fully restrained against torsion.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Classify the section ISLB 500 @ 75.0 kg/m and ISA 100 × 75 × 8 mm @ 10.5 kg/m used as a beam.",
+          "marks": 4,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a suitable I-section for a simply supported beam of span 6 m carrying a dead load 20 kN/m and live load 40 kN/m. The beam is laterally supported throughout the span.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Determine panel point dead load, imposed load and wind load for a truss as shown in Figure 1. Assume design wind pressure as 1100 N/m2, use G.I. Sheet and the centre to centre spacing of truss as 4 m. Assume self-weight of purlin 120 N/m.",
+          "marks": 17,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Design a gantry girder to be used in an industrial building carrying a manually operated overhead travelling crane, for the following data: a) Crane capacity 200 kN b) Self-weight of the crane girder excluding trolley 200 kN c) Self-weight of the trolley, electric motor, hook, etc. 40 kN d) Minimum approach of the crane hook to the gantry girder 1.20 m e) Wheel base 3.5 m f) Span of crane girder 16 m g) Span of gantry girder = 8 m h) Self-weight of rail section 300 N/m",
+          "marks": 17,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q6"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief IS provisions for length and spacing of intermittent weld.",
+          "marks": 4,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A Simply supported welded plate girder of span 30 m is subjected to uniformly distributed load 30 kN/m on whole span excluding self weight of plate girder. Design cross section of plate girder. Assume compression flange is laterally supported throughout the span.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief flange curtailment of plate girder.",
+          "marks": 4,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A simply supported welded plate girder is designed for the span of 24 m. It is subjected to a shear force of 2300 kN and bending moment of 20700 kNm. A section used for plate girder to carry above load is as given below - Flanges - 780 mm wide and 50 mm thick Web - 16 mm thick and 2600 mm deep Design intermittent welded connection between flange and web. Also design end bearing stiffener.",
+          "marks": 14,
+          "question_id": "1X4eiZvRIqkFwyxDJekeA8iHkADnp-hao_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3944,
+        "processed_at": "2026-06-12 01:17:02"
+      }
+    },
+    {
+      "pdf_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2023_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2023_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6180]-13",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "P-7506",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/12/2023 09:32:32 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Give definition of beam-column along with appropriate illustrations.",
+          "marks": 3,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Design a moment resisting base plate that can resist the given factored axial compressive load of 1500 kN and factored bending moment of 100 kNm, assuming that the concrete pedestal used is of M20 grade. The column section to which the base plate will be attached is ISHB 350 weighing 67.4 kg/m.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the distinctions between a slab base and a gusseted base.",
+          "marks": 3,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A colunm having effective length of 4 m is subjected to factored axial load of 500 kN and factored moment of 75 kNm. Design the column section. Check for section strength only.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief web buckling and web crippling with suitable sketches.",
+          "marks": 4,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported steel joist of 5 m effective span carries a working uniformly distributed load 50 kN/m on entire span and a point load of 70 kN at mid span. The section is laterally supported throughout the span. Design an appropriate section. Apply usual checks for strength along with check for deflection.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain modes of failure of beam with suitable sketches.",
+          "marks": 4,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a suitable I section for simply supported beam of span 4.5 m carrying a dead load of 30 kN/m and imposed load of 50 kN/m. The beam is laterally unsupported throughout the span.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a gantry girder supporting an electronically operated crane to the following data: 1. Capacity of crane = 120 kN 2. Span between crane rails = 20 m 3. Self-weight crane girder = 100 kN 4. Weight of crab, electric motor, hook etc. = 15 kN 5. Minimum hook approach = 1.2 m 6. Wheel base = 2m 7. Span of Gantry 5.5 m",
+          "marks": 17,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Determine panel point dead load, imposed load and wind load for a truss as shown in Figure 1. Assume design wind pressure as 1170 N/m2, use G.I. Sheet and the centre to centre spacing of truss as 3.5 m. Assume self weight of purlin as 20 N/m2 on plan area.",
+          "marks": 17,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q6"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief IS provisions for length and spacing of intermittent weld.",
+          "marks": 4,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Design the cross-section of a simply supported welded plate girder with an effective span of 20 m. The girder is subjected to a working uniformly distributed load of 43 kN/m throughout the span, including self-weight. Assume that the compression flange is laterally supported throughout the span. Apply checks for bending and shear.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief flange curtailment of plate girder.",
+          "marks": 4,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A simply supported welded plate girder has been designed for a span of 20 m and is subjected to a shear force of 1800 kN and a bending moment of 18500 kNm. The girder’s cross-section comprises flanges that are 800 mm wide and 50 mm thick, and a web that is 20 mm thick and 2500 mm deep. Assume stiff bearing length at support as 300 mm. Design the intermittent welded connections between the flange and web, as well as the end bearing stiffener for the girder.",
+          "marks": 14,
+          "question_id": "16zwjVHufuRhK85L-C51XfwbtO1aw326Q_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4087,
+        "processed_at": "2026-06-12 01:17:02"
+      }
+    },
+    {
+      "pdf_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_oct_2022_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_oct_2022_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "Oct.-22/TE/Insem-517",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P8855",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/10/2022 10:44:26 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain in detail different types of steel structures.",
+          "marks": 6,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A single unequal angle ISA 90 × 60 × 6 mm is connected to 10 mm thick gusset plate at the ends with 5 nos of 16 mm bolts to transfer tension. Determine design tensile strength of angle section if a gusset is connected to 90 mm leg.",
+          "marks": 9,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "State in detail design philosophy for strength and serviceability.",
+          "marks": 5,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Design a double angle tension member connected on each side of 10 mm thick gusset plate to carry an axial factored load of 375 kN. Use 20 mm diameter bolts. Assume shop connection.",
+          "marks": 10,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Distinguish between lacing and battening in built up column section on the basis of general and design consideration.",
+          "marks": 4,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Find out design compressive strength of a single angle discontinuous strut carrying a axial factored load of 110 kN. Unsupported length of members is 2.5m.",
+          "marks": 6,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "A 8m column is effectively held in position at both end and restrained against rotation at one end. If ISHB 400 @ 77.4 kg/m is used, calculate design compressive strength of the column.",
+          "marks": 5,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are the parameters that affect design strength of compression members?",
+          "marks": 4,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Analyze the discontinuous strut consisting of 2 ISA 70 × 70 × 6 @ 6.3 kg/m connected back to back of 8 mm thick gusset plate. Length of strut is 2.8m.",
+          "marks": 6,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A column 10 m long consists of 2 ISMC 300 @ 35.8 kg/m spaced 220mm back to back to carry a factored load of 1100 kN. The column is restrained in position but not in direction at both ends. Design a single lacing system with bolted connection.",
+          "marks": 5,
+          "question_id": "1HuW-EnJmfZdaPfHGt2JXGjJN6WAf9sDZ_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2489,
+        "processed_at": "2026-06-12 01:17:02"
+      }
+    },
+    {
+      "pdf_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_aug_2025_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_aug_2025_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6579]-317",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour 15 Min.",
+        "paper_identifier": "PE17",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 21/08/2025 10:32:11 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain characteristic strength, characteristic load and partial safety factor in limit state of design.",
+          "marks": 6,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Design a double angle tension member connected on either side of 12 mm thick gusset plate to carry a ultimate load of 500 kN.",
+          "marks": 9,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain design philosophy of limit state method for strength and serviceability.",
+          "marks": 5,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Design tie member of roof truss to carry an axial tensile load of 180 kN using single unequal an angle Section connected with 10mm thick gusset plate. Use M16 bolts.",
+          "marks": 10,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Determine design compressive strength of single ISA 90×60×6mm connected with 8mm thick gusset plate using two bolts at each end. Assume center to center length of connection is 2.20m.",
+          "marks": 7,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Check the adequacy of 2-ISA 90×90×8mm Subjected to factored compressive load of 250kN. Assume angles are connected on either side of 10mm thick gusset plate by using two bolts at each end. Center to center length of Stat is 2.30m.",
+          "marks": 8,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are the parameters that affect design strength of compression members.",
+          "marks": 5,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A Column of 8 m long consist of two ISMC 350 @ 42.10 kg/m are placed back to back the ends of Column are effectively held in Position but does not restrained against rotation at both ends. Find i) Economical Spacing between the channels ii) Also calculate design strength of Column Compressive Strength.",
+          "marks": 10,
+          "question_id": "1gOxv5ZK7mKBCytzbSxXuzsz27Z6VFHer_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2229,
+        "processed_at": "2026-06-12 01:17:05"
+      }
+    },
+    {
+      "pdf_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2024_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/insem_sep_2024_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6360]-17",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour 15 Minutes",
+        "paper_identifier": "PC-17",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 03/09/2024 10:41:50 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A Single ISA 90×60×6 @6.79 Kg/m is connected to 10 mm thick gusset plate at the ends with 5 numbers of 18 mm bolts to transfer tension. Determine the design tensile strength of angle section if the gusset plate is connected to the longer leg.",
+          "marks": 10,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain various type of a bolted joint.",
+          "marks": 5,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Design the tie of a roof truss subjected to factored design load 280 kN using double equal angle section. The C/C length of intersection is 2.5 m. Assume angle is connected to 8 mm thick gusset plate by 4 number of M20 bolt.",
+          "marks": 10,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain in detail gauge line, gauge distance, pitch, edge distance and end distance with sketch.",
+          "marks": 5,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Design a column section to carry axial compression of 750kN. The column has an effective length of 7.0 m with respect to x-x axis and 5m with respect to y-y axis.",
+          "marks": 8,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A column 9 m long consisting 2ISMC 300 @35.8 kg/m spaced 220mm back-to-back to carry a factored load of 1200kN. The Column is restrained in translation but not in rotation at both ends. Design a suitable lacing system.",
+          "marks": 7,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Design a double angle discontinous strut to carry a factored load of 140kN. The Centre to Centre (C/C) length of strut is 2.6 m. The angle is placed back-to-back on opposite site of gusset plate.",
+          "marks": 8,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a single angle discontinuous strut which is carrying factored load of unsupported 160kN. Length of member is 2.5 m. Assume fy = 250 MPa.Minimum two bolt are to be used for end connections. Use 20 mm dia. bolts of 4.6 grades.",
+          "marks": 7,
+          "question_id": "1xNjyoXF2Fd6ID1dWTaYQiQ48TtJqdOcZ_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2346,
+        "processed_at": "2026-06-12 01:17:05"
+      }
+    },
+    {
+      "pdf_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2024_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2024_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "CIVIL",
+        "paper_number": "[6353]-3",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PC-1687",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 14/12/2024 09:29:53 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A column having effective length of 3.5m is subjected to factored axial load of 450 kN and factored moment 50 kNm.Design the column section. Check for section strength only.",
+          "marks": 12,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between moment resisting base and gusseted base.",
+          "marks": 5,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Design a gusseted base for built up column ISHB 350 @ 67.4 kg/m with plates 450 × 22 mm carrying on axial factored load of 300kN.The column is to be supported on concrete pedestal of M20 grade. Draw the design sketches.",
+          "marks": 12,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the following cases with example. i) Axial force and uniaxial loading ii) Axial load and biaxial bending",
+          "marks": 5,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "A simply supported steel joist of 4.0m effective span is laterally supported. It carries a total uniformly distributed load of 40 kN/m inclusive self-weight. Design an appropriate section using I-section.",
+          "marks": 10,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Determine the design bending strength of ISMB 400 @ 61.6 kg/m considering the beam to be laterally supported. The effective span of the beam is 3.0 m. Assume steel of grade Fe 410.",
+          "marks": 8,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Calculate safe uniformly distributed load over a laterally unsupported beam ISMB 100@ 61.6 kg/m for an effective length of 6m. Also check for serviceability.",
+          "marks": 13,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain factors affecting plastic moment capacity.",
+          "marks": 5,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Design a gantry supporting an electronically operated crane for following data: i) Capacity of crane l20kN ii) Span between crane rails 20m Self weight crane girder l00kN iii) Weight of crab electric motor hook l5kN iv) Minimum hook approach 1 .2m v) Wheelbase 2m vi) Span of Gantry 5.5m vii) Weight of rails 0.3kN/m",
+          "marks": 13,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Loading on Gantry girder.",
+          "marks": 4,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Determine panel point dead load, imposed load and wind load for a truss. Assume design wind pressure as 1200 N/m2, use A.C. Sheet and the centre spacing of truss as 6m. Assume 6 panels @5m and Rise 5m. Considered pratt truss.",
+          "marks": 13,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define: i) Pitch ii) Central rise.",
+          "marks": 4,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "A simply supported welded plate girder of an effective span of 20 m subjected to factored uniformly distributed load 40 kN/m throughout the span including the self-weight of plate girder. Assume compression flange laterally supported throughout the span and yield stress of steel is 250 MPa Design cross section of plate girder, stiffeners, and connections. Draw sectional plan and elevation.",
+          "marks": 18,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q7"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Design a welded plate girder for an effective span 28m and carrying a factored UDL of 35kN/m and factored concentrated loads of 140kN acting at 8m from both ends. Design flange and web section. Provided connection between webs and flange.",
+          "marks": 12,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Define plate Girder. Also state it’s the element and function.",
+          "marks": 6,
+          "question_id": "1hPG_3hYq5kEy0slXXCFAFn-8fCLzVFZW_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3455,
+        "processed_at": "2026-06-12 01:17:05"
+      }
+    },
+    {
+      "pdf_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2025_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_nov_dec_2025_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6583]-12",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PE-2488",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 16/12/2025 09:52:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Design moment resisting base for a ISHB 250 @54.7 kg/m column to carrying a factored load of 650 kN and factored bending moment 50 kN-m.",
+          "marks": 12,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Which of the two buckling or stiffness of compression members is more critical?",
+          "marks": 5,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Design a column base for the column consisting of ISWB300 @ 48.1 kg/m carrying axial load 740 kN. Design welded connection between column and base plate. The column is to be supported on concrete pedestal to be built with M20 grade.",
+          "marks": 12,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "In what sense column caps are similar to column base plates?",
+          "marks": 5,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "A simply supported beam of 5 m effective span. It carries a uniformly distributed load w kN/m throughout the span including self-weight. The compression flange of beam is laterally unsupported throughout the span. Determine the intensity of udl of w, so that the section ISMB 400 @ 61.6 kg/m use for beam can carry safely.",
+          "marks": 10,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported beam of 4 m effective span. It carries a uniformly distributed load 60 kN/m throughout the span including self-weight. Design the beam if the compression flange is laterally restrained throughout the span.",
+          "marks": 8,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A simply supported beam spanning 8 m carries a uniformly distributed load 5 kN/m throughout the span including self-weight. The compression flange of beam is laterally supported throughout the span. Design section and check for serviceability.",
+          "marks": 13,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How are the column buckling and the lateral buckling of beam similar?",
+          "marks": 5,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a gantry girder supporting an electric overhead travelling crane to the following data: a) Capacity of crane = 280 kN b) Span between crane rails = 14 m, Self-weight crane girder = 150 kN c) Weight of crab, electric motor, Hook etc. = 15 kN d) Minimum hook approach= 1.0m e) Wheelbase = 3.5m f) Span of Gantry 7.0 m g) Self-weight of trolley = l05kN h) Self-weight of rails = 0.3 kN/m i) Height of rail section =75 mm",
+          "marks": 17,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Determine the design force in the member L0U1, L0L1, and U1L1 of pratt truss as shown in Fig. 1. Assume design wind pressure is 1200 N/m2, use A.C. Sheet and the C/C spacing of truss is 6m. Assume self-weight of purlin 120 N/m.",
+          "marks": 17,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q6"
+        },
+        {
+          "question_number": "Q7",
+          "question_text": "A simply supported welded plate girder of an effective span of 26 m subjected to uniformly distributed load 40 kN/m throughout the span exluding the self-weight of plate girder. Assume compression flange laterally supported throughout the span and yield stress of steel is 250 MPa Design cross section of plate girder, bearing and intermediate stiffeners. Draw sectional plan and elevation.",
+          "marks": 18,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q7"
+        },
+        {
+          "question_number": "Q8",
+          "question_text": "Design a suitable cross section of welded plate girder 30 m in span and laterally supported throughout. It has to support a uniform load of 30 kN/m throughout the span including of self-weight of plate girder. It is also loaded with two concentrated load of 140 kN acting at 10 m from either supports. Design C/S of plate girder without intermediate stiffeners. The steel for the flange and web plates is of grade Fe 410. Yield stress of steel may be assumed to be 250 MPa irrespective of the thickness of plates used.",
+          "marks": 18,
+          "question_id": "1GnC7LkdLjuka3IrUDPCQ5tEUzHYmZAEH_q8"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3895,
+        "processed_at": "2026-06-12 01:17:06"
+      }
+    },
+    {
+      "pdf_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz_",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2025_ce_dssc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/te/2019_pattern/design_of_steel_structures_ce/endsem_may_jun_2025_ce_dssc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "te",
+      "year_name": "TE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DESIGN OF STEEL STRUCTURES",
+        "academic_year": "T.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6403]-3",
+        "pattern_year": 2019,
+        "semester": "V",
+        "subject_code": "301003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "3 Hours",
+        "paper_identifier": "PD-4210",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 19/05/2025 09:34:01 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define beam-Column with suitable sketches.",
+          "marks": 3,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "A column section ISHB 350 @66.12 kg/m carries a factored axial compressive load of 1645 kN and factored B.M. of 90 kN-m. Design a moment resisting base plate. Assume concrete pedestal of M20 grade.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Differentiate between slab base and gusseted base.",
+          "marks": 3,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A column having effective length of 3.5 m is subjected to factored axial load of 450 kN and factored moment of 50 kNm. Design the column section. Check for section strength only.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief web buckling and web crippling with suitable sketches.",
+          "marks": 4,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A simply supported steel joist of 4 m effective span carries a working uniformly distributed load 40 kN/m on entire span and a point load of 50 kN at mid span. The section is laterally supported throughout the span. Design an appropriate section. Apply usual checks for strength along with check for deflection.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain modes of failure of beam with suitable sketches",
+          "marks": 4,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design a suitable I section for simply supported beam of span 5 m carrying a dead load of 20 kN/m and imposed load of 40 kN/m. The beam is laterally unsupported throughout the span.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "question_text": "Design a gantry girder supporting an electronically operated crane to the following data : a) Capacity of crane = 120 kN b) Span between crane rails = 20 m c) Self-weight crane girder = 100 kN d) Weight of crab, electric motor, Hook etc. = 15 kN e) Minimum hook approach = 1.2 m f) Wheelbase = 2 m g) Span of Gantry 5.5 m",
+          "marks": 17,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q5"
+        },
+        {
+          "question_number": "Q6",
+          "question_text": "Determine panel point dead load, imposed load and wind load for the truss as show in Figure 1. Assume design wind pressure as 1200 N/m2, use A.C. Sheet and the C/C spacing of truss is 6 m. Assume self-weight of purlin as 120 N/m.",
+          "marks": 17,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q6"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain in brief IS provisions for length and spacing of intermittent weld.",
+          "marks": 4,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A simply supported welded plate girder of an effective span of 20 m subjected to factored uniformly distributed load 43 kN/m throughout the span including self weight. Assume compression flange laterally supported throughout the span. Design cross section of the plate girder.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain in brief flange curtailment of plate girder.",
+          "marks": 4,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A Simply supported welded plate girder is designed for the span of 24 m. It is subjected to a shear force of 2300 kN and bending moment of 20700 kNm. A section used for plate girder to carry above load is as given below - Flanges - 780mm wide and 50 mm thick Web - 16 mm thick and 2600 mm deep Design intermittent welded connection between flange and web. Also design end bearing stiffener.",
+          "marks": 14,
+          "question_id": "1s3PelotrTpC8FeW5qI0eR7xMXlgTSrz__q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3793,
+        "processed_at": "2026-06-12 01:17:06"
+      }
+    }
+  ]
+}

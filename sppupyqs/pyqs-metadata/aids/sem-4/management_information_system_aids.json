@@ -1,0 +1,1646 @@
+{
+  "subject_name": "Management Information System",
+  "subject_slug": "management_information_system_aids",
+  "branch": "aids",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2022_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2022_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEM",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5869]-370",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P703",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 04/07/2022 08:35:25 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the current trends in computer hardware platforms?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is IT infrastructure and what are the stages and drivers of IT infrastructure evolution?",
+          "marks": 8,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the problems of managing data resources in a traditional file environment?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How do the Internet and Internet technology work and how do they support communication and e-business?",
+          "marks": 8,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Enterprise resources planning (ERP) systems with the goals?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe Unique Features of E-Commerce Technology with suitable examples?",
+          "marks": 8,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the importance of project management and its objectives?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is a strategic information system? What is the difference between a firm level strategy and business level strategy?",
+          "marks": 8,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Supply Chain management (SCM) with suitable examples?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is Electronic Commerce System. Explain it types with suitable examples?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is Decision Support system? How it is used in Business?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "How Data Mining used in Marketing.",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Artificial Neural Networks with suitable examples?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How does Virtual Reality Work?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is Expert System. Explain with Example?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the different tools used for generation of Reports?",
+          "marks": 9,
+          "question_id": "1-vc0rkV2BRBP19m3VJzf9OmHcLLsUNFm_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2088,
+        "processed_at": "2026-06-06 15:07:42"
+      }
+    },
+    {
+      "pdf_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2022_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2022_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[5925]-331",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1298",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 11/01/2023 13:31:38 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is IT infrastructure? Explain in brief its components.",
+          "marks": 8,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain how to Secure information systems with system vulnerability? Explain the value of security and control in Business.",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Business Intelligence? Explain its foundations database and Information management?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss Management Issues. Explain Hardware and Software Platform trends.",
+          "marks": 8,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define Enterprise Application and explain with examples?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain importance of project management and how to manage project risk?",
+          "marks": 8,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a note on managing global systems. Explain technology issues and opportunities for global value chain?",
+          "marks": 8,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How to enhance decision making and building information systems?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Elaborate Customer Relationship Management in detail with a suitable case study?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe e-commerce system with its functions, applications and issues. Take a case study of Amazon/Flipkart.",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Elaborate supply chain management in detail with suitable case study?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain decision support system in businesses with its different components and role of OLTP systems under DSS?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write short note on : i) Neural Network ii) Virtual Reality iii) Expert System",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail Predictive Analytics with a case study of an insurance company?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Business Intelligence ii) Genetic Algorithms iii) Fuzzy Logic",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "How MIS helps in decision making process? Elaborate all the phases in the process of decision making?",
+          "marks": 9,
+          "question_id": "1iRNB2bOvZP-m1wzwGXPKU5ERapMyZpWZ_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2357,
+        "processed_at": "2026-06-06 15:07:53"
+      }
+    },
+    {
+      "pdf_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_feb_2023_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_feb_2023_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6008]-263",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "217530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-10326",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 10/04/2023 15:34:31 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define MIS? Explain the Role of MIS.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the different functions of Management? Explain it.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain how the MIS is related with user?",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the different Levels of Management with suitable example.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss how MIS is useful to take Decision making with suitable example?",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "How the Business Intelligence is used for MIS?",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss the different types of Information System.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Tools and technologies for collaboration and team work.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Describe Perspectives on Information System.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe the Ethical and social issues in information system.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Information system organization and their strategies.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Discuss Internet based Collaboration Environments.",
+          "marks": 5,
+          "question_id": "1whojoqIEVCDUIqAfzz_izZdm1-fx-izE_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1385,
+        "processed_at": "2026-06-06 15:08:02"
+      }
+    },
+    {
+      "pdf_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2023_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2023_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEM",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6002]-225",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1595",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 01/07/2023 10:43:58 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is IT infrastructure? Explain management issues.",
+          "marks": 8,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain role of telecommunication. Internet and wireless technology in Business intelligence.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Business Intelligence? Explain its foundations database and Information management.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is IT infrastructure? Explain in brief its components.",
+          "marks": 8,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How to enhance decision making with information systems give suitable examples.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain importance of project Management and how to manage project risk.",
+          "marks": 8,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Enterprise Application and explain with examples.",
+          "marks": 8,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss managing global system with technology issues and opportunities for global value chain.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Elaborate functional business systen in detail with cross functional enterprise systems.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe e-commerce with its applications and issues.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "How to manage Supply chain with business network?",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain decision support trends in businesses. How data mining and knowledge management is used in Decision Support Systems.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Fuzzy Logic ii) Virtual Reality iii) Business and AI",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the role of MIS in data science, explore an open source tool to generate reports.",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Intelligent Agents ii) Genetic Algorithms, iii) Neural Network",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the value of expert systems with its benefits and limitations",
+          "marks": 9,
+          "question_id": "1HrzEHUg7MiqsDX1LEBoSTYrdK234395w_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2220,
+        "processed_at": "2026-06-06 15:08:05"
+      }
+    },
+    {
+      "pdf_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2023_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2023_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6179] - 247",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-9121",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/12/2023 09:45:04 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss Hardware and Software platform trends in IT infrastructure.",
+          "marks": 8,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain system vulnerability, business value of security and control.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Business Intelligence? Explain its foundations database and Information management.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is IT infrastructure? Explain in brief its components.",
+          "marks": 8,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How to enhance decision making with information systems give suitable examples.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the growth of international information systems and organizing international information systems.",
+          "marks": 8,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain E-commerce with Digital Markets and Digital Goods.",
+          "marks": 8,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss managing global system with technology issues and opportunities for global value chain.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Elaborate functional business system in detail with cross functional enterprise systems.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe e-commerce with its applications and issues.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "How to manage Supply chain with business network?",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on i) Fuzzy Logic ii) Virtual Reality, iii) Business and AI.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain decision support trends in businesses. How data mining and knowledge management is used in Decision Support Systems.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the role of MIS in data science, explore an open sources tool to perform detective analysis.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Intelligent Agents ii) Genetic Algorithms, iii) Neural Network.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the value of expert systems with its benefits and limitations.",
+          "marks": 9,
+          "question_id": "1eUI12S8Z5m1qABf8jga6_fkgUNOlqEi1_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2272,
+        "processed_at": "2026-06-06 15:08:20"
+      }
+    },
+    {
+      "pdf_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2024_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2024_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6268]-224",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB30",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 27/03/2024 14:18:39 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What key responsibilities does MIS fulfill in organizations?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is MIS and how does it function within organizations?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What are the roles and functions associated with each level of management",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "How does MIS aid decision-making processes in organizations?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Elaborate examples of MIS applications in decision-making scenarios?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What specific functions of MIS contribute to organizational efficiency and performance improvement?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "How does the information system organization strategy contribute to enhancing operational efficiency and achieving competitive advantage?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "How do virtual worlds and internet-based collaboration platforms facilitate teamwork and innovation in organizations?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "How can social networking platforms be effectively integrated into MIS to improve organizational connectivity and productivity?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "How do organizations leverage tools and technologies for effective collaboration and teamwork.",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the benefits and challenges of incorporating virtual worlds into the implementation of management information systems?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How do various information systems differ in their roles and applications?",
+          "marks": 5,
+          "question_id": "1kYEpEG1z2TB-pniROCox4G72Bao-OMfh_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1829,
+        "processed_at": "2026-06-06 15:08:25"
+      }
+    },
+    {
+      "pdf_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2024_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2024_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6261]-47",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3639",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 28/05/2024 13:37:42 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain how MIS is helpful to Management in their operations.",
+          "marks": 8,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain how to Secure information systems with system vulnerability. Explain the value of security and control in Business.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is Business Intelligence? Explain its foundations database and Information management.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss management Issues. Explain Hardware and software platform trends.",
+          "marks": 8,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define Enterprise Application and explain with examples.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain importance of project Management and how to manage project risk.",
+          "marks": 8,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write a note on managing global systems. Explain technology issues and opportunities for global value chain.",
+          "marks": 8,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "How to enhance decision making and building information systems?",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Elaborate Customer Relationship Management in detail with a suitable case study.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe e-commerce system with its functions, applications and issues. Take a case study of Amazon/Flipkart.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Elaborate Supply chain Management in detail with suitable case study.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain decision support system in businesses with its different components and role of OLTP systems under DSS.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Neural Network ii) Virtual Reality iii) Expert System",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain in detail Predictive Analytics with a case study of an insurance company.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on i) Business Intelligence ii) Genetic Algorithms iii) Fuzzy Logic",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "How MIS helps in decision making process? Elaborate all the phases in the process of decision making.",
+          "marks": 9,
+          "question_id": "1kdgNbN3T-BfA6RHPUSmjK9RqoY8XgaWG_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2355,
+        "processed_at": "2026-06-06 15:08:34"
+      }
+    },
+    {
+      "pdf_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2025_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2025_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6409]-229",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD30",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/03/2025 14:13:59 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define MIS? Describe the Role of MIS in an Organization?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Management as a Control System with suitable example?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Draw & explain the different levels of Management?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Classify different Management effectiveness techniques for MIS.",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Identify how the Decision Making is useful for MIS.",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Discuss Business Intelligence for MIS?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Illustrate the different types of Information System?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Identify the different Internet based collaboration environment?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Classify Information system organization and its various strategies?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Recognize the Ethical and Social issues in Information System?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain different Perspectives on information system?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Identify various Tools and technologies for collaboration and teamwork?",
+          "marks": 5,
+          "question_id": "14aiDwE15rk69hI1XSWmjsfYENuPX93Ad_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1420,
+        "processed_at": "2026-06-06 15:08:41"
+      }
+    },
+    {
+      "pdf_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2025_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_may_jun_2025_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEM",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6402]-48",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4088",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 03/06/2025 09:33:42 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the problems of managing data resources in a traditional file environment and how are they solved by a database management system?",
+          "marks": 8,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Why information policy, data administration, and data quality assurance essential for managing the firm’s data resources?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is IT infrastructure and what are its components? What are the stages and technology drivers of IT infrastructure evolution?",
+          "marks": 8,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the major capabilities of database management systems (DBMS) and why is a relational DBMS so powerful?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is CRM? How does study of CRM helps in different business applications.",
+          "marks": 8,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "How do supply chain management systems coordinate planning, production, and logistics with suppliers?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss importance of project management. How data science help in project management.",
+          "marks": 8,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the unique features of e-commerce, digital markets, and digital goods?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Identify attributes of Decision Support System. How data mining is useful in decision support.",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is ERP? What are the essential components of EMS? How ERP can contribute in the improvements of an organization?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Concept of Customer Relationship Management (CRM) with suitable examples?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Distinguish between MIS and DSS.",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain Artificial Neural Networks with suitable examples?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is role of MIS in the effective functioning of business organization?",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain concept of data ware housing. Discuss need of data ware housing in modern business.",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain about Genetic Algorithms.",
+          "marks": 9,
+          "question_id": "1WyRDp_vr3eAbbS9nIzcIL6bVfNfrTeBI_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2416,
+        "processed_at": "2026-06-06 15:08:48"
+      }
+    },
+    {
+      "pdf_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2025_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/endsem_nov_dec_2025_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6582]-47",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4275",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 08/12/2025 09:44:47 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain how to Secure information systems with system vulnerability? Explain the value of security and control in Business.",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the current trends in computer hardware platforms?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is IT infrastructure? Explain in brief its components.?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "How do the Internet and Internet technology work and how do they support communication and e-business?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss Management Issues. Explain Hardware and Software Platform trends",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Business Intelligence? Explain its foundations database and Information management?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain Enterprise resources planning (ERP) systems with the goals?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the importance of project management and its objectives?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define Enterprise Application and explain with examples?",
+          "marks": 5,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe Unique Features of E-Commerce Technology with suitable examples?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a note on managing global systems. Explain technology issues and opportunities for global value chain?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain importance of project management and how to manage project risk?",
+          "marks": 5,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is Decision Support system? How it is used in Business?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain Concept of Supply Chain management (SCM) with suitable examples?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is a strategic information system? What is the difference between a firm level strategy and business level strategy?",
+          "marks": 5,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Elaborate Customer Relationship Management in detail with a suitable case study?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is Electronic Commerce System? Explain it types with suitable examples?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain decision support system in businesses with its different components and role of OLTP systems under DSS?",
+          "marks": 5,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is Expert System? Explain with Example?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "How does Virtual Reality Work?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Write short note on i) Neural Network ii) Virtual Reality iii) Expert System",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Business Intelligence ii) Genetic Algorithms iii) Fuzzy Logic",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the different tools used for generation of Reports?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Artificial Neural Networks and give Example of Artificial Neural Networks?",
+          "marks": 6,
+          "question_id": "1TuSQIrNu86jDJSe5Dh_PcKx3Fqf8oF_3_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2950,
+        "processed_at": "2026-06-06 15:08:58"
+      }
+    },
+    {
+      "pdf_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2026_aids_misa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/management_information_system_aids/insem_mar_2026_aids_misa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "MANAGEMENT INFORMATION SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "APR-26/SE/Insem-269",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "217530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF218",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2026 13:53:52 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define MIS. Explain the concept of MIS.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Role of Management Information System in decision making.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How Business Intelligence is helpful for Management Information System?",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is the impact of Management Information System in businesses?",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Draw and explain Levels of Management.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are the functions of Management? Explain each of them in brief.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Describe the role of Information System.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe different business functions.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write a short note on (any two): i) Google Drive ii) Virtual Meeting System iii) Instant Messaging",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "List and explain any five different tools and technologies used for collaboration and team work.",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are Ethical and Social issues in Information System?",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write a short note on (any two): i) Email ii) Social Networking iii) Transaction Processing System",
+          "marks": 5,
+          "question_id": "1J7vPM-vEeQ5HRHuw6FkJVPdSzOMzxO-x_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1730,
+        "processed_at": "2026-06-06 15:09:06"
+      }
+    }
+  ]
+}

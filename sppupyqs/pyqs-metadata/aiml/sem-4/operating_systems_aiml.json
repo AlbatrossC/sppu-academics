@@ -1,0 +1,561 @@
+{
+  "subject_name": "Operating Systems",
+  "subject_slug": "operating_systems_aiml",
+  "branch": "aiml",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2025_aiml_osa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2025_aiml_osa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OPERATING SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "AI & ML",
+        "paper_number": "[6409]-241",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218552",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD40",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 11/03/2025 14:29:39 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the differences between a monolithic kernel and a microkernel.",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is an operating system? List and explain services provided by the operating system.",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Give the significance of following shell commands with an example: Is, uniq, tail, touch, grep.",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the OS Design Considerations for multiprocessor and multicore architecture?",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe with the help of a neat diagram the concept of simple batch systems.",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Write a function in a shell script that calculates the factorial of a given number.",
+          "marks": 5,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What do you mean by threads? Explain the benefits of threads.",
+          "marks": 7,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "With the help of neat, explain in detail process state transition diagram with two suspend states.",
+          "marks": 8,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss with the help of neat diagram circumstances under which CPU-scheduling decisions may take place.",
+          "marks": 7,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Consider the Set of Processes with Arrival Time, Burst Time & Priority. Process Arrival Time, Burst Time, Priority. P1, 2, 4, 3. P2, 4, 3, 2. P3, 6, 2, 5. P4, 8, 8, 1. P5, 0, 5, 4. Find Average Turnaround Time & Average Waiting Time for Priority (Preemptive) & SJF (Non-Preemptive) scheduling algorithms with the help of Gantt chart.",
+          "marks": 8,
+          "question_id": "1C1W7I51LiJ3UuMv7G3odVBfU8wCpQiQZ_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1932,
+        "processed_at": "2026-06-12 00:48:07"
+      }
+    },
+    {
+      "pdf_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_may_jun_2025_aiml_osa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_may_jun_2025_aiml_osa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OPERATING SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "paper_number": "[6402]-69",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218552",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4109",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 27/05/2025 09:40:09 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define with example Mutual exclusion, race condition, Semaphore, and Deadlock.",
+          "marks": 8,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How is the TestandSet instruction used to solve the critical section problem? Write and explain the pseudocode for TestandSet instruction implementation.",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the wait-for graph method for deadlock detection along with an example.",
+          "marks": 8,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "For the given snapshot of the system: Allocation Max Available P1 0 1 1 0 5 4 4 4 1 2 4 3 P2 2 0 0 1 2 1 3 3 P3 1 1 3 2 8 5 4 4 P4 2 1 2 2 6 5 4 5 P5 3 1 0 1 6 2 2 3 Determine: i) Need Matrix ii) Current snapshot is safe of unsafe. iii) Whether following requests can be granted or not for Process P3 : 1 1 0 1",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Consider a logical address space of 128 pages of 512 Bytes each mapped onto a physical memory of 32 frames of 512 Bytes. i) How many bits are in the physical address? ii) How many bits are in the logical address? iii) How many bits are required to determine the frame number in the physical address? iv) How many bits are required to determine the page number in logical address?",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "With the help of neat diagrams (Bar diagram and Tree), Write a short note on the Buddy system.",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Consider the page reference string with 3 frames. 1, 2, 3, 4, 5, 4, 5, 3, 6, 7, 8, 9, 5, 4, 7, 8, 9, 5, 4, 2. Calculate the number of page faults for the following page replacement algorithm. i) FIFO ii) OPTIMAL iii) LRU",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "For the system where memory cycle time is 200 nanoseconds, Translation Look-aside Buffer access time is 20 nanoseconds, Determine the Effective Access Time when i) Hit ratio is 99% ii) Hit ratio is 95% Also justify if the value of hit ratio should be smaller or larger.",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "A disk drive has 200 tracks, numbered 0-199. The drive is currently serving the request at track no 53. The queue of pending requests in FIFO order is 98, 183, 37, 122, 14, 124, 65, 67. Starting from the current head position what is the total distance that disk arm moves to satisfy all the pending requests for the following disk scheduling algorithms. Assume that the head is moving in the increasing order of track number for C-SCAN and LOOK. i) FCFS ii) C-SCAN iii) LOOK iv) SSTF",
+          "marks": 12,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain with diagrams different Record Blocking techniques.",
+          "marks": 6,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain with the help of neat diagrams different secondary storage management methods.",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "List and explain (any 3) directory structure organization.",
+          "marks": 9,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain ORIGIN, EQU, and LTROG with an example.",
+          "marks": 6,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the data structures required for TWO PASS Assembler in detail.",
+          "marks": 6,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Differentiate between literal and immediate operand.",
+          "marks": 5,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are the types of loaders? Discuss 4 different functions of the loader.",
+          "marks": 6,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Using a suitable diagram, explain the ‘Compile and Go’ Loader scheme with its advantages and disadvantages.",
+          "marks": 6,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain any two phases of the compiler with a suitable diagram.",
+          "marks": 5,
+          "question_id": "1nq9aT2DjW_ITmq-qgvvsCuMkxumR4xEI_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3883,
+        "processed_at": "2026-06-12 00:48:12"
+      }
+    },
+    {
+      "pdf_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_nov_dec_2025_aiml_osa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/endsem_nov_dec_2025_aiml_osa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "OPERATING SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Machine Learning Engineering",
+        "paper_number": "[6582]-64",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218552",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4291",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 26/11/2025 09:45:53 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe in brief the different IPC mechanisms.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is deadlock? Explain the necessary and sufficient conditions for the occurrence of a deadlock.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the following with example i) Mutual Exclusion ii) Synchronization iii) Race condition.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is Critical Section Problem? Explain readers-writers problem.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is page Fault? For the given reference string with 3-page frame available, determine the number of page faults for FIFO and LRU algorithms : 3, 5, 3, 7, 2, 1, 5, 4, 6, 7, 4, 1, 2.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Demand paging with the help of neat diagram.",
+          "marks": 8,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is segmentation? How address Translation is performed in segmentation system?",
+          "marks": 8,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Buddy System with the help of neat diagram and example.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Describe three methods of record blocking with the help of neat diagrams.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the different functions of a file management system.",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Assume a disk with 200 tracks and the disk request queue has random Requests in it as follows : 98,183,37,122,14,124,65,67. Find the no of tracks traversed and average seek length if i) FCFS ii) SSTF iii) SCAN is used and initially head is at track no 53.",
+          "marks": 12,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is spooling? Explain with suitable diagrams.",
+          "marks": 6,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the data structures required for two PASS Assembler in detail.",
+          "marks": 6,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Macro? Explain macro call and macro expansion with suitable example.",
+          "marks": 6,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Discuss with example what is forward reference problem.",
+          "marks": 5,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is Loader? What are the basic functions of loaders?",
+          "marks": 9,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is system software? Explain any four system software in brief?",
+          "marks": 8,
+          "question_id": "1bY2eoCLke8sg9iBOdG7WkrkNJqRYJ8aR_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2459,
+        "processed_at": "2026-06-12 00:48:16"
+      }
+    },
+    {
+      "pdf_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2026_aiml_osa_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-machine-learning/se/2019_pattern/operating_systems_aiml/insem_mar_2026_aiml_osa_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-machine-learning",
+        "branch_name": "Artificial Intelligence and Machine Learning",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "OPERATING SYSTEMS",
+        "academic_year": "S.E.",
+        "branch_name": "AIML",
+        "paper_number": "Apr-26/SE/Insem-281",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "218552",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF227",
+        "watermark_text": [
+          "CEGP013091",
+          "152.58.30.154 10/03/2026 14:03:51"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is an operating system? Discuss developments leading to Modern Operating Systems.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the significance of the following shell commands: echo, cut, touch.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Describe the evolution of the Operating System.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe with the help of a neat diagram the concept of Time-shared Systems.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a shell script that calculates the sum of integers from 1 to N.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is a virtual machine? Explain the concept of virtualization.",
+          "marks": 5,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "With the help of a neat, explain in detail process state transition diagram with 5 states.",
+          "marks": 7,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Consider the Set of Processes with Arrival Time, Burst Time & Priority. Process Arrival Time Burst Time P1 2 2 P2 0 7 P3 6 3 P4 9 8 Find Average Turnaround Time & Average Waiting Time for SJF (Preemptive) & Round Robin (Time Quantum = 2) scheduling algorithms with the help of Gantt chart",
+          "marks": 8,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss Process Creation. How new task assigned is the child process? Determine the number of child processes if the parent process executes 4 consecutive forks () commands.",
+          "marks": 7,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss with the help of neat diagrams different thread models.",
+          "marks": 8,
+          "question_id": "1Kkdit76p83nyTIbqxkQDyej8fRzbXB3P_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1852,
+        "processed_at": "2026-06-12 00:48:19"
+      }
+    }
+  ]
+}

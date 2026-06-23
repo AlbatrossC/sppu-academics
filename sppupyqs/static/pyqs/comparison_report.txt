@@ -1,0 +1,62 @@
++------------------------------------------------------+-----------------------------------------------+-----------------------------------------------+
+| Subject Name                                         | In viewerseo.json                             | In questionpapers.json                        |
++------------------------------------------------------+-----------------------------------------------+-----------------------------------------------+
+| Artificial Intelligence                              | artificial-intelligence-aids                  | artificial-intelligence-aids                  |
+| Artificial Intelligence                              | artificial-intelligence-cse                   | artificial-intelligence-cse                   |
+| Artificial Neural Network                            | artificial-neural-network                     | artificial-neural-network                     |
+| Augmented And Virtual Reality (Elective II)          | augmented-and-virtual-reality-ele-ii          | augmented-and-virtual-reality-ele-ii          |
+| Basic Electrical Engineering                         | basic-electrical-engineering                  | basic-electrical-engineering                  |
+| Basic Electronics Engineering                        | basic-electronics-engineering                 | basic-electronics-engineering                 |
+| Cloud Computing                                      | cloud-computing                               | cloud-computing                               |
+| Cloud Computing (Elective II)                        | cloud-computing-ele-ii                        | cloud-computing-ele-ii                        |
+| Computer Graphics                                    | computer-graphics                             | computer-graphics                             |
+| Computer Network And Security                        | computer-network-and-security                 | computer-network-and-security                 |
+| Computer Networks                                    | computer-networks                             | computer-networks                             |
+| Cyber Security                                       | cyber-security                                | cyber-security                                |
+| Data Science                                         | data-science                                  | data-science                                  |
+| Data Science And Big Data Analytics                  | data-science-and-big-data-analytics           | data-science-and-big-data-analytics           |
+| Data Structures And Algorithms                       | data-structures-and-algorithms                | data-structures-and-algorithms                |
+| Database Management System                           | database-management-system                    | database-management-system                    |
+| Database Management Systems                          | database-management-systems                   | database-management-systems                   |
+| Discrete Mathematics                                 | discrete-mathematics                          | discrete-mathematics                          |
+| Engineering Chemistry                                | engineering-chemistry                         | engineering-chemistry                         |
+| Engineering Graphics                                 | engineering-graphics                          | engineering-graphics                          |
+| Engineering Mathematics I                            | engineering-mathematics-i                     | engineering-mathematics-i                     |
+| Engineering Mathematics II                           | engineering-mathematics-ii                    | engineering-mathematics-ii                    |
+| Engineering Mechanics                                | engineering-mechanics                         | engineering-mechanics                         |
+| Engineering Physics                                  | engineering-physics                           | engineering-physics                           |
+| Fundamentals Of Data Structures                      | fundamentals-of-data-structures               | fundamentals-of-data-structures               |
+| Human Computer Interface (Elective I)                | human-computer-interface-ele-i-aids           | human-computer-interface-ele-i-aids           |
+| Human Computer Interface (Elective I)                | human-computer-interface-ele-i-cse            | human-computer-interface-ele-i-cse            |
+| Information Security (Elective II)                   | information-security-ele-ii                   | information-security-ele-ii                   |
+| Internet Of Things                                   | internet-of-things                            | internet-of-things                            |
+| Internet Of Things And Embedded Systems (Elective I) | internet-of-things-and-embedded-systems-ele-i | internet-of-things-and-embedded-systems-ele-i |
+| Management Information Systems                       | management-information-systems                | management-information-systems                |
+| Microprocessor                                       | microprocessor                                | microprocessor                                |
+| Natural Language Processing (Elective II)            | natural-language-processing-ele-ii            | natural-language-processing-ele-ii            |
+| Object Oriented Programming                          | object-oriented-programming                   | object-oriented-programming                   |
+| Operating Systems                                    | operating-systems                             | operating-systems                             |
+| Pattern Recognition (Elective I)                     | pattern-recognition-ele-i                     | pattern-recognition-ele-i                     |
+| Principles of Programming Languages                  | principles-of-programming-languages           | principles-of-programming-languages           |
+| Programming & Problem Solving                        | programming-and-problem-solving               | programming-and-problem-solving               |
+| Software Engineering                                 | software-engineering                          | software-engineering                          |
+| Software Modeling And Architecture (Elective II)     | software-modeling-and-architecture-ele-ii     | software-modeling-and-architecture-ele-ii     |
+| Software Modeling And Architectures (Elective II)    | software-modeling-and-architectures-ele-ii    | software-modeling-and-architectures-ele-ii    |
+| Software Project Management (Elective I)             | software-project-management-ele-i             | software-project-management-ele-i             |
+| Statistics                                           | statistics                                    | statistics                                    |
+| Systems in Mechanical Engineering                    | systems-in-mechanical-engineering             | systems-in-mechanical-engineering             |
+| Systems Programming And Operating System             | systems-programming-and-operating-system      | systems-programming-and-operating-system      |
+| Theory Of Computation                                | theory-of-computation                         | theory-of-computation                         |
+| Web Technology                                       | web-technology-aids                           | web-technology-aids                           |
+| Web Technology                                       | web-technology-cse                            | web-technology-cse                            |
++------------------------------------------------------+-----------------------------------------------+-----------------------------------------------+
+
+============================================================
+SUMMARY
+============================================================
+Total Unique Subjects: 48
+Present in Both: 48
+Missing in questionpapers.json: 0
+Missing in viewerseo.json: 0
+
+============================================================

@@ -1,0 +1,610 @@
+{
+  "subject_name": "Deep Learning - Ele V",
+  "subject_slug": "deep_learning_ele_V_aids",
+  "branch": "aids",
+  "semester": "sem-8",
+  "papers": [
+    {
+      "pdf_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2024_aids_dla_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2024_aids_dla_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DEEP LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6270]-198",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532(D)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-386",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 26/03/2024 13:37:47 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the Advantage and challenges of deep learning.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe Back propagation training algorithm.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "State any five applications of deep learning.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe under fitting, over fitting and bias variance trade-off.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe any five activation functions.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What are Hyper parameters? Explain any 2 in brief.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate between biological and artificial neuron.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe Multilayer Feed-Forward Networks.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "How to select a particular activation function? Explain with example.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain loss functions. How to choose output and loss function? Give an example.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Loss Functions for Reconstruction.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Mention Different Optimization algorithms in Deep Learning.",
+          "marks": 5,
+          "question_id": "1UdL9QC3L9iGDFAjvpE9TssXDUK2B7cEh_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1355,
+        "processed_at": "2026-06-06 14:54:16"
+      }
+    },
+    {
+      "pdf_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2024_aids_dla_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2024_aids_dla_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "DEEP LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6263]-395",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-2509",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 17/05/2024 14:05:14 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is pooling in CNNs? Why is it used? Explain the difference between max pooling and average pooling.",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How do you determine the number of filters in each convolutional layer?",
+          "marks": 5,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define convolutional neural network (CNN), and how does it differ from other types of neural networks?",
+          "marks": 4,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the concept of padding in CNNs. Why is it used? What are strides in CNNs?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe the typical architecture of a CNN.",
+          "marks": 5,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is the main purpose of using CNNs in deep learning?",
+          "marks": 4,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are some common performance metrics used to evaluate RNNs? How do these metrics differ for different applications of RNNs?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the long short-term memory (LSTM) unit and its components.",
+          "marks": 8,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the difference between recurrent neural networks (RNNs) and feedforward neural networks?",
+          "marks": 8,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are hyperparameters in the context of neural networks? How do researchers select appropriate hyperparameters for training RNNs?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is a generative adversarial network (GAN), and how does it work to generate realistic synthetic data?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe different types of GANs, How do these types of GANs differ in their architecture and training?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "How are deep generative models used in machine learning and artificial intelligence?",
+          "marks": 8,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are some common challenges of using GANs, and how can they be addressed in practice?",
+          "marks": 7,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What are some applications of GANs in computer vision?",
+          "marks": 3,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "How can reinforcement learning be applied to play Tic-Tac-Toe? What are the key components of a reinforcement learning algorithm for playing Tic - Tac.",
+          "marks": 8,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is deep reinforcement learning, and how does it combine deep learning with reinforcement learning?",
+          "marks": 9,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the concept of a Markov Decision Process. What are the main components of an MDP?",
+          "marks": 6,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Describe the architecture of a deep Q recurrent network.",
+          "marks": 6,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "What are some of the main challenges faced in reinforcement learning?",
+          "marks": 5,
+          "question_id": "1ou6Otn4p8dQRk-_mouY2EwkjaHO-fG-G_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2772,
+        "processed_at": "2026-06-06 14:54:24"
+      }
+    },
+    {
+      "pdf_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2025_aids_dla_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/insem_mar_2025_aids_dla_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DEEP LEARNING (Elective - V)",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6411]-189",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532 - D",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD-396",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 13/03/2025 13:36:40 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Enlist different optimization algorithm which is commonly used in deep learning? Describe any one.",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe Advantage & challenges of Deep Learning?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How Deep Learning works? Explain it?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Enlist different hyper parameter in Deep Learning? Explain any two?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe Vanishing gradient & exploding gradient?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain different application of deep learning.",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain perceptron & multi-layer perceptron?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define loss functions? Explain with reference to classifications.",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain the concept of biological neuron with comparison of artificial neuron.",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Illustrate the need of Activation function in Neural Networks?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Define loss functions? Explain with reference to regression.",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "How does a neural network get trained?",
+          "marks": 5,
+          "question_id": "15mT0WtkCjRrEiPw25qbnDvR_8OKaUxdq_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 1822,
+        "processed_at": "2026-06-06 14:54:34"
+      }
+    },
+    {
+      "pdf_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2025_aids_dla_eV_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/deep_learning_ele_V_aids/endsem_may_jun_2025_aids_dla_eV_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "DEEP LEARNING",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6404]-390",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417532D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4859",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/05/2025 13:51:05 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the basic architecture of a Convolutional Neural Network (CNN) and describe the role of each key component within the architecture.",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define padding and strides in CNNs, and explain their impact on the output size of feature maps in convolutional layers.",
+          "marks": 8,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the role of the ReLU layer in CNNs. How does ReLU differ from other activation functions, and why is it preferred in convolutional layers?",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe the concept of pooling in CNNs and explain how it contributes to spatial dimensionality reduction. What are some common pooling methods, and how do they differ?",
+          "marks": 8,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the structure of Recurrent Neural Networks (RNNs) and the concept of unfolding computational graphs. How do RNNs handle sequential data, and what challenges arise with long-term dependencies?",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the Bidirectional RNN and Encoder-Decoder Sequence-to-Sequence Architecture. How do these architectures enhance the ability of RNNs to handle complex sequential tasks?",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Outline practical methodologies for evaluating the performance of recurrent neural networks (RNNs). Describe commonly used performance metrics, baseline models, and strategies for selecting hyperparameters in RNN-based models.",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Describe the role of Long Short-Term Memory (LSTM) networks and other gated RNNs in addressing the limitations of standard RNNs. How do LSTM networks manage long-term dependencies, and what are some alternative strategies for handling multiple time scales?",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is a deep generative model, and how does it differ from discriminative models? Provide examples of deep generative models and their applications.",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe the structure and functioning of a Boltzmann Machine (BM). What is the concept of energy in a Boltzmann Machine, and how does it guide the learning",
+          "marks": 8,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is a Generative Adversarial Network (GAN), and how do the generator and discriminator networks interact in the GAN framework? Describe their roles and training process.",
+          "marks": 9,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss the various types of GAN architectures and provide examples of applications where GANs have proven effective.",
+          "marks": 8,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is deep reinforcement learning, and how does it extend traditional reinforcement learning techniques? Discuss its significance in AI and real-world applications.",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the concept of a Markov Decision Process (MDP) and describe its components. How does an MDP serve as a foundation for reinforcement learning?",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Describe the basic framework of reinforcement learning, including key concepts such as agents, environments, actions, states, rewards, and policies.",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are the main challenges faced in reinforcement learning, and what techniques are commonly used to address them?",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain Q-Learning and how Deep Q-Networks (DQN) improve upon traditional Q-Learning for complex environments.",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "How can reinforcement learning be applied to solve a simple game like Tic-Tac-Toe? Describe the learning process and strategy.",
+          "marks": 6,
+          "question_id": "1MVwsCsYx5KE9t3Fzejd7IE3IFCn_zYll_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4042,
+        "processed_at": "2026-06-06 14:54:38"
+      }
+    }
+  ]
+}

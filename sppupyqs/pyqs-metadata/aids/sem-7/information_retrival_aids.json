@@ -1,0 +1,1142 @@
+{
+  "subject_name": "Information Retrival",
+  "subject_slug": "information_retrival_aids",
+  "branch": "aids",
+  "semester": "sem-7",
+  "papers": [
+    {
+      "pdf_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2023_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2023_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6181] - 411",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2 ½ Hours",
+        "paper_identifier": "P6785",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 11/12/2023 13:54:33 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define and explain Probabilistic Retrieval.",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the probability ranking principle for interactive information retrieval?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is the binary independent retrieval model?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is language modeling approach to information retrieval?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State and explain different types of Bayesian networks?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain language models?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is the difference between clustering and classification? Can clustering be used for classification purposes?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are different types of clustering algorithm? Explain any one of them.",
+          "marks": 5,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are the applications of naive Bayes classifier?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is K nearest neighbor classifier with an illustration in information retrieval?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What are the different types of agglomerative clustering?",
+          "marks": 5,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What is the hypothesis used in the vector space model for classification?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Factors that influence a webpage’s PageRank score.",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain search engine ranking function?",
+          "marks": 5,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What is parallelism in query processing?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define Python library is used for web crawling?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the Main challenges posed by Web?",
+          "marks": 5,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the components of focused web crawlers?",
+          "marks": 6,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain multimedia IR models?",
+          "marks": 9,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the four phases of recommeder system?",
+          "marks": 9,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Multimedia Information Retrieval.",
+          "marks": 9,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is the difference between information retrieval and recommender system?",
+          "marks": 9,
+          "question_id": "1gcfpLCrOmkCT7bqCqKwfaQzYrNryzJzL_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2247,
+        "processed_at": "2026-06-06 14:56:23"
+      }
+    },
+    {
+      "pdf_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2023_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2023_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6188]-279",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 B",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P5328",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/09/2023 13:43:19 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Write short note on Vector Model & Probabilistic Model.",
+          "marks": 6,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Enlist features of IR system.",
+          "marks": 5,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain methods of text categorization.",
+          "marks": 4,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the Components of IR model?",
+          "marks": 6,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Data retrieval & Information retrieval.",
+          "marks": 5,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is Boolean Retrieval?",
+          "marks": 4,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Write Short Note on following. i) Dynamic Indexing. ii) Impact Ordering.",
+          "marks": 6,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the static inverted index.",
+          "marks": 5,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are the components of index?",
+          "marks": 4,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Discuss different types of dictionaries in information retrieval.",
+          "marks": 6,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Index Construction in detail.",
+          "marks": 5,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain Query Processing for Ranked Retrieval.",
+          "marks": 4,
+          "question_id": "1r3xfW38vAKqSZ1ZaOMWtMY77fAtv6IIm_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1205,
+        "processed_at": "2026-06-06 14:56:28"
+      }
+    },
+    {
+      "pdf_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_may_jun_2024_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_may_jun_2024_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "A.I. & D.S.",
+        "paper_number": "[6263]-387",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2501",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/05/2024 14:16:47 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define and explain Probabilistic Retrieval.",
+          "marks": 4,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define the following with respect to Information Retrieval: i) Vector Space Model ii) Term Frequency iii) Inverse Document Frequency",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is the binary independent retrieval model?",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "List the problems associated with n-gram. Explain how these problems are handled.",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "List and explain the challenges in Natural language processing.",
+          "marks": 4,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with suitable example different levels of NLP.",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is the difference between clustering and classification? Can clustering be used for classification purposes?",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are different types of clustering algorithm? Explain any one of them.",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain in detail about naïve Bayes algorithm and its application in text classification.",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Write partitioning algorithm for clustering.",
+          "marks": 10,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Solve Agglomerative hierarchical clustering for single link with example.",
+          "marks": 8,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Discuss the factors that influence a webpages PageRank score. Discuss the challenges involve in web search engine.",
+          "marks": 8,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is page ranking? Calculate page rank of following web pages. Assume damping factor 0.7.",
+          "marks": 10,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define Python library is used for web crawling?",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the main challenges posed by Web?",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the components of focused web crawlers?",
+          "marks": 6,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Outline the steps to build a recommender system with an example.",
+          "marks": 10,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the four phases of recommender system?",
+          "marks": 8,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Mulitimedia Information Retrieval.",
+          "marks": 8,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What are the different evaluation metric for Recommender system.",
+          "marks": 10,
+          "question_id": "14z_Mw0ju2-xWuTR9yJ6oVGwHMDVLszqg_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2350,
+        "processed_at": "2026-06-06 14:56:39"
+      }
+    },
+    {
+      "pdf_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2024_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2024_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "AI&DS",
+        "paper_number": "[6354]-788",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-2639",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 20/12/2024 13:47:58 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define and explain Probabilistic Retrieval.",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the binary independent retrieval model?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain types of language models?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "List and explain the challenges in Natural language processing",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State and explain different types of Bayesian networks?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with suitable example different levels of NLP",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is the difference between clustering and classification? Can clustering be used for classification purposes?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are different types of clustering algorithm? Explain any one of them.",
+          "marks": 5,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain in detail about naïve Bayes algorithm and its application in text classification",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is K nearest neighbor classifier with an illustration in information retrieval?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Mixture of GaussiansModel.",
+          "marks": 5,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve Agglomerative hierarchical clustering for single link with example.",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Factors that influence a webpage’s PageRank score",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the factors that influence a webpage’s PageRank score. Discuss the challenges involve in web search engine",
+          "marks": 5,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Define Python library is used for web crawling?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Define Python library is used for web crawling?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the Main challenges posed by Web?",
+          "marks": 5,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the components of focused web crawlers?",
+          "marks": 6,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain multimedia IR models?",
+          "marks": 9,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the four phases of recommender system?",
+          "marks": 9,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are the different evaluation metric for Recommender system.",
+          "marks": 9,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is the difference between information retrieval and recommender system?",
+          "marks": 9,
+          "question_id": "1EoByU8U-y5-6EigPv49_-dlYtKQOdztg_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2337,
+        "processed_at": "2026-06-06 14:56:44"
+      }
+    },
+    {
+      "pdf_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2024_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_sep_2024_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6361]-195",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524 B",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC323",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 05/09/2024 13:37:11 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Major Challenges in IR.",
+          "marks": 6,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss Components of IR Models.",
+          "marks": 5,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Draw and Explain Block Diagram of IR System.",
+          "marks": 4,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Compare information and data retrieval.",
+          "marks": 6,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the methods of text categorization?",
+          "marks": 5,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain features of an IR system.",
+          "marks": 4,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List and Explain steps of indexing in information retrieval.",
+          "marks": 6,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are the three components of query optimization?",
+          "marks": 5,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Define i) Impact ordering. ii) Ranked Retrieval.",
+          "marks": 4,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is index lifecycle in information retrieval?",
+          "marks": 6,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss types of dictionaries in information retrieval.",
+          "marks": 5,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What are Components of Index?",
+          "marks": 4,
+          "question_id": "1-HnyMDH4peGxXG9o3Io4EX4pVE7kHOCn_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1171,
+        "processed_at": "2026-06-06 14:56:54"
+      }
+    },
+    {
+      "pdf_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_aug_2025_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/insem_aug_2025_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "6580-701",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524(B)",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-329",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 23/08/2025 13:37:50 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Enlist Features of IR System.",
+          "marks": 6,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between Data Retrieval and Information Retrieval.",
+          "marks": 5,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is Boolean Retrieval?",
+          "marks": 4,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write a short note on Vector Space Model.",
+          "marks": 6,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the components of IR Model?",
+          "marks": 5,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Concept of Text Categorization.",
+          "marks": 4,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss different types of dictionaries in information retrieval.",
+          "marks": 8,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Static Inverted Index.",
+          "marks": 7,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain Index Construction in details.",
+          "marks": 8,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Query Processing for Ranked retrieval.",
+          "marks": 7,
+          "question_id": "1CBjayXA43-CDxLDF7BHTnJhRTqDfWBZO_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1090,
+        "processed_at": "2026-06-06 14:56:58"
+      }
+    },
+    {
+      "pdf_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2025_aids_ira_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/information_retrival_aids/endsem_nov_dec_2025_aids_ira_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "INFORMATION RETRIEVAL",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6584]-390",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417524B",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE2440",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 22/12/2025 13:41:21 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define and explain Probabilistic Retrieval.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the binary independent retrieval model?",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain types of language models.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "List and explain the challenges in Natural language processing.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "State and explain different types of Bayesian networks?",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with suitable example different levels of NLP.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What is the difference between clustering and classification? Can clustering be used for classification purposes.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What are different types of clustering algorithm? Explain any one of them.",
+          "marks": 5,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain in detail about naïve Bayes algorithm and its application in text classification.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is K nearest neighbor classifier with an illustration in information retrieval?",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Mixture of Gaussians Model.",
+          "marks": 5,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Solve Agglomerative hierarchical clustering for single link with example.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Describe MapReduce with example.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the factors that influence a webpage’s PageRank score. Discuss the challenges involve in web search engine.",
+          "marks": 5,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Define Python library is used for web crawling.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Simple Ranking Functions in detail.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the Main challenges posed by Web?",
+          "marks": 5,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the components of focused web crawlers.",
+          "marks": 6,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain multimedia IR models.",
+          "marks": 9,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the four phases of recommender system?",
+          "marks": 9,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are the different evaluation metric for Recommender system.",
+          "marks": 9,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is the difference between information retrieval and recommender system?",
+          "marks": 9,
+          "question_id": "1h5eHeHQXXor2jVbd1Oypa_7YW13UX5Gg_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2274,
+        "processed_at": "2026-06-06 14:57:07"
+      }
+    }
+  ]
+}

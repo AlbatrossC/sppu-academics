@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPPU PYQs Sitemap</title>
+    <meta name="description" content="Browse all SPPU question-paper subject pages by branch and semester.">
+    <script src="{{ asset_url('js/analytics.js') }}" defer></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #fffdf7; color: #1f2937; }
+        .wrap { max-width: 1150px; margin: 0 auto; padding: 32px 20px 64px; }
+        .hero { background: linear-gradient(135deg, #78350f, #f59e0b); color: white; border-radius: 20px; padding: 32px; margin-bottom: 24px; }
+        .actions a { color: white; margin-right: 16px; }
+        .section { background: white; border: 1px solid #f3e8d0; border-radius: 18px; padding: 24px; margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+        .card { display: block; text-decoration: none; color: inherit; background: #fffaf0; border: 1px solid #f3e8d0; border-radius: 14px; padding: 16px; }
+        .card strong { display: block; margin-bottom: 4px; }
+        .card span { display: block; color: #92400e; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="hero">
+            <h1>SPPU PYQs Sitemap</h1>
+            <p>Browse all SPPU question paper subjects dynamically generated from our data.</p>
+            <div class="actions">
+                <a href="/">Question Papers Home</a>
+                <a href="https://sppucodes.vercel.app/">Go to SPPU Codes</a>
+            </div>
+        </div>
+
+        {% for branch_name, branch_subjects in branches.items() %}
+        <section class="section">
+            <h2>{{ branch_name }}</h2>
+            <div class="grid">
+                {% for subject in branch_subjects %}
+                <a class="card" href="{{ subject.url }}">
+                    <strong>{{ subject.name }}</strong>
+                    <span>
+                        {% if subject.sem %}Semester {{ subject.sem }}{% else %}{{ subject.year_label or "Question Papers" }}{% endif %}
+                        &bull; {{ subject.url }}
+                    </span>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,1807 @@
+{
+  "subject_name": "Fluid Mechanics",
+  "subject_slug": "fluid_mechanics_ce",
+  "branch": "ce",
+  "semester": "se",
+  "papers": [
+    {
+      "pdf_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2022_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2022_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5925]-203",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-1181",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 07/02/2023 13:31:46 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A 1:15 model of a flying boat is towed though water. The prototype is moving in seawater of density 1025kg/m3 at velocity of 21 m/s. Find the corresponding speed of the model. Also, determine the resistance due to waves on model if the resistance due to waves of the prototype is 610N.",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the phenomenon of Boundary Layer Separation and Methods to control to it.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The resisting force R of a supersonic plane during the flight can be considered as dependent upon the length of the aircaft l, velocity V, air viscosity μ, air density ρ, and bulk modulus of air K. Express the functional relationship between these variables and the resisting force. Use Buckingham’s Π Method",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain with the help of neat sketch i) Laminar boundary layer ii) Turbulent boundary layer iii) Laminar Sub-layer.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "A pipe of 110 mm diameter is carrying water. If the velocities at the pipe center and 30 mm from the pipe centre are 2.1 m/s and 1.6 m/s respectively and flow in the pipe is turbulent. Calculate the shear friction velocity and wall shearing stress.",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Derive with usual notations the following Darcy-Weisbach equation for the loss of energy due to friction. hf = (4fLV^2)/(2gD)",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A fluid of viscosity 8 poise and specific gravity 1.2 is flowing through a circular pipe of diameter 100 mm. The maximum shear stress at the pipe wall is 211 N/m2. Find: i) The pressure gradient, ii) The average velocity, and iii) Reynolds number of the flow",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the procedure of Hardy Cross method for the analysis of pipe network.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "The discharge of water through a rectangular channel of width 8 m, is 15.5 m3/s when the depth of flow of water is 1.25 m. Calculate: i) Discharge per unit width ii) Velocity of flow iii) Specific energy of the flowing water iv) Critical depth v) Critical velocity and vi) Value of minimum specific energy.",
+          "marks": 10,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive with usual notations the basic governing “energy equation” of channel flow.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A trapezoidal channel has side slope of 3 horizontal to 4 vertical and slope of its bed is 1 in 2000. Determine the optimum dimensions for the channel sections and show it with neat sketch, if it is carry water at 0.55 m3/s. Take Chezy’s constant as 80.",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "i) Explain the Specific energy curve with neat sketch. ii) Find the rate of flow of water through a V-shaped channel as shown in Figure 6 b. Take the value of C=56 and slope of the bed 1 in 2000.",
+          "marks": 9,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "A metallic ball of diameter 2×10–3 m drops in a fluid of sp. gr. 0.96 and viscosity 15 poise. The density of the metallic ball is 12000 kg/ m3. Find: i) The drag force exerted by fluid on metallic ball, ii) The pressure drag and skin friction drag, and iii) The terminal velocity of ball in fluid.",
+          "marks": 10,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Classification of channel bottom slopes with neat sketches.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "A rectangular channel is 20 m wide and carries a discharge of 65 m3/s. It is laid at a slope of 0.0001. At a certain section along the channel length, the depth of flow is 2m. How far U/S or D/S will the depth be 2.6m? Take n=0.02. Use direct step method with three steps. Consider the depth increment in the interval of 0.1m. Classify and sketch the profile.",
+          "marks": 10,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "A flat plate 1.5 m×1.5 m moves at 51 m/hr in stationary air of density 1.16 kg/m3. If the co-efficient of drag and lift are 0.16 and 0.76 respectively, determine: i) The lift force, ii) The drag force iii) The resultant force, and iv) The power required to keep the plate in motion.",
+          "marks": 8,
+          "question_id": "1fjbIDL28bR7-Xhy1hgb9RWdcIpmQ-XoY_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4693,
+        "processed_at": "2026-06-12 01:00:01"
+      }
+    },
+    {
+      "pdf_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2022_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2022_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[5931]-3",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "201003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "null",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 18/01/2023 10:36:04 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "If the velocity distribution over a plate is given by u = (2/3)y - y^2 in which u is the velocity in meter per second at a distance y meters above the plate, determine the shear stress at y = 0 and y = 0.16 m. Take dynamic viscosity of fluid as 8.65 poise.",
+          "marks": 8,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Derive the expression with usual notations for the total pressure and centre of pressure on vertical plane surface.",
+          "marks": 7,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "A vertical gate closes a horizontal tunnel 5m high and 3 m wide running full with water. The pressure at the bottom of the gate is 196 KN/m2. Determine the total pressure on the gate and the position of the centre or pressure.",
+          "marks": 7,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define : i) Mass Density ii) Specific Gravity iii) Specific Weight iv) Specific Volume v) Capillarity vi) Viscosity vii) Surface Tension viii) Vapor pressure",
+          "marks": 8,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "The velocity components in a two-dimensional flow field for an incompressible fluid are expressed as : u = (3/2)x^2 - (3/2)y^2, v = -3xy. Obtain an expression for the stream function .",
+          "marks": 7,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Derive Euler’s equation of motion along a streamline and obtain the Bernoulli’s Equation from it. State also the assumptions made for it.",
+          "marks": 8,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is meant by HGL and TEL? Explain it with neat sketch.",
+          "marks": 4,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Venturimeter in detail with neat sketch.",
+          "marks": 4,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A 30 cm diameter pipe, conveying water, branches into two pipes of diameters 20 cm and 15 cm respectively. If the average velocity in the 30 cm diameter pipe is 2.6 m/s, find the discharge in this pipe. Also, determine the velocity in 15 cm pipe if the average velocity in 20cm diameter pipe is 2.1 m/s.",
+          "marks": 7,
+          "question_id": "1bIQZpML-IlYHI_eoLbU-Y-mvE06gciSH_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2540,
+        "processed_at": "2026-06-12 01:00:04"
+      }
+    },
+    {
+      "pdf_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2023_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2023_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E. (Civil)",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6002]-103",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P1476",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 16/06/2023 10:34:11 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "The resistance force R experienced by a partially submerged body depends upon the velocity V, length of the body l, viscosity of the fluid μ, density of the fluid ρ, and gravitational acceleration g. Using Buckingham-Pi method, prove that: R = ρV²l² ϕ(μ/(ρVL), gl/V²)",
+          "marks": 8,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain following similarities as applicable to model studies: i) Geometric similarity ii) kinematic similarity iii) dynamic similarity",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The velocity distribution in a boundary layer is given by u/U = y/δ. Calculate displacement thickness.",
+          "marks": 4,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The velocity and discharge for a 1/50 scale model of a spillway are 0.35 m/sec and 0.11 m3/sec, respectively. Calculate corresponding velocity and discharge in the prototype.",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the growth of boundary layer over a thin flat plate held parallel to the direction of flow in a real fluid.",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain following similarity laws: i) Reynold’s model law ii) Froude’s model law",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain all types of minor losses in pipe.",
+          "marks": 7,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "The water surface levels of two reservoirs differ by 12 m. They are connected by a 55 m long pipe. For the first 25 m length the diameter is 120 mm and for the remaining length diameter is 150 mm. The Darcy - Weisbach friction factor f for 120 mm diameter and 150 mm diameter pipes are respectively 0.024 and 0.02. Determine the discharge. Neglect minor losses.",
+          "marks": 7,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw typical velocity distribution diagrams for fully developed laminar and turbulent flow through pipe. Also state the nature of velocity profile for each.",
+          "marks": 3,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define following term applicable to turbulent flow through pipe: i) instantaneous velocity ii) temporal mean velocity iii) Prandtl’s mixing length",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Prove that for steady uniform laminar flow through circular pipe, the velocity distribution diagram is parabolic.",
+          "marks": 9,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Calculate the value of Darcy Weisbach friction factor if Reynold’s Number for flow through pipe is 100.",
+          "marks": 2,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain specific energy curve.",
+          "marks": 5,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "A trapezoidal channel has side slope of 1 V: 1.5 H and the slope of the channel bottom is 1 : 5000. Determine the dimensions of most efficient channel section, if it has to carry water at 10 m3/sec. Take Manning’s n=0.012.",
+          "marks": 8,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain different four types of flows in open channel.",
+          "marks": 4,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Calculate minimum specific energy and maximum discharge corresponding to specific energy of 1.8 m that may occur in a rectangular channel 5 m wide.",
+          "marks": 8,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define following terms applicable for uniform flow computation: i) normal depth ii) conveyance iii) section factor",
+          "marks": 3,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain velocity distribution in open channel flow.",
+          "marks": 6,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain M1, M2,and M3 profiles of GVF. Give their practical example.",
+          "marks": 9,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A flat plate 1 m ×1 m moves through air of density 1.2 kg/m3 at 30 kmph. Determine: i) drag force ii) lift force iii) resultant force iv) power required to maintain the plate in motion. Take CD = 0.18,CL = 0.70.",
+          "marks": 9,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "In a wide rectangular channel of 100 m wide and 3 m deep has an average bed slope of 0.0005. Estimate the length of the GVF profile produced by a low weir which raises the water surface just upstream of it by 1.5 m. Take Manning’s n= 0.035. Use direct step method and take two steps only. Sketch the water surface profile.",
+          "marks": 10,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between bluff body and streamlined body with neat sketch.",
+          "marks": 5,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Draw a neat sketch showing variation of drag coefficient with Reynolds Number for flow around circular cylinder.",
+          "marks": 3,
+          "question_id": "1RWW_R1-_AExvIQc1d87CotO0-qW6spNS_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4488,
+        "processed_at": "2026-06-12 01:00:10"
+      }
+    },
+    {
+      "pdf_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2023_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2023_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6179]-208",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P9083",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 01/01/2024 09:34:41 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Water is flowing through a pipe of diameter 30 cm at a velocity of 4.1 m/s. Find the velocity of oil flowing in another pipe of diameter 10 cm, if the condition of dynamic similarity is satisfied between two pipes. The viscosity of oil water and oil is given as 0.01 poise and 0.025 poise. Take specific gravity of oil = 0.8.",
+          "marks": 5,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch the phenomenon of “Boundary Layer Separation”.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch various methods to control ‘Boundary Layer Separation”.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Determine the dimensions of the following terms: i) Discharge ii) Force iii) Specific weight iv) Kinematic viscosity v) Dynamic viscosity",
+          "marks": 5,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the following with the help of neat sketch: i) Laminar boundary layer ii) Turbulent boundary layer and iii) Laminar sub-layer",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the Buckingham’s π-method of dimensional analysis.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "A pipe of 110 mm diameter is carrying water. If the velocities at the pipe centre and 30 mm from the pipe centre are 2.1 m/s and 1.6 m/s respectively and flow in the pipe is turbulent. Calculate the shear friction velocity and wall shearing stress.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain in brief “Moody’s Diagram”",
+          "marks": 5,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Three pipes of lengths 800m, 500m, and 400m and of diameter 500mm, 400mm, and 300 mm respectively are connected in series. These pipes are to be replaced by a single pipe of length 1750 m. Find the diameter of the single pipe.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A fluid of viscosity 8 poise and specific gravity 1.2 is flowing through a circular pipe of diameter 100 mm. The maximum shear stress at the pipe wall is 212 N/m2 . Find: i) The pressure gradient ii) The average velocity and iii) Reynolds number of the flow",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the procedure of Hardy Cross method for the analysis of pipe network.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain in brief the following terms related with flow through pipes: i) Major losses and ii) Minor losses",
+          "marks": 5,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Define the following terms related with types of open channel flow: i) Steady flow ii) Unsteady flow iii) Uniform flow iv) Non-uniform flow v) Laminar flow vi) Turbulent flow",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive the conditions for most economical trapezoidal channel section.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "i) Find the specific energy of flowing water through a rectangular channel of width 5 m when the discharge of 10.1 m3/s and depth of water is 3m. ii) Find the critical depth and critical velocity of the water flowing through a rectangular channel of width 5m, when discharge is 15.5 m3/s .",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A trapezoidal channel has side slope of 1 horizontal to 2 vertical and slope of its bed is 1 in 1500. The area of the section is 40m2. Find the dimensions for the channel sections if it is most economical as shown in Figure 6 a. Take Chezy’ s constant as 80.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the Specific energy curve and Specific force diagram with neat sketch.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain in brief: i) Classification of Channel ii) Velocity distribution in open channel.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Experiments were conducted in wind tunnel with a wind speed of 50 km/ hour on flat plate of size 2m long and 1 m wide. The density of air is 1.16 kg/m3. The coefficients of lift and drag are 0.76 and 0.16 respectively. Determine: i) the lift force ii) the drag force iii) the resultant force iv) direction of resultant force and v) power exerted by air on the plate",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain Classification of channel bottom slopes with neat sketches.",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketch: i) Karman Vortex Trail ii) Polar Diagram",
+          "marks": 6,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "A rectangular channel is 20 m wide and carries a discharge of 65 m3/s. It is laid at a slope of 0.0001. At a certain section along the channel length, the depth of flow is 2m.How far U/S or D/S will the depth be 2.6m? Take n=0.02. Use direct step method with two steps. Consider the depth increment in the interval of 0.1m.Classify and sketch the profile.",
+          "marks": 10,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain in brief: i) Magnus effect ii) Types of drag iii) Bluff body and iv) Streamlined body",
+          "marks": 8,
+          "question_id": "1jlcepwW-vtzz4dcAZxr_C1-h4sIgQovp_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 4,
+        "character_count": 5270,
+        "processed_at": "2026-06-12 01:00:16"
+      }
+    },
+    {
+      "pdf_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2023_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2023_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6186]-503",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5377",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 11/10/2023 10:37:45 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "If density of a liquid is 837 kg/m3 find its: - i) specific weight, ii) secific gravity and iii) specific volume. If kinematic viscosity of this liquid is 1.73 cm2/sec, obtain its dynamic viscosity.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between “Surface Tension” and “Capillarity”. Give practical example of each.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define “Metacenter” and “Metacentric Height”. How they are important in case of floating body.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Five liters of oil weights 61.80 N. Calculate (i) Specific Weight, (ii) Specific Mass, (iii) Specific volume and (iv) Relative Density.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is kinematic viscosity? Why it is so called? Give its units and dimensions.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain with neat sketches various conditions of equilibrium related to stability of floating body.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define: (i) Path Line (ii) Stream Line (iii) Stream Tube (iv) Streak Line.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Derive the continuity equation for three-dimensional flow.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Sketch a Pitot tube and explain how it is used to measure the velocity of flowing fluid.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Enlist different types of fluid flows and explain anyone in detail.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Derive the “Euler’s Equation of Motion” along a stream tube.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Oil of specific gravity 0.8 flows in a horizontal pipe at a height of 3 m above a datum plane. At a section of the pipe, diameter is 120 mm and the pressure intensity is 125 KN/m2. If the total energy at the section is 25 m, find the rate of flow of oil.",
+          "marks": 5,
+          "question_id": "1lmlzPJw7QoAMZ8SaeheB32vUVvr7jqcU_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2304,
+        "processed_at": "2026-06-12 01:00:20"
+      }
+    },
+    {
+      "pdf_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2024_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2024_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6261]-8",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB3603",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 21/05/2024 13:34:19 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Using Buckingham - Pi method, prove that the drag force F on a sphere of diameter D moving at a constant speed V through a fluid of density  and dynamic viscosity  may be expressed as F = V2 D2  (μ / VD)",
+          "marks": 8,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain following similarities as applicable to model studies: i) kinematic similarity ii) dynamic similarity",
+          "marks": 4,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The velocity distribution in boundary layer is given by u / U = y / . Calculate displacement and momentum thickness.",
+          "marks": 6,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "The velocity and discharge for a 1/40 scale model of a spillway are 0.45m/sec and 0.102 m3/sec, respectively. Calculate corresponding velocity and discharge in the prototype.",
+          "marks": 6,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the growth of boundary layer over a thin flat plate held parallel to the direction of flow in a real fluid.",
+          "marks": 6,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Derive an expression for displacement thickness.",
+          "marks": 6,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in brief Moody’s diagram.",
+          "marks": 7,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "The difference of water levels of two reservoirs is 8m They are connected by a 40 m long pipe. For the first 25m length, the diameter of the pipe is 120 mm and for the remaining length, the diameter is 200 mm, the change in diameter being sudden. Calculate the discharge into the reservoir. Also calculate head loss in individual pipe Take Darcy - Weisbach friction factor f = 0.032. Neglect minor losses.",
+          "marks": 8,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw typical velocity distribution diagrams for fully developed laminar and turbulent flow through pipe. Also state the nature of velocity profile for each.",
+          "marks": 2,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in brief all types of minor losses in pipe.",
+          "marks": 6,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Prove that for steady uniform laminar flow through circular pipe, the velocity distribution diagram is parabolic.",
+          "marks": 9,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Calculate the value of Darcy Weisbach friction factor if Reynold’s Number for flow through pipe is 100.",
+          "marks": 2,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain specific energy curve.",
+          "marks": 5,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "A trapezoidal channel has side slope of V : 0.75 H and the slope of the channel bottom is 1: 2000. Determine the dimensions of most effcient channel section, if it has to carry water at 0.5 m3/sec. Take Chezy’s C = 80.",
+          "marks": 8,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A triangular gutter of 60º angle conveys water at a uniform depth of 0.3m. If bed slope is 1 in 150, calculate discharge. Take Manning’s n = 0.018.",
+          "marks": 5,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Derive Chezy’s formula for uniform flow through open channel.",
+          "marks": 8,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write five characteristics of critical flow in open channel.",
+          "marks": 5,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Water flows at the rate of 16m3/sec in a rectangular channel 10 m wide at a velocity of 1.6m/s. calculate i) specific energy head, ii) Froude Number and state the type of flow.",
+          "marks": 5,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Derive dynamic equation of GVF.",
+          "marks": 9,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Aflat plate 1 m ×1 m moves through air of density 1.15 kg/m3 at 36kmph. Determine: i) drag force ii) lift force iii) resultant force iv) power required to maintain the plate in motion. Take CD = 0.18, CL = 0.70.",
+          "marks": 8,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "In a wide rectangular channel of 100 m wide and 3m deep has an average bed slope of 0.0005. Estimate the length of the GVF profile produced by a low weir which raises the water surface just upstream of it by 1.5 m. Take Manning’ s n = 0.035. Use direct step method and take two steps only. Sketch the water surface profile.",
+          "marks": 10,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Differentiate between stream lined and bluff body with suitable sketches.",
+          "marks": 4,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Draw a neat figure showing variation of drag coefficient (CD) with Reynold’s Number (Re) for flow around a sphere of real fluid. Show appropriate vales of CD and Re.",
+          "marks": 3,
+          "question_id": "1LjcHaujGXNw0URz0nSHokRvXtVzNwIra_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4541,
+        "processed_at": "2026-06-12 01:00:25"
+      }
+    },
+    {
+      "pdf_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2024_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2024_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6352]-8R",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC4814",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 02/12/2024 09:30:20 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Derive the dimensionless numbers: i) Reynold number ii) Froude number and what are the field application of each.",
+          "marks": 5,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is a repeating variable and what are the criteria for selecting repeating variable? Explain Buckingham  theorem method of dimensional analysis.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The resisting force for a ship is found to depend on its length L, velocity V, acceleration due to gravity g, and fluid density , dynamic viscosity . Develop a dimensionless relation for the resisting force. Use Bukingham’s  method.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Derive expression for: i) Displacement thickness ii) Energy thickness",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "A flat plate 10cm wide and 30cm long is placed in oil of relative density 0.85 and kinematic viscosity 0.6 stoke which is flowing with a velocity of 4.5m/s. Find the friction drag on the flat plate, shear stress and thickness of boundary layer at the trailing edge of plate.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "How does the pressure gradient along flow direction effect boundary layer separation. Explain any one method of controlling boundary layer separation.",
+          "marks": 5,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the Reynold Experiment for classification of fluid flow and classify the flow based on Reynold number. Also explain significance of lower and upper Reynold number.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "A fluid of specific gravity 1.05 flows through a pipe of diameter 120mm. The viscosity of oil is 12 poise and the velocity of flow along centre line of pipe is 3.2 m/s. Find: i) Pressure gradient in flow direction. ii) Shear stress at the pipe wall. iii) Reynold’s number.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are the characteristics of turbulent flow in pipes? Explain hydrodynamically smooth and rough boundaries.",
+          "marks": 5,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "A horizontal compound pipe in series has 4 pipes. Pipe 1 is 5cm in diameter and 5m long, pipe 2 is 7.5cm in diameter and 7m long, pipe 3 is 10cm in diameter and 10 m long, pipe 4 is 7.5 cm in diameter and 3m long. The changes in pipe diameter is sudden. Draw the hydraulic gradient line(HGL) and total energy line for this compound pipe. Explain why total energy line always fall in the direction of flow, whereas the hydraulic gradient line may fall or rise.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is major loss and minor loss in flow through pipe and why these losses occur in flow through pipes. Enlist all major and minor loss with relevant equations?",
+          "marks": 5,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "A pipe in series connects two reservoir and is having length of 150m and 200m. The diameter of the two pipes is 15 cm and 20cms respectively. If the difference in head between water surfaces in reservoir is 6m and friction factors are 0.02 and 0.015 respectively, find the rate of flow through the pipe.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "In what ways is the flow in open channel is different from the flow through pipe? What are the different types of flow that occur in an open channel flow.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive the Chezy’ s equation for velocity of flow in an open channel.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A discharge of 15m3/s is to be carried at an average velocity of 1.85m/s. Calculate the dimensions for most efficient, Rectangular channel.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "How does the specific energy of flow in an open channel differ from total energy of flow in open channel? Derive the equation for critical depth for Rectangular channel.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch specific force diagram.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "A rectangular channel is 3.5m in wide carries a discharge of 2.8 m3/s with a depth of flow of 0.90m, if Manning N = 0.015 determine. i) Specific energy ii) Channel bed slope iii) Critical depth iv) Nature of flow",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "State the assumptions made in the derivation of the dynamic equation for gradually varied flow and derive dynamic equation for GVF.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Classify various types of channel bed slope.",
+          "marks": 4,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "A wide rectangular channel carries a discharge of 7.5 m3/s/m width of channel. The slope of channel is 1 in 2000 and Manning’s N=0.020. At a section in the channel the depth of flow is 4.5m, find the length of flow profile so developed between this depth and depth within 10% of normal depth. Take 2 steps, sketch the flow profile so developed.",
+          "marks": 8,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Distinguish between: i) Streamlined body and bluff body ii) Skin friction drag and form drag",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain flow around a cylinder and development of Karman vortex street.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Tests were conducted on a flat plate 1.25m long and 0.80m wide in a wind tunnel. The wind speed was maintained at 25km/hr. The coefficient of lift and drag are 0.50 and 0.15 respectively. Find: i) Lift force ii) Drag force iii) Resultant force iv) Direction of resultant force and v) Power required to overcome resistance due to flow of wind. Take density of air as 1.2 kg/m3.",
+          "marks": 6,
+          "question_id": "163RBtjjFF2fOYDarPkWKMQDgPb4bBFYO_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 5640,
+        "processed_at": "2026-06-12 01:00:31"
+      }
+    },
+    {
+      "pdf_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_sep_2024_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_sep_2024_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6359]-503",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-383",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/10/2024 10:43:14 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define i) Specific Gravity ii) Specific Volume iii) Vapor pressure iv) Mass Density v) Capillarity vi) Viscosity vii) Surface Tension viii) Specific Weight.",
+          "marks": 8,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Derive the expression with usual notations for the total pressure and centre of pressure on inclined plane surface.",
+          "marks": 7,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Calculate the specific weight, specific mass, specific volume and specific gravity of a liquid having a volume of 6 m3 and weight 45 kN.",
+          "marks": 5,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Differentiate between Real Fluid and Ideal Fluid.",
+          "marks": 2,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A 3.6 m by 1.5 m wide rectangular gate BC is vertical and is hinged at point 0.15 m below the centre of gravity of the gate. The total depth of water is 6.1 m What horizontal force must be applied at the bottom of the gate to the keep the gate closed?",
+          "marks": 8,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "The water is flowing through a tapering pipe having diameters 300 mm and 150 mm at section 1 and 2 respectively. The discharge through the pipe is 42 lit/s. The section 1 is 10 m above datum and section 2 is 6 m above datum. Find the pressure at section 2 if that at section 1 is 401 kN/m2.",
+          "marks": 7,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Derive the continuity equation for three-dimensional flow with usual notations.",
+          "marks": 8,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in brief with neat sketch : i) Venturimeter ii) Pitot Tube iii) Rotameter.",
+          "marks": 8,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "For a two-dimensional flow phi = 3xy and phi = 3/2 (x^2 - y^2). Determine the velocity components at the points (1, 3) and (3, 3). Also, find the discharge passing through the points given above.",
+          "marks": 7,
+          "question_id": "1zTOX8ptmOYDsnmNhr2Whh5pMlQEnp_SV_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2452,
+        "processed_at": "2026-06-12 01:00:34"
+      }
+    },
+    {
+      "pdf_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2025_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_may_jun_2025_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6402]-3",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4044",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 17/05/2025 09:37:11 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Buckingham  theorem method of dimensional analysis.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "List out the various Non dimensional numbers along with their mathematical expression.",
+          "marks": 5,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "The drag force F on a partially submerged body depends upon relative velocity V between body and fluid linear dimension 1, height of surface roughness k, fluid density , viscosity , acceleration due to gravity 'g', using Buckingham  theorem develop an expression for drag force.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain boundary layer development on flat plate.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is boundary layer separation. Explain any two methods to avoid boundary layer separation.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "A flat plate has a length of 3m and width of 0.8m is moving in a stationary air at an velocity of 3m/s. If the kinematic viscosity of air is 0.10 stokes, find the thickness of boundary layer at the trailing edge.",
+          "marks": 5,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are characteristics of laminar flow and list out any 4 practical examples of laminar flow.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain 1. Instantaneous velocity, 2. Temporal mean velocity, 3. Intensity of turbulence.",
+          "marks": 5,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "A laminar flow occurs through a pipe of 20cm diameter. The velocity of flow at a radial distance of 2 cm from axis of pipe was found to be 0.5m/s, find. i) Maximum velocity of flow ii) Mean velocity of flow iii) Discharge flowing through pipe",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is the difference between major loss and minor loss of energy in flow through pipe. List out all the types of minor loss along with relevant equations.",
+          "marks": 5,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Two pipe of diameter 10cm and length 5m, diameter 15cm and length 7.5m length respectively are connected in series, what is the total loss of energy when fluid flow from one end to another. Also draw the hydraulic gradient and total energy line.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Three pipes 40cm diameter, 1200m length, 30cm diameter, 1000m length, 20cm diameter, 500m length, are connected in series. i) If the pipe system is to be replaced by an equivalent pipe of 30 cm diameter, what would be the equivalent length. ii) What will be the equivalent diameter for the pipe of length 2700m length.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is an open channel flow, its characteristics and what are the different types of flow that occur in an open channel?",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive condition for most economical rectangular channel section.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "A trapezoidal channel 2.5m wide and side slope 1.5 horizontal to 1 vertical carries water at a depth of 1.2m. If the channel bed slope is 0.0050 and manning coefficient is 0.020, Calculate i) Velocity of flow ii) Discharge carried by channel iii) Average shear stress at the boundary",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is specific energy? Explain with neat sketch specific energy curve?",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "A rectangular channel is 3m wide and carries water at a normal depth of 0.5m. The channel has a longitudinal slope of 1 in 200. If manning coefficient of roughness is 0.018 find i) Discharge per unit width ii) Flow is laminar or turbulent iii) Critical depth iv) Specific energy and specific force v) Minimum specific energy",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Explain the following with respect to open channel flow i) Prismatic channel ii) Discharge diagram iii) Specific force diagram",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "A flat plate 2.5m × 2.5m is moved in a stationary air at 35 km/hr. If the coefficient of drag and lift is 0.10 and 0.50 respectively find i) Drag force ii) Lift force iii) Resultant force and its inclination iv) Power required to keep plate in motion Take density of air 1.2 kg/m3",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What are the different type of drag and explain each type.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is Magnus effect, and explain how lift can be generated on cylinder using Magnus effect.",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are the different channel types and the possible flow profile in each type of channel?",
+          "marks": 6,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Sketch the water surface flow profile in mild slope channel.",
+          "marks": 4,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "A rectangular channel l5m wide carries water at a normal depth of l.5m with a bed slope of 1/5000. At a certain section the depth of flow is 2.5m. How far upstream or downstream of this section the depth of flow would be 2.l m. Use step method and take 2 steps.",
+          "marks": 8,
+          "question_id": "1mrwUv-9qHqL-mjDvAABs7X2iHW_KOEvs_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 5156,
+        "processed_at": "2026-06-12 01:00:41"
+      }
+    },
+    {
+      "pdf_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2025_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/endsem_nov_dec_2025_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil",
+        "paper_number": "[6582]-8",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE4237",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 15/12/2025 09:39:50 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "A 7.25 m height and 15.5 m long spillway discharges 95 m3/s discharge under a head of 2.1 m. If a 1 : 9 scale model of this spillway is to be constructed, determine model dimensions, head over the spillway model and the model discharge. If model experiences a force of 7550 N, determine the force on prototype.",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain in brief : i) Boundary layer thickness ii) Displacement thickness iii) Momentum thickness and Energy thickness",
+          "marks": 8,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is meant by Similitude? Explain in brief : i) Dynamic similarity ii) Kinematic similarity and iii) Geometric similarity",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Find the momentum thickness, displacement thickness and energy thickness for velocity distribution in the boundary layer given by u/U = y/δ, where u is the velocity at a distance y from the plate and u = U at y = δ, where δ = boundary layer thickness. Also calculate the value of δ*/θ.",
+          "marks": 8,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "In case of flow of viscous fluid through circular pipe, show that the ratio of maximum velocity to average velocity = 2.0.",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the procedure of Hardy Cross method for the analysis of pipe network.",
+          "marks": 8,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "In case of velocity distribution in turbulent flow in pipes, derive the following equation with usual notations. (u_max - u) / u* = 5.75 log10(R/y)",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "A pipe line of 0.6 m diameter is 1.5 km long. To increase the discharge, another line of the same diameter is introduced parallel to the first in the second half of the length. Neglecting minor losses, find the increase in the discharge if 4f = 0.04. The head at the inlet is 310mm.",
+          "marks": 8,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Derive with usual notations the basic governing “Continuity Equation” of channel flow.",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Derive the conditions for most economical triangular channel section.",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "A trapezoidal channel has side slopes of 1 horizontal to 2 vertical and the slope of the bed is 1 in 1500. The area of the section is 41 m2. Find the dimensions of the section and draw the sketch of it, if it is most economical. Determine the discharge of the most economical section if C = 50.",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "i) Explain with neta sketch “Velocity distribution in open channel”. ii) Derive with usual notations the following expression for critical depth. h_c = (q^2 / g)^(1/3)",
+          "marks": 9,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Derive the following equation of GVF with usual notations. State also the assumption made for it. dy/dx = (S_o - S_f) / (1 - Q^2 T / g A^3)",
+          "marks": 10,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "A jet plane which weighs 29450 N and has a wing area of 20 m2 flies at a velocity of 250 km/hr. When the engine delivers 7358 kW, 65% of the power is used to overcome the drag resistance of the wing. Calculate the co-efficient of lift and co-efficient of drag for the wing. Take density of air equal to 1.21 kg/m3.",
+          "marks": 8,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "A wide rectangular channel carries a flow of 11 m3/s/m width of the channel with bed slope of 1 in 3500 and Manning’s n = 0.015. If the depth at a section is 4.5m, determine how far upstream or downstream of the section, the depth of flow would be within 5% of the normal depth. Use direct step method with two steps. Classify and sketch the profile.",
+          "marks": 12,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain with neat sketch : i) Karman Vortex Trail ii) Polar Diagram",
+          "marks": 6,
+          "question_id": "1RlwBTKvyav4gmmwTp9r_eQnyYPTHkTRy_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 4321,
+        "processed_at": "2026-06-12 01:00:47"
+      }
+    },
+    {
+      "pdf_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2025_ce_fmc_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/se/2019_pattern/fluid_mechanics_ce/insem_oct_2025_ce_fmc_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "oct",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "FLUID MECHANICS",
+        "academic_year": "S.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6578]-3",
+        "pattern_year": 2019,
+        "semester": "III",
+        "subject_code": "201003",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PE-530",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 06/11/2025 10:41:11 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Differentiate between: i) Absolute and Gauge Pressure ii) Simple manometer and differential manometer.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "State and explain Newton’s law of viscosity.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define gauge pressure, vacuum pressure and absolute pressure.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define Specific weight, dynamic viscosity and capillarity.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Derive an expression for a pressure inside a liquid jet of radius R and surface tension.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is meant by stability of floating and submerged body and what are the different stability conditions for floating and submerged body.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define the following and give one practical example for each : i) Laminar flow ii) Turbulent Flow iii) Steady flow iv) Uniform Flow v) Varied Flow",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a short note on :- i) Stream line ii) Streak Line iii) Path line iv) Hydrokinetics v) Hydro kinematics",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "The diameter of a pipe at the section 1 and 2 are 15 cm and 20 cm respectively. Find the discharge through the pipe if velocity of water at section 1 is 4 m/s. Determine also the velocity at section 2.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain how Bernoulli’s theorem, applied to two points in flow, is modified to account for i) Loss of head, ii) Installation of pump, iii) Non-uniform velocity variation in pipe.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in brief:- i) Velocity Potential ii) Stream Function",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Determine the total pressure on a circular plate of diameter 1.5 m, which is placed vertically in water in such a way that centre of plate is 2m below the free surface of water. Find the position of centre of pressure also.",
+          "marks": 5,
+          "question_id": "1_RYrpDjJRdjxAZxrIe9p1qrHEVt_MpX1_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2412,
+        "processed_at": "2026-06-12 01:00:50"
+      }
+    }
+  ]
+}

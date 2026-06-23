@@ -1,0 +1,134 @@
+{
+  "subject_name": "Water Supply Engineering",
+  "subject_slug": "water_supply_engineering_ce_be",
+  "branch": "ce",
+  "semester": "be",
+  "papers": [
+    {
+      "pdf_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/civil-engineering/be/2019_pattern/water_supply_engineering_ce_be/insem_sep_2024_ce_wsecb_2019p.pdf",
+      "canonical_path": "papers/civil-engineering/be/2019_pattern/water_supply_engineering_ce_be/insem_sep_2024_ce_wsecb_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "civil-engineering",
+        "branch_name": "Civil Engineering",
+        "exam": "insem",
+        "month": "sep",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "WATER SUPPLY ENGINEERING",
+        "academic_year": "B.E.",
+        "branch_name": "Civil Engineering",
+        "paper_number": "[6360]-16",
+        "pattern_year": 2019,
+        "semester": "I",
+        "subject_code": "301002",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC16",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 02/09/2024 10:30:42 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain necessity and importance of water supply scheme.",
+          "marks": 4,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Census data for a town is as follows. Year 1971 1981 1991 2001 2011 Population 35000 37500 43500 52000 57500 Estimate the population in the year 2030 by geometric increase method.",
+          "marks": 6,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Mention any two chemical and biological tests for water along with the unit of measurement.",
+          "marks": 5,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Define design period. State design period for various components of water supply scheme.",
+          "marks": 4,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Census data for a town is as follows. Year 1971 1981 1991 2001 2011 Population 35000 37500 43500 52000 57500 Estimate the population in the year 2030 by incremental increase method.",
+          "marks": 6,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "State the HDL and MPL values as per IS:10500 for drinking water with appropriate unit, for pH, Alkalinity, Chlorides and Nitrates.",
+          "marks": 5,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Differentiate between water treatment operations and processes along with examples.",
+          "marks": 4,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "The maximum daily demand of water for a town is 15 MLD. Design a 04 steps cascade aerator considering loading rate as 0.03 m2/m3/hr. Assume velocity of flow in collecting channel is 0.6 m/sec and height of aerator is 2.4 m.",
+          "marks": 6,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "A water treatment plant has four clarifiers treating 0.18 m3/s of water. Each clarifier is 5 m wide, 25 m long, and 4.6 m deep. Determine: i) the detention time ii) overflow rate iii) horizontal velocity and iv) weir loading rate assuming the weir length is 2.5 times the basin width.",
+          "marks": 5,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Mention various objectives of aeration. Also discuss various limitations of aeration.",
+          "marks": 4,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "The maximum daily demand of water for a town is 150 MLD. Design 06 steps cascade aerator considering loading rate as 0.03 m2/m3/hr. Assume velocity of flow in collecting channel is 1m/sec and height of aerator is 3 m.",
+          "marks": 6,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "The maximum daily demand of water is 6 MLD. Design a plain sedimentation tank rectangular in shape, assuming the detention time of 4 hours and flow through velocity of 20 cm/minute. Also check the flow rate.",
+          "marks": 5,
+          "question_id": "114KWWCnszeUULweJp023gsOPwDKXWaI1_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2649,
+        "processed_at": "2026-06-12 00:54:48"
+      }
+    }
+  ]
+}

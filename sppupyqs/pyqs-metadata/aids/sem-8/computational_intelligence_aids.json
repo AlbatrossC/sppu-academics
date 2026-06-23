@@ -1,0 +1,596 @@
+{
+  "subject_name": "Computational  Intelligence",
+  "subject_slug": "computational_intelligence_aids",
+  "branch": "aids",
+  "semester": "sem-8",
+  "papers": [
+    {
+      "pdf_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2024_aids_cia_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2024_aids_cia_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "COMPUTATIONAL INTELLIGENCE",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "6270-193",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB-381",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/03/2024 13:34:37 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain various applications of Computational Intelligence .",
+          "marks": 5,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe any three paradigm of Computational Intelligence.",
+          "marks": 6,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Difference between Artificial Intelligence and Computational Intelligence.",
+          "marks": 4,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe Swarm Intelligence with example?",
+          "marks": 5,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain different approaches to computational Intelligence.",
+          "marks": 6,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Enlist & Explain challenges in Computational Intelligence.",
+          "marks": 4,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain fuzzy inference with example?",
+          "marks": 4,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain Fuzzy Logic controllers with its components?",
+          "marks": 6,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What are member functions, and how are they categorized by type?",
+          "marks": 5,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Difference Between Fuzzification & Defuzzification.",
+          "marks": 4,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a Short Note on. i) Linguistics Variables and Hedges ii) Fuzzy Rules",
+          "marks": 6,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the characteristics of Fuzzy set?",
+          "marks": 5,
+          "question_id": "1fsAqhFro6P9RDoTOAov8vGc4RYQPlGbs_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1349,
+        "processed_at": "2026-06-06 14:52:54"
+      }
+    },
+    {
+      "pdf_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2024_aids_cia_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2024_aids_cia_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "COMPUTATIONAL INTELLIGENCE",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6263]-390",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB2504",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 08/05/2024 13:52:51 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What are the key performance measures used to evaluate the effectiveness of evolutionary algorithms?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is swarm intelligence, and how does it differ from traditional optimization techniques?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define Genetic programming and its application in symbolic regression?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the importance of selection in evolutionary algorithms and its impact on the convergence of the algorithm?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the concept of population in evolutionary computing and its significance in the optimization processes?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Compare and contrast genetic algorithms, evolution strategies, evolutionary programming.",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the concept of an individual in the context of genetic algorithms and its role in the optimization process?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the concept of Messy Genetic Algorithm?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Write the principles of the Holland Classifier system and its application?",
+          "marks": 5,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe the process of selection in genetic algorithms, including the different selection strategies used?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What condition determines when a genetic algorithm stops iterating and returns the best solution found?",
+          "marks": 6,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain the concept of initialization in genetic algorithms and its role in creating the initial population?",
+          "marks": 5,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Compare and contrast Word2Vec and GloVe in terms of how they generate word embeddings?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the architecture of a Seq2Seq model and its role in neural machine translation?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "How does BERT (Bidirectional Encoder Representations from Transformers) work, and what are its advantages over traditional language models?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Describe the TF-IDF (Term Frequency-Inverse Document Frequency) weighting scheme and its significance in text representation?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain the concept of Artificial Immune Models and their significance in computational intelligence?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe the principles of Network Theory Model and its application in understanding immune system behaviour?",
+          "marks": 8,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss the role of antigen-presenting cells in immune activation and its representation in the Dendritic Cell Model?",
+          "marks": 9,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the limitations and challenges of applying Artificial Immune System models in real-world applications?",
+          "marks": 8,
+          "question_id": "1cFADbEzIV0wcGzNexvJ77WXyiQVTWcs6_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2957,
+        "processed_at": "2026-06-06 14:53:04"
+      }
+    },
+    {
+      "pdf_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2025_aids_cia_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/insem_mar_2025_aids_cia_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "COMPUTATIONAL INTELLIGENCE",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[6411]-184",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417530",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD-391",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 10/03/2025 13:41:58 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain how following approaches contribute to Computational Intelligence: i) Fuzzy Logic ii) Neural Networks iii) Evolutionary Computing iv) Swarm Intelligence",
+          "marks": 8,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Define Computational Intelligence. Differentiate between Artificial Intelligence and Computational Intelligence.",
+          "marks": 7,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Provide examples of successful applications of Computational Intelligence in different fields.",
+          "marks": 8,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain how different methodologies synergistically combine in Computational Intelligence?",
+          "marks": 7,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define a Fuzzy Set? Explain in detail about Fuzzy set operations.",
+          "marks": 7,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write a short note on : i) Linguistics Variables and Hedges ii) Fuzzy Rules",
+          "marks": 8,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define Fuzzy logic Controllers. Explain different Fuzzy logic Controller Types.",
+          "marks": 7,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write a short note on : i) Membership Function ii) Fuzzification iii) Defuzzification iv) Fuzziness and Probability",
+          "marks": 8,
+          "question_id": "1ZNmncyII6gBIRC3ekZX4dFwMpV-75tlm_q4_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 1683,
+        "processed_at": "2026-06-06 14:53:23"
+      }
+    },
+    {
+      "pdf_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2025_aids_cia_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/computational_intelligence_aids/endsem_may_jun_2025_aids_cia_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "COMPUTATIONAL INTELLIGENCE",
+        "academic_year": "B.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6404]-385",
+        "pattern_year": 2019,
+        "semester": "VIII",
+        "subject_code": "417530",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4854",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 24/05/2025 13:37:26 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Swarm Intelligence and Explain Ant Colony Optimization algorithm.",
+          "marks": 8,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Write short note on: i) Evolutionary Computation versus Classical Optimization ii) Ant Colony Optimization algorithm",
+          "marks": 10,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Write short note on: i) Tournament selection method ii) Constraint Handling",
+          "marks": 10,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are genetic operators and what is their role in evolutionary algorithms?",
+          "marks": 8,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain following Terminologies of Genetic Algorithm: a) Search space b) Genes c) Allele d) Trait e) Genotype and Phenotype",
+          "marks": 10,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Write short note on : a) Selection operator in Genetic Algorithm. b) Stopping conditions used in genetic algorithms",
+          "marks": 7,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What are types of mutation and cross over techniques? Explain in brief.",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain Messy Genetic Algorithms.",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain - Binary Representations, Floating Point Representations used in Genetic Algorithms.",
+          "marks": 5,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain following Word embedding Techniques: i) Bag of Words ii) TF-IDF iii) Word2Vec iv) GloVe",
+          "marks": 8,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the process of Neural Style Transfer and discuss its applications.",
+          "marks": 5,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Discuss the significance of pre-trained NLP BERT models and provide examples of their applications.",
+          "marks": 5,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe the architecture of a Neural Machine Translation (NMT) model and discuss the role of Seq2Seq in NMT.",
+          "marks": 9,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define BLEU Score and BERT Score as metrics for evaluating machine translation. Compare traditional metrics with neural metrics in machine translation evaluation.",
+          "marks": 9,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Describe the Network Theory Model in artificial immune systems.",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe the working of the Artificial Immune System Algorithm.",
+          "marks": 5,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain the concept of danger theory in the context of artificial immune systems.",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain how the Clonal Selection Theory Model contributes to the development of artificial immune systems?",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain the concept of the natural immune system. Compare it with artificial immune models.",
+          "marks": 5,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Discuss the role of dendritic cells in the artificial imnrnne system. How are dendritic cell-based models utilized in problem-solving and optimization tasks?",
+          "marks": 6,
+          "question_id": "1OK1Rw04ZTauH6kfoGXtJOCjQTGXGPg4b_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 3015,
+        "processed_at": "2026-06-06 14:53:34"
+      }
+    }
+  ]
+}

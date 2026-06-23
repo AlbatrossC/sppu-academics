@@ -1,0 +1,2168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="google-site-verification" content="s0ezZ-kg4bjZR6Jbt_-6H1Im5EDs61Rg5yWJr6BHXFY" />
+    <meta name="google-site-verification" content="EZ0Ro0zG4Hc7axgonIr9RZJdN0xW3cVTMueirY8hveA" />
+    <title>{{ seo_data.title | safe }}</title>
+    <meta name="description" content="{{ seo_data.description | safe }}">
+    <meta name="keywords" content="{{ seo_data.keywords | safe }}">
+    <meta name="author" content="SPPU PYQs Team">
+    <meta name="language" content="English">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="page-type" content="viewer">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="subject"
+        content="{% if seo_data.subject_name %}{{ seo_data.subject_name }}{% else %}{{ subject_link.replace('-fy', '').replace('-aids', '').replace('-cse', '').replace('-', ' ').title() }}{% endif %} Question Papers">
+    <meta name="topic" content="Academic Question Papers, SPPU University Papers">
+    <meta name="summary"
+        content="Download and view {% if seo_data.subject_name %}{{ seo_data.subject_name }}{% else %}{{ subject_link.replace('-fy', '').replace('-aids', '').replace('-cse', '').replace('-', ' ').title() }}{% endif %} question papers online. Access INSEM and ENDSEM papers with our PDF viewer.">
+
+    <link rel="canonical" href="{{ site_url }}/{{ subject_link }}">
+
+    <meta property="og:title" content="{{ seo_data.title | safe }}">
+    <meta property="og:description" content="{{ seo_data.description | safe }}">
+    <meta property="og:url" content="{{ site_url }}/{{ subject_link }}">
+    <meta property="og:image" content="{{ site_url }}/images/logo.webp">
+    <meta property="og:image:width" content="112">
+    <meta property="og:image:height" content="112">
+    <meta property="og:image:alt" content="{{ seo_data.title | safe }}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="SPPU Question Papers Hub">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ seo_data.title | safe }}">
+    <meta name="twitter:description" content="{{ seo_data.description | safe }}">
+    <meta name="twitter:image" content="{{ site_url }}/images/logo.webp">
+    <meta name="twitter:site" content="@sppucodes">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+
+    <link href="/images/logo.webp" rel="icon" fetchpriority="high" type="image/webp">
+    <link href="{{ asset_url('css/viewer.css') }}" rel="stylesheet">
+    <script src="{{ asset_url('js/analytics.js') }}" defer></script>
+
+    <!-- Set subject name variable with fallback -->
+    {% set display_name = seo_data.subject_name if seo_data.subject_name else subject_link.replace('-fy',
+    '').replace('-aids', '').replace('-cse', '').replace('-', ' ').title() %}
+
+    <!-- Fixed Breadcrumb Schema with Fallback -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "{{ site_url }}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Question Papers",
+                "item": "{{ site_url }}/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{{ display_name }}",
+                "item": "{{ site_url }}/{{ subject_link }}"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Main WebPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{ seo_data.title }}",
+        "description": "{{ seo_data.description }}",
+        "url": "{{ site_url }}/{{ subject_link }}",
+        "inLanguage": "en-IN",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "SPPU Question Papers Hub",
+            "url": "{{ site_url }}",
+            "publisher": {
+                "@type": "Organization",
+                "name": "SPPU Question Papers Hub",
+                "url": "{{ site_url }}",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site_url }}/images/logo.webp"
+                }
+            }
+        },
+        "mainEntity": {
+            "@type": "CollectionPage",
+            "name": "{{ display_name }} Question Papers Collection",
+            "description": "Complete collection of {{ display_name }} question papers including INSEM and ENDSEM papers from SPPU University.",
+            "mainContentOfPage": {
+                "@type": "ItemList",
+                "numberOfItems": {{ pdf_data_for_js | length }},
+                "itemListElement": [
+                    {% for pdf in pdf_data_for_js %}
+                    {
+                        "@type": "DigitalDocument",
+                        "name": "{{ pdf.filename }}",
+                        "description": "{{ display_name }} question paper - {{ pdf.filename }}",
+                        "contentUrl": "{{ pdf.url }}",
+                        "encodingFormat": "application/pdf",
+                        "position": {{ loop.index }},
+                        "datePublished": "2024-01-01",
+                        "inLanguage": "en-IN",
+                        "about": {
+                            "@type": "Thing",
+                            "name": "{{ display_name }}",
+                            "description": "Academic subject at Savitribai Phule Pune University"
+                        },
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "SPPU Question Papers Hub",
+                            "url": "{{ site_url }}"
+                        }
+                    }{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                ]
+            }
+        }
+    }
+    </script>
+
+    <!-- Course Schema with Fixed Name -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "{{ display_name }}",
+        "description": "Comprehensive {{ display_name }} course at Savitribai Phule Pune University. Access question papers, study materials, and examination resources for academic success.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Savitribai Phule Pune University",
+            "alternateName": "SPPU",
+            "url": "https://www.unipune.ac.in/"
+        },
+        "offers": {
+            "@type": "Offer",
+            "category": "Educational Resource",
+            "price": "0",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2024-01-01"
+        },
+        "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Online",
+            "courseWorkload": "P4Y",
+            "instructor": {
+                "@type": "Organization",
+                "name": "Savitribai Phule Pune University Faculty"
+            }
+        },
+        "educationalCredentialAwarded": "University Degree",
+        "numberOfCredits": 4,
+        "coursePrerequisites": "High School Diploma or equivalent",
+        "hasPart": [
+            {% for pdf in pdf_data_for_js %}
+            {
+                "@type": "LearningResource",
+                "name": "{{ pdf.filename }}",
+                "description": "{{ display_name }} examination paper - {{ pdf.filename }}",
+                "learningResourceType": "Question Paper",
+                "educationalUse": "Examination Preparation",
+                "url": "{{ pdf.url }}",
+                "encodingFormat": "application/pdf",
+                "inLanguage": "en"
+            }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <div id="rotation-prompt" class="rotation-prompt" style="display: none;">
+        <div class="rotation-content">
+            <svg class="rotation-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <path d="M12 18h.01"></path>
+            </svg>
+            <p>Please rotate your device horizontally for split view</p>
+            <button class="primary" id="dismiss-rotation">Dismiss</button>
+        </div>
+    </div>
+
+    <div class="seo-content">
+        <h1>{{ seo_data.subject_name }} Question Papers - SPPU University</h1>
+        <p>Access and download {{ seo_data.subject_name }} question papers from Savitribai Phule Pune University (SPPU).
+            Our collection includes INSEM (Internal Semester) and ENDSEM (End Semester) exam papers.</p>
+
+        <h2>Available {{ seo_data.subject_name }} Papers</h2>
+        <p>We offer {{ pdf_data_for_js | length }} question papers for {{ seo_data.subject_name }}, covering various
+            exam patterns and years. All papers are in PDF format for easy viewing and download.</p>
+
+        <h3>INSEM Papers for {{ seo_data.subject_name }}</h3>
+        <p>Prepare for mid-term evaluations with {{ seo_data.subject_name }} INSEM papers, aligned with the SPPU exam
+            pattern and syllabus.</p>
+
+        <h3>ENDSEM Papers for {{ seo_data.subject_name }}</h3>
+        <p>Access {{ seo_data.subject_name }} ENDSEM papers covering the entire syllabus, essential for final exam
+            preparation.</p>
+
+        <h2>Online PDF Viewer Features</h2>
+        <p>Our question-paper viewer enables you to:</p>
+        <ul>
+            <li>View papers in single or split-screen mode.</li>
+            <li>Compare multiple papers simultaneously.</li>
+            <li>Use fullscreen mode for better readability.</li>
+            <li>Filter by exam type (INSEM/ENDSEM).</li>
+            <li>Download papers for offline study.</li>
+        </ul>
+
+        <h2>About SPPU Question Papers Hub</h2>
+        <p>SPPU Question Papers Hub is focused entirely on SPPU previous year papers, with cleaner discovery by branch, semester, and subject.</p>
+
+        <h3>Study Materials for {{ seo_data.subject_name }}</h3>
+        <p>{{ seo_data.subject_name }} is a key subject in the SPPU curriculum. Our question paper collection helps
+            students understand exam patterns, practice effectively, and improve academic performance.</p>
+
+        <h2>Relevant Keywords & Topics</h2>
+        <p>Explore {{ seo_data.subject_name }} resources including SPPU question papers from Savitribai Phule Pune
+            University. Find INSEM and ENDSEM papers for effective examination preparation. Our platform offers academic
+            resources, a PDF viewer for online study, university question papers, and materials for semester
+            examinations.</p>
+    </div>
+
+    <header>
+        <div class="header-info">
+            <button class="back" id="back-btn" aria-label="Go back to question papers list">
+                <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                <span class="btn-text">Back</span>
+            </button>
+            <h1>
+                <div class="subject-badge" id="subject-display">{{ seo_data.subject_name }}</div>
+            </h1>
+        </div>
+        <div class="header-center">
+            <div class="control-group">
+                <label>Layout:</label>
+                <div class="custom-dropdown" id="pdf-count-dropdown" data-value="1">
+                    <div class="dropdown-selected">
+                        <span class="dropdown-text">Single</span>
+                        <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </div>
+                    <div class="dropdown-options">
+                        <div class="dropdown-option selected" data-value="1">Single</div>
+                        <div class="dropdown-option" data-value="2">Split (2)</div>
+                        <div class="dropdown-option" data-value="3">Split (3)</div>
+                        <div class="dropdown-option" data-value="4">Grid (4)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group exam-type-buttons">
+                <label>Exam:</label>
+                <div class="exam-toggle-group">
+                    <button type="button" class="exam-toggle-btn active" data-value="insem">INSEM</button>
+                    <button type="button" class="exam-toggle-btn" data-value="endsem">ENDSEM</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-controls">
+            <div class="control-group watermark-toggle" id="watermark-control">
+                <button id="watermarkGlobalToggle" aria-pressed="false" title="Toggle watermark overlays" type="button"
+                    aria-label="Toggle watermark visibility">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span class="wm-label" id="watermarkGlobalToggleLabel">Hide watermark</span>
+                </button>
+            </div>
+            {% set has_questions = namespace(value=false) %}
+            {% for paper in subject_papers %}
+                {% if paper.questions %}
+                    {% set has_questions.value = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_questions.value %}
+            <button class="questions-btn" id="questions-btn" aria-label="View structured questions">
+                <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M9 5H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h5"></path>
+                    <path d="M15 5h5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-5"></path>
+                    <path d="M9 8h6"></path>
+                    <path d="M9 12h6"></path>
+                    <path d="M9 16h6"></path>
+                </svg>
+                <span class="btn-text">View Questions</span>
+            </button>
+            {% endif %}
+            <button class="download-btn" id="download-btn" aria-label="Download papers">
+                <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span class="btn-text">Download</span>
+            </button>
+            <button class="primary" id="fullscreen-btn" aria-label="Toggle fullscreen mode">
+                <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" viewBox="0 0 24 24">
+                    <path
+                        d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+                </svg>
+                <span class="btn-text">Fullscreen</span>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Download Modal -->
+    <div class="download-modal" id="download-modal">
+        <div class="download-modal-overlay" id="download-modal-overlay"></div>
+        <div class="download-modal-content">
+            <div class="download-modal-header">
+                <div class="download-header-content">
+                    <h2 class="download-modal-title">Download <span id="download-subject-name">{{ seo_data.subject_name
+                            }}</span> Papers</h2>
+                    <!-- Download status container with progress bar -->
+                    <div class="download-status-container" id="download-status-container" style="display: none;">
+                        <div class="download-status-content">
+                            <p id="download-status" aria-live="polite" class="download-status-text"></p>
+                            <span id="download-percentage" class="download-percentage" aria-hidden="true"></span>
+                        </div>
+                        <div class="download-progress-bar">
+                            <div class="download-progress-fill" id="download-progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="download-modal-close" id="download-modal-close" aria-label="Close modal">
+                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="download-modal-body">
+                <div class="download-option">
+                    <div class="download-option-info">
+                        <h3 class="download-option-title">INSEM Papers</h3>
+                        <p class="download-option-desc">Download all INSEM question papers as ZIP</p>
+                    </div>
+                    <!-- lazy-load & invoke download script on click -->
+                    <button type="button" class="download-zip-btn" id="download-insem-btn" data-download="insem"
+                        onclick="(function(ev,btn){ ev&&ev.preventDefault&&ev.preventDefault(); if(!window.DownloadPaper){ var s=document.createElement('script'); s.src='{{ asset_url('js/download-paper.js') }}'; s.onload=function(){ window.DownloadPaper && window.DownloadPaper.handleClick(ev, btn); }; s.onerror=function(){ var el=document.getElementById('download-status'); if(el) el.textContent='Failed to load download helper.'; }; document.head.appendChild(s);} else { window.DownloadPaper.handleClick(ev, btn);} })(event, this);">
+                        <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>Download ZIP</span>
+                    </button>
+                </div>
+
+                <div class="download-option">
+                    <div class="download-option-info">
+                        <h3 class="download-option-title">ENDSEM Papers</h3>
+                        <p class="download-option-desc">Download all ENDSEM question papers as ZIP</p>
+                    </div>
+                    <button type="button" class="download-zip-btn" id="download-endsem-btn" data-download="endsem"
+                        onclick="(function(ev,btn){ ev&&ev.preventDefault&&ev.preventDefault(); if(!window.DownloadPaper){ var s=document.createElement('script'); s.src='{{ asset_url('js/download-paper.js') }}'; s.onload=function(){ window.DownloadPaper && window.DownloadPaper.handleClick(ev, btn); }; s.onerror=function(){ var el=document.getElementById('download-status'); if(el) el.textContent='Failed to load download helper.'; }; document.head.appendChild(s);} else { window.DownloadPaper.handleClick(ev, btn);} })(event, this);">
+                        <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>Download ZIP</span>
+                    </button>
+                </div>
+
+                <div class="download-option">
+                    <div class="download-option-info">
+                        <h3 class="download-option-title">All Papers</h3>
+                        <p class="download-option-desc">Download all question papers (INSEM + ENDSEM) as ZIP</p>
+                    </div>
+                    <button type="button" class="download-zip-btn" id="download-all-btn" data-download="all"
+                        onclick="(function(ev,btn){ ev&&ev.preventDefault&&ev.preventDefault(); if(!window.DownloadPaper){ var s=document.createElement('script'); s.src='{{ asset_url('js/download-paper.js') }}'; s.onload=function(){ window.DownloadPaper && window.DownloadPaper.handleClick(ev, btn); }; s.onerror=function(){ var el=document.getElementById('download-status'); if(el) el.textContent='Failed to load download helper.'; }; document.head.appendChild(s);} else { window.DownloadPaper.handleClick(ev, btn);} })(event, this);">
+                        <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span>Download ZIP</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="questions-modal" id="questions-modal">
+        <div class="questions-modal-overlay" id="questions-modal-overlay"></div>
+        <div class="questions-modal-content" role="dialog" aria-modal="true" aria-label="Questions">
+            <div class="questions-modal-header">
+                <div class="questions-modal-heading">
+                    <h2 class="questions-modal-title">{{ seo_data.subject_name }} Questions</h2>
+                    <p class="questions-modal-subtitle">Pre-rendered question cards from available structured metadata.</p>
+                </div>
+                <button class="download-modal-close" id="questions-modal-close" aria-label="Close questions modal">
+                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="questions-modal-toolbar">
+                <div class="questions-tabs" role="tablist" aria-label="Question content tabs">
+                    <button type="button" class="questions-tab active" data-tab="questions" role="tab" aria-selected="true">Questions</button>
+                    <button type="button" class="questions-tab" data-tab="metadata" role="tab" aria-selected="false">Metadata</button>
+                </div>
+                <div class="questions-paper-picker">
+                    <label class="questions-picker-label" for="questions-paper-dropdown">Paper</label>
+                    <div class="custom-dropdown questions-paper-dropdown" id="questions-paper-dropdown"
+                        data-value="{{ initial_questions_paper_id }}">
+                        <div class="dropdown-selected">
+                            <span class="dropdown-text">
+                                {% set initial_label = namespace(value='Select Paper') %}
+                                {% for paper in subject_papers %}
+                                    {% if paper.pdf_id == initial_questions_paper_id %}
+                                        {% set initial_label.value = paper.paper_label %}
+                                    {% endif %}
+                                {% endfor %}
+                                {{ initial_label.value }}
+                            </span>
+                            <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="dropdown-options">
+                            {% for paper in subject_papers %}
+                            <div class="dropdown-option {% if paper.pdf_id == initial_questions_paper_id %}selected{% endif %}"
+                                data-value="{{ paper.pdf_id }}">{{ paper.paper_label }}</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="questions-modal-body">
+                <div class="questions-modal-layout">
+                    <div class="questions-paper-panels" id="questions-paper-panels">
+                    {% for paper in subject_papers %}
+                    <section class="questions-paper-panel {% if paper.pdf_id == initial_questions_paper_id %}active{% endif %}"
+                        data-paper-id="{{ paper.pdf_id }}" data-exam-type="{{ paper.exam_type }}">
+                        <div class="questions-panel active" data-tab-panel="questions">
+                            {% if paper.questions %}
+                            <div class="questions-paper-summary">
+                                <div>
+                                    <span class="summary-kicker">{{ paper.exam_type | upper }}</span>
+                                    <h3>{{ paper.paper_label }}</h3>
+                                </div>
+                                <div class="questions-count-pill">{{ paper.question_count }} Questions</div>
+                            </div>
+                            <div class="question-card-list">
+                                {% for group in paper.question_groups %}
+                                <section class="question-group">
+                                    <div class="question-group-header">
+                                        <h4>{{ group.question_number }}</h4>
+                                        {% if group.total_marks %}
+                                        <span>{{ group.total_marks }} Marks</span>
+                                        {% endif %}
+                                    </div>
+                                    {% for question in group.questions %}
+                                <article class="question-card">
+                                    <div class="question-card-top">
+                                        <div class="question-card-meta">
+                                            <span class="question-meta-inline">
+                                                <span class="question-number">{{ question.question_number }}</span>
+                                            {% if question.subquestion %}
+                                                <span class="question-meta-separator">&middot;</span>
+                                                <span class="question-subquestion">{{ question.subquestion }}</span>
+                                            {% endif %}
+                                            {% if question.marks is not none and question.marks != '' %}
+                                                <span class="question-meta-separator">&middot;</span>
+                                                <span class="question-marks">{{ question.marks }} Marks</span>
+                                            {% endif %}
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="question-card-text">{{ question.question_text }}</p>
+                                </article>
+                                    {% endfor %}
+                                </section>
+                                {% endfor %}
+                            </div>
+                            {% else %}
+                            <div class="questions-empty-state">
+                                <h3>Structured questions are not available for this paper yet.</h3>
+                                <p>The PDF is still available in the viewer and download flow, but this paper has not been extracted into question cards yet.</p>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="questions-panel" data-tab-panel="metadata">
+                            {% set meta = paper.metadata or {} %}
+                            <div class="metadata-table-wrap">
+                                <table class="metadata-table">
+                                    <tbody>
+                                        <tr><th>Subject Name</th><td>{{ seo_data.subject_name }}</td></tr>
+                                        <tr><th>Semester</th><td>{{ meta.get('semester') or subject_semester_key or 'N/A' }}</td></tr>
+                                        <tr><th>Pattern Year</th><td>{{ meta.get('pattern_year') or 'N/A' }}</td></tr>
+                                        <tr><th>Subject Code</th><td>{{ meta.get('subject_code') or 'N/A' }}</td></tr>
+                                        <tr><th>Max Marks</th><td>{{ meta.get('max_marks') or 'N/A' }}</td></tr>
+                                        <tr><th>Total Questions</th><td>{{ meta.get('total_questions') or paper.question_count or 'N/A' }}</td></tr>
+                                        <tr><th>Duration</th><td>{{ meta.get('duration') or 'N/A' }}</td></tr>
+                                        <tr><th>Paper Number</th><td>{{ meta.get('paper_number') or 'N/A' }}</td></tr>
+                                        <tr><th>Academic Year</th><td>{{ meta.get('academic_year') or 'N/A' }}</td></tr>
+                                        <tr><th>Branch Name</th><td>{{ meta.get('branch_name') or branch_name }}</td></tr>
+                                        <tr><th>Exam Type</th><td>{{ paper.exam_type | upper }}</td></tr>
+                                        <tr><th>Exam Session</th><td>{{ paper.paper_label }}</td></tr>
+                                        <tr class="metadata-watermark-row"><th>Watermark</th><td>{{ meta.get('watermark_text') or 'SPPU PYQs Hub - sppupyqs.codes' }}</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-1" id="pdf-container">
+        <div class="no-pdf-message">Loading PDFs...<div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Mobile Control Bar -->
+    <div class="mobile-control-bar" id="mobile-control-bar">
+        <div class="mobile-control-group">
+            <label class="mobile-control-label">Exam:</label>
+            <div class="custom-dropdown mobile-exam-dropdown" id="mobile-exam-dropdown" data-value="insem">
+                <div class="dropdown-selected">
+                    <span class="dropdown-text">INSEM</span>
+                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                </div>
+                <div class="dropdown-options">
+                    <div class="dropdown-option selected" data-value="insem">INSEM</div>
+                    <div class="dropdown-option" data-value="endsem">ENDSEM</div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-control-group">
+            <label class="mobile-control-label">Paper:</label>
+            <div class="custom-dropdown mobile-paper-dropdown" id="mobile-paper-dropdown" data-value="0">
+                <div class="dropdown-selected">
+                    <span class="dropdown-text">Select Paper</span>
+                    <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                </div>
+                <div class="dropdown-options">
+                    <!-- Options populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script id="question-modal-data" type="application/json">{{ {
+        "subjectLink": subject_link,
+        "subjectName": seo_data.subject_name,
+        "papers": subject_papers,
+        "initialPaperId": initial_questions_paper_id
+    } | tojson | safe }}</script>
+
+    <script>
+        'use strict';
+
+        // Logger utility with clean formatting
+        var Logger = {
+            prefix: '[PDF Viewer]',
+            info: function (msg, data) {
+                console.log(this.prefix + ' ' + msg, data !== undefined ? data : '');
+            },
+            warn: function (msg, data) {
+                console.warn(this.prefix + ' ' + msg, data !== undefined ? data : '');
+            },
+            error: function (msg, data) {
+                console.error(this.prefix + ' ' + msg, data !== undefined ? data : '');
+            },
+            debug: function (msg, data) {
+                if (window.location.search.includes('debug=true')) {
+                    console.log(this.prefix + ' [DEBUG] ' + msg, data !== undefined ? data : '');
+                }
+            }
+        };
+
+        var initialPdfDataFromServer = {{ pdf_data_for_js | tojson | safe }};
+        var subjectNameFromServer = {{ (seo_data.subject_name or subject_name) | tojson | safe }};
+        var subjectLinkFromServer = {{ subject_link | tojson | safe }};
+        var questionModalDataFromServer = (function () {
+            var node = document.getElementById('question-modal-data');
+            if (!node) {
+                return { papers: [], initialPaperId: '' };
+            }
+            try {
+                return JSON.parse(node.textContent);
+            } catch (error) {
+                console.error('[PDF Viewer] Failed to parse question modal data', error);
+                return { papers: [], initialPaperId: '' };
+            }
+        })();
+
+        window.paperDownloadContext = {
+            subjectLink: subjectLinkFromServer,
+            subjectName: subjectNameFromServer,
+            branchName: {{ branch_name | tojson | safe }},
+            patternYear: {{ subject_link.split('/')[0] | tojson | safe }},
+            semester: {{ subject_semester_key | tojson | safe }},
+            papers: questionModalDataFromServer.papers || [],
+            clientIdPromise: Promise.resolve().then(function () {
+                try {
+                    var key = 'client_id';
+                    var cachedClientId = window.localStorage.getItem(key);
+                    if (cachedClientId) {
+                        return cachedClientId;
+                    }
+                    var generated = window.crypto && typeof window.crypto.randomUUID === 'function'
+                        ? window.crypto.randomUUID()
+                        : 'client-' + Date.now().toString(36);
+                    window.localStorage.setItem(key, generated);
+                    return generated;
+                } catch (storageError) {
+                    console.warn('client_id storage failed.', storageError);
+                    return 'client-anon';
+                }
+            })
+        };
+
+        function getDownloadExamType(paper) {
+            var explicit = String(
+                paper.examType ||
+                paper.exam_type ||
+                paper.exam ||
+                (paper.source_metadata && paper.source_metadata.exam) ||
+                ''
+            ).toLowerCase();
+
+            if (explicit === 'insem' || explicit === 'endsem' || explicit === 'other') {
+                return explicit;
+            }
+
+            var path = String(
+                paper.canonicalPath ||
+                paper.canonical_path ||
+                paper.filename ||
+                paper.originalFilename ||
+                paper.url ||
+                paper.link ||
+                paper.pdf_url ||
+                ''
+            ).toLowerCase();
+            var filename = path.split('/').pop();
+
+            if (filename.indexOf('insem_') === 0 || filename.indexOf('insem-') === 0) return 'insem';
+            if (filename.indexOf('endsem_') === 0 || filename.indexOf('endsem-') === 0) return 'endsem';
+            return 'other';
+        }
+
+        function setDownloadOptionVisible(buttonId, visible) {
+            var button = document.getElementById(buttonId);
+            var option = button && button.closest ? button.closest('.download-option') : null;
+            if (option) {
+                option.style.display = visible ? '' : 'none';
+            }
+        }
+
+        function configureDownloadOptions() {
+            var papers = questionModalDataFromServer.papers || [];
+            var available = papers.reduce(function (set, paper) {
+                set[getDownloadExamType(paper)] = true;
+                return set;
+            }, {});
+
+            var hasInsem = !!available.insem;
+            var hasEndsem = !!available.endsem;
+            var allTitle = document.querySelector('#download-all-btn')
+                && document.querySelector('#download-all-btn').closest('.download-option')
+                && document.querySelector('#download-all-btn').closest('.download-option').querySelector('.download-option-title');
+            var allDesc = document.querySelector('#download-all-btn')
+                && document.querySelector('#download-all-btn').closest('.download-option')
+                && document.querySelector('#download-all-btn').closest('.download-option').querySelector('.download-option-desc');
+
+            setDownloadOptionVisible('download-insem-btn', hasInsem);
+            setDownloadOptionVisible('download-endsem-btn', hasEndsem);
+            setDownloadOptionVisible('download-all-btn', papers.length > 0);
+
+            if (allTitle) {
+                allTitle.textContent = hasInsem || hasEndsem ? 'All Papers' : 'Download Papers';
+            }
+            if (allDesc) {
+                allDesc.textContent = hasInsem || hasEndsem
+                    ? 'Download all available question papers as ZIP'
+                    : 'Download available question papers as ZIP';
+            }
+        }
+
+        // Custom Dropdown Component with improved logic
+        var CustomDropdown = {
+            activeDropdown: null,
+
+            init: function (element, onChange) {
+                var self = this;
+                var selected = element.querySelector('.dropdown-selected');
+                var options = element.querySelector('.dropdown-options');
+                var allOptions = element.querySelectorAll('.dropdown-option');
+
+                element._getValue = function () {
+                    return element.getAttribute('data-value');
+                };
+
+                element._setValue = function (value, triggerChange) {
+                    var option = element.querySelector('.dropdown-option[data-value="' + value + '"]');
+                    if (option && !option.classList.contains('disabled')) {
+                        element.setAttribute('data-value', value);
+                        element.querySelector('.dropdown-text').textContent = option.textContent;
+                        allOptions.forEach(function (opt) { opt.classList.remove('selected'); });
+                        option.classList.add('selected');
+                        if (triggerChange && onChange) {
+                            onChange(value);
+                        }
+                    }
+                };
+
+                element._setDisabled = function (value, disabled) {
+                    var option = element.querySelector('.dropdown-option[data-value="' + value + '"]');
+                    if (option) {
+                        if (disabled) {
+                            option.classList.add('disabled');
+                        } else {
+                            option.classList.remove('disabled');
+                        }
+                    }
+                };
+
+                selected.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    var isOpen = element.classList.contains('open');
+                    self.closeAll();
+                    if (!isOpen) {
+                        element.classList.add('open');
+                        self.activeDropdown = element;
+                        Logger.debug('Dropdown opened', element.id);
+                    }
+                });
+
+                allOptions.forEach(function (option) {
+                    option.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        var value = option.getAttribute('data-value');
+                        if (option.classList.contains('disabled')) {
+                            // For exam-type dropdowns, still fire the change so the
+                            // inline empty state can be shown (applyExamType handles it).
+                            // For other dropdowns (layout, paper) disabled means truly blocked.
+                            if (onChange) onChange(value);
+                            element.classList.remove('open');
+                            self.activeDropdown = null;
+                            return;
+                        }
+                        element._setValue(value, true);
+                        element.classList.remove('open');
+                        self.activeDropdown = null;
+                        Logger.debug('Dropdown option selected', { dropdown: element.id, value: value });
+                    });
+                });
+
+                return element;
+            },
+
+            closeAll: function () {
+                document.querySelectorAll('.custom-dropdown.open').forEach(function (dd) {
+                    dd.classList.remove('open');
+                });
+                this.activeDropdown = null;
+                Logger.debug('All dropdowns closed');
+            }
+        };
+
+        // Close dropdowns when clicking anywhere outside
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.custom-dropdown')) {
+                CustomDropdown.closeAll();
+            }
+        });
+
+        var DOM = {
+            pdfContainer: document.getElementById('pdf-container'),
+            subjectDisplay: document.getElementById('subject-display'),
+            pdfCountDropdown: null,
+            examTypeButtons: null,
+            fullscreenBtn: document.getElementById('fullscreen-btn'),
+            backBtn: document.getElementById('back-btn'),
+            watermarkBtn: document.getElementById('watermarkGlobalToggle'),
+            watermarkLabel: document.getElementById('watermarkGlobalToggleLabel'),
+            downloadBtn: document.getElementById('download-btn'),
+            downloadModal: document.getElementById('download-modal'),
+            downloadModalOverlay: document.getElementById('download-modal-overlay'),
+            downloadModalClose: document.getElementById('download-modal-close'),
+            downloadSubjectName: document.getElementById('download-subject-name'),
+            questionsBtn: document.getElementById('questions-btn'),
+            questionsModal: document.getElementById('questions-modal'),
+            questionsModalOverlay: document.getElementById('questions-modal-overlay'),
+            questionsModalClose: document.getElementById('questions-modal-close'),
+            questionsPaperDropdown: null,
+            questionsTabs: document.querySelectorAll('.questions-tab'),
+            questionsPaperPanels: document.getElementById('questions-paper-panels'),
+            mobileControlBar: document.getElementById('mobile-control-bar'),
+            mobileExamDropdown: null,
+            mobilePaperDropdown: null
+        };
+
+        // Single source of truth for default exam type
+        var DEFAULT_EXAM_TYPE = {{ default_exam_type | tojson | safe }};
+
+        var state = {
+            pdfFiles: [],
+            isRendering: false,
+            activeObjectURLs: new Map(),
+            inflightPdfRequests: new Map(),
+            renderQueue: Promise.resolve(),
+            pdfViewerBase: '/static/pdfjs/web/viewer',
+            serviceWorkerReady: false,
+            cachedPdfs: new Set(),
+            preloadComplete: false,
+            watermarkHidden: false,
+            currentLayout: '1',
+            currentExamType: DEFAULT_EXAM_TYPE,
+            activeRenderToken: 0,
+            iframeLoadTokens: new WeakMap(),
+            nextIframeLoadToken: 0,
+            currentQuestionsPaperId: questionModalDataFromServer.initialPaperId || '',
+            currentQuestionsTab: 'questions'
+        };
+
+        // Static Pages build does not ship a service worker; PDFs load from network/cache directly.
+        var ServiceWorkerManager = {
+            register: function () {
+                return Promise.resolve(null);
+            },
+        };
+
+        var PdfCacheManager = {
+            cacheName: 'sppu-pdf-runtime-v1',
+
+            isSupported: function () {
+                return typeof window.caches !== 'undefined';
+            },
+
+            openCache: function () {
+                if (!this.isSupported()) {
+                    return Promise.resolve(null);
+                }
+                return caches.open(this.cacheName);
+            },
+
+            hydrateCacheState: function (pdfUrls) {
+                var self = this;
+                if (!self.isSupported() || !pdfUrls.length) {
+                    return Promise.resolve([]);
+                }
+
+                return self.openCache().then(function (cache) {
+                    if (!cache) {
+                        return [];
+                    }
+                    return Promise.all(pdfUrls.map(function (url) {
+                        return cache.match(url).then(function (response) {
+                            if (response && response.ok) {
+                                state.cachedPdfs.add(url);
+                                return url;
+                            }
+                            return null;
+                        }).catch(function () {
+                            return null;
+                        });
+                    }));
+                }).then(function (hits) {
+                    var cachedUrls = hits.filter(Boolean);
+                    Logger.debug('Hydrated PDF cache state', { cached: cachedUrls.length });
+                    return cachedUrls;
+                });
+            },
+
+            getCachedResponse: function (pdfUrl) {
+                return this.openCache().then(function (cache) {
+                    if (!cache) {
+                        return null;
+                    }
+                    return cache.match(pdfUrl);
+                });
+            },
+
+            fetchResponse: function (pdfUrl, options) {
+                var self = this;
+                options = options || {};
+                if (state.inflightPdfRequests.has(pdfUrl)) {
+                    return state.inflightPdfRequests.get(pdfUrl).then(function (response) {
+                        return response.clone();
+                    });
+                }
+
+                var requestPromise = self.getCachedResponse(pdfUrl).then(function (cachedResponse) {
+                    if (cachedResponse && cachedResponse.ok) {
+                        state.cachedPdfs.add(pdfUrl);
+                        Logger.debug('PDF cache hit', pdfUrl.split('/').pop());
+                        return cachedResponse;
+                    }
+
+                    Logger.debug('Fetching PDF from network', pdfUrl.split('/').pop());
+                    return fetch(pdfUrl, { cache: 'no-store' }).then(function (response) {
+                        if (!response.ok) {
+                            throw new Error('HTTP ' + response.status);
+                        }
+                        if (self.isSupported() && !options.skipCache) {
+                            self.openCache().then(function (cache) {
+                                if (cache) {
+                                    cache.put(pdfUrl, response.clone()).catch(function (error) {
+                                        Logger.warn('Failed to persist PDF cache', error);
+                                    });
+                                }
+                            });
+                        }
+                        state.cachedPdfs.add(pdfUrl);
+                        return response;
+                    });
+                }).finally(function () {
+                    state.inflightPdfRequests.delete(pdfUrl);
+                });
+
+                state.inflightPdfRequests.set(pdfUrl, requestPromise);
+                return requestPromise.then(function (response) {
+                    return response.clone();
+                });
+            },
+
+            fetchBlobUrl: function (pdfUrl) {
+                return this.fetchResponse(pdfUrl).then(function (response) {
+                    return response.blob();
+                }).then(function (blob) {
+                    return URL.createObjectURL(blob);
+                });
+            },
+
+            warmPdf: function (pdfUrl) {
+                return this.fetchResponse(pdfUrl).then(function () {
+                    Logger.debug('Background cached PDF', pdfUrl.split('/').pop());
+                }).catch(function (error) {
+                    Logger.warn('Background PDF cache failed', {
+                        file: pdfUrl.split('/').pop(),
+                        message: error && error.message ? error.message : error
+                    });
+                });
+            }
+        };
+
+        // Preload viewer shell and queue background PDF work one-by-one.
+        var PreloadManager = {
+            viewerAssetUrls: [
+                '/static/pdfjs/web/viewer',
+                '/static/pdfjs/web/viewer.css',
+                '/static/pdfjs/web/viewer.mjs',
+                '/static/pdfjs/build/pdf.mjs',
+                '/static/pdfjs/build/pdf.worker.mjs'
+            ],
+
+            preloadPdfViewer: function () {
+                if (state.preloadComplete) {
+                    return Promise.resolve();
+                }
+                state.preloadComplete = true;
+
+                return Promise.allSettled(this.viewerAssetUrls.map(function (assetUrl) {
+                    return fetch(assetUrl, { cache: 'force-cache' });
+                })).then(function () {
+                    Logger.debug('PDF.js viewer assets preloaded');
+                });
+            },
+
+            queueSequentialLoads: function (visibleEntries, backgroundUrls, renderToken, firstLoadPromise) {
+                var sequence = firstLoadPromise || Promise.resolve();
+
+                visibleEntries.forEach(function (entry) {
+                    sequence = sequence.then(function () {
+                        if (renderToken !== state.activeRenderToken) {
+                            return;
+                        }
+                        return loadPdfIntoIframe(entry.iframe, entry.pdfUrl, entry.loader, 0, {
+                            renderToken: renderToken
+                        });
+                    });
+                });
+
+                backgroundUrls.forEach(function (pdfUrl) {
+                    sequence = sequence.then(function () {
+                        if (renderToken !== state.activeRenderToken) {
+                            return;
+                        }
+                        return PdfCacheManager.warmPdf(pdfUrl);
+                    });
+                });
+
+                sequence.catch(function (error) {
+                    Logger.warn('Background PDF sequence interrupted', error);
+                });
+                return sequence;
+            }
+        };
+
+        function debounce(func, wait) {
+            var timeout;
+            return function () {
+                var args = arguments;
+                var context = this;
+                clearTimeout(timeout);
+                timeout = setTimeout(function () {
+                    func.apply(context, args);
+                }, wait);
+            };
+        }
+
+        function formatPdfName(filename) {
+            var name = filename.replace(/\.pdf$/i, '');
+            var parts = name.split('-');
+
+            var year = '';
+            var type = '';
+            var months = [];
+            var monthNames = ['jan', 'january', 'feb', 'february', 'mar', 'march', 'apr', 'april', 'may', 'jun', 'june', 'jul', 'july', 'aug', 'august', 'sep', 'sept', 'september', 'oct', 'october', 'nov', 'november', 'dec', 'december'];
+
+            var yearMatch = name.match(/\d{4}/);
+            if (yearMatch) {
+                year = yearMatch[0];
+            }
+
+            if (name.toLowerCase().includes('endsem')) {
+                type = 'Endsem';
+            } else if (name.toLowerCase().includes('insem')) {
+                type = 'Insem';
+            }
+
+            parts.forEach(function (part) {
+                if (monthNames.includes(part.toLowerCase())) {
+                    months.push(part.charAt(0).toUpperCase() + part.slice(1));
+                }
+            });
+
+            if (!year && !type && months.length === 0) {
+                return name;
+            }
+
+            var result = [];
+            if (year) result.push(year);
+            if (months.length) result.push(months.join(' '));
+            if (type) result.push(type);
+
+            return result.join(' ');
+        }
+
+        function loadPdfIntoIframe(iframe, pdfUrl, loader, retryCount, options) {
+            retryCount = retryCount || 0;
+            options = options || {};
+            var renderToken = typeof options.renderToken === 'number' ? options.renderToken : state.activeRenderToken;
+            state.nextIframeLoadToken++;
+            var iframeLoadToken = state.nextIframeLoadToken;
+            state.iframeLoadTokens.set(iframe, iframeLoadToken);
+            var oldObjectURL = state.activeObjectURLs.get(iframe);
+            if (oldObjectURL) {
+                URL.revokeObjectURL(oldObjectURL);
+                state.activeObjectURLs.delete(iframe);
+            }
+
+            if (!isValidUrl(pdfUrl)) {
+                showPdfError(iframe, loader, 'Invalid PDF URL');
+                Logger.error('Invalid PDF URL', pdfUrl);
+                return Promise.resolve();
+            }
+
+            var fileName = pdfUrl.split('/').pop();
+            var isCached = state.cachedPdfs.has(pdfUrl);
+
+            Logger.debug('Loading PDF: ' + fileName + (isCached ? ' (from cache)' : ' (from network)'));
+
+            var loadPromise;
+            if (isCached) {
+                loadPromise = PdfCacheManager.fetchBlobUrl(pdfUrl);
+            } else {
+                loadPromise = Promise.resolve(pdfUrl);
+                // Trigger a background warm so it caches for subsequent loads
+                PdfCacheManager.warmPdf(pdfUrl);
+            }
+
+            return loadPromise
+                .then(function (fileUrlToLoad) {
+                    if (
+                        renderToken !== state.activeRenderToken ||
+                        !iframe.isConnected ||
+                        state.iframeLoadTokens.get(iframe) !== iframeLoadToken
+                    ) {
+                        if (isCached && fileUrlToLoad !== pdfUrl) {
+                            URL.revokeObjectURL(fileUrlToLoad);
+                        }
+                        return false;
+                    }
+
+                    if (fileUrlToLoad !== pdfUrl) {
+                        state.activeObjectURLs.set(iframe, fileUrlToLoad);
+                    }
+                    var viewerUrl = state.pdfViewerBase + '?file=' + encodeURIComponent(fileUrlToLoad);
+
+                    return new Promise(function (resolve, reject) {
+                        var settled = false;
+
+                        function finish(success) {
+                            if (settled) {
+                                return;
+                            }
+                            settled = true;
+                            resolve(success);
+                        }
+
+                        iframe.onload = function () {
+                            if (state.iframeLoadTokens.get(iframe) !== iframeLoadToken) {
+                                finish(false);
+                                return;
+                            }
+                            if (loader && loader.parentNode) {
+                                loader.remove();
+                            }
+                            Logger.debug('PDF loaded successfully: ' + fileName);
+
+                            if (state.watermarkHidden) {
+                                setTimeout(function () {
+                                    WatermarkManager.sendCommandToIframe(iframe, 'remove');
+                                }, 500);
+                            }
+                            finish(true);
+                        };
+
+                        iframe.onerror = function () {
+                            if (state.iframeLoadTokens.get(iframe) !== iframeLoadToken) {
+                                finish(false);
+                                return;
+                            }
+                            reject(new Error('PDF viewer load error'));
+                        };
+
+                        iframe.src = viewerUrl;
+                    });
+                })
+                .catch(function (error) {
+                    if (retryCount < 2) {
+                        Logger.warn('Retrying PDF load (' + (retryCount + 1) + '): ' + fileName);
+                        return new Promise(function (resolve) {
+                            setTimeout(function () {
+                                resolve(loadPdfIntoIframe(iframe, pdfUrl, loader, retryCount + 1, options));
+                            }, 1000);
+                        });
+                    }
+                    showPdfError(iframe, loader, 'Error loading PDF. Please check your network connection.');
+                    Logger.error('Failed to load PDF after ' + (retryCount + 1) + ' attempts: ' + fileName);
+                    return false;
+                });
+        }
+
+        function showPdfError(iframe, loader, message) {
+            if (loader && loader.parentNode) {
+                loader.remove();
+            }
+            if (iframe.parentElement) {
+                var errorMsg = document.createElement('div');
+                errorMsg.className = 'no-pdf-message error-message';
+                errorMsg.textContent = message;
+                iframe.parentElement.innerHTML = '';
+                iframe.parentElement.appendChild(errorMsg);
+            }
+        }
+
+        function isValidUrl(url) {
+            try {
+                new URL(url);
+                return url.toLowerCase().endsWith('.pdf');
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function updateSubjectDisplay() {
+            DOM.subjectDisplay.textContent = subjectNameFromServer || "Subject";
+        }
+
+        var filterPDFs = (function () {
+            var cache = new Map();
+            var maxSize = 10;
+
+            return function (examType) {
+                var key = examType.toLowerCase();
+
+                if (cache.has(key)) {
+                    var val = cache.get(key);
+                    cache.delete(key);
+                    cache.set(key, val);
+                    Logger.debug('Filter cache hit', { examType: examType, count: val.length });
+                    return val;
+                }
+
+                var result = state.pdfFiles.filter(function (file) {
+                    return file.originalFilename.toLowerCase().includes(key);
+                });
+
+                if (cache.size >= maxSize) {
+                    cache.delete(cache.keys().next().value);
+                }
+                cache.set(key, result);
+
+                Logger.debug('Filter applied', { examType: examType, count: result.length });
+                return result;
+            };
+        })();
+
+        function renderPDFs() {
+            if (state.isRendering) {
+                Logger.debug('Render already in progress, skipping');
+                return;
+            }
+            state.isRendering = true;
+            state.activeRenderToken++;
+            var renderToken = state.activeRenderToken;
+
+            state.renderQueue = state.renderQueue.then(function () {
+                return new Promise(function (resolve) {
+                    var count = parseInt(DOM.pdfCountDropdown._getValue(), 10);
+                    // CRITICAL: Read exam type from state (single source of truth)
+                    var examType = state.currentExamType;
+
+                    state.currentLayout = count.toString();
+
+                    // Reset watermark state on render
+                    WatermarkManager.resetState();
+
+                    var filteredData = filterPDFs(examType);
+
+                    Logger.info('Rendering PDFs', {
+                        layout: count,
+                        examType: examType,
+                        availablePdfs: filteredData.length
+                    });
+
+                    DOM.pdfContainer.querySelectorAll('iframe').forEach(function (iframe) {
+                        var oldObjectURL = state.activeObjectURLs.get(iframe);
+                        if (oldObjectURL) {
+                            URL.revokeObjectURL(oldObjectURL);
+                            state.activeObjectURLs.delete(iframe);
+                        }
+                        iframe.remove();
+                    });
+
+                    DOM.pdfContainer.className = 'grid-' + count;
+
+                    if (!filteredData.length) {
+                        var otherType = examType === 'insem' ? 'endsem' : 'insem';
+                        var otherLabel = otherType.toUpperCase();
+                        var thisLabel = examType.toUpperCase();
+                        var otherHasPapers = filterPDFs(otherType).length > 0;
+
+                        var switchBtn = otherHasPapers
+                            ? '<button class="empty-state-switch-btn" onclick="window.applyExamTypeGlobal(\'' + otherType + '\')">View ' + otherLabel + ' papers</button>'
+                            : '';
+
+                        window.applyExamTypeGlobal = applyExamType;
+
+                        DOM.pdfContainer.innerHTML =
+                            '<div class="empty-state">' +
+                            '<div class="empty-state-icon">' +
+                            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">' +
+                            '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>' +
+                            '<polyline points="14 2 14 8 20 8"></polyline>' +
+                            '<line x1="9" y1="15" x2="15" y2="15"></line>' +
+                            '<line x1="9" y1="11" x2="15" y2="11"></line>' +
+                            '</svg>' +
+                            '</div>' +
+                            '<h3 class="empty-state-title">No ' + thisLabel + ' papers available</h3>' +
+                            '<p class="empty-state-desc">There are no ' + thisLabel + ' question papers for this subject.</p>' +
+                            switchBtn +
+                            '</div>';
+
+                        state.isRendering = false;
+                        Logger.info('No PDFs match current filter');
+                        resolve();
+                        return;
+                    }
+
+                    DOM.pdfContainer.innerHTML = '';
+                    var fragment = document.createDocumentFragment();
+                    var maxRender = Math.min(count, filteredData.length);
+                    var visibleEntries = [];
+
+                    for (var i = 0; i < count; i++) {
+                        var div = document.createElement('div');
+                        div.className = 'pdf-viewer';
+
+                        if (i < maxRender) {
+                            var loader = document.createElement('div');
+                            loader.className = 'loader-container';
+                            loader.innerHTML = '<div class="loader"></div>';
+                            div.appendChild(loader);
+
+                            var selector = createPaperSelector(filteredData, i, 'viewer-' + i);
+                            div.appendChild(selector);
+
+                            var iframe = document.createElement('iframe');
+                            iframe.title = 'PDF Viewer ' + (i + 1) + ' - ' + filteredData[i].originalFilename;
+                            iframe.setAttribute('data-viewer-index', i);
+                            div.appendChild(iframe);
+                            visibleEntries.push({
+                                iframe: iframe,
+                                loader: loader,
+                                pdfUrl: filteredData[i].link,
+                                originalFilename: filteredData[i].originalFilename
+                            });
+
+                        } else {
+                            div.innerHTML = '<div class="no-more-papers">No additional paper for this slot.</div>';
+                        }
+                        fragment.appendChild(div);
+                    }
+                    DOM.pdfContainer.appendChild(fragment);
+                    if (visibleEntries.length > 0) {
+                        var firstLoadPromise = loadPdfIntoIframe(
+                            visibleEntries[0].iframe,
+                            visibleEntries[0].pdfUrl,
+                            visibleEntries[0].loader,
+                            0,
+                            { renderToken: renderToken }
+                        );
+                        var backgroundUrls = filteredData.slice(maxRender).map(function (file) {
+                            return file.link;
+                        });
+                        PreloadManager.queueSequentialLoads(
+                            visibleEntries.slice(1),
+                            backgroundUrls,
+                            renderToken,
+                            firstLoadPromise
+                        );
+                    }
+                    state.isRendering = false;
+                    Logger.info('Render complete', { viewersCreated: maxRender });
+                    resolve();
+                });
+            });
+        }
+
+        function createPaperSelector(data, initialIndex, viewerId) {
+            var selectorContainer = document.createElement('div');
+            selectorContainer.className = 'paper-selector';
+
+            var label = document.createElement('label');
+            label.className = 'paper-selector-label';
+            label.textContent = 'Paper:';
+
+            var dropdown = document.createElement('div');
+            dropdown.className = 'custom-dropdown paper-dropdown';
+            dropdown.setAttribute('data-value', initialIndex);
+
+            var selectedDiv = document.createElement('div');
+            selectedDiv.className = 'dropdown-selected';
+            selectedDiv.innerHTML = '<span class="dropdown-text">' + data[initialIndex].date + '</span><svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
+
+            var optionsDiv = document.createElement('div');
+            optionsDiv.className = 'dropdown-options';
+
+            data.forEach(function (item, idx) {
+                var option = document.createElement('div');
+                option.className = 'dropdown-option' + (idx === initialIndex ? ' selected' : '');
+                option.setAttribute('data-value', idx);
+                option.textContent = item.date;
+                optionsDiv.appendChild(option);
+            });
+
+            dropdown.appendChild(selectedDiv);
+            dropdown.appendChild(optionsDiv);
+
+            CustomDropdown.init(dropdown, function (idx) {
+                idx = parseInt(idx, 10);
+                var pdfUrl = data[idx].link;
+                var viewerDiv = selectorContainer.closest('.pdf-viewer');
+                var iframe = viewerDiv.querySelector('iframe');
+                if (!iframe) {
+                    return;
+                }
+
+                iframe.title = 'PDF Viewer ' + (parseInt(viewerId.split('-')[1]) + 1) + ' - ' + data[idx].originalFilename;
+
+                var existingLoader = viewerDiv.querySelector('.loader-container');
+                if (existingLoader) {
+                    existingLoader.remove();
+                }
+                var loader = document.createElement('div');
+                loader.className = 'loader-container';
+                loader.innerHTML = '<div class="loader"></div>';
+                viewerDiv.insertBefore(loader, iframe);
+
+                Logger.info('Paper changed', { viewer: viewerId, paper: data[idx].date });
+                loadPdfIntoIframe(iframe, pdfUrl, loader);
+            });
+
+            selectorContainer.appendChild(label);
+            selectorContainer.appendChild(dropdown);
+            return selectorContainer;
+        }
+
+        function toggleFullscreen() {
+            if (document.fullscreenElement) {
+                document.exitFullscreen().catch(function (err) {
+                    Logger.error('Error exiting fullscreen', err.message);
+                });
+            } else {
+                document.documentElement.requestFullscreen({ navigationUI: 'hide' }).catch(function (err) {
+                    Logger.error('Error entering fullscreen', err.message);
+                });
+            }
+        }
+
+        function updateFullscreenButton() {
+            var isFullscreen = !!document.fullscreenElement;
+            var icon = isFullscreen ?
+                '<svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 14h6m0 0v6m0-6l-7 7m17-11h-6m0 0V4m0 6l7-7"/></svg>' :
+                '<svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3"/></svg>';
+            var text = isFullscreen ? 'Exit Fullscreen' : 'Fullscreen';
+
+            DOM.fullscreenBtn.innerHTML = icon + '<span class="btn-text">' + text + '</span>';
+            Logger.debug('Fullscreen toggled', { isFullscreen: isFullscreen });
+        }
+
+        // Enhanced Watermark Manager with consistent state
+        var WatermarkManager = {
+            sendCommandToIframe: function (iframe, cmd) {
+                try {
+                    var cw = iframe.contentWindow;
+                    if (!cw) {
+                        return false;
+                    }
+
+                    if (typeof cw.removeWatermarkFull === 'function') {
+                        if (cmd === 'remove') {
+                            try {
+                                cw.removeWatermarkFull();
+                                Logger.debug('Watermark removed via direct call');
+                            } catch (e) {
+                                Logger.warn('Direct watermark removal failed', e.message);
+                            }
+                        } else if (cmd === 'restore') {
+                            try {
+                                cw.location.reload();
+                                Logger.debug('Watermark restored via reload');
+                            } catch (e) {
+                                try {
+                                    cw.postMessage({ type: 'watermark', command: 'restore' }, location.origin);
+                                } catch (e2) {
+                                    Logger.warn('Watermark restore failed', e2.message);
+                                }
+                            }
+                        }
+                        return true;
+                    }
+
+                    try {
+                        cw.postMessage({ type: 'watermark', command: cmd }, location.origin);
+                        Logger.debug('Watermark command sent via postMessage', cmd);
+                        return true;
+                    } catch (e) {
+                        Logger.warn('postMessage failed', e.message);
+                        return false;
+                    }
+                } catch (e) {
+                    Logger.warn('Watermark command error', e.message);
+                    return false;
+                }
+            },
+
+            getAllViewerIframes: function () {
+                return Array.from(document.querySelectorAll('#pdf-container iframe'));
+            },
+
+            applyToAll: function (cmd) {
+                var iframes = this.getAllViewerIframes();
+                Logger.info('Applying watermark command to all viewers', { command: cmd, count: iframes.length });
+
+                iframes.forEach(function (iframe) {
+                    var ok = WatermarkManager.sendCommandToIframe(iframe, cmd);
+                    if (!ok) {
+                        var handler = function () {
+                            try {
+                                WatermarkManager.sendCommandToIframe(iframe, cmd);
+                            } catch (e) {
+                                Logger.warn('Delayed watermark command failed', e.message);
+                            }
+                            iframe.removeEventListener('load', handler);
+                        };
+                        iframe.addEventListener('load', handler);
+                    }
+                });
+            },
+
+            setButtonState: function (hidden) {
+                if (!DOM.watermarkBtn) {
+                    return;
+                }
+
+                state.watermarkHidden = hidden;
+                DOM.watermarkBtn.setAttribute('aria-pressed', hidden ? 'true' : 'false');
+
+                if (hidden) {
+                    DOM.watermarkBtn.classList.add('active');
+                    DOM.watermarkLabel.textContent = 'Show watermark';
+                } else {
+                    DOM.watermarkBtn.classList.remove('active');
+                    DOM.watermarkLabel.textContent = 'Hide watermark';
+                }
+
+                Logger.info('Watermark state changed', { hidden: hidden });
+            },
+
+            resetState: function () {
+                this.setButtonState(false);
+                Logger.debug('Watermark state reset to default');
+            },
+
+            toggle: function () {
+                var pressed = DOM.watermarkBtn.getAttribute('aria-pressed') === 'true';
+                if (!pressed) {
+                    this.setButtonState(true);
+                    this.applyToAll('remove');
+                } else {
+                    this.setButtonState(false);
+                    this.applyToAll('restore');
+                }
+            }
+        };
+
+        function openDownloadModal() {
+            if (DOM.downloadModal && DOM.downloadSubjectName) {
+                DOM.downloadSubjectName.textContent = subjectNameFromServer || 'Subject';
+                configureDownloadOptions();
+                DOM.downloadModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                Logger.info('Download modal opened');
+            }
+        }
+
+        function closeDownloadModal() {
+            if (DOM.downloadModal) {
+                DOM.downloadModal.classList.remove('active');
+                document.body.style.overflow = '';
+
+                // Reset download status when modal closes
+                var statusContainer = document.getElementById('download-status-container');
+                var progressFill = document.getElementById('download-progress-fill');
+                var percentage = document.getElementById('download-percentage');
+                if (statusContainer) statusContainer.style.display = 'none';
+                if (progressFill) {
+                    progressFill.style.width = '0%';
+                    delete progressFill.dataset.status;
+                }
+                if (percentage) {
+                    percentage.textContent = '';
+                    percentage.style.display = 'none';
+                }
+
+                Logger.info('Download modal closed');
+            }
+        }
+
+        function setQuestionsTab(tabName) {
+            state.currentQuestionsTab = tabName === 'metadata' ? 'metadata' : 'questions';
+
+            DOM.questionsTabs.forEach(function (tabButton) {
+                var isActive = tabButton.getAttribute('data-tab') === state.currentQuestionsTab;
+                tabButton.classList.toggle('active', isActive);
+                tabButton.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            });
+
+            document.querySelectorAll('.questions-paper-panel').forEach(function (panel) {
+                panel.querySelectorAll('.questions-panel').forEach(function (tabPanel) {
+                    var isActive = tabPanel.getAttribute('data-tab-panel') === state.currentQuestionsTab;
+                    tabPanel.classList.toggle('active', isActive);
+                });
+            });
+        }
+
+        function setQuestionsPaper(paperId) {
+            state.currentQuestionsPaperId = paperId || state.currentQuestionsPaperId;
+
+            document.querySelectorAll('.questions-paper-panel').forEach(function (panel) {
+                var isActive = panel.getAttribute('data-paper-id') === state.currentQuestionsPaperId;
+                panel.classList.toggle('active', isActive);
+            });
+        }
+
+        function openQuestionsModal() {
+            if (!DOM.questionsModal) {
+                return;
+            }
+            DOM.questionsModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            setQuestionsPaper(state.currentQuestionsPaperId);
+            setQuestionsTab(state.currentQuestionsTab);
+            Logger.info('Questions modal opened', { paperId: state.currentQuestionsPaperId });
+        }
+
+        function closeQuestionsModal() {
+            if (!DOM.questionsModal) {
+                return;
+            }
+            DOM.questionsModal.classList.remove('active');
+            document.body.style.overflow = '';
+            Logger.info('Questions modal closed');
+        }
+
+        function updateMobilePaperDropdown() {
+            var dropdown = document.getElementById('mobile-paper-dropdown');
+            if (!dropdown) return;
+
+            var filteredData = filterPDFs(state.currentExamType);
+            var optionsDiv = dropdown.querySelector('.dropdown-options');
+            var textSpan = dropdown.querySelector('.dropdown-text');
+
+            if (!optionsDiv) return;
+
+            // Clear existing options
+            optionsDiv.innerHTML = '';
+
+            if (!filteredData || filteredData.length === 0) {
+                optionsDiv.innerHTML = '<div class="dropdown-option disabled">No papers available</div>';
+                if (textSpan) textSpan.textContent = 'No papers';
+                dropdown.setAttribute('data-value', '');
+                return;
+            }
+
+            // Add new options with click handlers
+            filteredData.forEach(function (item, idx) {
+                var option = document.createElement('div');
+                option.className = 'dropdown-option' + (idx === 0 ? ' selected' : '');
+                option.setAttribute('data-value', idx);
+                option.textContent = item.date;
+
+                // Add click handler for each option
+                option.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    if (option.classList.contains('disabled')) return;
+
+                    // Update selected state in dropdown
+                    optionsDiv.querySelectorAll('.dropdown-option').forEach(function (opt) {
+                        opt.classList.remove('selected');
+                    });
+                    option.classList.add('selected');
+                    dropdown.setAttribute('data-value', idx);
+                    if (textSpan) textSpan.textContent = item.date;
+
+                    // Close dropdown
+                    dropdown.classList.remove('open');
+
+                    // Load the selected paper
+                    var pdfUrl = filteredData[idx].link;
+                    var viewerDiv = document.querySelector('.pdf-viewer');
+                    if (!viewerDiv) return;
+
+                    var iframe = viewerDiv.querySelector('iframe');
+                    if (!iframe) return;
+
+                    iframe.title = 'PDF Viewer 1 - ' + filteredData[idx].originalFilename;
+
+                    var existingLoader = viewerDiv.querySelector('.loader-container');
+                    if (existingLoader) {
+                        existingLoader.remove();
+                    }
+                    var loader = document.createElement('div');
+                    loader.className = 'loader-container';
+                    loader.innerHTML = '<div class="loader"></div>';
+                    viewerDiv.insertBefore(loader, iframe);
+
+                    Logger.info('Mobile paper changed', { paper: filteredData[idx].date });
+                    loadPdfIntoIframe(iframe, pdfUrl, loader);
+                });
+
+                optionsDiv.appendChild(option);
+            });
+
+            // Set first paper as selected
+            dropdown.setAttribute('data-value', '0');
+            if (textSpan) {
+                textSpan.textContent = filteredData[0].date;
+            }
+
+            Logger.debug('Mobile paper dropdown updated', { count: filteredData.length });
+        }
+
+        function syncMobileExamDropdown() {
+            var dropdown = document.getElementById('mobile-exam-dropdown');
+            if (!dropdown) return;
+
+            var examType = state.currentExamType;
+            dropdown.setAttribute('data-value', examType);
+
+            var textSpan = dropdown.querySelector('.dropdown-text');
+            if (textSpan) {
+                textSpan.textContent = examType.toUpperCase();
+            }
+
+            // Update selected option
+            var options = dropdown.querySelectorAll('.dropdown-option');
+            options.forEach(function (opt) {
+                opt.classList.remove('selected');
+                if (opt.getAttribute('data-value') === examType) {
+                    opt.classList.add('selected');
+                }
+            });
+
+            Logger.debug('Mobile exam dropdown synced', { examType: examType });
+        }
+
+        // Unified function to apply exam type - single pipeline for all changes
+        function applyExamType(examType) {
+            // Update state (single source of truth)
+            state.currentExamType = examType;
+
+            // Sync desktop buttons
+            document.querySelectorAll('.exam-toggle-btn').forEach(function (btn) {
+                if (btn.getAttribute('data-value') === examType) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            // Sync mobile dropdown
+            syncMobileExamDropdown();
+
+            // Render PDFs with new exam type
+            renderPDFs();
+
+            // Update mobile paper dropdown after render completes
+            setTimeout(function () {
+                updateMobilePaperDropdown();
+            }, 300);
+
+            Logger.info('Exam type applied', { examType: examType });
+        }
+
+
+        function setupEventListeners() {
+
+            var debouncedRender = debounce(renderPDFs, 250);
+
+            var onLayoutChange = function (val) {
+                if (window.IS_MOBILE_DEVICE && val === '2') {
+                    checkOrientation();
+                }
+                debouncedRender();
+            };
+
+            DOM.pdfCountDropdown = CustomDropdown.init(
+                document.getElementById('pdf-count-dropdown'),
+                onLayoutChange
+            );
+
+            var questionsPaperDropdownEl = document.getElementById('questions-paper-dropdown');
+            if (questionsPaperDropdownEl) {
+                DOM.questionsPaperDropdown = CustomDropdown.init(questionsPaperDropdownEl, function (paperId) {
+                    setQuestionsPaper(paperId);
+                });
+            }
+
+            DOM.questionsTabs.forEach(function (tabButton) {
+                tabButton.addEventListener('click', function () {
+                    setQuestionsTab(tabButton.getAttribute('data-tab'));
+                });
+            });
+
+            // Setup exam type toggle buttons — disabled buttons still switch to that
+            // type so the inline empty state is shown instead of a popup
+            var examToggleButtons = document.querySelectorAll('.exam-toggle-btn');
+            examToggleButtons.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var examType = btn.getAttribute('data-value');
+                    applyExamType(examType);
+                });
+            });
+
+            DOM.examTypeButtons = examToggleButtons;
+
+            DOM.fullscreenBtn.addEventListener('click', toggleFullscreen);
+            DOM.backBtn.addEventListener('click', function () {
+                Logger.info('Navigating back to question papers list');
+                window.location.href = '/';
+            });
+
+            if (DOM.downloadBtn) {
+                DOM.downloadBtn.addEventListener('click', openDownloadModal);
+            }
+
+            if (DOM.questionsBtn) {
+                DOM.questionsBtn.addEventListener('click', openQuestionsModal);
+            }
+
+            if (DOM.downloadModalOverlay) {
+                DOM.downloadModalOverlay.addEventListener('click', closeDownloadModal);
+            }
+
+            if (DOM.downloadModalClose) {
+                DOM.downloadModalClose.addEventListener('click', closeDownloadModal);
+            }
+
+            if (DOM.questionsModalOverlay) {
+                DOM.questionsModalOverlay.addEventListener('click', closeQuestionsModal);
+            }
+
+            if (DOM.questionsModalClose) {
+                DOM.questionsModalClose.addEventListener('click', closeQuestionsModal);
+            }
+
+            if (DOM.watermarkBtn) {
+                DOM.watermarkBtn.addEventListener('click', function () {
+                    WatermarkManager.toggle();
+                });
+            }
+
+            document.addEventListener('fullscreenchange', updateFullscreenButton);
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    CustomDropdown.closeAll();
+                    if (DOM.downloadModal && DOM.downloadModal.classList.contains('active')) {
+                        closeDownloadModal();
+                    } else if (DOM.questionsModal && DOM.questionsModal.classList.contains('active')) {
+                        closeQuestionsModal();
+                    } else if (document.fullscreenElement) {
+                        document.exitFullscreen().catch(function (err) {
+                            Logger.error('Error exiting fullscreen on escape', err.message);
+                        });
+                    }
+                }
+            });
+
+            // Observe container for new iframes to apply watermark state
+            var container = document.getElementById('pdf-container');
+            if (container) {
+                var mo = new MutationObserver(function () {
+                    try {
+                        if (state.watermarkHidden) {
+                            setTimeout(function () {
+                                WatermarkManager.applyToAll('remove');
+                            }, 500);
+                        }
+                    } catch (e) {
+                        Logger.warn('MutationObserver error', e.message);
+                    }
+                });
+                mo.observe(container, { childList: true, subtree: true });
+            }
+
+            // Setup mobile control bar dropdowns
+            var mobileExamDropdownEl = document.getElementById('mobile-exam-dropdown');
+            if (mobileExamDropdownEl) {
+                DOM.mobileExamDropdown = CustomDropdown.init(mobileExamDropdownEl, function (examType) {
+                    // Use unified pipeline for all exam type changes
+                    applyExamType(examType);
+                });
+            }
+
+            var mobilePaperDropdownEl = document.getElementById('mobile-paper-dropdown');
+            if (mobilePaperDropdownEl) {
+                // Just initialize for open/close functionality - option clicks handled in updateMobilePaperDropdown
+                DOM.mobilePaperDropdown = CustomDropdown.init(mobilePaperDropdownEl, function () {
+                    // Options handle their own click events
+                });
+            }
+
+            Logger.info('Event listeners initialized');
+        }
+
+        function checkOrientation() {
+            var prompt = document.getElementById('rotation-prompt');
+            if (window.innerHeight > window.innerWidth) {
+                prompt.style.display = 'flex';
+                Logger.debug('Rotation prompt displayed');
+            } else {
+                prompt.style.display = 'none';
+            }
+        }
+
+        /**
+         * Returns the direct PDF URL. Static Pages no longer uses a Flask PDF proxy.
+         */
+        function proxyPdfUrl(originalUrl) {
+            return originalUrl;
+        }
+
+        function init() {
+            Logger.info('Initializing PDF Viewer...');
+
+            updateSubjectDisplay();
+            setupEventListeners();
+            if (!state.currentQuestionsPaperId && questionModalDataFromServer.papers && questionModalDataFromServer.papers.length) {
+                state.currentQuestionsPaperId = questionModalDataFromServer.papers[0].pdf_id || '';
+            }
+            if (DOM.questionsPaperDropdown && state.currentQuestionsPaperId) {
+                DOM.questionsPaperDropdown._setValue(state.currentQuestionsPaperId, false);
+            }
+            setQuestionsPaper(state.currentQuestionsPaperId);
+            setQuestionsTab(state.currentQuestionsTab);
+            PreloadManager.preloadPdfViewer();
+
+            if (window.IS_MOBILE_DEVICE) {
+                Logger.info('Mobile device detected, adjusting layout options');
+                var layoutDropdown = document.getElementById('pdf-count-dropdown');
+                var options = layoutDropdown.querySelectorAll('.dropdown-option');
+                options.forEach(function (opt) {
+                    var val = opt.getAttribute('data-value');
+                    if (val === '3' || val === '4') {
+                        opt.style.display = 'none';
+                    }
+                });
+
+                window.addEventListener('resize', debounce(function () {
+                    if (DOM.pdfCountDropdown && DOM.pdfCountDropdown._getValue() === '2') {
+                        if (window.innerWidth > window.innerHeight) {
+                            document.getElementById('rotation-prompt').style.display = 'none';
+                        }
+                    }
+                }, 100));
+
+                document.getElementById('dismiss-rotation').addEventListener('click', function () {
+                    document.getElementById('rotation-prompt').style.display = 'none';
+                    Logger.debug('Rotation prompt dismissed');
+                });
+            }
+
+            ServiceWorkerManager.register().then(function () {
+                if (initialPdfDataFromServer && initialPdfDataFromServer.length > 0) {
+                    state.pdfFiles = initialPdfDataFromServer
+                        .map(function (pdfObject) {
+                            if (!pdfObject || typeof pdfObject.filename !== 'string' ||
+                                typeof pdfObject.url !== 'string' || !isValidUrl(pdfObject.url)) {
+                                Logger.warn('Invalid PDF object', pdfObject);
+                                return null;
+                            }
+                            return {
+                                date: pdfObject.date || formatPdfName(pdfObject.filename),
+                                link: proxyPdfUrl(pdfObject.url),
+                                originalUrl: pdfObject.url,
+                                originalFilename: pdfObject.filename,
+                                paperId: pdfObject.paperId || ''
+                            };
+                        })
+                        .filter(function (item) { return item !== null; })
+                        .sort(function (a, b) { return b.date.localeCompare(a.date); });
+
+                    var hasInsem = state.pdfFiles.some(function (file) {
+                        return file.originalFilename.toLowerCase().includes('insem');
+                    });
+                    var hasEndsem = state.pdfFiles.some(function (file) {
+                        return file.originalFilename.toLowerCase().includes('endsem');
+                    });
+
+                    var insemBtn = document.querySelector('.exam-toggle-btn[data-value="insem"]');
+                    var endsemBtn = document.querySelector('.exam-toggle-btn[data-value="endsem"]');
+
+                    if (insemBtn) {
+                        if (!hasInsem) {
+                            insemBtn.classList.add('disabled');
+                        } else {
+                            insemBtn.classList.remove('disabled');
+                        }
+                    }
+
+                    if (endsemBtn) {
+                        if (!hasEndsem) {
+                            endsemBtn.classList.add('disabled');
+                        } else {
+                            endsemBtn.classList.remove('disabled');
+                        }
+                    }
+
+                    // Use DEFAULT_EXAM_TYPE if available, otherwise fallback to the other type
+                    var defaultHasPapers = (DEFAULT_EXAM_TYPE === 'insem' && hasInsem) ||
+                        (DEFAULT_EXAM_TYPE === 'endsem' && hasEndsem);
+
+                    var initialExamType;
+                    if (defaultHasPapers) {
+                        initialExamType = DEFAULT_EXAM_TYPE;
+                    } else if (hasInsem) {
+                        initialExamType = 'insem';
+                    } else if (hasEndsem) {
+                        initialExamType = 'endsem';
+                    } else {
+                        initialExamType = DEFAULT_EXAM_TYPE; // fallback even if no papers
+                    }
+
+                    Logger.info('Loaded ' + state.pdfFiles.length + ' papers for ' +
+                        (subjectNameFromServer || 'this subject'), {
+                        hasInsem: hasInsem,
+                        hasEndsem: hasEndsem
+                    });
+
+                    // Update mobile exam dropdown disabled states and sync
+                    var mobileExamDropdown = document.getElementById('mobile-exam-dropdown');
+                    if (mobileExamDropdown) {
+                        var insemOpt = mobileExamDropdown.querySelector('.dropdown-option[data-value="insem"]');
+                        var endsemOpt = mobileExamDropdown.querySelector('.dropdown-option[data-value="endsem"]');
+
+                        if (insemOpt) {
+                            if (!hasInsem) {
+                                insemOpt.classList.add('disabled');
+                            } else {
+                                insemOpt.classList.remove('disabled');
+                            }
+                        }
+                        if (endsemOpt) {
+                            if (!hasEndsem) {
+                                endsemOpt.classList.add('disabled');
+                            } else {
+                                endsemOpt.classList.remove('disabled');
+                            }
+                        }
+                    }
+
+                    var pdfUrls = state.pdfFiles.map(function (file) { return file.link; });
+                    PdfCacheManager.hydrateCacheState(pdfUrls).then(function (cachedUrls) {
+                        if (cachedUrls.length > 0) {
+                            Logger.info(cachedUrls.length + ' PDFs already cached');
+                        }
+                    });
+
+                    // Apply exam type immediately so first PDF starts loading without waiting on cache inspection.
+                    applyExamType(initialExamType);
+                } else {
+                    DOM.pdfContainer.innerHTML = '<div class="no-pdf-message">No question papers found for this subject.</div>';
+                    DOM.subjectDisplay.textContent = subjectNameFromServer || 'No Subject';
+                    Logger.warn('No PDF data available from server');
+                }
+            });
+        }
+
+        window.addEventListener('beforeunload', function () {
+            state.activeObjectURLs.forEach(function (url) {
+                URL.revokeObjectURL(url);
+            });
+            state.activeObjectURLs.clear();
+            Logger.debug('Cleanup: Object URLs revoked');
+        });
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+
+        (function () {
+            'use strict';
+
+            var lastDropdownInteractionTime = 0;
+
+            function init() {
+                // Record recent interaction with dropdowns/paper-selector to prevent window blur close-race.
+                var recordInteraction = function (e) {
+                    if (e.target.closest('.custom-dropdown') || e.target.closest('.paper-selector')) {
+                        lastDropdownInteractionTime = Date.now();
+                    }
+                };
+                document.addEventListener('mousedown', recordInteraction, true);
+                document.addEventListener('touchstart', recordInteraction, true);
+
+                // Close paper selector dropdowns when clicking on an option
+                document.addEventListener('click', function (e) {
+                    var dropdownOption = e.target.closest('.paper-selector .dropdown-option');
+
+                    if (dropdownOption) {
+                        var dropdown = dropdownOption.closest('.custom-dropdown');
+                        if (dropdown) {
+                            setTimeout(function () {
+                                dropdown.classList.remove('open');
+                            }, 100);
+                        }
+                    }
+                });
+
+                // Close paper selector dropdowns when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (!e.target.closest('.paper-selector')) {
+                        document.querySelectorAll('.paper-selector .custom-dropdown.open').forEach(function (dropdown) {
+                            dropdown.classList.remove('open');
+                        });
+                    }
+                });
+
+                // Close all open dropdowns when an iframe steals focus (clicking on PDF viewer area).
+                // Iframe clicks don't bubble to document, so we detect them via window blur.
+                window.addEventListener('blur', function () {
+                    // When focus moves to an iframe, window blurs.
+                    // Use a short delay to avoid racing with intentional dropdown interactions.
+                    setTimeout(function () {
+                        if (Date.now() - lastDropdownInteractionTime < 400) {
+                            // Do not close dropdowns if user recently interacted with one.
+                            return;
+                        }
+                        if (document.activeElement && document.activeElement.tagName === 'IFRAME') {
+                            CustomDropdown.closeAll();
+                        }
+                    }, 50);
+                });
+
+                // Also close on mousedown on the container background (gap between iframes)
+                var pdfContainer = document.getElementById('pdf-container');
+                if (pdfContainer) {
+                    pdfContainer.addEventListener('mousedown', function (e) {
+                        if ((e.target === pdfContainer || e.target.closest('.pdf-viewer')) && !e.target.closest('.paper-selector')) {
+                            CustomDropdown.closeAll();
+                        }
+                    });
+                }
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+    </script>
+    </body>
+
+</html>

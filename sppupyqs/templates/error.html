@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPPU PYQs | Error</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" href="/images/logo.webp" type="image/webp">
+    <script src="{{ asset_url('js/analytics.js') }}" defer></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #1c1917; color: #fef3c7; }
+        .wrap { max-width: 780px; margin: 0 auto; padding: 56px 20px; text-align: center; }
+        .code { font-size: 64px; font-weight: 700; color: #fbbf24; }
+        .actions a { display: inline-block; margin: 8px; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: 600; }
+        .primary { background: #f59e0b; color: #111827; }
+        .secondary { background: #292524; color: #fef3c7; border: 1px solid #57534e; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="code">{{ error_code or 404 }}</div>
+        <h1>That subject page could not be found</h1>
+        <p>Use the question-paper homepage to browse by branch and semester, or jump back to the codes site.</p>
+        <div class="actions">
+            <a class="primary" href="/">Browse Question Papers</a>
+            <a class="secondary" href="https://sppucodes.vercel.app/">Go to SPPU Codes</a>
+        </div>
+    </div>
+</body>
+</html>

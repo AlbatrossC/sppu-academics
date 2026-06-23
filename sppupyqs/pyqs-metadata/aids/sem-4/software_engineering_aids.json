@@ -1,0 +1,1968 @@
+{
+  "subject_name": "Software Engineering",
+  "subject_slug": "software_engineering_aids",
+  "branch": "aids",
+  "semester": "sem-4",
+  "papers": [
+    {
+      "pdf_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2022_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2022_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science",
+        "paper_number": "[5869]-367",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "null",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P2251",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 20/06/2022 08:03:46 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the various activities during software project planning.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the concept of FP. Why FPs are becoming acceptable in industry?",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Is it possible to estimate software size before coding? Justify your answer with suitable examples.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Illustrate various open-source tools, for scheduling of software activities. List the attributes that are associates with scheduling task for implementing schedule process.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "An application has 10 low external inputs, 12 high external outputs, 20 low internal logical files, 15 heigh external interface files, 12 average external inquiries and a value of complexity adjustment factor 1.l0.What are the unadjusted and adjusted function point counts?",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain Earned value analysis in project scheduling with suitable assumptions.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the software design quality attributes and quality guidelines?",
+          "marks": 5,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the user interface design principles.",
+          "marks": 5,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "List the different architectural styles. Explain any two in detail.",
+          "marks": 7,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "List all the design concepts. Abstraction & refinement are complementary concepts. Justify.",
+          "marks": 5,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the user interface design principles and interface evaluation cycle.",
+          "marks": 5,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Enlist and explain Component level design steps in detail.",
+          "marks": 7,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is risk identification? What are different categories of risks?",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What is risk projection? How risk projection is carried out using risk table?",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Prepare RMMM plan for late delivery of software product to the customer.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Risk Projection and Risk Refinement in detail.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What are the elements that exist when an effective SCM system is implemented? Discuss each briefly.",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "What is Risk mitigation, monitoring and management (RMMM)?",
+          "marks": 6,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Explain phases in Verification and Validation model with suitable diagram.",
+          "marks": 7,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the following: i) Integration testing and system testing ii) Compare manual testing and Automation testing",
+          "marks": 10,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Discuss Strategies in WebApp testing. Illustrate the use of Automation tool in WebApp.",
+          "marks": 7,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the following with suitable diagram : i) Compare Conventional Software Testing and Object Oriented Software testing. ii) Compare Black box and white box testing.",
+          "marks": 10,
+          "question_id": "1IJsQMuJK0UqW_-U2-3j6W0y9-sPo3pLd_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 3,
+        "character_count": 3226,
+        "processed_at": "2026-06-06 15:11:55"
+      }
+    },
+    {
+      "pdf_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2022_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2022_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2022
+      },
+      "metadata": {
+        "paper_title": "Software Engineering",
+        "academic_year": "S.E.",
+        "branch_name": "Computer/AI&DS",
+        "paper_number": "[5925]-262",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PA-2628",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 09/01/2023 13:39:20 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain object oriented view of component level design with suitable example.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain FP based estimation technique?",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What is project scheduling? What are the basic principles of project scheduling?",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain COCOMO Model for project estimation with suitable example.",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "How LOC and FP used during project Estimation? Explain both Estimation techniques with suitable example.",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain guidelines for component level design.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Enlist the golden rules of User Interface Design.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain layered system architecture with neat diagram.",
+          "marks": 5,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe notations used for deployment diagram. Describe the importance of Deployment diagram.",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the following architectural styles with merits/demerits : i) Data-centered Architecture ii) Data-flow architecture",
+          "marks": 8,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "What is Risk Identification? What are different categories of Risk?",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Define software Risk in detail. What are different types of Software Risk?",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "What are the advantages of SCM Repository? Explain functions performed by SCM Repository.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is Software Configuration Management (SCM)",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is RMMM? Write short note on it?",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are difference between white box testing and black box testing.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the software testing life cycle in detail.",
+          "marks": 6,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Explain bottom-up testing with its advantages.",
+          "marks": 5,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is system testing? Explain any three types system testing.",
+          "marks": 9,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write note on Alpha and Beta Testing.",
+          "marks": 8,
+          "question_id": "17y8vJnI55y0b9hBHy9n7Ez44gZIptkHh_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2280,
+        "processed_at": "2026-06-06 15:12:01"
+      }
+    },
+    {
+      "pdf_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_feb_2023_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_feb_2023_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "feb",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer /Artificial Intelligence & DataScience",
+        "paper_number": "[6008]-229",
+        "pattern_year": 2019,
+        "semester": "II",
+        "subject_code": "210253",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PA-4977",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 06/04/2023 15:04:16 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "List and explain the activities in software process frame work.",
+          "marks": 6,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain with neat diagram incremental model and state its disadvantages.",
+          "marks": 5,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Compare Plan driven and agile approach.",
+          "marks": 4,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Elaborate how software engineering is a layered technology.",
+          "marks": 6,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe the Unified process.",
+          "marks": 5,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is agility? List any three principles of agility.",
+          "marks": 4,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "List all the tasks in requirement engineering. Explain it in brief.",
+          "marks": 6,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Define QFD. Explain the types of requirements defined by QFD.",
+          "marks": 5,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Design use case diagram for user interaction with ATM system.",
+          "marks": 4,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the importance of Requirement engineering.",
+          "marks": 6,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain the requirement Elicitation.",
+          "marks": 5,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "What are the components of use case diagram? Explain usage of it with example.",
+          "marks": 4,
+          "question_id": "1mXUMTq9NyM0dZ56JHM9uP-OhvsbLMueV_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1358,
+        "processed_at": "2026-06-06 15:12:04"
+      }
+    },
+    {
+      "pdf_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2023_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2023_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer/A.I.& D.S.",
+        "paper_number": "[6002]-162",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P-1533",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 27/06/2023 10:33:44 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain any four design concepts with appropriate example.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is design pattern? How patterns can be used in design?",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the Data-flow architecture and Layered Architecture in detail.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the golden rules for User Interface Design.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What question needs to be answered in order to develop a project plan according to W5HH principle?",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain the project management life cycle.",
+          "marks": 8,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain with appropriate example how schedule can be prepare using PERT.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "List and explain the different metrics in the process and project domain.",
+          "marks": 8,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Describe the software quality dilemma in your own words.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "What are the objectives of testing? Explain the different types of testing.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What is software quality? Write the different quality metrics.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "What is test case design? Write the various approaches for test case design.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What is SCM? Write short note on SCM Elements.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is Risk? Explain the reactive and proactive risk strategies with appropriate examples.",
+          "marks": 8,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain the repository features with respect to software configuration management.",
+          "marks": 9,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Write short note on CASE TOOLS for software development.",
+          "marks": 8,
+          "question_id": "1KT6MpUX26XPcjr0YrYWE5W8tfK3LBs3f_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2038,
+        "processed_at": "2026-06-06 15:12:08"
+      }
+    },
+    {
+      "pdf_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2023_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2023_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence & Data Science Engineering",
+        "paper_number": "[6179]-237",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P9112",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/12/2023 09:38:12 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss with suitable diagram three major categories of software project resources?",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is Estimation with Use Cases? Explain Estimation Using Use Case points with the help of an Example.",
+          "marks": 10,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What are the basic principles of software project scheduling. Explain different tasks of project scheduling.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss Empirical Estimation Models. Explain Constructive Cost Model for project estimation with suitable example.",
+          "marks": 10,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "With the help of diagram explain how to translate the requirements model into the design model.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain dimensions of design model with the help of diagram.",
+          "marks": 9,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is software Architecture? Why Architecture is important? What is the use of Architecture Decision Description Template?",
+          "marks": 9,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss component level and deployment level design elements.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Risk and management concern with the help of diagram.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) Risk Refinement ii) Risk Mitigation iii) Risk Management",
+          "marks": 10,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the advantages of SCM Repository? Explain functions performed by SCM Repository.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on any two of the following i) Change control mechanism in SCM ii) SCM Process iii) RMMM Plan",
+          "marks": 10,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define testing? Explain graph based functional testing techniques with suitable graph notation diagram.",
+          "marks": 9,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) User Acceptance Testing ii) Difference between Verification and validation Testing iii) Software Testing Life Cycle",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is system testing? Explain any three types system testing.",
+          "marks": 8,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain with suitable diagram Drivers and stubs in unit test environment. Disucss with suitable diagrams top-up and bottom-up integration in integration testing.",
+          "marks": 9,
+          "question_id": "1bkfVzoRBQoj1LA1MALQSB00ckvtWfoqw_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2572,
+        "processed_at": "2026-06-06 15:12:13"
+      }
+    },
+    {
+      "pdf_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ_",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2024_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2024_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/AI&DS",
+        "paper_number": "[6268]-219",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PB25",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/03/2024 13:35:11 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define Software Engineering. List and explain the software characteristics that describes the nature of software.",
+          "marks": 7,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain Evolutionary process models mentioning the types of projects for which they are suitable.",
+          "marks": 5,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Compare between the Plan-driven and Agile development.",
+          "marks": 3,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with neat diagram of Incremental model and write its advantages & disadvantages.",
+          "marks": 7,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain the phases of unified process model.",
+          "marks": 5,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain about concurrent development model.",
+          "marks": 3,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the task done during requirement engineering. What is requirement elicitation? Explain why it is considered as a difficult task.",
+          "marks": 7,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain quality function deployment. What are types of requirements?",
+          "marks": 5,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain about the building the requirements model.",
+          "marks": 3,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the general process models of the requirements elicitation.",
+          "marks": 7,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write about Negotiate requirement analysis process & validate requirement analysis process.",
+          "marks": 5,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain DFD level 0 and DFD level 1 with suitable example.",
+          "marks": 3,
+          "question_id": "1hfQnu9fNIV3tHyDYstpN18261DcINeJ__q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1625,
+        "processed_at": "2026-06-06 15:12:25"
+      }
+    },
+    {
+      "pdf_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2024_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2024_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering (AI & DS)",
+        "paper_number": "[6261]-37",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB4397",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.238 22/05/2024 13:41:55 static-238"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is project scheduling? Explain in brief about the basic principles guiding the s/w project scheduling.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the need of project Estimation? What are the steps while estimation of software?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "How are LOC and FP used during Project Estimation? Explain any one with suitable example.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is the difference between COCOMO and COCOMO II Model?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is the necessity of Estimation? How estimation with Use-cases is performed?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is the need for defining a software scope? What are the categories of software engineering resources (Project Resources)?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain the following design concepts: i) Abstraction ii) Patterns iii) Modularity",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is meant by coupling and cohesion. Explain these terms in relation with good software design.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is the importance of software design? What are types of design classes?",
+          "marks": 5,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain in detail the Architectural design and Component level design elements.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is software Architecture? What is architectural context diagram?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Write short note on ‘Interface analysis and design models’.",
+          "marks": 5,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Briefly explain the steps involved in risk planning in project development.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Describe with an example how the effect of risk on project schedule is evaluated using PERT.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain Version Control and Change Control Layer in Software Configuration Management in detail.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss Software Configuration Management in detail.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Define Software Risk in detail. What are different types of Software Risk?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Discuss the RMMM plan in detail.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What are the guidelines those lead to a successful software testing strategy?",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "What is meant by integration testing? Explain top down and bottom up integration testing.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "What is the difference between verification and validation?",
+          "marks": 5,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Differentiate between black box testing and white box testing.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain how Object oriented software testing is different from conventional software testing.",
+          "marks": 6,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Explain Unit Testing and Integration Testing with respect to the Object Oriented Context.",
+          "marks": 5,
+          "question_id": "1pKXWBqbGEAnY9vOgMHQsKgzAxKKAAnfo_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2939,
+        "processed_at": "2026-06-06 15:12:40"
+      }
+    },
+    {
+      "pdf_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2024_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2024_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering (AI & DS)",
+        "paper_number": "[6352]-37",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC2813",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 16/12/2024 09:40:33 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe various activities during software project planning?",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are different decomposition techniques? Explain any two in detail.",
+          "marks": 10,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "What is project scheduling? Explain different tasks of project scheduling.",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss various types of COnstructive COst MOdel mode. Explain COCOMO II model for project estimation with suitable example.",
+          "marks": 10,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Discuss the differences between object oriented and function oriented design.",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Why Architecture is Important? List the different architectural styles. Explain any two in detail.",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is modularity? Explain important properties of modular system.",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Write short note on Modelling Component level design.",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Define Risk? Explain in detail different types of software risks.",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) Risk Refinement ii) Risk Mitigation iii) Risk Management",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Discuss Configuration Management for any suitable software system.",
+          "marks": 6,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Write short note on any two of the following. i) Change control mechanism in SCM ii) SCM Process iii) RMMM Plan",
+          "marks": 12,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define testing. Explain different types of functional testing techniques with suitable example.",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) User Acceptance Testing ii) Difference between Verification and validation Testing iii) Software Testing Life Cycle",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain Defect Life Cycle with different statuses in detail.",
+          "marks": 8,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "List types of Black Box Testing. Explain any three in detail with suitable example.",
+          "marks": 9,
+          "question_id": "131SFu02NxH5RgyAGw-h8Cghiui5ivAXG_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2272,
+        "processed_at": "2026-06-06 15:12:51"
+      }
+    },
+    {
+      "pdf_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2025_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2025_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering / AI & DS / Computer Science",
+        "paper_number": "[6409]-222",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PD25",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 12/03/2025 13:41:10 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain Incremental model with neat diagram.",
+          "marks": 5,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What are the customer myths? Discuss the reality of these myths.",
+          "marks": 4,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain Software process frameworks in details.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q1_c"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "d",
+          "question_text": "Compare process between agile and evolutionary model.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q1_d"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain Umbrella Activities in Software process frameworks.",
+          "marks": 5,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is software? What are the characteristics of software?",
+          "marks": 4,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain the term: Legacy software.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q2_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "d",
+          "question_text": "Differentiate between waterfall model and incremental model.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q2_d"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "What are the elements of requirement model? Explain in brief.",
+          "marks": 5,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Draw use case diagram for bank management system.",
+          "marks": 4,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "State the importance of requirement engineering.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q3_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "d",
+          "question_text": "What is mean by requirement negotiation?",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q3_d"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is SRS? What are the characteristics of SRS.",
+          "marks": 5,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Design use case diagram for ‘Online shopping System’.",
+          "marks": 4,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Which task done during Elicitation.",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q4_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "d",
+          "question_text": "What do you mean by requirement validation?",
+          "marks": 3,
+          "question_id": "1KsRCPgiRtmej_AKCafMgPHY5120xCcjX_q4_d"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1557,
+        "processed_at": "2026-06-06 15:12:58"
+      }
+    },
+    {
+      "pdf_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2025_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_may_jun_2025_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "may_jun",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "paper_number": "[6402]-42",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD4082",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 29/05/2025 09:38:02 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Discuss Estimation Using Use Case Points with the help of and example.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Design and discuss the project decomposition and work task communication process.",
+          "marks": 10,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss any 2 of the following with suitable example: i) LOC-Based Estimation ii) FP based estimation technique iii) Problem-Based Estimation",
+          "marks": 10,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What are the basic principles of software project scheduling. Explain different tasks of project scheduling.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain refinement and refactoring. Give the importance of Refactoring in improving the quality of software.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "With the help of diagram explain how to translate the requirements model into the design model.",
+          "marks": 9,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "What is software Architecture? Why Architecture is important? What is the use of Architecture Decision Description Template?",
+          "marks": 9,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Enlist the golden rules of User Interface Design.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain Risk and management concern with the help of diagram.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) Risk Refinement ii) RiskMitigation iii) Risk Management",
+          "marks": 10,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "What are the advantages of SCM Repository? Explain functions performed by SCM Repository.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss layers of SCM Process. Write a short note on Change control mechanism in SCM.",
+          "marks": 10,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define testing? Explain graph based functional testing techniques with suitable example.",
+          "marks": 9,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) bottom-up testing with its advantages ii) Software Testing Life Cycle iii) Alpha and Beta Testing",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What is system testing? Explain any three types system testing.",
+          "marks": 8,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain with suitable diagram Drivers and stubs in unit test environment. Discuss with suitable top-up and bottom-up integration in integration testing.",
+          "marks": 9,
+          "question_id": "1sPpvXaFFKIoWeiaXbdd_glZFstoD4qW8_q8_b"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2529,
+        "processed_at": "2026-06-06 15:13:13"
+      }
+    },
+    {
+      "pdf_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2025_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/endsem_nov_dec_2025_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov_dec",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engineering/AI & DS/Computer Science",
+        "paper_number": "[6582]-37",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE-4265",
+        "watermark_text": [
+          "CEGP013091",
+          "49.248.216.237 28/11/2025 09:41:31 static-237"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain LOC based estimation with example.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "What is the need of project estimation? Explain the steps for estimation of software.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Define timeline chart. Explain it with suitable example.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Compare Lines of Code(LOC) and Function Point (FP) based estimation techniques with suitable example.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Explain COCOMO model for project estimation with suitable example.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Define project scheduling. Explain basic principles of project scheduling.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain in detail layered architecture style.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "State and explain the golden rules of User Interface design.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Different between cohesion and coupling.",
+          "marks": 5,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe the data centered architecture with merits and demerits.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Why software engineering should have high cohesion and low coupling? Justify.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "List the design concepts. Explain importance of refactoring in improving the quality of software.",
+          "marks": 5,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q4_c"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "List the advantages of SCM Repository. Explain functions performed by SCM Repository.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Define software risk in detail. Explain the different types of software risks.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q5_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "c",
+          "question_text": "Explain risk identification and assessment process for software project.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q5_c"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain Software Configuration Management (SCM) process.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Discuss any two of the following. i) Risk Refinement ii) Risk Mitigation iii) Risk Management",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q6_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "c",
+          "question_text": "Write a short note on change control mechanism in SCM.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q6_c"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Define software testing. Explain software testing strategies for software development.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain any two of the following in detail : i) System testing ii) Acceptance testing iii) Smoke testing",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q7_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "c",
+          "question_text": "Differentiate between verification and validation.",
+          "marks": 5,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q7_c"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Explain integration testing and its objectives.",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What is Test plan? Explain Validation testing in details. How configuration Review is Important?",
+          "marks": 6,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q8_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "c",
+          "question_text": "Differentiate between white box and black box testing.",
+          "marks": 5,
+          "question_id": "1ANJQe4gMBAvX7JuonH6CYWnofg3RZ-rd_q8_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 2,
+        "character_count": 2736,
+        "processed_at": "2026-06-06 15:13:27"
+      }
+    },
+    {
+      "pdf_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2026_aids_sea_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/se/2019_pattern/software_engineering_aids/insem_mar_2026_aids_sea_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "se",
+      "year_name": "SE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "mar",
+        "year": 2026
+      },
+      "metadata": {
+        "paper_title": "SOFTWARE ENGINEERING",
+        "academic_year": "S.E.",
+        "branch_name": "Computer Engg./AI & DS/ Computer Science",
+        "paper_number": "APR-26/SE/Insem-262",
+        "pattern_year": 2019,
+        "semester": "IV",
+        "subject_code": "210253",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PF213",
+        "watermark_text": [
+          "CEGP013091",
+          "152.59.10.40 11/03/2026 13:39:32"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define software engineering. Compare Software and hardware based on their failure curves.",
+          "marks": 5,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between conventional and agile software approach.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Enlist and explain software myths.",
+          "marks": 3,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q1_c"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "d",
+          "question_text": "Explain software process frameworks in detail.",
+          "marks": 3,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q1_d"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain with neat diagram prototyping model. State its advantages and disadvantages.",
+          "marks": 5,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Write a short note on extreme programming.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Differentiate between waterfall model and incremental model.",
+          "marks": 3,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q2_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "d",
+          "question_text": "Explain Umbrella activities in detail.",
+          "marks": 3,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q2_d"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define SRS (Software Requirement Specification). Explain the general format of SRS.",
+          "marks": 7,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Differentiate between functional and non-functional requirements.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Draw use case diagram for library management system.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "State and explain the various tasks of requirement engineering in detail.",
+          "marks": 7,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "“Requirement elicitation is difficult”. Identify the statement is true or false. Justify your answer.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain DFD level 0 and DFD level 1 with suitable example.",
+          "marks": 4,
+          "question_id": "14UFdUzY2NKn5vJgrSQ9xUd2t4WBFM4Vw_q4_c"
+        }
+      ],
+      "extraction_info": {
+        "method": "pymupdf_text",
+        "used_ocr": false,
+        "page_count": 1,
+        "character_count": 1634,
+        "processed_at": "2026-06-06 15:13:31"
+      }
+    }
+  ]
+}
