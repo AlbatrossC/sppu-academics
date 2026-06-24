@@ -2,6 +2,8 @@
 # Keep keys equal to the generated manifest subjectKey or branchKey.
 
 branch_overrides:
+  computer-engineering:
+    branchCode: CS
   e-and-tc-engineering:
     branchCode: ENTC
   it-engineering:
@@ -14,5 +16,13 @@ subject_overrides:
     fullName: Industrial Internet of Things - Elective III
 
 display:
+  branchOrder:
+    - first-year
+    - artificial-intelligence-and-data-science
+    - artificial-intelligence-and-machine-learning
+    - computer-engineering
+    - it-engineering
+    - e-and-tc-engineering
+    - electronics-and-computer-engineering
   normalizeElectiveCodes: true
   normalizeElectiveNames: true

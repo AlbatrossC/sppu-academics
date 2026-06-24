@@ -334,8 +334,8 @@ header {
     display: none;
     align-items: center;
     justify-content: center;
-    background: var(--accent-primary);
-    border: 1.5px solid var(--accent-primary);
+    background: #1d5bb1;
+    border: 1.5px solid #1d5bb1;
     border-radius: 50%;
     color: #ffffff;
     cursor: pointer;
@@ -351,8 +351,8 @@ header {
 }
 
 .mobile-search-toggle.active {
-    background: #28a746;
-    border-color: #28a746;
+    background: #1d5bb1;
+    border-color: #1d5bb1;
 }
 
 .search-icon-svg {

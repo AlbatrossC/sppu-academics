@@ -153,6 +153,15 @@ def _subject_sort_key(subject):
     )
 
 
+def _branch_sort_key(item):
+    branch_order = _display_settings().get("branchOrder") or []
+    branch_key = item.get("branch_key") or ""
+    try:
+        return (branch_order.index(branch_key), 0)
+    except ValueError:
+        return (len(branch_order), item.get("original_index", 0))
+
+
 def _apply_branch_exceptions(branch):
     branch = dict(branch or {})
     branch.update(_branch_overrides(branch.get("branchKey")))
@@ -294,13 +303,14 @@ def _subject_card(pattern_key, subject):
     }
 
 
-def _nav_card(level_id, code, name, target_id):
+def _nav_card(level_id, code, name, target_id, branch_key=""):
     return {
         "type": "nav",
         "id": level_id,
         "code": str(code or "").upper(),
         "name": name,
         "target_id": target_id,
+        "branch_key": branch_key,
     }
 
 
@@ -368,12 +378,24 @@ def _build_pattern_navigation(pattern_year, include_honors=False):
                 {"name": branch.get("branchCode", "").upper()},
             ],
         })
-        nav_items.append(_nav_card(branch_id, branch.get("branchCode"), branch.get("branchName"), branch_id))
+        nav_items.append(_nav_card(
+            branch_id,
+            branch.get("branchCode"),
+            branch.get("branchName"),
+            branch_id,
+            branch.get("branchKey"),
+        ))
 
     first_year = hierarchy.get("firstYear") or {}
     if first_year.get("subjects"):
         fy_id = f"{pattern_year}-first-year"
-        nav_items.append(_nav_card(fy_id, first_year.get("branchCode") or "FY", first_year.get("branchName") or "First Year", fy_id))
+        nav_items.append(_nav_card(
+            fy_id,
+            "FE",
+            first_year.get("branchName") or "First Year",
+            fy_id,
+            first_year.get("branchKey") or "first-year",
+        ))
         _add_subject_level(
             levels,
             pattern_year,
@@ -406,7 +428,13 @@ def _build_pattern_navigation(pattern_year, include_honors=False):
             "groups": [{"heading": "", "items": sem_items}],
             "breadcrumbs": [{"name": "Branches", "target_id": "root"}, {"name": "MBA"}],
         })
-        nav_items.append(_nav_card(mba_id, mba.get("branchCode") or "MBA", mba.get("branchName") or "MBA", mba_id))
+        nav_items.append(_nav_card(
+            mba_id,
+            mba.get("branchCode") or "MBA",
+            mba.get("branchName") or "MBA",
+            mba_id,
+            mba.get("branchKey") or "mba",
+        ))
 
     if include_honors:
         honors = _safe_load_json(_manifest_path("honors.json")) or {}
@@ -434,7 +462,19 @@ def _build_pattern_navigation(pattern_year, include_honors=False):
                 "groups": [{"heading": "", "items": year_items}],
                 "breadcrumbs": [{"name": "Branches", "target_id": "root"}, {"name": "HC"}],
             })
-            nav_items.append(_nav_card(honors_id, honors_course.get("branchCode") or "HC", honors_course.get("branchName") or "Honors Course", honors_id))
+            nav_items.append(_nav_card(
+                honors_id,
+                honors_course.get("branchCode") or "HC",
+                honors_course.get("branchName") or "Honors Course",
+                honors_id,
+                honors_course.get("branchKey") or "honors",
+            ))
+
+    for index, item in enumerate(nav_items):
+        item["original_index"] = index
+    nav_items = sorted(nav_items, key=_branch_sort_key)
+    for item in nav_items:
+        item.pop("original_index", None)
 
     return {
         "pattern_year": pattern_year,
