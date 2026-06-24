@@ -10,7 +10,15 @@ from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from src.config import CODES_SITE_URL, DEFAULT_EXAM_TYPE, SITE_URL
+from src.config import (
+    CLOUDINARY_RAW_BASE_URL,
+    CODES_SITE_URL,
+    DEFAULT_EXAM_TYPE,
+    MAINTENANCE_MODE,
+    MANIFEST_DIR,
+    R2_BASE_URL,
+    SITE_URL,
+)
 from src.utils import (
     DEFAULT_PATTERN_YEAR,
     HONORS_KEY,
@@ -108,6 +116,7 @@ def copy_static_files():
 
     copy_tree(STATIC_DIR, DIST_DIR / "static", ignore=ignore_static)
     write_pdfjs_clean_url_entry()
+    patch_pdfjs_viewer_origins()
     copy_apple_touch_icon()
     copy_tree(STATIC_DIR / "images", DIST_DIR / "images")
     copy_tree(ROOT / "manifest", DIST_DIR / "manifest")
@@ -140,6 +149,54 @@ def write_pdfjs_clean_url_entry():
     viewer_clean = DIST_DIR / "static" / "pdfjs" / "web" / "viewer"
     if viewer_html.exists():
         shutil.copy2(viewer_html, viewer_clean)
+
+
+def collect_pdf_viewer_origins():
+    origins = set()
+    for base_url in (R2_BASE_URL, CLOUDINARY_RAW_BASE_URL):
+        origin = origin_from_url(base_url)
+        if origin:
+            origins.add(origin)
+
+    manifest_path = Path(MANIFEST_DIR)
+    if manifest_path.exists():
+        for subjects_file in manifest_path.glob("*_subjects.json"):
+            data = json.loads(subjects_file.read_text(encoding="utf-8"))
+            providers = data.get("providers") or {}
+            for base_url in (providers.get("r2BaseUrl"), providers.get("cloudinaryRawBaseUrl")):
+                origin = origin_from_url(base_url)
+                if origin:
+                    origins.add(origin)
+
+    return sorted(origins)
+
+
+def origin_from_url(url):
+    parsed = urlparse(str(url or ""))
+    if not parsed.scheme or not parsed.netloc:
+        return ""
+    return f"{parsed.scheme}://{parsed.netloc}"
+
+
+def patch_pdfjs_viewer_origins():
+    viewer_mjs = DIST_DIR / "static" / "pdfjs" / "web" / "viewer.mjs"
+    if not viewer_mjs.exists():
+        return
+
+    origins = collect_pdf_viewer_origins()
+    if not origins:
+        return
+
+    source = viewer_mjs.read_text(encoding="utf-8")
+    replacement = "const SPPU_PYQS_PDF_ORIGINS = new Set(" + json.dumps(origins) + ");"
+    patched = re.sub(
+        r"const SPPU_PYQS_PDF_ORIGINS = new Set\(\[[^\]]*\]\);",
+        replacement,
+        source,
+        count=1,
+    )
+    if patched != source:
+        viewer_mjs.write_text(patched, encoding="utf-8")
 
 
 def write_robots_txt():
@@ -279,6 +336,8 @@ def render_viewer(env, pattern_key, subject_key, subject):
             "originalFilename": viewer_filename(paper),
             "url": paper.get("pdf_url"),
             "link": paper.get("pdf_url"),
+            "downloadUrl": paper.get("pdf_url"),
+            "canonicalPath": paper.get("canonical_path", ""),
             "date": paper.get("paper_label") or "Paper",
             "paperId": paper.get("pdf_id"),
             "examType": paper.get("exam_type", "unknown"),
@@ -286,6 +345,11 @@ def render_viewer(env, pattern_key, subject_key, subject):
         for paper in subject_papers
         if isinstance(paper, dict) and paper.get("pdf_url")
     ]
+    pdf_preconnect_url = ""
+    if pdf_data:
+        parsed_pdf_url = urlparse(pdf_data[0]["url"])
+        if parsed_pdf_url.scheme and parsed_pdf_url.netloc:
+            pdf_preconnect_url = f"{parsed_pdf_url.scheme}://{parsed_pdf_url.netloc}"
     initial_paper = next(
         (paper for paper in subject_papers if paper.get("exam_type") == default_exam_type),
         subject_papers[0] if subject_papers else None,
@@ -309,6 +373,7 @@ def render_viewer(env, pattern_key, subject_key, subject):
         seo_data=seo_data,
         default_exam_type=default_exam_type,
         has_questions=has_questions,
+        pdf_preconnect_url=pdf_preconnect_url,
     )
 
 
@@ -516,6 +581,10 @@ def write_redirects():
     write_file("_redirects", "\n".join(lines) + "\n")
 
 
+def render_maintenance_page(env):
+    write_file("index.html", render_template(env, "maintenance.html"))
+
+
 def main():
     if DIST_DIR.exists():
         empty_directory(DIST_DIR)
@@ -524,9 +593,15 @@ def main():
 
     copy_static_files()
     asset_manifest = build_assets()
-    write_search_index()
 
     env = create_environment(asset_manifest)
+    if MAINTENANCE_MODE:
+        render_maintenance_page(env)
+        write_headers()
+        print(f"Built maintenance page into {DIST_DIR}")
+        return
+
+    write_search_index()
     render_pattern_pages(env)
     render_viewer_pages(env)
     render_info_pages(env)

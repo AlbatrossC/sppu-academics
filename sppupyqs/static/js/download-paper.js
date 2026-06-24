@@ -193,7 +193,8 @@
 					canonicalPath,
 					folderPath: getFolderPath(canonicalPath),
 					examType: classifyExamType(paper, filename),
-					downloadUrl: canonicalPath ? `${RAW_BASE_URL}/${canonicalPath}` : (paper.url || paper.link || paper.pdf_url || "")
+					downloadUrl: paper.downloadUrl || paper.url || paper.link || paper.pdf_url ||
+						(canonicalPath ? `${RAW_BASE_URL}/${canonicalPath}` : "")
 				};
 			})
 			.filter((paper) => paper && paper.downloadUrl);

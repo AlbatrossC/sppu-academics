@@ -42,7 +42,9 @@
     <meta name="twitter:image" content="{{ site_url }}/images/logo.webp">
     <meta name="twitter:site" content="@sppucodes">
 
-    <link rel="preconnect" href="https://sppu-pyqs.albatrossc.workers.dev" crossorigin>
+    {% if pdf_preconnect_url %}
+    <link rel="preconnect" href="{{ pdf_preconnect_url }}" crossorigin>
+    {% endif %}
 
     <link href="/images/logo.webp" rel="icon" fetchpriority="high" type="image/webp">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">

@@ -373,8 +373,8 @@ function showPdfError(iframe, loader, message) {
 
 function isValidUrl(url) {
     try {
-        new URL(url);
-        return url.toLowerCase().endsWith('.pdf');
+        var parsed = new URL(url);
+        return parsed.pathname.toLowerCase().endsWith('.pdf');
     } catch (e) {
         return false;
     }
@@ -1236,11 +1236,13 @@ function init() {
                 }
                 return {
                     date: pdfObject.date || pdfObject.filename,
-                    link: pdfObject.url,
+                    link: pdfObject.url || pdfObject.link || pdfObject.downloadUrl,
                     originalUrl: pdfObject.url,
                     originalFilename: pdfObject.filename,
                     paperId: pdfObject.paperId || '',
-                    examType: pdfObject.examType || pdfObject.exam_type || ''
+                    examType: pdfObject.examType || pdfObject.exam_type || '',
+                    canonicalPath: pdfObject.canonicalPath || pdfObject.canonical_path || '',
+                    downloadUrl: pdfObject.downloadUrl || pdfObject.url || pdfObject.link || ''
                 };
             })
             .filter(function (item) { return item !== null; })

@@ -1,25 +1,27 @@
-import os
 from pathlib import Path
+
+from .env import env_bool, env_choice, env_text, load_env_file
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-SITE_URL = os.getenv("SPPUPYQS_SITE_URL", "https://sppupyqs.vercel.app").strip().rstrip("/")
-CODES_SITE_URL = os.getenv("SPPUCODES_SITE_URL", "https://sppucodes.vercel.app").strip().rstrip("/")
+load_env_file()
+
+SITE_URL = env_text(("SPPUPYQS_SITE_URL",), "https://sppupyqs.vercel.app").rstrip("/")
+CODES_SITE_URL = env_text(("SPPUCODES_SITE_URL",), "https://sppucodes.vercel.app").rstrip("/")
 MANIFEST_DIR = str(BASE_DIR / "manifest")
 
-PDF_SOURCE = (os.getenv("PDF_SOURCE") or os.getenv("pdf_source") or "r2").strip().lower()
-if PDF_SOURCE not in {"r2", "cloudinary"}:
-    PDF_SOURCE = "r2"
-
-R2_BASE_URL = (os.getenv("R2_BASE_URL") or os.getenv("r2_base_url") or "").strip().rstrip("/")
-CLOUDINARY_RAW_BASE_URL = (
-    os.getenv("CLOUDINARY_RAW_BASE_URL")
-    or os.getenv("CLOUDINARY_BASE_URL")
-    or os.getenv("cloudinary_raw_base_url")
-    or os.getenv("cloudinary_base_url")
-    or ""
-).strip().rstrip("/")
-
-DEFAULT_EXAM_TYPE = os.getenv("DEFAULT_EXAM_TYPE", "endsem").strip().lower()
-if DEFAULT_EXAM_TYPE not in {"insem", "endsem"}:
-    DEFAULT_EXAM_TYPE = "endsem"
+PDF_SOURCE = env_choice(("PDF_SOURCE", "pdf_source"), "r2", {"r2", "cloudinary"})
+R2_BASE_URL = env_text(("R2_BASE_URL", "r2_base_url"), "").rstrip("/")
+CLOUDINARY_RAW_BASE_URL = env_text(
+    (
+        "CLOUDINARY_RAW_BASE_URL",
+        "CLOUDINARY_BASE_URL",
+        "cloudinary_raw_base_url",
+        "cloudinary_base_url",
+    ),
+    "",
+).rstrip("/")
+DEFAULT_EXAM_TYPE = env_choice(("EXAM_TYPE", "DEFAULT_EXAM_TYPE"), "endsem", {"insem", "endsem"})
+_pattern_year = env_text(("PATTERN_YEAR", "DEFAULT_PATTERN_YEAR"), "2019") or "2019"
+DEFAULT_PATTERN_YEAR = _pattern_year if _pattern_year.isdigit() else "2019"
+MAINTENANCE_MODE = env_bool(("MAINTENANCE_MODE", "MAINTAINCE_MODE"), False)

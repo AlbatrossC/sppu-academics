@@ -4,9 +4,8 @@ import re
 from functools import lru_cache
 from urllib.parse import urlparse
 
-from .config import CLOUDINARY_RAW_BASE_URL, MANIFEST_DIR, PDF_SOURCE, R2_BASE_URL
+from .config import CLOUDINARY_RAW_BASE_URL, DEFAULT_PATTERN_YEAR, MANIFEST_DIR, PDF_SOURCE, R2_BASE_URL
 
-DEFAULT_PATTERN_YEAR = "2019"
 HONORS_KEY = "honors"
 REDIRECT_PATTERN_ORDER = ("2019", "2015", "2012", HONORS_KEY)
 EXCEPTIONS_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "static", "exceptions.yml"))

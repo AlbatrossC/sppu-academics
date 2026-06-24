@@ -8,11 +8,22 @@ Static Cloudflare Pages version of SPPU PYQs.
 
 ```bash
 cd sppupyqs
-python -m pip install -r requirements.txt
+python -m pip install -r reqs.txt
 python build.py
 ```
 
 The build writes the full site to `dist/`.
+
+Optional build-time values can be placed in `sppupyqs/.env`. Use `.env.example` as the pattern:
+
+```text
+PDF_SOURCE=r2
+EXAM_TYPE=endsem
+PATTERN_YEAR=2019
+MAINTENANCE_MODE=false
+```
+
+Defaults are `PDF_SOURCE=r2`, `EXAM_TYPE=endsem`, `PATTERN_YEAR=2019`, and `MAINTENANCE_MODE=false`. `PDF_SOURCE` accepts `r2` or `cloudinary`; `EXAM_TYPE` accepts `insem` or `endsem`. When `MAINTENANCE_MODE=true`, the build skips the normal HTML routes and writes only the maintenance page.
 
 To change the generated base URL for canonical links, sitemap URLs, Open Graph URLs, and `robots.txt`, set `SPPUPYQS_SITE_URL` before running the build:
 

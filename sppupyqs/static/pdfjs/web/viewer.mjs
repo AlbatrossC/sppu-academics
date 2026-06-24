@@ -16140,7 +16140,7 @@ initCom(PDFViewerApplication);
 }
 {
   const HOSTED_VIEWER_ORIGINS = new Set(["null", "http://mozilla.github.io", "https://mozilla.github.io"]);
-  const SPPU_PYQS_PDF_ORIGINS = new Set(["https://sppu-pyqs.albatrossc.workers.dev"]);
+  const SPPU_PYQS_PDF_ORIGINS = new Set(["https://sppu-pyqs.albatrossc.workers.dev", "https://res.cloudinary.com"]);
   var validateFileURL = function (file) {
     if (!file) {
       return;
