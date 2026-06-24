@@ -1,3 +1,4 @@
+/* Base */
 :root {
     --primary-color: #3b82f6;
     --primary-hover: #2a71dc;
@@ -48,11 +49,19 @@ body {
     overflow: hidden;
 }
 
+#viewer-main {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
 header {
     background: #222;
     padding: 0 16px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
     height: var(--header-height-desktop);
     min-height: var(--header-height-desktop);
@@ -72,6 +81,7 @@ header {
 }
 
 .header-info {
+    justify-self: start;
     flex-shrink: 0;
     min-width: 0;
 }
@@ -87,7 +97,7 @@ header {
 }
 
 .header-center {
-    flex: 1;
+    justify-self: center;
     justify-content: center;
     gap: 16px;
     max-width: 600px;
@@ -95,6 +105,7 @@ header {
 }
 
 .header-controls {
+    justify-self: end;
     gap: 10px;
     flex-shrink: 0;
 }
@@ -137,6 +148,7 @@ header {
     flex-shrink: 0;
 }
 
+/* Controls */
 .custom-dropdown {
     position: relative;
     min-width: 110px;
@@ -345,6 +357,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     flex-shrink: 0;
 }
 
+/* PDF Grid */
 #pdf-container {
     flex: 1;
     display: grid;
@@ -756,6 +769,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
 }
 
 
+/* Modals */
 .download-modal {
     position: fixed;
     inset: 0;
@@ -1472,6 +1486,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     font-size: 12px;
 }
 
+/* Mobile */
 /* Mobile Control Bar - Hidden by default, shown only on mobile */
 .mobile-control-bar {
     display: none;
@@ -1563,6 +1578,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     pointer-events: none;
 }
 
+/* Responsive */
 @media (max-width: 1024px) {
     header {
         padding: 0 12px;
@@ -1589,6 +1605,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     }
 
     header {
+        display: flex;
         height: var(--header-height-mobile);
         min-height: var(--header-height-mobile);
         padding: 6px 10px;
@@ -1597,6 +1614,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     }
 
     .header-info {
+        justify-self: auto;
         gap: 8px;
         flex: 1;
         min-width: 0;
@@ -1622,6 +1640,7 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     }
 
     .header-controls {
+        justify-self: auto;
         gap: 8px;
         flex-shrink: 0;
     }
@@ -1716,24 +1735,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     /* Hide in-viewer paper selector on mobile - using bottom bar instead */
     .paper-selector {
         display: none;
-    }
-
-    .paper-selector-label {
-        font-size: 9px;
-        letter-spacing: 0.06em;
-    }
-
-    .paper-selector .custom-dropdown {
-        min-width: 140px;
-        max-width: 220px;
-        height: 30px;
-    }
-
-    .paper-selector .dropdown-selected {
-        height: 30px;
-        padding: 0 12px;
-        font-size: 11px;
-        border-radius: var(--border-radius);
     }
 
     .dropdown-option {
@@ -1988,27 +1989,6 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     .icon {
         width: 14px;
         height: 14px;
-    }
-
-    .paper-selector {
-        display: none;
-    }
-
-    .paper-selector-label {
-        font-size: 8px;
-    }
-
-    .paper-selector .custom-dropdown {
-        min-width: 120px;
-        max-width: 180px;
-        height: 28px;
-    }
-
-    .paper-selector .dropdown-selected {
-        height: 28px;
-        font-size: 10px;
-        padding: 0 10px;
-        border-radius: var(--border-radius);
     }
 
     .download-modal-header {

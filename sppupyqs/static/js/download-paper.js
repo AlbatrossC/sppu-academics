@@ -1,6 +1,3 @@
-// Lazy Download + Zip client for question-papers (vanilla JS)
-// Exposes: window.DownloadPaper.handleClick(event, button)
-
 (function () {
 	"use strict";
 
@@ -155,6 +152,10 @@
 	}
 
 	function getClientId() {
+		if (window.paperDownloadContext && window.paperDownloadContext.clientIdPromise) {
+			return Promise.resolve(window.paperDownloadContext.clientIdPromise);
+		}
+
 		try {
 			const key = "client_id";
 			const cached = window.localStorage.getItem(key);
@@ -413,7 +414,6 @@
 	}
 
 	window.DownloadPaper = {
-		handleClick,
-		_resolvePapersForDownload: resolvePapersForDownload
+		handleClick
 	};
 })();

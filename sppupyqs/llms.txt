@@ -1,0 +1,12 @@
+# SPPU PYQs
+
+SPPU PYQs is a public question-paper viewer for Savitribai Phule Pune University students.
+
+- https://sppupyqs.vercel.app/
+- https://sppupyqs.vercel.app/2019
+- https://sppupyqs.vercel.app/2015
+- https://sppupyqs.vercel.app/2012
+- https://sppupyqs.vercel.app/sitemap
+- https://sppupyqs.vercel.app/sitemap.xml
+
+Crawler guidance: public HTML pages may be indexed. PDF viewer pages include structured metadata and canonical URLs. Avoid sending automated traffic to generated PDF downloads or ZIP download actions.

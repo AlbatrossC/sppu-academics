@@ -37,6 +37,7 @@ ASSETS = [
     "js/select.js",
     "js/mobile-menu.js",
     "js/download-paper.js",
+    "js/viewer-page.js",
 ]
 
 
@@ -99,15 +100,39 @@ def copy_tree(source, destination, ignore=None):
 
 
 def copy_static_files():
-    def ignore_static(_dir, names):
-        return {"dist", "asset-manifest.json"}.intersection(names)
+    def ignore_static(directory, names):
+        ignored = {"dist", "asset-manifest.json"}.intersection(names)
+        if Path(directory).is_relative_to(STATIC_DIR / "pdfjs"):
+            ignored.update(ignore_pdfjs_files(directory, names))
+        return ignored
 
     copy_tree(STATIC_DIR, DIST_DIR / "static", ignore=ignore_static)
     write_pdfjs_clean_url_entry()
+    copy_apple_touch_icon()
     copy_tree(STATIC_DIR / "images", DIST_DIR / "images")
     copy_tree(ROOT / "manifest", DIST_DIR / "manifest")
     copy_tree(PYQS_METADATA_DIR, DIST_DIR / "pyqs-metadata")
     write_robots_txt()
+    write_llms_txt()
+
+
+def copy_apple_touch_icon():
+    icon = STATIC_DIR / "images" / "apple-touch-icon.png"
+    if icon.exists():
+        shutil.copy2(icon, DIST_DIR / "apple-touch-icon.png")
+
+
+def ignore_pdfjs_files(directory, names):
+    path = Path(directory)
+    ignored = {name for name in names if name.endswith(".map")}
+    ignored.update({"compressed.tracemonkey-pldi-09.pdf", "debugger.css", "debugger.mjs"}.intersection(names))
+    if path.name == "locale":
+        ignored.update(
+            name
+            for name in names
+            if name not in {"en-US", "locale.json"}
+        )
+    return ignored
 
 
 def write_pdfjs_clean_url_entry():
@@ -123,6 +148,12 @@ def write_robots_txt():
         return
     content = source.read_text(encoding="utf-8").replace("{SITE_URL}", SITE_URL)
     write_file("robots.txt", content.rstrip() + "\n")
+
+
+def write_llms_txt():
+    source = ROOT / "llms.txt"
+    if source.exists():
+        write_file("llms.txt", source.read_text(encoding="utf-8").rstrip() + "\n")
 
 
 def output_path_for_route(route):
