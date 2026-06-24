@@ -1,30 +1,352 @@
 <!DOCTYPE html>
 <html lang="en-IN">
 <head>
+    <link rel="preload" href="{{ asset_url('css/select.css') }}" as="style">
+    <link rel="preload" href="/images/logo.webp" as="image">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPPU PYQs | Error</title>
-    <meta name="robots" content="noindex, follow">
+    <title>SPPU PYQs | Subject Not Found</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="The requested SPPU PYQs subject page was not found. Search available SPPU question papers.">
+
+    <link rel="stylesheet" href="{{ asset_url('css/select.css') }}" media="all">
+    <link rel="stylesheet" href="{{ asset_url('css/header.css') }}" media="all">
+    <link rel="stylesheet" href="{{ asset_url('css/footer.css') }}" media="all">
     <link rel="icon" href="/images/logo.webp" type="image/webp">
     <script src="{{ asset_url('js/analytics.js') }}" defer></script>
+    <script src="{{ asset_url('js/search.js') }}" defer></script>
+
     <style>
-        body { margin: 0; font-family: Arial, sans-serif; background: #1c1917; color: #fef3c7; }
-        .wrap { max-width: 780px; margin: 0 auto; padding: 56px 20px; text-align: center; }
-        .code { font-size: 64px; font-weight: 700; color: #fbbf24; }
-        .actions a { display: inline-block; margin: 8px; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: 600; }
-        .primary { background: #f59e0b; color: #111827; }
-        .secondary { background: #292524; color: #fef3c7; border: 1px solid #57534e; }
+        body {
+            min-height: 100vh;
+        }
+
+        .error-content {
+            min-height: calc(100vh - var(--header-height));
+            display: grid;
+            align-content: center;
+            gap: 1.25rem;
+            width: min(100%, 1080px);
+            margin: 0 auto;
+            padding: clamp(1.25rem, 3vw, 2.25rem) 24px;
+        }
+
+        .error-hero {
+            text-align: center;
+        }
+
+        .error-title {
+            margin: 0;
+            color: var(--text-primary);
+            font-size: clamp(1.9rem, 4vw, 3.1rem);
+            line-height: 1.1;
+            font-weight: 800;
+        }
+
+        .error-copy {
+            max-width: 680px;
+            margin: 0.65rem auto 0;
+            color: var(--text-secondary);
+            font-size: 0.98rem;
+            line-height: 1.55;
+        }
+
+        .error-search {
+            width: min(100%, 760px);
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .error-search .search-wrapper {
+            height: 54px;
+            padding: 0 18px;
+            border-radius: 14px;
+            background: var(--secondary-bg);
+            box-shadow: 0 16px 45px rgba(0, 0, 0, 0.25);
+        }
+
+        .error-search-icon {
+            width: 22px;
+            height: 22px;
+            margin-right: 12px;
+            color: var(--accent-primary);
+            flex: 0 0 auto;
+        }
+
+        #error-subject-search {
+            width: 100%;
+            min-width: 0;
+            background: transparent;
+            border: 0;
+            outline: 0;
+            color: var(--text-primary);
+            font: inherit;
+            font-size: 1.08rem;
+        }
+
+        #error-subject-search::placeholder {
+            color: var(--text-secondary);
+        }
+
+        .error-search .search-dropdown {
+            top: calc(100% + 8px);
+            margin-top: 0;
+        }
+
+        .suggestions {
+            width: min(100%, 980px);
+            margin: 0 auto;
+        }
+
+        .suggestions[hidden] {
+            display: none;
+        }
+
+        .suggestions .semester-heading {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+
+        .suggestions .subject-list {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.85rem;
+            margin-bottom: 0;
+        }
+
+        .suggestions .subject-list a {
+            height: 112px;
+            gap: 0.55rem;
+            padding: 1rem;
+        }
+
+        .suggestions .subject-code {
+            font-size: 0.78rem;
+            line-height: 1.2;
+            color: var(--accent-primary);
+        }
+
+        .suggestions .full-name {
+            color: var(--text-primary);
+            font-size: 1rem;
+            line-height: 1.35;
+        }
+
+        .suggestion-meta {
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+            font-weight: 600;
+            line-height: 1.25;
+            overflow-wrap: anywhere;
+        }
+
+        .error-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .home-link {
+            min-height: 42px;
+            padding: 0 16px;
+            border-radius: var(--border-radius-soft);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--text-primary);
+            background: var(--secondary-bg);
+            border: 1.5px solid var(--border-color);
+            font-weight: 700;
+            transition: all var(--transition-speed);
+        }
+
+        .home-link:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 899px) {
+            .error-content {
+                align-content: center;
+                gap: 1rem;
+                padding: 1rem 16px 1.25rem;
+            }
+
+            .error-search .search-wrapper {
+                height: 50px;
+            }
+
+            .suggestions .subject-list {
+                grid-template-columns: 1fr;
+                gap: 0.65rem;
+            }
+
+            .suggestions .subject-list a {
+                height: 78px;
+                min-height: 78px;
+                gap: 0.3rem;
+                padding: 0.75rem 0.9rem;
+            }
+
+            .suggestions .subject-code,
+            .suggestion-meta {
+                font-size: 0.72rem;
+            }
+
+            .suggestions .full-name {
+                font-size: 0.92rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .error-content {
+                gap: 0.85rem;
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            .error-title {
+                font-size: 1.65rem;
+            }
+
+            .error-copy {
+                font-size: 0.9rem;
+                line-height: 1.45;
+            }
+
+            #error-subject-search {
+                font-size: 1rem;
+            }
+
+            .error-actions a {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="wrap">
-        <div class="code">{{ error_code or 404 }}</div>
-        <h1>That subject page could not be found</h1>
-        <p>Use the question-paper homepage to browse by branch and semester, or jump back to the codes site.</p>
-        <div class="actions">
-            <a class="primary" href="/">Browse Question Papers</a>
-            <a class="secondary" href="https://sppucodes.vercel.app/">Go to SPPU Codes</a>
+    <header>
+        <div class="header__container">
+            <a href="/" class="logo-link" aria-label="SPPU Question Papers Home">
+                <img src="/images/logo.webp" alt="SPPU PYQs Logo" width="48" height="48" fetchpriority="high">
+                <h1>SPPU PYQs</h1>
+            </a>
+
+            <nav class="header__actions" aria-label="Main navigation">
+                <a href="/" class="home-link">Browse PYQs</a>
+                <a href="{{ codes_site_url }}" class="sppucodes-button">
+                    <img src="/static/images/sppucodes-logo.png" alt="Logo" width="24" height="24">
+                    <span>Sppucodes</span>
+                </a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main class="error-content">
+        <section class="error-hero" aria-labelledby="error-title">
+            <h1 class="error-title" id="error-title">We could not find that subject</h1>
+            <p class="error-copy">Search the available SPPU question papers, or pick one of the closest subjects we found from the URL you opened.</p>
+        </section>
+
+        <section class="error-search" aria-label="Search subjects">
+            <div class="search-wrapper">
+                <svg class="error-search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"></circle>
+                    <line x1="16.4142" y1="16" x2="21" y2="20.5858" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+                </svg>
+                <input type="search" id="error-subject-search" placeholder="Search subjects..." aria-label="Search SPPU question paper subjects" autocomplete="off">
+                <div class="search-dropdown" id="errorSearchDropdown"></div>
+            </div>
+        </section>
+
+        <section class="suggestions" id="suggestionsSection" hidden aria-labelledby="suggestions-heading">
+            <h2 class="semester-heading" id="suggestions-heading">Related subjects</h2>
+            <div class="group">
+                <ul class="subject-list" id="suggestionsList"></ul>
+            </div>
+        </section>
+
+        <div class="error-actions" aria-label="Recovery links">
+            <a href="/" class="home-link">Go to Question Papers</a>
+        </div>
+    </main>
+
+    <script>
+        (function () {
+            var input = document.getElementById("error-subject-search");
+            var dropdown = document.getElementById("errorSearchDropdown");
+            var suggestionsSection = document.getElementById("suggestionsSection");
+            var suggestionsList = document.getElementById("suggestionsList");
+
+            if (!input || !dropdown || !suggestionsSection || !suggestionsList) {
+                return;
+            }
+
+            function renderUrlSuggestions() {
+                if (!window.SPPUSearch) {
+                    suggestionsSection.hidden = true;
+                    return;
+                }
+
+                var path = window.location && window.location.pathname ? window.location.pathname : "";
+                var query = decodeURIComponent(path)
+                    .replace(/^\/+|\/+$/g, "")
+                    .split("/")
+                    .filter(Boolean)
+                    .pop() || "";
+
+                window.SPPUSearch.search(query, { limit: 3 }).then(function (matches) {
+                    if (!matches.length) {
+                        suggestionsSection.hidden = true;
+                        return;
+                    }
+
+                    suggestionsList.innerHTML = "";
+                    matches.forEach(function (entry) {
+                        var item = entry.item;
+                        var listItem = document.createElement("li");
+                        var link = document.createElement("a");
+                        var code = document.createElement("span");
+                        var name = document.createElement("span");
+                        var meta = document.createElement("span");
+
+                        link.href = window.SPPUSearch.destinationFor(item);
+                        link.title = (item.subject_name || "Subject") + " Question Papers";
+                        code.className = "subject-code";
+                        name.className = "full-name";
+                        meta.className = "suggestion-meta";
+                        code.textContent = item.pattern_year ? item.pattern_year + " Pattern" : "Honors";
+                        name.textContent = item.subject_name || "Untitled subject";
+                        meta.textContent = window.SPPUSearch.subjectCardMeta(item);
+
+                        link.appendChild(code);
+                        link.appendChild(name);
+                        link.appendChild(meta);
+                        listItem.appendChild(link);
+                        suggestionsList.appendChild(listItem);
+                    });
+                    suggestionsSection.hidden = false;
+                }).catch(function () {
+                    suggestionsSection.hidden = true;
+                });
+            }
+
+            window.addEventListener("DOMContentLoaded", function () {
+                if (!window.SPPUSearch) {
+                    return;
+                }
+                window.SPPUSearch.attachDropdown({
+                    input: input,
+                    dropdown: dropdown,
+                    container: document.querySelector(".error-search"),
+                    limit: 10
+                });
+                renderUrlSuggestions();
+            });
+        })();
+    </script>
 </body>
 </html>

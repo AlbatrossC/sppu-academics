@@ -43,6 +43,7 @@ ASSETS = [
     "css/header.css",
     "css/footer.css",
     "js/analytics.js",
+    "js/search.js",
     "js/select.js",
     "js/mobile-menu.js",
     "js/download-paper.js",
@@ -280,6 +281,10 @@ def render_info_pages(env):
     }.items():
         write_route(route, render_template(env, template))
     write_route("/sitemap", render_template(env, "sitemap.html", branches=load_sitemap_data()))
+
+
+def render_error_pages(env):
+    write_file("404.html", render_template(env, "error.html", error_code=404))
 
 
 def render_viewer_pages(env):
@@ -611,6 +616,7 @@ def main():
     render_pattern_pages(env)
     render_viewer_pages(env)
     render_info_pages(env)
+    render_error_pages(env)
     write_sitemap_xml()
     write_headers()
     write_redirects()
