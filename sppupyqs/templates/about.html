@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="OASyvGhMBGIr5_XmIDAqNZNHhwRW_IoCqJHHJ3fQg_g">
+    <meta name="google-adsense-account" content="ca-pub-6317839573120005">
+    <title>About - SPPU PYQs</title>
+    <meta name="description" content="About SPPU PYQs, its purpose, accessibility features, PDF sources, ownership note, and creator details.">
+    <link rel="icon" href="/images/logo.webp" type="image/webp">
+    <link rel="stylesheet" href="{{ asset_url('css/select.css') }}">
+    <script src="{{ asset_url('js/analytics.js') }}" defer></script>
+    <style>
+        .about-page {
+            width: min(100%, 1180px);
+            margin: 0 auto;
+            padding: 34px 24px 64px;
+        }
+
+        .about-hero {
+            padding: 16px 0 34px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .about-eyebrow {
+            color: var(--accent-primary);
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .about-title {
+            max-width: 980px;
+            color: var(--text-primary);
+            font-size: 2.7rem;
+            line-height: 1.12;
+            margin-bottom: 18px;
+        }
+
+        .about-lead {
+            max-width: 930px;
+            color: var(--text-secondary);
+            font-size: 1.08rem;
+            line-height: 1.85;
+        }
+
+        .about-intro {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 340px;
+            gap: 44px;
+            padding: 34px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .about-copy h2,
+        .about-strip h2,
+        .about-split h2 {
+            color: var(--text-primary);
+            font-size: 1.45rem;
+            margin-bottom: 12px;
+        }
+
+        .about-copy p,
+        .about-strip p,
+        .about-split p,
+        .fact-list li {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .about-copy p + p,
+        .about-split p + p {
+            margin-top: 14px;
+        }
+
+        .about-copy a,
+        .about-strip a,
+        .about-split a,
+        .about-closing a {
+            color: var(--accent-primary);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .about-copy a:hover,
+        .about-strip a:hover,
+        .about-split a:hover,
+        .about-closing a:hover,
+        .about-copy a:focus-visible,
+        .about-strip a:focus-visible,
+        .about-split a:focus-visible,
+        .about-closing a:focus-visible {
+            text-decoration: underline;
+        }
+
+        .fact-list {
+            list-style: none;
+            margin: 4px 0 0;
+            padding: 0;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .fact-list li {
+            display: grid;
+            grid-template-columns: 92px minmax(0, 1fr);
+            gap: 16px;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .fact-list strong {
+            color: var(--text-primary);
+            font-size: 0.9rem;
+        }
+
+        .about-strip {
+            padding: 34px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .feature {
+            padding-top: 16px;
+            border-top: 3px solid var(--accent-primary);
+        }
+
+        .feature h3 {
+            color: var(--text-primary);
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .feature p {
+            font-size: 0.94rem;
+            line-height: 1.7;
+        }
+
+        .about-split {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 48px;
+            padding: 34px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .source-links,
+        .profile-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .about-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            min-height: 42px;
+            padding: 0 16px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 700;
+            text-decoration: none;
+            transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+        }
+
+        .about-split a.about-button,
+        .about-closing a.about-button {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .about-button:hover,
+        .about-button:focus-visible {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .about-split a.about-button:hover,
+        .about-split a.about-button:focus-visible,
+        .about-closing a.about-button:hover,
+        .about-closing a.about-button:focus-visible {
+            text-decoration: none;
+        }
+
+        .about-button svg {
+            width: 18px;
+            height: 18px;
+            flex: 0 0 auto;
+        }
+
+        .about-button.github {
+            background: #24292f;
+            border-color: #57606a;
+        }
+
+        .about-button.github:hover,
+        .about-button.github:focus-visible {
+            background: #30363d;
+            border-color: #8b949e;
+        }
+
+        .about-button.linkedin {
+            background: #0a66c2;
+            border-color: #0a66c2;
+        }
+
+        .about-button.linkedin:hover,
+        .about-button.linkedin:focus-visible {
+            background: #084f98;
+            border-color: #084f98;
+        }
+
+        .about-button.contact {
+            background: #28a746;
+            border-color: #28a746;
+        }
+
+        .about-button.contact:hover,
+        .about-button.contact:focus-visible {
+            background: #1f8736;
+            border-color: #1f8736;
+        }
+
+        .about-button.drive {
+            background: #1a73e8;
+            border-color: #1a73e8;
+        }
+
+        .about-button.drive:hover,
+        .about-button.drive:focus-visible {
+            background: #1558b0;
+            border-color: #1558b0;
+        }
+
+        .about-button.zcoer {
+            background: #0f766e;
+            border-color: #0f766e;
+        }
+
+        .about-button.zcoer:hover,
+        .about-button.zcoer:focus-visible {
+            background: #0b5f59;
+            border-color: #0b5f59;
+        }
+
+        .ownership-note {
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .about-closing {
+            padding-top: 34px;
+            max-width: 940px;
+        }
+
+        .about-closing h2 {
+            color: var(--text-primary);
+            font-size: 1.45rem;
+            margin-bottom: 12px;
+        }
+
+        .about-closing p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .disclaimer-list {
+            margin: 18px 0 0;
+            padding-left: 18px;
+            color: var(--text-secondary);
+        }
+
+        .disclaimer-list li {
+            margin-top: 8px;
+            line-height: 1.75;
+        }
+
+        @media (max-width: 980px) {
+            .about-page {
+                padding: 26px 18px 48px;
+            }
+
+            .about-title {
+                font-size: 2.1rem;
+            }
+
+            .about-intro,
+            .about-split {
+                grid-template-columns: 1fr;
+                gap: 26px;
+            }
+
+            .feature-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 560px) {
+            .about-page {
+                padding: 20px 12px 40px;
+            }
+
+            .about-title {
+                font-size: 1.72rem;
+            }
+
+            .about-lead {
+                font-size: 1rem;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+
+            .fact-list li {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+
+            .source-links,
+            .profile-links {
+                flex-direction: column;
+            }
+
+            .about-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <a href="/" class="logo-link" aria-label="SPPU Question Papers Home">
+                <img src="/images/logo.webp" alt="SPPU PYQs Logo" width="48" height="48">
+                <h1>SPPU PYQs</h1>
+            </a>
+
+            <nav class="header__actions" aria-label="About page navigation">
+                <a href="/" class="sppucodes-button">Home</a>
+                <a href="/contact" class="sppucodes-button">Contact</a>
+            </nav>
+
+            <div class="header__mobile-actions">
+                <button class="mobile-menu-toggle" aria-label="Toggle Mobile Menu">
+                    <span class="menu-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+            <button class="mobile-menu__close" id="closeMenuBtn" aria-label="Close Menu">&times;</button>
+            <a href="/">Home</a>
+            <a href="/about" aria-current="page">About</a>
+            <a href="/contact" class="contact-button">Contact</a>
+            <a href="https://github.com/AlbatrossC/sppu-academics" class="github-button" target="_blank" rel="noopener noreferrer">View Source</a>
+        </nav>
+    </header>
+
+    <main class="about-page">
+        <section class="about-hero" aria-labelledby="about-heading">
+            <div class="about-eyebrow">About SPPU PYQs</div>
+            <h1 id="about-heading" class="about-title">Previous year question papers, organized for actual exam preparation.</h1>
+            <p class="about-lead">SPPU PYQs is a free website for Savitribai Phule Pune University students. It brings previous year question papers into a cleaner interface where students can search, view, compare, and download papers without first digging through scattered folders or downloading every PDF just to check its contents.</p>
+        </section>
+
+        <section class="about-intro" aria-labelledby="purpose-heading">
+            <div class="about-copy">
+                <h2 id="purpose-heading">Why this site exists</h2>
+                <p>Previous year papers are extremely useful during exam preparation, but the way they are usually shared is not always convenient. A student may have to browse a large Drive folder, open multiple college pages, or download several files before finding the correct subject, year, or exam type.</p>
+                <p>This site improves that experience by presenting the available papers in a structured and accessible format. It keeps the focus on the student workflow: choose the pattern, branch, semester, and subject; open the paper directly in the browser; compare papers when needed; and download only the files that are useful.</p>
+            </div>
+
+            <aside aria-label="Quick facts">
+                <ul class="fact-list">
+                    <li><strong>Access</strong><span>Free to use, no login required.</span></li>
+                    <li><strong>Scope</strong><span>SPPU previous year question papers.</span></li>
+                    <li><strong>Viewing</strong><span>PDFs can be opened directly in the browser.</span></li>
+                    <li><strong>Download</strong><span>Papers can be downloaded by exam type where data is available.</span></li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="about-strip" aria-labelledby="features-heading">
+            <h2 id="features-heading">What the site improves</h2>
+            <p>The site is built around practical exam-preparation needs instead of acting as a plain list of PDF links.</p>
+
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Browser PDF viewing</h3>
+                    <p>Open papers directly in the browser and check them before downloading, which is especially useful on mobile devices and low-storage systems.</p>
+                </div>
+                <div class="feature">
+                    <h3>Clearer paper details</h3>
+                    <p>Subject, exam type, and year information are presented through the interface so students can identify the right paper faster.</p>
+                </div>
+                <div class="feature">
+                    <h3>Side-by-side comparison</h3>
+                    <p>The split layout helps students compare papers or questions from different years without switching between tabs repeatedly.</p>
+                </div>
+                <div class="feature">
+                    <h3>Selective downloads</h3>
+                    <p>Students can download papers based on available categories such as insem, endsem, or other exam types.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-split" aria-labelledby="sources-heading">
+            <div>
+                <h2 id="sources-heading">Paper sources</h2>
+                <p>The PDFs served through SPPU PYQs are collected from publicly available academic resources. A primary reference is the ZEAL COLLEGE OF ENGINEERING &amp; RESEARCH, PUNE downloads library, which links to a public Google Drive folder containing SPPU question papers.</p>
+                <p class="ownership-note">I do not own the question papers. If a paper is missing from the main collection, I may add it from another publicly available external source so students can find a more complete set from one place.</p>
+                <div class="source-links">
+                    <a class="about-button zcoer" href="https://zcoer.in/downloads-library/" target="_blank" rel="noopener noreferrer" aria-label="Open ZEAL College downloads library">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 20V8.5L12 4l8 4.5V20h-5v-6H9v6H4zm2-2h1v-6h10v6h1V9.7l-6-3.38-6 3.38V18zm4-8h4V8h-4v2z"/></svg>
+                        <span>ZCOER Library</span>
+                    </a>
+                    <a class="about-button drive" href="https://drive.google.com/drive/folders/0Bz9C0ysJZ7PnMGZKeWcybUpXWGM" target="_blank" rel="noopener noreferrer" aria-label="Open Google Drive source folder">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.71 3h8.58l6.7 11.58-4.29 7.42H5.3L1.01 14.58 7.71 3zm1.15 2L3.31 14.58 6.45 20h11.1l3.14-5.42L15.14 5H8.86zm1.29 2.16h3.7l5.02 8.7-1.85 3.2-5.02-8.69-5.02 8.69-1.85-3.2 5.02-8.7zm1.85 6.2L15.24 19H8.76L12 13.36z"/></svg>
+                        <span>Google Drive</span>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h2>About me</h2>
+                <p>I am Soham Jadhav, and I made this website to make SPPU previous year papers easier to browse, view, compare, and download for students preparing for exams.</p>
+                <p>For corrections, missing papers, broken links, or suggestions, please use the contact page. Public code and development details are available through the project repository and my GitHub profile.</p>
+                <div class="profile-links">
+                    <a class="about-button github" href="https://github.com/AlbatrossC" target="_blank" rel="noopener noreferrer" aria-label="Open Soham Jadhav GitHub profile">
+                        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.13 0 0 .67-.21 2.2.82A7.65 7.65 0 018 3.45c.68.003 1.36.092 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.93.08 2.13.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a class="about-button linkedin" href="https://www.linkedin.com/in/sohamjadhav135/" target="_blank" rel="noopener noreferrer" aria-label="Open Soham Jadhav LinkedIn profile">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.83v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-7.85c0-1.87-.03-4.28-2.61-4.28-2.61 0-3.01 2.04-3.01 4.15V23h-4V8z"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="about-button contact" href="/contact" aria-label="Open contact page">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm17 3.24l-7.43 5.16a1 1 0 01-1.14 0L4 8.24V17h16V8.24zM5.61 7L12 11.44 18.39 7H5.61z"/></svg>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-closing" aria-labelledby="reuse-heading">
+            <h2 id="reuse-heading">Free and open to use</h2>
+            <p>SPPU PYQs is completely free to use. The website source is open, and you are free to host it as it is if you want to run your own copy. You may also download papers from this website and publish them on your own site, although I recommend using the original Drive folder or original source wherever possible when building your own collection.</p>
+            <div class="source-links">
+                <a class="about-button github" href="https://github.com/AlbatrossC/sppu-academics" target="_blank" rel="noopener noreferrer" aria-label="Open SPPU Academics source code on GitHub">
+                    <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.13 0 0 .67-.21 2.2.82A7.65 7.65 0 018 3.45c.68.003 1.36.092 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.93.08 2.13.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    <span>GitHub Source</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-closing" aria-labelledby="disclaimer-heading">
+            <h2 id="disclaimer-heading">Disclaimer</h2>
+            <ul class="disclaimer-list">
+                <li>SPPU PYQs is an independent educational resource.</li>
+                <li>Question papers and related academic materials belong to their respective owners.</li>
+                <li>Content is provided solely for educational and exam preparation purposes.</li>
+                <li>This website is not affiliated with or endorsed by Savitribai Phule Pune University.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="{{ asset_url('js/mobile-menu.js') }}"></script>
+</body>
+</html>

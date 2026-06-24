@@ -258,6 +258,7 @@ def render_template(env, template_name, **context):
         "codes_site_url": CODES_SITE_URL,
         "site_name": "SPPU PYQs",
         "analytics_endpoint": f"{DB_WORKER_BASE_URL}/api/notify-download",
+        "contact_endpoint": f"{DB_WORKER_BASE_URL}/contact",
     }
     base_context.update(context)
     return env.get_template(template_name).render(**base_context)
@@ -275,6 +276,7 @@ def render_pattern_pages(env):
 
 def render_info_pages(env):
     for route, template in {
+        "/about": "about.html",
         "/contact": "contact.html",
         "/privacy": "privacy.html",
         "/terms": "terms.html",
@@ -509,6 +511,7 @@ def write_sitemap_xml():
         {"loc": f"{SITE_URL}/2015", "priority": "0.8", "changefreq": "weekly"},
         {"loc": f"{SITE_URL}/2012", "priority": "0.8", "changefreq": "weekly"},
         {"loc": f"{SITE_URL}/sitemap", "priority": "0.6", "changefreq": "weekly"},
+        {"loc": f"{SITE_URL}/about", "priority": "0.6", "changefreq": "monthly"},
         {"loc": f"{SITE_URL}/contact", "priority": "0.7", "changefreq": "monthly"},
         {"loc": f"{SITE_URL}/privacy", "priority": "0.5", "changefreq": "monthly"},
         {"loc": f"{SITE_URL}/terms", "priority": "0.5", "changefreq": "monthly"},
@@ -573,8 +576,6 @@ def write_redirects():
     lines = [
         "/api/question-papers/list /static/search.1.json 301",
         "/static/asset-manifest.json /static/asset-manifest.json 200",
-        f"/contact {DB_WORKER_BASE_URL}/contact 307",
-        f"/api/contact {DB_WORKER_BASE_URL}/api/contact 307",
         f"/notify-download {DB_WORKER_BASE_URL}/notify-download 307",
         f"/api/notify-download {DB_WORKER_BASE_URL}/api/notify-download 307",
     ]
