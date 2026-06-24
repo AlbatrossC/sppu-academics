@@ -71,6 +71,7 @@ window.paperDownloadContext = {
     branchName: viewerPageData.branchName || '',
     patternYear: viewerPageData.patternYear || '',
     semester: viewerPageData.semester || '',
+    analyticsEndpoint: viewerPageData.analyticsEndpoint || '/api/notify-download',
     papers: questionModalDataFromServer.papers || [],
     clientIdPromise: createClientIdPromise()
 };
@@ -245,6 +246,7 @@ var DOM = {
     downloadModalOverlay: document.getElementById('download-modal-overlay'),
     downloadModalClose: document.getElementById('download-modal-close'),
     downloadSubjectName: document.getElementById('download-subject-name'),
+    downloadActionButtons: document.querySelectorAll('button[data-download]'),
     questionsBtn: document.getElementById('questions-btn'),
     questionsModal: document.getElementById('questions-modal'),
     questionsModalOverlay: document.getElementById('questions-modal-overlay'),
@@ -788,6 +790,9 @@ var WatermarkManager = {
 
 function loadDownloadHelper(button, event) {
     if (window.DownloadPaper) {
+        if (typeof window.DownloadPaper.init === 'function') {
+            window.DownloadPaper.init();
+        }
         window.DownloadPaper.handleClick(event, button);
         return;
     }
@@ -805,6 +810,9 @@ function loadDownloadHelper(button, event) {
     if (existing) {
         existing.addEventListener('load', function () {
             if (window.DownloadPaper) {
+                if (typeof window.DownloadPaper.init === 'function') {
+                    window.DownloadPaper.init();
+                }
                 window.DownloadPaper.handleClick(event, button);
             } else {
                 fail();
@@ -820,6 +828,9 @@ function loadDownloadHelper(button, event) {
     script.dataset.downloadHelper = 'true';
     script.onload = function () {
         if (window.DownloadPaper) {
+            if (typeof window.DownloadPaper.init === 'function') {
+                window.DownloadPaper.init();
+            }
             window.DownloadPaper.handleClick(event, button);
         } else {
             fail();
@@ -1088,6 +1099,14 @@ function setupEventListeners() {
 
     if (DOM.downloadBtn) {
         DOM.downloadBtn.addEventListener('click', openDownloadModal);
+    }
+
+    if (DOM.downloadActionButtons && DOM.downloadActionButtons.length) {
+        DOM.downloadActionButtons.forEach(function (button) {
+            button.addEventListener('click', function (event) {
+                loadDownloadHelper(button, event);
+            });
+        });
     }
 
     if (DOM.questionsBtn) {

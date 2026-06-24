@@ -34,6 +34,8 @@ python build.py
 
 If `SPPUPYQS_SITE_URL` is not set, the build uses `https://sppupyqs.vercel.app`.
 
+To override the contact/download backend target used in generated `_redirects`, set `SPPUPYQS_DB_WORKER_URL` before the build. If not set, the build uses `https://sppu-pyqs-db.albatrossc.workers.dev`.
+
 ## Local preview
 
 ```bash

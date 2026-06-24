@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "sppu-pyqs-db"
-database_id = "replace-with-d1-database-id"
+database_id = "0408fd80-6bef-4fbc-8910-472556114c08"
 
 # DISCORD_WEBHOOK_URL is set with:
 # wrangler secret put DISCORD_WEBHOOK_URL

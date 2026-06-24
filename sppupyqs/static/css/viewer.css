@@ -1027,6 +1027,9 @@ button.download-btn:hover:not(:disabled):not(.disabled):not(.downloading) {
     white-space: nowrap;
     box-shadow: 0 1px 4px rgba(40, 167, 69, 0.3);
     height: auto;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
 }
 
 .download-zip-btn:hover:not(:disabled):not(.disabled):not(.downloading) {

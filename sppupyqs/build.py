@@ -35,6 +35,7 @@ STATIC_DIR = ROOT / "static"
 TEMPLATE_DIR = ROOT / "templates"
 DIST_DIR = ROOT / "dist"
 PYQS_METADATA_DIR = ROOT / "pyqs-metadata"
+DB_WORKER_BASE_URL = os.getenv("SPPUPYQS_DB_WORKER_URL", "https://sppu-pyqs-db.albatrossc.workers.dev").rstrip("/")
 
 ASSETS = [
     "css/viewer.css",
@@ -255,6 +256,7 @@ def render_template(env, template_name, **context):
         "site_url": SITE_URL,
         "codes_site_url": CODES_SITE_URL,
         "site_name": "SPPU PYQs",
+        "analytics_endpoint": f"{DB_WORKER_BASE_URL}/api/notify-download",
     }
     base_context.update(context)
     return env.get_template(template_name).render(**base_context)
@@ -566,6 +568,10 @@ def write_redirects():
     lines = [
         "/api/question-papers/list /static/search.1.json 301",
         "/static/asset-manifest.json /static/asset-manifest.json 200",
+        f"/contact {DB_WORKER_BASE_URL}/contact 307",
+        f"/api/contact {DB_WORKER_BASE_URL}/api/contact 307",
+        f"/notify-download {DB_WORKER_BASE_URL}/notify-download 307",
+        f"/api/notify-download {DB_WORKER_BASE_URL}/api/notify-download 307",
     ]
     data = load_question_papers()
     seen = set()
