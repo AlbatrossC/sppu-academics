@@ -8,7 +8,7 @@ Static Cloudflare Pages version of SPPU PYQs.
 
 ```bash
 cd sppupyqs
-python -m pip install -r reqs.txt
+python -m pip install -r requirements.txt
 python build.py
 ```
 
