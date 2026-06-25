@@ -38,6 +38,12 @@ function cleanString(value: unknown, maxLength: number): string {
   return String(value || "").trim().slice(0, maxLength);
 }
 
+function discordFieldValue(value: string | undefined, maxLength = 1024): string {
+  const cleaned = String(value || "").trim();
+  if (!cleaned) return "Not provided";
+  return cleaned.length > maxLength ? `${cleaned.slice(0, maxLength - 1)}…` : cleaned;
+}
+
 async function readPayload(request: Request): Promise<Record<string, unknown> | null> {
   const contentType = request.headers.get("Content-Type") || "";
 
@@ -77,12 +83,20 @@ async function handleContact(request: Request, env: Env, ctx: ExecutionContext):
     .bind(name, email, message, requestContext.ipAddress, requestContext.userAgent, requestContext.sourceUrl)
     .run();
 
-  ctx.waitUntil(sendDiscordNotification(env, "contact", {
-    name,
-    email,
-    message,
-    ...requestContext,
-  }));
+  ctx.waitUntil(
+    sendDiscordNotification(env, "contact", {
+      name,
+      email,
+      message,
+      ...requestContext,
+    }).catch((error) => {
+      console.error(JSON.stringify({
+        event: "discord_notification_failed",
+        kind: "contact",
+        error: error instanceof Error ? error.message : String(error),
+      }));
+    })
+  );
 
   return json(env, { ok: true, message: "Your message has been sent successfully!" });
 }
@@ -170,29 +184,73 @@ async function sendDiscordNotification(
   kind: "contact",
   payload: Record<string, string>,
 ): Promise<void> {
-  if (!env.DISCORD_WEBHOOK_URL) return;
-
-  const content = [
-    "**New SPPU PYQs contact message**",
-    `Name: ${payload.name}`,
-    `Email: ${payload.email}`,
-    `Message: ${payload.message}`,
-    `Source: ${payload.sourceUrl}`,
-  ].join("\n");
+  if (!env.DISCORD_WEBHOOK_URL) {
+    console.error(JSON.stringify({
+      event: "discord_notification_skipped",
+      kind,
+      reason: "missing_discord_webhook_url",
+    }));
+    return;
+  }
 
   const response = await fetch(env.DISCORD_WEBHOOK_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ content }),
+    body: JSON.stringify({
+      username: "SPPU PYQs",
+      avatar_url: "https://sppupyqs.pages.dev/images/logo.webp",
+      embeds: [
+        {
+          title: "New Contact Query",
+          description: "A new contact form message was received.",
+          color: 0xef4444,
+          fields: [
+            {
+              name: "From",
+              value: discordFieldValue(payload.name, 256),
+              inline: true,
+            },
+            {
+              name: "Email",
+              value: discordFieldValue(payload.email, 256),
+              inline: true,
+            },
+            {
+              name: "Message",
+              value: discordFieldValue(payload.message),
+              inline: false,
+            },
+            {
+              name: "Source",
+              value: discordFieldValue(payload.sourceUrl, 512),
+              inline: false,
+            },
+          ],
+          footer: {
+            text: "SPPU PYQs contact form",
+          },
+          timestamp: new Date().toISOString(),
+        },
+      ],
+    }),
   });
 
   if (!response.ok) {
+    const responseText = await response.text().catch(() => "");
     console.error(JSON.stringify({
       event: "discord_notification_failed",
       status: response.status,
       kind,
+      response: responseText.slice(0, 500),
     }));
+    return;
   }
+
+  console.log(JSON.stringify({
+    event: "discord_notification_sent",
+    kind,
+    status: response.status,
+  }));
 }
 
 export default {

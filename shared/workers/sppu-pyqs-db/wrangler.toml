@@ -3,6 +3,9 @@ main = "src/index.ts"
 compatibility_date = "2026-06-24"
 compatibility_flags = ["nodejs_compat"]
 
+[vars]
+ALLOWED_ORIGIN = "https://sppupyqs.pages.dev"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "sppu-pyqs-db"

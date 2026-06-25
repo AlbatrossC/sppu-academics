@@ -42,6 +42,24 @@ Discord notifications are optional. To enable them:
 npx wrangler secret put DISCORD_WEBHOOK_URL
 ```
 
+Verify the deployed Worker has the secret:
+
+```bash
+npx wrangler secret list
+```
+
+Contact notification diagnostics are logged with these events:
+
+- `discord_notification_sent`
+- `discord_notification_skipped` when `DISCORD_WEBHOOK_URL` is missing
+- `discord_notification_failed` when Discord rejects the webhook request
+
+Tail production logs while testing the contact form:
+
+```bash
+npx wrangler tail --search discord_notification
+```
+
 ## Manual deploy
 
 ```bash
