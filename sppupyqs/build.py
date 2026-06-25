@@ -39,6 +39,7 @@ DB_WORKER_BASE_URL = os.getenv("SPPUPYQS_DB_WORKER_URL", "https://sppu-pyqs-db.a
 SEARCH_INDEX_PATTERN = re.compile(r"^search\.(\d+)\.json$")
 SEARCH_INDEX_PLACEHOLDER = "__SPPUPYQS_SEARCH_INDEX_URL__"
 URL_PHASE_SIZE = 10
+URL_PHASES_FILE = ROOT / "url-phases.md"
 
 ASSETS = [
     "css/viewer.css",
@@ -236,6 +237,11 @@ def write_file(relative_path, content):
     output_path = DIST_DIR / relative_path
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(content, encoding="utf-8")
+
+
+def write_root_file(path, content):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
 
 
 def create_environment(asset_manifest):
@@ -604,8 +610,10 @@ def write_sitemap_xml():
 def url_phase_sort_key(entry):
     pattern = str(entry.get("pattern_year") or HONORS_KEY)
     pattern_rank = {"2019": 0, "2015": 1, "2012": 2, HONORS_KEY: 3}.get(pattern, 4)
+    branch_rank = branch_priority_rank(entry)
     return (
         pattern_rank,
+        branch_rank,
         str(entry.get("branch_name") or "").casefold(),
         semester_sort_value(entry.get("sem_no")),
         str(entry.get("year_label") or "").casefold(),
@@ -613,21 +621,121 @@ def url_phase_sort_key(entry):
     )
 
 
+def branch_priority_rank(entry):
+    branch_code = str(entry.get("branch_code") or "").strip().casefold()
+    branch_name = str(entry.get("branch_name") or "").strip().casefold()
+
+    if branch_code == "fy" or branch_name == "first year":
+        return 0
+    if branch_code == "aids":
+        return 1
+    if branch_name == "computer engineering":
+        return 2
+    if branch_code in {"ie", "it"} or branch_name == "it engineering":
+        return 3
+    if branch_code in {"ete", "entc"} or branch_name == "e & tc engineering":
+        return 4
+    if branch_code == "aiml":
+        return 5
+    return 100
+
+
+def load_existing_url_phases():
+    if not URL_PHASES_FILE.exists():
+        return []
+
+    checklist = {}
+    phases = []
+    current_phase = None
+
+    for raw_line in URL_PHASES_FILE.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        task_match = re.match(r"^- \[([ xX])\] Phase (\d+)$", line)
+        if task_match:
+            checklist[int(task_match.group(2))] = task_match.group(1).lower() == "x"
+            continue
+
+        phase_match = re.match(r"^## Phase (\d+)$", line)
+        if phase_match:
+            phase_number = int(phase_match.group(1))
+            current_phase = {
+                "number": phase_number,
+                "checked": checklist.get(phase_number, False),
+                "urls": [],
+            }
+            phases.append(current_phase)
+            continue
+
+        if current_phase:
+            status_match = re.match(r"^Status:\s*(DONE|TODO)$", line, flags=re.IGNORECASE)
+            if status_match:
+                current_phase["checked"] = status_match.group(1).upper() == "DONE"
+                continue
+
+        if current_phase and line.startswith("http"):
+            current_phase["urls"].append(line)
+
+    return phases
+
+
+def build_url_phase_groups(urls):
+    existing_phases = load_existing_url_phases()
+    if not existing_phases:
+        groups = []
+        for start in range(0, len(urls), URL_PHASE_SIZE):
+            groups.append({
+                "checked": False,
+                "urls": urls[start:start + URL_PHASE_SIZE],
+            })
+        return groups
+
+    remaining_urls = set(urls)
+    seen_urls = set()
+    groups = []
+
+    for phase in existing_phases:
+        kept_urls = []
+        for url in phase["urls"]:
+            if url in remaining_urls and url not in seen_urls:
+                kept_urls.append(url)
+                seen_urls.add(url)
+        if kept_urls:
+            groups.append({
+                "checked": phase["checked"],
+                "urls": kept_urls,
+            })
+
+    new_urls = [url for url in urls if url not in seen_urls]
+    for start in range(0, len(new_urls), URL_PHASE_SIZE):
+        groups.append({
+            "checked": False,
+            "urls": new_urls[start:start + URL_PHASE_SIZE],
+        })
+
+    return groups
+
+
 def write_url_phases_md():
     entries = sorted(load_question_papers()["question_papers_list"], key=url_phase_sort_key)
     urls = [f"{SITE_URL}{entry['public_url']}" for entry in entries if entry.get("public_url")]
+    phases = build_url_phase_groups(urls)
+    completed_count = sum(1 for phase in phases if phase["checked"])
     lines = [
         "# URL Phases",
         "",
+        f"Completed phases: {completed_count}/{len(phases)}",
+        "",
     ]
 
-    for start in range(0, len(urls), URL_PHASE_SIZE):
-        phase_number = (start // URL_PHASE_SIZE) + 1
+    for index, phase in enumerate(phases, start=1):
+        phase_number = index
         lines.append(f"## Phase {phase_number}")
-        lines.extend(urls[start:start + URL_PHASE_SIZE])
+        lines.append(f"Status: {'DONE' if phase['checked'] else 'TODO'}")
+        lines.append("")
+        lines.extend(phase["urls"])
         lines.append("")
 
-    write_file("url-phases.md", "\n".join(lines).rstrip() + "\n")
+    write_root_file(URL_PHASES_FILE, "\n".join(lines).rstrip() + "\n")
 
 
 def write_headers():

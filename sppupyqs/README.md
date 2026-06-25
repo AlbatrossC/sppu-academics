@@ -78,7 +78,7 @@ Set up D1 and secrets from that Worker README. No Pages Functions are required.
 - hashed/minified CSS and JS in `dist/static/dist/`
 - `dist/static/asset-manifest.json`
 - current versioned search index such as `dist/static/search.1.json`
-- `dist/url-phases.md`
+- `url-phases.md` in the `sppupyqs/` repo folder
 - `dist/sitemap.xml`
 - `dist/_headers`
 - `dist/_redirects`
