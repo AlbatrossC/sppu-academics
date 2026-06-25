@@ -145,7 +145,7 @@ Every subject has a JSON file in `questions/`. Here is the structure:
     "description": "SEO meta description for the subject page.",
     "keywords": ["TCP", "UDP", "Subnetting", "..."],
     "url": "https://sppucodes.vercel.app/cnl",
-    "question_paper_url": "https://sppupyqs.vercel.app/computer-networks-aids"
+    "question_paper_url": "https://sppupyqs.pages.dev/computer-networks-aids"
   },
   "questions": [
     {
@@ -278,7 +278,7 @@ DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
 
 # Optional overrides
 SPPUCODES_SITE_URL=https://sppucodes.vercel.app
-SPPUPYQS_SITE_URL=https://sppupyqs.vercel.app
+SPPUPYQS_SITE_URL=https://sppupyqs.pages.dev
 SECRET_KEY=your_secret_key
 
 # Set to "true" to show the maintenance page for all requests

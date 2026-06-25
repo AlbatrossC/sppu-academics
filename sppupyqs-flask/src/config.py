@@ -6,7 +6,7 @@ load_dotenv()
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SITE_URL = os.getenv(
     "SPPUPYQS_SITE_URL",
-    "https://sppupyqs.vercel.app",
+    "https://sppupyqs.pages.dev",
 ).strip().rstrip("/")
 CODES_SITE_URL = os.getenv("SPPUCODES_SITE_URL", "https://sppucodes.vercel.app").strip().rstrip("/")
 MANIFEST_DIR = os.path.join(BASE_DIR, "manifest")
@@ -44,3 +44,4 @@ PDF_PROXY_ALLOWED_HOSTS = {
     ).split(",")
     if host.strip()
 }
+

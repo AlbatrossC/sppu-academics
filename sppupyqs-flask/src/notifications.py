@@ -39,7 +39,7 @@ def send_discord_notification(notification_type, data):
     }
     headers = {
         "Content-Type": "application/json",
-        "User-Agent": "SPPU-PYQs-Bot/1.0 (Vercel; +https://sppupyqs.vercel.app)"
+        "User-Agent": "SPPU-PYQs-Bot/1.0 (Vercel; +https://sppupyqs.pages.dev)"
     }
 
     try:
@@ -79,3 +79,4 @@ def _build_discord_embed(notification_type, data):
         }
 
     return None
+

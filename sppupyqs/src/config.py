@@ -6,7 +6,7 @@ from .env import env_bool, env_choice, env_text, load_env_file
 BASE_DIR = Path(__file__).resolve().parents[1]
 load_env_file()
 
-SITE_URL = env_text(("SPPUPYQS_SITE_URL",), "https://sppupyqs.vercel.app").rstrip("/")
+SITE_URL = env_text(("SPPUPYQS_SITE_URL",), "https://sppupyqs.pages.dev").rstrip("/")
 CODES_SITE_URL = env_text(("SPPUCODES_SITE_URL",), "https://sppucodes.vercel.app").rstrip("/")
 MANIFEST_DIR = str(BASE_DIR / "manifest")
 

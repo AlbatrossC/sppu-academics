@@ -133,7 +133,7 @@
             return Promise.resolve(engine);
         }
         if (!searchPromise) {
-            searchPromise = fetch("/static/search.1.json")
+            searchPromise = fetch("__SPPUPYQS_SEARCH_INDEX_URL__")
                 .then(function (response) {
                     if (!response.ok) {
                         throw new Error("Search index failed to load");

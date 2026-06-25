@@ -36,6 +36,9 @@ TEMPLATE_DIR = ROOT / "templates"
 DIST_DIR = ROOT / "dist"
 PYQS_METADATA_DIR = ROOT / "pyqs-metadata"
 DB_WORKER_BASE_URL = os.getenv("SPPUPYQS_DB_WORKER_URL", "https://sppu-pyqs-db.albatrossc.workers.dev").rstrip("/")
+SEARCH_INDEX_PATTERN = re.compile(r"^search\.(\d+)\.json$")
+SEARCH_INDEX_PLACEHOLDER = "__SPPUPYQS_SEARCH_INDEX_URL__"
+URL_PHASE_SIZE = 10
 
 ASSETS = [
     "css/viewer.css",
@@ -75,7 +78,7 @@ def minify_js(source):
     return "\n".join(lines).strip()
 
 
-def build_assets():
+def build_assets(search_index_url="/static/search.1.json"):
     manifest = {}
     for relative_name in ASSETS:
         source_path = STATIC_DIR / relative_name
@@ -84,6 +87,7 @@ def build_assets():
         if suffix == ".css":
             output = minify_css(source)
         elif suffix == ".js":
+            source = source.replace(SEARCH_INDEX_PLACEHOLDER, search_index_url)
             output = minify_js(source)
         else:
             output = source
@@ -498,9 +502,72 @@ def semester_sort_value(value):
         return 999
 
 
+def search_index_versions():
+    versions = []
+    if not STATIC_DIR.exists():
+        return versions
+    for path in STATIC_DIR.iterdir():
+        match = SEARCH_INDEX_PATTERN.match(path.name)
+        if match:
+            versions.append((int(match.group(1)), path))
+    return sorted(versions)
+
+
+def latest_matching_search_version(content):
+    versions = search_index_versions()
+    for version, path in reversed(versions):
+        try:
+            if path.read_text(encoding="utf-8") == content:
+                return version
+        except OSError:
+            continue
+    return (versions[-1][0] + 1) if versions else 1
+
+
+def write_static_search_artifacts(filename, content):
+    digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
+    search_index = {
+        "version": int(SEARCH_INDEX_PATTERN.match(filename).group(1)),
+        "filename": filename,
+        "url": f"/static/{filename}",
+        "sha256": digest,
+    }
+
+    STATIC_DIR.mkdir(parents=True, exist_ok=True)
+    for version, path in search_index_versions():
+        if path.name != filename:
+            path.unlink()
+
+    dist_static = DIST_DIR / "static"
+    if dist_static.exists():
+        for path in dist_static.iterdir():
+            if SEARCH_INDEX_PATTERN.match(path.name) and path.name != filename:
+                path.unlink()
+        stale_manifest = dist_static / "search-manifest.json"
+        if stale_manifest.exists():
+            stale_manifest.unlink()
+        stale_latest = dist_static / "search.json"
+        if stale_latest.exists():
+            stale_latest.unlink()
+
+    (STATIC_DIR / filename).write_text(content, encoding="utf-8")
+    stale_manifest = STATIC_DIR / "search-manifest.json"
+    if stale_manifest.exists():
+        stale_manifest.unlink()
+    stale_latest = STATIC_DIR / "search.json"
+    if stale_latest.exists():
+        stale_latest.unlink()
+
+    write_file(f"static/{filename}", content)
+    return search_index
+
+
 def write_search_index():
     entries = load_question_papers()["question_papers_list"]
-    write_file("static/search.1.json", json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n")
+    content = json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + "\n"
+    version = latest_matching_search_version(content)
+    filename = f"search.{version}.json"
+    return write_static_search_artifacts(filename, content)
 
 
 def write_sitemap_xml():
@@ -534,6 +601,35 @@ def write_sitemap_xml():
     write_file("sitemap.xml", "\n".join(lines) + "\n")
 
 
+def url_phase_sort_key(entry):
+    pattern = str(entry.get("pattern_year") or HONORS_KEY)
+    pattern_rank = {"2019": 0, "2015": 1, "2012": 2, HONORS_KEY: 3}.get(pattern, 4)
+    return (
+        pattern_rank,
+        str(entry.get("branch_name") or "").casefold(),
+        semester_sort_value(entry.get("sem_no")),
+        str(entry.get("year_label") or "").casefold(),
+        str(entry.get("subject_name") or "").casefold(),
+    )
+
+
+def write_url_phases_md():
+    entries = sorted(load_question_papers()["question_papers_list"], key=url_phase_sort_key)
+    urls = [f"{SITE_URL}{entry['public_url']}" for entry in entries if entry.get("public_url")]
+    lines = [
+        "# URL Phases",
+        "",
+    ]
+
+    for start in range(0, len(urls), URL_PHASE_SIZE):
+        phase_number = (start // URL_PHASE_SIZE) + 1
+        lines.append(f"## Phase {phase_number}")
+        lines.extend(urls[start:start + URL_PHASE_SIZE])
+        lines.append("")
+
+    write_file("url-phases.md", "\n".join(lines).rstrip() + "\n")
+
+
 def write_headers():
     content = """/*
   X-Content-Type-Options: nosniff
@@ -559,7 +655,8 @@ def write_headers():
 /static/pdfjs/*
   Cache-Control: public, max-age=3600
 
-/static/search.1.json
+/static/search.*.json
+  Content-Type: application/json; charset=utf-8
   Cache-Control: public, max-age=3600
 
 /manifest/*
@@ -572,9 +669,9 @@ def write_headers():
     write_file("_headers", content)
 
 
-def write_redirects():
+def write_redirects(search_index_url="/static/search.1.json"):
     lines = [
-        "/api/question-papers/list /static/search.1.json 301",
+        f"/api/question-papers/list {search_index_url} 302",
         "/static/asset-manifest.json /static/asset-manifest.json 200",
         f"/notify-download {DB_WORKER_BASE_URL}/notify-download 307",
         f"/api/notify-download {DB_WORKER_BASE_URL}/api/notify-download 307",
@@ -603,8 +700,9 @@ def main():
     else:
         DIST_DIR.mkdir(parents=True, exist_ok=True)
 
+    search_index = write_search_index()
     copy_static_files()
-    asset_manifest = build_assets()
+    asset_manifest = build_assets(search_index["url"])
 
     env = create_environment(asset_manifest)
     if MAINTENANCE_MODE:
@@ -613,14 +711,14 @@ def main():
         print(f"Built maintenance page into {DIST_DIR}")
         return
 
-    write_search_index()
     render_pattern_pages(env)
     render_viewer_pages(env)
     render_info_pages(env)
     render_error_pages(env)
     write_sitemap_xml()
+    write_url_phases_md()
     write_headers()
-    write_redirects()
+    write_redirects(search_index["url"])
 
     page_count = len(list(DIST_DIR.rglob("index.html")))
     print(f"Built {page_count} HTML pages into {DIST_DIR}")

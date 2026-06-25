@@ -9,7 +9,7 @@
 <br/>
 
 [![sppucodes](https://img.shields.io/badge/sppucodes-●%20live-2ea043?style=flat-square&logo=vercel&logoColor=white)](https://sppucodes.vercel.app)&nbsp;
-[![sppupyqs](https://img.shields.io/badge/sppupyqs-●%20live-0ea5e9?style=flat-square&logo=vercel&logoColor=white)](https://sppupyqs.vercel.app)&nbsp;
+[![sppupyqs](https://img.shields.io/badge/sppupyqs-●%20live-0ea5e9?style=flat-square&logo=vercel&logoColor=white)](https://sppupyqs.pages.dev)&nbsp;
 [![Python](https://img.shields.io/badge/Python-3.x-f59e0b?style=flat-square&logo=python&logoColor=white)](https://python.org)&nbsp;
 [![Flask](https://img.shields.io/badge/Flask-framework-gray?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-8b5cf6?style=flat-square)](./LICENSE)
@@ -19,7 +19,7 @@
 | | Site | What it does |
 |:---:|:---|:---|
 | 🖥️ | [**sppucodes.vercel.app**](https://sppucodes.vercel.app) | Lab programs & code solutions for all SPPU subjects |
-| 📄 | [**sppupyqs.vercel.app**](https://sppupyqs.vercel.app) | Previous year question papers with exam-prep tools |
+| 📄 | [**sppupyqs.pages.dev**](https://sppupyqs.pages.dev) | Previous year question papers with exam-prep tools |
 | ⚙️ | `shared/` | Worker scripts & utilities shared across both sites |
 
 <br/>
@@ -178,7 +178,7 @@ Then open **[http://localhost:5000](http://localhost:5000)** in your browser.
 
 ## 📄 sppupyqs — Previous Year Question Papers
 
-> 🌐 **[sppupyqs.vercel.app](https://sppupyqs.vercel.app)** &nbsp;|&nbsp; 📖 [Developer breakdown →](./sppupyqs/README.md)
+> 🌐 **[sppupyqs.pages.dev](https://sppupyqs.pages.dev)** &nbsp;|&nbsp; 📖 [Developer breakdown →](./sppupyqs/README.md)
 
 `sppupyqs` is a dedicated portal for SPPU previous year question papers. Finding old papers shouldn't be a scavenger hunt — this site organizes everything cleanly, lets you view papers without downloading, and removes the watermarks that make papers hard to read. Whether you're doing a full revision or just checking which questions repeat, it's built to get out of your way and let you focus.
 
@@ -333,7 +333,7 @@ Made with ❤️ for SPPU students
 <br/>
 
 [![Visit sppucodes](https://img.shields.io/badge/Visit-sppucodes-2ea043?style=for-the-badge&logo=vercel&logoColor=white)](https://sppucodes.vercel.app)&nbsp;
-[![Visit sppupyqs](https://img.shields.io/badge/Visit-sppupyqs-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://sppupyqs.vercel.app)
+[![Visit sppupyqs](https://img.shields.io/badge/Visit-sppupyqs-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://sppupyqs.pages.dev)
 
 <br/>
 

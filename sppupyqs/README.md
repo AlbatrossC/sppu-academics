@@ -28,11 +28,11 @@ Defaults are `PDF_SOURCE=r2`, `EXAM_TYPE=endsem`, `PATTERN_YEAR=2019`, and `MAIN
 To change the generated base URL for canonical links, sitemap URLs, Open Graph URLs, and `robots.txt`, set `SPPUPYQS_SITE_URL` before running the build:
 
 ```powershell
-$env:SPPUPYQS_SITE_URL="https://pages.sppupyqs.pages.dev"
+$env:SPPUPYQS_SITE_URL="https://sppupyqs.pages.dev"
 python build.py
 ```
 
-If `SPPUPYQS_SITE_URL` is not set, the build uses `https://sppupyqs.vercel.app`.
+If `SPPUPYQS_SITE_URL` is not set, the build uses `https://sppupyqs.pages.dev`.
 
 To override the contact/download backend target used in generated `_redirects`, set `SPPUPYQS_DB_WORKER_URL` before the build. If not set, the build uses `https://sppu-pyqs-db.albatrossc.workers.dev`.
 
@@ -55,7 +55,7 @@ Manual deploy command:
 
 ```powershell
 cd sppupyqs
-$env:SPPUPYQS_SITE_URL="https://pages.sppupyqs.pages.dev"
+$env:SPPUPYQS_SITE_URL="https://sppupyqs.pages.dev"
 python build.py
 npx wrangler pages deploy dist --project-name=sppupyqs --branch=pages
 ```
@@ -77,7 +77,8 @@ Set up D1 and secrets from that Worker README. No Pages Functions are required.
 - static HTML routes
 - hashed/minified CSS and JS in `dist/static/dist/`
 - `dist/static/asset-manifest.json`
-- `dist/static/search.1.json`
+- current versioned search index such as `dist/static/search.1.json`
+- `dist/url-phases.md`
 - `dist/sitemap.xml`
 - `dist/_headers`
 - `dist/_redirects`
