@@ -3,7 +3,7 @@
   "framework": null,
   "installCommand": "",
   "buildCommand": null,
-  "outputDirectory": "vercel-redirect",
+  "outputDirectory": "sppupyqs/vercel-redirect",
   "redirects": [
     {
       "source": "/:path*",
