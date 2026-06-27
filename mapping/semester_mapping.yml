@@ -190,3 +190,60 @@ standard:
         operating_systems_ie: 5
         theory_of_computation_ie: 5
         web_application_development_ie: 6
+  mechanical-engineering:
+    be:
+      2012_pattern:
+        advanced_manufacturing_processes_ele_II_me: 7
+        automobile_engineering_elective_III_me: 8
+        cad_cam_and_automation_me: 7
+        computational_fluid_dynamics_me: 8
+        design_of_pumps_blowers_and_compressors_ele_IV_me: 8
+        dynamics_of_machinery_me: 7
+        energy_audit_and_management_elective_I_me: 7
+        finite_element_analysis_elective_IV_me: 8
+        gas_turbine_and_propulsion_ele_II_me: 7
+        industrial_engineering_elective_III_me: 8
+        machanical_system_design_me: 8
+        machine_tool_design_elective_I_me: 7
+        operation_research_me: 7
+        power_plant_engineering_me: 8
+        product_design_and_development_me: 7
+        product_life_cycle_management_elective_III_me: 8
+        refrigeration_and_air_conditioning_equipment_design_ele_III_me: 8
+        refrigeration_and_airconditioning_me: 7
+        reliability_engineering_me: 7
+        robotics_ele_III_me: 8
+        tribology_elective_I_me: 7
+      2015_pattern:
+        advanced_manufacturing_processes_me: 8
+        automobile_engg_ele_II_me: 7
+        cad_cam_and_automation_me: 7
+        dynamics_of_machinery_me: 7
+        energy_audit_mgt_me: 7
+        energy_engineering_me: 8
+        finite_element_analysis_ele_I_me: 7
+        heating_ventilation_and_air_conditioning_ele_I_me: 7
+        hydraulics_and_pneumatics_me: 7
+        industrial_engg_ele_III_me: 8
+        mechanical_system_design_me: 8
+        operation_research_me: 7
+        product_design_and_development_me: 8
+        refrigeration_and_air_conditioning_me: 7
+        solar_and_wind_energy_ele_IV_me: 8
+      2019_pattern:
+        automobile_design_ele_III_me: 7
+        computer_integrated_manufacturing_me: 8
+        dynamics_of_machinery_me: 7
+        electrical_and_hybrid_vehicle_ele_VI_me: 8
+        energy_audit_and_management_ele_V_me: 8
+        energy_engineering_me: 8
+        heating_ventilation_air_condi_and_refrigeration_me: 7
+        industrial_engineering_ele_III_me: 7
+        modelling_and_simulation_of_ehv_me: 7
+        modern_machining_processes_ele_III_me: 7
+        operation_research_ele_IV_me: 7
+        process_equipment_design_ele_VI_me: 8
+        product_design_and_development_ele_IV_me: 7
+        quality_and_reliability_engg_V_me: 8
+        renewable_energy_technologies_ele_VI_me: 8
+        turbomachinery_me: 8

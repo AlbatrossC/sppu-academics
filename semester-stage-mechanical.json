@@ -1,0 +1,747 @@
+{
+  "reviews": [
+    {
+      "path": "papers/mechanical-engineering/be/2019_pattern",
+      "entries": [
+        {
+          "subject_key": "automobile_design_ele_III_me",
+          "subject_name": "Automobile Design - Ele III",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Automobile Design is an Elective III subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "computer_integrated_manufacturing_me",
+          "subject_name": "Computer Integrated Manufacturing",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Computer Integrated Manufacturing is grouped with Semester VIII BE Mechanical Engineering 2019 Pattern subjects; local papers use Feb/Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "dynamics_of_machinery_me",
+          "subject_name": "Dynamics Of Machinery",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Dynamics of Machinery is grouped with Semester VII BE Mechanical Engineering 2019 Pattern subjects; local papers use Aug/Sep/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "electrical_and_hybrid_vehicle_ele_VI_me",
+          "subject_name": "Electrical & Hybrid Vehicle - Ele VI",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Electrical and Hybrid Vehicle is an Elective VI subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "energy_audit_and_management_ele_V_me",
+          "subject_name": "Energy Audit & Management - Ele V",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Energy Audit and Management is an Elective V subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "energy_engineering_me",
+          "subject_name": "Energy Engineering",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Energy Engineering is grouped with Semester VIII BE Mechanical Engineering 2019 Pattern subjects; local papers use Feb/Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "heating_ventilation_air_condi_and_refrigeration_me",
+          "subject_name": "Heating Ventilation Air Condi. & Refrigeration",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Heating Ventilation Air Conditioning and Refrigeration is grouped with Semester VII BE Mechanical Engineering 2019 Pattern subjects; local papers use Aug/Sep/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "industrial_engineering_ele_III_me",
+          "subject_name": "Industrial Engineering - Ele III",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Industrial Engineering is an Elective III subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "modelling_and_simulation_of_ehv_me",
+          "subject_name": "Modelling & Simulation of EHV",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Modelling and Simulation of EHV is grouped with Semester VII BE Mechanical Engineering 2019 Pattern subjects; local papers use Aug/Sep/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "modern_machining_processes_ele_III_me",
+          "subject_name": "Modern Machining Processes - Ele III",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Modern Machining Processes is an Elective III subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "operation_research_ele_IV_me",
+          "subject_name": "Operation Research - Ele IV",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Operation Research is an Elective IV subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "process_equipment_design_ele_VI_me",
+          "subject_name": "Process Equipment Design - Ele VI",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Process Equipment Design is an Elective VI subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "product_design_and_development_ele_IV_me",
+          "subject_name": "Product Design & Development - Ele IV",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Product Design and Development is an Elective IV subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "quality_and_reliability_engg_V_me",
+          "subject_name": "Quality & Reliability Engg - V",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Quality and Reliability Engineering is an Elective V subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "renewable_energy_technologies_ele_VI_me",
+          "subject_name": "Renewable Energy Technologies - Ele VI",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Renewable Energy Technologies is an Elective VI subject in the BE Mechanical Engineering 2019 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "turbomachinery_me",
+          "subject_name": "Turbomachinery",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Turbomachinery is grouped with Semester VIII BE Mechanical Engineering 2019 Pattern subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2020 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2020/Forms/AllItems.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "papers/mechanical-engineering/be/2015_pattern",
+      "entries": [
+        {
+          "subject_key": "advanced_manufacturing_processes_me",
+          "subject_name": "Advanced Manufacturing Processes",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Advanced Manufacturing Processes is grouped with Semester VIII BE Mechanical Engineering 2015 Pattern subjects; local papers use Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "automobile_engg_ele_II_me",
+          "subject_name": "Automobile Engg_Ele-II",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Automobile Engineering is an Elective II subject in the BE Mechanical Engineering 2015 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "cad_cam_and_automation_me",
+          "subject_name": "CAD CAM & Automation",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "CAD CAM and Automation is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "dynamics_of_machinery_me",
+          "subject_name": "Dynamics Of Machinery",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Dynamics of Machinery is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "energy_audit_mgt_me",
+          "subject_name": "Energy Audit Mgt",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Energy Audit and Management is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "energy_engineering_me",
+          "subject_name": "Energy Engineering",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Energy Engineering is grouped with Semester VIII BE Mechanical Engineering 2015 Pattern subjects; local papers use Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "finite_element_analysis_ele_I_me",
+          "subject_name": "Finite Element Analysis_Ele-I",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Finite Element Analysis is an Elective I subject in the BE Mechanical Engineering 2015 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "heating_ventilation_and_air_conditioning_ele_I_me",
+          "subject_name": "Heating Ventilation & Air-Conditioning_Ele-I",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Heating Ventilation and Air Conditioning is an Elective I subject in the BE Mechanical Engineering 2015 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "hydraulics_and_pneumatics_me",
+          "subject_name": "Hydraulics & Pneumatics",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Hydraulics and Pneumatics is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "industrial_engg_ele_III_me",
+          "subject_name": "Industrial Engg_Ele_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Industrial Engineering is an Elective III subject in the BE Mechanical Engineering 2015 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "mechanical_system_design_me",
+          "subject_name": "Mechanical System Design",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Mechanical System Design is grouped with Semester VIII BE Mechanical Engineering 2015 Pattern subjects; local papers use Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "operation_research_me",
+          "subject_name": "Operation Research",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Operation Research is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "product_design_and_development_me",
+          "subject_name": "Product Design & Development",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Product Design and Development is grouped with Semester VIII BE Mechanical Engineering 2015 Pattern subjects; local papers use Mar in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "refrigeration_and_air_conditioning_me",
+          "subject_name": "Refrigeration & Air Conditioning",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Refrigeration and Air Conditioning is grouped with Semester VII BE Mechanical Engineering 2015 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "solar_and_wind_energy_ele_IV_me",
+          "subject_name": "Solar & Wind Energy_Ele_IV",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Solar and Wind Energy is an Elective IV subject in the BE Mechanical Engineering 2015 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2015 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2015/Forms/AllItems.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "papers/mechanical-engineering/be/2012_pattern",
+      "entries": [
+        {
+          "subject_key": "advanced_manufacturing_processes_ele_II_me",
+          "subject_name": "Advanced Manufacturing Processes_Ele_II",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Advanced Manufacturing Processes is an Elective II subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "automobile_engineering_elective_III_me",
+          "subject_name": "Automobile Engineering_Elective_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Automobile Engineering is an Elective III subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "cad_cam_and_automation_me",
+          "subject_name": "CAD CAM & Automation",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "CAD CAM and Automation is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "computational_fluid_dynamics_me",
+          "subject_name": "Computational Fluid Dynamics",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Computational Fluid Dynamics is grouped with Semester VIII BE Mechanical Engineering 2012 Pattern subjects; local papers use Mar/Apr in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "design_of_pumps_blowers_and_compressors_ele_IV_me",
+          "subject_name": "Design of Pumps, Blowers & Compressors_Ele_IV",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Design of Pumps, Blowers and Compressors is an Elective IV subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "dynamics_of_machinery_me",
+          "subject_name": "Dynamics Of Machinery",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Dynamics of Machinery is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "energy_audit_and_management_elective_I_me",
+          "subject_name": "Energy Audit And Management_Elective I",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Energy Audit and Management is an Elective I subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "finite_element_analysis_elective_IV_me",
+          "subject_name": "Finite Element Analysis_Elective_IV",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Finite Element Analysis is an Elective IV subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "gas_turbine_and_propulsion_ele_II_me",
+          "subject_name": "Gas Turbine & Propulsion_Ele_II",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Gas Turbine and Propulsion is an Elective II subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "industrial_engineering_elective_III_me",
+          "subject_name": "Industrial Engineering_Elective_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Industrial Engineering is an Elective III subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "machanical_system_design_me",
+          "subject_name": "Machanical System Design",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Mechanical System Design is grouped with Semester VIII BE Mechanical Engineering 2012 Pattern subjects; local papers use Feb/Mar/Apr in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "machine_tool_design_elective_I_me",
+          "subject_name": "Machine Tool Design_Elective - I",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Machine Tool Design is an Elective I subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "operation_research_me",
+          "subject_name": "Operation Research",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Operation Research is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "power_plant_engineering_me",
+          "subject_name": "Power Plant Engineering",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Power Plant Engineering is grouped with Semester VIII BE Mechanical Engineering 2012 Pattern subjects; local papers use Feb/Mar/Apr in-semester sessions and May/June end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "product_design_and_development_me",
+          "subject_name": "Product Design & Development",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Product Design and Development is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "product_life_cycle_management_elective_III_me",
+          "subject_name": "Product Life Cycle Management_Elective_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Product Life Cycle Management is an Elective III subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "refrigeration_and_air_conditioning_equipment_design_ele_III_me",
+          "subject_name": "Refrigeration & Air Conditioning Equipment design_Ele_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Refrigeration and Air Conditioning Equipment Design is an Elective III subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "refrigeration_and_airconditioning_me",
+          "subject_name": "Refrigeration and Airconditioning",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Refrigeration and Airconditioning is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug/Oct in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "reliability_engineering_me",
+          "subject_name": "Reliability Engineering",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Reliability Engineering is grouped with Semester VII BE Mechanical Engineering 2012 Pattern subjects; local papers use Aug in-semester sessions and Nov/Dec end-semester sessions.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "robotics_ele_III_me",
+          "subject_name": "Robotics_Ele_III",
+          "semester_no": 8,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Robotics is an Elective III subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VIII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        },
+        {
+          "subject_key": "tribology_elective_I_me",
+          "subject_name": "Tribology_Elective I",
+          "semester_no": 7,
+          "status": "mapped",
+          "confidence": "medium",
+          "evidence": "Tribology is an Elective I subject in the BE Mechanical Engineering 2012 Pattern set, grouped with Semester VII subjects in the local paper archive.",
+          "sources": [
+            {
+              "title": "SPPU Syllabus 2012 Circular Index",
+              "url": "http://collegecirculars.unipune.ac.in/sites/documents/Syllabus2012/Forms/AllItems.aspx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

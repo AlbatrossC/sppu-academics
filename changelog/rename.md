@@ -5,13 +5,13 @@ Review the planned moves below, then run `python3 tools/rename_files.py --apply`
 
 Machine-readable state is stored separately in `changelog/rename.json`.
 
-- Generated at: `2026-06-11T13:31:25Z`
+- Generated at: `2026-06-26T19:16:57Z`
 - Scope: `incoming`
 - Pending entries: `0`
-- Planned renames: `14`
+- Planned renames: `382`
 - Needs review: `3`
 - Retry later: `0`
-- Total PDFs: `1`
+- Total PDFs: `369`
 - Already normalized: `1`
 - Previously checkpointed: `0`
 - Reopened for apply: `0`
@@ -29,23 +29,23 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 
 ### Exam Types
 
-- `insem`: `4`
-- `endsem`: `8`
-- `other`: `3`
+- `insem`: `129`
+- `endsem`: `244`
+- `other`: `10`
 - `needs_review`: `3`
 
 ### Marks
 
-- `30`: `4`
-- `50`: `2`
-- `70`: `8`
+- `30`: `129`
+- `50`: `9`
+- `70`: `244`
 
 ### Metadata Sources
 
 - `already_normalized`: `1`
-- `paddleocr`: `2`
+- `paddleocr`: `121`
 - `review`: `3`
-- `text`: `12`
+- `text`: `261`
 
 ### Already Normalized
 
@@ -283,3 +283,5155 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Working target: `incoming/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/endsem_may_2016_ete_neme_2012p.pdf`
 - Expected papers path: `papers/e-and-tc-engineering/be/2012_pattern/nano_electronics_and_mems_ete/endsem_may_2016_ete_neme_2012p.pdf`
 - Reason: marks=70; date_from=filename; marks from PyMuPDF header text | WARNING: no SQLite row matched at apply time.
+
+### 15. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_ampm_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_may_jun_2016_me_ampm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_may_jun_2016_me_ampm_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 16. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_ampm_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_nov_dec_2016_me_ampm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_nov_dec_2016_me_ampm_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 17. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_ampm_eII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/insem_oct_2016_me_ampm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/insem_oct_2016_me_ampm_eII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 18. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/automobile_engineering_elective_III_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/automobile_engineering_elective_III_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_aem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/automobile_engineering_elective_III_me/insem_apr_2017_me_aem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/automobile_engineering_elective_III_me/insem_apr_2017_me_aem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 19. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_ccam_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2015_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2015_me_ccam_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 20. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_ccam_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2017_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2017_me_ccam_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 21. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2016_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2016_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 22. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2017_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2017_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 23. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2015_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2015_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 24. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2016_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2016_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 25. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2017_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2017_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 26. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_ccam_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2018_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2018_me_ccam_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 27. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_ccam_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_oct_2016_me_ccam_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_oct_2016_me_ccam_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 28. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_cfdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/insem_apr_2017_me_cfdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/insem_apr_2017_me_cfdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 29. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_cfdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/endsem_may_jun_2016_me_cfdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/endsem_may_jun_2016_me_cfdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 30. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_dpbcm_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_apr_2017_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_apr_2017_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 31. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/March_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_me_dpbcm_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2018_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2018_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 32. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_dpbcm_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2020_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2020_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 33. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_dpbcm_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2016_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2016_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 34. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_dpbcm_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2018_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2018_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 35. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_dpbcm_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2019_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2019_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 36. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_dpbcm_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_nov_dec_2018_me_dpbcm_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_nov_dec_2018_me_dpbcm_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 37. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_dmm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2015_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2015_me_dmm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 38. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_dmm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2017_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2017_me_dmm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 100% first-page crop
+
+### 39. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_dmm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2018_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2018_me_dmm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 40. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2016_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2016_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 41. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2017_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2017_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 42. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2018_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2018_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 43. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2019_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2019_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 44. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2015_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2015_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 45. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2016_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2016_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 46. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2017_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2017_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 47. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2018_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2018_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 48. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_dmm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2019_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2019_me_dmm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 49. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_dmm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_oct_2016_me_dmm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_oct_2016_me_dmm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 50. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_eamm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2015_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2015_me_eamm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 51. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_eamm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2017_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2017_me_eamm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 52. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_eamm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2016_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2016_me_eamm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 53. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_eamm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2017_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2017_me_eamm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 54. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_eamm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2015_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2015_me_eamm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 55. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_eamm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2016_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2016_me_eamm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 56. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_eamm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2017_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2017_me_eamm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 57. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_eamm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_oct_2016_me_eamm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_oct_2016_me_eamm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 58. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_feam_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_apr_2017_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_apr_2017_me_feam_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 59. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Feb_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_me_feam_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_feb_2016_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_feb_2016_me_feam_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 60. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_me_feam_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2018_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2018_me_feam_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 61. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_feam_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2019_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2019_me_feam_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 62. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_feam_eIV_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2020_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2020_me_feam_eIV_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 63. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2016_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2016_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 64. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2017_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2017_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 65. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2018_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2018_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 66. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2019_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2019_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 67. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2016_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2016_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 68. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2017_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2017_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 69. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2018_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2018_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 70. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_feam_eIV_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2019_me_feam_eIV_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2019_me_feam_eIV_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 71. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_gtpm_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_may_jun_2016_me_gtpm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_may_jun_2016_me_gtpm_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 72. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_gtpm_eII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_nov_dec_2016_me_gtpm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_nov_dec_2016_me_gtpm_eII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 73. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_gtpm_eII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/insem_oct_2016_me_gtpm_eII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/insem_oct_2016_me_gtpm_eII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 74. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_iem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_apr_2017_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_apr_2017_me_iem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 75. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Feb_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_me_iem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_feb_2016_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_feb_2016_me_iem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 76. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_me_iem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2018_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2018_me_iem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 77. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_iem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2019_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2019_me_iem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 78. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_iem_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2020_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2020_me_iem_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 79. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2016_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2016_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 80. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2017_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2017_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 81. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2018_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2018_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 82. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2019_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2019_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 83. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2016_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2016_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 84. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2017_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2017_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 85. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_iem_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2018_me_iem_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2018_me_iem_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 86. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_msdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_apr_2017_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_apr_2017_me_msdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 87. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Feb_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_me_msdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_feb_2016_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_feb_2016_me_msdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 88. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_me_msdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2018_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2018_me_msdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 89. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_msdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2019_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2019_me_msdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 90. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_msdm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2020_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2020_me_msdm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 91. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2016_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2016_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 92. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2017_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2017_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 93. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2018_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2018_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 94. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2019_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2019_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 95. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2016_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2016_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 96. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2017_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2017_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 97. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2018_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2018_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 98. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_msdm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2019_me_msdm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2019_me_msdm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 99. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_mtdm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_may_jun_2016_me_mtdm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_may_jun_2016_me_mtdm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 100. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_mtdm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_nov_dec_2015_me_mtdm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_nov_dec_2015_me_mtdm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 101. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_mtdm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/insem_oct_2016_me_mtdm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/insem_oct_2016_me_mtdm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 102. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_orm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2017_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2017_me_orm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 103. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_orm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2018_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2018_me_orm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 104. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2016_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2016_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 105. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2017_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2017_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 106. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2018_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2018_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 107. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2019_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2019_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 108. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2015_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2015_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 109. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2016_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2016_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 110. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2017_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2017_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 111. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2018_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2018_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 112. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_orm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2019_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2019_me_orm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 113. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_orm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/operation_research_me/insem_oct_2016_me_orm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_oct_2016_me_orm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 114. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_ppem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_apr_2017_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_apr_2017_me_ppem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 115. INSEM - Feb_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Feb_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Feb_2016.pdf`
+- Initial filename: `Feb_2016.pdf`
+- Changed filename: `insem_feb_2016_me_ppem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_feb_2016_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_feb_2016_me_ppem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 116. INSEM - March_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2018.pdf`
+- Initial filename: `March_2018.pdf`
+- Changed filename: `insem_mar_2018_me_ppem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2018_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2018_me_ppem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 117. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_ppem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2019_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2019_me_ppem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 118. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_ppem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2020_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2020_me_ppem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 119. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2016_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2016_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 120. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2017_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2017_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 121. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2018_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2018_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 122. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2019_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2019_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 123. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2016_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2016_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 124. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2017_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2017_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 125. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2018_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2018_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 126. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_ppem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2019_me_ppem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2019_me_ppem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 127. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_pddm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2015_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2015_me_pddm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 128. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_pddm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2017_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2017_me_pddm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 129. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2016_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2016_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 130. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2017_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2017_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 131. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2018_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2018_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 132. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2015_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2015_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 133. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2016_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2016_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 134. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_pddm_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2017_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2017_me_pddm_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 135. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_pddm_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_oct_2016_me_pddm_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_oct_2016_me_pddm_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 136. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/product_life_cycle_management_elective_III_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/product_life_cycle_management_elective_III_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_plcmm_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/product_life_cycle_management_elective_III_me/insem_apr_2017_me_plcmm_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/product_life_cycle_management_elective_III_me/insem_apr_2017_me_plcmm_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 137. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_racedm_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/insem_apr_2017_me_racedm_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/insem_apr_2017_me_racedm_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 138. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_racedm_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/endsem_may_jun_2016_me_racedm_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/endsem_may_jun_2016_me_racedm_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 139. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_ram_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2015_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2015_me_ram_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 140. INSEM - August_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2017.pdf`
+- Initial filename: `August_2017.pdf`
+- Changed filename: `insem_aug_2017_me_ram_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2017_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2017_me_ram_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 141. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_ram_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2018_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2018_me_ram_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 142. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2016_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2016_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 143. ENDSEM - May_Jun_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2017.pdf`
+- Initial filename: `May_Jun_2017.pdf`
+- Changed filename: `endsem_may_jun_2017_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2017`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2017_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2017_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 144. ENDSEM - May_Jun_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2018.pdf`
+- Initial filename: `May_Jun_2018.pdf`
+- Changed filename: `endsem_may_jun_2018_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2018_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2018_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 145. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2019_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2019_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 146. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2015_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2015_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 147. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2016_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2016_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 148. ENDSEM - Nov_Dec_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2017.pdf`
+- Initial filename: `Nov_Dec_2017.pdf`
+- Changed filename: `endsem_nov_dec_2017_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2017_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2017_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 149. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2018_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2018_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 150. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_ram_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2019_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2019_me_ram_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 151. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_ram_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2019_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2019_me_ram_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 152. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_ram_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2016_me_ram_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2016_me_ram_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 153. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_rem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_aug_2015_me_rem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_aug_2015_me_rem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 154. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_rem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_may_jun_2016_me_rem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_may_jun_2016_me_rem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 155. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_rem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2015_me_rem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2015_me_rem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 156. ENDSEM - Nov_Dec_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Nov_Dec_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Nov_Dec_2016.pdf`
+- Initial filename: `Nov_Dec_2016.pdf`
+- Changed filename: `endsem_nov_dec_2016_me_rem_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2016`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2016_me_rem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2016_me_rem_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 157. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_rem_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_oct_2016_me_rem_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_oct_2016_me_rem_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 158. INSEM - April_2017.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/April_2017.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/April_2017.pdf`
+- Initial filename: `April_2017.pdf`
+- Changed filename: `insem_apr_2017_me_rm_eIII_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `apr_2017`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/insem_apr_2017_me_rm_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/insem_apr_2017_me_rm_eIII_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 159. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_rm_eIII_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/endsem_may_jun_2016_me_rm_eIII_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/endsem_may_jun_2016_me_rm_eIII_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 160. INSEM - August_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/August_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/August_2015.pdf`
+- Initial filename: `August_2015.pdf`
+- Changed filename: `insem_aug_2015_me_tm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2015`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_aug_2015_me_tm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_aug_2015_me_tm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 161. ENDSEM - May_Jun_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/May_Jun_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/May_Jun_2016.pdf`
+- Initial filename: `May_Jun_2016.pdf`
+- Changed filename: `endsem_may_jun_2016_me_tm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_may_jun_2016_me_tm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_may_jun_2016_me_tm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 162. ENDSEM - Nov_Dec_2015.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/Nov_Dec_2015.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/Nov_Dec_2015.pdf`
+- Initial filename: `Nov_Dec_2015.pdf`
+- Changed filename: `endsem_nov_dec_2015_me_tm_eI_2012p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2015`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_nov_dec_2015_me_tm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_nov_dec_2015_me_tm_eI_2012p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 163. INSEM - Oct_2016.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/Oct_2016.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/Oct_2016.pdf`
+- Initial filename: `Oct_2016.pdf`
+- Changed filename: `insem_oct_2016_me_tm_eI_2012p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2016`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_oct_2016_me_tm_eI_2012p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_oct_2016_me_tm_eI_2012p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 164. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_ampm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/insem_mar_2019_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/insem_mar_2019_me_ampm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 165. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_ampm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/insem_mar_2020_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/insem_mar_2020_me_ampm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 166. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2019_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2019_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 167. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2022_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2022_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 168. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2023_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_may_jun_2023_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 169. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2019_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2019_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 170. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2022_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2022_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 171. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_ampm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2023_me_ampm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/advanced_manufacturing_processes_me/endsem_nov_dec_2023_me_ampm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 172. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_aem_eII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/insem_aug_2018_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/insem_aug_2018_me_aem_eII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 173. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_aem_eII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_may_jun_2019_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_may_jun_2019_me_aem_eII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 174. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_aem_eII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2018_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2018_me_aem_eII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 175. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_aem_eII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2019_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2019_me_aem_eII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 176. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_aem_eII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2023_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/endsem_nov_dec_2023_me_aem_eII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 177. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_aem_eII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/insem_oct_2019_me_aem_eII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/automobile_engg_ele_II_me/insem_oct_2019_me_aem_eII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 178. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_ccam_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/insem_aug_2018_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/insem_aug_2018_me_ccam_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 179. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_ccam_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_may_jun_2019_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_may_jun_2019_me_ccam_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 180. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_ccam_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2018_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2018_me_ccam_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 181. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_ccam_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2019_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2019_me_ccam_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 182. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_ccam_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2022_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2022_me_ccam_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 183. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_ccam_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2023_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/endsem_nov_dec_2023_me_ccam_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 184. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_ccam_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/insem_oct_2019_me_ccam_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/cad_cam_and_automation_me/insem_oct_2019_me_ccam_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 185. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_dmm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/insem_aug_2018_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/insem_aug_2018_me_dmm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 186. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_dmm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_may_jun_2019_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_may_jun_2019_me_dmm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 187. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_dmm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_may_jun_2022_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_may_jun_2022_me_dmm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 188. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_dmm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2018_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2018_me_dmm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 189. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_dmm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2019_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2019_me_dmm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 190. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_dmm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2023_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/endsem_nov_dec_2023_me_dmm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 191. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_dmm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/insem_oct_2019_me_dmm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/dynamics_of_machinery_me/insem_oct_2019_me_dmm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 192. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_eamm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/insem_aug_2018_me_eamm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/insem_aug_2018_me_eamm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 193. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_eamm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/endsem_may_jun_2019_me_eamm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/endsem_may_jun_2019_me_eamm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 194. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_eamm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/endsem_nov_dec_2019_me_eamm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/endsem_nov_dec_2019_me_eamm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 195. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_eamm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/insem_oct_2019_me_eamm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_audit_mgt_me/insem_oct_2019_me_eamm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 196. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_eem_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/insem_mar_2019_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/insem_mar_2019_me_eem_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 197. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_eem_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/insem_mar_2020_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/insem_mar_2020_me_eem_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 198. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2019_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2019_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 199. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2022_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2022_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 200. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2023_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_may_jun_2023_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 201. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2019_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2019_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 202. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2022_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2022_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 203. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_eem_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2023_me_eem_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/energy_engineering_me/endsem_nov_dec_2023_me_eem_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 204. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_feam_eI_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/insem_aug_2018_me_feam_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/insem_aug_2018_me_feam_eI_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 205. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_feam_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_may_jun_2019_me_feam_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_may_jun_2019_me_feam_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 206. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_feam_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_nov_dec_2018_me_feam_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_nov_dec_2018_me_feam_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 207. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_feam_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_nov_dec_2019_me_feam_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/endsem_nov_dec_2019_me_feam_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 208. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_feam_eI_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/insem_oct_2019_me_feam_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/finite_element_analysis_ele_I_me/insem_oct_2019_me_feam_eI_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 209. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_hvacm_eI_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/insem_aug_2018_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/insem_aug_2018_me_hvacm_eI_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 210. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_hvacm_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_may_jun_2019_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_may_jun_2019_me_hvacm_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 211. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_hvacm_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2018_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2018_me_hvacm_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 212. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_hvacm_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2019_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2019_me_hvacm_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 213. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_hvacm_eI_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2023_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/endsem_nov_dec_2023_me_hvacm_eI_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 214. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_hvacm_eI_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/insem_oct_2019_me_hvacm_eI_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/heating_ventilation_and_air_conditioning_ele_I_me/insem_oct_2019_me_hvacm_eI_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 215. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_hpm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/insem_aug_2018_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/insem_aug_2018_me_hpm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 216. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_hpm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_may_jun_2019_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_may_jun_2019_me_hpm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 217. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_hpm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2018_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2018_me_hpm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 218. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_hpm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2019_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2019_me_hpm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 219. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_hpm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2023_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/endsem_nov_dec_2023_me_hpm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 220. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_hpm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/insem_oct_2019_me_hpm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/hydraulics_and_pneumatics_me/insem_oct_2019_me_hpm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 221. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_iem_eIII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/insem_mar_2019_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/insem_mar_2019_me_iem_eIII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 222. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_iem_eIII_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/insem_mar_2020_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/insem_mar_2020_me_iem_eIII_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 223. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2019_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2019_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 224. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2022_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2022_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 225. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2023_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_may_jun_2023_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 226. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2019_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2019_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 227. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2022_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2022_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 228. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_iem_eIII_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2023_me_iem_eIII_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/industrial_engg_ele_III_me/endsem_nov_dec_2023_me_iem_eIII_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 229. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_msdm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/insem_mar_2019_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/insem_mar_2019_me_msdm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 230. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_msdm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/insem_mar_2020_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/insem_mar_2020_me_msdm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 231. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2019_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2019_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 232. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2022_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2022_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 233. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2023_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2023_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 234. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2024_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_may_jun_2024_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 235. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2019_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2019_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 236. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2022_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2022_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 237. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_msdm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2023_me_msdm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/mechanical_system_design_me/endsem_nov_dec_2023_me_msdm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 238. INSEM - August_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/operation_research_me/August_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/August_2018.pdf`
+- Initial filename: `August_2018.pdf`
+- Changed filename: `insem_aug_2018_me_orm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2018`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/insem_aug_2018_me_orm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/operation_research_me/insem_aug_2018_me_orm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 239. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/operation_research_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_orm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/endsem_nov_dec_2019_me_orm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/operation_research_me/endsem_nov_dec_2019_me_orm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 240. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/operation_research_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_orm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/operation_research_me/insem_oct_2019_me_orm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/operation_research_me/insem_oct_2019_me_orm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 241. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_pddm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/insem_mar_2019_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/insem_mar_2019_me_pddm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 242. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_pddm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/insem_mar_2020_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/insem_mar_2020_me_pddm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 243. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_pddm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2019_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2019_me_pddm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 244. ENDSEM - May_Jun_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2022.pdf`
+- Initial filename: `May_Jun_2022.pdf`
+- Changed filename: `endsem_may_jun_2022_me_pddm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2022_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2022_me_pddm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 245. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_pddm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2023_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_may_jun_2023_me_pddm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 246. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_pddm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_nov_dec_2019_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_nov_dec_2019_me_pddm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 247. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_pddm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_nov_dec_2022_me_pddm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/product_design_and_development_me/endsem_nov_dec_2022_me_pddm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 248. ENDSEM - Nov_Dec_2018.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2018.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2018.pdf`
+- Initial filename: `Nov_Dec_2018.pdf`
+- Changed filename: `endsem_nov_dec_2018_me_racm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2018`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2018_me_racm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2018_me_racm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 249. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_racm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2019_me_racm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2019_me_racm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 250. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_racm_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2022_me_racm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/endsem_nov_dec_2022_me_racm_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 251. INSEM - Oct 2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Oct%202019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/Oct 2019.pdf`
+- Initial filename: `Oct 2019.pdf`
+- Changed filename: `insem_oct_2019_me_racm_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/insem_oct_2019_me_racm_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/refrigeration_and_air_conditioning_me/insem_oct_2019_me_racm_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 252. INSEM - March_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/March_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/March_2019.pdf`
+- Initial filename: `March_2019.pdf`
+- Changed filename: `insem_mar_2019_me_swem_eIV_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/insem_mar_2019_me_swem_eIV_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/insem_mar_2019_me_swem_eIV_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 253. INSEM - March_2020.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/March_2020.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/March_2020.pdf`
+- Initial filename: `March_2020.pdf`
+- Changed filename: `insem_mar_2020_me_swem_eIV_2015p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2020`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/insem_mar_2020_me_swem_eIV_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/insem_mar_2020_me_swem_eIV_2015p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 254. ENDSEM - May_Jun_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/May_Jun_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/May_Jun_2019.pdf`
+- Initial filename: `May_Jun_2019.pdf`
+- Changed filename: `endsem_may_jun_2019_me_swem_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2019`
+- Source: `paddleocr`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/endsem_may_jun_2019_me_swem_eIV_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/endsem_may_jun_2019_me_swem_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PaddleOCR 45% first-page crop
+
+### 255. ENDSEM - Nov_Dec_2019.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/Nov_Dec_2019.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/Nov_Dec_2019.pdf`
+- Initial filename: `Nov_Dec_2019.pdf`
+- Changed filename: `endsem_nov_dec_2019_me_swem_eIV_2015p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2019`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/endsem_nov_dec_2019_me_swem_eIV_2015p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2015_pattern/solar_and_wind_energy_ele_IV_me/endsem_nov_dec_2019_me_swem_eIV_2015p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 256. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_adm_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_may_jun_2025_me_adm_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_may_jun_2025_me_adm_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 257. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_adm_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2024_me_adm_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2024_me_adm_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 258. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_adm_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2025_me_adm_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2025_me_adm_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 259. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_cimm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_feb_2023_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_feb_2023_me_cimm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 260. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_cimm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2024_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2024_me_cimm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 261. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/March_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_me_cimm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2025_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2025_me_cimm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 262. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2023_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2023_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 263. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2024_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2024_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 264. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2025_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2025_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 265. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2023_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2023_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 266. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2024_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2024_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 267. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_cimm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2025_me_cimm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2025_me_cimm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 268. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_dmm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_aug_2025_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_aug_2025_me_dmm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 269. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2023_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2023_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 270. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2024_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2024_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 271. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2025_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2025_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 272. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2022_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2022_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 273. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2023_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2023_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 274. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2024_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2024_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 275. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_dmm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2025_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2025_me_dmm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 276. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_dmm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_oct_2022_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_oct_2022_me_dmm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 277. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_dmm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2023_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2023_me_dmm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 278. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Sept-%202024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_me_dmm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2024_me_dmm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2024_me_dmm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 279. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_ehvm_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_feb_2023_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_feb_2023_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 280. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_ehvm_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2024_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2024_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 281. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/March_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_me_ehvm_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2025_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2025_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 282. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2023_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2023_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 283. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2024_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2024_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 284. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2025_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2025_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 285. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2023_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2023_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 286. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2024_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2024_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 287. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_ehvm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2025_me_ehvm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2025_me_ehvm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 288. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_eamm_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_feb_2023_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_feb_2023_me_eamm_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 289. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_eamm_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2024_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2024_me_eamm_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 290. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/March_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_me_eamm_eV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2025_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2025_me_eamm_eV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 291. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2023_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2023_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 292. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2024_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2024_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 293. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2025_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2025_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 294. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2023_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2023_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 295. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2024_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2024_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 296. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_eamm_eV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2025_me_eamm_eV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2025_me_eamm_eV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 297. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_eem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_feb_2023_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_feb_2023_me_eem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 298. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_eem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2024_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2024_me_eem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 299. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/March_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_me_eem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2025_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2025_me_eem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 300. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2023_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2023_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 301. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2024_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2024_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 302. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2025_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2025_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 303. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2023_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2023_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 304. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2024_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2024_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 305. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_eem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2025_me_eem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2025_me_eem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 306. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_hvacrm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_aug_2025_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_aug_2025_me_hvacrm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 307. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2023_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2023_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 308. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2024_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2024_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 309. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2025_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2025_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 310. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2022_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2022_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 311. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2023_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2023_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 312. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2024_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2024_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 313. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_hvacrm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2025_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2025_me_hvacrm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 314. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_hvacrm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_oct_2022_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_oct_2022_me_hvacrm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 315. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_hvacrm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2023_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2023_me_hvacrm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 316. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Sept-%202024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_me_hvacrm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2024_me_hvacrm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2024_me_hvacrm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 317. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_iem_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_aug_2025_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_aug_2025_me_iem_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 318. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2023_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2023_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 319. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2024_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2024_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 320. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2025_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2025_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 321. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2022_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2022_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 322. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2023_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2023_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 323. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2024_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2024_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 324. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_iem_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2025_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2025_me_iem_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 325. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_iem_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_oct_2022_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_oct_2022_me_iem_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 326. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_iem_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2023_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2023_me_iem_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 327. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Sept-%202024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_me_iem_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2024_me_iem_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2024_me_iem_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 328. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_msem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_aug_2025_me_msem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_aug_2025_me_msem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 329. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_msem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_may_jun_2023_me_msem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_may_jun_2023_me_msem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 330. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_msem_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_nov_dec_2022_me_msem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_nov_dec_2022_me_msem_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 331. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_msem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_oct_2022_me_msem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_oct_2022_me_msem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 332. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_msem_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_sep_2023_me_msem_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_sep_2023_me_msem_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 333. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/modern_machining_processes_ele_III_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/modern_machining_processes_ele_III_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_mmpm_eIII_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/modern_machining_processes_ele_III_me/endsem_may_jun_2024_me_mmpm_eIII_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/modern_machining_processes_ele_III_me/endsem_may_jun_2024_me_mmpm_eIII_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 334. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_orm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_aug_2025_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_aug_2025_me_orm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 335. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2023_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2023_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 336. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2024_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2024_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 337. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2025_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2025_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 338. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2022_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2022_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 339. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2023_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2023_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 340. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2024_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2024_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 341. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_orm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2025_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2025_me_orm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 342. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_orm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_oct_2022_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_oct_2022_me_orm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 343. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_orm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2023_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2023_me_orm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 344. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Sept-%202024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_me_orm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2024_me_orm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2024_me_orm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 345. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_pedm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2024_me_pedm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2024_me_pedm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 346. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_pedm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2025_me_pedm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2025_me_pedm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 347. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_pedm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_nov_dec_2024_me_pedm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_nov_dec_2024_me_pedm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 348. INSEM - August_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/August_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/August_2025.pdf`
+- Initial filename: `August_2025.pdf`
+- Changed filename: `insem_aug_2025_me_pddm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_aug_2025_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_aug_2025_me_pddm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 349. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2023_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2023_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 350. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2024_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2024_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 351. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2025_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2025_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 352. ENDSEM - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `endsem_nov_dec_2022_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2022_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2022_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 353. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2023_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2023_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 354. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2024_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2024_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 355. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_pddm_eIV_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2025_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2025_me_pddm_eIV_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 356. INSEM - Oct - 2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Oct%20-%202022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Oct - 2022.pdf`
+- Initial filename: `Oct - 2022.pdf`
+- Changed filename: `insem_oct_2022_me_pddm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `oct_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_oct_2022_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_oct_2022_me_pddm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 357. INSEM - Sep - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Sep%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Sep - 2023.pdf`
+- Initial filename: `Sep - 2023.pdf`
+- Changed filename: `insem_sep_2023_me_pddm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2023_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2023_me_pddm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 358. INSEM - Sept- 2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Sept-%202024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/Sept- 2024.pdf`
+- Initial filename: `Sept- 2024.pdf`
+- Changed filename: `insem_sep_2024_me_pddm_eIV_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `sep_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2024_me_pddm_eIV_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2024_me_pddm_eIV_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 359. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_qreVm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_feb_2023_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_feb_2023_me_qreVm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 360. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_qreVm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2024_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2024_me_qreVm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 361. INSEM - March_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/March_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/March_2025.pdf`
+- Initial filename: `March_2025.pdf`
+- Changed filename: `insem_mar_2025_me_qreVm_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2025_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2025_me_qreVm_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 362. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2023_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2023_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 363. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2024_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2024_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 364. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2025_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2025_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 365. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2023_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2023_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 366. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2024_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2024_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 367. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_qreVm_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2025_me_qreVm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2025_me_qreVm_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 368. INSEM - Feb - 2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Feb%20-%202023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Feb - 2023.pdf`
+- Initial filename: `Feb - 2023.pdf`
+- Changed filename: `insem_feb_2023_me_retm_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `feb_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_feb_2023_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_feb_2023_me_retm_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 369. INSEM - March_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/March_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/March_2024.pdf`
+- Initial filename: `March_2024.pdf`
+- Changed filename: `insem_mar_2024_me_retm_eVI_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `mar_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_mar_2024_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_mar_2024_me_retm_eVI_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text
+
+### 370. ENDSEM - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `endsem_may_jun_2023_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2023_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2023_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 371. ENDSEM - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `endsem_may_jun_2024_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2024_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2024_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 372. ENDSEM - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `endsem_may_jun_2025_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2025_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2025_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 373. ENDSEM - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `endsem_nov_dec_2023_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2023_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2023_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 374. ENDSEM - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `endsem_nov_dec_2024_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2024_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2024_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 375. ENDSEM - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `endsem_nov_dec_2025_me_retm_eVI_2019p.pdf`
+- Type: `endsem`
+- Marks: `70`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2025_me_retm_eVI_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2025_me_retm_eVI_2019p.pdf`
+- Reason: marks=70; date_from=filename; marks from PyMuPDF header text
+
+### 376. OTHER - May_Jun_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2023.pdf`
+- Initial filename: `May_Jun_2023.pdf`
+- Changed filename: `other_may_jun_2023_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2023_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2023_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 377. OTHER - May_Jun_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2024.pdf`
+- Initial filename: `May_Jun_2024.pdf`
+- Changed filename: `other_may_jun_2024_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2024_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2024_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 378. OTHER - May_Jun_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/May_Jun_2025.pdf`
+- Initial filename: `May_Jun_2025.pdf`
+- Changed filename: `other_may_jun_2025_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `may_jun_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2025_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2025_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 379. OTHER - Nov_Dec_2022.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2022.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2022.pdf`
+- Initial filename: `Nov_Dec_2022.pdf`
+- Changed filename: `other_nov_dec_2022_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2022`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2022_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2022_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 380. OTHER - Nov_Dec_2023.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2023.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2023.pdf`
+- Initial filename: `Nov_Dec_2023.pdf`
+- Changed filename: `other_nov_dec_2023_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2023`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2023_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2023_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 381. OTHER - Nov_Dec_2024.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2024.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2024.pdf`
+- Initial filename: `Nov_Dec_2024.pdf`
+- Changed filename: `other_nov_dec_2024_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2024`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2024_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2024_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 382. OTHER - Nov_Dec_2025.pdf
+
+- PDF: [Open PDF](../incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2025.pdf)
+- Incoming path: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/Nov_Dec_2025.pdf`
+- Initial filename: `Nov_Dec_2025.pdf`
+- Changed filename: `other_nov_dec_2025_me_tm_2019p.pdf`
+- Type: `other`
+- Marks: `50`
+- Month/year: `nov_dec_2025`
+- Source: `text`
+- Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2025_me_tm_2019p.pdf`
+- Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2025_me_tm_2019p.pdf`
+- Reason: marks=50; date_from=filename; marks from PyMuPDF header text

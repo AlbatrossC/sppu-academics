@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-11T13:46:00Z",
+  "generatedAt": "2026-06-27T06:25:42Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -1544,6 +1544,133 @@
                   "fullName": "Web Application Development",
                   "normalizedName": "web_application_development",
                   "semesterNo": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "mechanical-engineering",
+          "branchCode": "me",
+          "branchName": "Mechanical Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": true,
+              "subjects": [
+                {
+                  "subjectKey": "automobile_design_ele_III_me",
+                  "shortCode": "ad_eIII",
+                  "fullName": "Automobile Design - Ele III",
+                  "normalizedName": "automobile_design_ele_III",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "computer_integrated_manufacturing_me",
+                  "shortCode": "cim",
+                  "fullName": "Computer Integrated Manufacturing",
+                  "normalizedName": "computer_integrated_manufacturing",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "dynamics_of_machinery_me",
+                  "shortCode": "dm",
+                  "fullName": "Dynamics Of Machinery",
+                  "normalizedName": "dynamics_of_machinery",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "electrical_and_hybrid_vehicle_ele_VI_me",
+                  "shortCode": "ehv_eVI",
+                  "fullName": "Electrical & Hybrid Vehicle - Ele VI",
+                  "normalizedName": "electrical_and_hybrid_vehicle_ele_VI",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "energy_audit_and_management_ele_V_me",
+                  "shortCode": "eam_eV",
+                  "fullName": "Energy Audit & Management - Ele V",
+                  "normalizedName": "energy_audit_and_management_ele_V",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "energy_engineering_me",
+                  "shortCode": "ee",
+                  "fullName": "Energy Engineering",
+                  "normalizedName": "energy_engineering",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "heating_ventilation_air_condi_and_refrigeration_me",
+                  "shortCode": "hvacr",
+                  "fullName": "Heating Ventilation Air Condi. & Refrigeration",
+                  "normalizedName": "heating_ventilation_air_condi_and_refrigeration",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "industrial_engineering_ele_III_me",
+                  "shortCode": "ie_eIII",
+                  "fullName": "Industrial Engineering - Ele III",
+                  "normalizedName": "industrial_engineering_ele_III",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "modelling_and_simulation_of_ehv_me",
+                  "shortCode": "mse",
+                  "fullName": "Modelling & Simulation of EHV",
+                  "normalizedName": "modelling_and_simulation_of_ehv",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "modern_machining_processes_ele_III_me",
+                  "shortCode": "mmp_eIII",
+                  "fullName": "Modern Machining Processes - Ele III",
+                  "normalizedName": "modern_machining_processes_ele_III",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "operation_research_ele_IV_me",
+                  "shortCode": "or_eIV",
+                  "fullName": "Operation Research - Ele IV",
+                  "normalizedName": "operation_research_ele_IV",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "process_equipment_design_ele_VI_me",
+                  "shortCode": "ped_eVI",
+                  "fullName": "Process Equipment Design - Ele VI",
+                  "normalizedName": "process_equipment_design_ele_VI",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "product_design_and_development_ele_IV_me",
+                  "shortCode": "pdd_eIV",
+                  "fullName": "Product Design & Development - Ele IV",
+                  "normalizedName": "product_design_and_development_ele_IV",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "quality_and_reliability_engg_V_me",
+                  "shortCode": "qreV",
+                  "fullName": "Quality & Reliability Engg - V",
+                  "normalizedName": "quality_and_reliability_engg_V",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "renewable_energy_technologies_ele_VI_me",
+                  "shortCode": "ret_eVI",
+                  "fullName": "Renewable Energy Technologies - Ele VI",
+                  "normalizedName": "renewable_energy_technologies_ele_VI",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "turbomachinery_me",
+                  "shortCode": "t",
+                  "fullName": "Turbomachinery",
+                  "normalizedName": "turbomachinery",
+                  "semesterNo": 8
                 }
               ]
             }

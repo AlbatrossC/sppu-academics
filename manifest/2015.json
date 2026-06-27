@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2015_pattern",
   "patternYear": "2015",
-  "generatedAt": "2026-06-11T13:46:00Z",
+  "generatedAt": "2026-06-27T06:25:42Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -851,6 +851,126 @@
                   "shortCode": "tc",
                   "fullName": "Theory of Computation",
                   "normalizedName": "theory_of_computation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "mechanical-engineering",
+          "branchCode": "me",
+          "branchName": "Mechanical Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": true,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_manufacturing_processes_me",
+                  "shortCode": "amp",
+                  "fullName": "Advanced Manufacturing Processes",
+                  "normalizedName": "advanced_manufacturing_processes",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "automobile_engg_ele_II_me",
+                  "shortCode": "ae_eII",
+                  "fullName": "Automobile Engg_Ele-II",
+                  "normalizedName": "automobile_engg_ele_II",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "cad_cam_and_automation_me",
+                  "shortCode": "cca",
+                  "fullName": "CAD CAM & Automation",
+                  "normalizedName": "cad_cam_and_automation",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "dynamics_of_machinery_me",
+                  "shortCode": "dm",
+                  "fullName": "Dynamics Of Machinery",
+                  "normalizedName": "dynamics_of_machinery",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "energy_audit_mgt_me",
+                  "shortCode": "eam",
+                  "fullName": "Energy Audit Mgt",
+                  "normalizedName": "energy_audit_mgt",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "energy_engineering_me",
+                  "shortCode": "ee",
+                  "fullName": "Energy Engineering",
+                  "normalizedName": "energy_engineering",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "finite_element_analysis_ele_I_me",
+                  "shortCode": "fea_eI",
+                  "fullName": "Finite Element Analysis_Ele-I",
+                  "normalizedName": "finite_element_analysis_ele_I",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "heating_ventilation_and_air_conditioning_ele_I_me",
+                  "shortCode": "hvac_eI",
+                  "fullName": "Heating Ventilation & Air-Conditioning_Ele-I",
+                  "normalizedName": "heating_ventilation_and_air_conditioning_ele_I",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "hydraulics_and_pneumatics_me",
+                  "shortCode": "hp",
+                  "fullName": "Hydraulics & Pneumatics",
+                  "normalizedName": "hydraulics_and_pneumatics",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "industrial_engg_ele_III_me",
+                  "shortCode": "ie_eIII",
+                  "fullName": "Industrial Engg_Ele_III",
+                  "normalizedName": "industrial_engg_ele_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "mechanical_system_design_me",
+                  "shortCode": "msd",
+                  "fullName": "Mechanical System Design",
+                  "normalizedName": "mechanical_system_design",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "operation_research_me",
+                  "shortCode": "or",
+                  "fullName": "Operation Research",
+                  "normalizedName": "operation_research",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "product_design_and_development_me",
+                  "shortCode": "pdd",
+                  "fullName": "Product Design & Development",
+                  "normalizedName": "product_design_and_development",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "refrigeration_and_air_conditioning_me",
+                  "shortCode": "rac",
+                  "fullName": "Refrigeration & Air Conditioning",
+                  "normalizedName": "refrigeration_and_air_conditioning",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "solar_and_wind_energy_ele_IV_me",
+                  "shortCode": "swe_eIV",
+                  "fullName": "Solar & Wind Energy_Ele_IV",
+                  "normalizedName": "solar_and_wind_energy_ele_IV",
+                  "semesterNo": 8
                 }
               ]
             }

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2012_pattern",
   "patternYear": "2012",
-  "generatedAt": "2026-06-11T13:46:00Z",
+  "generatedAt": "2026-06-27T06:25:42Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -1211,6 +1211,168 @@
                   "shortCode": "wet",
                   "fullName": "Web Engineering and Technololgy",
                   "normalizedName": "web_engineering_and_technololgy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "branchKey": "mechanical-engineering",
+          "branchCode": "me",
+          "branchName": "Mechanical Engineering",
+          "years": [
+            {
+              "yearKey": "be",
+              "yearName": "BE",
+              "yearFullName": "Fourth Year",
+              "semesterIncluded": true,
+              "subjects": [
+                {
+                  "subjectKey": "advanced_manufacturing_processes_ele_II_me",
+                  "shortCode": "amp_eII",
+                  "fullName": "Advanced Manufacturing Processes_Ele_II",
+                  "normalizedName": "advanced_manufacturing_processes_ele_II",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "automobile_engineering_elective_III_me",
+                  "shortCode": "ae_eIII",
+                  "fullName": "Automobile Engineering_Elective_III",
+                  "normalizedName": "automobile_engineering_elective_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "cad_cam_and_automation_me",
+                  "shortCode": "cca",
+                  "fullName": "CAD CAM & Automation",
+                  "normalizedName": "cad_cam_and_automation",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "computational_fluid_dynamics_me",
+                  "shortCode": "cfd",
+                  "fullName": "Computational Fluid Dynamics",
+                  "normalizedName": "computational_fluid_dynamics",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "design_of_pumps_blowers_and_compressors_ele_IV_me",
+                  "shortCode": "dpbc_eIV",
+                  "fullName": "Design of Pumps, Blowers & Compressors_Ele_IV",
+                  "normalizedName": "design_of_pumps_blowers_and_compressors_ele_IV",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "dynamics_of_machinery_me",
+                  "shortCode": "dm",
+                  "fullName": "Dynamics Of Machinery",
+                  "normalizedName": "dynamics_of_machinery",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "energy_audit_and_management_elective_I_me",
+                  "shortCode": "eam_eI",
+                  "fullName": "Energy Audit And Management_Elective I",
+                  "normalizedName": "energy_audit_and_management_elective_I",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "finite_element_analysis_elective_IV_me",
+                  "shortCode": "fea_eIV",
+                  "fullName": "Finite Element Analysis_Elective_IV",
+                  "normalizedName": "finite_element_analysis_elective_IV",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "gas_turbine_and_propulsion_ele_II_me",
+                  "shortCode": "gtp_eII",
+                  "fullName": "Gas Turbine & Propulsion_Ele_II",
+                  "normalizedName": "gas_turbine_and_propulsion_ele_II",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "industrial_engineering_elective_III_me",
+                  "shortCode": "ie_eIII",
+                  "fullName": "Industrial Engineering_Elective_III",
+                  "normalizedName": "industrial_engineering_elective_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "machanical_system_design_me",
+                  "shortCode": "msd",
+                  "fullName": "Machanical System Design",
+                  "normalizedName": "machanical_system_design",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "machine_tool_design_elective_I_me",
+                  "shortCode": "mtd_eI",
+                  "fullName": "Machine Tool Design_Elective - I",
+                  "normalizedName": "machine_tool_design_elective_I",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "operation_research_me",
+                  "shortCode": "or",
+                  "fullName": "Operation Research",
+                  "normalizedName": "operation_research",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "power_plant_engineering_me",
+                  "shortCode": "ppe",
+                  "fullName": "Power Plant Engineering",
+                  "normalizedName": "power_plant_engineering",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "product_design_and_development_me",
+                  "shortCode": "pdd",
+                  "fullName": "Product Design & Development",
+                  "normalizedName": "product_design_and_development",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "product_life_cycle_management_elective_III_me",
+                  "shortCode": "plcm_eIII",
+                  "fullName": "Product Life Cycle Management_Elective_III",
+                  "normalizedName": "product_life_cycle_management_elective_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "refrigeration_and_air_conditioning_equipment_design_ele_III_me",
+                  "shortCode": "raced_eIII",
+                  "fullName": "Refrigeration & Air Conditioning Equipment design_Ele_III",
+                  "normalizedName": "refrigeration_and_air_conditioning_equipment_design_ele_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "refrigeration_and_airconditioning_me",
+                  "shortCode": "ra",
+                  "fullName": "Refrigeration and Airconditioning",
+                  "normalizedName": "refrigeration_and_airconditioning",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "reliability_engineering_me",
+                  "shortCode": "re",
+                  "fullName": "Reliability Engineering",
+                  "normalizedName": "reliability_engineering",
+                  "semesterNo": 7
+                },
+                {
+                  "subjectKey": "robotics_ele_III_me",
+                  "shortCode": "r_eIII",
+                  "fullName": "Robotics_Ele_III",
+                  "normalizedName": "robotics_ele_III",
+                  "semesterNo": 8
+                },
+                {
+                  "subjectKey": "tribology_elective_I_me",
+                  "shortCode": "t_eI",
+                  "fullName": "Tribology_Elective I",
+                  "normalizedName": "tribology_elective_I",
+                  "semesterNo": 7
                 }
               ]
             }
