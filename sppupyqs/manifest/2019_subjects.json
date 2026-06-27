@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-11T13:46:00Z",
+  "generatedAt": "2026-06-27T06:25:42Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -16339,6 +16339,1167 @@
       "yearName": "TE",
       "yearFullName": "Third Year",
       "semesterNo": 6
+    },
+    "automobile_design_ele_III_me": {
+      "subjectKey": "automobile_design_ele_III_me",
+      "shortCode": "ad_eIII",
+      "fullName": "Automobile Design - Ele III",
+      "normalizedName": "automobile_design_ele_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1zvemV7V1jqyEBBcXLKOgxueZzVAktKE-",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2024_me_adm_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1rsi93d3tkJGARxuDKzSQEOPfhcMPzIV9",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_may_jun_2025_me_adm_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1iXPl5S-nBi3Mrz4EGViodjgdLRKuyrba",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/automobile_design_ele_III_me/endsem_nov_dec_2025_me_adm_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "computer_integrated_manufacturing_me": {
+      "subjectKey": "computer_integrated_manufacturing_me",
+      "shortCode": "cim",
+      "fullName": "Computer Integrated Manufacturing",
+      "normalizedName": "computer_integrated_manufacturing",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Qj0v_jJm8tDSZhIA8gR5bmsmfQo2ffm7",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_feb_2023_me_cimm_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1FpLUnDhWr_srwcpo5ws3kqFbYbOkBsRG",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2023_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1MgR94Vv4hGx0FnXFgeXRFclExiXmcWrq",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2023_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ZQlzBFOE7GuzqTyUcDkm461FEjQkWo3O",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2024_me_cimm_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "10Bphh9g8xz8AThPU8ieIPlSzxa0TTWv_",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2024_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1rHzRyq8ClqIlv1STSPyohdC6k5mNhQCE",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2024_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1L2PapZMomqJv_s7VFS_fGSJN_mVusUj9",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/insem_mar_2025_me_cimm_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1tTZURRRPhekQG3e7lZ3gUqhQaZL3JyVs",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_may_jun_2025_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "14bXoC8dpaiigPqKa5UDNFavnWHPTlG_r",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/computer_integrated_manufacturing_me/endsem_nov_dec_2025_me_cimm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "dynamics_of_machinery_me": {
+      "subjectKey": "dynamics_of_machinery_me",
+      "shortCode": "dm",
+      "fullName": "Dynamics Of Machinery",
+      "normalizedName": "dynamics_of_machinery",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "12TLZKQ9OWX0kEfH7MWo7dVykm1LJmELD",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2022_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "16T5MSeiqRgAhzuYUy2i9t8c4KOcGpXcr",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_oct_2022_me_dmm_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1-kKJ85HdpXj4PPDw8ymb3xvzTrp4sZA9",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2023_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1uBDMHREMN68HazXZXAQV8N7u0hyZzwfB",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2023_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "19VDXr5ROsFK2NbaRpBUuSXes1hnJtsnY",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2023_me_dmm_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Ty4_9nCKhiixAm8MJbqi34texj-xs3K5",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2024_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1YF7exTEqInUVQz50Si8gh6v7gD9IXlpB",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2024_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1HEeiXfO6BT9VtWjYpXXAF9aVS8Db4I7O",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_sep_2024_me_dmm_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Dn9hTdcyRKD_DJE7lgx_UnAivd8jazgw",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/insem_aug_2025_me_dmm_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1JhPPdG-7xagI7XqSkpMkGhB_BRfEIxZD",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_may_jun_2025_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1oGvMjVvoqAwngDvU6aZHCqV4-YRTnxL_",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/dynamics_of_machinery_me/endsem_nov_dec_2025_me_dmm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "electrical_and_hybrid_vehicle_ele_VI_me": {
+      "subjectKey": "electrical_and_hybrid_vehicle_ele_VI_me",
+      "shortCode": "ehv_eVI",
+      "fullName": "Electrical & Hybrid Vehicle - Ele VI",
+      "normalizedName": "electrical_and_hybrid_vehicle_ele_VI",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1q-75-auSSPvAH19eCVp0yGzboWqsVVAQ",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_feb_2023_me_ehvm_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1cXevrXRhI_ensc7V4qGOCBmVpxmDHKF2",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2023_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "13yICFHSThkg_WjrV8ZPoJQcsUFMpl8kE",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2023_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1cR8xhcez6XPDs7uDFjxr29LcTpqtjjKg",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2024_me_ehvm_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "192rhIrdtQq1iVECsTnxbLoQlrDGcfgfk",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2024_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1nRImjurVUuLlvq0TPs3ssCeAYQofCL6z",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2024_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1oaur2vz5FSpKKnOhrPqSti3-85nezTga",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/insem_mar_2025_me_ehvm_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1K4w47a97ZF4E7Nf755tdZcZPOdCY8JDX",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_may_jun_2025_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Kp2szyYRwM5IBKhSbgdJmp1dmif-F3V1",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/electrical_and_hybrid_vehicle_ele_VI_me/endsem_nov_dec_2025_me_ehvm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "energy_audit_and_management_ele_V_me": {
+      "subjectKey": "energy_audit_and_management_ele_V_me",
+      "shortCode": "eam_eV",
+      "fullName": "Energy Audit & Management - Ele V",
+      "normalizedName": "energy_audit_and_management_ele_V",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Gadfc8d9i0-7FpvrBXOI5XcT9ZkC6Yfk",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_feb_2023_me_eamm_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ITAHTWLKVqTQrzkYe5AWf21Fl_wxzqaL",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2023_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1nDc-59-f5U85-ZC0GnmEHDcIsXjANPAE",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2023_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1Y-i0Pac6Dqe7nrIargaqKmrTLm8ovkPI",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2024_me_eamm_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1L3D2wkfBLtbqEgDfcjG4FwDTIOIqDLyL",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2024_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1XmFvaC4OyfFyrPWYDLfTnHm87p8FHkpy",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2024_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1dGgPxy0ggzUY18KwPQtp2ncBadHWJMa2",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/insem_mar_2025_me_eamm_eV_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1P2N6LyGQvuL3UKnXN5-rMd38dQmQd6MK",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_may_jun_2025_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "13REt1LV2mNo0LJpHnB4wo5qdjv_yP8qm",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_audit_and_management_ele_V_me/endsem_nov_dec_2025_me_eamm_eV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "energy_engineering_me": {
+      "subjectKey": "energy_engineering_me",
+      "shortCode": "ee",
+      "fullName": "Energy Engineering",
+      "normalizedName": "energy_engineering",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1BvGkNbsR2JG6ABwm5nnX1u8KZ1msPAK0",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_feb_2023_me_eem_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "178pXdF9-pu-zyYYWvogjfZidWjtR2tao",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2023_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1HZoxlfcrCmQmeKac05YE3z-mNH8Oq5H6",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2023_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1wDgc3afGpcgTrjVieCEJiPU82NChUBD-",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2024_me_eem_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1MuxSZkaDlvFaiogPBJHBeppLoqekPwD2",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2024_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1CFsr8rsUVA0kN-ssbuVrEo_XruAN3X5r",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2024_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1SjfCx4VUec9HGEF1XJYfmumTo2wn5nLq",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/insem_mar_2025_me_eem_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ItfAiA66Tg87lclBwRHz3IAphEZlZLAv",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_may_jun_2025_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1A96Uy6K0MMZwfGe-IOI8PHJjOSAvXPc-",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/energy_engineering_me/endsem_nov_dec_2025_me_eem_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "heating_ventilation_air_condi_and_refrigeration_me": {
+      "subjectKey": "heating_ventilation_air_condi_and_refrigeration_me",
+      "shortCode": "hvacr",
+      "fullName": "Heating Ventilation Air Condi. & Refrigeration",
+      "normalizedName": "heating_ventilation_air_condi_and_refrigeration",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "10oEzujqTDdychvMEcfFr5UNjzPIVgyQt",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2022_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1jtZB_aUo3UxF_pxRPecBHCGzK6SKle0E",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_oct_2022_me_hvacrm_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1I991IS5SAI_aev-8wGp7Nx2L5W4ZflLC",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2023_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1PgBz6Bu5OX520gCPSEWtQlpsj_Y5wik7",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2023_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1N7Py4caHS5A1OjnRl17CCyDx9AfgUVO8",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2023_me_hvacrm_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1W1jvBsmOHBzZcjKw4K-0Epm8iX6XDK4o",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2024_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "10HXmVXlAHRXyzlZ0x6N9AaqmuqnQGU17",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2024_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "13s-FOToJ6J1j4dIsjvXRazkbzkPyJixD",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_sep_2024_me_hvacrm_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ZFMp36AEHuObndGVFsI159K1VgSepCiw",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/insem_aug_2025_me_hvacrm_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1cXPwRuGRdOgX8vyVin9pk1z4WzjmGAms",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_may_jun_2025_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1UWDruWYOL3f79Psure3-aZzoMGDS9myf",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/heating_ventilation_air_condi_and_refrigeration_me/endsem_nov_dec_2025_me_hvacrm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "industrial_engineering_ele_III_me": {
+      "subjectKey": "industrial_engineering_ele_III_me",
+      "shortCode": "ie_eIII",
+      "fullName": "Industrial Engineering - Ele III",
+      "normalizedName": "industrial_engineering_ele_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1KM__MFz6SNsjAKivRpmNlicao6VkG2kA",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2022_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1nuXv6Z5kYfY6T1X2TMBBvPECZO4vCnNT",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_oct_2022_me_iem_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1gXyPuWMx6hS_14ldaGuNFHxw_8TNx024",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2023_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "11dCNRZhNwymVoj8SttZ2XjdhB7Sdf83O",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2023_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "14uxsZYPUGN5re4TCEWaqm7s6pWDsr3Ht",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2023_me_iem_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "17df2cOuQa3y8kqi4hMCsNLDdJSidOUmE",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2024_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "13fv4UnKj3uoj2OKu2qV_0JWQx6YO2bh-",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2024_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1FzMHN1VQyqogVnIsLP5kEA5ZuZlCN9na",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_sep_2024_me_iem_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ZyzRZsAJor22x8flmp7fWyXjYwgzCRwU",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/insem_aug_2025_me_iem_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ELX03Cj-UJ424vIFcjXIkAYvsj5N_9kw",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_may_jun_2025_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1fpaz5TfhDT5ZIP1rW2xexHg04NdSIwqa",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/industrial_engineering_ele_III_me/endsem_nov_dec_2025_me_iem_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "modelling_and_simulation_of_ehv_me": {
+      "subjectKey": "modelling_and_simulation_of_ehv_me",
+      "shortCode": "mse",
+      "fullName": "Modelling & Simulation of EHV",
+      "normalizedName": "modelling_and_simulation_of_ehv",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1haHluvTMmypcyyZYAMoPEquKKCq9DZtG",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_nov_dec_2022_me_msem_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1iIKrPVsrhZg4trWWivnnfyrTOs9Qzdgp",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_oct_2022_me_msem_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Py8PCwCa-nZkoHsgUHNoSwcmfXE8NG1t",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/endsem_may_jun_2023_me_msem_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "17RaGjNsiC4fbgA0tYBHsj9edWecwXArf",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_sep_2023_me_msem_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1UlZiUCpU45B-YDXgz-Kx9E__xCIrBZ8L",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modelling_and_simulation_of_ehv_me/insem_aug_2025_me_msem_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "modern_machining_processes_ele_III_me": {
+      "subjectKey": "modern_machining_processes_ele_III_me",
+      "shortCode": "mmp_eIII",
+      "fullName": "Modern Machining Processes - Ele III",
+      "normalizedName": "modern_machining_processes_ele_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1Bxd_LoJq-FcnM6MqPH2cyJXJKSkDtV4j",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/modern_machining_processes_ele_III_me/endsem_may_jun_2024_me_mmpm_eIII_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "operation_research_ele_IV_me": {
+      "subjectKey": "operation_research_ele_IV_me",
+      "shortCode": "or_eIV",
+      "fullName": "Operation Research - Ele IV",
+      "normalizedName": "operation_research_ele_IV",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1irKWuGxiWKwvrW97vFOE5HsElggqf5Qt",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2022_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1c0Ied4LbDh3KubWX0JkESA4dKgeOqMME",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_oct_2022_me_orm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1LEFUDxah8iP8XzO0tTWQRmWdV91wSuc_",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2023_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tuwex8rOaN1D7WjRDB3GgSAxTzOFCZxi",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2023_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1V3bzQU146vONF4Nn22rN2tBjW8mh0bO1",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2023_me_orm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "1PTK5uuR1SbMfw7RFTl9gvWJko_5rGKjP",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2024_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1d-a-hMbL8US-mZ_edRJzkUFQdlDKEqBz",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2024_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1n9BCLCriteK381gSWz9hAjA41AA9SciW",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_sep_2024_me_orm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "1ZCTDA7yeEBGUzcISH06KQv7JamllbUUm",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/insem_aug_2025_me_orm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Tgou3PwyX_zGZYLYTkyOFQdJAO6Em70W",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_may_jun_2025_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1Q1IDw0Z2D-U8yhef43b4tDXAM3NDjXuL",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/operation_research_ele_IV_me/endsem_nov_dec_2025_me_orm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "process_equipment_design_ele_VI_me": {
+      "subjectKey": "process_equipment_design_ele_VI_me",
+      "shortCode": "ped_eVI",
+      "fullName": "Process Equipment Design - Ele VI",
+      "normalizedName": "process_equipment_design_ele_VI",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1DP-bm9F8pJepDnNKLaI-Rxs3ELsN9MyL",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2024_me_pedm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1I5Qr23_uLcIL6B1XV22Hno3yFBCGIiiw",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_nov_dec_2024_me_pedm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1YTCzHp2oUmdVJxdd7jNq7Y_wpw9dFVHt",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/process_equipment_design_ele_VI_me/endsem_may_jun_2025_me_pedm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "product_design_and_development_ele_IV_me": {
+      "subjectKey": "product_design_and_development_ele_IV_me",
+      "shortCode": "pdd_eIV",
+      "fullName": "Product Design & Development - Ele IV",
+      "normalizedName": "product_design_and_development_ele_IV",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1RDWaE9HdjvRXGSkhOEp9ea4_ZkX3FK7_",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2022_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1bz3K9nAq-KiqiXukwZp3biYIAq19F54X",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_oct_2022_me_pddm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2022
+        },
+        {
+          "pdfId": "1Bw0E-3imeJ_bshziWJxHZOhSoRwB5jf_",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2023_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1tn9DNvAmVRkGGzxpNyOuS8pVTZh-CRyD",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2023_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1F0ay6RGCAfouc-Re0oMIddQuFgoScMjE",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2023_me_pddm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2023
+        },
+        {
+          "pdfId": "18JWPQFIMIWbgGUA4PRRha9H5wDvfYvLT",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2024_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "16FK3tdwcdN3ypU1xW9UKYaA_9HnmolcK",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2024_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1hzFraZPdvw0RE7kU2PV_2FUBinHro4B6",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_sep_2024_me_pddm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "sep",
+          "year": 2024
+        },
+        {
+          "pdfId": "159wn1ZhIyY7_snq4UiofJMc5t77J122q",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/insem_aug_2025_me_pddm_eIV_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2025
+        },
+        {
+          "pdfId": "1xd-dM0FSk5J4RDNBd6RB6CgKVjxPzKZI",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_may_jun_2025_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1CbzjPgbHtteXLax2ng5sQA_dZ7ETmcps",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/product_design_and_development_ele_IV_me/endsem_nov_dec_2025_me_pddm_eIV_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "quality_and_reliability_engg_V_me": {
+      "subjectKey": "quality_and_reliability_engg_V_me",
+      "shortCode": "qreV",
+      "fullName": "Quality & Reliability Engg - V",
+      "normalizedName": "quality_and_reliability_engg_V",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1qw9k6Yps5Lwio-voSQ7bWUmpIv9rYyaP",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_feb_2023_me_qreVm_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "1VwFgorZcq8GZPRKxDvO7iTyzXw0bglyB",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2023_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1woldM0hG6h9jN8X-54YC1togDkaUrNjJ",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2023_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1b5xtocCbyWCaVY2JJqzrn-_lz3CXObeA",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2024_me_qreVm_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "18ZyVBoSUKTzBC0PdBaf0Jh6vaD8ilWcm",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2024_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "10vk8BfYNrC9j-KJYX2aikfFx59whB76z",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2024_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1nKGSkR2m3qWtGYwn58J9u9hCgYAL2XZc",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/insem_mar_2025_me_qreVm_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2025
+        },
+        {
+          "pdfId": "1ZWDyyChI8b6jdQIHDFHIamFMfQzBK7WS",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_may_jun_2025_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "10F-U-1Neqd5sAxUZdq7J5AvObm4zKLzj",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/quality_and_reliability_engg_V_me/endsem_nov_dec_2025_me_qreVm_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "renewable_energy_technologies_ele_VI_me": {
+      "subjectKey": "renewable_energy_technologies_ele_VI_me",
+      "shortCode": "ret_eVI",
+      "fullName": "Renewable Energy Technologies - Ele VI",
+      "normalizedName": "renewable_energy_technologies_ele_VI",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1P0OSqxjrL0kxmSiS9ppCRG6wYtXIFZKp",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_feb_2023_me_retm_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2023
+        },
+        {
+          "pdfId": "18MIPzHLUY1NnlR_nPpwKJ_3JBhDVkqh-",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2023_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "13AJfC_yYkPZMP8owCSYy9Vyt5NnpYUZ8",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2023_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1mJgnRGthqw8IYYHokpfa1NihFt6uDN9x",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/insem_mar_2024_me_retm_eVI_2019p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2024
+        },
+        {
+          "pdfId": "1HOsgY7RIPc7ABcGJnS9JSMrYssVa0iZ3",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2024_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1j7TskbEEhczVqAp-U1v9hww5nnbY8TI4",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2024_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "14Ri0WqDidFta8Sm85YnW2XIM_TKP9OCk",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_may_jun_2025_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1tVbsH1txpNFIQZ762kltCdE9Mpf0Bzn8",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/renewable_energy_technologies_ele_VI_me/endsem_nov_dec_2025_me_retm_eVI_2019p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "turbomachinery_me": {
+      "subjectKey": "turbomachinery_me",
+      "shortCode": "t",
+      "fullName": "Turbomachinery",
+      "normalizedName": "turbomachinery",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "1wMG7U8YG-EMZRtsVUB2dICxr9B0DTUCH",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2022_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2022
+        },
+        {
+          "pdfId": "1rgX0QJW-12H67BFGDbaueEFVvoDg4-Nm",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2023_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2023
+        },
+        {
+          "pdfId": "1ccKCrdQDN9_u5A5TX5G1COTILjIO5_0f",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2023_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2023
+        },
+        {
+          "pdfId": "1-rWDyeTi6Kgg4RW42DA3-8Wp8lOtkoap",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2024_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2024
+        },
+        {
+          "pdfId": "1Q5a9450TYJpiHfy7MMwE3DosTtQrFNaP",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2024_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2024
+        },
+        {
+          "pdfId": "1c0U5ibrmjEVEjV4k9nuNH-oud6GGIviy",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_may_jun_2025_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "may_jun",
+          "year": 2025
+        },
+        {
+          "pdfId": "1znN6nG6aNnledduY4xBgrd2ERJcDywd7",
+          "canonicalPath": "papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2025_me_tm_2019p.pdf",
+          "exam": "other",
+          "month": "nov_dec",
+          "year": 2025
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
     }
   }
 }

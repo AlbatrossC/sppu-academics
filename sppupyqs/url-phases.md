@@ -1,6 +1,6 @@
 # URL Phases
 
-Completed phases: 0/57
+Completed phases: 0/63
 
 ## Phase 1
 Status: TODO
@@ -795,3 +795,79 @@ https://sppupyqs.pages.dev/honors/robot_programming_and_simulation_hc
 https://sppupyqs.pages.dev/honors/statistics_and_machine_learning_hc
 https://sppupyqs.pages.dev/honors/sustainable_architecture_and_landscape_design_hc
 https://sppupyqs.pages.dev/honors/virtual_reality_hc
+
+## Phase 58
+Status: TODO
+
+https://sppupyqs.pages.dev/2019/automobile_design_ele_III_me
+https://sppupyqs.pages.dev/2019/dynamics_of_machinery_me
+https://sppupyqs.pages.dev/2019/heating_ventilation_air_condi_and_refrigeration_me
+https://sppupyqs.pages.dev/2019/industrial_engineering_ele_III_me
+https://sppupyqs.pages.dev/2019/modelling_and_simulation_of_ehv_me
+https://sppupyqs.pages.dev/2019/modern_machining_processes_ele_III_me
+https://sppupyqs.pages.dev/2019/operation_research_ele_IV_me
+https://sppupyqs.pages.dev/2019/product_design_and_development_ele_IV_me
+https://sppupyqs.pages.dev/2019/computer_integrated_manufacturing_me
+https://sppupyqs.pages.dev/2019/electrical_and_hybrid_vehicle_ele_VI_me
+
+## Phase 59
+Status: TODO
+
+https://sppupyqs.pages.dev/2019/energy_audit_and_management_ele_V_me
+https://sppupyqs.pages.dev/2019/energy_engineering_me
+https://sppupyqs.pages.dev/2019/process_equipment_design_ele_VI_me
+https://sppupyqs.pages.dev/2019/quality_and_reliability_engg_V_me
+https://sppupyqs.pages.dev/2019/renewable_energy_technologies_ele_VI_me
+https://sppupyqs.pages.dev/2019/turbomachinery_me
+https://sppupyqs.pages.dev/2015/automobile_engg_ele_II_me
+https://sppupyqs.pages.dev/2015/cad_cam_and_automation_me
+https://sppupyqs.pages.dev/2015/dynamics_of_machinery_me
+https://sppupyqs.pages.dev/2015/energy_audit_mgt_me
+
+## Phase 60
+Status: TODO
+
+https://sppupyqs.pages.dev/2015/finite_element_analysis_ele_I_me
+https://sppupyqs.pages.dev/2015/heating_ventilation_and_air_conditioning_ele_I_me
+https://sppupyqs.pages.dev/2015/hydraulics_and_pneumatics_me
+https://sppupyqs.pages.dev/2015/operation_research_me
+https://sppupyqs.pages.dev/2015/refrigeration_and_air_conditioning_me
+https://sppupyqs.pages.dev/2015/advanced_manufacturing_processes_me
+https://sppupyqs.pages.dev/2015/energy_engineering_me
+https://sppupyqs.pages.dev/2015/industrial_engg_ele_III_me
+https://sppupyqs.pages.dev/2015/mechanical_system_design_me
+https://sppupyqs.pages.dev/2015/product_design_and_development_me
+
+## Phase 61
+Status: TODO
+
+https://sppupyqs.pages.dev/2015/solar_and_wind_energy_ele_IV_me
+https://sppupyqs.pages.dev/2012/advanced_manufacturing_processes_ele_II_me
+https://sppupyqs.pages.dev/2012/cad_cam_and_automation_me
+https://sppupyqs.pages.dev/2012/dynamics_of_machinery_me
+https://sppupyqs.pages.dev/2012/energy_audit_and_management_elective_I_me
+https://sppupyqs.pages.dev/2012/gas_turbine_and_propulsion_ele_II_me
+https://sppupyqs.pages.dev/2012/machine_tool_design_elective_I_me
+https://sppupyqs.pages.dev/2012/operation_research_me
+https://sppupyqs.pages.dev/2012/product_design_and_development_me
+https://sppupyqs.pages.dev/2012/refrigeration_and_airconditioning_me
+
+## Phase 62
+Status: TODO
+
+https://sppupyqs.pages.dev/2012/reliability_engineering_me
+https://sppupyqs.pages.dev/2012/tribology_elective_I_me
+https://sppupyqs.pages.dev/2012/automobile_engineering_elective_III_me
+https://sppupyqs.pages.dev/2012/computational_fluid_dynamics_me
+https://sppupyqs.pages.dev/2012/design_of_pumps_blowers_and_compressors_ele_IV_me
+https://sppupyqs.pages.dev/2012/finite_element_analysis_elective_IV_me
+https://sppupyqs.pages.dev/2012/industrial_engineering_elective_III_me
+https://sppupyqs.pages.dev/2012/machanical_system_design_me
+https://sppupyqs.pages.dev/2012/power_plant_engineering_me
+https://sppupyqs.pages.dev/2012/product_life_cycle_management_elective_III_me
+
+## Phase 63
+Status: TODO
+
+https://sppupyqs.pages.dev/2012/refrigeration_and_air_conditioning_equipment_design_ele_III_me
+https://sppupyqs.pages.dev/2012/robotics_ele_III_me

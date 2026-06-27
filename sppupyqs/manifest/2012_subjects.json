@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2012_pattern",
   "patternYear": "2012",
-  "generatedAt": "2026-06-11T13:46:00Z",
+  "generatedAt": "2026-06-27T06:25:42Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -13477,6 +13477,1406 @@
       "yearKey": "te",
       "yearName": "TE",
       "yearFullName": "Third Year"
+    },
+    "advanced_manufacturing_processes_ele_II_me": {
+      "subjectKey": "advanced_manufacturing_processes_ele_II_me",
+      "shortCode": "amp_eII",
+      "fullName": "Advanced Manufacturing Processes_Ele_II",
+      "normalizedName": "advanced_manufacturing_processes_ele_II",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1I1QcB79s2rj3YgZ9Y-SKtzX4hh64I8fh",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_may_jun_2016_me_ampm_eII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1xGBQ_5XgFcodC6VB19Cj9RdeLxSr-pC6",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/endsem_nov_dec_2016_me_ampm_eII_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1RpxMbOiOmxTAPsvHPbpOV4G1LW9OZR9U",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/advanced_manufacturing_processes_ele_II_me/insem_oct_2016_me_ampm_eII_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "automobile_engineering_elective_III_me": {
+      "subjectKey": "automobile_engineering_elective_III_me",
+      "shortCode": "ae_eIII",
+      "fullName": "Automobile Engineering_Elective_III",
+      "normalizedName": "automobile_engineering_elective_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1BHFnpM7AiRhDB3CKrtxOx4MbkSOeBUCD",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/automobile_engineering_elective_III_me/insem_apr_2017_me_aem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "cad_cam_and_automation_me": {
+      "subjectKey": "cad_cam_and_automation_me",
+      "shortCode": "cca",
+      "fullName": "CAD CAM & Automation",
+      "normalizedName": "cad_cam_and_automation",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1ZUqhnvXRwH2MgZ5plMGknOCmn7IUsRlo",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2015_me_ccam_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "1GQlPlmiSHPFeyAS96HENgZtA9o53dFu3",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2015_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1GKDowjCf5woPa5pBhv_s4SeUyC8y8Crx",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2016_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1GEf1kL-Q9jZW_zv9bCX5MPJrRM3tLhFi",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2016_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1LrMotiFzgL1eWBSEkc8scdGTIQf5mTDa",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_oct_2016_me_ccam_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1nmWU19RiSmWW68dsozdSnukPUjNqTDw1",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/insem_aug_2017_me_ccam_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1BvsDgOAGN-jxPZkI4XTMPrGsOT31bJNM",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_may_jun_2017_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1dQRkArzobfQjgGhBEZiuB2sRkd2MTo1w",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2017_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1LM0LPVs4cHT2RClEAI1N9ijUI0f8hPbx",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/cad_cam_and_automation_me/endsem_nov_dec_2018_me_ccam_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "computational_fluid_dynamics_me": {
+      "subjectKey": "computational_fluid_dynamics_me",
+      "shortCode": "cfd",
+      "fullName": "Computational Fluid Dynamics",
+      "normalizedName": "computational_fluid_dynamics",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1jI0ksdi4eVVkCCjqNKoKcPvRiaH8cJSd",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/endsem_may_jun_2016_me_cfdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1r8r_mFmBcmq4a1IRNkrvE5I__FYFOTaj",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/computational_fluid_dynamics_me/insem_apr_2017_me_cfdm_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "design_of_pumps_blowers_and_compressors_ele_IV_me": {
+      "subjectKey": "design_of_pumps_blowers_and_compressors_ele_IV_me",
+      "shortCode": "dpbc_eIV",
+      "fullName": "Design of Pumps, Blowers & Compressors_Ele_IV",
+      "normalizedName": "design_of_pumps_blowers_and_compressors_ele_IV",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1IzSwu0K9fmdrZWR7tXm63d0MONBk2cti",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2016_me_dpbcm_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1W5Cy3tIIhr9Hl6aH2DmBF4CwIXXom_Vs",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_apr_2017_me_dpbcm_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        },
+        {
+          "pdfId": "1QZ9q0IaQCduGg03J2FYb_8gjq2b8FEUI",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2018_me_dpbcm_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1rRHtI5CC7J2F3iQt2_acAktC-LlqG0GI",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2018_me_dpbcm_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1iCdQc48PTxjtNWQ6qERsAwcfX6oQzTN9",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_nov_dec_2018_me_dpbcm_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1T8pRoOpTrjwGGnMBuMYthnqLwpJD-VHw",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/endsem_may_jun_2019_me_dpbcm_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1pxC2eMJpf5xV5AA2n1br665SwMC2_iuD",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/design_of_pumps_blowers_and_compressors_ele_IV_me/insem_mar_2020_me_dpbcm_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "dynamics_of_machinery_me": {
+      "subjectKey": "dynamics_of_machinery_me",
+      "shortCode": "dm",
+      "fullName": "Dynamics Of Machinery",
+      "normalizedName": "dynamics_of_machinery",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1xz-0cnrwB7a4QA8HMxWKuHeeFDhfFA_l",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2015_me_dmm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "17UUHRmiFUEy0VGtv4frPOorm-Y_lbkW7",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2015_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1l03KfaaQBSu0uZ5V_mrMBuXhBrBWBv07",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2016_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1Qmxg_b09uxJVoV7M1jnJh1YlGjClrsgk",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2016_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1A3KzCQRdKu68XPXPYVEyRYG4-Ix2gRy2",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_oct_2016_me_dmm_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1Oxxi6cp9wronPmhBXVfAzcLMx-F7ZI09",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2017_me_dmm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1lUus0nPe4g2_3IF7AbYHwrI0yN-ExqsJ",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2017_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1-o1ByFtkF6-aDtYISwyjfwYXbilmnT52",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2017_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1qG1AO05gZgiEjFVw91jbarjIp0sI6V5q",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/insem_aug_2018_me_dmm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1gdkgx6Is4u1uNz60GXnOExzimlvMcECK",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2018_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1uM70UTVPTZ6ZaOmM66N01oBTw3yEEHaN",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2018_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CAbh-ThXvdSecmxjTTSuT7pN_S0n-DAy",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_may_jun_2019_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "17WGWlkQtb6zroUm-eLvdng3MEhde5uo8",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/dynamics_of_machinery_me/endsem_nov_dec_2019_me_dmm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "energy_audit_and_management_elective_I_me": {
+      "subjectKey": "energy_audit_and_management_elective_I_me",
+      "shortCode": "eam_eI",
+      "fullName": "Energy Audit And Management_Elective I",
+      "normalizedName": "energy_audit_and_management_elective_I",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1gOg_3Ev4Qj_ehizSOnMmBSqMCwbj7h8L",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2015_me_eamm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "1FelqdBmej09cbPMdLOAVjUyKb7IRBh83",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2015_me_eamm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1voVAApKgN1pKZVZ7IlPAveMEsP34zwg2",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2016_me_eamm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1_VsN-GD5wLB0ufW5wahQ4wYptPYDD74l",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2016_me_eamm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1BfnBIeNpogKwjkxgH-scpFLgDO2JweuK",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_oct_2016_me_eamm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1vlEY3AEb50WAG5U1LB2rhZDxALetNOXr",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/insem_aug_2017_me_eamm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1yQqdxH35Rsi5VX2hqKF7FvCLY_TAJPkR",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_may_jun_2017_me_eamm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1XctGzLQCVjwxN0IjtlkRD6L45B-jGr_c",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/energy_audit_and_management_elective_I_me/endsem_nov_dec_2017_me_eamm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "finite_element_analysis_elective_IV_me": {
+      "subjectKey": "finite_element_analysis_elective_IV_me",
+      "shortCode": "fea_eIV",
+      "fullName": "Finite Element Analysis_Elective_IV",
+      "normalizedName": "finite_element_analysis_elective_IV",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "15h-R-qY7oaATFk28C1xGMTHzLp5SBQIT",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_feb_2016_me_feam_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2016
+        },
+        {
+          "pdfId": "1vC1P3iYHyhIHxGktGxJAF8UvkS-NVs7k",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2016_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1KNnYMcKXdmkSHKwCKurK3DCwYy9EqRAx",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2016_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "13iiwQC8JNnfbxeulAotfj3oFX1jrllaP",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_apr_2017_me_feam_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        },
+        {
+          "pdfId": "1nc0CGzc-a_RTte85Bva4Ctt-3mj3RExW",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2017_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1geqwGa6oaJ-8FP2kDQU5-J7O6p1mGzlM",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2017_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "15LLfbJ658bWf9Xe5x2X1RQg7vNamZHxE",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2018_me_feam_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1jw2Ohk-5mm-wKXBRpA_hbhtCQJEVL_8X",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2018_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1k2Pnbu-TMkV_2m-cDYqg9Rr9eBf16pjq",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2018_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1N0UGDz1ORCJJtNePuTbnCv76ax5AtRnq",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2019_me_feam_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TaEqf3GIiCqfHrMcrnDERnXYPgi9DFvu",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_may_jun_2019_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1BFOeMu4PV4ped7ZuFlomGogzOSal1Ja1",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/endsem_nov_dec_2019_me_feam_eIV_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1JHWyd4F-L93bdypvjLQSs34fXotRVhM3",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/finite_element_analysis_elective_IV_me/insem_mar_2020_me_feam_eIV_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "gas_turbine_and_propulsion_ele_II_me": {
+      "subjectKey": "gas_turbine_and_propulsion_ele_II_me",
+      "shortCode": "gtp_eII",
+      "fullName": "Gas Turbine & Propulsion_Ele_II",
+      "normalizedName": "gas_turbine_and_propulsion_ele_II",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1Ta6FmcvdWoKo4iLi0nKGNbBN8IeU514A",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_may_jun_2016_me_gtpm_eII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1ma3Ga0f3OUbDVVQ3GzD9LR_mg24guH8D",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/endsem_nov_dec_2016_me_gtpm_eII_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1oA7Sa2_93FEpQgO49tdKBBYpCV1Yj9Z3",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/gas_turbine_and_propulsion_ele_II_me/insem_oct_2016_me_gtpm_eII_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "industrial_engineering_elective_III_me": {
+      "subjectKey": "industrial_engineering_elective_III_me",
+      "shortCode": "ie_eIII",
+      "fullName": "Industrial Engineering_Elective_III",
+      "normalizedName": "industrial_engineering_elective_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1D9fgvEOUoTd8c2fK2PDHnvA0lUm2AEOZ",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_feb_2016_me_iem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2016
+        },
+        {
+          "pdfId": "1CF2Pn6jB1kOb-CMWBriIfGcmtq4hpAMC",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2016_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1EVDMIG0on2-PmZtVhz8DgfjulbbitgFr",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2016_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1CPjwiOmbidlIzixIsuL2-qa8Am9igw1z",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_apr_2017_me_iem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        },
+        {
+          "pdfId": "129VSllkb8lWQcpB0SOC_1HcwOMo_HZv0",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2017_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1iOPnyvKjRnDrkVbx1PdujKVR4evEripl",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2017_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1_LKnCHWR83ZAAZylR3qrZsLB9GWE5y_q",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2018_me_iem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ZSKomgF8XPPBHfD7kjL9E-dnSFHzdSfN",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2018_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1tVKyLLnhknpcJupQ56k-Mar6bkbyoP5O",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_nov_dec_2018_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1XOwuRmjlcFF5mEYWNKA5EUJ1JlHfFSjH",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2019_me_iem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1k_jI28baz9if44yYeV8HEIwzjn8COtbk",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/endsem_may_jun_2019_me_iem_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1_osrg0nlaWqcW_kO-Befh7WCyRdWR6KV",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/industrial_engineering_elective_III_me/insem_mar_2020_me_iem_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "machanical_system_design_me": {
+      "subjectKey": "machanical_system_design_me",
+      "shortCode": "msd",
+      "fullName": "Machanical System Design",
+      "normalizedName": "machanical_system_design",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1u2k6YLyVVkF0-gJDLdX4-lvRJL22oz7p",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_feb_2016_me_msdm_2012p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2016
+        },
+        {
+          "pdfId": "1IxDoeF2mECY89q8Ztzy2YFG8icu8jSVE",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2016_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1W2yOfhUuigf9kpImE04ffLVH7oExgC1w",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2016_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1KYEeUk_oxhrJmarstU5MxLc4SkgIGO0T",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_apr_2017_me_msdm_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        },
+        {
+          "pdfId": "1WBx_4_e12xtUJtAQrOFDpUiWWCOHKy0-",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2017_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1SDrZtro-bzp6DE14REOx8wm5O4JPuVLH",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2017_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1WKF5jdZ05UEKpkieA2rTOTs3MZEXvTE4",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2018_me_msdm_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1k9o2d9wNrL9naCdtxFHODBx4icTDw3PA",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2018_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1_qRikU6gS0Oz3Cf-vzf0iCgU4y_1YAdR",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2018_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1CvQvW0N55pc8p8dkU-e9nAWwyFu_69_Y",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2019_me_msdm_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1TvO-15714xRv7g9pMLKNQi9ymD3qldAN",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_may_jun_2019_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1y2t4ShFrHpS6zOhFcSDOC_jUCHSDBLVj",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/endsem_nov_dec_2019_me_msdm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1Bf81MqNBzbEGB0vlmyXz2ynuQCL-Yej3",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machanical_system_design_me/insem_mar_2020_me_msdm_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "machine_tool_design_elective_I_me": {
+      "subjectKey": "machine_tool_design_elective_I_me",
+      "shortCode": "mtd_eI",
+      "fullName": "Machine Tool Design_Elective - I",
+      "normalizedName": "machine_tool_design_elective_I",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1mV6Wk5Q9oKKPl8uKNcJIbA0FVaCSJjUN",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_nov_dec_2015_me_mtdm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1VS2g2poXj_jJ9qK_gxejEl7DvPWpCMYA",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/endsem_may_jun_2016_me_mtdm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1hRm1NVf-XTVhT9IFNhmKOKH3lGbCa_A7",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/machine_tool_design_elective_I_me/insem_oct_2016_me_mtdm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "operation_research_me": {
+      "subjectKey": "operation_research_me",
+      "shortCode": "or",
+      "fullName": "Operation Research",
+      "normalizedName": "operation_research",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1SzrYdSk7jV2TlSZfsapE2y2-MwKDqMi4",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2015_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1N6NfBCQ1hxhKZ4rajSc0RQ2tdf-Qxpqg",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2016_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1ZIkRbhKXaKfBI--X__BItTGSfz3zC82I",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2016_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "10Q0vszJ9d6RDC18pXr5UdWB7i25_R4ej",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_oct_2016_me_orm_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1Mp8I2RvpkfZQ9orxSEZghofNRq4YAQ9E",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2017_me_orm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Vfvdr9l05_n-2SD9H5EQE35tHjUxc67q",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2017_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1qN7GQPFX55j3ACjg97ufWiliBbbZ5Wny",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2017_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1uqvIQJzLVOPklBkf7CH1TSuQsV0C_k4R",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/insem_aug_2018_me_orm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1AIWqNFK3HV6jZGx-1Ut5Bj6SDmJF2qvr",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2018_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1EeMFmVgY5MeN79gyJzHnNIHH3Jg-TIJw",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2018_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1KLnHFI4oR9sX2WVfHQhp-kgFHsvtvkhO",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_may_jun_2019_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1a-ORQZ-LnCVNHb15_qwguW2ax84yCCOY",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/operation_research_me/endsem_nov_dec_2019_me_orm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "power_plant_engineering_me": {
+      "subjectKey": "power_plant_engineering_me",
+      "shortCode": "ppe",
+      "fullName": "Power Plant Engineering",
+      "normalizedName": "power_plant_engineering",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1SgHLy9Z2D1Q8247H7STPUQbXSIJ1alC9",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_feb_2016_me_ppem_2012p.pdf",
+          "exam": "insem",
+          "month": "feb",
+          "year": 2016
+        },
+        {
+          "pdfId": "1K3y6mSGrQHyQrrcMYDT7_xRQiNYMOdqt",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2016_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "14Y8Hb_nfiYt2Sk-SQu77YeZUM1G8fOsf",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2016_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "10derqh8xJqqS3V71vwyaNcZLKTrN0r6y",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_apr_2017_me_ppem_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        },
+        {
+          "pdfId": "1GKb5S5tfOfo3m_qwyHZQRuobZuaXTk9J",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2017_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1OvVvEV8pf3sjERk2hRjWjci0zYuUeT2v",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2017_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1OSvt5r7IoY8-kCZ6ESeBjuBnWtIH5oGi",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2018_me_ppem_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2018
+        },
+        {
+          "pdfId": "1uIOCVl62f-x8bXbuYYZhHh5aQ4G7buTq",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2018_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "1fx9734EMZy7qnJUkkin3BkDwwzXkfYE9",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2018_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "1lQnG9oUtW8TZ4iA40OmvKmTvXv9PP3pS",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2019_me_ppem_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2019
+        },
+        {
+          "pdfId": "1WBWP2nKQ7nygDShn-UUdmgSlbi9eLc3i",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_may_jun_2019_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1sOEtWh39scGz7d4eDgxioQpuB17C15gc",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/endsem_nov_dec_2019_me_ppem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "1piH2xxcE4VzEt1j3D5xOf1idRZH0E1Jl",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/power_plant_engineering_me/insem_mar_2020_me_ppem_2012p.pdf",
+          "exam": "insem",
+          "month": "mar",
+          "year": 2020
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "product_design_and_development_me": {
+      "subjectKey": "product_design_and_development_me",
+      "shortCode": "pdd",
+      "fullName": "Product Design & Development",
+      "normalizedName": "product_design_and_development",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1qypbWfIrSG1JytpoOLytPJ5TbpYDHxIJ",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2015_me_pddm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "1YXqlk2ljIYTcpGNiYtVTwubc68v1Q1Kq",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2015_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "16W_eoepp5LSlh1CcoWdX2PrLhBYXyao8",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2016_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1iw1JBP327ELyQ8Udy9oNplhAgIsZl0Jw",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2016_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1BwVN6Dls7AE0aIuoR82soioWs9Beqnsb",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_oct_2016_me_pddm_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1DccewLY4Gu1sZXaaDhjll02x2r_nQnam",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/insem_aug_2017_me_pddm_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1fS0ij9XSdxUMXcigk0a9mvq2fceOje9p",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2017_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1l6NQTWCFU2lTjjGtt2fSrZn08vRyhMsN",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_nov_dec_2017_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1fe0c_Ofak0Ryfg_Y27WGHDT8qb_F18IS",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_design_and_development_me/endsem_may_jun_2018_me_pddm_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "product_life_cycle_management_elective_III_me": {
+      "subjectKey": "product_life_cycle_management_elective_III_me",
+      "shortCode": "plcm_eIII",
+      "fullName": "Product Life Cycle Management_Elective_III",
+      "normalizedName": "product_life_cycle_management_elective_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1EIYuF2rONZDZ8EZaYMjueqEOZu8R8Nw6",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/product_life_cycle_management_elective_III_me/insem_apr_2017_me_plcmm_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "refrigeration_and_air_conditioning_equipment_design_ele_III_me": {
+      "subjectKey": "refrigeration_and_air_conditioning_equipment_design_ele_III_me",
+      "shortCode": "raced_eIII",
+      "fullName": "Refrigeration & Air Conditioning Equipment design_Ele_III",
+      "normalizedName": "refrigeration_and_air_conditioning_equipment_design_ele_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1TLjKNcPkOSrbVqzFC5BlYIv7H-8MBTcT",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/endsem_may_jun_2016_me_racedm_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1cfeS_Xqxh7-q3oKM-m3QpOjW_jpCrrZ1",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_air_conditioning_equipment_design_ele_III_me/insem_apr_2017_me_racedm_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "refrigeration_and_airconditioning_me": {
+      "subjectKey": "refrigeration_and_airconditioning_me",
+      "shortCode": "ra",
+      "fullName": "Refrigeration and Airconditioning",
+      "normalizedName": "refrigeration_and_airconditioning",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1J6JJztKUaqlJeNKAygw1TCO3aYTQxOzu",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2015_me_ram_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "1aRUbqHyFzEpZNJdECC2yBQC3XbO97eDt",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2015_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1HlhfF8tdCHApIJ5txrIP4ucjJ4bOLTOY",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2016_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1T_thYLy7JjmQ9iJaIRmC9pQZGQmO-wD3",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2016_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "18jhlbCjsazqUWjtBcioRE5UClr0vb5Nd",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2016_me_ram_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        },
+        {
+          "pdfId": "1v4cdzj6uEYLxaJrUv61RcY4NHZ_Vivoy",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2017_me_ram_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2017
+        },
+        {
+          "pdfId": "1yi375fGxWxcYRo7tCH5sEOI7xXrUpJTB",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2017_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2017
+        },
+        {
+          "pdfId": "1Zke-MfFYFE68AEysFX26DKP1vheV_K8A",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2017_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2017
+        },
+        {
+          "pdfId": "1F9R0vhWwTz7cTAMMnmoWqLowokDGfVdY",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_aug_2018_me_ram_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2018
+        },
+        {
+          "pdfId": "1ZsiRkUh5ZDv_65OV7NoPlv26Qoxcojvi",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2018_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2018
+        },
+        {
+          "pdfId": "15SglFvmujBn64AGfaOYR0y5PhtiYARJ8",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2018_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2018
+        },
+        {
+          "pdfId": "12pqH8r8jR8n1BXEA3nyc5AzlQgLukOXS",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_may_jun_2019_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2019
+        },
+        {
+          "pdfId": "1SXcajERzLV8KSQKWo1XjSALW5sTjmYRW",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/endsem_nov_dec_2019_me_ram_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2019
+        },
+        {
+          "pdfId": "11T8PZuVeY-5vYU19BOsZrHvMYa4HtC67",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/refrigeration_and_airconditioning_me/insem_oct_2019_me_ram_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2019
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "reliability_engineering_me": {
+      "subjectKey": "reliability_engineering_me",
+      "shortCode": "re",
+      "fullName": "Reliability Engineering",
+      "normalizedName": "reliability_engineering",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1-tikD-A0Jpoo4OgQjtCuEv-WxfE3-xVf",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_aug_2015_me_rem_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "11hihO_y-fUTS2gKUQ2jZgp02jNcUvJtR",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2015_me_rem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1S6h10J5yLYwfQWOITTUnyqgN-uhOtplo",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_may_jun_2016_me_rem_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1mdm5cL0lJduKwucVnclIa3chR1w0K_1v",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/endsem_nov_dec_2016_me_rem_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2016
+        },
+        {
+          "pdfId": "1aHvlUg588Cr_uxiuukrSqklnEIYhMozV",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/reliability_engineering_me/insem_oct_2016_me_rem_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
+    },
+    "robotics_ele_III_me": {
+      "subjectKey": "robotics_ele_III_me",
+      "shortCode": "r_eIII",
+      "fullName": "Robotics_Ele_III",
+      "normalizedName": "robotics_ele_III",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1eUJL6ck3xtvRIGSSHXRnsoLaGDLWIjz_",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/endsem_may_jun_2016_me_rm_eIII_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1CFdrn9P3eg9vQnpjx7i4LZkugkwHGglW",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/robotics_ele_III_me/insem_apr_2017_me_rm_eIII_2012p.pdf",
+          "exam": "insem",
+          "month": "apr",
+          "year": 2017
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 8
+    },
+    "tribology_elective_I_me": {
+      "subjectKey": "tribology_elective_I_me",
+      "shortCode": "t_eI",
+      "fullName": "Tribology_Elective I",
+      "normalizedName": "tribology_elective_I",
+      "branchType": "standard",
+      "branchKey": "mechanical-engineering",
+      "branchCode": "me",
+      "branchName": "Mechanical Engineering",
+      "pattern": "2012_pattern",
+      "papers": [
+        {
+          "pdfId": "1BcaRvIIyGqKGDmw3OdOrro0-FGMZcaCG",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_aug_2015_me_tm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2015
+        },
+        {
+          "pdfId": "158lCG4v77r295TeyjzriyZUPU71CJZx7",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_nov_dec_2015_me_tm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "nov_dec",
+          "year": 2015
+        },
+        {
+          "pdfId": "1jew7YFWRVWdFU1BZWCIYSEOEwF0Ngvyy",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/endsem_may_jun_2016_me_tm_eI_2012p.pdf",
+          "exam": "endsem",
+          "month": "may_jun",
+          "year": 2016
+        },
+        {
+          "pdfId": "1Y49syhcXiw8oel-b73-itaNvDxwdNfx4",
+          "canonicalPath": "papers/mechanical-engineering/be/2012_pattern/tribology_elective_I_me/insem_oct_2016_me_tm_eI_2012p.pdf",
+          "exam": "insem",
+          "month": "oct",
+          "year": 2016
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
     }
   }
 }
