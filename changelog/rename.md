@@ -5,21 +5,21 @@ Review the planned moves below, then run `python3 tools/rename_files.py --apply`
 
 Machine-readable state is stored separately in `changelog/rename.json`.
 
-- Generated at: `2026-06-26T19:16:57Z`
-- Scope: `incoming`
+- Generated at: `2026-08-18T15:57:31Z`
+- Scope: `incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids`
 - Pending entries: `0`
-- Planned renames: `382`
-- Needs review: `3`
+- Planned renames: `383`
+- Needs review: `4`
 - Retry later: `0`
-- Total PDFs: `369`
-- Already normalized: `1`
-- Previously checkpointed: `0`
+- Total PDFs: `2`
+- Already normalized: `0`
+- Previously checkpointed: `1`
 - Reopened for apply: `0`
 - Retry pending: `0`
 - Remaining: `0`
 - Metadata pipeline: `pymupdf_text,paddleocr_gpu_then_cpu,groq`
 - PaddleOCR crop ratios: `[0.45, 0.65, 1.0]`
-- PaddleOCR device: `gpu:0 first, cpu fallback`
+- PaddleOCR device: `cpu first, cpu fallback`
 - PaddleOCR confidence threshold: `0.85`
 - PaddleOCR relaxed direct-phrase threshold: `0.55`
 - Groq keys: `3`
@@ -29,14 +29,14 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 
 ### Exam Types
 
-- `insem`: `129`
+- `insem`: `130`
 - `endsem`: `244`
 - `other`: `10`
-- `needs_review`: `3`
+- `needs_review`: `4`
 
 ### Marks
 
-- `30`: `129`
+- `30`: `130`
 - `50`: `9`
 - `70`: `244`
 
@@ -44,8 +44,8 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 
 - `already_normalized`: `1`
 - `paddleocr`: `121`
-- `review`: `3`
-- `text`: `261`
+- `review`: `4`
+- `text`: `262`
 
 ### Already Normalized
 
@@ -85,6 +85,17 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Source: `review`
 - Working target: `needs_review/honors-course/te/embedded_systems_and_internet_of_things_hc/May_Jun_2025.pdf`
 - Reason: Source file no longer exists: needs_review/honors-course/te/embedded_systems_and_internet_of_things_hc/May_Jun_2025.pdf
+
+### 4. Needs Review - Aug 2023.pdf
+
+- PDF: [Open PDF](../incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug%202023.pdf)
+- Incoming path: `incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug 2023.pdf`
+- Initial filename: `Aug 2023.pdf`
+- Changed filename: `Aug 2023.pdf`
+- Type: `needs_review`
+- Source: `review`
+- Working target: `needs_review/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug 2023.pdf`
+- Reason: Source file no longer exists: incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug 2023.pdf
 
 ## Planned Renames
 
@@ -5435,3 +5446,17 @@ Machine-readable state is stored separately in `changelog/rename.json`.
 - Working target: `incoming/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2025_me_tm_2019p.pdf`
 - Expected papers path: `papers/mechanical-engineering/be/2019_pattern/turbomachinery_me/other_nov_dec_2025_me_tm_2019p.pdf`
 - Reason: marks=50; date_from=filename; marks from PyMuPDF header text
+
+### 383. INSEM - Aug 2024.pdf
+
+- PDF: [Open PDF](../incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug%202024.pdf)
+- Incoming path: `incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/Aug 2024.pdf`
+- Initial filename: `Aug 2024.pdf`
+- Changed filename: `insem_aug_2024_aids_bia_eIII_2019p.pdf`
+- Type: `insem`
+- Marks: `30`
+- Month/year: `aug_2024`
+- Source: `text`
+- Working target: `incoming/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2024_aids_bia_eIII_2019p.pdf`
+- Expected papers path: `papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2024_aids_bia_eIII_2019p.pdf`
+- Reason: marks=30; date_from=filename; marks from PyMuPDF header text | WARNING: no SQLite row matched at apply time.

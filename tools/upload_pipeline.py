@@ -428,14 +428,12 @@ def record_for_pdf(path: Path, names: NameLookup, tracking_lookup: dict[str, str
 
 def upsert_scan_record(connection: sqlite3.Connection, record: dict[str, Any], now: str, by_pdf_id: dict[str, sqlite3.Row], by_path: dict[str, sqlite3.Row]) -> str:
     existing = by_pdf_id.get(record["pdf_id"] or "") if record["pdf_id"] else by_path.get(record["canonical_path"])
-    state = "NEEDS_TRACKING_ID" if not record["pdf_id"] else "PENDING"
-    r2_status = "PENDING" if record["pdf_id"] else "SKIPPED"
-    cloudinary_status = "PENDING" if record["pdf_id"] else "SKIPPED"
+    state = "PENDING"
+    r2_status = "PENDING"
+    cloudinary_status = "PENDING"
 
     if existing:
-        if not record["pdf_id"]:
-            state = "NEEDS_TRACKING_ID"
-        elif existing["canonical_path"] != record["canonical_path"]:
+        if existing["canonical_path"] != record["canonical_path"]:
             state = "RENAMED"
         elif existing["sha256"] != record["sha256"] or int(existing["size_bytes"]) != int(record["size_bytes"]):
             state = "MODIFIED"
@@ -1011,7 +1009,7 @@ def sync_uploads(workers: int = 4, limit: int = 0, state_filter: str = "") -> Co
     validate_upload_environment()
     now = utc_now()
     counts: Counter[str] = Counter()
-    upload_states = ("PENDING", "MODIFIED", "RENAMED", "FAILED")
+    upload_states = ("PENDING", "MODIFIED", "RENAMED", "FAILED", "NEEDS_TRACKING_ID")
     if state_filter:
         upload_states = (state_filter,)
     placeholders = ",".join("?" for _ in upload_states)
@@ -1020,7 +1018,6 @@ def sync_uploads(workers: int = 4, limit: int = 0, state_filter: str = "") -> Co
             f"""
             SELECT * FROM uploaded_pdfs
             WHERE state IN ({placeholders})
-              AND pdf_id IS NOT NULL
             ORDER BY canonical_path
             """,
             upload_states,
@@ -1029,7 +1026,7 @@ def sync_uploads(workers: int = 4, limit: int = 0, state_filter: str = "") -> Co
             rows = rows[:limit]
         if not rows:
             scope = f" in state {state_filter}" if state_filter else ""
-            print(f"No uploadable PDFs remain{scope}. Everything is either uploaded, removed, or waiting for review.", flush=True)
+            print(f"No uploadable PDFs remain{scope}. Everything is either uploaded or removed.", flush=True)
             return counts
 
         total = len(rows)
@@ -1459,7 +1456,13 @@ def status_counts() -> Counter[str]:
     counts["PAPERS"] = paper_total
     counts["TRACKED"] = tracked
     counts["LOCAL_UNTRACKED"] = untracked_local
-    counts["UPLOADABLE_REMAINING"] = counts["PENDING"] + counts["MODIFIED"] + counts["RENAMED"] + counts["FAILED"]
+    counts["UPLOADABLE_REMAINING"] = (
+        counts["PENDING"]
+        + counts["MODIFIED"]
+        + counts["RENAMED"]
+        + counts["FAILED"]
+        + counts["NEEDS_TRACKING_ID"]
+    )
     counts["NOT_UPLOADED"] = max(paper_total - uploaded, 0)
     counts["REMAINING"] = counts["NOT_UPLOADED"]
     return counts
@@ -1507,7 +1510,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--yes", action="store_true", help="Skip bulk-delete confirmation prompt.")
     parser.add_argument(
         "--state",
-        choices=["PENDING", "MODIFIED", "RENAMED", "FAILED"],
+        choices=["PENDING", "MODIFIED", "RENAMED", "FAILED", "NEEDS_TRACKING_ID"],
         default="",
         help="Restrict sync to one upload state. Useful for retrying FAILED only.",
     )

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-27T06:25:42Z",
+  "generatedAt": "2026-08-18T16:04:04Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"

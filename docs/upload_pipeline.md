@@ -96,7 +96,7 @@ R2_PUBLIC_BASE_URL=https://sppu-pyqs.albatrossc.workers.dev
 | `RENAMED` | File was renamed since last upload |
 | `REMOVED` | File removed from `papers/` |
 | `FAILED` | Upload attempt failed |
-| `NEEDS_TRACKING_ID` | Missing provider ID in DB |
+| `NEEDS_TRACKING_ID` | Legacy/manual local row without a Drive file ID; still uploadable |
 
 `status` also prints:
 

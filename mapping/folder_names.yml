@@ -658,6 +658,9 @@ name_registry:
     normalized: bioinformatics_ele_IV_ie
     code: bi_eIV
     id: 11M5Gupm8g6Liglj7DDk740cpwyT6xvoU
+  bioinformatics_ele_III_aids:
+    normalized: bioinformatics_ele_III_aids
+    code: bia_eIII
   Biomedical Electronics_Ele-IV:
     normalized: biomedical_electronics_ele_IV
     code: be_eIV
