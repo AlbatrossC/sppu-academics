@@ -10,6 +10,7 @@ import os
 import re
 import sqlite3
 import sys
+import zlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import Counter
 from datetime import datetime, timezone
@@ -1342,7 +1343,7 @@ def add_paper(subjects: dict[str, Any], row: sqlite3.Row, semester_mapping: dict
     metadata = parse_pdf_filename(row["filename"])
     subject["papers"].append(
         {
-            "pdfId": row["pdf_id"],
+            "pdfId": row["pdf_id"] or f"local:{zlib.crc32(str(row['canonical_path']).encode('utf-8')):08x}",
             "canonicalPath": row["canonical_path"],
             "exam": metadata["exam"],
             "month": metadata["month"],
@@ -1415,7 +1416,7 @@ def generate_manifests() -> Counter[str]:
         rows = connection.execute(
             """
             SELECT * FROM uploaded_pdfs
-            WHERE state = 'UPLOADED' AND pdf_id IS NOT NULL
+            WHERE state = 'UPLOADED'
             ORDER BY branch_name, year_or_semester, subject_key, filename
             """
         ).fetchall()

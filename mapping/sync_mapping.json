@@ -91,6 +91,15 @@
                   "parent_id": "1WUkRXhLHHdzjPVReyUEhlfvNLrXv0aau",
                   "path": "Artificial Intelligence and Data Science/BE/2019 Pattern/UI - UX Design",
                   "drive_path": "Artificial Intelligence and Data Science/BE/2019 Pattern/UI - UX Design"
+                },
+                "Bioinformatics_Ele_III": {
+                  "folder_id": "third_party_bioinformatics_ele_III_aids",
+                  "parent_id": "1WUkRXhLHHdzjPVReyUEhlfvNLrXv0aau",
+                  "path": "Artificial Intelligence and Data Science/BE/2019 Pattern/Bioinformatics_Ele_III",
+                  "drive_path": "third_party/Artificial Intelligence and Data Science/BE/2019 Pattern/Bioinformatics_Ele_III",
+                  "source": "third_party",
+                  "source_group": "third_party",
+                  "notes": "Manual third-party source; not discovered from the Zeal Education Google Drive mapping."
                 }
               }
             }

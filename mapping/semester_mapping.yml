@@ -5,6 +5,7 @@ standard:
     be:
       2019_pattern:
         big_data_analytics_ele_V_aids: 8
+        bioinformatics_ele_III_aids: 7
         business_intelligence_ele_VI_aids: 8
         computational_intelligence_aids: 8
         data_modeling_and_visualization_aids: 7

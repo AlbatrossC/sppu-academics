@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "family": "honors",
-  "generatedAt": "2026-08-18T16:04:04Z",
+  "generatedAt": "2026-08-18T16:33:19Z",
   "hierarchy": {
     "honorsCourse": {
       "branchKey": "honors-course",

@@ -162,6 +162,8 @@ MBA uses `semesters` instead of `years`:
 
 MBA subjects under specialization containers are flattened under their pattern and keep an additional `drive_path` and `source_group` field.
 
+Standard-branch subjects may also use `source: "third_party"` for manually added PDFs that do not exist in the primary Google Drive tree. These entries keep the normal branch/year/pattern/subject path, use a stable pseudo `folder_id`, and set `drive_path` to a `third_party/...` audit path.
+
 ---
 
 ## Honors Course JSON Schema

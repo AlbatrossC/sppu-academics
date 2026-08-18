@@ -650,6 +650,14 @@ name_registry:
     normalized: big_data_analytics_ele_V_aids
     code: bdaa_eV
     id: 1VaRFdiG5vHh7M_Pry2V0m0-KvPi6reeK
+  Bioinformatics_Ele_III:
+    normalized: bioinformatics_ele_III
+    code: b_eIII
+    id: third_party_bioinformatics_ele_III_aids
+  bioinformatics_ele_III_aids:
+    normalized: bioinformatics_ele_III_aids
+    code: bia_eIII
+    id: third_party_bioinformatics_ele_III_aids
   Bioinformatics_Ele_IV:
     normalized: bioinformatics_ele_IV
     code: b_eIV
@@ -658,9 +666,6 @@ name_registry:
     normalized: bioinformatics_ele_IV_ie
     code: bi_eIV
     id: 11M5Gupm8g6Liglj7DDk740cpwyT6xvoU
-  bioinformatics_ele_III_aids:
-    normalized: bioinformatics_ele_III_aids
-    code: bia_eIII
   Biomedical Electronics_Ele-IV:
     normalized: biomedical_electronics_ele_IV
     code: be_eIV
@@ -6307,6 +6312,10 @@ standard:
                   id: 1cVOL2eUinTyUA8a_oBdfJZX9W8Ok6gN8
                   normalized: ui_ux_design_aids
                   code: uuda
+                Bioinformatics_Ele_III:
+                  id: third_party_bioinformatics_ele_III_aids
+                  normalized: bioinformatics_ele_III_aids
+                  code: bia_eIII
         SE:
           id: 1XGcvvYtb3aQO3FSCYPFFzFvQZdgJXHSL
           normalized: se
