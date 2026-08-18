@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://sppupyqs.pages.dev/sitemap.xml
-

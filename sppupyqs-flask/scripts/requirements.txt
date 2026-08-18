@@ -1,8 +1,0 @@
-google-genai
-Pillow
-PyMuPDF
-pytesseract
-python-dotenv
-questionary
-requests
-rich
