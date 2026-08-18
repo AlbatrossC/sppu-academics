@@ -18,7 +18,7 @@
 
 | | Site | What it does |
 |:---:|:---|:---|
-| 🖥️ | [**sppucodes.vercel.app**](https://sppucodes.vercel.app) | Lab programs & code solutions for all SPPU subjects |
+| 🖥️ | [**sppucodes.vercel.app**](https://sppucodes.vercel.app) | Lab programs & code solutions for SPPU subjects |
 | 📄 | [**sppupyqs.pages.dev**](https://sppupyqs.pages.dev) | Previous year question papers with exam-prep tools |
 | ⚙️ | `shared/` | Worker scripts & utilities shared across both sites |
 
@@ -30,17 +30,17 @@
 
 ## 📁 Repository Structure
 
-This repo is a monorepo — both sites live here, along with shared utilities that power them both.
+This repo is a monorepo: both sites live here, along with shared utilities that power them.
 
-```
+```text
 sppu-academics/
 │
-├── 📂 sppucodes/       →  Programs & Code Solutions (Flask app)
-├── 📂 sppupyqs/        →  Previous Year Question Papers (Flask app)
-└── 📂 shared/          →  Shared workers & common utilities
+├── 📂 sppucodes/       → Programs & code solutions (Flask app)
+├── 📂 sppupyqs/        → Previous year question papers (static Cloudflare Pages site)
+└── 📂 shared/          → Shared workers & common utilities
 ```
 
-> 🔧 The `shared/` folder contains worker logic used across both sites — background jobs, data fetching, and common helpers. See [**worker.md**](./worker.md) for a detailed breakdown.
+> 🔧 The `shared/` folder contains worker logic used across both sites: background jobs, data fetching, and common helpers. See [**shared/workers/**](./shared/workers/) for the worker READMEs.
 
 ---
 
@@ -48,9 +48,9 @@ sppu-academics/
 
 ## 🖥️ sppucodes — Code & Programs
 
-> 🌐 **[sppucodes.vercel.app](https://sppucodes.vercel.app)** &nbsp;|&nbsp; 📖 [Developer breakdown →](./sppucodes/README.md)
+> 🌐 **[sppucodes.vercel.app](https://sppucodes.vercel.app)** &nbsp;|&nbsp; 📖 [Developer breakdown →](./sppucodes/Readme.md)
 
-`sppucodes` is a lightweight portal for SPPU lab programs and code solutions. Whether you're stuck on a DSL question at midnight or just want to cross-check your output, this site has you covered — no account, no clutter, no wait.
+`sppucodes` is a lightweight portal for SPPU lab programs and code solutions. Whether you're stuck on a DSL question at midnight or just want to cross-check your output, this site has you covered: no account, no clutter, no wait.
 
 Browse solutions by subject directly in the browser, or skip the browser entirely and pull code straight into your terminal using the built-in API.
 
@@ -63,13 +63,13 @@ Browse solutions by subject directly in the browser, or skip the browser entirel
 <td width="50%">
 
 📚 &nbsp;**Subject-wise solutions**
-Solutions are organized by subject code so you can jump straight to what you need — no digging through unrelated content.
+Solutions are organized by subject code so you can jump straight to what you need.
 
 </td>
 <td width="50%">
 
 ⚡ &nbsp;**Terminal API**
-Fetch any program directly from your command line with a single `curl` command. No browser, no tabs, no fuss.
+Fetch any program directly from your command line with a single `curl` command.
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Fetch any program directly from your command line with a single `curl` command. 
 <td>
 
 🔍 &nbsp;**Clean, readable code**
-Every solution is formatted for readability — proper indentation, clear structure, and context where it helps.
+Every solution is formatted for readability: proper indentation, clear structure, and context where it helps.
 
 </td>
 <td>
@@ -103,13 +103,13 @@ No login. No signup. No paywalls. Open the site and start browsing immediately.
 
 ### 🚀 Terminal API — Get Code Without Opening a Browser
 
-Why switch to a browser when your terminal is already open? The `sppucodes` API lets you fetch any lab solution with a single command — works on Windows, and prints the output directly in your terminal.
+Why switch to a browser when your terminal is already open? The `sppucodes` API lets you fetch any lab solution with a single command, and prints the output directly in your terminal.
 
 <br/>
 
 **URL format:**
 
-```
+```text
 https://sppucodes.vercel.app/api/{subject_code}/{question_no}
 ```
 
@@ -136,17 +136,17 @@ curl.exe https://sppucodes.vercel.app/api/{subject_code}/{question_no}
 
 **3️⃣ &nbsp; Your code appears instantly**
 
-The full solution is printed right in your terminal — ready to copy, run, or save.
+The full solution is printed right in your terminal, ready to copy, run, or save.
 
 <br/>
 
-**Example — fetching CNL Question 16:**
+**Example: fetching CNL Question 16**
 
 ```bash
 curl.exe https://sppucodes.vercel.app/api/cnl/16
 ```
 
-> This returns the complete solution for **Computer Networks Lab (CNL)**, Question **16**, directly in your terminal — no browser tab needed.
+> This returns the complete solution for **Computer Networks Lab (CNL)**, Question **16**, directly in your terminal.
 
 <br/>
 
@@ -160,11 +160,11 @@ curl.exe https://sppucodes.vercel.app/api/cnl/16
 
 ### ⚙️ Run Locally
 
-Both sites are independent Flask apps. To run `sppucodes` on your machine:
+To run `sppucodes` on your machine:
 
 ```bash
 cd sppucodes
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python app.py
 ```
 
@@ -180,7 +180,7 @@ Then open **[http://localhost:5000](http://localhost:5000)** in your browser.
 
 > 🌐 **[sppupyqs.pages.dev](https://sppupyqs.pages.dev)** &nbsp;|&nbsp; 📖 [Developer breakdown →](./sppupyqs/README.md)
 
-`sppupyqs` is a dedicated portal for SPPU previous year question papers. Finding old papers shouldn't be a scavenger hunt — this site organizes everything cleanly, lets you view papers without downloading, and removes the watermarks that make papers hard to read. Whether you're doing a full revision or just checking which questions repeat, it's built to get out of your way and let you focus.
+`sppupyqs` is a dedicated portal for SPPU previous year question papers. Finding old papers shouldn't be a scavenger hunt: this site organizes everything cleanly, lets you view papers without downloading, and removes the watermarks that make papers hard to read. Whether you're doing a full revision or just checking which questions repeat, it's built to get out of your way and let you focus.
 
 <br/>
 
@@ -191,7 +191,7 @@ Then open **[http://localhost:5000](http://localhost:5000)** in your browser.
 <td width="50%">
 
 🪟 &nbsp;**Split Layout**
-Open two papers side by side in a split view — compare questions across years without juggling tabs or windows.
+Open two papers side by side in a split view and compare questions across years without juggling tabs.
 
 </td>
 <td width="50%">
@@ -205,7 +205,7 @@ Every paper is available to download, completely free. No account, no form, no w
 <td>
 
 🚫 &nbsp;**Watermark Remover**
-Papers are served clean — watermarks stripped so you can read and select questions without visual noise getting in the way.
+Papers are served clean, with watermarks stripped so you can read and select questions without visual noise.
 
 </td>
 <td>
@@ -219,13 +219,13 @@ Read any paper right in the browser without downloading it. Quick reference, zer
 <td>
 
 📂 &nbsp;**EndSem / InSem Split**
-Papers are clearly separated by exam type — EndSem and InSem — so you're never looking at the wrong set.
+Papers are clearly separated by exam type: EndSem and InSem.
 
 </td>
 <td>
 
 🏷️ &nbsp;**Smart PDF Naming**
-Every file follows a consistent naming format with year and month — no more `paper_final_v2_ACTUAL.pdf` chaos.
+Every file follows a consistent naming format with year and month.
 
 </td>
 </tr>
@@ -249,29 +249,34 @@ Every file follows a consistent naming format with year and month — no more `p
 
 ### ⚙️ Run Locally
 
-To run `sppupyqs` on your machine:
+To build `sppupyqs` locally:
 
 ```bash
 cd sppupyqs
-pip install -r requirements.txt
-python app.py
+python -m pip install -r requirements.txt
+python build.py
 ```
 
-Then open **[http://localhost:5000](http://localhost:5000)** in your browser.
+The generated site is written to `sppupyqs/dist/`. To preview it:
+
+```bash
+cd dist
+npx serve .
+```
 
 <br/>
 
 ### 🔄 Updating Manifests
 
-The latest manifest files (JSON data for papers and subjects) are always maintained in the `sppu-pyqs` branch. To update these manifests in the `main` or `test` branches, you need to pull the `manifest` folder from the `sppu-pyqs` branch into the `sppupyqs/manifest` directory.
+The latest manifest files (JSON data for papers and subjects) are maintained in the `sppu-pyqs` branch. To update these manifests in the `main` or `test` branches, pull the `manifest` folder from the `sppu-pyqs` branch into the `sppupyqs/manifest` directory.
 
-Run the following command (via Command Prompt, not PowerShell) to extract and place the files correctly:
+Run this command via Command Prompt, not PowerShell:
 
 ```cmd
 cmd /c "git archive sppu-pyqs manifest | tar -x -C sppupyqs"
 ```
 
-This bypasses the folder path mismatch and directly updates the files in the `sppupyqs/manifest` directory so they are ready to be committed.
+This bypasses the folder path mismatch and directly updates the files in `sppupyqs/manifest` so they are ready to be committed.
 
 <br/>
 
@@ -281,9 +286,9 @@ This bypasses the folder path mismatch and directly updates the files in the `sp
 
 ## 🔧 Workers & Shared Logic
 
-The `shared/` directory is the backbone connecting both sites. It contains background workers, data-fetching utilities, and any logic that would otherwise be duplicated across the two Flask apps. Keeping it in one place means fixes and updates apply everywhere automatically.
+The `shared/` directory connects both sites. It contains background workers, data-fetching utilities, and logic that would otherwise be duplicated across the two apps. Keeping it in one place means fixes and updates apply everywhere automatically.
 
-📄 See [**worker.md**](./worker.md) for a full breakdown of how the workers are structured, what each one does, and how they're wired into both sites.
+📄 See [**shared/workers/**](./shared/workers/) for the worker READMEs and setup notes.
 
 <br/>
 
@@ -297,7 +302,7 @@ Found a bug? A question missing? A paper that's wrong?
 
 Feel free to open an issue or submit a pull request. Contributions that improve accuracy, add missing papers, or fix broken solutions are always welcome.
 
-> For code contributions, please check the developer README in the relevant subfolder before making changes — [`sppucodes/README.md`](./sppucodes/README.md) or [`sppupyqs/README.md`](./sppupyqs/README.md).
+> For code contributions, please check the developer README in the relevant subfolder before making changes: [`sppucodes/Readme.md`](./sppucodes/Readme.md) or [`sppupyqs/README.md`](./sppupyqs/README.md).
 
 <br/>
 
@@ -307,13 +312,13 @@ Feel free to open an issue or submit a pull request. Contributions that improve 
 
 ## 📜 History
 
-`sppucodes` originally handled everything — code solutions **and** question papers — all from a single site. Over time it became clear that these were two distinct tools serving different needs, so they were separated into dedicated sites with their own domains, design, and codebases.
+`sppucodes` originally handled everything: code solutions **and** question papers, all from a single site. Over time it became clear that these were two distinct tools serving different needs, so they were separated into dedicated sites with their own domains, design, and codebases.
 
-```
-sppucodes  (original — served both codes and question papers)
+```text
+sppucodes  (original: served both codes and question papers)
     │
-    ├── 🖥️  sppucodes  →  Programs & Code Solutions
-    └── 📄  sppupyqs   →  Previous Year Question Papers
+    ├── 🖥️  sppucodes  →  Programs & code solutions
+    └── 📄  sppupyqs   →  Previous year question papers
 ```
 
 The split made both sites faster to maintain, easier to improve independently, and cleaner to use.

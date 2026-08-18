@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-27T06:25:42Z",
+  "generatedAt": "2026-08-18T16:33:19Z",
   "hierarchy": {
     "standard": {
       "branches": [
@@ -23,6 +23,13 @@
                   "fullName": "Big Data Analytics_Ele. V",
                   "normalizedName": "big_data_analytics_ele_V",
                   "semesterNo": 8
+                },
+                {
+                  "subjectKey": "bioinformatics_ele_III_aids",
+                  "shortCode": "b_eIII",
+                  "fullName": "Bioinformatics_Ele_III",
+                  "normalizedName": "bioinformatics_ele_III",
+                  "semesterNo": 7
                 },
                 {
                   "subjectKey": "business_intelligence_ele_VI_aids",

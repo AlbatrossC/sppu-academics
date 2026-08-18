@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "pattern": "2019_pattern",
   "patternYear": "2019",
-  "generatedAt": "2026-06-27T06:25:42Z",
+  "generatedAt": "2026-08-18T16:33:19Z",
   "providers": {
     "cloudinaryRawBaseUrl": "https://res.cloudinary.com/diiiuwl1p/raw/upload",
     "r2BaseUrl": "https://sppu-pyqs.albatrossc.workers.dev"
@@ -38,6 +38,37 @@
       "yearName": "BE",
       "yearFullName": "Fourth Year",
       "semesterNo": 8
+    },
+    "bioinformatics_ele_III_aids": {
+      "subjectKey": "bioinformatics_ele_III_aids",
+      "shortCode": "b_eIII",
+      "fullName": "Bioinformatics_Ele_III",
+      "normalizedName": "bioinformatics_ele_III",
+      "branchType": "standard",
+      "branchKey": "artificial-intelligence-and-data-science",
+      "branchCode": "aids",
+      "branchName": "Artificial Intelligence and Data Science",
+      "pattern": "2019_pattern",
+      "papers": [
+        {
+          "pdfId": "local:cd6ee6b2",
+          "canonicalPath": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2023_aids_bia_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2023
+        },
+        {
+          "pdfId": "local:033e1a1a",
+          "canonicalPath": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2024_aids_bia_eIII_2019p.pdf",
+          "exam": "insem",
+          "month": "aug",
+          "year": 2024
+        }
+      ],
+      "yearKey": "be",
+      "yearName": "BE",
+      "yearFullName": "Fourth Year",
+      "semesterNo": 7
     },
     "business_intelligence_ele_VI_aids": {
       "subjectKey": "business_intelligence_ele_VI_aids",
