@@ -28,17 +28,17 @@
     <link rel="canonical" href="{{ url }}">
 
     <link rel="preload" href="{{ url_for('static', filename='css/subjectlayout.css') }}?v=2.1" as="style">
-    <link rel="preload" href="{{ url_for('static', filename='css/answerbox.css') }}?v=1.9" as="style">
+    <link rel="preload" href="{{ url_for('static', filename='css/answerbox.css') }}?v=2.0" as="style">
     <link rel="preload" href="{{ url_for('static', filename='css/fonts.css') }}?v=1.0" as="style">
     <link rel="preload" href="/static/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/marked/marked.min.js" as="script">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}?v=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/answerbox.css') }}?v=1.9">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/answerbox.css') }}?v=2.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/subjectlayout.css') }}?v=2.1">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/ssr-answer.css') }}?v=1.0">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}?v=2.0" defer></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}?v=2.4" defer></script>
     <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
@@ -307,7 +307,14 @@
             <pre id="globalCodeContent"></pre>
         </div>
         <div class="copy-close-container">
-            <a class="download-btn" id="globalDownloadBtn" href="#" download>Download</a>
+            <div class="download-actions">
+                <a class="download-btn" id="globalDownloadBtn" href="#" download>Download</a>
+                <label class="notebook-output-toggle" hidden>
+                    <input type="checkbox" class="notebook-output-checkbox">
+                    <span class="notebook-output-switch" aria-hidden="true"></span>
+                    <span>Show output</span>
+                </label>
+            </div>
             <button class="copy-btn" onclick="copyCode('globalCodeContent')">Copy Code</button>
             <button class="close-btn" onclick="closeBox('globalAnswerBox')">Close</button>
         </div>

@@ -309,6 +309,62 @@ document.addEventListener('DOMContentLoaded', () => {
 // =============================================================================
 // Load Answer Function (API-driven with enhanced error handling)
 // =============================================================================
+function escapeNotebookHtml(value) {
+    return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+const PYTHON_KEYWORDS = new Set([
+    'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def',
+    'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if',
+    'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise',
+    'return', 'try', 'while', 'with', 'yield'
+]);
+const PYTHON_CONSTANTS = new Set(['True', 'False', 'None']);
+
+function highlightNotebookCode(source) {
+    const tokens = String(source).match(/#[^\r\n]*|(?:[rRuUbBfF]{0,2})?(?:"""[\s\S]*?"""|'''[\s\S]*?'''|"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*')|\b\d+(?:\.\d+)?(?:[eE][+-]?\d+)?\b|\b[A-Za-z_]\w*\b|[\s\S]/g) || [];
+    return tokens.map((token, index) => {
+        let kind = '';
+        if (token.startsWith('#')) kind = 'comment';
+        else if (/^(?:[rRuUbBfF]{0,2})?["']/.test(token)) kind = 'string';
+        else if (/^\d/.test(token)) kind = 'number';
+        else if (PYTHON_KEYWORDS.has(token)) kind = 'keyword';
+        else if (PYTHON_CONSTANTS.has(token)) kind = 'constant';
+        else if (/^[A-Za-z_]\w*$/.test(token)) {
+            let next = index + 1;
+            while (next < tokens.length && /^\s+$/.test(tokens[next])) next++;
+            if (tokens[next] === '(') kind = 'function';
+        }
+        const safe = escapeNotebookHtml(token);
+        return kind ? `<span class="py-${kind}">${safe}</span>` : safe;
+    }).join('');
+}
+
+function ensureNotebookOutputToggle(answerBox) {
+    const existing = answerBox.querySelector('.notebook-output-toggle');
+    if (existing) return existing;
+
+    const footer = answerBox.querySelector('.copy-close-container');
+    const downloadBtn = footer?.querySelector('.download-btn');
+    if (!downloadBtn) return null;
+
+    let actions = footer.querySelector('.download-actions');
+    if (!actions) {
+        actions = document.createElement('div');
+        actions.className = 'download-actions';
+        footer.insertBefore(actions, downloadBtn);
+        actions.appendChild(downloadBtn);
+    }
+
+    const toggle = document.createElement('label');
+    toggle.className = 'notebook-output-toggle';
+    toggle.hidden = true;
+    toggle.innerHTML = '<input type="checkbox" class="notebook-output-checkbox"><span class="notebook-output-switch" aria-hidden="true"></span><span>Show output</span>';
+    actions.appendChild(toggle);
+    return toggle;
+}
+
 async function loadAnswer(subject, questionNo, title, button, fileName, fileIndex) {
     Logger.group(`Loading Answer`);
     Logger.info(`Subject: ${subject}, Question: ${questionNo}, File: ${fileName}, Index: ${fileIndex}`);
@@ -325,6 +381,13 @@ async function loadAnswer(subject, questionNo, title, button, fileName, fileInde
 
     const questionTitle = document.getElementById('globalQuestionText');
     const codeContent = document.getElementById('globalCodeContent');
+    const outputToggle = ensureNotebookOutputToggle(answerBox);
+    const outputCheckbox = outputToggle?.querySelector('.notebook-output-checkbox');
+
+    if (outputToggle) outputToggle.hidden = true;
+    if (outputCheckbox) outputCheckbox.checked = false;
+    answerBox.classList.remove('notebook-view');
+    answerBox.notebookCode = null;
 
     if (!questionTitle || !codeContent) {
         Logger.error('Question title or code content element not found in global answer box');
@@ -402,21 +465,25 @@ async function loadAnswer(subject, questionNo, title, button, fileName, fileInde
             try {
                 const ipynb = JSON.parse(trimmedText);
                 let html = '<div class="ipynb-notebook">';
+                let codeCellNumber = 0;
+                const codeCells = [];
                 for (const cell of ipynb.cells) {
-                    const source = Array.isArray(cell.source) ? cell.source.join('') : cell.source;
+                    const source = Array.isArray(cell.source) ? cell.source.join('') : (cell.source || '');
                     if (cell.cell_type === 'markdown') {
-                        html += `<div class="ipynb-markdown markdown-body">${typeof marked !== 'undefined' ? marked.parse(source) : '<pre>'+source+'</pre>'}</div>`;
+                        html += `<div class="ipynb-markdown markdown-body">${typeof marked !== 'undefined' ? marked.parse(source) : '<pre>'+escapeNotebookHtml(source)+'</pre>'}</div>`;
                     } else if (cell.cell_type === 'code') {
+                        codeCellNumber++;
+                        codeCells.push(`# cell ${codeCellNumber}\n${source.replace(/(?:\r?\n)+$/, '')}`);
                         let cellId = 'cell-' + Math.random().toString(36).substr(2, 9);
                         html += `<div class="ipynb-code-container">`;
-                        html += `<div class="ipynb-cell-header"><span>Code Cell [In]</span><button class="cell-copy-btn" onclick="copyCell('${cellId}', this)">Copy</button></div>`;
-                        html += `<div class="ipynb-code"><pre id="${cellId}">${source.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</pre></div>`;
+                        html += `<div class="ipynb-cell-header"><span>Code Cell ${codeCellNumber}</span><button class="cell-copy-btn" onclick="copyCell('${cellId}', this)">Copy</button></div>`;
+                        html += `<div class="ipynb-code"><pre id="${cellId}">${highlightNotebookCode(source)}</pre></div>`;
                         if (cell.outputs && cell.outputs.length > 0) {
                             html += `<div class="ipynb-outputs">`;
                             for (const output of cell.outputs) {
                                 if (output.text) {
                                     const outText = Array.isArray(output.text) ? output.text.join('') : output.text;
-                                    html += `<pre class="ipynb-output-text">${outText.replace(/\x1b\[[0-9;]*[a-zA-Z]/g, "").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</pre>`;
+                                    html += `<pre class="ipynb-output-text">${escapeNotebookHtml(outText.replace(/\x1b\[[0-9;]*[a-zA-Z]/g, ""))}</pre>`;
                                 } else if (output.data) {
                                     if (output.data["image/png"]) {
                                         const outImg = Array.isArray(output.data["image/png"]) ? output.data["image/png"].join('') : output.data["image/png"];
@@ -424,7 +491,7 @@ async function loadAnswer(subject, questionNo, title, button, fileName, fileInde
                                     }
                                     if (output.data["text/plain"]) {
                                         const outText = Array.isArray(output.data["text/plain"]) ? output.data["text/plain"].join('') : output.data["text/plain"];
-                                        html += `<pre class="ipynb-output-text">${outText.replace(/\x1b\[[0-9;]*[a-zA-Z]/g, "").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</pre>`;
+                                        html += `<pre class="ipynb-output-text">${escapeNotebookHtml(outText.replace(/\x1b\[[0-9;]*[a-zA-Z]/g, ""))}</pre>`;
                                     }
                                 }
                             }
@@ -436,6 +503,14 @@ async function loadAnswer(subject, questionNo, title, button, fileName, fileInde
                 html += '</div>';
                 mediaContainer.style.display = 'block';
                 mediaContainer.innerHTML = html;
+                answerBox.notebookCode = codeCells.join('\n\n');
+                answerBox.classList.add('notebook-view');
+                if (outputToggle && outputCheckbox) {
+                    outputToggle.hidden = false;
+                    outputCheckbox.onchange = () => {
+                        mediaContainer.querySelector('.ipynb-notebook')?.classList.toggle('show-outputs', outputCheckbox.checked);
+                    };
+                }
                 codeContent.textContent = trimmedText; 
             } catch (e) {
                 codeContent.style.display = 'block';
@@ -481,7 +556,6 @@ function copyCode(elementId) {
         return;
     }
 
-    const text = codeElement.innerText || codeElement.textContent;
     const answerBox = codeElement.closest('.answer-box');
     
     if (!answerBox) {
@@ -489,6 +563,10 @@ function copyCode(elementId) {
         Logger.groupEnd();
         return;
     }
+
+    const text = answerBox.classList.contains('notebook-view')
+        ? answerBox.notebookCode
+        : (codeElement.innerText || codeElement.textContent);
     
     const btn = answerBox.querySelector('.copy-btn');
     

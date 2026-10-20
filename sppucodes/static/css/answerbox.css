@@ -197,6 +197,87 @@
     transition: background-color 0.3s ease;
 }
 
+.download-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: auto;
+}
+
+.download-actions .download-btn {
+    margin-right: 0;
+}
+
+.notebook-output-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #ddd;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.notebook-output-toggle[hidden] {
+    display: none;
+}
+
+.notebook-output-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.notebook-output-switch {
+    width: 32px;
+    height: 18px;
+    border-radius: 10px;
+    background: #555;
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+
+.notebook-output-switch::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    transition: transform 0.2s ease;
+}
+
+.notebook-output-checkbox:checked + .notebook-output-switch {
+    background: #0078d7;
+}
+
+.notebook-output-checkbox:checked + .notebook-output-switch::after {
+    transform: translateX(14px);
+}
+
+.notebook-output-checkbox:focus-visible + .notebook-output-switch {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+    .answer-box.notebook-view .copy-close-container {
+        flex-wrap: wrap;
+    }
+
+    .answer-box.notebook-view .download-actions {
+        width: 100%;
+    }
+
+    .answer-box.notebook-view .modal-content {
+        max-height: calc(95vh - 135px);
+        margin-bottom: 82px;
+    }
+}
+
 /* Button Styles */
 .copy-btn, .close-btn, .download-btn {
     padding: 10px 18px;
@@ -624,6 +705,17 @@
     font-family: 'JetBrains Mono', 'Source Code Pro', monospace;
     background: transparent !important;
     color: #f0f0f0;
+}
+
+.ipynb-code .py-keyword { color: #c586c0; }
+.ipynb-code .py-constant { color: #569cd6; }
+.ipynb-code .py-string { color: #ce9178; }
+.ipynb-code .py-number { color: #b5cea8; }
+.ipynb-code .py-comment { color: #6a9955; }
+.ipynb-code .py-function { color: #dcdcaa; }
+
+.ipynb-notebook:not(.show-outputs) .ipynb-outputs {
+    display: none;
 }
 
 .ipynb-outputs {
