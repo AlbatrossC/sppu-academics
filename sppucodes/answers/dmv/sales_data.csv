@@ -1,0 +1,26 @@
+OrderID,Date,Region,CustomerID,Product,Category,Quantity,UnitPrice
+1001,2025-01-01,North,C003,Laptop,Electronics,4.0,51364.34
+1002,2025-01-03,South,C013,Headphones,Electronics,5.0,1871.05
+1003,2025-01-05,East,C007,Desk Chair,Furniture,1.0,7118.31
+1004,2025-01-07,West,C023,Notebook,Stationery,4.0,190.3
+1005,2025-01-09,North,C016,Water Bottle,Home,1.0,445.53
+1006,2025-01-11,South,C016,Laptop,Electronics,2.0,56438.36
+1007,2025-01-13,East,C024,Headphones,Electronics,4.0,1916.19
+1008,2025-01-15,West,C017,Desk Chair,Furniture,3.0,6145.41
+1009,2025-01-17,North,C003,Notebook,Stationery,3.0,164.3
+1010,2025-01-19,South,C026,Water Bottle,Home,5.0,461.85
+1011,2025-01-21,East,C005,Laptop,Electronics,4.0,50487.07
+1012,2025-01-23,West,C003,Headphones,Electronics,5.0,1941.52
+1013,2025-01-25,North,C021,Desk Chair,Furniture,,6103.03
+1014,2025-01-27,South,C011,Notebook,Stationery,3.0,163.58
+1015,2025-01-29,East,C017,Water Bottle,Home,1.0,466.47
+1016,2025-01-31,West,C028,Laptop,Electronics,4.0,56862.1
+1017,2025-02-02,North,C013,Headphones,Electronics,2.0,1753.37
+1018,2025-02-04,South,C003,Desk Chair,Furniture,3.0,6096.31
+1019,2025-02-06,East,C014,Notebook,Stationery,1.0,179.13
+1020,2025-02-08,West,C010,Water Bottle,Home,2.0,465.28
+1021,2025-02-10,North,C029,Laptop,Electronics,3.0,55459.85
+1022,2025-02-12,South,C019,Headphones,Electronics,4.0,1732.45
+1023,2025-02-14,East,C024,Desk Chair,Furniture,5.0,6896.19
+1024,2025-02-16,West,C026,Notebook,Stationery,2.0,172.38
+1025,2025-02-18,North,C008,Water Bottle,Home,4.0,417.58

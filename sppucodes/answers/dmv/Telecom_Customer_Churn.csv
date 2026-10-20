@@ -1,0 +1,242 @@
+CustomerID,Gender,SeniorCitizen,Tenure,Contract,MonthlyCharges,TotalCharges,Churn
+TC0001,Male,0,38,Month-to-month,53.62,2113.97,No
+TC0002,Female,0,39,Month-to-month,46.31,1818.96,Yes
+TC0003,Female,1,21,Month-to-month,72.14,1565.46,Yes
+TC0004,Male,0,30,Month-to-month,100.92,3172.79,No
+TC0005,Male,1,42,One year,95.11,4009.03,No
+TC0006,Male,0,70,Month-to-month,59.66,4078.67,Yes
+TC0007, female ,0,32,Month-to-month,45.93,1450.12,Yes
+TC0008,Female,0,32,One year,51.72,1723.95,No
+TC0009,Female,0,56,One year,101.37,5849.51,No
+TC0010,Male,0,56,Month-to-month,91.14,5203.26,No
+TC0011,Female,0,67,One year,33.56,2155.09,No
+TC0012,Female,0,53,Two year,97.08,5290.66,No
+TC0013,Male,1,68,Month-to-month,78.11,5373.18,Yes
+TC0014,Male,0,10,One year,66.94,,No
+TC0015,Female,1,38,One year,108.81,3976.46,Yes
+TC0016,Male,0,36,Month-to-month,94.69,3352.13,No
+TC0017,Male,0,59,Month-to-month,57.78,3292.3,Yes
+TC0018,Male,0,7,Month-to-month,59.5,418.71,No
+TC0019,Male,0,26,Month-to-month,58.87,1563.95,No
+TC0020,Female,1,31,Two year,82.34,2575.07,No
+TC0021,Female,0,40,Month-to-month,,3955.14,Yes
+TC0022,Female,1,1,Two year,95.32,100.06,No
+TC0023,Female,0,50,Two year,34.58,1757.65,No
+TC0024,Female,0,45,Two year,27.61,1198.1,No
+TC0025,Female,1,59,Two year,84.06,4714.26,Yes
+TC0026,Male,0,60,Two year,46.47,2664.75,No
+TC0027,Male,0,70,One year,87.83,5865.38,No
+TC0028,Female,0,9,One year,92.07,857.73,Yes
+TC0029,Male,0,59,Month-to-month,49.37,3052.71,No
+TC0030,Female,0,37,One year,28.81,1088.31,No
+TC0031,Female,0,27,Month-to-month,113.2,3143.23,No
+TC0032,Male,0,63,Month-to-month,110.14,6992.95,No
+TC0033,Male,0,19,Two year,38.36,721.85,No
+TC0034,Female,0,10,Month-to-month,50.03,496.69,No
+TC0035,Male,0,29,Month-to-month,61.79,1807.73,Yes
+TC0036,Female,0,67,Month-to-month,67.67,4566.74,No
+TC0037,Male,0,43,One year,83.72,3703.43,No
+TC0038,Female,0,15,One year,57.46,882.3,No
+TC0039,Male,0,10,One year,71.82,704.87,No
+TC0040,Female,0,28,Month-to-month,31.49,842.53,Yes
+TC0041,Female,0,41,Month-to-month,53.25,2077.29,No
+TC0042,Male,0,51,Month-to-month,38.83,1905.01,Yes
+TC0043,Male,0,37,Two year,94.49,3561.74,No
+TC0044,Female,0,55,One year,25.97,1431.93,No
+TC0045,Female,0,52,Two year,114.02,6130.08,No
+TC0046,Female,1,47,Month-to-month,60.33,2907.91,Yes
+TC0047,Female,0,35,Month-to-month,41.28,1379.01,Yes
+TC0048,Female,0,14,One year,77.78,1043.63,No
+TC0049,Male,0,61,One year,83.42,5222.4,Yes
+TC0050,Female,0,53,One year,55.46,2934.26,No
+TC0051,Male,0,50,One year,106.86,5530.15,No
+TC0052,Female,0,42,One year,34.45,1507.28,No
+TC0053,Female,1,29,Month-to-month,42.24,1277.32,Yes
+TC0054,Female,0,31,One year,25.66,811.61,No
+TC0055,Male,0,52,One year,67.98,3677.53,No
+TC0056,Male,1,21,One year,103.01,2213.49,No
+TC0057,Male,0,47,One year,112.28,5165.4,No
+TC0058,Male,1,70,Month-to-month,36.15,2600.68,No
+TC0059,Male,0,64,Month-to-month,113.01,7445.05,Yes
+TC0060,Male,0,16,Two year,108.22,1651.35,No
+TC0061,Female,0,69,Month-to-month,85.78,6080.83,No
+TC0062,Male,0,54,Two year,29.41,1607.5,No
+TC0063,Female,1,32,One year,85.96,2723.59,No
+TC0064,Male,0,44,Month-to-month,101.75,4635.19,Yes
+TC0065,Male,0,52,Month-to-month,49.73,2505.17,Yes
+TC0066,Female,0,49,One year,97.67,4688.37,No
+TC0067,Female,0,39,One year,114.78,4519.04,No
+TC0068,Male,0,36,One year,37.09,1277.45,No
+TC0069,Female,0,40,Month-to-month,82.11,3258.25,No
+TC0070,Male,0,70,One year,50.61,3448.85,No
+TC0071,Male,0,65,One year,91.81,6059.22,No
+TC0072,Female,0,62,Month-to-month,38.99,2364.98,No
+TC0073,Male,0,19,One year,64.45,1285.13,No
+TC0074,Male,0,19,Two year,95.88,1833.05,Yes
+TC0075,Male,0,31,Two year,71.15,2103.27,No
+TC0076,Female,1,54,Month-to-month,47.15,2534.67,No
+TC0077,Female,0,57,Month-to-month,35.04,1909.51,No
+TC0078,Female,0,33,Month-to-month,60.47,1896.07,Yes
+TC0079,Male,0,30,Month-to-month,70.74,2086.78,Yes
+TC0080,Male,0,40,Two year,48.43,1887.31,No
+TC0081,Male,0,63,Month-to-month,54.77,3294.74,Yes
+TC0082,Male,1,63,Month-to-month,29.26,1920.59,Yes
+TC0083,Female,0,68,Month-to-month,34.96,2315.86,No
+TC0084,Male,0,17,Two year,25.43,437.46,No
+TC0085,Male,0,65,Two year,47.88,3098.03,No
+TC0086,Male,0,66,Month-to-month,98.18,6673.77,No
+TC0087,Female,1,22,Month-to-month,53.59,1123.55,Yes
+TC0088,Female,0,28,Month-to-month,90.27,2587.86,Yes
+TC0089,Male,1,9,One year,36.34,333.38,Yes
+TC0090,Male,1,58,Two year,25.36,1543.41,No
+TC0091,Female,0,28,Two year,104.23,2953.98,No
+TC0092,Female,0,52,One year,51.53,2769.66,Yes
+TC0093,Male,0,4,Month-to-month,103.65,419.19,Yes
+TC0094,Female,0,38,One year,90.32,3520.85,No
+TC0095,Female,0,11,One year,26.12,287.9,No
+TC0096,Female,0,68,Two year,60.55,3973.03,No
+TC0097,Female,0,20,Month-to-month,102.31,1987.3,Yes
+TC0098,Male,0,64,Two year,59.11,3874.48,No
+TC0099,Male,0,39,One year,34.42,1391.45,No
+TC0100,Female,1,37,Month-to-month,91.92,3564.03,Yes
+TC0101,Male,0,58,Two year,60.52,3548.33,No
+TC0102,Female,0,28,One year,109.18,2964.33,No
+TC0103,Female,0,27,Month-to-month,39.66,1053.63,No
+TC0104,Female,0,53,Month-to-month,92.82,4810.3,Yes
+TC0105,Female,0,71,One year,67.16,4551.48,No
+TC0106,Male,1,7,One year,69.6,475.14,No
+TC0107,Male,0,23,Two year,106.15,2559.22,No
+TC0108,Female,0,43,Month-to-month,52.4,2162.39,No
+TC0109,Male,0,54,One year,39.88,2080.37,No
+TC0110,Male,0,27,One year,51.64,1381.01,No
+TC0111,Male,1,3,Month-to-month,109.74,342.26,Yes
+TC0112,Female,0,28,Two year,41.15,1146.42,No
+TC0113,Male,0,64,Two year,103.71,6657.92,No
+TC0114,Female,0,24,Month-to-month,109.6,2703.36,No
+TC0115,Female,0,21,One year,73.29,1482.41,No
+TC0116,Male,1,14,One year,110.79,1559.5,No
+TC0117,Female,0,12,Month-to-month,35.71,420.87,No
+TC0118,Female,0,6,Month-to-month,72.87,458.58,No
+TC0119,Male,0,59,Month-to-month,38.76,2250.57,Yes
+TC0120,Female,0,68,One year,81.04,5672.53,No
+TC0121,Male,1,16,Month-to-month,82.51,1385.29,Yes
+TC0122,Female,1,64,Month-to-month,36.61,2374.03,Yes
+TC0123,Male,0,12,Month-to-month,90.36,1101.66,No
+TC0124,Female,1,6,Two year,55.84,341.01,No
+TC0125,Female,0,43,Month-to-month,105.32,4751.49,No
+TC0126,Male,0,55,Month-to-month,110.28,6210.07,Yes
+TC0127,Male,0,65,One year,70.8,4564.86,No
+TC0128,Female,1,29,Month-to-month,64.6,1796.91,No
+TC0129,Male,0,10,One year,26.78,259.71,No
+TC0130,Male,1,68,Month-to-month,85.11,5657.35,Yes
+TC0131,Female,0,21,One year,106.93,2254.98,No
+TC0132,Male,0,56,One year,47.96,2637.55,No
+TC0133,Female,0,38,One year,27.09,1068.03,No
+TC0134,Female,0,27,Two year,101.86,2762.47,No
+TC0135,Male,0,32,Month-to-month,46.98,1567.08,No
+TC0136,Male,0,68,One year,93.82,6367.39,No
+TC0137,Female,0,51,One year,51.04,2625.42,No
+TC0138,Female,1,21,Two year,102.45,2045.49,No
+TC0139,Male,0,33,Two year,37.45,1188.36,No
+TC0140,Male,0,33,Month-to-month,38.86,1297.73,No
+TC0141,Male,0,21,Month-to-month,37.42,767.8,No
+TC0142,Male,1,17,Month-to-month,99.93,1685.81,No
+TC0143,Male,0,18,One year,83.74,1582.6,No
+TC0144,Female,0,8,One year,112.9,899.7,No
+TC0145,Female,0,16,One year,56.8,938.98,No
+TC0146,Female,0,68,Month-to-month,92.39,6277.03,No
+TC0147,Female,1,20,Two year,33.65,675.28,Yes
+TC0148,Female,0,37,Month-to-month,64.27,2267.38,No
+TC0149,Male,0,54,Month-to-month,38.22,2130.57,No
+TC0150,Male,0,33,Month-to-month,60.5,1948.08,No
+TC0151,Male,0,15,One year,66.82,974.15,No
+TC0152,Male,1,47,Month-to-month,32.74,1488.82,No
+TC0153,Female,0,5,Two year,37.35,185.79,No
+TC0154,Male,0,14,Two year,103.56,1409.36,No
+TC0155,Female,0,69,One year,75.98,5414.86,No
+TC0156,Female,0,34,Month-to-month,79.14,2626.23,Yes
+TC0157,Male,0,19,Two year,75.51,1401.79,No
+TC0158,Female,1,12,One year,85.9,979.37,No
+TC0159,Male,0,44,One year,40.48,1775.77,No
+TC0160,Male,0,61,Month-to-month,44.37,2624.15,No
+TC0161,Female,0,2,Month-to-month,43.63,84.43,Yes
+TC0162,Male,1,47,Month-to-month,57.47,2662.56,Yes
+TC0163,Male,0,67,Month-to-month,104.95,6750.27,Yes
+TC0164,Female,0,4,One year,35.98,147.58,No
+TC0165,Male,0,50,Two year,28.98,1423.49,No
+TC0166,Male,0,7,Two year,40.33,282.27,No
+TC0167,Male,0,21,Month-to-month,60.78,1228.91,Yes
+TC0168,Female,0,16,Month-to-month,102.95,1623.92,Yes
+TC0169,Female,0,32,One year,108.41,3431.48,No
+TC0170,Female,0,20,One year,66.56,1338.44,No
+TC0171,Female,1,70,Month-to-month,33.52,2398.75,Yes
+TC0172,Female,0,63,One year,93.0,6050.47,No
+TC0173,Male,0,14,One year,29.73,411.74,No
+TC0174,Male,0,67,Month-to-month,28.47,1919.44,Yes
+TC0175,Male,0,25,Two year,69.68,1655.85,No
+TC0176,Female,0,68,Two year,58.58,3891.96,No
+TC0177,Male,0,32,One year,73.28,2453.67,No
+TC0178,Female,0,62,One year,104.03,6192.58,No
+TC0179,Female,0,37,One year,113.39,4163.96,No
+TC0180,Female,0,10,Month-to-month,96.53,944.49,Yes
+TC0181,Male,0,53,Month-to-month,71.84,3879.91,Yes
+TC0182,Male,1,46,Month-to-month,80.68,3697.08,No
+TC0183,Female,0,68,Month-to-month,41.96,2738.24,No
+TC0184,Female,1,15,Two year,112.7,1716.14,No
+TC0185,Male,1,64,Month-to-month,63.8,4097.33,No
+TC0186,Male,0,35,Month-to-month,88.52,3223.05,Yes
+TC0187,Male,1,23,Two year,35.58,845.73,No
+TC0188,Male,0,52,Two year,76.07,3933.89,Yes
+TC0189,Male,0,13,Month-to-month,42.04,571.9,Yes
+TC0190,Male,0,49,One year,99.7,5052.45,No
+TC0191,Female,0,46,One year,74.11,3545.05,No
+TC0192,Male,0,32,One year,66.08,2085.29,No
+TC0193,Female,0,9,Month-to-month,95.19,893.61,No
+TC0194,Female,0,7,Month-to-month,43.52,296.07,Yes
+TC0195,Male,1,48,Two year,46.27,2144.03,Yes
+TC0196,Female,0,11,One year,107.12,1193.17,Yes
+TC0197,Male,0,37,One year,102.77,3744.65,Yes
+TC0198,Female,0,34,Month-to-month,110.11,3845.11,No
+TC0199,Female,0,31,Month-to-month,83.79,2580.54,Yes
+TC0200,Male,0,56,Month-to-month,109.3,5880.44,No
+TC0201,Male,0,39,One year,64.3,2504.26,No
+TC0202,Female,0,67,Month-to-month,78.37,5323.05,Yes
+TC0203,Male,0,44,Month-to-month,105.71,4446.74,No
+TC0204,Male,0,52,One year,63.54,3421.78,No
+TC0205,Female,0,22,One year,85.47,1856.07,No
+TC0206,Male,0,46,One year,91.29,4079.87,No
+TC0207,Female,0,26,Month-to-month,81.41,2200.2,Yes
+TC0208,Female,0,41,Two year,38.9,1561.62,No
+TC0209,Male,1,14,One year,88.73,1224.54,No
+TC0210,Female,1,58,Month-to-month,52.75,3074.87,No
+TC0211,Female,0,11,One year,95.4,1082.46,No
+TC0212,Male,1,32,Month-to-month,57.47,1833.06,Yes
+TC0213,Female,0,52,One year,53.25,2666.79,No
+TC0214,Female,0,51,Month-to-month,46.24,2459.65,No
+TC0215,Male,0,46,Two year,114.89,5490.94,No
+TC0216,Male,1,37,Month-to-month,32.3,1192.38,No
+TC0217,Female,0,36,One year,74.69,2583.61,No
+TC0218,Male,0,15,Two year,114.53,1784.93,No
+TC0219,Female,0,10,Month-to-month,79.57,783.34,Yes
+TC0220,Female,1,45,Month-to-month,42.57,2001.72,Yes
+TC0221,Male,1,5,One year,42.27,217.94,No
+TC0222,Male,0,67,Month-to-month,85.99,5608.8,Yes
+TC0223,Male,0,25,Month-to-month,63.7,1553.17,No
+TC0224,Male,0,44,Month-to-month,100.16,4188.59,No
+TC0225,Male,0,27,Month-to-month,43.72,1217.03,Yes
+TC0226,Female,0,11,One year,58.44,623.27,No
+TC0227,Female,0,32,Two year,82.8,2777.57,No
+TC0228,Female,0,47,Two year,47.13,2271.5,Yes
+TC0229,Female,0,30,Month-to-month,41.68,1224.07,No
+TC0230,Male,0,16,Two year,48.94,763.83,No
+TC0231,Male,0,2,Month-to-month,45.22,89.53,Yes
+TC0232,Female,0,7,One year,95.46,696.11,No
+TC0233,Male,0,18,Month-to-month,29.55,521.57,No
+TC0234,Male,0,39,Month-to-month,95.28,3800.78,Yes
+TC0235,Male,0,5,One year,92.03,471.62,No
+TC0236,Female,0,31,Month-to-month,70.26,2196.06,Yes
+TC0237,Male,0,60,Two year,47.21,2883.01,No
+TC0238,Female,0,58,One year,111.46,6734.81,No
+TC0239,Female,0,29,One year,67.65,1882.16,No
+TC0240,Male,0,45,Month-to-month,95.9,4522.63,No
+TC0005,Male,1,42,One year,95.11,4009.03,No
