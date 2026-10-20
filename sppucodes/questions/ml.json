@@ -1,0 +1,109 @@
+{
+  "default": {
+    "subject_code": "ML",
+    "subject_name": "Machine Learning",
+    "description": "Machine Learning (ML) Semester 7 laboratory assignments for SPPU BE students, covering feature transformation, regression, classification, clustering, ensemble learning, and reinforcement learning.",
+    "keywords": ["Machine Learning", "ML", "SPPU", "BE", "Semester 7"],
+    "url": "https://sppucodes.vercel.app/ml"
+  },
+  "questions": [
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "1",
+      "id": "feature-transformation",
+      "title": "Feature Transformation (Any one)",
+      "question": "Feature Transformation (Any one)\n\nA. Use the PCA algorithm for dimensionality reduction. You have a dataset that includes measurements for different variables on wine (alcohol, ash, magnesium, and so on). Apply the PCA algorithm and transform this data so that most variations in the measurements of the variables are captured by a small number of principal components, making it easier to distinguish between red and white wine by inspecting these principal components.\nDataset link: https://media.geeksforgeeks.org/wp-content/uploads/Wine.csv\n\nB. Apply the LDA algorithm on the Iris dataset and classify which species a given flower belongs to.\nDataset link: https://www.kaggle.com/datasets/uciml/iris",
+      "subject_code": "ml",
+      "file_name": [
+        "1A_pca_wine.ipynb",
+        "1B_lda_iris.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B"
+      ]
+    },
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "2",
+      "id": "regression-analysis",
+      "title": "Regression Analysis (Any one)",
+      "question": "Regression Analysis (Any one)\n\nA. Predict the price of an Uber ride from a given pickup point to the agreed drop-off location. Perform the following tasks:\n1. Pre-process the dataset.\n2. Identify outliers.\n3. Check the correlation.\n4. Implement linear regression, Ridge regression, and Lasso regression models.\n5. Evaluate the models and compare their respective scores, such as R2 and RMSE.\nDataset link: https://www.kaggle.com/datasets/yasserh/uber-fares-dataset\n\nB. Use the UCI diabetes dataset and Pima Indians diabetes dataset to perform the following:\na. Univariate analysis: frequency, mean, median, mode, variance, standard deviation, skewness, and kurtosis.\nb. Bivariate analysis: linear and logistic regression modeling.\nc. Multiple regression analysis.\nd. Compare the results of the above analyses for the two datasets.\nDataset link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database",
+      "subject_code": "ml",
+      "file_name": [
+        "2A_uber_fares_regression.ipynb",
+        "2B_diabetes_regression_analysis.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B"
+      ]
+    },
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "3",
+      "id": "classification-analysis",
+      "title": "Classification Analysis (Any one)",
+      "question": "Classification Analysis (Any one)\n\nA. Implement Support Vector Machines (SVM) to classify images of handwritten digits into their respective numerical classes (0 to 9).\n\nB. Implement the K-Nearest Neighbours algorithm on the Social Network Ads dataset. Compute the confusion matrix, accuracy, error rate, precision, and recall on the given dataset.\nDataset link: https://www.kaggle.com/datasets/rakeshrau/social-network-ads",
+      "subject_code": "ml",
+      "file_name": [
+        "3A_svm_handwritten_digits.ipynb",
+        "3B_knn_social_network_ads.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B"
+      ]
+    },
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "4",
+      "id": "clustering-analysis",
+      "title": "Clustering Analysis (Any one)",
+      "question": "Clustering Analysis (Any one)\n\nA. Implement K-Means clustering on the Iris CSV dataset. Determine the number of clusters using the elbow method.\nDataset link: https://www.kaggle.com/datasets/uciml/iris\n\nB. Implement the K-Medoid algorithm on a credit card dataset. Determine the number of clusters using the silhouette method.\nDataset link: https://www.kaggle.com/datasets/arjunbhasin2013/ccdata",
+      "subject_code": "ml",
+      "file_name": [
+        "4A_kmeans_iris_elbow.ipynb",
+        "4B_kmedoids_credit_card_silhouette.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B"
+      ]
+    },
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "5",
+      "id": "ensemble-learning",
+      "title": "Ensemble Learning (Any one)",
+      "question": "Ensemble Learning (Any one)\n\nA. Implement a Random Forest classifier to predict the safety of a car.\nDataset link: https://www.kaggle.com/datasets/elikplim/car-evaluation-data-set\n\nB. Use different voting mechanisms and apply AdaBoost (Adaptive Boosting), Gradient Tree Boosting (GBM), and XGBoost classification on the Iris dataset. Compare the performance of the three models using different evaluation measures.\nDataset link: https://www.kaggle.com/datasets/uciml/iris",
+      "subject_code": "ml",
+      "file_name": [
+        "5A_random_forest_car_safety.ipynb",
+        "5B_boosting_voting_iris.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B"
+      ]
+    },
+    {
+      "group": "Part I: Machine Learning",
+      "question_no": "6",
+      "id": "reinforcement-learning",
+      "title": "Reinforcement Learning (Any one)",
+      "question": "Reinforcement Learning (Any one)\n\nA. Implement reinforcement learning using an example of a maze environment that the agent needs to explore.\n\nB. Solve the Taxi problem using reinforcement learning, where the agent acts as a taxi driver to pick up a passenger at one location and drop them off at their destination.\n\nC. Build a Tic-Tac-Toe game using reinforcement learning in Python by performing the following tasks:\na. Set up the environment.\nb. Define the Tic-Tac-Toe game.\nc. Build the reinforcement learning model.\nd. Train the model.\ne. Test the model.",
+      "subject_code": "ml",
+      "file_name": [
+        "6A_q_learning_maze.ipynb",
+        "6B_q_learning_taxi.ipynb",
+        "6C_q_learning_tic_tac_toe.ipynb"
+      ],
+      "code_names": [
+        "View Notebook A",
+        "View Notebook B",
+        "View Notebook C"
+      ]
+    }
+  ]
+}

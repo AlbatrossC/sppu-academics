@@ -1,0 +1,10 @@
+{
+  "default": {
+    "subject_code": "IR",
+    "subject_name": "Information Retrieval",
+    "description": "Information Retrieval (IR) Semester 7 subject page for SPPU BE students. Questions and answers will be added soon.",
+    "keywords": ["Information Retrieval", "IR", "SPPU", "BE", "Semester 7"],
+    "url": "https://sppucodes.vercel.app/ir"
+  },
+  "questions": []
+}
