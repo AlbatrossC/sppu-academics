@@ -1,0 +1,71 @@
+{
+  "default": {
+    "subject_code": "BIF",
+    "subject_name": "Bioinformatics",
+    "description": "Bioinformatics (BIF) assignments for SPPU BE students, covering DNA sequence analysis, RNA-seq differential expression, protein structure prediction, molecular docking, genomic machine learning, and agricultural genomics.",
+    "keywords": ["Bioinformatics", "BIF", "SPPU", "DNA", "RNA-seq", "Genomics", "Protein Structure"],
+    "url": "https://sppucodes.vercel.app/bif"
+  },
+  "questions": [
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "1",
+      "id": "dna-sequence-analysis",
+      "title": "DNA Sequence Analysis",
+      "question": "Assignment: DNA Sequence Analysis.\n\nAnalyze a given DNA sequence and perform basic sequence manipulation, including finding motifs, calculating GC content, and identifying candidate coding regions. Summarize the analysis results and insights gained from the sequence.",
+      "subject_code": "bif",
+      "file_name": ["1_dna_sequence_analysis.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "2",
+      "id": "rna-seq-data-analysis",
+      "title": "RNA-Seq Data Analysis",
+      "question": "Assignment: RNA-Seq Data Analysis.\n\nAnalyze a provided RNA-Seq dataset and perform differential gene expression analysis. Present the differentially expressed genes, their functional annotations, and potential biological interpretations. The answer calculates average counts, fold change, and log2 fold change from a small sample CSV; use replicate-aware tools and adjusted p-values for a full study.",
+      "subject_code": "bif",
+      "file_name": ["2_rnaseq_differential_expression.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "3",
+      "id": "protein-structure-prediction",
+      "title": "Protein Structure Prediction",
+      "question": "Assignment: Protein Structure Prediction.\n\nPredict the 3D structure of a given protein sequence using homology modeling or threading techniques. Present the predicted protein structure along with an analysis of its potential functions and interactions. The answer demonstrates sequence-based prediction with ESMFold and saves the coordinates as a PDB file; ESMFold is a deep-learning alternative to template-based homology modeling.",
+      "subject_code": "bif",
+      "file_name": ["3_protein_structure_workflow.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "4",
+      "id": "molecular-docking-virtual-screening",
+      "title": "Molecular Docking and Virtual Screening",
+      "question": "Assignment: Molecular Docking and Virtual Screening.\n\nUse sample docking results to rank ligand candidates by binding score, hydrogen bonds, and hydrophobic contacts. Docking scores are hypotheses and require experimental validation.",
+      "subject_code": "bif",
+      "file_name": ["4_docking_virtual_screening.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "5",
+      "id": "machine-learning-genomic-data",
+      "title": "Machine Learning for Genomic Data",
+      "question": "Assignment: Machine Learning for Genomic Data.\n\nApply machine learning algorithms, such as random forests or support vector machines, to classify genomic data based on specified features or markers. Report classification results, model performance, and predictive features. The answer uses a synthetic, reproducible example; replace it with the provided genomic dataset for a biological conclusion.",
+      "subject_code": "bif",
+      "file_name": ["5_genomic_machine_learning.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Bioinformatics Assignments",
+      "question_no": "6",
+      "id": "agricultural-genomics-crop-improvement",
+      "title": "Agricultural Genomics and Crop Improvement",
+      "question": "Assignment: Agricultural Genomics and Crop Improvement.\n\nAnalyze crop genomic data to identify genetic markers associated with desirable traits, such as disease resistance or yield. Summarize the analysis methodology, key findings, and potential applications in crop improvement. The answer demonstrates marker-yield correlation with a small sample dataset; population structure and relatedness should be addressed in real studies.",
+      "subject_code": "bif",
+      "file_name": ["6_crop_marker_association.py"],
+      "code_names": ["View Python Solution"]
+    }
+  ]
+}

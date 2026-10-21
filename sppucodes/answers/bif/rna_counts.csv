@@ -1,0 +1,5 @@
+Gene,Control1,Control2,Treatment1,Treatment2
+TP53,100,110,250,270
+MYC,500,480,200,220
+BRCA1,80,85,90,95
+EGFR,300,320,700,680

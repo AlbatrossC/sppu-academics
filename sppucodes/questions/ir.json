@@ -2,9 +2,80 @@
   "default": {
     "subject_code": "IR",
     "subject_name": "Information Retrieval",
-    "description": "Information Retrieval (IR) Semester 7 subject page for SPPU BE students. Questions and answers will be added soon.",
+    "description": "Information Retrieval (IR) Semester 7 practicals for SPPU BE students, covering text preprocessing, inverted-index retrieval, Bayesian classification, spam filtering, hierarchical clustering, PageRank, and web crawling.",
     "keywords": ["Information Retrieval", "IR", "SPPU", "BE", "Semester 7"],
     "url": "https://sppucodes.vercel.app/ir"
   },
-  "questions": []
+  "questions": [
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "1",
+      "id": "text-preprocessing-stop-words-stemming",
+      "title": "Text Preprocessing: Stop-word Removal and Stemming",
+      "question": "Write a program to preprocess a text document by tokenizing it, removing stop words, and stemming the remaining words.",
+      "subject_code": "ir",
+      "file_name": ["1_text_preprocessing.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "2",
+      "id": "document-retrieval-inverted-index",
+      "title": "Document Retrieval using an Inverted Index",
+      "question": "Implement retrieval of documents using an inverted file (inverted index). Build postings from a collection of documents and rank documents matching a user query.",
+      "subject_code": "ir",
+      "file_name": ["2_inverted_index_retrieval.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "3",
+      "id": "bayesian-network-heart-disease-diagnosis",
+      "title": "Bayesian Network for Heart Disease Data",
+      "question": "Construct a simple Bayesian network using medical features and demonstrate heart-disease classification. The answer uses a small example dataset and Naive Bayes conditional probabilities. This educational example is not a medical diagnostic tool.",
+      "subject_code": "ir",
+      "file_name": ["3_bayesian_heart_disease.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "4",
+      "id": "email-spam-filtering",
+      "title": "E-mail Spam Filtering using Text Classification",
+      "question": "Implement e-mail spam filtering using a text classification algorithm and an appropriate labeled dataset. Report precision, recall, F1-score, and a confusion matrix.",
+      "subject_code": "ir",
+      "file_name": ["4_email_spam_filter.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "5",
+      "id": "agglomerative-hierarchical-clustering",
+      "title": "Agglomerative Hierarchical Clustering",
+      "question": "Implement an agglomerative hierarchical clustering algorithm using an appropriate dataset. Visualize the dendrogram and report cluster assignments.",
+      "subject_code": "ir",
+      "file_name": ["5_agglomerative_clustering.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "6",
+      "id": "page-rank-algorithm",
+      "title": "PageRank Algorithm",
+      "question": "Implement the PageRank algorithm using Python or Beautiful Soup. Demonstrate the ranking on a directed web graph.",
+      "subject_code": "ir",
+      "file_name": ["6_pagerank.py"],
+      "code_names": ["View Python Solution"]
+    },
+    {
+      "group": "Information Retrieval Practicals",
+      "question_no": "7",
+      "id": "focused-ecommerce-web-crawler",
+      "title": "Web Crawler for E-commerce Product Information",
+      "question": "Build a web crawler to collect product information and links from an e-commerce website. Respect the website's terms, robots.txt, rate limits, and access controls; demonstrate with a site you own or have permission to crawl.",
+      "subject_code": "ir",
+      "file_name": ["7_focused_product_crawler.py"],
+      "code_names": ["View Python Solution"]
+    }
+  ]
 }
