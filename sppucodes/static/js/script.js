@@ -623,6 +623,28 @@ function copyCode(elementId) {
 // =============================================================================
 // Copy Cell Function (Jupyter Notebooks)
 // =============================================================================
+function copyInlineAnswer(btn) {
+    const block = btn.closest('.ssr-file-block');
+    const cells = block.querySelectorAll('.ipynb-code pre');
+    const text = cells.length
+        ? Array.from(cells, (cell, index) => `# cell ${index + 1}\n${cell.textContent}`).join('\n\n')
+        : block.querySelector('pre code')?.textContent;
+    if (text === undefined) return;
+    navigator.clipboard.writeText(text).then(() => {
+        const originalText = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        btn.disabled = true;
+        setTimeout(() => {
+            btn.textContent = originalText;
+            btn.classList.remove('copied');
+            btn.disabled = false;
+        }, CONFIG.COPY_FEEDBACK_DURATION);
+    }).catch(() => {
+        alert('Copy failed. Please select the code manually and press Ctrl+C (or Cmd+C on Mac).');
+    });
+}
+
 function copyCell(elementId, btn) {
     Logger.group('Copy Cell (Jupyter)');
     const codeElement = document.getElementById(elementId);

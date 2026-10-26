@@ -6,3 +6,4 @@ python-dotenv
 rich
 markdown
 nbformat
+Pygments>=2.18,<3

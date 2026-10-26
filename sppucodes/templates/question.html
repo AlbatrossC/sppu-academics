@@ -36,9 +36,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}?v=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/answerbox.css') }}?v=2.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/subjectlayout.css') }}?v=2.1">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/ssr-answer.css') }}?v=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ssr-answer.css') }}?v=1.2">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}?v=2.4" defer></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}?v=2.5" defer></script>
     <script src="{{ url_for('static', filename='js/analytics.js') }}?v=3.0" defer></script>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
@@ -231,10 +231,21 @@
                         {% if af.type == 'image' %}View Image{% elif af.type == 'pdf' %}View PDF{% else %}Open in Modal{% endif %}
                     </button>
                     <a class="download-btn" href="{{ af.raw_url }}" download="{{ af.filename }}">Download</a>
+                    {% if af.type in ['code', 'notebook'] %}
+                    <button type="button" class="copy-btn" onclick="copyInlineAnswer(this)">Copy Code</button>
+                    {% endif %}
+                    {% if af.type == 'notebook' %}
+                    <label class="notebook-output-toggle">
+                        <input type="checkbox" class="notebook-output-checkbox"
+                            onchange="this.closest('.ssr-file-block').querySelector('.ipynb-notebook')?.classList.toggle('show-outputs', this.checked)">
+                        <span class="notebook-output-switch" aria-hidden="true"></span>
+                        <span>Show output</span>
+                    </label>
+                    {% endif %}
                 </div>
 
                 {% if af.type == 'code' %}
-                <pre><code class="{{ af.language_class }}">{{ af.content }}</code></pre>
+                <pre><code class="syntax-code {{ af.language_class }}">{% if af.highlighted_content is defined %}{{ af.highlighted_content | safe }}{% else %}{{ af.content }}{% endif %}</code></pre>
 
                 {% elif af.type == 'markdown' %}
                 <div class="markdown-body">

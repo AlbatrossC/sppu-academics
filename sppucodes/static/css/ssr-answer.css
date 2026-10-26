@@ -5,19 +5,31 @@
     margin-top: 1.25rem;
 }
 
+.question-item {
+    padding: 1rem 1.25rem;
+}
+
+.question-item h1 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.55;
+    cursor: default;
+}
+
+.question-item h1:hover {
+    color: var(--color-text-primary);
+}
+
 .explanation-block {
-    background-color: #1e1e1e;
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    margin-bottom: 1.25rem;
+    padding: 0 0.25rem;
+    margin-bottom: 1rem;
 }
 
 .explanation-block h2 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #e6edf3;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.25rem;
 }
 
 .explanation-block p {
@@ -51,6 +63,80 @@
     color: #58a6ff;
     font-weight: 500;
     margin-right: auto;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    flex: 1 1 14rem;
+}
+
+.ssr-file-header .view-code-btn,
+.ssr-file-header .download-btn,
+.ssr-file-header .copy-btn,
+.pdf-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 36px;
+    margin: 0;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #4b8dd6;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.3;
+    text-decoration: none;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.ssr-file-header .view-code-btn {
+    background: transparent;
+    color: #8fc4ff;
+}
+
+.ssr-file-header .view-code-btn:hover {
+    background: #25374b;
+    color: #fff;
+}
+
+.ssr-file-header .download-btn::before,
+.ssr-file-header .copy-btn::before,
+.pdf-actions .download-btn::before {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.ssr-file-header .copy-btn {
+    background-color: #238636;
+    border-color: #238636;
+    color: #fff;
+}
+
+.ssr-file-header .copy-btn:hover {
+    background-color: #2ea043;
+    border-color: #2ea043;
+}
+
+.ssr-file-block .ipynb-output-text {
+    padding: 0;
+    font-size: 0.875rem;
+    color: #b5cea8;
+}
+
+.ssr-file-header a:hover,
+.ssr-file-header button:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.ssr-file-header :focus-visible,
+.pdf-actions a:focus-visible {
+    outline: 2px solid #a5d4ff;
+    outline-offset: 3px;
 }
 
 .ssr-file-block pre {
@@ -87,7 +173,74 @@
     margin: 0;
     border: none;
     border-radius: 0;
+    padding: 1rem 1.25rem;
+    box-shadow: none;
 }
+
+.ssr-file-block .ipynb-markdown {
+    padding: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+.ssr-file-block .ipynb-markdown h1,
+.ssr-file-block .markdown-body h1 {
+    font-size: 1.35rem;
+    line-height: 1.35;
+    margin: 0 0 0.6rem;
+}
+
+.ssr-file-block .ipynb-markdown h2,
+.ssr-file-block .markdown-body h2 {
+    font-size: 1.15rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.ssr-file-block .ipynb-markdown h3 {
+    font-size: 1rem;
+    margin: 0.75rem 0 0.5rem;
+    border: none;
+    padding: 0;
+}
+
+.ssr-file-block .ipynb-markdown p {
+    margin: 0 0 0.75rem;
+}
+
+.ssr-file-block .ipynb-code-container {
+    margin: 0.75rem 0;
+    box-shadow: none;
+}
+
+/* The code wrapper already supplies padding; avoid a second padded layer. */
+.ssr-file-block .ipynb-code pre {
+    padding: 0;
+    font-size: 0.875rem;
+    line-height: 1.65;
+}
+
+.ssr-file-block .syntax-code {
+    background: transparent;
+    padding: 0;
+    color: #e6edf3;
+}
+
+/* Server-rendered syntax colours for notebooks and source files. */
+.syntax-code .k, .syntax-code .kc, .syntax-code .kd,
+.syntax-code .kn, .syntax-code .kp, .syntax-code .kr,
+.syntax-code .kt, .syntax-code .ow { color: #c792ea; }
+.syntax-code .s, .syntax-code .s1, .syntax-code .s2,
+.syntax-code .sa, .syntax-code .sb, .syntax-code .sc,
+.syntax-code .sd, .syntax-code .se, .syntax-code .sh,
+.syntax-code .si, .syntax-code .sr, .syntax-code .ss { color: #ecc48d; }
+.syntax-code .m, .syntax-code .mb, .syntax-code .mf,
+.syntax-code .mh, .syntax-code .mi, .syntax-code .mo,
+.syntax-code .il { color: #b5cea8; }
+.syntax-code .c, .syntax-code .c1, .syntax-code .cm,
+.syntax-code .cp, .syntax-code .ch, .syntax-code .cs { color: #8caa7c; }
+.syntax-code .nf, .syntax-code .nb, .syntax-code .fm { color: #82cfff; }
+.syntax-code .nc, .syntax-code .nn, .syntax-code .nt { color: #7edcc6; }
+.syntax-code .o, .syntax-code .p { color: #abb9c9; }
 
 .ssr-file-block .answer-image-container {
     padding: 1.5rem;
@@ -158,7 +311,7 @@
 
 @media (max-width: 768px) {
     .explanation-block {
-        padding: 1rem;
+        padding: 0;
     }
 
     .ssr-file-block pre {
@@ -169,11 +322,21 @@
     }
 
     .ssr-file-header {
-        padding: 0.5rem 0.75rem;
+        padding: 0.75rem;
+        gap: 0.5rem;
+    }
+
+    .ssr-file-name {
+        flex-basis: 100%;
+    }
+
+    .ssr-file-block .ipynb-notebook {
+        padding: 0.75rem;
     }
 
     .ssr-file-header .view-code-btn,
-    .ssr-file-header .download-btn {
+    .ssr-file-header .download-btn,
+    .ssr-file-header .copy-btn {
         font-size: 0.75rem;
         padding: 0.375rem 0.75rem;
     }

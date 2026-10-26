@@ -1,6 +1,14 @@
 import json
 import os
+import re
+from uuid import uuid4
+from html import escape
 from functools import lru_cache
+
+from pygments import highlight
+from pygments.formatters import HtmlFormatter
+from pygments.lexers import get_lexer_by_name
+from pygments.util import ClassNotFound
 
 from .config import QUESTIONS_DIR, ANSWERS_DIR
 
@@ -118,6 +126,14 @@ def render_markdown(content):
         return content
 
 
+def highlight_code(source, language):
+    try:
+        lexer = get_lexer_by_name(language)
+    except ClassNotFound:
+        return escape(source)
+    return highlight(source, lexer, HtmlFormatter(nowrap=True)).rstrip('\n')
+
+
 def render_ipynb(content):
     try:
         import nbformat
@@ -128,6 +144,8 @@ def render_ipynb(content):
         return None
 
     cells_html = []
+    notebook_id = uuid4().hex
+    code_cell_number = 0
     for cell in nb.cells:
         source = cell.source
         if isinstance(source, list):
@@ -139,16 +157,35 @@ def render_ipynb(content):
                 '</div>'
             )
         elif cell.cell_type == "code":
-            escaped = source.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            code_cell_number += 1
+            cell_id = f'cell-{notebook_id}-{code_cell_number}'
+            highlighted = highlight_code(source, 'python')
+            outputs_html = []
+            for output in cell.get('outputs', []):
+                data = output.get('data', {})
+                if data.get('image/png'):
+                    image = data['image/png']
+                    image = ''.join(image) if isinstance(image, list) else image
+                    outputs_html.append(f'<img src="data:image/png;base64,{escape(image, quote=True)}" class="ipynb-output-image" alt="Cell {code_cell_number} output">')
+                text = output.get('text', data.get('text/plain', ''))
+                if output.get('output_type') == 'error':
+                    text = '\n'.join(output.get('traceback', []))
+                text = ''.join(text) if isinstance(text, list) else text
+                if text:
+                    text = re.sub(r'\x1b\[[0-9;]*[a-zA-Z]', '', text)
+                    outputs_html.append(f'<pre class="ipynb-output-text">{escape(text)}</pre>')
+            output_html = '<div class="ipynb-outputs">' + ''.join(outputs_html) + '</div>' if outputs_html else ''
             cells_html.append(
                 '<div class="ipynb-code-container">'
-                '<div class="ipynb-cell-header"><span>Code Cell [In]</span></div>'
-                f'<div class="ipynb-code"><pre>{escaped}</pre></div>'
+                f'<div class="ipynb-cell-header"><span>Code Cell {code_cell_number}</span>'
+                f'<button type="button" class="cell-copy-btn" onclick="copyCell(\'{cell_id}\', this)">Copy</button></div>'
+                f'<div class="ipynb-code"><pre id="{cell_id}"><code class="syntax-code language-python">{highlighted}</code></pre></div>'
+                f'{output_html}'
                 '</div>'
             )
         elif cell.cell_type == "raw":
             cells_html.append(
-                f'<pre class="ipynb-raw">{source}</pre>'
+                f'<pre class="ipynb-raw">{escape(source)}</pre>'
             )
 
     return '<div class="ipynb-notebook">' + "\n".join(cells_html) + '</div>'
@@ -194,6 +231,9 @@ def load_answer_files_ssr(subject_link, files):
                 info["content"] = rendered if rendered else content
             else:
                 info["content"] = content
+                info["highlighted_content"] = highlight_code(
+                    content, info["language_class"].removeprefix('language-')
+                )
 
         results.append(info)
 
