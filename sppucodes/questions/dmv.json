@@ -14,8 +14,8 @@
       "title": "Data Loading, Storage and File Formats",
       "question": "Data Loading, Storage and File Formats\nProblem Statement: Analyzing Sales Data from Multiple File Formats\nDataset: Sales data in multiple file formats (e.g., CSV, Excel, JSON)\nDescription: The goal is to load and analyze sales data from different file formats, including CSV, Excel, and JSON, and perform data cleaning, transformation, and analysis on the dataset.\n\nTasks to Perform:\nObtain sales data files in various formats, such as CSV, Excel, and JSON.\n1. Load the sales data from each file format into the appropriate data structures or dataframes.\n2. Explore the structure and content of the loaded data, identifying any inconsistencies, missing values, or data quality issues.\n3. Perform data cleaning operations, such as handling missing values, removing duplicates, or correcting inconsistencies.\n4. Convert the data into a unified format, such as a common dataframe or data structure, to enable seamless analysis.\n5. Perform data transformation tasks, such as merging multiple datasets, splitting columns, or deriving new variables.\n6. Analyze the sales data by performing descriptive statistics, aggregating data by specific variables, or calculating metrics such as total sales, average order value, or product category distribution.\n7. Create visualizations, such as bar plots, pie charts, or box plots, to represent the sales data and gain insights into sales trends, customer behavior, or product performance.",
       "subject_code": "dmv",
-      "file_name": ["7_sales_file_formats.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["7_sales_file_formats.ipynb", "sales_data.csv", "sales_data.json", "sales_data.xlsx"],
+      "code_names": ["View Notebook", "CSV Dataset", "JSON Dataset", "Excel Dataset"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
@@ -24,8 +24,8 @@
       "title": "Interacting with Web APIs",
       "question": "Interacting with Web APIs\nProblem Statement: Analyzing Weather Data from OpenWeatherMap API\nDataset: Weather data retrieved from OpenWeatherMap API\nDescription: The goal is to interact with the OpenWeatherMap API to retrieve weather data for a specific location and perform data modeling and visualization to analyze weather patterns over time.\n\nTasks to Perform:\n1. Register and obtain an API key from OpenWeatherMap.\n2. Interact with the OpenWeatherMap API using the API key to retrieve weather data for a specific location.\n3. Extract relevant weather attributes such as temperature, humidity, wind speed, and precipitation from the API response.\n4. Clean and preprocess the retrieved data, handling missing values or inconsistent formats.\n5. Perform data modeling to analyze weather patterns, such as calculating average temperature, maximum/minimum values, or trends over time.\n6. Visualize the weather data using appropriate plots, such as line charts, bar plots, or scatter plots, to represent temperature changes, precipitation levels, or wind speed variations.\n7. Apply data aggregation techniques to summarize weather statistics by specific time periods (e.g., daily, monthly, seasonal).\n8. Incorporate geographical information, if available, to create maps or geospatial visualizations representing weather patterns across different locations.\n9. Explore and visualize relationships between weather attributes, such as temperature and humidity, using correlation plots or heatmaps.",
       "subject_code": "dmv",
-      "file_name": ["8_openweathermap_api.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["8_openweathermap_api.ipynb", "weather_map.html"],
+      "code_names": ["View Notebook", "Weather Map HTML"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
@@ -34,8 +34,8 @@
       "title": "Data Cleaning and Preparation",
       "question": "Data Cleaning and Preparation\nProblem Statement: Analyzing Customer Churn in a Telecommunications Company\nDataset: \"Telecom_Customer_Churn.csv\"\nDescription: The dataset contains information about customers of a telecommunications company and whether they have churned (i.e., discontinued their services). The dataset includes various attributes of the customers, such as their demographics, usage patterns, and account information. The goal is to perform data cleaning and preparation to gain insights into the factors that contribute to customer churn.\n\nTasks to Perform:\n1. Import the \"Telecom_Customer_Churn.csv\" dataset.\n2. Explore the dataset to understand its structure and content.\n3. Handle missing values in the dataset, deciding on an appropriate strategy.\n4. Remove any duplicate records from the dataset.\n5. Check for inconsistent data, such as inconsistent formatting or spelling variations, and standardize it.\n6. Convert columns to the correct data types as needed.\n7. Identify and handle outliers in the data.\n8. Perform feature engineering, creating new features that may be relevant to predicting customer churn.\n9. Normalize or scale the data if necessary.\n10. Split the dataset into training and testing sets for further analysis.\n11. Export the cleaned dataset for future analysis or modeling.",
       "subject_code": "dmv",
-      "file_name": ["9_telecom_churn_cleaning.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["9_telecom_churn_cleaning.ipynb", "Telecom_Customer_Churn.csv", "Telecom_Customer_Churn_Cleaned.csv"],
+      "code_names": ["View Notebook", "CSV Dataset", "Cleaned Dataset"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
@@ -44,8 +44,8 @@
       "title": "Data Wrangling",
       "question": "Data Wrangling\nProblem Statement: Data Wrangling on Real Estate Market\nDataset: \"RealEstate_Prices.csv\"\nDescription: The dataset contains information about housing prices in a specific real estate market. It includes various attributes such as property characteristics, location, sale prices, and other relevant features. The goal is to perform data wrangling to gain insights into the factors influencing housing prices and prepare the dataset for further analysis or modeling.\n\nTasks to Perform:\n1. Import the \"RealEstate_Prices.csv\" dataset. Clean column names by removing spaces, special characters, or renaming them for clarity.\n2. Handle missing values in the dataset, deciding on an appropriate strategy (e.g., imputation or removal).\n3. Perform data merging if additional datasets with relevant information are available (e.g., neighborhood demographics or nearby amenities).\n4. Filter and subset the data based on specific criteria, such as a particular time period, property type, or location.\n5. Handle categorical variables by encoding them appropriately (e.g., one-hot encoding or label encoding) for further analysis.\n6. Aggregate the data to calculate summary statistics or derived metrics such as average sale prices by neighborhood or property type.\n7. Identify and handle outliers or extreme values in the data that may affect the analysis or modeling process.",
       "subject_code": "dmv",
-      "file_name": ["10_real_estate_wrangling.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["10_real_estate_wrangling.ipynb", "RealEstate_Prices.csv", "cleaned_realestate_prices.csv"],
+      "code_names": ["View Notebook", "CSV Dataset", "Cleaned Dataset"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
