@@ -54,8 +54,8 @@
       "title": "Data Visualization using matplotlib",
       "question": "Data Visualization using matplotlib\nProblem Statement: Analyzing Air Quality Index (AQI) Trends in a City\nDataset: \"City_Air_Quality.csv\"\nDescription: The dataset contains information about air quality measurements in a specific city over a period of time. It includes attributes such as date, time, pollutant levels (e.g., PM2.5, PM10, CO), and the Air Quality Index (AQI) values. The goal is to use the matplotlib library to create visualizations that effectively represent the AQI trends and patterns for different pollutants in the city.\n\nTasks to Perform:\n1. Import the \"City_Air_Quality.csv\" dataset.\n2. Explore the dataset to understand its structure and content.\n3. Identify the relevant variables for visualizing AQI trends, such as date, pollutant levels, and AQI values.\n4. Create line plots or time series plots to visualize the overall AQI trend over time.\n5. Plot individual pollutant levels (e.g., PM2.5, PM10, CO) on separate line plots to visualize their trends over time.\n6. Use bar plots or stacked bar plots to compare the AQI values across different dates or time periods.\n7. Create box plots or violin plots to analyze the distribution of AQI values for different pollutant categories.\n8. Use scatter plots or bubble charts to explore the relationship between AQI values and pollutant levels.\n9. Customize the visualizations by adding labels, titles, legends, and appropriate color schemes.",
       "subject_code": "dmv",
-      "file_name": ["11_air_quality_visualization.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["11_air_quality_visualization.ipynb", "City_Air_Quality.csv"],
+      "code_names": ["View Notebook", "CSV Dataset"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
@@ -64,8 +64,8 @@
       "title": "Data Aggregation",
       "question": "Data Aggregation\nProblem Statement: Analyzing Sales Performance by Region in a Retail Company\nDataset: \"Retail_Sales_Data.csv\"\nDescription: The dataset contains information about sales transactions in a retail company. It includes attributes such as transaction date, product category, quantity sold, and sales amount. The goal is to perform data aggregation to analyze the sales performance by region and identify the top-performing regions.\n\nTasks to Perform:\n1. Import the \"Retail_Sales_Data.csv\" dataset.\n2. Explore the dataset to understand its structure and content.\n3. Identify the relevant variables for aggregating sales data, such as region, sales amount, and product category.\n4. Group the sales data by region and calculate the total sales amount for each region.\n5. Create bar plots or pie charts to visualize the sales distribution by region.\n6. Identify the top-performing regions based on the highest sales amount.\n7. Group the sales data by region and product category to calculate the total sales amount for each combination.\n8. Create stacked bar plots or grouped bar plots to compare the sales amounts across different regions and product categories.",
       "subject_code": "dmv",
-      "file_name": ["12_retail_sales_aggregation.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["12_retail_sales_aggregation.ipynb", "Retail_Sales_Data.csv"],
+      "code_names": ["View Notebook", "CSV Dataset"]
     },
     {
       "group": "Part II: Data Modeling and Visualization",
@@ -74,8 +74,8 @@
       "title": "Time Series Data Analysis",
       "question": "Time Series Data Analysis\nProblem Statement: Analysis and Visualization of Stock Market Data\nDataset: \"Stock_Prices.csv\"\nDescription: The dataset contains historical stock price data for a particular company over a period of time. It includes attributes such as date, closing price, volume, and other relevant features. The goal is to perform time series data analysis on the stock price data to identify trends, patterns, and potential predictors, as well as build models to forecast future stock prices.\n\nTasks to Perform:\n1. Import the \"Stock_Prices.csv\" dataset.\n2. Explore the dataset to understand its structure and content.\n3. Ensure that the date column is in the appropriate format (e.g., datetime) for time series analysis.\n4. Plot line charts or time series plots to visualize the historical stock price trends over time.\n5. Calculate and plot moving averages or rolling averages to identify the underlying trends and smooth out noise.\n6. Perform seasonality analysis to identify periodic patterns in the stock prices, such as weekly, monthly, or yearly fluctuations.\n7. Analyze and plot the correlation between the stock prices and other variables, such as trading volume or market indices.\n8. Use autoregressive integrated moving average (ARIMA) models or exponential smoothing models to forecast future stock prices.",
       "subject_code": "dmv",
-      "file_name": ["13_stock_time_series.ipynb"],
-      "code_names": ["View Notebook"]
+      "file_name": ["13_stock_time_series.ipynb", "Stock_Prices.csv"],
+      "code_names": ["View Notebook", "CSV Dataset"]
     }
   ]
 }

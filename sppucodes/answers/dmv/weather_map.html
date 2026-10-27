@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
+
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_95376d9cc6439f6779546789d29c1230 {
+                #map_610251ea36982e1efee631a3a3f8d4a2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -49,24 +49,24 @@
                 L_DISABLE_3D = false;
             </script>
 
-        
+
 </head>
 <body>
-    
-    
-            <div class="folium-map" id="map_95376d9cc6439f6779546789d29c1230" ></div>
-        
+
+
+            <div class="folium-map" id="map_610251ea36982e1efee631a3a3f8d4a2" ></div>
+
 </body>
 <script>
-    
-    
-            var map_95376d9cc6439f6779546789d29c1230 = L.map(
-                "map_95376d9cc6439f6779546789d29c1230",
+
+
+            var map_610251ea36982e1efee631a3a3f8d4a2 = L.map(
+                "map_610251ea36982e1efee631a3a3f8d4a2",
                 {
                     center: [51.5085, -0.1257],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 10,
+  "zoom": 5,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -74,11 +74,11 @@
                 }
             );
 
-            
 
-        
-    
-            var tile_layer_3297816b9af260706c217abc8114a2aa = L.tileLayer(
+
+
+
+            var tile_layer_4f2b24bb29b244b00282e66dbd9514b4 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -93,33 +93,114 @@
 }
 
             );
-        
-    
-            tile_layer_3297816b9af260706c217abc8114a2aa.addTo(map_95376d9cc6439f6779546789d29c1230);
-        
-    
-            var marker_644a187717c20c3091865c6fbd3164ec = L.marker(
+
+
+            tile_layer_4f2b24bb29b244b00282e66dbd9514b4.addTo(map_610251ea36982e1efee631a3a3f8d4a2);
+
+
+            var circle_marker_eb34d22604eb9d8cfd01e563e33a892f = L.circleMarker(
                 [51.5085, -0.1257],
-                {
-}
-            ).addTo(map_95376d9cc6439f6779546789d29c1230);
-        
-    
-        var popup_0a516f989381366c731189270dc206cd = L.popup({
-  "maxWidth": "100%",
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.46, "stroke": true, "weight": 3}
+            ).addTo(map_610251ea36982e1efee631a3a3f8d4a2);
+
+
+        var popup_6396b149145704249a4952bf53e1a6d0 = L.popup({
+  "maxWidth": 300,
 });
 
-        
-            
-                var html_6f851299770c768c2e14fd8b65753358 = $(`<div id="html_6f851299770c768c2e14fd8b65753358" style="width: 100.0%; height: 100.0%;">London</div>`)[0];
-                popup_0a516f989381366c731189270dc206cd.setContent(html_6f851299770c768c2e14fd8b65753358);
-            
-        
 
-        marker_644a187717c20c3091865c6fbd3164ec.bindPopup(popup_0a516f989381366c731189270dc206cd)
+
+                var html_4b20339e6466c0e6caa26a4835ac8593 = $(`<div id="html_4b20339e6466c0e6caa26a4835ac8593" style="width: 100.0%; height: 100.0%;">London<br>Mean temperature: 10.18 °C<br>Mean humidity: 89.1%<br>Total forecast rain: 2.46 mm<br>UTC: 2026-10-27 09:00:00 to 2026-11-01 06:00:00</div>`)[0];
+                popup_6396b149145704249a4952bf53e1a6d0.setContent(html_4b20339e6466c0e6caa26a4835ac8593);
+
+
+
+        circle_marker_eb34d22604eb9d8cfd01e563e33a892f.bindPopup(popup_6396b149145704249a4952bf53e1a6d0)
         ;
 
-        
-    
+
+
+
+            circle_marker_eb34d22604eb9d8cfd01e563e33a892f.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+
+
+            var circle_marker_9b0170064258d7e370b341166a913f35 = L.circleMarker(
+                [48.8534, 2.3488],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.35, "stroke": true, "weight": 3}
+            ).addTo(map_610251ea36982e1efee631a3a3f8d4a2);
+
+
+        var popup_835cac83869245e69250503692bb34ce = L.popup({
+  "maxWidth": 300,
+});
+
+
+
+                var html_98f4ab76485ad6815905b8437936ea9a = $(`<div id="html_98f4ab76485ad6815905b8437936ea9a" style="width: 100.0%; height: 100.0%;">Paris<br>Mean temperature: 10.18 °C<br>Mean humidity: 83.6%<br>Total forecast rain: 1.35 mm<br>UTC: 2026-10-27 09:00:00 to 2026-11-01 06:00:00</div>`)[0];
+                popup_835cac83869245e69250503692bb34ce.setContent(html_98f4ab76485ad6815905b8437936ea9a);
+
+
+
+        circle_marker_9b0170064258d7e370b341166a913f35.bindPopup(popup_835cac83869245e69250503692bb34ce)
+        ;
+
+
+
+
+            circle_marker_9b0170064258d7e370b341166a913f35.bindTooltip(
+                `<div>
+                     Paris
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+
+
+            var circle_marker_355a6185b61f2c403355f1c2ce0911d5 = L.circleMarker(
+                [53.4809, -2.2374],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.46, "stroke": true, "weight": 3}
+            ).addTo(map_610251ea36982e1efee631a3a3f8d4a2);
+
+
+        var popup_ee60b7de72395e8ff907b725e3dd99f5 = L.popup({
+  "maxWidth": 300,
+});
+
+
+
+                var html_aa536522f22cf1d13c214c88cd78cc8b = $(`<div id="html_aa536522f22cf1d13c214c88cd78cc8b" style="width: 100.0%; height: 100.0%;">Manchester<br>Mean temperature: 10.18 °C<br>Mean humidity: 87.2%<br>Total forecast rain: 4.46 mm<br>UTC: 2026-10-27 09:00:00 to 2026-11-01 06:00:00</div>`)[0];
+                popup_ee60b7de72395e8ff907b725e3dd99f5.setContent(html_aa536522f22cf1d13c214c88cd78cc8b);
+
+
+
+        circle_marker_355a6185b61f2c403355f1c2ce0911d5.bindPopup(popup_ee60b7de72395e8ff907b725e3dd99f5)
+        ;
+
+
+
+
+            circle_marker_355a6185b61f2c403355f1c2ce0911d5.bindTooltip(
+                `<div>
+                     Manchester
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+
+
+            map_610251ea36982e1efee631a3a3f8d4a2.fitBounds(
+                [[48.8534, -2.2374], [53.4809, 2.3488]],
+                {}
+            );
+
 </script>
 </html>
