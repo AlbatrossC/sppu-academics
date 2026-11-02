@@ -44,8 +44,8 @@
       "title": "E-mail Spam Filtering using Text Classification",
       "question": "Implement e-mail spam filtering using a text classification algorithm and an appropriate labeled dataset. Report precision, recall, F1-score, and a confusion matrix.",
       "subject_code": "ir",
-      "file_name": ["4_email_spam_filter.py"],
-      "code_names": ["View Python Solution"]
+      "file_name": ["4_email_spam_filter.py", "spam_ham_dataset.csv"],
+      "code_names": ["View Python Solution", "Spam Ham Csv"]
     },
     {
       "group": "Information Retrieval Practicals",
