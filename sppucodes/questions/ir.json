@@ -54,8 +54,8 @@
       "title": "Agglomerative Hierarchical Clustering",
       "question": "Implement an agglomerative hierarchical clustering algorithm using an appropriate dataset. Visualize the dendrogram and report cluster assignments.",
       "subject_code": "ir",
-      "file_name": ["5_agglomerative_clustering.py"],
-      "code_names": ["View Python Solution"]
+      "file_name": ["5_agglomerative_clustering.py", "Mall_Customers.csv"],
+      "code_names": ["View Python Solution", "Mall customers CSV"]
     },
     {
       "group": "Information Retrieval Practicals",
