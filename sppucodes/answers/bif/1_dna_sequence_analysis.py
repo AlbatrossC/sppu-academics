@@ -1,25 +1,23 @@
-"""Basic DNA sequence analysis."""
+dna = "ATGCGTACGTTAGCGATCGATGCTAGCTAGCGATCGATGCGTAA"
 
-dna = input("Enter DNA sequence: ").upper()
-if not dna or not all(base in "ATGC" for base in dna):
-    print("Invalid DNA sequence")
-    raise SystemExit
-
+print("DNA:", dna)
 print("Length:", len(dna))
-print("GC Content: {:.2f}%".format((dna.count("G") + dna.count("C")) / len(dna) * 100))
 
-motif = input("Enter motif to search: ").upper()
-positions = [i + 1 for i in range(len(dna) - len(motif) + 1) if dna[i:i + len(motif)] == motif]
-print("Motif positions:", positions)
+for b in "ATGC":
+    print(b, dna.count(b))
 
-complement = {"A": "T", "T": "A", "G": "C", "C": "G"}
-print("Reverse complement:", "".join(complement[base] for base in reversed(dna)))
+print("GC%:", round((dna.count("G") + dna.count("C")) / len(dna) * 100, 2))
 
-start = dna.find("ATG")
-orf = None
-if start != -1:
-    for i in range(start + 3, len(dna) - 2, 3):
-        if dna[i:i + 3] in {"TAA", "TAG", "TGA"}:
-            orf = dna[start:i + 3]
-            break
-print("Coding region:", orf if orf else "No complete ORF found")
+print("ATG Motif:", dna.count("ATG"))
+
+c = dna.translate(str.maketrans("ATGC", "TACG"))
+
+print("Complement:", c)
+print("Reverse Complement:", c[::-1])
+
+for i in range(len(dna) - 2):
+    if dna[i:i+3] == "ATG":
+        for j in range(i+3, len(dna)-2, 3):
+            if dna[j:j+3] in ["TAA", "TAG", "TGA"]:
+                print("ORF:", dna[i:j+3])
+                break
