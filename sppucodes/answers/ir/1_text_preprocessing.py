@@ -1,19 +1,32 @@
-"""Remove stop words and stem words in a text document."""
+# Q1: Write a program to preprocess a text document by tokenizing it, removing stop words, and stemming the remaining words.
 
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
+# Download required resources
+nltk.download("punkt")
+nltk.download("punkt_tab")
+nltk.download("stopwords")
 
-nltk.download("punkt", quiet=True)
-nltk.download("stopwords", quiet=True)
+document = "I am learning Python and machine learning."
 
-document = "Machine learning cannot be mastered in two months; it needs years of practice and study."
+# Tokenization
 tokens = word_tokenize(document.lower())
-filtered = [word for word in tokens if word.isalpha() and word not in set(stopwords.words("english"))]
+
+# Remove stop words
+stop_words = set(stopwords.words("english"))
+filtered = []
+for word in tokens:
+    if word not in stop_words:
+        filtered.append(word)
+
+# Stemming
 stemmer = PorterStemmer()
-stemmed = [stemmer.stem(word) for word in filtered]
+stemmed = []
+for word in filtered:
+    stemmed.append(stemmer.stem(word))
 
 print("Tokens:", tokens)
 print("After stop-word removal:", filtered)
