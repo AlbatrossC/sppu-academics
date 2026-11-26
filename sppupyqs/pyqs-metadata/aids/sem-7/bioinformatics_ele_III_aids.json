@@ -1,0 +1,963 @@
+{
+  "subject_name": "Bioinformatics_Ele_III",
+  "subject_slug": "bioinformatics_ele_III_aids",
+  "branch": "aids",
+  "semester": "sem-7",
+  "papers": [
+    {
+      "pdf_id": "local:cd6ee6b2",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2023_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2023_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6188]-295",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "P-5326",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "What is Bioinformatics? Give its applications in various fields.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "How can molecular biology be considered as an information science.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "Explain the function of DNA, RNA & protein.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the function of biological molecules.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of cellular process.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "What is the difference between structural & functional genomics.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain RNA sequencing & analysis.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Explain DNA sequence analysis.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "Explain NCBI dataset & repositories.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Define Intron, Exon & Microarray.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Explain in detail with RNA sequence Genome annotation.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Discuss the importance of gene prediction.",
+          "marks": 5,
+          "question_id": "local:cd6ee6b2_q4_c"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:497914de",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2023_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2023_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov",
+        "year": 2023
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6181]-409",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "P6783",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the molecular docking process and its role in predicting protein-ligand binding.",
+          "marks": 9,
+          "question_id": "local:497914de_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Explain the importance of protein structure prediction in the field of medicine and drug discovery.",
+          "marks": 9,
+          "question_id": "local:497914de_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Compare and contrast homology modeling and threading in terms of their principles, applications, and limitations. Provide examples of scenarios where each method is most effective.",
+          "marks": 9,
+          "question_id": "local:497914de_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Select a specific disease and describe how computer-aided drug design has played a role in the discovery and development of a drug for its treatment. Highlight the stages and tools involved in the process.",
+          "marks": 9,
+          "question_id": "local:497914de_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how systems biology has revolutionized drug discovery and development.",
+          "marks": 9,
+          "question_id": "local:497914de_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the importance of regulatory networks in the context of cellular responses to environmental changes and internal cues. How do regulatory networks enable cells to adapt to diverse conditions?",
+          "marks": 9,
+          "question_id": "local:497914de_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain the importance of network analysis and visualization in understanding complex systems and decision-making processes in various domains, from healthcare to transportation and beyond.",
+          "marks": 9,
+          "question_id": "local:497914de_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Discuss the significance of metabolic networks in biotechnology and industrial processes.",
+          "marks": 9,
+          "question_id": "local:497914de_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the importance of feature selection in the context of classification, and provide an example of a real-world application where feature selection is crucial.",
+          "marks": 9,
+          "question_id": "local:497914de_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the primary objectives of dimensionality reduction in data analysis.",
+          "marks": 8,
+          "question_id": "local:497914de_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Describe the main challenge in applying CNNs to gene networks and how this challenge can be addressed.",
+          "marks": 9,
+          "question_id": "local:497914de_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the importance of Deep learning in bioinformatics.",
+          "marks": 8,
+          "question_id": "local:497914de_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "How does personalized medicine differ from traditional medicine, and what are the main advantages of adopting a personalized approach in patient care?",
+          "marks": 9,
+          "question_id": "local:497914de_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Explain the applications of Bioinformatics in detail.",
+          "marks": 8,
+          "question_id": "local:497914de_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "How can genetic modification of crops through agricultural biotechnology lead to increased food security and reduced dependence on chemical pesticides?",
+          "marks": 9,
+          "question_id": "local:497914de_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "What role does artificial intelligence (AI) play in aiding healthcare professionals in disease diagnosis and treatment?",
+          "marks": 8,
+          "question_id": "local:497914de_q8_b"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:9cdd1338",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_apr_2024_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_apr_2024_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "apr",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6263]-385",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PB-2499",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define computer-aided drug design (CADD) and its role in the drug discovery process.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss the advantages and limitations of threading as a protein structure prediction method.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe the key steps involved in a molecular docking simulation, including ligand conformational sampling and scoring functions.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Describe the application of data science techniques in medical image analysis.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define systems biology and explain its fundamental principles.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of network analysis and visualization tools in systems biology.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Provide an example of how network analysis and visualization tools have been applied to gain insights into a specific biological process or disease.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Provide an example of a specific regulatory network and its role in a biological system.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of feature selection and dimensionality reduction in machine learning.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Provide an example of a dataset where feature selection or dimensionality reduction was crucial for model improvement.",
+          "marks": 8,
+          "question_id": "local:9cdd1338_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Provide an example of a specific gene network analysis task where machine learning, deep learning, or CNNs have provided valuable insights.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the importance of clustering in pattern recognition and data analysis.",
+          "marks": 8,
+          "question_id": "local:9cdd1338_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Describe the current trends and emerging research areas in the field of biotechnology and life sciences.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss the role of biotechnology in crop improvement, pest control, and soil remediation.",
+          "marks": 8,
+          "question_id": "local:9cdd1338_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Provide an example of a biotechnological solution that has positively impacted agriculture or environmental conservation.",
+          "marks": 9,
+          "question_id": "local:9cdd1338_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Provide an example of a cutting-edge research project or discovery that has the potential to transform the field of biotechnology.",
+          "marks": 8,
+          "question_id": "local:9cdd1338_q8_b"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:033e1a1a",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2024_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/insem_aug_2024_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "insem",
+        "month": "aug",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6361]-193",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 30,
+        "total_questions": 4,
+        "duration": "1 Hour",
+        "paper_identifier": "PC-321",
+        "watermark_text": [
+          "CEGP011371",
+          "114.143.75.226 04/09/2024 13:46:02 static-226"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Define bioinformatics and give it importance?",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Differentiate between DNA and RNA.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q1_b"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "c",
+          "question_text": "What are proteins? Give the classification of proteins.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q1_c"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe in brief molecular biology and biotechnology.",
+          "marks": 6,
+          "question_id": "local:033e1a1a_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is GWAS? Give some clinical applications.",
+          "marks": 4,
+          "question_id": "local:033e1a1a_q2_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "c",
+          "question_text": "Explain in detail biological molecules.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q2_c"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Compare introns and exons.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "What is microarray? Give its applications.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q3_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "c",
+          "question_text": "What is Gene Prediction? List various resources of information.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q3_c"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain RNA Sequencing Process.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "What is NCBI? Explain its role.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q4_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "c",
+          "question_text": "Explain in detail genome annotation.",
+          "marks": 5,
+          "question_id": "local:033e1a1a_q4_c"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:8729e876",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2024_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2024_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov",
+        "year": 2024
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6354]-786",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PC-2637",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Differentiate between the terms 'primary', 'secondary', and 'tertiary' in the context of protein structure.",
+          "marks": 9,
+          "question_id": "local:8729e876_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Discuss the role and significance of machine learning algorithms in CADD.",
+          "marks": 9,
+          "question_id": "local:8729e876_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Describe the key steps involved in the process of homology modelling in bioinformatics.",
+          "marks": 9,
+          "question_id": "local:8729e876_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "What is threading in the context of protein structure prediction? How it is different from homology modelling?",
+          "marks": 9,
+          "question_id": "local:8729e876_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define systems biology and explain its fundamental principles.",
+          "marks": 9,
+          "question_id": "local:8729e876_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of network analysis and visualization tools in systems biology.",
+          "marks": 8,
+          "question_id": "local:8729e876_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Explain how mathematical modelling of regulatory networks contributes to our understanding of gene expression and cellular regulation.",
+          "marks": 8,
+          "question_id": "local:8729e876_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Provide an example of a specific regulatory network and its role in a biological system.",
+          "marks": 9,
+          "question_id": "local:8729e876_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Describe the Principal Component Analysis (PCA) method. How is it utilized in dimensionality reduction and what are its limitations?",
+          "marks": 9,
+          "question_id": "local:8729e876_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Discuss the adaptation and importance of deep learning techniques in bioinformatics for analysing large-scale biological data.",
+          "marks": 9,
+          "question_id": "local:8729e876_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Provide an example of a specific gene network analysis task where machine learning, deep learning, or CNNs have provided valuable insights.",
+          "marks": 9,
+          "question_id": "local:8729e876_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Explain the importance of clustering in pattern recognition and data analysis.",
+          "marks": 9,
+          "question_id": "local:8729e876_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "What types of biological data are most critical in developing bioinformatics tools for disease treatment and how are they utilized?",
+          "marks": 9,
+          "question_id": "local:8729e876_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Discuss how bioinformatics contributes to environmental biotechnology, particularly in microbial genomics and bioremediation.",
+          "marks": 8,
+          "question_id": "local:8729e876_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "What are some ethical considerations that need to be addressed in the evolving field of bioinformatics?",
+          "marks": 9,
+          "question_id": "local:8729e876_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Explain how genomic information influences drug response and highlight its role in personalized medicine.",
+          "marks": 8,
+          "question_id": "local:8729e876_q8_b"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:39568336",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_apr_2025_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_apr_2025_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "apr",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6404]-380",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PD-4849",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Describe the key steps involved in a molecular docking simulation, including ligand conformational sampling and scoring functions.",
+          "marks": 9,
+          "question_id": "local:39568336_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe the application of data science techniques in medical image analysis.",
+          "marks": 9,
+          "question_id": "local:39568336_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Discuss the advantages and limitations of threading as a protein structure prediction method.",
+          "marks": 9,
+          "question_id": "local:39568336_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Define computer-aided drug design (CADD) and its role in the drug discovery process.",
+          "marks": 9,
+          "question_id": "local:39568336_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Define Metabolic Network and explain its fundamental principles.",
+          "marks": 9,
+          "question_id": "local:39568336_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Discuss the importance of network analysis and visualization tools in systems biology.",
+          "marks": 9,
+          "question_id": "local:39568336_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Provide an example of how network analysis and visualization tools have been applied to gain insights into a specific biological process or disease.",
+          "marks": 9,
+          "question_id": "local:39568336_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Provide an example of a specific regulatory network and its role in a biological system.",
+          "marks": 9,
+          "question_id": "local:39568336_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of feature selection and dimensionality reduction in machine learning.",
+          "marks": 9,
+          "question_id": "local:39568336_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the primary objectives of dimensionality reduction in data analysis.",
+          "marks": 8,
+          "question_id": "local:39568336_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Explain the importance of clustering in pattern recognition and data analysis.",
+          "marks": 9,
+          "question_id": "local:39568336_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Provide an example of a specific gene network analysis task where machine learning, deep learning, or CNNs have provided valuable insights.",
+          "marks": 8,
+          "question_id": "local:39568336_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Discuss the role of biotechnology in crop improvement, pest control, and soil remediation.",
+          "marks": 9,
+          "question_id": "local:39568336_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Describe the current trends and emerging research areas in the field of biotechnology and life sciences.",
+          "marks": 8,
+          "question_id": "local:39568336_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Provide an example of a biotechnological solution that has positively impacted agriculture or environmental conservation.",
+          "marks": 9,
+          "question_id": "local:39568336_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Provide an example of a cutting-edge research project or discovery that has the potential to transform the field of biotechnology.",
+          "marks": 8,
+          "question_id": "local:39568336_q8_b"
+        }
+      ]
+    },
+    {
+      "pdf_id": "local:22a27878",
+      "pdf_url": "https://sppu-pyqs.albatrossc.workers.dev/papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2025_aids_bia_eIII_2019p.pdf",
+      "canonical_path": "papers/artificial-intelligence-and-data-science/be/2019_pattern/bioinformatics_ele_III_aids/endsem_nov_2025_aids_bia_eIII_2019p.pdf",
+      "pattern_key": "2019",
+      "pattern_year": "2019",
+      "year_key": "be",
+      "year_name": "BE",
+      "source_metadata": {
+        "branch_key": "artificial-intelligence-and-data-science",
+        "branch_name": "Artificial Intelligence and Data Science",
+        "exam": "endsem",
+        "month": "nov",
+        "year": 2025
+      },
+      "metadata": {
+        "paper_title": "BIOINFORMATICS",
+        "academic_year": "B.E.",
+        "branch_name": "AI & DS",
+        "paper_number": "[6584]-388",
+        "pattern_year": 2019,
+        "semester": "VII",
+        "subject_code": "417523D",
+        "max_marks": 70,
+        "total_questions": 8,
+        "duration": "2½ Hours",
+        "paper_identifier": "PE2438",
+        "watermark_text": []
+      },
+      "questions": [
+        {
+          "question_number": "Q1",
+          "subquestion": "a",
+          "question_text": "Explain the principles behind homology modeling and its significance in predicting protein structures.",
+          "marks": 9,
+          "question_id": "local:22a27878_q1_a"
+        },
+        {
+          "question_number": "Q1",
+          "subquestion": "b",
+          "question_text": "Describe the applications of data science techniques in medical image analysis. Explain how machine learning algorithms can be used to extract meaningful information from medical images.",
+          "marks": 9,
+          "question_id": "local:22a27878_q1_b"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "a",
+          "question_text": "Explain the workflow of computer-aided drug design (CADD) and discuss its importance in modern drug discovery.",
+          "marks": 9,
+          "question_id": "local:22a27878_q2_a"
+        },
+        {
+          "question_number": "Q2",
+          "subquestion": "b",
+          "question_text": "Discuss how molecular docking can be combined with experimental techniques to validate predicted protein-ligand interactions.",
+          "marks": 9,
+          "question_id": "local:22a27878_q2_b"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "a",
+          "question_text": "Explain how machine learning and deep learning techniques, particularly convolutional neural networks (CNNs), are applied in the analysis of gene networks. Provide examples of specific tasks where these techniques have been successfully employed.",
+          "marks": 9,
+          "question_id": "local:22a27878_q3_a"
+        },
+        {
+          "question_number": "Q3",
+          "subquestion": "b",
+          "question_text": "Describe the application of deep learning in bioinformatics, focusing on its role in sequence analysis, protein structure prediction, and drug discovery.",
+          "marks": 9,
+          "question_id": "local:22a27878_q3_b"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "a",
+          "question_text": "Describe the process of building a classification model using the Support Vector Machine (SVM) algorithm.",
+          "marks": 9,
+          "question_id": "local:22a27878_q4_a"
+        },
+        {
+          "question_number": "Q4",
+          "subquestion": "b",
+          "question_text": "Provide an example of a specific regulatory network and its role in a biological system.",
+          "marks": 9,
+          "question_id": "local:22a27878_q4_b"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "a",
+          "question_text": "Explain the concept of feature selection and dimensionality reduction in machine learning.",
+          "marks": 9,
+          "question_id": "local:22a27878_q5_a"
+        },
+        {
+          "question_number": "Q5",
+          "subquestion": "b",
+          "question_text": "Explain the importance of clustering in pattern recognition and data analysis.",
+          "marks": 8,
+          "question_id": "local:22a27878_q5_b"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "a",
+          "question_text": "Provide an example of a specific gene network analysis task where machine learning, deep learning, or CNNs have provided valuable insights.",
+          "marks": 9,
+          "question_id": "local:22a27878_q6_a"
+        },
+        {
+          "question_number": "Q6",
+          "subquestion": "b",
+          "question_text": "Provide an example of a dataset where feature selection or dimensionality reduction was crucial for model improvement.",
+          "marks": 8,
+          "question_id": "local:22a27878_q6_b"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "a",
+          "question_text": "Evaluate the role of platforms like ResearchGate and GitHub in facilitating collaboration and knowledge sharing in biotechnology research.",
+          "marks": 9,
+          "question_id": "local:22a27878_q7_a"
+        },
+        {
+          "question_number": "Q7",
+          "subquestion": "b",
+          "question_text": "Provide an example of a cutting-edge research project or discovery that has the potential to transform the field of biotechnology.",
+          "marks": 8,
+          "question_id": "local:22a27878_q7_b"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "a",
+          "question_text": "Provide an example of a biotechnological solution that has positively impacted agriculture or environmental conservation.",
+          "marks": 9,
+          "question_id": "local:22a27878_q8_a"
+        },
+        {
+          "question_number": "Q8",
+          "subquestion": "b",
+          "question_text": "Discuss the role of biotechnology in crop improvement, pest control, and soil remediation.",
+          "marks": 8,
+          "question_id": "local:22a27878_q8_b"
+        }
+      ]
+    }
+  ]
+}
